@@ -11,7 +11,6 @@ on:
     branches: [ "main" ]
 
 jobs:
-
   parse:  
     runs-on: ubuntu-latest
     strategy:
@@ -21,18 +20,22 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+      
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
+        
     - name: Build
       run: |
         npm ci
         npm run cli -- --dir ./database/persons/JPN --file ./export/jdp-tree.json
+        
     - name: Copy
       run: cp export/jdp-tree.json site/src/js/tree.json
+      
     - name: Commit
       run: |
         git config --global user.name github-actions
