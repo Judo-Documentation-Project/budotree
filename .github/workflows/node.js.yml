@@ -33,7 +33,6 @@ jobs:
         npm run cli -- --dir ./database/persons/JPN --file ./export/jdp-tree.json
     - name: Copy
       run: cp export/jdp-tree.json site/src/js/tree.json
-    - name: Build
     - name: Commit
       run: |
         git config --global user.name github-actions
