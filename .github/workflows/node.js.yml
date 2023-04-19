@@ -33,15 +33,15 @@ jobs:
         npm run cli -- --dir ./database/persons/JPN --file ./export/jdp-tree.json
     - name: Commit
       run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name github-actions
+        git config --global user.email github-actions@github.com
         git add export/jdp-tree.json
         git commit -m "Automated file creation."
         git push
         
   build:
     runs-on: ubuntu-latest
-
+    needs: parse
     strategy:
       matrix:
         node-version: [18.x]
