@@ -673,7 +673,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP32bfcb9bcfca1",
+          "id": "JDPc5ff0d027978a",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
@@ -683,7 +683,7 @@
       },
       {
         "data": {
-          "id": "JDPf49475f4c0857",
+          "id": "JDP630a93eb94a4f",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
@@ -693,7 +693,7 @@
       },
       {
         "data": {
-          "id": "JDP1a47e5b8d871f",
+          "id": "JDP3025132da1bd4",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
@@ -703,7 +703,7 @@
       },
       {
         "data": {
-          "id": "JDP6bd9690a151c5",
+          "id": "JDP1fb6d09932f38",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
@@ -712,7 +712,7 @@
       },
       {
         "data": {
-          "id": "JDP5596764811845",
+          "id": "JDPf88b77ae3147a",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
@@ -722,7 +722,7 @@
       },
       {
         "data": {
-          "id": "JDP7d969e87b33de",
+          "id": "JDP2760c580ba222",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
@@ -732,7 +732,7 @@
       },
       {
         "data": {
-          "id": "JDPd318c7f630764",
+          "id": "JDP58e3430e113db",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
@@ -742,7 +742,7 @@
       },
       {
         "data": {
-          "id": "JDP706ef3bdc1fb7",
+          "id": "JDP2fc788a08863f",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
@@ -752,7 +752,7 @@
       },
       {
         "data": {
-          "id": "JDPb95b86345bc7b",
+          "id": "JDP960523c243a7e",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
@@ -762,7 +762,7 @@
       },
       {
         "data": {
-          "id": "JDPafdab0cddf43e",
+          "id": "JDP969f985ebadff",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
@@ -772,7 +772,7 @@
       },
       {
         "data": {
-          "id": "JDP9aba8d1877611",
+          "id": "JDPf9f049f2d5e4",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
@@ -782,7 +782,7 @@
       },
       {
         "data": {
-          "id": "JDP9ac9b75f53203",
+          "id": "JDPa19b7b9de93b7",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
@@ -792,7 +792,7 @@
       },
       {
         "data": {
-          "id": "JDP138d7a27fc80f",
+          "id": "JDP5d17c20af9b8f",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
@@ -802,7 +802,7 @@
       },
       {
         "data": {
-          "id": "JDP34e5817b42114",
+          "id": "JDP19f8cfcae8101",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
@@ -812,7 +812,7 @@
       },
       {
         "data": {
-          "id": "JDP910ba96cc6831",
+          "id": "JDP65ccce4247c3e",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -822,7 +822,7 @@
       },
       {
         "data": {
-          "id": "JDP580377fbda1a7",
+          "id": "JDPda25ed4c23a58",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",

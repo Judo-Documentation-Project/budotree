@@ -202,11 +202,13 @@
           "native name": "嘉納 治五郎",
           "birth": {
             "date": "10 December 1860",
-            "location": "Kobe, Japan"
+            "location": "Kobe, Japan",
+            "country_code": "JPN"
           },
           "death": {
             "date": "4 May 1938",
-            "location": "Pacific Ocean"
+            "location": "Pacific Ocean",
+            "country_code": null
           },
           "description": "Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May\n1938[3]) was a Japanese educator, athlete, and the founder of\nJudo. Along with Ju-Jutsu, Judo was one of the first Japanese\nmartial arts to gain widespread international recognition, and the\nfirst to become an official Olympic sport. Pedagogical innovations\nattributed to Kanō include the use of black and white belts, and\nthe introduction of dan ranking to show the relative ranking among\nmembers of a martial art style. Well-known mottoes attributed to\nKanō include \"good use of energy\" (精力善用 seiryoku zen'yō) and\n\"mutual welfare and benefit\" (自他共栄 jita kyōei).\n",
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
@@ -671,7 +673,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP240a01395f46c",
+          "id": "JDPc5ff0d027978a",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
@@ -681,7 +683,7 @@
       },
       {
         "data": {
-          "id": "JDPd2af9d975023e",
+          "id": "JDP630a93eb94a4f",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
@@ -691,7 +693,7 @@
       },
       {
         "data": {
-          "id": "JDP89e254fe8f666",
+          "id": "JDP3025132da1bd4",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
@@ -701,7 +703,7 @@
       },
       {
         "data": {
-          "id": "JDPaac237e31fa61",
+          "id": "JDP1fb6d09932f38",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
@@ -710,7 +712,7 @@
       },
       {
         "data": {
-          "id": "JDPf1f7fda5af1e",
+          "id": "JDPf88b77ae3147a",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
@@ -720,7 +722,7 @@
       },
       {
         "data": {
-          "id": "JDP70d8bc57dab76",
+          "id": "JDP2760c580ba222",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
@@ -730,7 +732,7 @@
       },
       {
         "data": {
-          "id": "JDP9a7d5c36a4ba9",
+          "id": "JDP58e3430e113db",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
@@ -740,7 +742,7 @@
       },
       {
         "data": {
-          "id": "JDP7a61fd2188d06",
+          "id": "JDP2fc788a08863f",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
@@ -750,7 +752,7 @@
       },
       {
         "data": {
-          "id": "JDPf79a9a2f0c965",
+          "id": "JDP960523c243a7e",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
@@ -760,7 +762,7 @@
       },
       {
         "data": {
-          "id": "JDP980ba22be107c",
+          "id": "JDP969f985ebadff",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
@@ -770,7 +772,7 @@
       },
       {
         "data": {
-          "id": "JDP93eb49f8f48c2",
+          "id": "JDPf9f049f2d5e4",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
@@ -780,7 +782,7 @@
       },
       {
         "data": {
-          "id": "JDP9f6f43291f5a5",
+          "id": "JDPa19b7b9de93b7",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
@@ -790,7 +792,7 @@
       },
       {
         "data": {
-          "id": "JDP7cc8e2e099dca",
+          "id": "JDP5d17c20af9b8f",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
@@ -800,7 +802,7 @@
       },
       {
         "data": {
-          "id": "JDPd983ce74483ce",
+          "id": "JDP19f8cfcae8101",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
@@ -810,7 +812,7 @@
       },
       {
         "data": {
-          "id": "JDPb297762fb8105",
+          "id": "JDP65ccce4247c3e",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -820,7 +822,7 @@
       },
       {
         "data": {
-          "id": "JDP79d60a25850fb",
+          "id": "JDPda25ed4c23a58",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
