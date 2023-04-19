@@ -38,5 +38,5 @@ jobs:
         npm run build --if-present
         
     - name: Upload artefacts
-      uses: actions/upload-pages-artifact@1
+      uses: actions/upload-pages-artifact@1.0.8
 
