@@ -1,0 +1,11 @@
+# Emacs save files
+*~
+\#*\#
+.\#*
+
+sites_backup/
+node_modules/
+dist/
+.parcel-cache/
+scratch.lisp
+package-lock.json

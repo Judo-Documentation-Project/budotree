@@ -1,0 +1,25 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-5
+  name: Iikubo Tsunetoshi
+  alias: Iikubo Kōnen
+  native name: 飯久保鍬吉恒年先生
+  birth: 
+    date: 
+    location: 
+  death:
+    date:
+    location:
+  teachers:
+    - id: JDP-6
+      style: Kitō-ryū
+      place: 
+      period:
+        start:
+        end:
+      rank: 
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+    - uri: https://doi.org/10.18002/rama.v9i2.1162

@@ -1,0 +1,19 @@
+{
+    "name": "judotree",
+    "version": "0.1.0",
+    "description": "Judo Lineage Tree parser",
+    "main": "index.js",
+    "bin": {
+        "parseJDP": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cli": "node bin/cli.js"
+    },
+    "author": "Frederico Muñoz",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "js-yaml": "^4.1.0",
+        "yargs": "^17.7.1"
+    }
+}

@@ -1,0 +1,34 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-9
+  name: Yokoyama Sakujiro
+  native_name: 横山 作次郎
+  nationality: JPN
+  birth: 
+    date: 1864
+    location: Tokyo
+    country_code: JPN
+  death:
+    date: 23-9-1912
+    location: 
+    country: JPN
+  teachers:
+    - id: JDP-1
+      style: Kodokan Judo
+      place: Kodokan
+      period:
+        start: 1886
+        end: 
+      rank: 
+    - id: JDP-10
+      style: Tenjin Shin'yō-ryū
+      place: Yushima Tenjin dojo
+      period:
+        start: 
+        end: 
+      rank:
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D

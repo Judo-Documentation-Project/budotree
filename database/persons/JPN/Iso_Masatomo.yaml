@@ -1,0 +1,17 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-4
+  name: Iso Masatomo
+  native name: 磯正智
+  birth: 
+    date: 1818
+  death:
+    date: 1881
+  teachers:
+    - id: JDP-3
+      style: Tenjin Shin'yō-ryū
+  sources:
+    - uri: http://www.tenyokai.com/history.html
+    - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA

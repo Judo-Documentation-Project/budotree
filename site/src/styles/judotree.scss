@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap');
+
+$body-color: #111111;
+$family-serif: 'Noto Serif JP', serif;
+$family-primary: $family-serif;
+$primary: red;
+
+//@import '../../node_modules/bulma/css/bulma.css';
+@import '../../node_modules/bulma/bulma.sass';
+@import '../../node_modules/bulma-switch/src/sass/index.sass';
+
+
+
+
+
+//body {
+//    background-color: white;    
+//}
+//$font: 'Cormorant Garamond, serif';
+
+body {
+    font-family: $family-serif;
+    font-weight: 700; 
+    background-color: white;
+    color: #27221F;
+}
+
+select {
+    font-family: $family-serif;
+
+}
+li span:nth-child(1){
+    color: #cb4042;
+}
+
+li h3 {
+    color: #cb4042;
+    font-weight: 700;
+}
+
+li p{
+    color: #cb4042;
+}
+
+.info li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info ul {
+   margin: 0;
+  padding: 0;
+}
+.info img {
+  display: block;    
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.info {
+    position: fixed;
+    font-weight: 900;
+    top: 100px;
+    left: 20px;
+    _width: 20vw;
+    min-width: 300px;
+    padding: 0px;
+    max-width: 20vw;
+    width: 20vw;
+    max-height: 70%;
+    _min-heigth: 0px ;
+    box-sizing: border-box;
+    overflow: auto;
+    _color: #cb4042;
+    background-color: white;
+    _opacity: 0.5;
+    _background: rgba(100, 100, 100, 0.0); 
+}
+
+
+.footer {
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+
+}
+.popper-div { // fill free to modify as you prefer
+    position: fixed;
+    top:100px;
+    left: 10px;
+    background-color: #333;
+    color: red;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.4;
+    outline: 0;
+    padding: 5px 9px;
+    max-width: 15vw;
+    max-height: 60vw;
+    box-sizing: border-box;
+    overflow: auto;
+    z-index: 10;
+}
+
+
+// Make bavbar dropbown smaller
+ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), select, textarea {
+    padding:0;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+.cy {
+    background-color: #efefef;// #fcfaf2;
+    width: 100%;
+    height: 90vh;
+    min-width: 90%;
+    //margin-left: 160px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.db {
+    display: block;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+}
+
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+
+.link:hover {
+    transition: color .15s ease-in;
+}
+
+.link:active {
+    transition: color .15s ease-in;
+}
+
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.dark-gray {
+    color: #4d4d4f;
+}
+
+.mid-gray {
+    color: #555;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.mr3 {
+    margin-right: 1rem;
+}
+
+.mb2 {
+    margin-bottom: .5rem;
+}
+
+.tc {
+    text-align: center;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+@media screen and (min-width: 60em) {
+    .dt-l {
+        display: table;
+    }
+
+    .dtc-l {
+        display: table-cell;
+    }
+
+    .w-25-l {
+        width: 25%;
+    }
+
+    .w-75-l {
+        width: 75%;
+    }
+
+    .ph5-l {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .mr4-l {
+        margin-right: 2rem;
+    }
+
+    .mb0-l {
+        margin-bottom: 0;
+    }
+
+    .tl-l {
+        text-align: left;
+    }
+
+    .tr-l {
+        text-align: right;
+    }
+
+    .f5-l {
+        font-size: 1rem;
+    }
+}
+

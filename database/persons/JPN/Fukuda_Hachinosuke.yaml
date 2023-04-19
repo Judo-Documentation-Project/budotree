@@ -1,0 +1,21 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-2
+  name: Fukuda Hachinosuke
+  native name: 福田八之助
+  birth: 
+    date: 1828
+    location: Nagatoro, Japan
+  death:
+    date: 14 Aug 1879
+  teachers:
+    - id: JDP-4
+      style: Tenjin Shin'yō-ryū
+      place: Otamagaike dojo
+      period:
+        start: 1851
+  sources:
+    - uri: http://www.tenyokai.com/history.html
+    - uri: https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9

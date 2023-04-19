@@ -1,0 +1,33 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-14
+  name: Takahashi Kazuyoshi
+  native name: 高橋数良
+  birth: 
+    date: 1855
+    location: 
+    country_code: JPN
+  death:
+    date: 1942
+    location: 
+    country_code: 
+  description:
+  photo_url:
+  teachers:
+    - id: JDP-9
+      style: Kodokan Judo
+      place: Kodokan 
+      period:
+        start: 
+        end:
+      rank:
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: 8 dan
+      year: 
+  sources:
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws    

@@ -1,0 +1,40 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-11
+  name: Mifune Kyūzō
+  native_name: 三船 久蔵
+  nationality: JPN
+  birth: 
+    date: 21-4-1883
+    location: Iwate
+    country_code: JPN
+  death:
+    date: 1965-1-27
+    location: 
+    country: JPN
+  teachers:
+    - id: JDP-1
+      style: Kodokan Judo
+      place: Kodokan
+      period:
+        start: 1903
+        end: 1965
+      rank: 
+    - id: JDP-9
+      style: Kodokan Judo
+      place: Kodokan
+      period:
+        start: 1903
+        end: 
+      rank:
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: 10 dan
+      date: 1945        
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D

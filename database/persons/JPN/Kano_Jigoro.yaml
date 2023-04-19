@@ -1,0 +1,68 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-1
+  name: Kanō Jigorō 
+  native name: 嘉納 治五郎
+  birth: 
+    date: 10 December 1860
+    location: Kobe, Japan
+    country_code: JPN
+  death:
+    date: 4 May 1938
+    location: Pacific Ocean
+    country_code:
+  description: |
+    Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May
+    1938[3]) was a Japanese educator, athlete, and the founder of
+    Judo. Along with Ju-Jutsu, Judo was one of the first Japanese
+    martial arts to gain widespread international recognition, and the
+    first to become an official Olympic sport. Pedagogical innovations
+    attributed to Kanō include the use of black and white belts, and
+    the introduction of dan ranking to show the relative ranking among
+    members of a martial art style. Well-known mottoes attributed to
+    Kanō include "good use of energy" (精力善用 seiryoku zen'yō) and
+    "mutual welfare and benefit" (自他共栄 jita kyōei).
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
+  teachers:
+    - id: JDP-2
+      style: Tenjin Shin'yō-ryū
+      place: Fukuda Hachinosuke dojo
+      period:
+        start: 1877
+        end: 1879
+      rank: 
+    - id: JDP-4
+      style: Tenjin Shin'yō-ryū
+      place: Iso Masatomo dojo
+      period:
+        start: 1879
+        end: 1881
+      rank:
+    - id: JDP-5
+      style: Kitō-ryū
+      place: Eishōji
+      period:
+        start: 1881
+        end:
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: Shihan
+      year:
+    - style: Kitō-ryū
+      org: 
+      teacher: JDP-5
+      rank: Menkyo kaiden
+      year:
+    - style: Tenjin Shin'yō-ryū
+      org: 
+      teacher: JDP-4
+      rank: Menkyo kaiden
+      year:
+  sources:
+    - uri: urn:isbn:978-1425163495
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+    - uri: https://doi.org/10.18002/rama.v9i2.1162

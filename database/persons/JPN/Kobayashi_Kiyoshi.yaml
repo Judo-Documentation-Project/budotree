@@ -1,0 +1,35 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-12
+  name: Kobayashi Kiyoshi
+  native_name: 小林清
+  nationality: JPN
+  birth: 
+    date: 9-4-1925
+    location: Gunma
+    country_code: JPN
+  death:
+    date: 9-4-2013
+    location: 
+    country: JPN
+  teachers:
+    - id: JDP-11
+      style: Kodokan Judo
+      place: Kodokan
+      period:
+        start: 1903
+        end: 1965
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: 9 dan
+      date: 2013
+  sources:
+    - uri: http://kodokanjudoinstitute.org/news/2012/04/epost-15/
+    - uri: http://kodokanjudoinstitute.org/magazine/201401/
+    - uri: https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/
+    - uri: http://archive.today/YkEjw
+    - uri: http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item

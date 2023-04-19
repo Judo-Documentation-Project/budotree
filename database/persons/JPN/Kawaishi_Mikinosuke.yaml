@@ -1,0 +1,54 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-13
+  name: Kawaishi  Mikinosuke
+  native name: 川石 酒造之助
+  birth: 
+    date: 1899-08-13
+    location: Himeji
+    country_code: JPN
+  death:
+    date: 30-01-1969
+    location: Paris
+    country_code: FRA
+  description:
+  photo_url: https://www.researchgate.net/profile/Carl-De-Cree/publication/277665808/figure/fig1/AS:613964811612178@1523392026869/Kawaishi-Mikinosuke-chuanshijiuzaozhizhu-1899-1969-here-pictured-as-a-Kodokan-5-th-dan-holder-around.png
+  teachers:
+    - name: Yoshida Kōtarō
+      style: Kodokan Judo
+      place: 
+      period:
+        start: 
+        end:
+      rank:
+    - name: Miyakawa Ikkan
+      style: Kodokan Judo
+      place: Waseda University
+      period:
+        start:
+        end:
+      rank:
+    - id: JDP-14
+      style: Kodokan Judo
+      place: Waseda University
+      period:
+        start: 1881
+        end:
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: 7 dan
+      year:
+    - style: Kodokan Judo
+      org: FFJDA
+      teacher: 
+      rank: 10 dan
+      year:
+  sources:
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws    
+    - uri: https://doi.org/10.4471/hse.2013.15
+    - uri: https://judoinfo.com/kawaishi/
+    - uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
