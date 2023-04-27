@@ -1,0 +1,39 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-25
+  name: Hal Sharp
+  aka:
+    - name: Harold Sharp
+  nationality:
+    - USA
+  birth: 
+    date: 1927
+    location:
+    country_code: 
+  death:
+    date: 2021
+    location: 
+    country:
+  photo_url: https://article-imgs.scribdassets.com/2840m8mlj48oc26j/images/fileLKP2HSNH.jpg    
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1952
+        end: 
+      quality: 3
+  rank:
+    - style_id: JDP-S-1
+      org: Nanka Judo Yudanshakai
+      teacher:
+      rank: 10 dan 
+      date: 2020
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Harold_Sharp
+    - uri: https://youtu.be/B5B39yYPIlQ?t=169
+    - uri: https://www.usjf.com/2018/02/harold-hal-sharp/
+    - uri: urn:isbn:978-0804805421
+    - uri: https://blackbeltmag.com/hal-sharp-judo
