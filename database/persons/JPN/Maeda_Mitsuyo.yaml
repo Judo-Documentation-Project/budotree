@@ -1,0 +1,44 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-18
+  name: Maeda Mitsuyo
+  native name: 前田 光世
+  aka:
+    - Otávio Maeda
+    - Conde Koma
+  nationality:
+    - JPN
+    - BRA
+  birth: 
+    date: 1878-11-18
+    location: Hirosaki
+    country_code: JPN
+  death:
+    date: 1941-11-28
+    location: Belém, Pará
+    country_code: BRA
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mitsuyo_Maeda_c1910.jpg/346px-Mitsuyo_Maeda_c1910.jpg
+  teachers:
+    - name: Saito Mohei 
+      style: Hongaku Kokki-ryû
+      place: 
+        period:
+          start: 1895
+          end: 1896
+    - id: JDP-17
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1896
+        end: 
+  rank:
+    - style: Kodokan Judo
+      org: Kodokan
+      teacher:
+      rank: 7 dan
+      year: 1941
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Mitsuyo_Maeda
+

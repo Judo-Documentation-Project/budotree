@@ -5,7 +5,9 @@ person:
   id: JDP-12
   name: Kobayashi Kiyoshi
   native_name: 小林清
-  nationality: JPN
+  nationality:
+    - JPN
+    - POR
   birth: 
     date: 9-4-1925
     location: Gunma
@@ -14,6 +16,7 @@ person:
     date: 9-4-2013
     location: 
     country: JPN
+  photo_url: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC    
   teachers:
     - id: JDP-11
       style: Kodokan Judo

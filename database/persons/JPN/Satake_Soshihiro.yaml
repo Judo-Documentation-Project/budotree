@@ -1,0 +1,47 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-22
+  name: Satake Soshihiro
+  aka:
+    - name: Antônio Satake
+  nationality:
+    - JPN
+    - BRA
+  birth: 
+    date: 
+    location:
+    country_code: JPN
+  death:
+    date: 
+    location:
+    country:
+  photo_url: http://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
+  teachers:
+    - id: JDP-17
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 
+        end:
+      quality: 2
+    - id: JDP-1
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 1917
+        end:
+      quality:
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 3 dan
+      date: 
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Soshihiro_Satake
+    - uri: https://repositorio.ufsc.br/handle/123456789/103771
+    - uri: https://www.faddabjj.com/historia-fadda
+    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+    - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html

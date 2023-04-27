@@ -1,0 +1,33 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-16
+  name: José Manuel Bastos Nunes
+  nationality:
+    - POR
+  birth: 
+    date: 1937-03-13
+    location: Sintra
+    country_code: POR
+  death:
+    date: 
+    location: 
+    country:
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 9 dan
+      date: 2019  
+  sources:
+    - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
+    - uri: https://judolandia.tripod.com/bastosnunes.htm

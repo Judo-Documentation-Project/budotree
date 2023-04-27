@@ -1,0 +1,35 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-15
+  name: Fernando Costa Matos
+  nationality:
+    - POR
+  birth: 
+    date: 1941-04-01
+    location: Ponta Delgada
+    country_code: POR
+  death:
+    date: 
+    location: 
+    country:
+  photo_url: https://ia802603.us.archive.org/5/items/costamatos/costamatos1.jpg
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 9 dan
+      date: 2019      
+  sources:
+    - uri: https://correiodosacores.pt/NewsDetail/ArtMID/383/ArticleID/31195/%E2%80%9CA-not237cia-de-que-iria-aos-Jogos-Ol237mpicos-foi-um-pouco-inesperada-mas-recebida-com-emo231227o-e-alegria%E2%80%9D
+    - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
+    - uri: https://judolandia.tripod.com/costamatos-bi.htm

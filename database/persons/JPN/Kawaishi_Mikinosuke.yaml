@@ -5,6 +5,8 @@ person:
   id: JDP-13
   name: Kawaishi  Mikinosuke
   native name: 川石 酒造之助
+  nationality:
+    - JPN  
   birth: 
     date: 1899-08-13
     location: Himeji

@@ -8,7 +8,8 @@ person:
   aka:
     - name: Okusawa Keitaro
     - native_name: 奥澤敬太郎  
-  nationality: JPN
+  nationality:
+    - JPN
   birth: 
     date: 1847
     location: Tokyo
