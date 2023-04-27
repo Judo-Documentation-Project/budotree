@@ -556,6 +556,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function nodesByCountry () {
     let countryList = {};
+    let country;
     cy.nodes().forEach(function( ele ) {
         for (country of ele.data().nationality) {
             countryList[country] = ""
