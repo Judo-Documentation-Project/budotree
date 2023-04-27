@@ -1,0 +1,32 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-24
+  name: Walter Todd
+  nationality:
+    - USA
+  birth: 
+    date: 
+    location:
+    country_code: 
+  death:
+    date: 
+    location: 
+    country:
+  teachers:
+    - id: JDP-11
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1946
+        end: 
+      quality: 1
+  rank:
+    - style_id: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://www.koryu.com/library/mskoss10.html
