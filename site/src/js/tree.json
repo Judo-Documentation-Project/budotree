@@ -5,6 +5,106 @@
     "nodes": [
       {
         "data": {
+          "id": "JDP-15",
+          "name": "Fernando Costa Matos",
+          "nationality": [
+            "POR"
+          ],
+          "birth": {
+            "date": "1941-04-01T00:00:00.000Z",
+            "location": "Ponta Delgada",
+            "country_code": "POR"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": "https://ia802603.us.archive.org/5/items/costamatos/costamatos1.jpg",
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "9 dan",
+              "date": 2019
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://correiodosacores.pt/NewsDetail/ArtMID/383/ArticleID/31195/%E2%80%9CA-not237cia-de-que-iria-aos-Jogos-Ol237mpicos-foi-um-pouco-inesperada-mas-recebida-com-emo231227o-e-alegria%E2%80%9D"
+            },
+            {
+              "uri": "http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf"
+            },
+            {
+              "uri": "https://judolandia.tripod.com/costamatos-bi.htm"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-16",
+          "name": "José Manuel Bastos Nunes",
+          "nationality": [
+            "POR"
+          ],
+          "birth": {
+            "date": "1937-03-13T00:00:00.000Z",
+            "location": "Sintra",
+            "country_code": "POR"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "9 dan",
+              "date": 2019
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf"
+            },
+            {
+              "uri": "https://judolandia.tripod.com/bastosnunes.htm"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
           "id": "JDP-9",
           "name": "Yokoyama Sakujiro",
           "native_name": "横山 作次郎",
@@ -890,12 +990,258 @@
             }
           ]
         }
+      },
+      {
+        "data": {
+          "id": "JDP-20",
+          "name": "Luis de França Filho",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": "1910-06-02T00:00:00.000Z",
+            "location": "Alagoas",
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-22",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1
+            },
+            {
+              "id": "JDP-18",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1917,
+                "end": null
+              },
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+            },
+            {
+              "uri": "https://www.faddabjj.com/historia-fadda"
+            },
+            {
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+            },
+            {
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+            },
+            {
+              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-19",
+          "name": "Jacinto Ferro",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-18",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1915,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+            },
+            {
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-23",
+          "name": "Donato Pires dos Reis",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": null,
+            "location": "Belém, Pará",
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-18",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
+            },
+            {
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-21",
+          "name": "Carlos Gracie",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": "1902-09-14T00:00:00.000Z",
+            "location": "Belém, Pará",
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": "1994-10-7",
+            "location": "Petrópolis",
+            "country": "BRA"
+          },
+          "teachers": [
+            {
+              "id": "JDP-19",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null
+            },
+            {
+              "id": "JDP-18",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1917,
+                "end": null
+              },
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+            },
+            {
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+            },
+            {
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+            },
+            {
+              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
+            }
+          ]
+        }
       }
     ],
     "edges": [
       {
         "data": {
-          "id": "JDPd1a0930c16b56",
+          "id": "JDP91d8c015e706a",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
+          "source": "JDP-15",
+          "target": "JDP-12",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Judo Clube de Portugal"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP1c254bb7c99af",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
+          "source": "JDP-16",
+          "target": "JDP-12",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Judo Clube de Portugal"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf5627cf13f635",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -905,7 +1251,7 @@
       },
       {
         "data": {
-          "id": "JDP3dece368a537f",
+          "id": "JDPa18986919d8a9",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
@@ -915,7 +1261,7 @@
       },
       {
         "data": {
-          "id": "JDPe14f081a061ca",
+          "id": "JDPf7c29b465296f",
           "name": "Kanō Jigorō (Kodokan Judo) Tomita Tsunejirō",
           "source": "JDP-17",
           "target": "JDP-1",
@@ -925,7 +1271,7 @@
       },
       {
         "data": {
-          "id": "JDP605d3779fd64c",
+          "id": "JDP6813d87cb1dd6",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
@@ -935,7 +1281,7 @@
       },
       {
         "data": {
-          "id": "JDP4f1c999c1dccd",
+          "id": "JDP94266017eed9b",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
@@ -945,7 +1291,7 @@
       },
       {
         "data": {
-          "id": "JDPc499ebd7b0a5",
+          "id": "JDP77ea1d17bfb68",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
@@ -955,7 +1301,7 @@
       },
       {
         "data": {
-          "id": "JDP9f2d502950cf2",
+          "id": "JDPf491062eba15a",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-17",
@@ -966,7 +1312,7 @@
       },
       {
         "data": {
-          "id": "JDPbc9389ce4e3f9",
+          "id": "JDP47cf858969be6",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-1",
@@ -977,7 +1323,7 @@
       },
       {
         "data": {
-          "id": "JDP710104a57f996",
+          "id": "JDP3c3f791ec346",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
@@ -987,7 +1333,7 @@
       },
       {
         "data": {
-          "id": "JDP27c7f7d4aa38d",
+          "id": "JDP59794a4513164",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
@@ -997,7 +1343,7 @@
       },
       {
         "data": {
-          "id": "JDP2365b0eb46d1e",
+          "id": "JDPf6a2bb27c9759",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-18",
           "target": "JDP-17",
@@ -1007,7 +1353,7 @@
       },
       {
         "data": {
-          "id": "JDP36ab1e6412b6",
+          "id": "JDPe68dec92ac944",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
@@ -1017,7 +1363,7 @@
       },
       {
         "data": {
-          "id": "JDP8dce2d300112a",
+          "id": "JDP0d3eb43a23d74",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
@@ -1027,7 +1373,7 @@
       },
       {
         "data": {
-          "id": "JDP9bb34841ac4d",
+          "id": "JDP9b5306e1c0572",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
@@ -1038,7 +1384,7 @@
       },
       {
         "data": {
-          "id": "JDP70a0b2cdbbb94",
+          "id": "JDP7d8eebd7c6243",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
@@ -1049,7 +1395,7 @@
       },
       {
         "data": {
-          "id": "JDP6425a51e6c54",
+          "id": "JDP4ae42b58736a3",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
@@ -1060,7 +1406,7 @@
       },
       {
         "data": {
-          "id": "JDPdaaf7d9c54c02",
+          "id": "JDP9b0d3358cfd0e",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
@@ -1069,7 +1415,7 @@
       },
       {
         "data": {
-          "id": "JDPac799e25e633a",
+          "id": "JDP624e7f674e1f6",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
@@ -1079,7 +1425,7 @@
       },
       {
         "data": {
-          "id": "JDP306cec8d7468e",
+          "id": "JDP7fa3790dc0931",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
@@ -1089,12 +1435,77 @@
       },
       {
         "data": {
-          "id": "JDP116e271af6376",
+          "id": "JDPafe3c1641d93c",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
           "interaction": "Tenjin Shin'yō-ryū",
           "place": "Otamagaike dojo"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP88c570b10b41a",
+          "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
+          "source": "JDP-20",
+          "target": "JDP-22",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": 1
+        }
+      },
+      {
+        "data": {
+          "id": "JDP0a867c5b41bc7",
+          "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
+          "source": "JDP-20",
+          "target": "JDP-18",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": 2
+        }
+      },
+      {
+        "data": {
+          "id": "JDPfcd98efd35866",
+          "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
+          "source": "JDP-19",
+          "target": "JDP-18",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDP97b848c3cf82e",
+          "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
+          "source": "JDP-23",
+          "target": "JDP-18",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": 1
+        }
+      },
+      {
+        "data": {
+          "id": "JDP6f8b1209d5c34",
+          "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
+          "source": "JDP-21",
+          "target": "JDP-19",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDPda5f1644d8611",
+          "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
+          "source": "JDP-21",
+          "target": "JDP-18",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": 2
         }
       }
     ]
