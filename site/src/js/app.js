@@ -95,7 +95,8 @@ var bb = cy.bubbleSets({
 document.addEventListener('DOMContentLoaded', function() {
 
     console.log("DOM content loaded, running layout");
-
+    layoutOptions["name"]="elk";
+    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
     layout.run();
     console.log(layout);
@@ -117,69 +118,6 @@ function goHome() {
     cy.center();
     layout.run();
 }
-
-function layoutElkMrTree() {
-    layoutOptions["name"]="elk";
-    layoutOptions["elk"]["algorithm"] = "mrtree";
-    layout = cy.layout(layoutOptions);
-    cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    cy.center();
-    layout.run();
-}
-
-function layoutElkLayered() {
-    layoutOptions["name"]="elk";
-    layoutOptions["elk"]["algorithm"] = "layered";
-    layout = cy.layout(layoutOptions);
-    cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    layout.run();
-}
-
-function layoutStress() {
-    layoutOptions["name"]="elk";
-    layoutOptions["elk"]["algorithm"] = "stress";
-    layout = cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    cy.layout(layoutOptions);
-    layout.run();
-}
-
-
-function layoutCola() {
-    layoutOptions["name"]="cola";
-    cy.layout(layoutOptions);
-    layout = cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    layout.run();
-}
-
-function layoutCise() {
-    layoutOptions["name"]="cise";
-    cy.layout(layoutOptions);
-    layout = cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    layout.run();
-}
-
-function layoutBreadthfirst() {
-    layoutOptions["name"]="breadthfirst";
-    cy.layout(layoutOptions);
-    layout = cy.layout(layoutOptions);
-    console.log( layoutOptions["name"]);
-    layout.run();
-}
-
-// document.getElementById ("layout-change-mrtree").addEventListener ("click", layoutElkMrTree, false);
-// document.getElementById ("layout-change-layered").addEventListener ("click", layoutElkLayered, false);
-// document.getElementById ("layout-change-breadthfirst").addEventListener ("click", layoutBreadthfirst, false);
-// document.getElementById ("layout-change-stress").addEventListener ("click", layoutStress, false);
-// document.getElementById ("layout-change-cola").addEventListener ("click", layoutCola, false);
-// document.getElementById ("layout-change-cise").addEventListener ("click", layoutCise, false);
-
-
-
 
 function onChange() {
     var value = e.value;
@@ -208,7 +146,6 @@ function onChange() {
 	    layoutOptions["name"]="cola";
 	    break;
     }
-
 
     layout = cy.layout(layoutOptions);
     cy.layout(layoutOptions);
@@ -255,57 +192,6 @@ import popper from "cytoscape-popper";
 cytoscape.use(popper);
 
 cy.elements().unbind("mouseover");
-/*
-cy.elements().bind("mouseover", (event) => {
-    event.target.popperRefObj = event.target.popper({
-	content: () => {
-	    let content = document.createElement("div");
-	    var nativeName = document.createElement("p");
-	    var img = document.createElement("img");
-	    var desc = document.createElement("p");
-
-	    content.classList.add("popper-div");
-
-	    img.src = "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg";
-	    img.width = 100;
-	    content.appendChild(img);
-
-	    if (event.target.isNode()) {
-		nativeName.innerHTML = event.target.data().native_name;
-		content.appendChild(nativeName);
-		//content.innerHTML = event.target.data().native_name;
-	    } else {
-		content.innerHTML = event.target.data().place;
-	    }
-
-	    desc.innerHTML = event.target.data().description;
-	    content.appendChild(desc);
-
-	    console.log(content.innerHTML);
-	    document.body.appendChild(content);
-	    return content;
-	},
-    });
-});
-
-
-cy.elements().unbind("mouseout");
-cy.elements().bind("mouseout", (event) => {
-    if (event.target.popper) {
-	event.target.popperRefObj.state.elements.popper.remove();
-	event.target.popperRefObj.destroy();
-    }
-});
-
- */
-
-// cy.elements().unbind("mouseout");
-// cy.elements().bind("mouseout", (event) => {
-//     if (event.target.popper) {
-// 	event.target.popperRefObj.state.elements.popper.remove();
-// 	event.target.popperRefObj.destroy();
-//     }
-// });
 
 function show_image(src, width, height, alt) {
     var img = document.createElement("img");
@@ -357,22 +243,12 @@ cy.nodes().bind("tap", (event) => {
     var img = document.createElement("img");
     var desc = document.createElement("p");
 
-
-    //content.classList.add("popper-div");
-
-    //img.src = "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg";
-
     if (event.target.isNode()) {
 	    if (event.target.data().photo_url) {
 	        img.src = event.target.data().photo_url;
 	        img.width = 100;
 	        content.appendChild(img);
 	    }
-	    // if (event.target.data().native_name) {
-	    //     nativeName.innerHTML = event.target.data().native_name;
-	    //     content.appendChild(nativeName);
-	    // }
-	    //content.innerHTML = event.target.data().native_name;
     } else {
 	    content.innerHTML = event.target.data().place;
     }
@@ -397,7 +273,6 @@ cy.nodes().bind("tap", (event) => {
     var html = jsonMakeHTML.make(event.target.data(),jsargs);
     desc.innerHTML = html;
     content.appendChild(desc);
-    //document.body.appendChild(content);
     info.innerHTML = content.innerHTML;
     cardTitle.innerHTML = event.target.data().name;
 
@@ -619,4 +494,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-// Link preview
+
