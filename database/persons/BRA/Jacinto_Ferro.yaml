@@ -1,0 +1,32 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-19
+  name: Jacinto Ferro
+  nationality:
+    - BRA
+  birth: 
+    date: 
+    location:
+    country_code: BRA
+  death:
+    date: 
+    location: 
+    country:
+  teachers:
+    - id: JDP-18
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 1915
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://repositorio.ufsc.br/handle/123456789/103771
+    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/

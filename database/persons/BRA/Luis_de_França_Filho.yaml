@@ -1,0 +1,43 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-20
+  name: Luis de França Filho
+  nationality:
+    - BRA
+  birth: 
+    date: 1910-06-02
+    location: Alagoas
+    country_code: BRA
+  death:
+    date: 
+    location:
+    country:
+  teachers:
+    - id: JDP-22
+      style_id: JDP-S-1
+      place: 
+      period:
+        start:
+        end:
+      quality: 1
+    - id: JDP-18
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 1917
+        end:
+      quality: 2      
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://repositorio.ufsc.br/handle/123456789/103771
+    - uri: https://www.faddabjj.com/historia-fadda
+    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+    - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+    - uri: https://pt.wikipedia.org/wiki/Carlos_Gracie

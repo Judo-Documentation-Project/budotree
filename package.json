@@ -13,7 +13,13 @@
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",
     "dependencies": {
+        "glob": "^10.2.2",
         "js-yaml": "^4.1.0",
         "yargs": "^17.7.1"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.8.3",
+        "process": "^0.11.10",
+        "util": "^0.12.5"
     }
 }

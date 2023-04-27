@@ -5,6 +5,8 @@ person:
   id: JDP-14
   name: Takahashi Kazuyoshi
   native name: 高橋数良
+  nationality:
+    - JPN  
   birth: 
     date: 1855
     location: 

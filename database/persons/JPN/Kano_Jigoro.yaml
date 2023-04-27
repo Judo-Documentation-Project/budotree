@@ -4,7 +4,9 @@
 person:
   id: JDP-1
   name: Kanō Jigorō 
-  native name: 嘉納 治五郎
+  native_name: 嘉納 治五郎
+  nationality:
+    - JPN
   birth: 
     date: 10 December 1860
     location: Kobe, Japan
@@ -32,20 +34,21 @@ person:
       period:
         start: 1877
         end: 1879
-      rank: 
+      quality: 3
     - id: JDP-4
       style: Tenjin Shin'yō-ryū
       place: Iso Masatomo dojo
       period:
         start: 1879
         end: 1881
-      rank:
+      quality: 3     
     - id: JDP-5
-      style: Kitō-ryū
+      style_id: JDP-S-2
       place: Eishōji
       period:
         start: 1881
         end:
+      quality: 3
   rank:
     - style: Kodokan Judo
       org: Kodokan

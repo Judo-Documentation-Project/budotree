@@ -5,6 +5,8 @@ person:
   id: JDP-3
   name: Iso Masatari Mataemon
   native name: 磯又右衛門
+  nationality:
+    - JPN
   birth: 
     date: 1790
     location: Matsuzaka, Japan

@@ -1,0 +1,34 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-23
+  name: Donato Pires dos Reis
+  nationality:
+    - BRA
+  birth: 
+    date:
+    location: Belém, Pará
+    country_code: BRA
+  death:
+    date: 
+    location:
+    country:
+  teachers:
+    - id: JDP-18
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 
+        end:
+      quality: 1
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
+    - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+

@@ -5,7 +5,8 @@ person:
   id: JDP-9
   name: Yokoyama Sakujiro
   native_name: 横山 作次郎
-  nationality: JPN
+  nationality:
+    - JPN
   birth: 
     date: 1864
     location: Tokyo
