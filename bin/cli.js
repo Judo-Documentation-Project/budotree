@@ -9,8 +9,11 @@ const argv = yargs(hideBin(process.argv))
       .argv;
 
 var dir = argv.dir;
-var targetFile = argv.file;
+var targetFile = argv.target;
 console.log("JDP database parsing started.");
 console.log(`Database dir: ${dir}, target file: ${targetFile}`);
 //var dir  = '/home/frmuno/src/lisp/judotree/database/persons/JPN';
-pY.writeJSON(pY.createCYJS(pY.importYAML(dir)), targetFile);
+
+// FIXME: this should be another option with path
+styles = pY.importStylesYAML("database/styles");
+pY.writeJSON(pY.createCYJS(pY.importYAML(dir), styles), targetFile);
