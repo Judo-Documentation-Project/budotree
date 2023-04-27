@@ -5,42 +5,108 @@
     "nodes": [
       {
         "data": {
-          "id": "JDP-2",
-          "name": "Fukuda Hachinosuke",
-          "native name": "福田八之助",
+          "id": "JDP-9",
+          "name": "Yokoyama Sakujiro",
+          "native_name": "横山 作次郎",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": 1828,
-            "location": "Nagatoro, Japan"
+            "date": 1864,
+            "location": "Tokyo",
+            "country_code": "JPN"
           },
           "death": {
-            "date": "14 Aug 1879"
+            "date": "23-9-1912",
+            "location": null,
+            "country": "JPN"
           },
           "teachers": [
             {
-              "id": "JDP-4",
-              "style": "Tenjin Shin'yō-ryū",
-              "place": "Otamagaike dojo",
+              "id": "JDP-1",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
               "period": {
-                "start": 1851
-              }
+                "start": 1886,
+                "end": null
+              },
+              "rank": null
+            },
+            {
+              "id": "JDP-10",
+              "style": "Tenjin Shin'yō-ryū",
+              "place": "Yushima Tenjin dojo",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
             }
           ],
           "sources": [
             {
-              "uri": "http://www.tenyokai.com/history.html"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9"
+              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-5",
-          "name": "Iikubo Tsunetoshi",
-          "alias": "Iikubo Kōnen",
-          "native name": "飯久保鍬吉恒年先生",
+          "id": "JDP-17",
+          "name": "Tomita Tsunejirō",
+          "native name": "富田 常次郎",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1864-02-28T00:00:00.000Z",
+            "location": "Namazu, Shizuoka",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1937-01-13T00:00:00.000Z",
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tomita-Tsunejiro.jpg/454px-Tomita-Tsunejiro.jpg",
+          "teachers": [
+            {
+              "id": "JDP-1",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
+              "period": {
+                "start": 1882,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": "Kodokan Judo",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "7 dan",
+              "year": 1937
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-8",
+          "name": "Takino Yūken",
+          "native name": "滝野遊軒",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
             "date": null,
             "location": null
@@ -51,7 +117,45 @@
           },
           "teachers": [
             {
-              "id": "JDP-6",
+              "id": null,
+              "style": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+            },
+            {
+              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-6",
+          "name": "Takenaka Tetsunosuke Issei",
+          "native name": "竹中鉄之助一清",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null
+          },
+          "death": {
+            "date": null,
+            "location": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-7",
               "style": "Kitō-ryū",
               "place": null,
               "period": {
@@ -66,179 +170,271 @@
               "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
             },
             {
-              "uri": "https://doi.org/10.18002/rama.v9i2.1162"
+              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-10",
-          "name": "Inoe Keitaro",
-          "native_name": "井上敬太郎",
-          "aka": [
+          "id": "JDP-7",
+          "name": "Takenaka  Motonoshin",
+          "native name": "竹中元之進",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null
+          },
+          "death": {
+            "date": null,
+            "location": null
+          },
+          "teachers": [
             {
-              "name": "Okusawa Keitaro"
-            },
-            {
-              "native_name": "奥澤敬太郎"
+              "id": "JDP-8",
+              "style": "Kitō-ryū",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
             }
           ],
-          "nationality": "JPN",
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+            },
+            {
+              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-14",
+          "name": "Takahashi Kazuyoshi",
+          "native name": "高橋数良",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": 1847,
-            "location": "Tokyo",
+            "date": 1855,
+            "location": null,
             "country_code": "JPN"
           },
           "death": {
-            "date": "23-9-1912",
+            "date": 1942,
+            "location": null,
+            "country_code": null
+          },
+          "description": null,
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": "JDP-9",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": "Kodokan Judo",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "8 dan",
+              "year": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-22",
+          "name": "Satake Soshihiro",
+          "aka": [
+            {
+              "name": "Antônio Satake"
+            }
+          ],
+          "nationality": [
+            "JPN",
+            "BRA"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": "http://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg",
+          "teachers": [
+            {
+              "id": "JDP-17",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 2
+            },
+            {
+              "id": "JDP-1",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1917,
+                "end": null
+              },
+              "quality": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "3 dan",
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Soshihiro_Satake"
+            },
+            {
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+            },
+            {
+              "uri": "https://www.faddabjj.com/historia-fadda"
+            },
+            {
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+            },
+            {
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-11",
+          "name": "Mifune Kyūzō",
+          "native_name": "三船 久蔵",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "21-4-1883",
+            "location": "Iwate",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1965-1-27",
             "location": null,
             "country": "JPN"
           },
           "teachers": [
             {
-              "id": "JDP-3",
-              "style": "Tenjin Shin'yō-ryū",
-              "place": null,
+              "id": "JDP-1",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
               "period": {
-                "start": null,
-                "end": null
+                "start": 1903,
+                "end": 1965
               },
               "rank": null
             },
             {
-              "name": "Okuzawa Sanzo",
-              "style": "Kiraku-ryu",
-              "place": null,
+              "id": "JDP-9",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
               "period": {
-                "start": null,
+                "start": 1903,
                 "end": null
               },
               "rank": null
             }
           ],
-          "sources": [
+          "rank": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E"
-            },
-            {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
-            }
-          ]
-        }
-      },
-      {
-        "data": {
-          "id": "JDP-3",
-          "name": "Iso Masatari Mataemon",
-          "native name": "磯又右衛門",
-          "birth": {
-            "date": 1790,
-            "location": "Matsuzaka, Japan"
-          },
-          "death": {
-            "date": 1863,
-            "location": "Otamagaike, Japan"
-          },
-          "teachers": [
-            {
-              "name": "Hitotsu Yanagi Oribe",
-              "style": "Tenjin Shin'yō-ryū",
-              "period": {
-                "start": 1785,
-                "end": 1792
-              }
-            },
-            {
-              "name": "Homma Jouemon",
-              "style": "Shin no Shinto-ryu",
-              "period": {
-                "start": 1792,
-                "end": 1798
-              }
+              "style": "Kodokan Judo",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "10 dan",
+              "date": 1945
             }
           ],
           "sources": [
             {
-              "uri": "http://www.tenyokai.com/history.html"
+              "uri": "https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80"
+              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-4",
-          "name": "Iso Masatomo",
-          "native name": "磯正智",
-          "birth": {
-            "date": 1818
-          },
-          "death": {
-            "date": 1881
-          },
-          "teachers": [
-            {
-              "id": "JDP-3",
-              "style": "Tenjin Shin'yō-ryū"
-            }
+          "id": "JDP-18",
+          "name": "Maeda Mitsuyo",
+          "native name": "前田 光世",
+          "aka": [
+            "Otávio Maeda",
+            "Conde Koma"
           ],
-          "sources": [
-            {
-              "uri": "http://www.tenyokai.com/history.html"
-            },
-            {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA"
-            }
-          ]
-        }
-      },
-      {
-        "data": {
-          "id": "JDP-1",
-          "name": "Kanō Jigorō",
-          "native name": "嘉納 治五郎",
+          "nationality": [
+            "JPN",
+            "BRA"
+          ],
           "birth": {
-            "date": "10 December 1860",
-            "location": "Kobe, Japan",
+            "date": "1878-11-18T00:00:00.000Z",
+            "location": "Hirosaki",
             "country_code": "JPN"
           },
           "death": {
-            "date": "4 May 1938",
-            "location": "Pacific Ocean",
-            "country_code": null
+            "date": "1941-11-28T00:00:00.000Z",
+            "location": "Belém, Pará",
+            "country_code": "BRA"
           },
-          "description": "Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May\n1938[3]) was a Japanese educator, athlete, and the founder of\nJudo. Along with Ju-Jutsu, Judo was one of the first Japanese\nmartial arts to gain widespread international recognition, and the\nfirst to become an official Olympic sport. Pedagogical innovations\nattributed to Kanō include the use of black and white belts, and\nthe introduction of dan ranking to show the relative ranking among\nmembers of a martial art style. Well-known mottoes attributed to\nKanō include \"good use of energy\" (精力善用 seiryoku zen'yō) and\n\"mutual welfare and benefit\" (自他共栄 jita kyōei).\n",
-          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mitsuyo_Maeda_c1910.jpg/346px-Mitsuyo_Maeda_c1910.jpg",
           "teachers": [
             {
-              "id": "JDP-2",
-              "style": "Tenjin Shin'yō-ryū",
-              "place": "Fukuda Hachinosuke dojo",
-              "period": {
-                "start": 1877,
-                "end": 1879
-              },
-              "rank": null
+              "name": "Saito Mohei",
+              "style": "Hongaku Kokki-ryû",
+              "place": {
+                "period": {
+                  "start": 1895,
+                  "end": 1896
+                }
+              }
             },
             {
-              "id": "JDP-4",
-              "style": "Tenjin Shin'yō-ryū",
-              "place": "Iso Masatomo dojo",
+              "id": "JDP-17",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
               "period": {
-                "start": 1879,
-                "end": 1881
-              },
-              "rank": null
-            },
-            {
-              "id": "JDP-5",
-              "style": "Kitō-ryū",
-              "place": "Eishōji",
-              "period": {
-                "start": 1881,
+                "start": 1896,
                 "end": null
               }
             }
@@ -248,33 +444,72 @@
               "style": "Kodokan Judo",
               "org": "Kodokan",
               "teacher": null,
-              "rank": "Shihan",
-              "year": null
-            },
-            {
-              "style": "Kitō-ryū",
-              "org": null,
-              "teacher": "JDP-5",
-              "rank": "Menkyo kaiden",
-              "year": null
-            },
-            {
-              "style": "Tenjin Shin'yō-ryū",
-              "org": null,
-              "teacher": "JDP-4",
-              "rank": "Menkyo kaiden",
-              "year": null
+              "rank": "7 dan",
+              "year": 1941
             }
           ],
           "sources": [
             {
-              "uri": "urn:isbn:978-1425163495"
+              "uri": "https://en.wikipedia.org/wiki/Mitsuyo_Maeda"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-12",
+          "name": "Kobayashi Kiyoshi",
+          "native_name": "小林清",
+          "nationality": [
+            "JPN",
+            "POR"
+          ],
+          "birth": {
+            "date": "9-4-1925",
+            "location": "Gunma",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "9-4-2013",
+            "location": null,
+            "country": "JPN"
+          },
+          "photo_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC",
+          "teachers": [
+            {
+              "id": "JDP-11",
+              "style": "Kodokan Judo",
+              "place": "Kodokan",
+              "period": {
+                "start": 1903,
+                "end": 1965
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": "Kodokan Judo",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "9 dan",
+              "date": 2013
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+              "uri": "http://kodokanjudoinstitute.org/magazine/201401/"
             },
             {
-              "uri": "https://doi.org/10.18002/rama.v9i2.1162"
+              "uri": "https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/"
+            },
+            {
+              "uri": "http://archive.today/YkEjw"
+            },
+            {
+              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item"
             }
           ]
         }
@@ -284,6 +519,9 @@
           "id": "JDP-13",
           "name": "Kawaishi  Mikinosuke",
           "native name": "川石 酒造之助",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
             "date": "1899-08-13T00:00:00.000Z",
             "location": "Himeji",
@@ -361,143 +599,54 @@
       },
       {
         "data": {
-          "id": "JDP-12",
-          "name": "Kobayashi Kiyoshi",
-          "native_name": "小林清",
-          "nationality": "JPN",
+          "id": "JDP-1",
+          "name": "Kanō Jigorō",
+          "native_name": "嘉納 治五郎",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": "9-4-1925",
-            "location": "Gunma",
+            "date": "10 December 1860",
+            "location": "Kobe, Japan",
             "country_code": "JPN"
           },
           "death": {
-            "date": "9-4-2013",
-            "location": null,
-            "country": "JPN"
-          },
-          "teachers": [
-            {
-              "id": "JDP-11",
-              "style": "Kodokan Judo",
-              "place": "Kodokan",
-              "period": {
-                "start": 1903,
-                "end": 1965
-              }
-            }
-          ],
-          "rank": [
-            {
-              "style": "Kodokan Judo",
-              "org": "Kodokan",
-              "teacher": null,
-              "rank": "9 dan",
-              "date": 2013
-            }
-          ],
-          "sources": [
-            {
-              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/"
-            },
-            {
-              "uri": "http://kodokanjudoinstitute.org/magazine/201401/"
-            },
-            {
-              "uri": "https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/"
-            },
-            {
-              "uri": "http://archive.today/YkEjw"
-            },
-            {
-              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item"
-            }
-          ]
-        }
-      },
-      {
-        "data": {
-          "id": "JDP-11",
-          "name": "Mifune Kyūzō",
-          "native_name": "三船 久蔵",
-          "nationality": "JPN",
-          "birth": {
-            "date": "21-4-1883",
-            "location": "Iwate",
-            "country_code": "JPN"
-          },
-          "death": {
-            "date": "1965-1-27",
-            "location": null,
-            "country": "JPN"
-          },
-          "teachers": [
-            {
-              "id": "JDP-1",
-              "style": "Kodokan Judo",
-              "place": "Kodokan",
-              "period": {
-                "start": 1903,
-                "end": 1965
-              },
-              "rank": null
-            },
-            {
-              "id": "JDP-9",
-              "style": "Kodokan Judo",
-              "place": "Kodokan",
-              "period": {
-                "start": 1903,
-                "end": null
-              },
-              "rank": null
-            }
-          ],
-          "rank": [
-            {
-              "style": "Kodokan Judo",
-              "org": "Kodokan",
-              "teacher": null,
-              "rank": "10 dan",
-              "date": 1945
-            }
-          ],
-          "sources": [
-            {
-              "uri": "https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5"
-            },
-            {
-              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
-            }
-          ]
-        }
-      },
-      {
-        "data": {
-          "id": "JDP-14",
-          "name": "Takahashi Kazuyoshi",
-          "native name": "高橋数良",
-          "birth": {
-            "date": 1855,
-            "location": null,
-            "country_code": "JPN"
-          },
-          "death": {
-            "date": 1942,
-            "location": null,
+            "date": "4 May 1938",
+            "location": "Pacific Ocean",
             "country_code": null
           },
-          "description": null,
-          "photo_url": null,
+          "description": "Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May\n1938[3]) was a Japanese educator, athlete, and the founder of\nJudo. Along with Ju-Jutsu, Judo was one of the first Japanese\nmartial arts to gain widespread international recognition, and the\nfirst to become an official Olympic sport. Pedagogical innovations\nattributed to Kanō include the use of black and white belts, and\nthe introduction of dan ranking to show the relative ranking among\nmembers of a martial art style. Well-known mottoes attributed to\nKanō include \"good use of energy\" (精力善用 seiryoku zen'yō) and\n\"mutual welfare and benefit\" (自他共栄 jita kyōei).\n",
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
           "teachers": [
             {
-              "id": "JDP-9",
-              "style": "Kodokan Judo",
-              "place": "Kodokan",
+              "id": "JDP-2",
+              "style": "Tenjin Shin'yō-ryū",
+              "place": "Fukuda Hachinosuke dojo",
               "period": {
-                "start": null,
+                "start": 1877,
+                "end": 1879
+              },
+              "quality": 3
+            },
+            {
+              "id": "JDP-4",
+              "style": "Tenjin Shin'yō-ryū",
+              "place": "Iso Masatomo dojo",
+              "period": {
+                "start": 1879,
+                "end": 1881
+              },
+              "quality": 3
+            },
+            {
+              "id": "JDP-5",
+              "style_id": "JDP-S-2",
+              "place": "Eishōji",
+              "period": {
+                "start": 1881,
                 "end": null
               },
-              "rank": null
+              "quality": 3
             }
           ],
           "rank": [
@@ -505,130 +654,129 @@
               "style": "Kodokan Judo",
               "org": "Kodokan",
               "teacher": null,
-              "rank": "8 dan",
+              "rank": "Shihan",
+              "year": null
+            },
+            {
+              "style": "Kitō-ryū",
+              "org": null,
+              "teacher": "JDP-5",
+              "rank": "Menkyo kaiden",
+              "year": null
+            },
+            {
+              "style": "Tenjin Shin'yō-ryū",
+              "org": null,
+              "teacher": "JDP-4",
+              "rank": "Menkyo kaiden",
               "year": null
             }
           ],
           "sources": [
             {
-              "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws"
+              "uri": "urn:isbn:978-1425163495"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+            },
+            {
+              "uri": "https://doi.org/10.18002/rama.v9i2.1162"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-7",
-          "name": "Takenaka  Motonoshin",
-          "native name": "竹中元之進",
+          "id": "JDP-4",
+          "name": "Iso Masatomo",
+          "native name": "磯正智",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1818
           },
           "death": {
-            "date": null,
-            "location": null
+            "date": 1881
           },
           "teachers": [
             {
-              "id": "JDP-8",
-              "style": "Kitō-ryū",
-              "place": null,
-              "period": {
-                "start": null,
-                "end": null
-              },
-              "rank": null
+              "id": "JDP-3",
+              "style": "Tenjin Shin'yō-ryū"
             }
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "http://www.tenyokai.com/history.html"
             },
             {
-              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-6",
-          "name": "Takenaka Tetsunosuke Issei",
-          "native name": "竹中鉄之助一清",
+          "id": "JDP-3",
+          "name": "Iso Masatari Mataemon",
+          "native name": "磯又右衛門",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1790,
+            "location": "Matsuzaka, Japan"
           },
           "death": {
-            "date": null,
-            "location": null
+            "date": 1863,
+            "location": "Otamagaike, Japan"
           },
           "teachers": [
             {
-              "id": "JDP-7",
-              "style": "Kitō-ryū",
-              "place": null,
+              "name": "Hitotsu Yanagi Oribe",
+              "style": "Tenjin Shin'yō-ryū",
               "period": {
-                "start": null,
-                "end": null
-              },
-              "rank": null
+                "start": 1785,
+                "end": 1792
+              }
+            },
+            {
+              "name": "Homma Jouemon",
+              "style": "Shin no Shinto-ryu",
+              "period": {
+                "start": 1792,
+                "end": 1798
+              }
             }
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "http://www.tenyokai.com/history.html"
             },
             {
-              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP-8",
-          "name": "Takino Yūken",
-          "native name": "滝野遊軒",
-          "birth": {
-            "date": null,
-            "location": null
-          },
-          "death": {
-            "date": null,
-            "location": null
-          },
-          "teachers": [
+          "id": "JDP-10",
+          "name": "Inoe Keitaro",
+          "native_name": "井上敬太郎",
+          "aka": [
             {
-              "id": null,
-              "style": null,
-              "place": null,
-              "period": {
-                "start": null,
-                "end": null
-              },
-              "rank": null
+              "name": "Okusawa Keitaro"
+            },
+            {
+              "native_name": "奥澤敬太郎"
             }
           ],
-          "sources": [
-            {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
-            },
-            {
-              "uri": "https://doi.org/10.18002/rama.v13i2.5700"
-            }
-          ]
-        }
-      },
-      {
-        "data": {
-          "id": "JDP-9",
-          "name": "Yokoyama Sakujiro",
-          "native_name": "横山 作次郎",
-          "nationality": "JPN",
+          "nationality": [
+            "JPN"
+          ],
           "birth": {
-            "date": 1864,
+            "date": 1847,
             "location": "Tokyo",
             "country_code": "JPN"
           },
@@ -639,19 +787,19 @@
           },
           "teachers": [
             {
-              "id": "JDP-1",
-              "style": "Kodokan Judo",
-              "place": "Kodokan",
+              "id": "JDP-3",
+              "style": "Tenjin Shin'yō-ryū",
+              "place": null,
               "period": {
-                "start": 1886,
+                "start": null,
                 "end": null
               },
               "rank": null
             },
             {
-              "id": "JDP-10",
-              "style": "Tenjin Shin'yō-ryū",
-              "place": "Yushima Tenjin dojo",
+              "name": "Okuzawa Sanzo",
+              "style": "Kiraku-ryu",
+              "place": null,
               "period": {
                 "start": null,
                 "end": null
@@ -661,10 +809,84 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-5",
+          "name": "Iikubo Tsunetoshi",
+          "alias": "Iikubo Kōnen",
+          "native name": "飯久保鍬吉恒年先生",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null
+          },
+          "death": {
+            "date": null,
+            "location": null
+          },
+          "teachers": [
+            {
+              "id": "JDP-6",
+              "style": "Kitō-ryū",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+            },
+            {
+              "uri": "https://doi.org/10.18002/rama.v9i2.1162"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-2",
+          "name": "Fukuda Hachinosuke",
+          "native name": "福田八之助",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1828,
+            "location": "Nagatoro, Japan"
+          },
+          "death": {
+            "date": "14 Aug 1879"
+          },
+          "teachers": [
+            {
+              "id": "JDP-4",
+              "style": "Tenjin Shin'yō-ryū",
+              "place": "Otamagaike dojo",
+              "period": {
+                "start": 1851
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://www.tenyokai.com/history.html"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9"
             }
           ]
         }
@@ -673,146 +895,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDPc5ff0d027978a",
-          "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
-          "source": "JDP-2",
-          "target": "JDP-4",
-          "interaction": "Tenjin Shin'yō-ryū",
-          "place": "Otamagaike dojo"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP630a93eb94a4f",
-          "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
-          "source": "JDP-5",
-          "target": "JDP-6",
-          "interaction": "Kitō-ryū",
-          "place": null
-        }
-      },
-      {
-        "data": {
-          "id": "JDP3025132da1bd4",
-          "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
-          "source": "JDP-10",
-          "target": "JDP-3",
-          "interaction": "Tenjin Shin'yō-ryū",
-          "place": null
-        }
-      },
-      {
-        "data": {
-          "id": "JDP1fb6d09932f38",
-          "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
-          "source": "JDP-4",
-          "target": "JDP-3",
-          "interaction": "Tenjin Shin'yō-ryū"
-        }
-      },
-      {
-        "data": {
-          "id": "JDPf88b77ae3147a",
-          "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
-          "source": "JDP-1",
-          "target": "JDP-2",
-          "interaction": "Tenjin Shin'yō-ryū",
-          "place": "Fukuda Hachinosuke dojo"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP2760c580ba222",
-          "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
-          "source": "JDP-1",
-          "target": "JDP-4",
-          "interaction": "Tenjin Shin'yō-ryū",
-          "place": "Iso Masatomo dojo"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP58e3430e113db",
-          "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
-          "source": "JDP-1",
-          "target": "JDP-5",
-          "interaction": "Kitō-ryū",
-          "place": "Eishōji"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP2fc788a08863f",
-          "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
-          "source": "JDP-13",
-          "target": "JDP-14",
-          "interaction": "Kodokan Judo",
-          "place": "Waseda University"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP960523c243a7e",
-          "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
-          "source": "JDP-12",
-          "target": "JDP-11",
-          "interaction": "Kodokan Judo",
-          "place": "Kodokan"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP969f985ebadff",
-          "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
-          "source": "JDP-11",
-          "target": "JDP-1",
-          "interaction": "Kodokan Judo",
-          "place": "Kodokan"
-        }
-      },
-      {
-        "data": {
-          "id": "JDPf9f049f2d5e4",
-          "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
-          "source": "JDP-11",
-          "target": "JDP-9",
-          "interaction": "Kodokan Judo",
-          "place": "Kodokan"
-        }
-      },
-      {
-        "data": {
-          "id": "JDPa19b7b9de93b7",
-          "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
-          "source": "JDP-14",
-          "target": "JDP-9",
-          "interaction": "Kodokan Judo",
-          "place": "Kodokan"
-        }
-      },
-      {
-        "data": {
-          "id": "JDP5d17c20af9b8f",
-          "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
-          "source": "JDP-7",
-          "target": "JDP-8",
-          "interaction": "Kitō-ryū",
-          "place": null
-        }
-      },
-      {
-        "data": {
-          "id": "JDP19f8cfcae8101",
-          "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
-          "source": "JDP-6",
-          "target": "JDP-7",
-          "interaction": "Kitō-ryū",
-          "place": null
-        }
-      },
-      {
-        "data": {
-          "id": "JDP65ccce4247c3e",
+          "id": "JDP7c9f59145987f",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -822,12 +905,196 @@
       },
       {
         "data": {
-          "id": "JDPda25ed4c23a58",
+          "id": "JDP905c8a60ddc3c",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
           "interaction": "Tenjin Shin'yō-ryū",
           "place": "Yushima Tenjin dojo"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf428da31d6fe",
+          "name": "Kanō Jigorō (Kodokan Judo) Tomita Tsunejirō",
+          "source": "JDP-17",
+          "target": "JDP-1",
+          "interaction": "Kodokan Judo",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP5846b27865a05",
+          "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
+          "source": "JDP-6",
+          "target": "JDP-7",
+          "interaction": "Kitō-ryū",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDP3f6f1d2602469",
+          "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
+          "source": "JDP-7",
+          "target": "JDP-8",
+          "interaction": "Kitō-ryū",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDPc9cdfd5dc8c33",
+          "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
+          "source": "JDP-14",
+          "target": "JDP-9",
+          "interaction": "Kodokan Judo",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPda88605855f68",
+          "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
+          "source": "JDP-22",
+          "target": "JDP-17",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Kodokan",
+          "quality": 2
+        }
+      },
+      {
+        "data": {
+          "id": "JDP0c9b663fbde55",
+          "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
+          "source": "JDP-22",
+          "target": "JDP-1",
+          "interaction": "Kōdōkan Jūdō",
+          "place": null,
+          "quality": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDP5b2f931a79fce",
+          "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
+          "source": "JDP-11",
+          "target": "JDP-1",
+          "interaction": "Kodokan Judo",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP52169a0b4489c",
+          "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
+          "source": "JDP-11",
+          "target": "JDP-9",
+          "interaction": "Kodokan Judo",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP08434202f49f3",
+          "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
+          "source": "JDP-18",
+          "target": "JDP-17",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP7d6a1e4e7fd6d",
+          "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
+          "source": "JDP-12",
+          "target": "JDP-11",
+          "interaction": "Kodokan Judo",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP645df022e92dc",
+          "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
+          "source": "JDP-13",
+          "target": "JDP-14",
+          "interaction": "Kodokan Judo",
+          "place": "Waseda University"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP67681afcbff02",
+          "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
+          "source": "JDP-1",
+          "target": "JDP-2",
+          "interaction": "Tenjin Shin'yō-ryū",
+          "place": "Fukuda Hachinosuke dojo",
+          "quality": 3
+        }
+      },
+      {
+        "data": {
+          "id": "JDPd6ce51abf775e",
+          "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
+          "source": "JDP-1",
+          "target": "JDP-4",
+          "interaction": "Tenjin Shin'yō-ryū",
+          "place": "Iso Masatomo dojo",
+          "quality": 3
+        }
+      },
+      {
+        "data": {
+          "id": "JDP3f99b71c7f495",
+          "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
+          "source": "JDP-1",
+          "target": "JDP-5",
+          "interaction": "Kitō-ryū",
+          "place": "Eishōji",
+          "quality": 3
+        }
+      },
+      {
+        "data": {
+          "id": "JDPc8293e42fd58a",
+          "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
+          "source": "JDP-4",
+          "target": "JDP-3",
+          "interaction": "Tenjin Shin'yō-ryū"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa9acf0bc38041",
+          "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
+          "source": "JDP-10",
+          "target": "JDP-3",
+          "interaction": "Tenjin Shin'yō-ryū",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDP878a0bcc1febb",
+          "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
+          "source": "JDP-5",
+          "target": "JDP-6",
+          "interaction": "Kitō-ryū",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDP0c94ca45644c",
+          "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
+          "source": "JDP-2",
+          "target": "JDP-4",
+          "interaction": "Tenjin Shin'yō-ryū",
+          "place": "Otamagaike dojo"
         }
       }
     ]
