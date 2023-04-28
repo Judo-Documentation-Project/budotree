@@ -1,0 +1,62 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-28
+  name: Mochizuki Minoru
+  native_name: 望月 稔
+  nationality:
+    - JPN
+  birth: 
+    date: 1907-04-07
+    location: Shizuoka
+    country_code: JPN
+  death:
+    date: 2003-05-30
+    location: Aix-en-Provence
+    country_code: FRA
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/9/97/Minoru_Mochizuki_c1930.jpg
+  teachers:
+    - name: JDP-1
+      style: JDP-S-1
+      place: Kodokan
+      period:
+          start: 1925
+          end: 1930
+    - name: JDP-11
+      style: JDP-S-1
+      place: Kodokan
+      period:
+          start: 1925
+          end: 1930          
+    - name: JDP-27
+      style: JDP-S-4
+      place: Kobukan dojo
+      period:
+          start: 1930
+          end:
+    - name: Sanjuro Oshima
+      style: Gyokushin Ryu
+      place: 
+      period:
+          start: 1924
+          end: 
+  rank:
+    - style: Gyokushin Ryu
+      org: 
+      teacher: Sanjuro Oshima
+      rank: Shoden Kirishi Mokuroku
+      year: 1924
+    - style: Daitō-ryū Aiki-jūjutsu
+      org: 
+      teacher: JDP-27
+      rank: 
+      year: 1924
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 8 dan
+      year: 
+  sources:
+    - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+    - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
