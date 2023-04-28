@@ -1,4 +1,6 @@
 # Martial Arts Lineage Tree
+
+![](images/tree.png)
 ### Judo Documentation Project
 
 The Martial Arts Lineage Tree is a community-driven database of
@@ -49,8 +51,8 @@ you through until we improve instructions:
 
 1. Find an existing file, or identify a missing one about someone that you want
    to add.
-2. Create a new file based on an existing entry, or on a template, or click
-   ""Edit" in an existing file
+2. [Create a new file](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) based on an existing entry, or on a template, or click
+   "Edit" in an existing file
 3. This will create a fork of the repository in your account; edit the file and
    follow the instructions to commit to your copy, and submit a Push Request.
 4. In the Push Request discussion, address any comments/requests.
@@ -58,8 +60,6 @@ you through until we improve instructions:
 
 The above can still be challenging for someone completely new to GitHub, but we
 will improve the instructions in due time.
-
-{% note %}
 
 We will start by focusing on "leafs" that can link to some of the
 existing "nodes"; this means that we will focus on finding branches that can
@@ -70,7 +70,6 @@ be connected _at least in one path_: it's perfectly fine to add more "ancestors"
 that end up being unconnected, if they are connected to someone that is linked
 with existing individuals.
 
-{% endnote %}
 
 ### The importance of sources
 
