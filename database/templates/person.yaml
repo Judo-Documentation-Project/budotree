@@ -1,37 +1,44 @@
 # Judo Documentation Project: Judo Lineage Tree Sub-project
+#
+# Person template
+#
+# The absolutely required fields are:
+#   name
+#   teachers->id OR teachers->name
+#   teachers->style_id OR teachers->style
+#   sources->uri (1+)
 ---
 
 person:
-  name: Kanō Jigorō 
-  native name: 嘉納 治五郎
+  id:                    # Left empty, assigned as part of the process
+  name:
+  native_name:
+  nationality:           # Can be more than one, which is why it's a list.
+    -
+    -
   birth: 
-    date: 10 December 1860
-    location: Kobe, Japan
+    date:                # ISO 8601 format (e.g. 1860-12-10)
+    location: 
+    country_code:        # ISO 3166-1 alpha-3 (3 letter code, e.g. JPN)
   death:
-    date: 4 May 1938
-    location: Pacific Ocean
+    date: 
+    location:
+    country_code:
   teachers:
-    - name: Fukuda Hachinosuke
-      style: Tenjin Shin'yō-ryū
-      place: Fukuda Hachinosuke dojo
+    - id:                # Check if it exists in database/persons, otherwise leave empty and fill name below.
+      name:          	 # Not needed if id is filled.
+      style_id:      	 # Check if it exists in database/styles, otherwise leave empty and fill name below.
+      style:         	 # Not needed if style_id is filled.
+      place:         	 # This is a dojo name, club name, etc.
       period:
-        start: 1877
-          end: 1879
-      rank: 
-    - name: Iso Masatomo
-      style: Tenjin Shin'yō-ryū
-      place: Iso Masatomo dojo
-      period:
-        start: 1879
-        end: 1881
+        start:
+          end:
+  rank:  
+    - style_id:          # Check if it exists in database/styles, otherwise leave empty and fill name below.
+      name:
+      org:               # Org and teacher are usually used in isolation. 
+      teacher:
       rank:
-    - name: Iikubo Tsunetoshi
-      style: 
-      place: Iso Masatomo dojo
-      period:
-        start: 1881
-        end:
-      rank: Menkyo
-  sources:
-    - Judo Memoirs of Jigoro Kano
-    - https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      date:
+  sources:               
+    - uri:               # This should ideally be an URL, but an URI is the minimum. 

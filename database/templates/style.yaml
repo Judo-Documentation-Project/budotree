@@ -1,0 +1,15 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+#
+# Style template
+---
+
+style:
+  id: 
+  name: 
+  native_name: 
+  birth: 
+    date: 
+    location:
+    country_code: JPN  
+  sources:
+    - uri: 
