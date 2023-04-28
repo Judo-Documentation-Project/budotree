@@ -14,7 +14,7 @@ There are three main components to this:
   structured form as painless as possible.
 * A parser that converts the database into a [Cytoscape.js JSON
   format](https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html#cytoscape-js-json), supported in both [Cytoscape](https://cytoscape.org) and [Cytoscape.js](https://js.cytoscape.org/)
-* A web viewer that presents the data as an interactive tree, facilitating
+* [A web page that presents the data as an interactive tree](https://judo-documentation-project.github.io/judotree/), allowing
   exploration of the (sometimes complex) lineage tree.
 
 ## How it works
