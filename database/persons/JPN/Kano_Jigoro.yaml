@@ -8,11 +8,11 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 10 December 1860
+    date: 1860-12-10
     location: Kobe, Japan
     country_code: JPN
   death:
-    date: 4 May 1938
+    date: 1928-05-04
     location: Pacific Ocean
     country_code:
   description: |
