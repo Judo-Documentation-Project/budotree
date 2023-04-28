@@ -1,0 +1,34 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-27
+  name: Ueshiba Morihei
+  native name: 植芝 盛平
+  nationality:
+    - JPN
+  birth: 
+    date: 1883-12-14
+    location: Tanabe
+    country_code: JPN
+  death:
+    date: 1969-04-26
+    location: Iwama
+    country_code: JPN
+  photo_url: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Morihei_Ueshiba_Portrait.jpg/220px-Morihei_Ueshiba_Portrait.jpg
+  teachers:
+    - name: Takeda Sōkaku
+      style: Daitō-ryū Aiki-jūjutsu
+      place: 
+        period:
+          start: 1915
+          end: 1922
+  rank:
+    - style: Daitō-ryū Aiki-jūjutsu
+      org: 
+      teacher: JDP-28
+      rank: Kyōju Dairi
+      year: 1922
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
+

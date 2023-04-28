@@ -1,0 +1,13 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-4
+  name: Aikidō
+  native_name: 合気道
+  birth: 
+    date: 1920
+    location:
+    country_code: JPN  
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Aikido
