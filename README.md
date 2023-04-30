@@ -17,6 +17,11 @@ There are three main components to this:
 * [A web page that presents the data as an interactive tree](https://judo-documentation-project.github.io/judotree/), allowing
   exploration of the (sometimes complex) lineage tree.
 
+**While this is done with Judo as a starting point, it is not limited to it**: much like Judo 
+had a pioneering role, as the first Budō, that influenced many other martials arts (and was in 
+many ways a bridge between Koryū and Gendai), so does this project start from Kodokan Judo 
+with the aim of uncovering the rich history of interactions between disciplines.
+
 ## How it works
 
 Creating, adding to, and correcting the YAML files is what drives everything else.
