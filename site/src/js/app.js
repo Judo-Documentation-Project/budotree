@@ -205,8 +205,10 @@ function show_image(src, width, height, alt) {
 }
 
 
+var gitRoot = "https://github.com/Judo-Documentation-Project/judotree/tree/main/";
 var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
+var cardFooter = document.getElementById("card-footer");
 var jsonMakeHTML = require('json-make-html');
 var jsargs = {
     separator : ': ',
@@ -269,15 +271,18 @@ cy.nodes().bind("tap", (event) => {
 	        }
 	    }
     }
-    console.log(event.target.data());
     var html = jsonMakeHTML.make(event.target.data(),jsargs);
     desc.innerHTML = html;
     content.appendChild(desc);
     info.innerHTML = content.innerHTML;
     cardTitle.innerHTML = event.target.data().name;
+    console.log("Footer:" + event.target.data());
+    cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
 
 });
 
+
+    
 document.addEventListener('DOMContentLoaded', function() {
 	let cardToggles = document.getElementsByClassName('card-toggle');
 	for (let i = 0; i < cardToggles.length; i++) {
