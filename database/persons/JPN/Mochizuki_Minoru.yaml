@@ -18,19 +18,19 @@ person:
   photo_url: https://upload.wikimedia.org/wikipedia/commons/9/97/Minoru_Mochizuki_c1930.jpg
   teachers:
     - name: JDP-1
-      style: JDP-S-1
+      style_id: JDP-S-1
       place: Kodokan
       period:
           start: 1925
           end: 1930
     - name: JDP-11
-      style: JDP-S-1
+      style_id: JDP-S-1
       place: Kodokan
       period:
           start: 1925
           end: 1930          
     - name: JDP-27
-      style: JDP-S-4
+      style_id: JDP-S-4
       place: Kobukan dojo
       period:
           start: 1930
