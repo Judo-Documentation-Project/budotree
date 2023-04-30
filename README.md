@@ -218,3 +218,20 @@ rank. As such, learning from someone is not always the same as receiving rank
 from someone, even if it's the teaching that contributes to the body of
 knowledge. Separating rank from teachers allows to keep track of the
 teacher-student relationship without making assumptions about rank.
+
+#### Shouldn't sources be atachable to a specific section (teachers, rank), instead of being applied to everything?
+
+Yes, this is likely a better idea. Currently, sources are at the "root" level to keep things simple: it's already several orders of magnitude better to have sources listed, and enforce that practice.
+
+Following the genealogy research parallel, it would be better to have sources that can be attached to a specific assertion:
+
+> A given source may be the basis for many different assertions. Thus, much of the information is the same for many different citations of that source, such as the publisher information; and yet, some of the information varies from one citation to the next, such as the page number for a specific item. Consequently, the SOURCE_STRUCTURE includes a sophisticated mechanism for sharing general source description information that is common across multiple citations, while at the same time allowing more specific information to be more directly associated with individual citations. All tags within the SOURCE_STRUCTURE participate in this approach.
+
+We need to balance how to do this with keeping it simple enough - as simple as it can be, but not simpler. One way to do it would be:
+
+1. Add `source` fields in the specific section (e.g. `teachers->[id=<ID of Teacher 1>->source`).
+2. Use the `uri` as the source ID, which would then point to a more complete entry for the source, in a separate YAML, with name, etc.
+3. Add a `source->page`or `source->citation` field.
+
+
+We will implement the first shortly enough; the second is an open discussion, and the third will depend on how much this becomes a real issue.
