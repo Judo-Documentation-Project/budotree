@@ -17,7 +17,7 @@ person:
     country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Morihei_Ueshiba_Portrait.jpg/220px-Morihei_Ueshiba_Portrait.jpg
   teachers:
-    - name: Takeda Sōkaku
+    - id: JDP-28
       style: Daitō-ryū Aiki-jūjutsu
       place: 
         period:
