@@ -39,7 +39,7 @@ The YAML format covers these main areas:
 * Rank: what rank was attained by the individual, when, and by whom.
 * Sources: list of sources used.
 
-## How to do it
+## How to contribute
 
 The entire process has been built (purposely) around git, and specifically
 GitHub (more on that in the FAQ below). To participate, you'll need:
@@ -55,13 +55,12 @@ If the previous paragraph was cryptic, using GitHub's interace will mostly guide
 you through until we improve instructions:
 
 1. Find an existing file, or identify a missing one about someone that you want
-   to add.
+   to add. The [explorer](https://judo-documentation-project.github.io/judotree/) adds a _Source YAML_ link to every entry that leads directly to the right file.
 2. [Create a new file](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) based on an existing entry, or on a template, or click
-   "Edit" in an existing file
+   "Edit" in an existing file.
 3. This will create a fork of the repository in your account; edit the file and
    follow the instructions to commit to your copy, and submit a Push Request.
 4. In the Push Request discussion, address any comments/requests.
-
 
 The above can still be challenging for someone completely new to GitHub, but we
 will improve the instructions in due time.
@@ -74,7 +73,6 @@ At a later stage we will relax this requirement, but for now any addition should
 be connected _at least in one path_: it's perfectly fine to add more "ancestors"
 that end up being unconnected, if they are connected to someone that is linked
 with existing individuals.
-
 
 ### The importance of sources
 
@@ -110,18 +108,28 @@ This is inspired by the [GEDCOM standard used in
 genealogy](https://gedcom.io/specifications/FamilySearchGEDCOMv7.html#g7enumset-quay),
 and used precisely for the same reason.
 
-* Absent: no review done on the link, needs to be updated.
+* Absent: no review done on the link, needs to be updated. It's there because it was added, but it's a placeholder that needs to be reviewed.
+* -1: Reserved for missing links: to be used sparringly and in situation where it's not at all possible to identify the teacher, but it is possible to link that unknown teacher to someone else.
 * 0: Estimated or based on unreliable evidence (e.g. unsourced comments, sources
   that have conflicting evidence that has shown to be false).
 * 1: Information from indirect sources, like interviews or biographies, with
   potential for bias, and without any other direct evidence mentioned.
 * 2: Secondary evidence, data recorded after the event but that directly
-  supports the assertiob.
+  supports the assertion.
 * 3: Direct and primary evidence, or by dominance of evidence.
-
+### General
+147
 
 There is always a degree of relativity in determining the "quality" of sources,
 but these guidelines should be good enough to start with.
+
+Some examples:
+
+* -1: We know that person **A** studied Judo at Wased University during 5 years. We also know that the programme there was composed of teachers that are linked to an existing person **B**, but we do not have information about the specific teacher. In this case, listing **B** as a teacher of **A** with a -1 quality indicator denotes this indirection.
+* 0: We have an article that says "person A studied with person B in 1912", witout providing any further sources.
+* 1: We have an interview with person A saying that they studied with person B, and this is the only reference we have, and we also know that the facts are disputed by others (someone else says that "person A never studied with person B".
+* 2: We have records from official institutitions that mention the specific fact in an indirect way, or we have interviews or other texts that support it in a way that appears unbiased.
+* 3: We have access to an official certificate, or we have a multitude of supporting evidence in the form of e.g. independent interviews with different people,
 
 ### Settling disputes
 
@@ -133,12 +141,9 @@ in the form of an Issue. The overall quality of the database is an important
 goal, so the project lead will, if needed, determine the final outcome if there
 is no possibility of consensus.
 
-Having an extensive database is good, but it is not as important as having a
-
+Having an extensive database is good, but it is not as important as having a quality database that clearly indicates the sources and how they are used. Making another comparison with genealogy, the Internet is filled with "family trees" that go back centuries, build by people that, in their desire to have a long ancestry line, import other trees that are built with similar carelessness. The information appears impressive, but a superficial look into it shows that most of it is false, untrackable, unproven.
 
 ## FAQ
-
-### General
 
 ### Technology
 
@@ -203,7 +208,6 @@ A YAML schema will be available Real Soon Now, but the only mandatory fields are
 * Teacher (1 instance)
 * Sources (at least 1)
 
-
 Not mandatory but almost are nationality/place of birth/native name, in the
 sense that they are usually easy to add and can be used for visualisation
 purposes. The more information, the better.
@@ -238,5 +242,5 @@ We need to balance how to do this with keeping it simple enough - as simple as i
 2. Use the `uri` as the source ID, which would then point to a more complete entry for the source, in a separate YAML, with name, etc.
 3. Add a `source->page`or `source->citation` field.
 
-
 We will implement the first shortly enough; the second is an open discussion, and the third will depend on how much this becomes a real issue.
+
