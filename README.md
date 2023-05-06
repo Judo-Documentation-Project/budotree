@@ -117,8 +117,7 @@ and used precisely for the same reason.
 * 2: Secondary evidence, data recorded after the event but that directly
   supports the assertion.
 * 3: Direct and primary evidence, or by dominance of evidence.
-### General
-147
+
 
 There is always a degree of relativity in determining the "quality" of sources,
 but these guidelines should be good enough to start with.
