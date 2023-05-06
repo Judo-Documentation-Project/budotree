@@ -10,6 +10,7 @@
         "buffer": "^5.7.1",
         "cytoscape": "^3.24.0",
         "cytoscape-bubblesets": "^3.2.0",
+        "cytoscape-fcose": "^2.2.0",
         "cytoscape-layers": "^2.3.1",
         "parcel": "^2.8.3",
         "util": "^0.12.5"

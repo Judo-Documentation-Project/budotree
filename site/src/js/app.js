@@ -2,12 +2,14 @@ import cytoscape from 'cytoscape';
 import elk from 'cytoscape-elk';
 import cola from 'cytoscape-cola';
 import cise from 'cytoscape-cise';
+import fcose from 'cytoscape-fcose';
 import BubbleSets from 'cytoscape-bubblesets';
 import $ from 'jquery';
 
 cytoscape.use( elk );
 cytoscape.use( cola );
 cytoscape.use( cise );
+cytoscape.use( fcose );
 cytoscape.use(BubbleSets);
 
 import data from './tree.json';
@@ -70,11 +72,12 @@ const style = [ // the stylesheet for the graph
 ];
 
 var layoutOptions = {
-    name: 'breadthfirst',
+    name: 'fcose',
     spacingFactor: 1,
     nodeDimensionsIncludeLabels: true,
     animate: 'end',
-    animationDuration: 200,
+    refresh: 100,
+    animationDuration: 250,
     elk: {
 	    algorithm: 'mrtree',
     }
@@ -95,8 +98,8 @@ var bb = cy.bubbleSets({
 document.addEventListener('DOMContentLoaded', function() {
 
     console.log("DOM content loaded, running layout");
-    layoutOptions["name"]="elk";
-    layoutOptions["elk"]["algorithm"] = "stress";
+//    layoutOptions["name"]="elk";
+//    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
     layout.run();
     console.log(layout);
@@ -125,36 +128,37 @@ function onChange() {
     console.log(value, text);
     switch(e.value) {
     case "mrtree":
-	    layoutOptions["name"]="elk";
-	    layoutOptions["elk"]["algorithm"] = "mrtree";
-	    break;
+	layoutOptions["name"]="elk";
+	layoutOptions["elk"]["algorithm"] = "mrtree";
+	break;
     case "layered":
-	    layoutOptions["name"]="elk";
-	    layoutOptions["elk"]["algorithm"] = "layered";
-	    break;
+	layoutOptions["name"]="elk";
+	layoutOptions["elk"]["algorithm"] = "layered";
+	break;
     case "breadthfirst":
-	    layoutOptions["name"]="breadthfirst";
-	    break;
+	layoutOptions["name"]="breadthfirst";
+	break;
     case "stress":
-	    layoutOptions["name"]="elk";
-	    layoutOptions["elk"]["algorithm"] = "stress";
-	    break;
+	layoutOptions["name"]="elk";
+	layoutOptions["elk"]["algorithm"] = "stress";
+	break;
     case "cise":
-	    layoutOptions["name"]="cise";
-	    break;
+	layoutOptions["name"]="cise";
+	break;
     case "cola":
-	    layoutOptions["name"]="cola";
-	    break;
+	layoutOptions["name"]="cola";
+	break;
+    case "fcose":
+	layoutOptions["name"]="fcose";
+	break;	
     }
-
+    
     layout = cy.layout(layoutOptions);
     cy.layout(layoutOptions);
     console.log( layoutOptions["name"]);
     layout.run();
-
-
-
 }
+
 var e = document.getElementById("ddlViewBy");
 e.onchange = onChange;
 onChange();
