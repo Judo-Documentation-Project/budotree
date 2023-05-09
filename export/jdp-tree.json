@@ -427,6 +427,54 @@
       },
       {
         "data": {
+          "id": "JDP-32",
+          "name": "Tamai Narimichi",
+          "native_name": null,
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Tamai_Narimichi.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-8",
           "name": "Takino Yūken",
           "native name": "滝野遊軒",
@@ -637,6 +685,176 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Takahashi_Kazuyoshi.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-30",
+          "name": "Sugino Yoshio",
+          "native name": "杉野嘉男",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1904-12-12T00:00:00.000Z",
+            "location": "Tokyo",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1998-06-13T00:00:00.000Z",
+            "location": "Narutō, Chiba",
+            "country_code": "JPN"
+          },
+          "photo_url": "https://2.bp.blogspot.com/-y8nNNMaK3cs/VLvcojO-fRI/AAAAAAAAbOM/HzykaZ2XkJw/s1600/Yoshio%2BSugino.jpg",
+          "teachers": [
+            {
+              "id": "JDP-31",
+              "style_id": "JDP-S-1",
+              "place": "Keiō Gijuku Daigaku",
+              "period": {
+                "start": 1918,
+                "end": 1919
+              }
+            },
+            {
+              "id": "JDP-27",
+              "style_id": "JDP-S-4",
+              "place": "Wakamatsu-cho dojo",
+              "period": {
+                "start": 1931,
+                "end": 1935
+              }
+            },
+            {
+              "id": "JDP-32",
+              "style_id": "JDP-S-6",
+              "place": "Kawasaki",
+              "period": {
+                "start": 1927,
+                "end": null
+              }
+            },
+            {
+              "id": "JDP-33",
+              "style_id": "JDP-S-6",
+              "place": "Kawasaki",
+              "period": {
+                "start": 1927,
+                "end": null
+              }
+            },
+            {
+              "id": "JDP-34",
+              "style_id": "JDP-S-6",
+              "place": "Kawasaki",
+              "period": {
+                "start": 1927,
+                "end": null
+              }
+            },
+            {
+              "id": "JDP-35",
+              "style_id": "JDP-S-6",
+              "place": "Kawasaki",
+              "period": {
+                "start": 1927,
+                "end": null
+              }
+            },
+            {
+              "id": "JDP-36",
+              "style_id": "JDP-S-7",
+              "place": null,
+              "period": {
+                "start": 1928,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "year": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+            },
+            {
+              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm"
+            },
+            {
+              "uri": "https://www.judo-ch.jp/english/legend/iizuka/"
+            },
+            {
+              "uri": "https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/"
+            },
+            {
+              "uri": "https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/"
+            },
+            {
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/"
+            },
+            {
+              "uri": "https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Sugino_Yoshio.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-35",
+          "name": "Shiina Ichizo",
+          "native_name": null,
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Shiina_Ichizo.yaml"
         }
       },
       {
@@ -929,6 +1147,54 @@
       },
       {
         "data": {
+          "id": "JDP-33",
+          "name": "Kuboki Sozaemon",
+          "native_name": null,
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Kuboki_Sozaemon.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-12",
           "name": "Kobayashi Kiyoshi",
           "native_name": "小林清",
@@ -1161,6 +1427,113 @@
       },
       {
         "data": {
+          "id": "JDP-36",
+          "name": "Kanaya Genro",
+          "native_name": null,
+          "aka": [
+            {
+              "name": "Kanaya Motoyoshi"
+            }
+          ],
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+            },
+            {
+              "uri": "urn:isbn:9784770026194"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Kanaya_Genro.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-34",
+          "name": "Ito Tanekichi",
+          "native_name": null,
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Ito_Tanekichi.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-4",
           "name": "Iso Masatomo",
           "native name": "磯正智",
@@ -1292,6 +1665,57 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Inoue_Keitaro.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-31",
+          "name": "Iizuka Kunisaburō",
+          "native_name": "飯塚 国三郎",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1875-02-13T00:00:00.000Z",
+            "location": "Mikamo",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1958-07-25T00:00:00.000Z",
+            "location": null,
+            "country": null
+          },
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg",
+          "teachers": [
+            {
+              "id": "JDP-9",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1891,
+                "end": null
+              },
+              "rank": null
+            }
+          ],
+          "rank": [
+            {
+              "style": "Kodokan Judo",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "10 dan",
+              "date": 1946
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Iizuka_Kunisaburu.yaml"
         }
       },
       {
@@ -1604,7 +2028,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP256fe25201d74",
+          "id": "JDP9850a8862eeda",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-24",
           "target": "JDP-11",
@@ -1615,7 +2039,7 @@
       },
       {
         "data": {
-          "id": "JDPe2c7ec44cdce",
+          "id": "JDP5a4de686b2066",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-25",
           "target": "JDP-12",
@@ -1626,7 +2050,7 @@
       },
       {
         "data": {
-          "id": "JDPe4606247901f7",
+          "id": "JDPc4f7e00dd59e2",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-15",
           "target": "JDP-12",
@@ -1636,7 +2060,7 @@
       },
       {
         "data": {
-          "id": "JDPf853b3fde87d2",
+          "id": "JDP9014401d5c13f",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-16",
           "target": "JDP-12",
@@ -1646,7 +2070,7 @@
       },
       {
         "data": {
-          "id": "JDPc99cffab5e406",
+          "id": "JDPa912d5fbe2bf7",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -1656,7 +2080,7 @@
       },
       {
         "data": {
-          "id": "JDPb4f4750a76431",
+          "id": "JDP14f4d65be4be2",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
@@ -1666,7 +2090,7 @@
       },
       {
         "data": {
-          "id": "JDPe7e0353511021",
+          "id": "JDPe49992b2ff9fc",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-27",
           "target": "JDP-28",
@@ -1681,7 +2105,7 @@
       },
       {
         "data": {
-          "id": "JDP11486c84b80a1",
+          "id": "JDP042da7e881361",
           "name": "Kanō Jigorō (Kodokan Judo) Tomita Tsunejirō",
           "source": "JDP-17",
           "target": "JDP-1",
@@ -1691,7 +2115,7 @@
       },
       {
         "data": {
-          "id": "JDP71fc130ea863d",
+          "id": "JDP411be5435f408",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-1",
@@ -1706,7 +2130,7 @@
       },
       {
         "data": {
-          "id": "JDP4cc30a58ee8b2",
+          "id": "JDPb2512feece9f9",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-27",
@@ -1716,7 +2140,7 @@
       },
       {
         "data": {
-          "id": "JDP1681e4577dc71",
+          "id": "JDPd23fb042ea06c",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
@@ -1726,7 +2150,7 @@
       },
       {
         "data": {
-          "id": "JDPec5f536c3b208",
+          "id": "JDP18423ef05922b",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
@@ -1736,7 +2160,7 @@
       },
       {
         "data": {
-          "id": "JDPf87708055384d",
+          "id": "JDPb6175cf8d56ee",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
@@ -1746,7 +2170,77 @@
       },
       {
         "data": {
-          "id": "JDP48ec72b98847f",
+          "id": "JDP02e13b59681ca",
+          "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-31",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Keiō Gijuku Daigaku"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP3d2b5513bad19",
+          "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-27",
+          "interaction": "Aikidō",
+          "place": "Wakamatsu-cho dojo"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPe51595b5bfc82",
+          "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-32",
+          "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "place": "Kawasaki"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPaff6f2ef90bcd",
+          "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-33",
+          "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "place": "Kawasaki"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP5716663bea487",
+          "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-34",
+          "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "place": "Kawasaki"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPd0d2f2506435c",
+          "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-35",
+          "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "place": "Kawasaki"
+        }
+      },
+      {
+        "data": {
+          "id": "JDPab129859ac9fc",
+          "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
+          "source": "JDP-30",
+          "target": "JDP-36",
+          "interaction": "Yōshin-ryū",
+          "place": null
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf9dda1043bed8",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-17",
@@ -1757,7 +2251,7 @@
       },
       {
         "data": {
-          "id": "JDP4cd7b5f8992e3",
+          "id": "JDP5c0b5c1d88983",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-1",
@@ -1768,7 +2262,7 @@
       },
       {
         "data": {
-          "id": "JDP740b94e060a35",
+          "id": "JDP454947c13fd04",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-1",
@@ -1778,7 +2272,7 @@
       },
       {
         "data": {
-          "id": "JDPe5b453bad0dda",
+          "id": "JDP506fc0925baff",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-11",
@@ -1788,7 +2282,7 @@
       },
       {
         "data": {
-          "id": "JDP480095b37e341",
+          "id": "JDP9c057f1247e58",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-27",
@@ -1798,7 +2292,7 @@
       },
       {
         "data": {
-          "id": "JDPc58d46d073ac2",
+          "id": "JDP262837d485dc8",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
@@ -1808,7 +2302,7 @@
       },
       {
         "data": {
-          "id": "JDPb12014795b03d",
+          "id": "JDP539a79d36ed81",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
@@ -1818,7 +2312,7 @@
       },
       {
         "data": {
-          "id": "JDPde7fc955a543",
+          "id": "JDPed4c8b31fdfff",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-18",
           "target": "JDP-17",
@@ -1828,7 +2322,7 @@
       },
       {
         "data": {
-          "id": "JDP07159ed094e8c",
+          "id": "JDP7eea8380785c6",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
@@ -1838,7 +2332,7 @@
       },
       {
         "data": {
-          "id": "JDP60859173df548",
+          "id": "JDP524bdf83db3df",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
@@ -1848,7 +2342,7 @@
       },
       {
         "data": {
-          "id": "JDP34908ca60161a",
+          "id": "JDP63d5109ee8b5b",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
@@ -1859,7 +2353,7 @@
       },
       {
         "data": {
-          "id": "JDP70dbc8499dff3",
+          "id": "JDP9b5f835582a93",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
@@ -1870,7 +2364,7 @@
       },
       {
         "data": {
-          "id": "JDPcfba2517e2878",
+          "id": "JDP23db3bb6a3a83",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
@@ -1881,7 +2375,7 @@
       },
       {
         "data": {
-          "id": "JDP04abfd77949f5",
+          "id": "JDP232c6937511b3",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
@@ -1890,7 +2384,7 @@
       },
       {
         "data": {
-          "id": "JDPed78744cd3934",
+          "id": "JDP789ebaf0d3d",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
@@ -1900,7 +2394,17 @@
       },
       {
         "data": {
-          "id": "JDP62d74f160965f",
+          "id": "JDP21c58cf4eee5e",
+          "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
+          "source": "JDP-31",
+          "target": "JDP-9",
+          "interaction": "Kōdōkan Jūdō",
+          "place": "Kodokan"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP85ee59b96a863",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
@@ -1910,7 +2414,7 @@
       },
       {
         "data": {
-          "id": "JDP23550b59f4ef9",
+          "id": "JDP52e5a3ed9c492",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
@@ -1920,7 +2424,7 @@
       },
       {
         "data": {
-          "id": "JDPeda4a1584d8bb",
+          "id": "JDP7dfcb355ee452",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-22",
@@ -1931,7 +2435,7 @@
       },
       {
         "data": {
-          "id": "JDP358abbf6f6ed6",
+          "id": "JDPfc329da657351",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-18",
@@ -1942,7 +2446,7 @@
       },
       {
         "data": {
-          "id": "JDP1429bf980f925",
+          "id": "JDP30ea4f6248429",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-19",
           "target": "JDP-18",
@@ -1952,7 +2456,7 @@
       },
       {
         "data": {
-          "id": "JDP0620724f06cde",
+          "id": "JDP053caf93c8366",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-23",
           "target": "JDP-18",
@@ -1963,7 +2467,7 @@
       },
       {
         "data": {
-          "id": "JDPff6411dadbaa1",
+          "id": "JDP8847937b22d2c",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-19",
@@ -1974,7 +2478,7 @@
       },
       {
         "data": {
-          "id": "JDP9f732ccc6e678",
+          "id": "JDP423ea79e8bbbd",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-18",
