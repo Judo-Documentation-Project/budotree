@@ -74,6 +74,12 @@ be connected _at least in one path_: it's perfectly fine to add more "ancestors"
 that end up being unconnected, if they are connected to someone that is linked
 with existing individuals.
 
+### Is there any other way?
+
+If the above is impossibly difficult, there's an alternative: open an Issue with the information that you would like to add/change. This can take more time, but eventually it should make its way to the database, after someone picks it up and makes the corresponding changes.
+
+To open an issue, find the "Issues" tab and create a new one.
+
 ### The importance of sources
 
 Every entry should have one or more sources that allows anyone to determine from
