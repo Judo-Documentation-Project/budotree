@@ -1,0 +1,76 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-30
+  name: Sugino Yoshio
+  native name: 杉野嘉男
+  nationality:
+    - JPN
+  birth: 
+    date: 1904-12-12
+    location: Tokyo
+    country_code: JPN
+  death:
+    date: 1998-06-13
+    location: Narutō, Chiba
+    country_code: JPN
+  photo_url: https://2.bp.blogspot.com/-y8nNNMaK3cs/VLvcojO-fRI/AAAAAAAAbOM/HzykaZ2XkJw/s1600/Yoshio%2BSugino.jpg
+  teachers:
+    - id: JDP-31
+      style_id: JDP-S-1
+      place: Keiō Gijuku Daigaku
+      period:
+        start: 1918
+        end: 1919
+    - id: JDP-27
+      style_id: JDP-S-4
+      place: Wakamatsu-cho dojo
+      period:
+        start: 1931
+        end: 1935
+    - id: JDP-32
+      style_id: JDP-S-6
+      place: Kawasaki
+      period:
+        start: 1927
+        end:
+    - id: JDP-33
+      style_id: JDP-S-6
+      place: Kawasaki
+      period:
+        start: 1927
+        end:
+    - id: JDP-34
+      style_id: JDP-S-6
+      place: Kawasaki
+      period:
+        start: 1927
+        end:
+    - id: JDP-35
+      style_id: JDP-S-6
+      place: Kawasaki
+      period:
+        start: 1927
+        end:
+    - id: JDP-36
+      style_id: JDP-S-7
+      place: 
+      period:
+        start: 1928
+        end:
+  rank:
+    - style: 
+      org: 
+      teacher: 
+      rank: 
+      year: 
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+    - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
+    - uri: https://www.judo-ch.jp/english/legend/iizuka/
+    - uri: https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/
+    - uri: https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+    - uri: https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3

@@ -1,0 +1,18 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-6
+  name: Tenshin Shōden Katori Shintō-ryū
+  native_name: 天真正伝香取神道流
+  aka:
+    - name: Katori Shintō-ryū
+      native_name: 香取神道流
+  birth: 
+    date: 1147
+    location: Shimōsa
+    country_code: JPN  
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Tenshin_Sh%C5%8Dden_Katori_Shint%C5%8D-ry%C5%AB
+    - uri: https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9C%9F%E6%AD%A3%E4%BC%9D%E9%A6%99%E5%8F%96%E7%A5%9E%E9%81%93%E6%B5%81
+    - uri: https://www.katorishintoryu-shinbukan.org/

@@ -1,0 +1,35 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-33
+  name: Kuboki Sozaemon
+  native_name:
+  nationality:
+    - JPN
+  birth: 
+    date:
+    location:
+    country_code:
+  death:
+    date: 
+    location:
+    country: 
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+ 

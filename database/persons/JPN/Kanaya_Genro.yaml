@@ -1,0 +1,39 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-36
+  name: Kanaya Genro
+  native_name:
+  aka:
+    - name: Kanaya Motoyoshi
+  nationality:
+    - JPN
+  birth: 
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country: 
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+    - uri: urn:isbn:9784770026194
+    

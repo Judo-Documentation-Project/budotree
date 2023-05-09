@@ -1,0 +1,16 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-5
+  name: Karate
+  native_name: 空手
+  aka:
+    - name: Karatedo
+      native_name: 空手道
+  birth: 
+    date: 19th century
+    location: Okinawa
+    country_code: JPN  
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Karate
