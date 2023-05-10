@@ -101,17 +101,29 @@ document.addEventListener('DOMContentLoaded', function() {
 //    layoutOptions["name"]="elk";
 //    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
+    cy.nodes('[id = "JDP-1"]').select();    
     layout.run();
     console.log(layout);
     // cy.nodes('[id = "JDP-1"]').style('background-color', '#BC002D');
     // cy.nodes('[id = "JDP-1"]').style('color', 'white');
     // cy.nodes('[id = "JDP-1"]').style('color', 'white');
-    cy.nodes('[id = "JDP-1"]').select();
+
     //console.log("Filtering by POR" + cy.nodes('[nationality = "POR"]'));
     //cy.nodes('[nationality = "POR"]');
     nodesByCountry();
     //edgesByStyle();
-
+    // Add images from photo_url.
+    cy.nodes().forEach(function( ele ) {
+        if (ele.data().photo_url) {
+	    console.log(ele.data().photo_url)
+            ele.style({
+                'background-image': ele.data().photo_url,
+		'color': 'white',
+		"background-fit": "cover cover",
+		"background-image-opacity": 0.4
+            });
+        }
+    });
 });
 
 
