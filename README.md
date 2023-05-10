@@ -118,10 +118,10 @@ and used precisely for the same reason.
 * -1: Reserved for missing links: to be used sparringly and in situation where it's not at all possible to identify the teacher, but it is possible to link that unknown teacher to someone else.
 * 0: Estimated or based on unreliable evidence (e.g. unsourced comments, sources
   that have conflicting evidence that has shown to be false).
-* 1: Information from indirect sources, like interviews or biographies, with
+* 1: Information from indirect sources, like single interviews or biographies, with
   potential for bias, and without any other direct evidence mentioned.
 * 2: Secondary evidence, data recorded after the event but that directly
-  supports the assertion.
+  supports the assertion, interviews or biographies that independently match each other.
 * 3: Direct and primary evidence, or by dominance of evidence.
 
 
@@ -133,7 +133,7 @@ Some examples:
 * -1: We know that person **A** studied Judo at Wased University during 5 years. We also know that the programme there was composed of teachers that are linked to an existing person **B**, but we do not have information about the specific teacher. In this case, listing **B** as a teacher of **A** with a -1 quality indicator denotes this indirection.
 * 0: We have an article that says "person A studied with person B in 1912", witout providing any further sources.
 * 1: We have an interview with person A saying that they studied with person B, and this is the only reference we have, and we also know that the facts are disputed by others (someone else says that "person A never studied with person B".
-* 2: We have records from official institutitions that mention the specific fact in an indirect way, or we have interviews or other texts that support it in a way that appears unbiased.
+* 2: We have records from official institutitions that mention the specific fact in an indirect way, or we have interviews or other texts that support it in a way that appears unbiased (and that independently confirm it, not relying in a single source).
 * 3: We have access to an official certificate, or we have a multitude of supporting evidence in the form of e.g. independent interviews with different people,
 
 ### Settling disputes
