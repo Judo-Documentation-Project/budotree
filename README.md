@@ -1,4 +1,4 @@
-# Martial Arts Lineage Tree
+# Budō Lineage Tree
 
 ![](images/tree.png)
 ### Judo Documentation Project
