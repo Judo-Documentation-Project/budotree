@@ -248,4 +248,3 @@ We need to balance how to do this with keeping it simple enough - as simple as i
 3. Add a `source->page`or `source->citation` field.
 
 We will implement the first shortly enough; the second is an open discussion, and the third will depend on how much this becomes a real issue.
-
