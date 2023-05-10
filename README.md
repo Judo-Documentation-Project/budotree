@@ -1,9 +1,9 @@
 # Budō Lineage Tree
 
 ![](images/tree.png)
-### Judo Documentation Project
+### Budō Documentation Project
 
-The Martial Arts Lineage Tree is a community-driven database of
+The Budō Lineage Tree is a community-driven database of
 teacher/student interactions, presented as an interactive lineage
 tree.
 
