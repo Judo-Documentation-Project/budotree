@@ -1,0 +1,35 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-42
+  name: Matsui Sanzo
+  native_name: 松井三蔵
+  nationality:
+    - JPN
+  birth: 
+    date: 1861-05-16
+    location: Higashikaji
+    country_code: JPN
+  death:
+    date: 1932-06-8
+    location:
+    country_code: 
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
+    

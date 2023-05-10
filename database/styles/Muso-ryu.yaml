@@ -1,0 +1,14 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-9
+  name: Muso-ryu
+  native_name: 無相流
+  birth: 
+    date: 1592
+    location: Sanuki
+    country_code: JPN  
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81
+    - uri: https://www.ijf.org/news/show/the-first-edition-of-the-arts-and-sciences-of-judo-online-journal

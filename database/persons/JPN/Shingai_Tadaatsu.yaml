@@ -1,0 +1,36 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-40
+  name: Shingai Tadaatsu
+  native_name: 真貝忠篤
+  nationality:
+    - JPN
+  birth: 
+    date: 1842-03-1
+    location: 
+    country_code: JPN
+  death:
+    date: 1920-02-09
+    location:
+    country: JPN
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4
+    - uri: https://en.wikipedia.org/wiki/Kenjutsu
+    - uri: https://en.wikipedia.org/wiki/Tamiya-ry%C5%AB_(Tsumaki)

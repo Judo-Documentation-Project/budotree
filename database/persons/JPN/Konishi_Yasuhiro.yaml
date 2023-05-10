@@ -1,0 +1,78 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-37
+  name:  Konishi Yasuhiro
+  native_name: 小西康裕
+  nationality:
+    - JPN
+  birth: 
+    date: 1893
+    location: Takamatsu, Kagawa
+    country_code: JPN
+  death:
+    date: 1983
+    location: Tokyo
+    country: JPN
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Konishi.JPG/200px-Konishi.JPG
+  teachers:
+    - id: JDP-38
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 1906
+        end:
+      quality: 1
+    - id: JDP-39
+      style_id: JDP-S-8
+      place: 
+      period:
+        start: 1906
+        end:
+      quality: 1
+    - id: JDP-42
+      style_id: JDP-S-9
+      place: 
+      period:
+        start: 1906
+        end:
+      quality: 0            
+    - id: JDP-40
+      style_id: JDP-S-8
+      place: Keiō Gijuku Daigaku
+      period:
+        start: 1913
+        end:
+      quality: 1
+    - id: JDP-41
+      style_id: JDP-S-5
+      place: Keiō Gijuku Daigaku
+      period:
+        start: 1924
+        end:
+      quality: 1
+    - name: Ōtsuka Hironori
+      style_id: JDP-S-5
+      place: Keiō Gijuku Daigaku
+      period:
+        start: 1924
+        end:
+      quality: 1
+    - id: JDP-27
+      style_id: JDP-S-4
+      place: 
+      period:
+        start: 1924
+        end:
+      quality: 1      
+  rank:
+    - style: 
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+    - uri: https://blackbeltmag.com/konishi-yasuhiro
+    - uri: https://www.jkr-uk.org.uk/yasuhiro-konishi

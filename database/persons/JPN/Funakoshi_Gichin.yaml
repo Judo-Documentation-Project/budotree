@@ -1,0 +1,36 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-41
+  name: Funakoshi Gichin
+  native_name: 船越 義珍
+  nationality:
+    - JPN
+  birth: 
+    date: 1868-10-11
+    location: Shuri, Okinawa
+    country_code: JPN
+  death:
+    date: 1957-04-26
+    location: Tokyo
+    country_code: JPN
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/EVD-kumite-002.jpg
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank: 
+  rank:
+    - style_id:
+      org: 
+      teacher:
+      rank: 
+      date: 
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
+    - uri: https://judoinfo.com/karateranks/
+    
