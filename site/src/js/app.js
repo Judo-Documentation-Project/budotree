@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add images from photo_url.
     cy.nodes().forEach(function( ele ) {
         if (ele.data().photo_url) {
-	    console.log(ele.data().photo_url)
+	    //console.log(ele.data().photo_url)
             ele.style({
                 'background-image': ele.data().photo_url,
 		'color': 'white',
@@ -193,7 +193,7 @@ function setDistance(distance) {
 
 distance.addEventListener("change", function () {
     var distanceDisplay = document.getElementById("distanceDisplay");
-    console.log(document.getElementById("distance").textContent = distance.value);
+    //console.log(document.getElementById("distance").textContent = distance.value);
     setDistance(distance.value);
     // distanceDisplay.innerHTML = distance.value;
 
@@ -278,12 +278,12 @@ cy.nodes().bind("tap", (event) => {
     // Prettify the raw JSON
 
     for (var i = 0; i < event.target.data().teachers.length; i++) {
-	    console.log(event.target.data().teachers[i]);
+	    //console.log(event.target.data().teachers[i]);
 	    for (let person of data.elements.nodes) {
 	        if (person.data.id == event.target.data().teachers[i].id) {
-		        console.log(person.data.name);
+		        //console.log(person.data.name);
 		        event.target.data().teachers[i]["name"] = person.data.name;
-		        console.log(event.target.data().teachers[i]);
+		        //console.log(event.target.data().teachers[i]);
 	        }
 	    }
     }
@@ -292,7 +292,7 @@ cy.nodes().bind("tap", (event) => {
     content.appendChild(desc);
     info.innerHTML = content.innerHTML;
     cardTitle.innerHTML = event.target.data().name;
-    console.log("Footer:" + event.target.data());
+    //console.log("Footer:" + event.target.data());
     cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
 
 });
@@ -361,10 +361,9 @@ var stringToColourSimple = function(str) {
 function edgesByQuality () {
     console.log("Setting edges by quality")
     cy.edges().forEach(function(ele) {
-        console.log(ele.data().quality);
+        //console.log(ele.data().quality);
         switch (ele.data().quality) {
         case 3:
-            console.log("Setting for 3");
             ele.style({
                 'line-style': 'solid',
                 'width': 3,
@@ -413,11 +412,9 @@ function edgesByStyle () {
 document.addEventListener('DOMContentLoaded', function() {
     let styleColor = document.getElementById("styleColor");
     styleColor.addEventListener('click', e => {
-	    console.log(style[1]["style"]["line-color"]);
 	    if (e.target.checked) {
             edgesByStyle()
 	    } else {
-            console.log("Resetting styles");
 	        cy.style()
 		        .selector('edge')
 		        .style({
@@ -435,11 +432,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     let quality = document.getElementById("quality");
     quality.addEventListener('click', e => {
-	    console.log(style[1]["style"]["line-type"]);
+	//console.log(style[1]["style"]["line-type"]);
 	    if (e.target.checked) {
             edgesByQuality()
 	    } else {
-            console.log("Resetting styles");
+            //console.log("Resetting styles");
 	        cy.edges().forEach(function(ele) {
                 ele.style({
                     'line-style': 'solid',
