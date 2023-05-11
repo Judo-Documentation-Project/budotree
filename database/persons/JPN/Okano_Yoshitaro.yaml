@@ -18,7 +18,7 @@ person:
     date: 1967-06-02
     location: 
     country: JPN
-  photo_url: http://kodokanjudoinstitute.org/images/doctrine/palace/15_okano.jpg
+  photo_url: https://archive.org/download/okano/okano.jpg
   teachers:
     - name:
       style_id: JDP-S-3

@@ -15,7 +15,7 @@ person:
     date: 1947-04-19
     location:
     country: 
-  photo_url: http://kodokanjudoinstitute.org/images/doctrine/palace/09_isogai_s.jpg
+  photo_url: https://archive.org/download/isogai_hajime/isogai_hajime.jpg
   teachers:
     - id: JDP-9
       style_id: JDP-S-1

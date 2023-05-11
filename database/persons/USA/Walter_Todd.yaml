@@ -14,6 +14,7 @@ person:
     date: 
     location: 
     country:
+  photo_url: https://archive.org/download/walter_todd/walter_todd.jpg    
   teachers:
     - id: JDP-11
       style_id: JDP-S-1

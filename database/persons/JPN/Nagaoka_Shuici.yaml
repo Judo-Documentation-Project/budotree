@@ -5,6 +5,8 @@ person:
   id: JDP-44
   name: Nagaoka Shūichi
   native_name: 永岡 秀一
+  aka:
+    - name: Nagaoka Hideichi
   nationality:
     - JPN
   birth: 
@@ -15,7 +17,7 @@ person:
     date: 1952-11-22
     location:
     country: 
-  photo_url: https://www.judo-ch.jp/english/legend/nagaoka/image/img.jpg
+  photo_url: https://archive.org/download/nagaoka_hideichi/nagaoka_hideichi.jpg
   teachers:
     - name: Noda Kensaburo
       style_id: JDP-S-2
