@@ -14,7 +14,7 @@ person:
     date: 1994-10-7
     location: Petrópolis
     country: BRA
-  photo_url: https://en.wikipedia.org/wiki/File:Carlos_Gracie_(1951).tif    
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg    
   teachers:
     - id: JDP-19
       style_id: JDP-S-1
