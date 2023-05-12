@@ -9,7 +9,7 @@ person:
     - JPN
   birth: 
     date: 1860-12-10
-    location: Kobe, Japan
+    location: Kobe
     country_code: JPN
   death:
     date: 1928-05-04
