@@ -8,11 +8,11 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 1883-4-21
+    date: 1883-04-21
     location: Iwate
     country_code: JPN
   death:
-    date: 1965-1-27
+    date: 1965-01-27
     location: 
     country: JPN
   photo_url: http://bp3.blogger.com/_NjSHIRBuf3Y/SHlsXVS7iGI/AAAAAAAAAk0/d-EnhgFOBPk/s400/kyuzomifune.jpg    
