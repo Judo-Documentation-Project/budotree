@@ -44,7 +44,8 @@
           ],
           "sources": [
             {
-              "uri": "https://www.koryu.com/library/mskoss10.html"
+              "uri": "https://www.koryu.com/library/mskoss10.html",
+              "cite": "Walter Todd: An Interview"
             }
           ],
           "source_yaml": "database/persons/USA/Walter_Todd.yaml"
@@ -97,19 +98,23 @@
           ],
           "sources": [
             {
-              "uri": "https://en.wikipedia.org/wiki/Harold_Sharp"
+              "uri": "https://en.wikipedia.org/wiki/Harold_Sharp",
+              "cite": "Harold Sharp - Wikipedia"
             },
             {
-              "uri": "https://youtu.be/B5B39yYPIlQ?t=169"
+              "uri": "https://youtu.be/B5B39yYPIlQ?t=169",
+              "cite": "Hal Sharp's History - YouTube"
             },
             {
-              "uri": "https://www.usjf.com/2018/02/harold-hal-sharp/"
+              "uri": "https://www.usjf.com/2018/02/harold-hal-sharp/",
+              "cite": "Harold (Hal) Sharp | United States Judo Federation"
             },
             {
               "uri": "urn:isbn:978-0804805421"
             },
             {
-              "uri": "https://blackbeltmag.com/hal-sharp-judo"
+              "uri": "https://blackbeltmag.com/hal-sharp-judo",
+              "cite": "Judo Blog: The Legendary Hal Sharp was a Real Mensch! - Black Belt Magazine"
             }
           ],
           "source_yaml": "database/persons/USA/Harold_Sharp.yaml"
@@ -157,13 +162,15 @@
           ],
           "sources": [
             {
-              "uri": "https://correiodosacores.pt/NewsDetail/ArtMID/383/ArticleID/31195/%E2%80%9CA-not237cia-de-que-iria-aos-Jogos-Ol237mpicos-foi-um-pouco-inesperada-mas-recebida-com-emo231227o-e-alegria%E2%80%9D"
+              "uri": "https://correiodosacores.pt/NewsDetail/ArtMID/383/ArticleID/31195/%E2%80%9CA-not237cia-de-que-iria-aos-Jogos-Ol237mpicos-foi-um-pouco-inesperada-mas-recebida-com-emo231227o-e-alegria%E2%80%9D",
+              "cite": "\n\t “A notícia de que iria aos Jogos Olímpicos foi um pouco inesperada mas recebida com emoção e alegria” - Correio dos Açores\n"
             },
             {
               "uri": "http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf"
             },
             {
-              "uri": "https://judolandia.tripod.com/costamatos-bi.htm"
+              "uri": "https://judolandia.tripod.com/costamatos-bi.htm",
+              "cite": "Costa Matos"
             }
           ],
           "source_yaml": "database/persons/POR/Fernando_Costa_Matos.yaml"
@@ -213,7 +220,8 @@
               "uri": "http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf"
             },
             {
-              "uri": "https://judolandia.tripod.com/bastosnunes.htm"
+              "uri": "https://judolandia.tripod.com/bastosnunes.htm",
+              "cite": "Bastos Nunes"
             }
           ],
           "source_yaml": "database/persons/POR/Basto_Nunes.yaml"
@@ -262,10 +270,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E",
+              "cite": "横山作次郎 - Wikipedia"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
+              "cite": "Kanō Jigorō - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Yokoyama_Sakujiro.yaml"
@@ -313,7 +323,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
+              "cite": "富木謙治 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Ueshiba_Morihei.yaml"
@@ -361,10 +372,12 @@
           ],
           "sources": [
             {
-              "uri": "https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/"
+              "uri": "https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/",
+              "cite": "The iron will of the kendo god Ueda Heitaro – kenshi 24/7"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E",
+              "cite": "植田平太郎 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Ueda_Heitaro.yaml"
@@ -411,7 +424,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E",
+              "cite": "富田常次郎 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Tomita_Tsunejiro.yaml"
@@ -477,7 +491,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
+              "cite": "富木謙治 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Tomiki_Kenji.yaml"
@@ -525,7 +540,8 @@
           ],
           "sources": [
             {
-              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Tamai_Narimichi.yaml"
@@ -561,7 +577,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81",
+              "cite": "起倒流 - Wikipedia"
             },
             {
               "uri": "https://doi.org/10.18002/rama.v13i2.5700"
@@ -600,7 +617,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81",
+              "cite": "起倒流 - Wikipedia"
             },
             {
               "uri": "https://doi.org/10.18002/rama.v13i2.5700"
@@ -639,7 +657,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81",
+              "cite": "起倒流 - Wikipedia"
             },
             {
               "uri": "https://doi.org/10.18002/rama.v13i2.5700"
@@ -690,7 +709,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
+              "cite": "富木謙治 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Takeda_Sokaku.yaml"
@@ -847,28 +867,35 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7",
+              "cite": "杉野嘉男 - Wikipedia"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino",
+              "cite": "Yoshio Sugino - Wikipedia"
             },
             {
-              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm"
+              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm",
+              "cite": "JCS: Kunisaburo Iizuka : Svinth"
             },
             {
-              "uri": "https://www.judo-ch.jp/english/legend/iizuka/"
+              "uri": "https://www.judo-ch.jp/english/legend/iizuka/",
+              "cite": "Kodokan hall of fame | Judo Channel | Token Corporation"
             },
             {
               "uri": "https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/"
             },
             {
-              "uri": "https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/"
+              "uri": "https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 1 – Aikido Journal"
             },
             {
-              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/"
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             },
             {
-              "uri": "https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3"
+              "uri": "https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story"
             }
           ],
           "source_yaml": "database/persons/JPN/Sugino_Yoshio.yaml"
@@ -916,13 +943,16 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4",
+              "cite": "真貝忠篤 - Wikipedia"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Kenjutsu"
+              "uri": "https://en.wikipedia.org/wiki/Kenjutsu",
+              "cite": "Kenjutsu - Wikipedia"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Tamiya-ry%C5%AB_(Tsumaki)"
+              "uri": "https://en.wikipedia.org/wiki/Tamiya-ry%C5%AB_(Tsumaki)",
+              "cite": "Tamiya-ryū (Tsumaki) - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Shingai_Tadaatsu.yaml"
@@ -970,7 +1000,8 @@
           ],
           "sources": [
             {
-              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Shiina_Ichizo.yaml"
@@ -1034,19 +1065,24 @@
           ],
           "sources": [
             {
-              "uri": "https://en.wikipedia.org/wiki/Soshihiro_Satake"
+              "uri": "https://en.wikipedia.org/wiki/Soshihiro_Satake",
+              "cite": "Soshihiro Satake - Wikipedia"
             },
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda"
+              "uri": "https://www.faddabjj.com/historia-fadda",
+              "cite": "HISTÓRIA | FADDA BJJ"
             },
             {
-              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
+              "cite": "The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr.'s Jiu-Jitsu Instructors"
             },
             {
-              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+              "cite": "MITSUYO MAEDA E O JUDÔ KODOKAN"
             }
           ],
           "source_yaml": "database/persons/JPN/Satake_Soshihiro.yaml"
@@ -1131,10 +1167,12 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/"
+              "uri": "http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/",
+              "cite": "岡野好太郎 | 講道館"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81",
+              "cite": "無相流 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Okano_Yoshitaro.yaml"
@@ -1198,10 +1236,12 @@
           ],
           "sources": [
             {
-              "uri": "https://en.wikipedia.org/wiki/Shuichi_Nagaoka"
+              "uri": "https://en.wikipedia.org/wiki/Shuichi_Nagaoka",
+              "cite": "Shuichi Nagaoka - Wikipedia"
             },
             {
-              "uri": "https://www.judo-ch.jp/english/legend/nagaoka/"
+              "uri": "https://www.judo-ch.jp/english/legend/nagaoka/",
+              "cite": "Kodokan hall of fame | Judo Channel | Token Corporation"
             }
           ],
           "source_yaml": "database/persons/JPN/Nagaoka_Shuici.yaml"
@@ -1290,10 +1330,12 @@
           ],
           "sources": [
             {
-              "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/"
+              "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/",
+              "cite": "Interview with Minoru Mochizuki: Part 1 – Aikido Journal"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Minoru_Mochizuki"
+              "uri": "https://en.wikipedia.org/wiki/Minoru_Mochizuki",
+              "cite": "Minoru Mochizuki - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Mochizuki_Minoru.yaml"
@@ -1351,10 +1393,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5"
+              "uri": "https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5",
+              "cite": "三船久蔵 - Wikipedia"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D"
+              "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
+              "cite": "Kanō Jigorō - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Mifune_Kyuzo.yaml"
@@ -1402,7 +1446,8 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5",
+              "cite": "松井三蔵 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Matsui_Sanzo.yaml"
@@ -1464,7 +1509,8 @@
           ],
           "sources": [
             {
-              "uri": "https://en.wikipedia.org/wiki/Mitsuyo_Maeda"
+              "uri": "https://en.wikipedia.org/wiki/Mitsuyo_Maeda",
+              "cite": "Mitsuyo Maeda - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Maeda_Mitsuyo.yaml"
@@ -1512,7 +1558,8 @@
           ],
           "sources": [
             {
-              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Kuboki_Sozaemon.yaml"
@@ -1620,10 +1667,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)",
+              "cite": "小西康裕 (空手家) - Wikipedia"
             },
             {
-              "uri": "https://blackbeltmag.com/konishi-yasuhiro"
+              "uri": "https://blackbeltmag.com/konishi-yasuhiro",
+              "cite": "Karate’s Forgotten Pioneer - Black Belt Magazine"
             },
             {
               "uri": "https://www.jkr-uk.org.uk/yasuhiro-konishi"
@@ -1673,19 +1722,23 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/"
+              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/",
+              "cite": "講道館創立１３０周年記念式典・祝賀会 | 講道館"
             },
             {
-              "uri": "http://kodokanjudoinstitute.org/magazine/201401/"
+              "uri": "http://kodokanjudoinstitute.org/magazine/201401/",
+              "cite": "機関誌「柔道」 | 講道館"
             },
             {
-              "uri": "https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/"
+              "uri": "https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/",
+              "cite": "Judo father Sensei Kiyoshi Kobayashi passed away - European Judo Union"
             },
             {
               "uri": "http://archive.today/YkEjw"
             },
             {
-              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item"
+              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item",
+              "cite": "O Judo em Portugal"
             }
           ],
           "source_yaml": "database/persons/JPN/Kobayashi_Kiyoshi.yaml"
@@ -1763,13 +1816,16 @@
               "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws"
             },
             {
-              "uri": "https://doi.org/10.4471/hse.2013.15"
+              "uri": "https://doi.org/10.4471/hse.2013.15",
+              "cite": "View of The Origins of the French Teaching Method of Judo (1936-1967): Acculturation, International Sporting Stakes and Gaullism"
             },
             {
-              "uri": "https://judoinfo.com/kawaishi/"
+              "uri": "https://judoinfo.com/kawaishi/",
+              "cite": "Mikonosuke Kawaishi: Judo Teacher in Europe | Judo Info"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9",
+              "cite": "川石酒造之助 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Kawaishi_Mikinosuke.yaml"
@@ -1852,16 +1908,15 @@
           ],
           "sources": [
             {
-              "uri": "https://isbnsearch.org/isbn/9781425163495",
-              "cite": "WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008."
+              "uri": "https://isbnsearch.org/isbn/9781425163495"
             },
             {
               "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
-              "cite": "Kanō Jigorō: Wikipedia entry."
+              "cite": "Kanō Jigorō - Wikipedia"
             },
             {
               "uri": "https://doi.org/10.18002/rama.v9i2.1162",
-              "cite": "DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96."
+              "cite": "\n\t\tNanatsu-no-kata, Endo-no-kata, and Joge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo\n\t\t\t\t\t\t\t| Revista de Artes Marciales Asiáticas\n\t\t\t"
             }
           ],
           "source_yaml": "database/persons/JPN/Kano_Jigoro.yaml"
@@ -1917,7 +1972,8 @@
               "uri": "https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino"
+              "uri": "https://en.wikipedia.org/wiki/Yoshio_Sugino",
+              "cite": "Yoshio Sugino - Wikipedia"
             },
             {
               "uri": "urn:isbn:9784770026194"
@@ -1968,7 +2024,8 @@
           ],
           "sources": [
             {
-              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2"
+              "uri": "https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2",
+              "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Ito_Tanekichi.yaml"
@@ -2017,10 +2074,12 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/en/doctrine/palace/"
+              "uri": "http://kodokanjudoinstitute.org/en/doctrine/palace/",
+              "cite": "Kodokan Hall of Fame | Kodokan Judo Institute"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Hajime_Isogai"
+              "uri": "https://en.wikipedia.org/wiki/Hajime_Isogai",
+              "cite": "Hajime Isogai - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Isogai_Hajime.yaml"
@@ -2048,10 +2107,12 @@
           ],
           "sources": [
             {
-              "uri": "http://www.tenyokai.com/history.html"
+              "uri": "http://www.tenyokai.com/history.html",
+              "cite": "TENYOKAI INTERNATIONAL"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA",
+              "cite": "磯正智 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Iso_Masatomo.yaml"
@@ -2093,10 +2154,12 @@
           ],
           "sources": [
             {
-              "uri": "http://www.tenyokai.com/history.html"
+              "uri": "http://www.tenyokai.com/history.html",
+              "cite": "TENYOKAI INTERNATIONAL"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80",
+              "cite": "磯又右衛門 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Iso_Masatari_Mataemon.yaml"
@@ -2152,10 +2215,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E",
+              "cite": "奥澤敬太郎 - Wikipedia"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E",
+              "cite": "横山作次郎 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Inoue_Keitaro.yaml"
@@ -2203,10 +2268,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm"
+              "uri": "https://ejmas.com/jcs/jcsart_svinth_0702.htm",
+              "cite": "JCS: Kunisaburo Iizuka : Svinth"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E"
+              "uri": "https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E",
+              "cite": "飯塚国三郎 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Iizuka_Kunisaburu.yaml"
@@ -2243,10 +2310,12 @@
           ],
           "sources": [
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81"
+              "uri": "https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81",
+              "cite": "起倒流 - Wikipedia"
             },
             {
-              "uri": "https://doi.org/10.18002/rama.v9i2.1162"
+              "uri": "https://doi.org/10.18002/rama.v9i2.1162",
+              "cite": "\n\t\tNanatsu-no-kata, Endo-no-kata, and Joge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo\n\t\t\t\t\t\t\t| Revista de Artes Marciales Asiáticas\n\t\t\t"
             }
           ],
           "source_yaml": "database/persons/JPN/Iikubo_Tsunetoshi.yaml"
@@ -2294,10 +2363,12 @@
           ],
           "sources": [
             {
-              "uri": "https://en.wikipedia.org/wiki/Gichin_Funakoshi"
+              "uri": "https://en.wikipedia.org/wiki/Gichin_Funakoshi",
+              "cite": "Gichin Funakoshi - Wikipedia"
             },
             {
-              "uri": "https://judoinfo.com/karateranks/"
+              "uri": "https://judoinfo.com/karateranks/",
+              "cite": "How the masters got their ranks: the origins of karate ranks | Judo Info"
             }
           ],
           "source_yaml": "database/persons/JPN/Funakoshi_Gichin.yaml"
@@ -2330,10 +2401,12 @@
           ],
           "sources": [
             {
-              "uri": "http://www.tenyokai.com/history.html"
+              "uri": "http://www.tenyokai.com/history.html",
+              "cite": "TENYOKAI INTERNATIONAL"
             },
             {
-              "uri": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9"
+              "uri": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9",
+              "cite": "福田八之助 - Wikipedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Fukuda_Hachinosuke.yaml"
@@ -2390,19 +2463,24 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda"
+              "uri": "https://www.faddabjj.com/historia-fadda",
+              "cite": "HISTÓRIA | FADDA BJJ"
             },
             {
-              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
+              "cite": "The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr.'s Jiu-Jitsu Instructors"
             },
             {
-              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+              "cite": "MITSUYO MAEDA E O JUDÔ KODOKAN"
             },
             {
-              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
+              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie",
+              "cite": "Carlos Gracie – Wikipédia, a enciclopédia livre"
             }
           ],
           "source_yaml": "database/persons/BRA/Luis_de_França_Filho.yaml"
@@ -2447,10 +2525,12 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
+              "cite": "The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr.'s Jiu-Jitsu Instructors"
             }
           ],
           "source_yaml": "database/persons/BRA/Jacinto_Ferro.yaml"
@@ -2496,10 +2576,12 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
+              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
             },
             {
-              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+              "cite": "MITSUYO MAEDA E O JUDÔ KODOKAN"
             }
           ],
           "source_yaml": "database/persons/BRA/Donato_Pires_dos_reis.yaml"
@@ -2556,16 +2638,20 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
+              "cite": "The Lost Legend of Jacyntho Ferro, One of Carlos Gracie Sr.'s Jiu-Jitsu Instructors"
             },
             {
-              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+              "cite": "MITSUYO MAEDA E O JUDÔ KODOKAN"
             },
             {
-              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
+              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie",
+              "cite": "Carlos Gracie – Wikipédia, a enciclopédia livre"
             }
           ],
           "source_yaml": "database/persons/BRA/Carlos_Gracie.yaml"
@@ -2575,7 +2661,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP5fff4266e87fa",
+          "id": "JDP4e512ee120e9b",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-24",
           "target": "JDP-11",
@@ -2586,7 +2672,7 @@
       },
       {
         "data": {
-          "id": "JDPc26da37fb7894",
+          "id": "JDP1017cb4e2033d",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-25",
           "target": "JDP-12",
@@ -2597,7 +2683,7 @@
       },
       {
         "data": {
-          "id": "JDPf3aa98dc706e7",
+          "id": "JDP3b75fcca666c8",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-15",
           "target": "JDP-12",
@@ -2607,7 +2693,7 @@
       },
       {
         "data": {
-          "id": "JDP5a091cd79c7f5",
+          "id": "JDP5f59fce877bda",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-16",
           "target": "JDP-12",
@@ -2617,7 +2703,7 @@
       },
       {
         "data": {
-          "id": "JDPd9bec8e03a305",
+          "id": "JDP886e2dd8843ff",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
@@ -2627,7 +2713,7 @@
       },
       {
         "data": {
-          "id": "JDP6319ddc15c903",
+          "id": "JDPfcdf5c57d1cdb",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
@@ -2637,7 +2723,7 @@
       },
       {
         "data": {
-          "id": "JDP08dd7964f4621",
+          "id": "JDPcf8aa37677d13",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-27",
           "target": "JDP-28",
@@ -2652,7 +2738,7 @@
       },
       {
         "data": {
-          "id": "JDP6f561609250e9",
+          "id": "JDP6ebe12bbd7e8",
           "name": "Kanō Jigorō (Kodokan Judo) Tomita Tsunejirō",
           "source": "JDP-17",
           "target": "JDP-1",
@@ -2662,7 +2748,7 @@
       },
       {
         "data": {
-          "id": "JDP0a9b04da20b0d",
+          "id": "JDPedbd6c99131ba",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-1",
@@ -2677,7 +2763,7 @@
       },
       {
         "data": {
-          "id": "JDP47261245d664e",
+          "id": "JDP6b028dd003649",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-27",
@@ -2687,7 +2773,7 @@
       },
       {
         "data": {
-          "id": "JDP58eb4c2aacf8f",
+          "id": "JDP13298f2b2c5a4",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
@@ -2697,7 +2783,7 @@
       },
       {
         "data": {
-          "id": "JDPebf491e87380e",
+          "id": "JDP076caafe8f282",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
@@ -2707,7 +2793,7 @@
       },
       {
         "data": {
-          "id": "JDP6cac37bf67679",
+          "id": "JDP04c23e210e23a",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
@@ -2717,7 +2803,7 @@
       },
       {
         "data": {
-          "id": "JDPdaa568bbfb1ab",
+          "id": "JDPbba995700e00f",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-31",
@@ -2728,7 +2814,7 @@
       },
       {
         "data": {
-          "id": "JDPb9921a1f363c5",
+          "id": "JDP186d254e0da3",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-27",
@@ -2739,7 +2825,7 @@
       },
       {
         "data": {
-          "id": "JDPd25e9762d3a8e",
+          "id": "JDPa9e4a21440879",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-32",
@@ -2750,7 +2836,7 @@
       },
       {
         "data": {
-          "id": "JDP82970bd2b766f",
+          "id": "JDPf4c0748a93567",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-33",
@@ -2761,7 +2847,7 @@
       },
       {
         "data": {
-          "id": "JDP93a0cf86d2f6e",
+          "id": "JDP4688923758d4",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-34",
@@ -2772,7 +2858,7 @@
       },
       {
         "data": {
-          "id": "JDPf63da7ce14d64",
+          "id": "JDPcfad8efbca62e",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-35",
@@ -2783,7 +2869,7 @@
       },
       {
         "data": {
-          "id": "JDP13d7d0ec9514a",
+          "id": "JDP5052e9b2ef63b",
           "name": "Kanaya Genro (false) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-36",
@@ -2794,7 +2880,7 @@
       },
       {
         "data": {
-          "id": "JDPd544ea615ddf6",
+          "id": "JDP575d1d91446a6",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-17",
@@ -2805,7 +2891,7 @@
       },
       {
         "data": {
-          "id": "JDP4c101d150689c",
+          "id": "JDP40473c8e91967",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-1",
@@ -2816,7 +2902,7 @@
       },
       {
         "data": {
-          "id": "JDPa5df207917376",
+          "id": "JDPc2ce13aba8725",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-42",
@@ -2827,7 +2913,7 @@
       },
       {
         "data": {
-          "id": "JDPcf789a4d6fa7d",
+          "id": "JDPbc33ca7d75485",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-43",
@@ -2838,7 +2924,7 @@
       },
       {
         "data": {
-          "id": "JDPc5be015e331c1",
+          "id": "JDPfc7223051f8b",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-44",
@@ -2849,7 +2935,7 @@
       },
       {
         "data": {
-          "id": "JDPe2e753d0439b2",
+          "id": "JDPe6bcf54dfa785",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-44",
           "target": "JDP-1",
@@ -2859,7 +2945,7 @@
       },
       {
         "data": {
-          "id": "JDP17e4ae617bdef",
+          "id": "JDPd5c0b99e1cc51",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-1",
@@ -2869,7 +2955,7 @@
       },
       {
         "data": {
-          "id": "JDP5cdd3d53bd74c",
+          "id": "JDP406dcae6233f7",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-11",
@@ -2879,7 +2965,7 @@
       },
       {
         "data": {
-          "id": "JDP6916ea445eb9f",
+          "id": "JDPa8cb927acd578",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-27",
@@ -2889,7 +2975,7 @@
       },
       {
         "data": {
-          "id": "JDP205bcc2b20038",
+          "id": "JDP39c553a2c6fe8",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
@@ -2899,7 +2985,7 @@
       },
       {
         "data": {
-          "id": "JDP4924d600d3a98",
+          "id": "JDP65cbe3e98ad57",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
@@ -2909,7 +2995,7 @@
       },
       {
         "data": {
-          "id": "JDP0ef240cf1adc9",
+          "id": "JDP19cda28b8679b",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-18",
           "target": "JDP-17",
@@ -2919,7 +3005,7 @@
       },
       {
         "data": {
-          "id": "JDP79588e7d1c76b",
+          "id": "JDP3c3144806e77c",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-38",
@@ -2930,7 +3016,7 @@
       },
       {
         "data": {
-          "id": "JDP802aafef00b52",
+          "id": "JDPdf9da5f4c2a21",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-39",
@@ -2941,7 +3027,7 @@
       },
       {
         "data": {
-          "id": "JDP030f6bf4fa6df",
+          "id": "JDP22a6eb8214f62",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-42",
@@ -2952,7 +3038,7 @@
       },
       {
         "data": {
-          "id": "JDPf31b26e07d46d",
+          "id": "JDP44bfbf73091f2",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-40",
@@ -2963,7 +3049,7 @@
       },
       {
         "data": {
-          "id": "JDP8f720cfecc73b",
+          "id": "JDPb4abdfa565709",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-41",
@@ -2974,7 +3060,7 @@
       },
       {
         "data": {
-          "id": "JDPd1088d5ac332a",
+          "id": "JDPb73e288e5460f",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-27",
@@ -2985,7 +3071,7 @@
       },
       {
         "data": {
-          "id": "JDP39c4f4cf7cb4c",
+          "id": "JDP76b0c8ea4a7c4",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
@@ -2995,7 +3081,7 @@
       },
       {
         "data": {
-          "id": "JDP7b766f2774c5b",
+          "id": "JDPe2b5b8467671f",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
@@ -3005,7 +3091,7 @@
       },
       {
         "data": {
-          "id": "JDP4a7b2411933d7",
+          "id": "JDPf584aec30328a",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
@@ -3016,7 +3102,7 @@
       },
       {
         "data": {
-          "id": "JDPc933a3f07de0a",
+          "id": "JDP2ed5ac73c962a",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
@@ -3027,7 +3113,7 @@
       },
       {
         "data": {
-          "id": "JDP09d501153b8ec",
+          "id": "JDP6fb2fb69c728f",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
@@ -3038,7 +3124,7 @@
       },
       {
         "data": {
-          "id": "JDP89fb30923be4",
+          "id": "JDPf15c216076ada",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-43",
           "target": "JDP-9",
@@ -3048,7 +3134,7 @@
       },
       {
         "data": {
-          "id": "JDPaaa88e550dffc",
+          "id": "JDP282a436d89ac5",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
@@ -3057,7 +3143,7 @@
       },
       {
         "data": {
-          "id": "JDP1dc4e27d2e9a7",
+          "id": "JDP510b2910fa4f5",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
@@ -3067,7 +3153,7 @@
       },
       {
         "data": {
-          "id": "JDP1a3f7f5aa6918",
+          "id": "JDP663ffc3e3d558",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-31",
           "target": "JDP-9",
@@ -3077,7 +3163,7 @@
       },
       {
         "data": {
-          "id": "JDPf867c3ff38ba4",
+          "id": "JDPb261570aab334",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
@@ -3087,7 +3173,7 @@
       },
       {
         "data": {
-          "id": "JDP0a744dd05900c",
+          "id": "JDP6287d56db228b",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
@@ -3097,7 +3183,7 @@
       },
       {
         "data": {
-          "id": "JDP9fd6aadb8abbf",
+          "id": "JDPe74a1e6f59e8c",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-22",
@@ -3108,7 +3194,7 @@
       },
       {
         "data": {
-          "id": "JDPa4a55a620fef3",
+          "id": "JDP2ed79d5634291",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-18",
@@ -3119,7 +3205,7 @@
       },
       {
         "data": {
-          "id": "JDP12d5e6534c16f",
+          "id": "JDP13be8bb446d89",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-19",
           "target": "JDP-18",
@@ -3129,7 +3215,7 @@
       },
       {
         "data": {
-          "id": "JDP9792a443c4869",
+          "id": "JDP8ddcf5616bfa6",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-23",
           "target": "JDP-18",
@@ -3140,7 +3226,7 @@
       },
       {
         "data": {
-          "id": "JDP4da8b991df72",
+          "id": "JDP7e058fc0cf7c",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-19",
@@ -3151,7 +3237,7 @@
       },
       {
         "data": {
-          "id": "JDP808caab56db4d",
+          "id": "JDP6871e53751ccc",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-18",
