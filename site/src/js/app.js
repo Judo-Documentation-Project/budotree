@@ -7,6 +7,8 @@ import BubbleSets from 'cytoscape-bubblesets';
 import $ from 'jquery';
 const { DateTime } = require("luxon");
 const Mustache = require('mustache');
+const countries = require("i18n-iso-countries");
+countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
 
 cytoscape.use( elk );
 cytoscape.use( cola );
@@ -257,6 +259,16 @@ cy.nodes().bind("tap", (event) => {
 	};
     };
 
+
+    event.target.data().birth["country_local"] = function () {
+	return countries.getName(this.country_code, "en");
+    };
+    
+    event.target.data().death["country_local"] = function () {
+	return countries.getName(this.country_code, "en");
+    };
+    
+    
     if (event.target.data().birth.date) {
 	event.target.data().birth.date_local =  DateTime.fromISO(event.target.data().birth.date).toFormat("yyyy");
     };
