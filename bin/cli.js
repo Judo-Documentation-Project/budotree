@@ -12,8 +12,8 @@ var dir = argv.dir;
 var targetFile = argv.file;
 console.log("JDP database parsing started.");
 console.log(`Database dir: ${dir}, target file: ${targetFile}`);
-//var dir  = '/home/frmuno/src/lisp/judotree/database/persons/JPN';
 
-// FIXME: this should be another option with path
 styles = pY.importStylesYAML("database/styles");
-pY.writeJSON(pY.createCYJS(pY.importYAML(dir), styles), targetFile);
+let database = pY.importYAML(dir);
+pY.updateSources(database)
+    .then(v => pY.writeJSON(pY.createCYJS(database, styles), targetFile))
