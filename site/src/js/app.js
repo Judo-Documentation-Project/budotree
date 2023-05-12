@@ -266,6 +266,8 @@ cy.nodes().bind("tap", (event) => {
     cardTitle.innerHTML = event.target.data().name;
     const rendered = Mustache.render(template, event.target.data());
     document.getElementById('info').innerHTML = rendered;
+    cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
+
 });
     
 document.addEventListener('DOMContentLoaded', function() {
