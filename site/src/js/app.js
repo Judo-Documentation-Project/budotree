@@ -5,6 +5,8 @@ import cise from 'cytoscape-cise';
 import fcose from 'cytoscape-fcose';
 import BubbleSets from 'cytoscape-bubblesets';
 import $ from 'jquery';
+const { DateTime } = require("luxon");
+const Mustache = require('mustache');
 
 cytoscape.use( elk );
 cytoscape.use( cola );
@@ -225,79 +227,46 @@ var gitRoot = "https://github.com/Judo-Documentation-Project/judotree/tree/main/
 var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
 var cardFooter = document.getElementById("card-footer");
-var jsonMakeHTML = require('json-make-html');
-var jsargs = {
-    separator : ': ',
-    iterator : 3,
-    wrapper : {
-        before : '',
-        class : 'jsonhtml',
-        elem : 'ul',
-        after : ''
-    },
-    child : {
-        before : '',
-        class : 'jsonhtml__singlechild',
-        elem : 'li',
-        titleClass : 'jsonhtml__parent',
-        titleElem : 'p',
-        after : ''
-    },
-    css :{
-        title : '',//'margin: 9px 0 0;color:#BA584C;',
-        wrapperElem : '',
-        childElem : '',//'list-style-type:none;',
-        childElemNested : 'margin-left: 18px;'
-    }
-
-};
-
 
 
 cy.nodes().bind("tap", (event) => {
-
-    let content = document.createElement("div");
-    var nativeName = document.createElement("p");
-    var img = document.createElement("img");
-    var desc = document.createElement("p");
-
-    if (event.target.isNode()) {
-	    if (event.target.data().photo_url) {
-	        img.src = event.target.data().photo_url;
-	        img.width = 100;
-	        content.appendChild(img);
-	    }
-    } else {
-	    content.innerHTML = event.target.data().place;
-    }
-
-    if (event.target.data().description) {
-	    desc.innerHTML = event.target.data().description;
-	    content.appendChild(desc);
-    }
-    // Prettify the raw JSON
+    const template = document.getElementById('template').innerHTML;
 
     for (var i = 0; i < event.target.data().teachers.length; i++) {
+	//console.log(event.target.data().teachers[i]);
+	for (let person of data.elements.nodes) {
+	    if (person.data.id == event.target.data().teachers[i].id) {
+		//console.log(person.data.name);
+		event.target.data().teachers[i]["name"] = person.data.name;
+		//console.log(event.target.data().teachers[i]);
+	    }
+	}
+
+    };
+
+    if (event.target.data().rank) {
+	for (var i = 0; i < event.target.data().rank.length; i++) {
 	    //console.log(event.target.data().teachers[i]);
 	    for (let person of data.elements.nodes) {
-	        if (person.data.id == event.target.data().teachers[i].id) {
-		        //console.log(person.data.name);
-		        event.target.data().teachers[i]["name"] = person.data.name;
-		        //console.log(event.target.data().teachers[i]);
-	        }
+		if (person.data.id == event.target.data().rank[i].teacher_id) {
+		    //console.log(person.data.name);
+		    event.target.data().rank[i]["teacher_name"] = person.data.name;
+		    //console.log(event.target.data().teachers[i]);
+		}
 	    }
-    }
-    var html = jsonMakeHTML.make(event.target.data(),jsargs);
-    desc.innerHTML = html;
-    content.appendChild(desc);
-    info.innerHTML = content.innerHTML;
+	};
+    };
+
+    if (event.target.data().birth.date) {
+	event.target.data().birth.date_local =  DateTime.fromISO(event.target.data().birth.date).toFormat("yyyy");
+    };
+    if (event.target.data().death.date) {
+	event.target.data().death.date_local =  DateTime.fromISO(event.target.data().death.date).toFormat("yyyy");
+    };
     cardTitle.innerHTML = event.target.data().name;
-    //console.log("Footer:" + event.target.data());
-    cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
-
+    const rendered = Mustache.render(template, event.target.data());
+    document.getElementById('info').innerHTML = rendered;
 });
-
-
     
 document.addEventListener('DOMContentLoaded', function() {
 	let cardToggles = document.getElementsByClassName('card-toggle');

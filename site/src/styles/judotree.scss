@@ -12,9 +12,6 @@ $primary: red;
 @import '../../node_modules/bulma-switch/src/sass/index.sass';
 
 
-
-
-
 //body {
 //    background-color: white;    
 //}
@@ -45,14 +42,15 @@ li p{
 }
 
 .info li {
-  list-style-type: none;
-  margin: 0;
+  alist-style-type: none;
+  margin-left: 10px;
   padding: 0;
 }
 
 .info ul {
    margin: 0;
-  padding: 0;
+   padding: 0;
+   
 }
 .info img {
   display: block;    
@@ -63,9 +61,49 @@ li p{
   margin-top: 10px;
 }
 
+.info h1 {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.info .birth {
+    font-size: 0.7rem;
+    text-align: center;    
+}
+h1.name  {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #0f2540;
+    text-align: center;    
+}
+
+.info .native-name  {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0f2540;
+    text-align: center;    
+}
+
+.info h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #cb4042;    
+}
+
+.info dt {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.info dt {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
 .info {
     position: fixed;
-    font-weight: 900;
+    font-weight: 500;
     top: 100px;
     left: 20px;
     _width: 20vw;

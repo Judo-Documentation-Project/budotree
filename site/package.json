@@ -12,6 +12,8 @@
         "cytoscape-bubblesets": "^3.2.0",
         "cytoscape-fcose": "^2.2.0",
         "cytoscape-layers": "^2.3.1",
+        "luxon": "^3.3.0",
+        "mustache": "^4.2.0",
         "parcel": "^2.8.3",
         "util": "^0.12.5"
     },
@@ -25,7 +27,6 @@
         "cytoscape-elk": "^2.1.0",
         "cytoscape-popper": "^2.0.0",
         "jquery": "^3.6.4",
-        "json-make-html": "^1.0.7",
         "popper": "^1.0.1",
         "tachyons": "^4.12.0",
         "web-worker": "^1.2.0"

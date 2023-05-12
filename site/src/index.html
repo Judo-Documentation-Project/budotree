@@ -116,6 +116,48 @@
       <div class="card-content is-hidden">
 	<div class="content p-0">
 	  <div id="info" class="is-size-6"></div>
+	  <script id="template" type="x-tmpl-mustache">
+    <p class="birth">
+    {{#birth}}
+	    * {{date_local}} {{location}} {{country_code}}
+	    {{/birth}}
+    -
+    {{#death}}
+	     † {{date_local}} {{location}} {{country_code}}
+    {{/death}}
+
+    </p>
+    <img src="{{photo_url}}"/>
+    <p class="native-name">{{native_name}}</p>
+    <p class="description">{{description}}</p>
+    
+    <h2>Teachers</h2>
+    {{#teachers}}
+    <ul>
+    <li>{{name}}</li>
+    </ul>
+    {{/teachers}}
+    <h2>Rank</h2>
+    {{#rank}}
+    <ul>
+      <li><b>{{style}}</b>: {{rank}} ({{teacher_name}} {{org}} )
+      </li>
+    </ul>
+    {{/rank}}
+
+    <h2>Sources</h2>
+      {{#sources}}
+      <ul>
+      {{#cite}}
+      <li><a href="{{uri}}" target="_blank">{{cite}}</a></li
+      {{/cite}}
+      {{^cite}}
+      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li
+      {{/cite}}
+      </ul>
+      {{/sources}}
+
+	  </script>
 	</div>
       </div>
       <footer class="card-footer">
@@ -125,12 +167,15 @@
 
     <footer class="footer _has-text-white is-size-7 is-hidden-mobile">
       <div class="content has-text-centered">
+
+
+	
 	<p>
 	  <strong>Judotree</strong> by <a href="https://fsmunoz.github.io">Frederico Muñoz</a>, <em>Judo Documentation Project</em>. The source code is licensed
 	  <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
 	  The website is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
 	</p>
-      </div>
+      </div> 
     </footer>
     
   </body>
