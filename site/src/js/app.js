@@ -237,7 +237,7 @@ cy.nodes().bind("tap", (event) => {
 	for (let person of data.elements.nodes) {
 	    if (person.data.id == event.target.data().teachers[i].id) {
 		//console.log(person.data.name);
-		event.target.data().teachers[i]["name"] = person.data.name;
+		event.target.data().teachers[i]["teacher_name"] = person.data.name;
 		//console.log(event.target.data().teachers[i]);
 	    }
 	}

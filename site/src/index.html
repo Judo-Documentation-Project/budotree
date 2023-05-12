@@ -134,13 +134,21 @@
     <h2>Teachers</h2>
     {{#teachers}}
     <ul>
-    <li>{{name}}</li>
+    <li>{{teacher_name}}</li>
     </ul>
     {{/teachers}}
     <h2>Rank</h2>
     {{#rank}}
-    <ul>
-      <li><b>{{style}}</b>: {{rank}} ({{teacher_name}} {{org}} )
+      <ul>
+      {{#style}}
+      <li><b>{{style}}</b>: {{rank}}
+      {{#teacher_name}}
+      ({{teacher_name}} {{org}})
+      {{/teacher_name}}
+      {{#org}}
+      ({{teacher_name}} {{org}})
+      {{/org}}
+      {{/style}}
       </li>
     </ul>
     {{/rank}}
