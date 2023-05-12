@@ -225,7 +225,7 @@ function show_image(src, width, height, alt) {
 }
 
 
-var gitRoot = "https://github.com/Judo-Documentation-Project/judotree/tree/main/";
+var gitRoot = "https://github.com/Judo-Documentation-Project/budotree/tree/main/";
 var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
 var cardFooter = document.getElementById("card-footer");
