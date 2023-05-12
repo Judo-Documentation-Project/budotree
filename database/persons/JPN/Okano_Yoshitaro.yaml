@@ -50,7 +50,7 @@ person:
       quality: 1
       
   rank:
-    - style: JDP-S-1
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 10 dan
@@ -58,4 +58,3 @@ person:
   sources:
     - uri: http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
     - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81
-    
