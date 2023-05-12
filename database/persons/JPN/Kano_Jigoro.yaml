@@ -57,15 +57,18 @@ person:
       year:
     - style: Kitō-ryū
       org: 
-      teacher: JDP-5
+      teacher_id: JDP-5
       rank: Menkyo kaiden
       year:
     - style: Tenjin Shin'yō-ryū
       org: 
-      teacher: JDP-4
+      teacher_id: JDP-4
       rank: Menkyo kaiden
       year:
   sources:
-    - uri: urn:isbn:978-1425163495
+    - uri: https://isbnsearch.org/isbn/9781425163495
+      cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      cite: "Kanō Jigorō: Wikipedia entrey."
     - uri: https://doi.org/10.18002/rama.v9i2.1162
+      cite: "DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96."

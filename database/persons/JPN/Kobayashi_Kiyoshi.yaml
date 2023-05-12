@@ -8,11 +8,11 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 9-4-1925
+    date: 1925-04-09
     location: Gunma
     country_code: JPN
   death:
-    date: 9-4-2013
+    date: 2013-04-09
     location: 
     country: JPN
   photo_url: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC    

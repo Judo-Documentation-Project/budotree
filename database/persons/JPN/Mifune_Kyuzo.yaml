@@ -8,7 +8,7 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 21-4-1883
+    date: 1883-4-21
     location: Iwate
     country_code: JPN
   death:
