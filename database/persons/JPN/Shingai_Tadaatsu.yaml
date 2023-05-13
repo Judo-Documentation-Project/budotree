@@ -8,7 +8,7 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 1842-03-1
+    date: 1842-03-01
     location: 
     country_code: JPN
   death:
