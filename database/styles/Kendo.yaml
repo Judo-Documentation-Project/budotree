@@ -1,0 +1,13 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-8
+  name: Kendo
+  native_name: 剣道
+  birth: 
+    date: 1912
+    location: 
+    country_code: JPN  
+  sources:
+    - uri: https://www.kendo.or.jp/en/knowledge/kendo-history/

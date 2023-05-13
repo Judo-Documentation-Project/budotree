@@ -2,12 +2,15 @@
 ---
 
 style:
-  id: JDP-S-8
-  name: Kendo
-  native_name: 剣道
+  id: JDP-S-7
+  name: Yōshin-ryū
+  native_name: 楊心流
+  aka:
+    - name: Yōshin Koryū
+      native_name: 楊心古流
   birth: 
-    date: 1912
-    location: 
+    date: 1610
+    location:
     country_code: JPN  
   sources:
-    - uri: https://www.kendo.or.jp/en/knowledge/kendo-history/
+    - uri: https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB
