@@ -41,9 +41,10 @@ li p{
     color: #cb4042;
 }
 
-.info.sources a {
+.sources a {
     text-transform: capitalize
 }
+
 .info li {
   alist-style-type: none;
   margin-left: 10px;
@@ -132,23 +133,6 @@ h1.name  {
     padding: 10px;
     background-color: white;
 
-}
-.popper-div { // fill free to modify as you prefer
-    position: fixed;
-    top:100px;
-    left: 10px;
-    background-color: #333;
-    color: red;
-    border-radius: 4px;
-    font-size: 12px;
-    line-height: 1.4;
-    outline: 0;
-    padding: 5px 9px;
-    max-width: 15vw;
-    max-height: 60vw;
-    box-sizing: border-box;
-    overflow: auto;
-    z-index: 10;
 }
 
 
