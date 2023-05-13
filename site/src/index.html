@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Budō Lineage Tree</title>
+    <meta name="description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open">
+    <meta name="author" content="Frederico Muñoz">    
     <meta property="og:title" content="Budō Lineage Tree">
-    <meta name="twitter:title" content="Budō Lineage Tree">    
-    <meta name="description" content="Interactive Budõ lineage tree">
-    <meta property="og:description" content="Interactive Budõ lineage tree">
-    <meta name="twitter:description" content="Interactive Budõ lineage tree">
-    <meta property="og:image" content="images/preview.png">
+    <meta property="og:description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open">
+    <meta property="og:image" content="images/preview.png">    
+    <meta name="twitter:title" content="Budō Lineage Tree">
+    <meta name="twitter:description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open">
     <meta name="twitter:image" content="images/preview.png">
+    <meta name="twitter:site" content="@fredericomunoz">
+    <meta name="twitter:card" content="summary_large_image">    
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/judotree.scss" />
     <script type="module" src="js/app.js"></script>
@@ -157,17 +160,16 @@
 
     <h2>Sources</h2>
       {{#sources}}
-      <ul>
+      <ul>      
       {{#cite}}
-      <li><a  class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li
+      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
       {{/cite}}
       {{^cite}}
-      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li
-      {{/cite}}
-      </ul>
+      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+	{{/cite}}
+	</ul>
       {{/sources}}
-
-	  </script>
+</script>
 	</div>
       </div>
       <footer class="card-footer">

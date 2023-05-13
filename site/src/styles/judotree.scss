@@ -41,7 +41,7 @@ li p{
     color: #cb4042;
 }
 
-.info a {
+.info.sources a {
     text-transform: capitalize
 }
 .info li {
@@ -53,7 +53,7 @@ li p{
 .info ul {
    margin: 0;
    padding: 0;
-   
+   list-style: disc;
 }
 .info img {
   display: block;    
