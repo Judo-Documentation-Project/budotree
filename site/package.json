@@ -16,6 +16,7 @@
         "luxon": "^3.3.0",
         "mustache": "^4.2.0",
         "parcel": "^2.8.3",
+        "parcel-transformer-ogimage": "^1.0.3",
         "util": "^0.12.5"
     },
     "dependencies": {
