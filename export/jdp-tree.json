@@ -93,7 +93,8 @@
               "teacher": null,
               "rank": "10 dan",
               "date": 2020,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -157,7 +158,8 @@
               "teacher": null,
               "rank": "9 dan",
               "date": 2019,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -212,7 +214,8 @@
               "teacher": null,
               "rank": "9 dan",
               "date": 2019,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -285,7 +288,7 @@
         "data": {
           "id": "JDP-27",
           "name": "Ueshiba Morihei",
-          "native name": "植芝 盛平",
+          "native_name": "植芝 盛平",
           "nationality": [
             "JPN"
           ],
@@ -387,7 +390,7 @@
         "data": {
           "id": "JDP-17",
           "name": "Tomita Tsunejirō",
-          "native name": "富田 常次郎",
+          "native_name": "富田 常次郎",
           "nationality": [
             "JPN"
           ],
@@ -435,7 +438,7 @@
         "data": {
           "id": "JDP-26",
           "name": "Tomiki Kenji",
-          "native name": "富木 謙治",
+          "native_name": "富木 謙治",
           "nationality": [
             "JPN"
           ],
@@ -478,7 +481,8 @@
               "teacher": null,
               "rank": "8 dan",
               "year": 1971,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             },
             {
               "style_id": "JDP-S-4",
@@ -486,7 +490,8 @@
               "teacher": "JDP-27",
               "rank": "8 dan",
               "year": 1971,
-              "style": "Aikidō"
+              "style": "Aikidō",
+              "style_native": "合気道"
             }
           ],
           "sources": [
@@ -551,7 +556,7 @@
         "data": {
           "id": "JDP-8",
           "name": "Takino Yūken",
-          "native name": "滝野遊軒",
+          "native_name": "滝野遊軒",
           "nationality": [
             "JPN"
           ],
@@ -591,7 +596,7 @@
         "data": {
           "id": "JDP-6",
           "name": "Takenaka Tetsunosuke Issei",
-          "native name": "竹中鉄之助一清",
+          "native_name": "竹中鉄之助一清",
           "nationality": [
             "JPN"
           ],
@@ -631,7 +636,7 @@
         "data": {
           "id": "JDP-7",
           "name": "Takenaka  Motonoshin",
-          "native name": "竹中元之進",
+          "native_name": "竹中元之進",
           "nationality": [
             "JPN"
           ],
@@ -671,7 +676,7 @@
         "data": {
           "id": "JDP-28",
           "name": "Takeda Sōkaku",
-          "native name": "武田 惣角",
+          "native_name": "武田 惣角",
           "nationality": [
             "JPN"
           ],
@@ -720,7 +725,7 @@
         "data": {
           "id": "JDP-14",
           "name": "Takahashi Kazuyoshi",
-          "native name": "高橋数良",
+          "native_name": "高橋数良",
           "nationality": [
             "JPN"
           ],
@@ -769,7 +774,7 @@
         "data": {
           "id": "JDP-30",
           "name": "Sugino Yoshio",
-          "native name": "杉野嘉男",
+          "native_name": "杉野嘉男",
           "nationality": [
             "JPN"
           ],
@@ -1060,7 +1065,8 @@
               "teacher": null,
               "rank": "3 dan",
               "date": null,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -1161,7 +1167,8 @@
               "teacher": null,
               "rank": "10 dan",
               "date": "1967-06-02T00:00:00.000Z",
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -1230,7 +1237,8 @@
               "teacher": null,
               "rank": "10 dan",
               "date": "1937-12-27T00:00:00.000Z",
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -1324,7 +1332,8 @@
               "teacher": null,
               "rank": "8 dan",
               "year": null,
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -1456,7 +1465,7 @@
         "data": {
           "id": "JDP-18",
           "name": "Maeda Mitsuyo",
-          "native name": "前田 光世",
+          "native_name": "前田 光世",
           "aka": [
             "Otávio Maeda",
             "Conde Koma"
@@ -1747,7 +1756,7 @@
         "data": {
           "id": "JDP-13",
           "name": "Kawaishi  Mikinosuke",
-          "native name": "川石 酒造之助",
+          "native_name": "川石 酒造之助",
           "nationality": [
             "JPN"
           ],
@@ -2068,7 +2077,8 @@
               "teacher": null,
               "rank": "10 dan",
               "date": "1927-12-22T00:00:00.000Z",
-              "style": "Kōdōkan Jūdō"
+              "style": "Kōdōkan Jūdō",
+              "style_native": "講道館柔道"
             }
           ],
           "sources": [
@@ -2088,7 +2098,7 @@
         "data": {
           "id": "JDP-4",
           "name": "Iso Masatomo",
-          "native name": "磯正智",
+          "native_name": "磯正智",
           "nationality": [
             "JPN"
           ],
@@ -2121,7 +2131,7 @@
         "data": {
           "id": "JDP-3",
           "name": "Iso Masatari Mataemon",
-          "native name": "磯又右衛門",
+          "native_name": "磯又右衛門",
           "nationality": [
             "JPN"
           ],
@@ -2283,7 +2293,7 @@
           "id": "JDP-5",
           "name": "Iikubo Tsunetoshi",
           "alias": "Iikubo Kōnen",
-          "native name": "飯久保鍬吉恒年先生",
+          "native_name": "飯久保鍬吉恒年先生",
           "nationality": [
             "JPN"
           ],
@@ -2377,7 +2387,7 @@
         "data": {
           "id": "JDP-2",
           "name": "Fukuda Hachinosuke",
-          "native name": "福田八之助",
+          "native_name": "福田八之助",
           "nationality": [
             "JPN"
           ],
@@ -2574,7 +2584,8 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
+              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
@@ -2658,73 +2669,80 @@
     "edges": [
       {
         "data": {
-          "id": "JDPd655f461f84b2",
+          "id": "JDPaf635a4f1873f",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-24",
           "target": "JDP-11",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP7fbe3b51cab6a",
+          "id": "JDP097818c2c6c9f",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-25",
           "target": "JDP-12",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan",
           "quality": 3
         }
       },
       {
         "data": {
-          "id": "JDPd00ad4f3c29e5",
+          "id": "JDP2ae52f19fc7d3",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-15",
           "target": "JDP-12",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Judo Clube de Portugal"
         }
       },
       {
         "data": {
-          "id": "JDP718665bc65bbe",
+          "id": "JDP0cc9de5ea9f08",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-16",
           "target": "JDP-12",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Judo Clube de Portugal"
         }
       },
       {
         "data": {
-          "id": "JDPeaafda964676",
+          "id": "JDPc531cbc63a532",
           "name": "Kanō Jigorō (Kodokan Judo) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-1",
           "interaction": "Kodokan Judo",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP87bb8e3924f97",
+          "id": "JDP894dcc816b7ba",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-9",
           "target": "JDP-10",
           "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "講道館柔道",
           "place": "Yushima Tenjin dojo"
         }
       },
       {
         "data": {
-          "id": "JDPc427955267eea",
+          "id": "JDP6bed5a4f22f62",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-27",
           "target": "JDP-28",
           "interaction": "Daitō-ryū Aiki-jūjutsu",
+          "interaction_native": "講道館柔道",
           "place": {
             "period": {
               "start": 1915,
@@ -2735,21 +2753,23 @@
       },
       {
         "data": {
-          "id": "JDP23a126c07a38a",
+          "id": "JDP7c4f6b3ddf197",
           "name": "Kanō Jigorō (Kodokan Judo) Tomita Tsunejirō",
           "source": "JDP-17",
           "target": "JDP-1",
           "interaction": "Kodokan Judo",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP148659e601337",
+          "id": "JDPb2fc0f4abc6be",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-1",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": {
             "period": {
               "start": 1895,
@@ -2760,485 +2780,531 @@
       },
       {
         "data": {
-          "id": "JDP19f7065da0c5d",
+          "id": "JDP5720bb3327706",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-26",
           "target": "JDP-27",
           "interaction": "Aikidō",
+          "interaction_native": "合気道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDPed6bc3c035358",
+          "id": "JDPb262fcaf7c745",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-6",
           "target": "JDP-7",
           "interaction": "Kitō-ryū",
+          "interaction_native": "合気道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDP3acfc59ca6f4e",
+          "id": "JDP92646cee4cb3f",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-7",
           "target": "JDP-8",
           "interaction": "Kitō-ryū",
+          "interaction_native": "合気道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDP140295874df",
+          "id": "JDPe9c7b793826fe",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Takahashi Kazuyoshi",
           "source": "JDP-14",
           "target": "JDP-9",
           "interaction": "Kodokan Judo",
+          "interaction_native": "合気道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPfa2889a9cb9da",
+          "id": "JDP854d9bfddcfad",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-31",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Keiō Gijuku Daigaku",
           "quality": 2
         }
       },
       {
         "data": {
-          "id": "JDP3a7fcda8ab4d5",
+          "id": "JDPd934e16b7df6c",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-27",
           "interaction": "Aikidō",
+          "interaction_native": "合気道",
           "place": "Wakamatsu-cho dojo",
           "quality": 2
         }
       },
       {
         "data": {
-          "id": "JDPbb45bcf62531a",
+          "id": "JDP895429aa5afa6",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-32",
           "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "interaction_native": "天真正伝香取神道流",
           "place": "Kawasaki",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP2fea435da0e56",
+          "id": "JDPe8b95771b36f4",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-33",
           "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "interaction_native": "天真正伝香取神道流",
           "place": "Kawasaki",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP9f472a17d13fc",
+          "id": "JDPbb09abb5c9cb4",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-34",
           "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "interaction_native": "天真正伝香取神道流",
           "place": "Kawasaki",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP431437e7720db",
+          "id": "JDP2bc3bef0e6d78",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-35",
           "interaction": "Tenshin Shōden Katori Shintō-ryū",
+          "interaction_native": "天真正伝香取神道流",
           "place": "Kawasaki",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPe32fde7ef95b6",
+          "id": "JDP84deae2829e6",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-30",
           "target": "JDP-36",
           "interaction": "Yōshin-ryū",
+          "interaction_native": "楊心流",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPbfa3c63f30ff",
+          "id": "JDP7d2057a47a21a",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-17",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan",
           "quality": 2
         }
       },
       {
         "data": {
-          "id": "JDP366f16d5c641f",
+          "id": "JDP5645f75f76e46",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-22",
           "target": "JDP-1",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": null
         }
       },
       {
         "data": {
-          "id": "JDP7fc469ec11fbd",
+          "id": "JDP0854fe4662963",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-42",
           "interaction": "Muso-ryu",
+          "interaction_native": "無相流",
           "place": null,
           "quality": 0
         }
       },
       {
         "data": {
-          "id": "JDPd7a1b73c15d99",
+          "id": "JDP55738416c544",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-43",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Butokuden",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPc440d8d84aa41",
+          "id": "JDP32f1f8dfad581",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-38",
           "target": "JDP-44",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Butokuden",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP536e4a811e594",
+          "id": "JDPf028ff2f55605",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-44",
           "target": "JDP-1",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPdbfe5899a1028",
+          "id": "JDP790b0d77a4d7a",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-1",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP0c90290800fed",
+          "id": "JDP26cfb95fd81f1",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-11",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPf2a2284b9864d",
+          "id": "JDP740a78579dc72",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-29",
           "target": "JDP-27",
           "interaction": "Aikidō",
+          "interaction_native": "合気道",
           "place": "Kobukan dojo"
         }
       },
       {
         "data": {
-          "id": "JDP0855efeccf231",
+          "id": "JDP145d968d30fdf",
           "name": "Kanō Jigorō (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-1",
           "interaction": "Kodokan Judo",
+          "interaction_native": "合気道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP4af6d36002d37",
+          "id": "JDP4f448c5e26a55",
           "name": "Yokoyama Sakujiro (Kodokan Judo) Mifune Kyūzō",
           "source": "JDP-11",
           "target": "JDP-9",
           "interaction": "Kodokan Judo",
+          "interaction_native": "合気道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP76a6cc680ba34",
+          "id": "JDP9b3699805f5d9",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-18",
           "target": "JDP-17",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPdcbf6fc1deddf",
+          "id": "JDPaefda0f51fbe6",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-38",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPf2fc80b1caec4",
+          "id": "JDP76acc886cfd67",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-39",
           "interaction": "Kendo",
+          "interaction_native": "剣道",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPd6caebf112273",
+          "id": "JDPa8f4b8e14b794",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-42",
           "interaction": "Muso-ryu",
+          "interaction_native": "無相流",
           "place": null,
           "quality": 0
         }
       },
       {
         "data": {
-          "id": "JDP3913da3a4b46a",
+          "id": "JDP1b58478a00b1d",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-40",
           "interaction": "Kendo",
+          "interaction_native": "剣道",
           "place": "Keiō Gijuku Daigaku",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP0b5e87c90f83c",
+          "id": "JDPc93924f52b049",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-41",
           "interaction": "Karate",
+          "interaction_native": "空手",
           "place": "Keiō Gijuku Daigaku",
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP99328356ff8f",
+          "id": "JDP4d722b3e26428",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-37",
           "target": "JDP-27",
           "interaction": "Aikidō",
+          "interaction_native": "合気道",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPa33c3862a0ebd",
+          "id": "JDPf12554eadc322",
           "name": "Mifune Kyūzō (Kodokan Judo) Kobayashi Kiyoshi",
           "source": "JDP-12",
           "target": "JDP-11",
           "interaction": "Kodokan Judo",
+          "interaction_native": "合気道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPffd3d58bbae72",
+          "id": "JDP5d6543c264c4",
           "name": "Takahashi Kazuyoshi (Kodokan Judo) Kawaishi  Mikinosuke",
           "source": "JDP-13",
           "target": "JDP-14",
           "interaction": "Kodokan Judo",
+          "interaction_native": "合気道",
           "place": "Waseda University"
         }
       },
       {
         "data": {
-          "id": "JDPcb97572ef1291",
+          "id": "JDP6c959581aba93",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-2",
           "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "合気道",
           "place": "Fukuda Hachinosuke dojo",
           "quality": 3
         }
       },
       {
         "data": {
-          "id": "JDP2fd178372bc1",
+          "id": "JDP679122acc3d81",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-4",
           "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "合気道",
           "place": "Iso Masatomo dojo",
           "quality": 3
         }
       },
       {
         "data": {
-          "id": "JDPd92aca7ad92e9",
+          "id": "JDPe91c43c431e2e",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-1",
           "target": "JDP-5",
           "interaction": "Kitō-ryū",
+          "interaction_native": "起倒流",
           "place": "Eishōji",
           "quality": 3
         }
       },
       {
         "data": {
-          "id": "JDPfd6ba61720de2",
+          "id": "JDP834c361b82201",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-43",
           "target": "JDP-9",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDP12ebee6d55203",
+          "id": "JDP36fcd2b95924d",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-4",
           "target": "JDP-3",
-          "interaction": "Tenjin Shin'yō-ryū"
+          "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "講道館柔道"
         }
       },
       {
         "data": {
-          "id": "JDP8b3cd2c979dae",
+          "id": "JDP72073b8f6f0bf",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-10",
           "target": "JDP-3",
           "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "講道館柔道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDP9ce20c0a6af8c",
+          "id": "JDP76cbae6460ca6",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-31",
           "target": "JDP-9",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": "Kodokan"
         }
       },
       {
         "data": {
-          "id": "JDPb2b0474add248",
+          "id": "JDP519ee6aaa4e27",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-5",
           "target": "JDP-6",
           "interaction": "Kitō-ryū",
+          "interaction_native": "講道館柔道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDPcd8e2bc7b8ef",
+          "id": "JDPf08d4fafb029b",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-2",
           "target": "JDP-4",
           "interaction": "Tenjin Shin'yō-ryū",
+          "interaction_native": "講道館柔道",
           "place": "Otamagaike dojo"
         }
       },
       {
         "data": {
-          "id": "JDP97a0bbd13dd1e",
+          "id": "JDP6813599201404",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-22",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDP4a1b7c206b82",
+          "id": "JDP58595f818e0bd",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-20",
           "target": "JDP-18",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": 2
         }
       },
       {
         "data": {
-          "id": "JDPba1860cf4793e",
+          "id": "JDP2f36183ef80c3",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-19",
           "target": "JDP-18",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null
         }
       },
       {
         "data": {
-          "id": "JDPe57bd02af169d",
+          "id": "JDP6e0e7c32c2006",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-23",
           "target": "JDP-18",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": 1
         }
       },
       {
         "data": {
-          "id": "JDPc27d033a3d38a",
+          "id": "JDPa377afc49fd69",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-19",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": null
         }
       },
       {
         "data": {
-          "id": "JDP7dad60b557402",
+          "id": "JDP742d7372a98c2",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-21",
           "target": "JDP-18",
           "interaction": "Kōdōkan Jūdō",
+          "interaction_native": "講道館柔道",
           "place": null,
           "quality": 2
         }
