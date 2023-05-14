@@ -14,7 +14,7 @@ person:
     date: 14 Aug 1879
   teachers:
     - id: JDP-4
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       place: Otamagaike dojo
       period:
         start: 1851

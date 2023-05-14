@@ -1,0 +1,14 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-10
+  name: Daitō-ryū Aiki-jūjutsu
+  native_name: 大東流 合気柔術
+  birth: 
+    date: 
+    location:
+    country_code: JPN  
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu
+    

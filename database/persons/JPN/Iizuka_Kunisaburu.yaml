@@ -25,7 +25,7 @@ person:
         end:
       rank: 
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 10 dan

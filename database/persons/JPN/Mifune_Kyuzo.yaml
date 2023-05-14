@@ -18,21 +18,21 @@ person:
   photo_url: http://bp3.blogger.com/_NjSHIRBuf3Y/SHlsXVS7iGI/AAAAAAAAAk0/d-EnhgFOBPk/s400/kyuzomifune.jpg    
   teachers:
     - id: JDP-1
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Kodokan
       period:
         start: 1903
         end: 1965
       rank: 
     - id: JDP-9
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Kodokan
       period:
         start: 1903
         end: 
       rank:
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 10 dan

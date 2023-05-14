@@ -13,7 +13,7 @@ person:
     date: 1881
   teachers:
     - id: JDP-3
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA

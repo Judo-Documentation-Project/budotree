@@ -19,32 +19,32 @@ person:
   photo_url: https://archive.org/download/kawaishi_mikinosuke/kawaishi_mikinosuke.jpg
   teachers:
     - name: Yoshida Kōtarō
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: 
       period:
         start: 
         end:
       rank:
     - name: Miyakawa Ikkan
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Waseda University
       period:
         start:
         end:
       rank:
     - id: JDP-14
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Waseda University
       period:
         start: 1881
         end:
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 7 dan
       year:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: FFJDA
       teacher: 
       rank: 10 dan

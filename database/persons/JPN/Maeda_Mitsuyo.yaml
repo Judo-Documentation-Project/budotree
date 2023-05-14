@@ -34,7 +34,7 @@ person:
         start: 1896
         end: 
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 7 dan

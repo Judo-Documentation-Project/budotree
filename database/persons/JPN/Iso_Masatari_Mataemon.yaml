@@ -15,7 +15,7 @@ person:
     location: Otamagaike, Japan
   teachers:
     - name: Hitotsu Yanagi Oribe
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       period:
         start: 1785
         end: 1792

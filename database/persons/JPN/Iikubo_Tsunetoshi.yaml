@@ -16,7 +16,7 @@ person:
     location:
   teachers:
     - id: JDP-6
-      style: Kitō-ryū
+      style_id: JDP-S-2
       place: 
       period:
         start:

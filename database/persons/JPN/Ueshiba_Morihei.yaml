@@ -18,13 +18,13 @@ person:
   photo_url: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Morihei_Ueshiba_Portrait.jpg/220px-Morihei_Ueshiba_Portrait.jpg
   teachers:
     - id: JDP-28
-      style: Daitō-ryū Aiki-jūjutsu
+      style_id: JDP-S-10
       place: 
         period:
           start: 1915
           end: 1922
   rank:
-    - style: Daitō-ryū Aiki-jūjutsu
+    - style_id: JDP-S-10
       org: 
       teacher: JDP-28
       rank: Kyōju Dairi

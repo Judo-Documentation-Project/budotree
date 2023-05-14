@@ -18,13 +18,13 @@ person:
   photo_url: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC    
   teachers:
     - id: JDP-11
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Kodokan
       period:
         start: 1903
         end: 1965
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 9 dan

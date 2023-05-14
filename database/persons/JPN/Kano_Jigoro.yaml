@@ -29,14 +29,14 @@ person:
   photo_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
   teachers:
     - id: JDP-2
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       place: Fukuda Hachinosuke dojo
       period:
         start: 1877
         end: 1879
       quality: 3
     - id: JDP-4
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       place: Iso Masatomo dojo
       period:
         start: 1879
@@ -50,17 +50,17 @@ person:
         end:
       quality: 3
   rank:
-    - style: Kodokan Judo
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: Shihan
       year:
-    - style: Kitō-ryū
+    - style_id: JDP-S-2
       org: 
       teacher_id: JDP-5
       rank: Menkyo kaiden
       year:
-    - style: Tenjin Shin'yō-ryū
+    - style_id: JDP-S-3
       org: 
       teacher_id: JDP-4
       rank: Menkyo kaiden

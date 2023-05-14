@@ -18,14 +18,14 @@ person:
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/220px-Yokoyama-Sakujiro.jpg    
   teachers:
     - id: JDP-1
-      style: Kodokan Judo
+      style_id: JDP-S-1
       place: Kodokan
       period:
         start: 1886
         end: 
       rank: 
     - id: JDP-10
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       place: Yushima Tenjin dojo
       period:
         start: 

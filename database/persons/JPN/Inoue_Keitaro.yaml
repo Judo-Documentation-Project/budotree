@@ -20,7 +20,7 @@ person:
     country: JPN
   teachers:
     - id: JDP-3
-      style: Tenjin Shin'yō-ryū
+      style_id: JDP-S-3
       place: 
       period:
         start: 

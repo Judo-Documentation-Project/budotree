@@ -47,7 +47,7 @@ person:
       teacher: Sanjuro Oshima
       rank: Shoden Kirishi Mokuroku
       year: 1924
-    - style: Daitō-ryū Aiki-jūjutsu
+    - style_id: JDP-S-10
       org: 
       teacher: JDP-27
       rank: 
