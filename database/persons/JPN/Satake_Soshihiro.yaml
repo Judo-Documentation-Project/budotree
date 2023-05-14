@@ -17,7 +17,7 @@ person:
     date: 
     location:
     country:
-  photo_url: http://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
+  photo_url: https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
   teachers:
     - id: JDP-17
       style_id: JDP-S-1

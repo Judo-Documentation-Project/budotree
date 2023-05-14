@@ -15,7 +15,7 @@ person:
     date: 1979-12-25
     location:
     country_code: 
-  photo_url: http://3.bp.blogspot.com/_Cwm1bGlUfkA/R7R9fVsP72I/AAAAAAAAANg/NjJTk4KTUqg/s400/tomiki_10.jpg
+  photo_url: https://3.bp.blogspot.com/_Cwm1bGlUfkA/R7R9fVsP72I/AAAAAAAAANg/NjJTk4KTUqg/s400/tomiki_10.jpg
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
