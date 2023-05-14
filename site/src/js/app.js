@@ -22,56 +22,59 @@ console.log(data);
 
 const style = [ // the stylesheet for the graph
     {
-	    selector: 'node',
-	    style: {
-	        'label': 'data(name)',
-	        'font-size': '0.5em',
-	        'font-family': 'Cormorant Garamond, serif',
-	        'font-family': 'Noto Serif, serif',
-	        'color': 'white',//'#BC002D',
-	        'text-valign': 'center',
-	        'text-halign' : 'center',
-	        'shape': 'ellipse',
-	        'text-wrap': 'wrap',
-	        'text-max-width': 40,
-	        'width': 55,
-	        'height': 55,
-	        'background-color': "black",
-	        'border-width':'1',
-	        //'border-color':'white'
+        selector: 'node',
+        style: {
+            'label': (ele) => {
+                if (nativeNames && ele.data().native_name) {
+                    return ele.data().native_name
+                } else {
+                    return ele.data().name
+                }
+            },
+            //'label': 'data(name)',
+            'font-size': '0.5em',
+            'font-family': 'Noto Serif JP, serif',
+            'color': 'white',//'#BC002D',
+            'text-valign': 'center',
+            'text-halign' : 'center',
+            'shape': 'ellipse',
+            'text-wrap': 'wrap',
+            'text-max-width': 40,
+            'width': 55,
+                'height': 55,
+            'background-color': "black",
+            'border-width':'1',
+            //'border-color':'white'
 
-	    }
+            }
     },
     {
-	    selector: 'edge',
-	    style: {
-	        'width': 1,
-	        'line-style': 'solid',
-	        'curve-style': 'bezier',
-	        'control-point-step-size': '40',
-	        'taxi-direction': 'auto',
-	        'line-color': '#888',
-	        label: 'data(interaction)',
-	        'font-size': '0.4em',
-	        //	    'font-family': 'Cormorant Garamond, serif',
-	        'font-family': 'Noto Serif JP, serif',
-	        'font-weight': '700',
-	        'text-wrap': 'wrap',
-	        'text-max-width': 35,
-	        'color': '#444',
-	        'source-arrow-shape': 'triangle',
-	        'arrow-scale':'0.8',
-	        'source-arrow-color': '#666',
-
-
-	    }
+        selector: 'edge',
+        style: {
+            'width': 1,
+            'line-style': 'solid',
+            'curve-style': 'bezier',
+            'control-point-step-size': '40',
+            'taxi-direction': 'auto',
+            'line-color': '#888',
+            'label': 'data(interaction)',
+            'font-size': '0.4em',
+            'font-family': 'Noto Serif JP, serif',
+            'font-weight': '700',
+            'text-wrap': 'wrap',
+            'text-max-width': 35,
+            'color': '#444',
+            'source-arrow-shape': 'triangle',
+            'arrow-scale':'0.8',
+            'source-arrow-color': '#666',
+        }
     },
     {
-	    selector: ':selected',
-	    css: {
+        selector: ':selected',
+        css: {
             'background-color':  '#cb4042',//'#BC002D',
-	        'color': 'white',
-	    }
+            'color': 'white',
+        }
     }
 ];
 
@@ -83,7 +86,7 @@ var layoutOptions = {
     refresh: 100,
     animationDuration: 250,
     elk: {
-	    algorithm: 'mrtree',
+            algorithm: 'mrtree',
     }
 };
 
@@ -119,12 +122,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add images from photo_url.
     cy.nodes().forEach(function( ele ) {
         if (ele.data().photo_url) {
-	    //console.log(ele.data().photo_url)
+            //console.log(ele.data().photo_url)
             ele.style({
                 'background-image': ele.data().photo_url,
-		'color': 'white',
-		"background-fit": "cover cover",
-		"background-image-opacity": 0.4
+                'color': 'white',
+                "background-fit": "cover cover",
+                "background-image-opacity": 0.4
             });
         }
     });
@@ -144,29 +147,29 @@ function onChange() {
     console.log(value, text);
     switch(e.value) {
     case "mrtree":
-	layoutOptions["name"]="elk";
-	layoutOptions["elk"]["algorithm"] = "mrtree";
-	break;
+        layoutOptions["name"]="elk";
+        layoutOptions["elk"]["algorithm"] = "mrtree";
+        break;
     case "layered":
-	layoutOptions["name"]="elk";
-	layoutOptions["elk"]["algorithm"] = "layered";
-	break;
+        layoutOptions["name"]="elk";
+        layoutOptions["elk"]["algorithm"] = "layered";
+        break;
     case "breadthfirst":
-	layoutOptions["name"]="breadthfirst";
-	break;
+        layoutOptions["name"]="breadthfirst";
+        break;
     case "stress":
-	layoutOptions["name"]="elk";
-	layoutOptions["elk"]["algorithm"] = "stress";
-	break;
+        layoutOptions["name"]="elk";
+        layoutOptions["elk"]["algorithm"] = "stress";
+        break;
     case "cise":
-	layoutOptions["name"]="cise";
-	break;
+        layoutOptions["name"]="cise";
+        break;
     case "cola":
-	layoutOptions["name"]="cola";
-	break;
+        layoutOptions["name"]="cola";
+        break;
     case "fcose":
-	layoutOptions["name"]="fcose";
-	break;	
+        layoutOptions["name"]="fcose";
+        break;  
     }
     
     layout = cy.layout(layoutOptions);
@@ -235,45 +238,45 @@ cy.nodes().bind("tap", (event) => {
     const template = document.getElementById('template').innerHTML;
 
     for (var i = 0; i < event.target.data().teachers.length; i++) {
-	//console.log(event.target.data().teachers[i]);
-	for (let person of data.elements.nodes) {
-	    if (person.data.id == event.target.data().teachers[i].id) {
-		//console.log(person.data.name);
-		event.target.data().teachers[i]["teacher_name"] = person.data.name;
-		//console.log(event.target.data().teachers[i]);
-	    }
-	}
+        //console.log(event.target.data().teachers[i]);
+        for (let person of data.elements.nodes) {
+            if (person.data.id == event.target.data().teachers[i].id) {
+                //console.log(person.data.name);
+                event.target.data().teachers[i]["teacher_name"] = person.data.name;
+                //console.log(event.target.data().teachers[i]);
+            }
+        }
 
     };
 
     if (event.target.data().rank) {
-	for (var i = 0; i < event.target.data().rank.length; i++) {
-	    //console.log(event.target.data().teachers[i]);
-	    for (let person of data.elements.nodes) {
-		if (person.data.id == event.target.data().rank[i].teacher_id) {
-		    //console.log(person.data.name);
-		    event.target.data().rank[i]["teacher_name"] = person.data.name;
-		    //console.log(event.target.data().teachers[i]);
-		}
-	    }
-	};
+        for (var i = 0; i < event.target.data().rank.length; i++) {
+            //console.log(event.target.data().teachers[i]);
+            for (let person of data.elements.nodes) {
+                if (person.data.id == event.target.data().rank[i].teacher_id) {
+                    //console.log(person.data.name);
+                    event.target.data().rank[i]["teacher_name"] = person.data.name;
+                    //console.log(event.target.data().teachers[i]);
+                }
+            }
+        };
     };
 
 
     event.target.data().birth["country_local"] = function () {
-	return countries.getName(this.country_code, "en");
+        return countries.getName(this.country_code, "en");
     };
     
     event.target.data().death["country_local"] = function () {
-	return countries.getName(this.country_code, "en");
+        return countries.getName(this.country_code, "en");
     };
     
     
     if (event.target.data().birth.date) {
-	event.target.data().birth.date_local =  DateTime.fromISO(event.target.data().birth.date).toFormat("yyyy");
+        event.target.data().birth.date_local =  DateTime.fromISO(event.target.data().birth.date).toFormat("yyyy");
     };
     if (event.target.data().death.date) {
-	event.target.data().death.date_local =  DateTime.fromISO(event.target.data().death.date).toFormat("yyyy");
+        event.target.data().death.date_local =  DateTime.fromISO(event.target.data().death.date).toFormat("yyyy");
     };
     cardTitle.innerHTML = event.target.data().name;
     const rendered = Mustache.render(template, event.target.data());
@@ -283,12 +286,12 @@ cy.nodes().bind("tap", (event) => {
 });
     
 document.addEventListener('DOMContentLoaded', function() {
-	let cardToggles = document.getElementsByClassName('card-toggle');
-	for (let i = 0; i < cardToggles.length; i++) {
-		cardToggles[i].addEventListener('click', e => {
-		    e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
-		});
-	}
+        let cardToggles = document.getElementsByClassName('card-toggle');
+        for (let i = 0; i < cardToggles.length; i++) {
+                cardToggles[i].addEventListener('click', e => {
+                    e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+                });
+        }
 });
 
 
@@ -296,24 +299,25 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     let lineType = document.getElementById("lineType");
     lineType.addEventListener('click', e => {
-	    console.log(style[1]["style"]["curve-style"]);
-	    if (e.target.checked) {
-	        cy.style()
-		        .selector('edge')
-		        .style({
-		            'curve-style': 'bezier'
-		        }).update();
-	    } else {
-	        cy.style()
-		        .selector('edge')
-		        .style({
-		            'curve-style': 'taxi'
-		        }).update();
-	    }})});
+            console.log(style[1]["style"]["curve-style"]);
+            if (e.target.checked) {
+                cy.style()
+                        .selector('edge')
+                        .style({
+                            'curve-style': 'bezier'
+                        }).update();
+            } else {
+                cy.style()
+                        .selector('edge')
+                        .style({
+                            'curve-style': 'taxi'
+                        }).update();
+            }})});
 
 
 var countryNodes = {};
 var styleEdges = {};
+var nativeNames = false;
 
 var stringToColour = function(str) {
     var hash = 0;
@@ -395,32 +399,32 @@ function edgesByStyle () {
 document.addEventListener('DOMContentLoaded', function() {
     let styleColor = document.getElementById("styleColor");
     styleColor.addEventListener('click', e => {
-	    if (e.target.checked) {
+            if (e.target.checked) {
             edgesByStyle()
-	    } else {
-	        cy.style()
-		        .selector('edge')
-		        .style({
-		            'line-color': '#888'
-		        }).update();
+            } else {
+                cy.style()
+                        .selector('edge')
+                        .style({
+                            'line-color': '#888'
+                        }).update();
             cy.edges().forEach(function(ele) {
                 ele.style({
                     'line-color': '#888'
                 });
 
             })
-	    }})});
+            }})});
 
 
 document.addEventListener('DOMContentLoaded', function() {
     let quality = document.getElementById("quality");
     quality.addEventListener('click', e => {
-	//console.log(style[1]["style"]["line-type"]);
-	    if (e.target.checked) {
+        //console.log(style[1]["style"]["line-type"]);
+            if (e.target.checked) {
             edgesByQuality()
-	    } else {
+            } else {
             //console.log("Resetting styles");
-	        cy.edges().forEach(function(ele) {
+                cy.edges().forEach(function(ele) {
                 ele.style({
                     'line-style': 'solid',
                     'width': 1,
@@ -428,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
 
             })
-	    }})});
+            }})});
 
 function nodesByCountry () {
     let countryList = {};
@@ -456,7 +460,7 @@ function nodesByCountry () {
 document.addEventListener('DOMContentLoaded', function() {
     let bubbles = document.getElementById("bubbles");
     bubbles.addEventListener('click', e => {
-	    if (e.target.checked) {
+            if (e.target.checked) {
             for (const [country, nodes] of Object.entries(countryNodes)) {
                 bb.addPath(nodes, null, null, {
                     virtualEdges: true,
@@ -469,8 +473,20 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             for (let path of bb.getPaths()) {
                 bb.removePath(path)
-	        }}})});
+                }}})});
 
+
+document.addEventListener('DOMContentLoaded', function() {
+    let nativeName = document.getElementById("nativename");    
+    nativeName.addEventListener('click', e => {
+        //console.log("Changing native name");
+        if (e.target.checked) {
+            nativeNames = true
+        } else {
+            nativeNames = false
+        }
+        cy.style().update()
+    })});
 
 // navbar burguer
 document.addEventListener('DOMContentLoaded', () => {

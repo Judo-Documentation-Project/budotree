@@ -54,32 +54,39 @@
 	  <output for="distance" class="is-size 7 has-text-weight-light mr-3">1</output>
 	  <input id="distance" class="slider is-dark _is-fullwidth is-small is-circle" step="0.1" min="0" max="2" value="1" type="range" >
 	</div>
+
+	<div class="navbar-item _mr-6">
+      	  <div class="field">
+	    <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
+	    <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
+          </div>
+	</div>
 	
 	<div class="navbar-item _mr-6">
       	  <div class="field">
 	    <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-	    <label for="bubbles" class="is-size-7 has-text-weight-light"><i class="fas fa-flag"></i></label>
+	    <label for="bubbles" class="is-size-7 has-text-weight-light" ><i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality" aria-hidden="true" class="fas fa-flag"></i></label>
           </div>
 	</div>
 	
 	<div class="navbar-item _mr-6">
 	  <div class="field">
 	    <input id="quality" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-	    <label for="quality" class="is-size-7 has-text-weight-light"><i class="fas fa-certificate"></i></label>
+	    <label for="quality" class="is-size-7 has-text-weight-light"><i class="fas fa-certificate" title="Toggle link quality: when active, links will have different line styles depending on source quality." aria-hidden="true"></i></label>
 	  </div>
 	</div>
 	
 	<div class="navbar-item _mr-6">
       	  <div class="field">
 	    <input id="styleColor" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-	    <label for="styleColor" class="is-size-7 has-text-weight-light"><i class="fas fa-palette"></i></label>
+	    <label for="styleColor" class="is-size-7 has-text-weight-light"><i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fas fa-palette"></i></label>
           </div>
 	</div>
 	
 	<div class="navbar-item _mr-6">
 	  <div class="field">
 	    <input id="lineType" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl" checked="checked">
-	    <label for="lineType" class="is-size-7 has-text-weight-light"><i class="fas fa-bezier-curve"></i></label>
+	    <label for="lineType" class="is-size-7 has-text-weight-light"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fas fa-bezier-curve"></i></label>
 	  </div>
 	</div>
 	
@@ -97,7 +104,7 @@
 	      </select>
             </div>
 	    <div class="icon is-small is-left has-text-dark">
-	      <i class="fas fa-diagram-project"></i>
+	      <i class="fas fa-diagram-project" title="Select the layout algorithm." aria-hidden="true"></i>
 	    </div>
 	  </div>
 	</div>
