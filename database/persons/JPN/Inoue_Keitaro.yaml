@@ -4,10 +4,10 @@
 person:
   id: JDP-10
   name: Inoe Keitaro
-  native_name: 井上敬太郎
+  native_name:  井上敬太郎
   aka:
     - name: Okusawa Keitaro
-    - native_name: 奥澤敬太郎  
+    - native_name:  奥澤敬太郎  
   nationality:
     - JPN
   birth: 

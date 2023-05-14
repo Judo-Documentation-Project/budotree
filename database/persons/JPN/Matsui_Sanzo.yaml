@@ -4,7 +4,7 @@
 person:
   id: JDP-42
   name: Matsui Sanzo
-  native_name: 松井三蔵
+  native_name:  松井三蔵
   nationality:
     - JPN
   birth: 

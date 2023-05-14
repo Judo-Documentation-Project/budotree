@@ -155,7 +155,11 @@
     {{#rank}}
       <ul>
       {{#style}}
-      <li><b>{{style}}</b>: {{rank}}
+      <li><b>{{style}}</b>
+      {{#style_native}}
+      <span class="style_native"> {{style_native}} </span>
+      {{/style_native}}
+      : {{rank}}
       {{#teacher_name}}
       ({{teacher_name}} {{org}})
       {{/teacher_name}}

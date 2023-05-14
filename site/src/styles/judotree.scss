@@ -45,6 +45,11 @@ li p{
     text-transform: capitalize
 }
 
+.style_native {
+    color: #0f2540;
+    font-size: 0.5rem;
+    vertical-align: super;
+}
 .info li {
   alist-style-type: none;
   margin-left: 10px;
@@ -126,6 +131,9 @@ h1.name  {
 }
 
 
+.card-footer {
+
+}
 .footer {
     position: fixed;
     bottom:0px;

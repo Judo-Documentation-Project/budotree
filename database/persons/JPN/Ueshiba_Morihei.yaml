@@ -4,7 +4,7 @@
 person:
   id: JDP-27
   name: Ueshiba Morihei
-  native name: 植芝 盛平
+  native_name: 植芝 盛平
   nationality:
     - JPN
   birth: 

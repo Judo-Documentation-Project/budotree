@@ -4,7 +4,7 @@
 person:
   id: JDP-6
   name: Takenaka Tetsunosuke Issei
-  native name: 竹中鉄之助一清
+  native_name: 竹中鉄之助一清
   nationality:
     - JPN  
   birth: 
