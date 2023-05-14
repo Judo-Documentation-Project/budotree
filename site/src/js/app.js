@@ -57,7 +57,14 @@ const style = [ // the stylesheet for the graph
             'control-point-step-size': '40',
             'taxi-direction': 'auto',
             'line-color': '#888',
-            'label': 'data(interaction)',
+            'label': (ele) => {
+                if (nativeNames && ele.data().interaction_native) {
+                    return ele.data().interaction_native
+                } else {
+                    return ele.data().interaction
+                }
+            },          
+            //'label': 'data(interaction)',
             'font-size': '0.4em',
             'font-family': 'Noto Serif JP, serif',
             'font-weight': '700',
