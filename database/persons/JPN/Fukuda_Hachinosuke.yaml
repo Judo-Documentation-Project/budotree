@@ -11,7 +11,7 @@ person:
     date: 1828
     location: Nagatoro, Japan
   death:
-    date: 14 Aug 1879
+    date: 1879-08-14
   teachers:
     - id: JDP-4
       style_id: JDP-S-3
