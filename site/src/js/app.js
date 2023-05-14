@@ -279,7 +279,7 @@ cy.nodes().bind("tap", (event) => {
     const rendered = Mustache.render(template, event.target.data());
     document.getElementById('info').innerHTML = rendered;
     cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
-
+    cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + event.target.data().id;
 });
     
 document.addEventListener('DOMContentLoaded', function() {
