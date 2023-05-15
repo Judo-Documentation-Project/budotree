@@ -8,9 +8,12 @@ person:
   nationality:
     - JPN
   birth: 
-    date: 1860-12-10
+    date: 1860-10-28
     location: Kobe
     country_code: JPN
+    sources:
+      - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
+      - citation: 10月28日 refers to October 28. In other words, by the Gregorian calendar, Kano was born on October 28, 1860.
   death:
     date: 1928-05-04
     location: Pacific Ocean
@@ -66,9 +69,12 @@ person:
       rank: Menkyo kaiden
       year:
   sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%98%89%E7%B4%8D%E6%B2%BB%E4%BA%94%E9%83%8E
     - uri: https://isbnsearch.org/isbn/9781425163495
       cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
       cite: "Kanō Jigorō: Wikipedia entry."
     - uri: https://doi.org/10.18002/rama.v9i2.1162
       cite: "DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96."
+    - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
+    
