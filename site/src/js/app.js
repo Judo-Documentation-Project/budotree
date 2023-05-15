@@ -31,6 +31,14 @@ const style = [ // the stylesheet for the graph
                     return ele.data().name
                 }
             },
+	    'background-image': (ele) => {
+		if (ele.data().photo_url) {
+		    return ele.data().photo_url
+		} else
+		    return false
+	    },
+            "background-fit": "cover cover",
+            "background-image-opacity": 0.4,
             //'label': 'data(name)',
             'font-size': '0.5em',
             'font-family': 'Noto Serif JP, serif',
@@ -41,7 +49,7 @@ const style = [ // the stylesheet for the graph
             'text-wrap': 'wrap',
             'text-max-width': 40,
             'width': 55,
-                'height': 55,
+            'height': 55,
             'background-color': "black",
             'border-width':'1',
             //'border-color':'white'
@@ -82,6 +90,30 @@ const style = [ // the stylesheet for the graph
             'background-color':  '#cb4042',//'#BC002D',
             'color': 'white',
         }
+    },
+    {
+        selector: '.hidden',
+        css: {
+            'display':  'none',//'#BC002D',
+        }
+    },
+    {
+        selector: '.focused',
+        css: {
+            'background-color':  '#096148'
+        }
+    },    
+    {
+	selector: '.ancestors',
+	css: {
+            'color':  '#a8d8b9',
+	}
+    },
+    {
+	selector: '.descendants',
+	css: {
+            'color':  '#f9bf45',
+	}
     }
 ];
 
@@ -118,26 +150,8 @@ document.addEventListener('DOMContentLoaded', function() {
     cy.nodes('[id = "JDP-1"]').select();    
     layout.run();
     console.log(layout);
-    // cy.nodes('[id = "JDP-1"]').style('background-color', '#BC002D');
-    // cy.nodes('[id = "JDP-1"]').style('color', 'white');
-    // cy.nodes('[id = "JDP-1"]').style('color', 'white');
-
-    //console.log("Filtering by POR" + cy.nodes('[nationality = "POR"]'));
-    //cy.nodes('[nationality = "POR"]');
     nodesByCountry();
     //edgesByStyle();
-    // Add images from photo_url.
-    cy.nodes().forEach(function( ele ) {
-        if (ele.data().photo_url) {
-            //console.log(ele.data().photo_url)
-            ele.style({
-                'background-image': ele.data().photo_url,
-                'color': 'white',
-                "background-fit": "cover cover",
-                "background-image-opacity": 0.4
-            });
-        }
-    });
 });
 
 
@@ -240,6 +254,8 @@ var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
 var cardFooter = document.getElementById("card-footer");
 var focusedPeople =[]
+var ancestorsOfPeople = []
+var descendantsOfPeople = []
 
 document.addEventListener('DOMContentLoaded', function() {
     let pred = document.getElementById("predecessors");
@@ -248,24 +264,22 @@ document.addEventListener('DOMContentLoaded', function() {
 	//console.log("Predecessors" + ele.data().name);
         if (e.target.checked) {
 	    let person = cy.elements("node:selected")
-	    focusedPeople = person
+	    //focusedPeople = person
 	    let ancestors = person.predecessors('node')
 	    let successors = person.successors('node')
+	    //ancestorsOfPeople = ancestors
+	    //descendantsOfPeople = successors
 	    let family = ancestors.union(successors).union(person)	    
-	    //ancestors.style("color", "#f8c3cd");
-	    //successors.style("color", "f75c2f");
-	    cy.nodes().difference(family).style("display", "none")
+	    cy.nodes().difference(family).addClass("hidden")
+	    person.addClass("focused");	    
+	    ancestors.addClass("ancestors");
+	    successors.addClass("descendants");
             focus.classList.toggle('focus-on');
-	    person.style("background-color", "#096148")
         } else {
-	    cy.nodes().style("display", "element");
-	    //cy.nodes().style('color', "white");
-	    //cy.nodes().style('background-color', "black");
-	    //person.addClass("selected");
-	    focusedPeople.style("background-color", "black")  
+	    cy.nodes().removeClass(["hidden", "ancestors", "descendants","focused"]);
 	    focus.classList.toggle('focus-on');
 	}
-	layout.run();	
+	layout.run();
     })});
 
 
