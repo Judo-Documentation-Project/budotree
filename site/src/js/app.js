@@ -219,6 +219,8 @@ function setDistance(distance) {
     layout.run();
 }
 
+
+
 distance.addEventListener("change", function () {
     var distanceDisplay = document.getElementById("distanceDisplay");
     //console.log(document.getElementById("distance").textContent = distance.value);
@@ -248,6 +250,9 @@ function show_image(src, width, height, alt) {
     document.body.appendChild(img);
 }
 
+//document.addEventListener('DOMContentLoaded', function() {
+
+//    })});
 
 var gitRoot = "https://github.com/Judo-Documentation-Project/budotree/tree/main/";
 var info = document.getElementById("info");
@@ -283,29 +288,29 @@ document.addEventListener('DOMContentLoaded', function() {
     })});
 
 
-
-cy.nodes().bind("tap", (event) => {
+function updateInfo (target) {
     const template = document.getElementById('template').innerHTML;
-    event.target.select()
-    for (var i = 0; i < event.target.data().teachers.length; i++) {
+    target.select()
+    console.log(event);
+    for (var i = 0; i < target.data().teachers.length; i++) {
         //console.log(event.target.data().teachers[i]);
         for (let person of data.elements.nodes) {
-            if (person.data.id == event.target.data().teachers[i].id) {
+            if (person.data.id == target.data().teachers[i].id) {
                 //console.log(person.data.name);
-                event.target.data().teachers[i]["teacher_name"] = person.data.name;
-                //console.log(event.target.data().teachers[i]);
+                target.data().teachers[i]["teacher_name"] = person.data.name;
+                console.log(target.data().teachers[i]["teacher_name"]);
             }
         }
 
     };
 
-    if (event.target.data().rank) {
-        for (var i = 0; i < event.target.data().rank.length; i++) {
+    if (target.data().rank) {
+        for (var i = 0; i < target.data().rank.length; i++) {
             //console.log(event.target.data().teachers[i]);
             for (let person of data.elements.nodes) {
-                if (person.data.id == event.target.data().rank[i].teacher_id) {
+                if (person.data.id == target.data().rank[i].teacher_id) {
                     //console.log(person.data.name);
-                    event.target.data().rank[i]["teacher_name"] = person.data.name;
+                    target.data().rank[i]["teacher_name"] = person.data.name;
                     //console.log(event.target.data().teachers[i]);
                 }
             }
@@ -313,30 +318,38 @@ cy.nodes().bind("tap", (event) => {
     };
 
 
-    event.target.data().birth["country_local"] = function () {
+    target.data().birth["country_local"] = function () {
         return countries.getName(this.country_code, "en");
     };
     
-    event.target.data().death["country_local"] = function () {
+    target.data().death["country_local"] = function () {
         return countries.getName(this.country_code, "en");
     };
     
     
-    if (event.target.data().birth.date) {
-        event.target.data().birth.date_local =  DateTime.fromISO(event.target.data().birth.date).toFormat("yyyy");
+    if (target.data().birth.date) {
+        target.data().birth.date_local =  DateTime.fromISO(target.data().birth.date).toFormat("yyyy");
     };
-    if (event.target.data().death.date) {
-        event.target.data().death.date_local =  DateTime.fromISO(event.target.data().death.date).toFormat("yyyy");
+    if (target.data().death.date) {
+        target.data().death.date_local =  DateTime.fromISO(target.data().death.date).toFormat("yyyy");
     };
-    cardTitle.innerHTML = event.target.data().name;
-    const rendered = Mustache.render(template, event.target.data());
+    cardTitle.innerHTML = target.data().name;
+    const rendered = Mustache.render(template, target.data());
     document.getElementById('info').innerHTML = rendered;
-    cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
-    cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + event.target.data().id;
-    console.log("Click on node, adding Selected to ", event.target.selected())
-    //event.target.addClass("selected");
-    //event.target.style('background-color','#cb4042')
-});
+    cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
+    cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
+    console.log("Click on node, adding Selected to ", target.selected())
+    // Teacher link navigation
+    let teachers = document.getElementById("teachers");
+    teachers.addEventListener('click', e => {
+	console.log("Teacher ID: " + e.target.id);
+	target.unselect();
+	updateInfo(cy.nodes('#' + e.target.id));
+    });
+}
+
+cy.nodes().bind("tap", event => updateInfo(event.target));
+
     
 document.addEventListener('DOMContentLoaded', function() {
         let cardToggles = document.getElementsByClassName('card-toggle');

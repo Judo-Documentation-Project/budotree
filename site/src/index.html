@@ -21,7 +21,6 @@
     <meta name="twitter:card" content="player">    
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/judotree.scss" />
-    <script type="module" src="js/app.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN5TCW2MTP"></script>
@@ -32,6 +31,8 @@
       
       gtag('config', 'G-LN5TCW2MTP');
     </script>
+
+    <script type="module" src="js/app.js"></script>     
   </head>
   <body>
     
@@ -147,13 +148,13 @@
     <p class="description">{{description}}</p>
     
     <h2>Teachers</h2>
+    <ul id="teachers">
     {{#teachers}}
-    <ul>
-    {{#teachers_name}}
-    <li>{{teacher_name}}</li>
-    {{/teachers_name}}
-    </ul>
+    {{#teacher_name}}	    
+    <li><a href="#" id="{{id}}">{{teacher_name}}</a></li>
+    {{/teacher_name}}    
     {{/teachers}}
+    </ul> 
     <h2>Rank</h2>
     {{#rank}}
       <ul>
@@ -207,6 +208,5 @@
 	</p>
       </div> 
     </footer>
-    
   </body>
 </html>
