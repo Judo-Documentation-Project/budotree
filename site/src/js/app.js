@@ -106,7 +106,7 @@ const style = [ // the stylesheet for the graph
     {
 	selector: '.ancestors',
 	css: {
-            'color':  '#a8d8b9',
+            'color':  '#f596aa',
 	}
     },
     {
