@@ -71,9 +71,9 @@ const style = [ // the stylesheet for the graph
             'text-wrap': 'wrap',
             'text-max-width': 35,
             'color': '#444',
-            'source-arrow-shape': 'triangle',
+            'target-arrow-shape': 'triangle',
             'arrow-scale':'0.8',
-            'source-arrow-color': '#666',
+            'target-arrow-color': '#666',
         }
     },
     {
@@ -94,7 +94,7 @@ var layoutOptions = {
     animationDuration: 250,
     elk: {
             algorithm: 'mrtree',
-    }
+    }    
 };
 
 
@@ -239,11 +239,40 @@ var gitRoot = "https://github.com/Judo-Documentation-Project/budotree/tree/main/
 var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
 var cardFooter = document.getElementById("card-footer");
+var focusedPeople =[]
+
+document.addEventListener('DOMContentLoaded', function() {
+    let pred = document.getElementById("predecessors");
+    let focus = document.getElementById("focus");
+    pred.addEventListener('click', e => {
+	//console.log("Predecessors" + ele.data().name);
+        if (e.target.checked) {
+	    let person = cy.elements("node:selected")
+	    focusedPeople = person
+	    let ancestors = person.predecessors('node')
+	    let successors = person.successors('node')
+	    let family = ancestors.union(successors).union(person)	    
+	    //ancestors.style("color", "#f8c3cd");
+	    //successors.style("color", "f75c2f");
+	    cy.nodes().difference(family).style("display", "none")
+            focus.classList.toggle('focus-on');
+	    person.style("background-color", "#096148")
+        } else {
+	    cy.nodes().style("display", "element");
+	    //cy.nodes().style('color', "white");
+	    //cy.nodes().style('background-color', "black");
+	    //person.addClass("selected");
+	    focusedPeople.style("background-color", "black")  
+	    focus.classList.toggle('focus-on');
+	}
+	layout.run();	
+    })});
+
 
 
 cy.nodes().bind("tap", (event) => {
     const template = document.getElementById('template').innerHTML;
-
+    event.target.select()
     for (var i = 0; i < event.target.data().teachers.length; i++) {
         //console.log(event.target.data().teachers[i]);
         for (let person of data.elements.nodes) {
@@ -290,6 +319,9 @@ cy.nodes().bind("tap", (event) => {
     document.getElementById('info').innerHTML = rendered;
     cardFooter.setAttribute("href", gitRoot + event.target.data().source_yaml);
     cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + event.target.data().id;
+    console.log("Click on node, adding Selected to ", event.target.selected())
+    //event.target.addClass("selected");
+    //event.target.style('background-color','#cb4042')
 });
     
 document.addEventListener('DOMContentLoaded', function() {
