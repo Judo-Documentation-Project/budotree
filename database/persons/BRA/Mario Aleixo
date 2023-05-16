@@ -1,0 +1,40 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-??
+  name: Mario Aleixo
+  nationality:
+    - BRA
+  birth: 
+    date: --
+    location: Rio de Janeiro, RJ
+    country_code: BRA
+  death:
+    date: ---
+    location: ----
+    country: BRA
+  photo_url: https://img1.wsimg.com/isteam/ip/480b94b8-cb6a-48b7-9add-7d9635474067/Aleixo_1918.jpg/:/rs=w:400,cg:true,m   
+  teachers:
+    - id: JDP-19
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 
+        end:
+      quality:
+    - id: JDP-18
+      style_id: JDP-S-1
+      place: 
+      period:
+        start: 1917
+        end:
+      quality: 2      
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: 
