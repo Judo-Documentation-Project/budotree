@@ -20,8 +20,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-      with:
-       ref: gh-pages
+
        
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -42,6 +41,7 @@ jobs:
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
+        git checkout -b gh-pages
         git add export/jdp-tree.json site/src/js/tree.json
         git commit -m "Automated file creation."
         git push origin gh-pages
