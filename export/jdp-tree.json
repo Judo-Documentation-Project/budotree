@@ -1085,8 +1085,7 @@
               "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -2567,8 +2566,7 @@
               "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -2676,8 +2674,7 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
-              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
@@ -2761,7 +2758,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP451ca2f6182ce",
+          "id": "JDP3b5596e387bda",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-11",
           "target": "JDP-24",
@@ -2773,7 +2770,7 @@
       },
       {
         "data": {
-          "id": "JDPd04e2eb1be445",
+          "id": "JDP957976d9e706e",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-12",
           "target": "JDP-25",
@@ -2785,7 +2782,7 @@
       },
       {
         "data": {
-          "id": "JDP67e7c1e56a0e7",
+          "id": "JDPba3e462825e24",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -2796,7 +2793,7 @@
       },
       {
         "data": {
-          "id": "JDP5306cfc95ef6a",
+          "id": "JDP42c842db1ecb4",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-12",
           "target": "JDP-16",
@@ -2807,7 +2804,7 @@
       },
       {
         "data": {
-          "id": "JDPd42c63c19aef1",
+          "id": "JDPccf3c2680b75e",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yokoyama Sakujiro",
           "source": "JDP-1",
           "target": "JDP-9",
@@ -2818,7 +2815,7 @@
       },
       {
         "data": {
-          "id": "JDP14d3c527f2551",
+          "id": "JDP74b107f51580d",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-10",
           "target": "JDP-9",
@@ -2829,7 +2826,7 @@
       },
       {
         "data": {
-          "id": "JDPc86844112f051",
+          "id": "JDP7450eb9824e47",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-28",
           "target": "JDP-27",
@@ -2845,7 +2842,7 @@
       },
       {
         "data": {
-          "id": "JDP16419995f4ed9",
+          "id": "JDP8ba3031685de2",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomita Tsunejirō",
           "source": "JDP-1",
           "target": "JDP-17",
@@ -2856,7 +2853,7 @@
       },
       {
         "data": {
-          "id": "JDP9f4d1082c9442",
+          "id": "JDP4396ff78cad05",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-1",
           "target": "JDP-26",
@@ -2872,7 +2869,7 @@
       },
       {
         "data": {
-          "id": "JDPe6ad56df4336d",
+          "id": "JDP1cd519a9c1039",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-27",
           "target": "JDP-26",
@@ -2883,7 +2880,7 @@
       },
       {
         "data": {
-          "id": "JDP62df8c367fed4",
+          "id": "JDP75009e5486ae4",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-7",
           "target": "JDP-6",
@@ -2894,7 +2891,7 @@
       },
       {
         "data": {
-          "id": "JDPde4936b4775cf",
+          "id": "JDP254eb499360f2",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-8",
           "target": "JDP-7",
@@ -2905,7 +2902,7 @@
       },
       {
         "data": {
-          "id": "JDP1adc654c95036",
+          "id": "JDP4c39bc38ef7db",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Takahashi Kazuyoshi",
           "source": "JDP-9",
           "target": "JDP-14",
@@ -2916,7 +2913,7 @@
       },
       {
         "data": {
-          "id": "JDP34efffe0f59ca",
+          "id": "JDP230cf094f7993",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-31",
           "target": "JDP-30",
@@ -2928,7 +2925,7 @@
       },
       {
         "data": {
-          "id": "JDPece75385a9bc7",
+          "id": "JDP16d818f3dac79",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-27",
           "target": "JDP-30",
@@ -2940,7 +2937,7 @@
       },
       {
         "data": {
-          "id": "JDPb96dacc2cad93",
+          "id": "JDP4adafcfe1c1ce",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-32",
           "target": "JDP-30",
@@ -2952,7 +2949,7 @@
       },
       {
         "data": {
-          "id": "JDP9729b98546d85",
+          "id": "JDP83e5bfbfceeb4",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-33",
           "target": "JDP-30",
@@ -2964,7 +2961,7 @@
       },
       {
         "data": {
-          "id": "JDPc637a5d0e74f2",
+          "id": "JDPf101d4707de71",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-34",
           "target": "JDP-30",
@@ -2976,7 +2973,7 @@
       },
       {
         "data": {
-          "id": "JDPc39031251c0b9",
+          "id": "JDP59c68e5645b9a",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-35",
           "target": "JDP-30",
@@ -2988,7 +2985,7 @@
       },
       {
         "data": {
-          "id": "JDPe95137d9ed439",
+          "id": "JDPb133a433e954c",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-36",
           "target": "JDP-30",
@@ -3000,7 +2997,7 @@
       },
       {
         "data": {
-          "id": "JDP415af8d737d6e",
+          "id": "JDP8053d0d14d1dc",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-17",
           "target": "JDP-22",
@@ -3012,7 +3009,7 @@
       },
       {
         "data": {
-          "id": "JDP9ffdc86feca6e",
+          "id": "JDP14f5ae4b2b847",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-1",
           "target": "JDP-22",
@@ -3024,7 +3021,7 @@
       },
       {
         "data": {
-          "id": "JDP2dbbede639645",
+          "id": "JDPf3d17eceee94",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-42",
           "target": "JDP-38",
@@ -3036,7 +3033,7 @@
       },
       {
         "data": {
-          "id": "JDPa345882207e9",
+          "id": "JDPefe04e1189da7",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-43",
           "target": "JDP-38",
@@ -3048,7 +3045,7 @@
       },
       {
         "data": {
-          "id": "JDP6e6df1c127a6a",
+          "id": "JDP9f0eef067fa3f",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-44",
           "target": "JDP-38",
@@ -3060,7 +3057,7 @@
       },
       {
         "data": {
-          "id": "JDP195d5da8ea858",
+          "id": "JDPac52a9b97861f",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-1",
           "target": "JDP-44",
@@ -3071,7 +3068,7 @@
       },
       {
         "data": {
-          "id": "JDP67249020280fa",
+          "id": "JDPf074658650757",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-1",
           "target": "JDP-29",
@@ -3082,7 +3079,7 @@
       },
       {
         "data": {
-          "id": "JDP1d0ecec6ee78d",
+          "id": "JDP25d7a0f3e285c",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-11",
           "target": "JDP-29",
@@ -3093,7 +3090,7 @@
       },
       {
         "data": {
-          "id": "JDP24ebfcbd833e9",
+          "id": "JDP81e908a8954e",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-27",
           "target": "JDP-29",
@@ -3104,7 +3101,7 @@
       },
       {
         "data": {
-          "id": "JDP3b5792056579",
+          "id": "JDP6189278b6fbbd",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-1",
           "target": "JDP-11",
@@ -3115,7 +3112,7 @@
       },
       {
         "data": {
-          "id": "JDP6dc02ae4f8971",
+          "id": "JDP1ea743fd8e39e",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-9",
           "target": "JDP-11",
@@ -3126,7 +3123,7 @@
       },
       {
         "data": {
-          "id": "JDP80628dadea3c3",
+          "id": "JDPf3e34b199a21f",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-17",
           "target": "JDP-18",
@@ -3137,7 +3134,7 @@
       },
       {
         "data": {
-          "id": "JDP2f0d7b855f547",
+          "id": "JDP3f2985a4dbf7b",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-38",
           "target": "JDP-37",
@@ -3149,7 +3146,7 @@
       },
       {
         "data": {
-          "id": "JDP594f5fec41fcf",
+          "id": "JDP966886b5445cc",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-39",
           "target": "JDP-37",
@@ -3161,7 +3158,7 @@
       },
       {
         "data": {
-          "id": "JDPcd103776a4505",
+          "id": "JDP43c3f7d505408",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-42",
           "target": "JDP-37",
@@ -3173,7 +3170,7 @@
       },
       {
         "data": {
-          "id": "JDP4e3193b4dd626",
+          "id": "JDPcc7b4233a0b32",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-40",
           "target": "JDP-37",
@@ -3185,7 +3182,7 @@
       },
       {
         "data": {
-          "id": "JDPb5149e6c6af65",
+          "id": "JDP7bbce1e80827c",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-41",
           "target": "JDP-37",
@@ -3197,7 +3194,7 @@
       },
       {
         "data": {
-          "id": "JDPc8d6f067e7",
+          "id": "JDP56c627c203bfc",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-27",
           "target": "JDP-37",
@@ -3209,7 +3206,7 @@
       },
       {
         "data": {
-          "id": "JDP931083dda5a6",
+          "id": "JDP48c0f8cb74509",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Kobayashi Kiyoshi",
           "source": "JDP-11",
           "target": "JDP-12",
@@ -3220,7 +3217,7 @@
       },
       {
         "data": {
-          "id": "JDP6f33c269eb382",
+          "id": "JDP4dd2fea7a85d7",
           "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi  Mikinosuke",
           "source": "JDP-14",
           "target": "JDP-13",
@@ -3231,7 +3228,7 @@
       },
       {
         "data": {
-          "id": "JDP4ebee7653bb1b",
+          "id": "JDP3a74207ecc491",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-2",
           "target": "JDP-1",
@@ -3243,7 +3240,7 @@
       },
       {
         "data": {
-          "id": "JDPe0259b83515cb",
+          "id": "JDP788caa1e549e3",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-4",
           "target": "JDP-1",
@@ -3255,7 +3252,7 @@
       },
       {
         "data": {
-          "id": "JDPe1540a9f9e421",
+          "id": "JDPf6f99568027cd",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-5",
           "target": "JDP-1",
@@ -3267,7 +3264,7 @@
       },
       {
         "data": {
-          "id": "JDP4795388dc9522",
+          "id": "JDP72d167f9483f1",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-9",
           "target": "JDP-43",
@@ -3278,7 +3275,7 @@
       },
       {
         "data": {
-          "id": "JDPf13896aff3ef9",
+          "id": "JDP72dd9bedea56e",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-3",
           "target": "JDP-4",
@@ -3288,7 +3285,7 @@
       },
       {
         "data": {
-          "id": "JDP07672b6395bc5",
+          "id": "JDP0aaeb81544883",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-3",
           "target": "JDP-10",
@@ -3299,7 +3296,7 @@
       },
       {
         "data": {
-          "id": "JDP8920b2fefee83",
+          "id": "JDPde01d74ce5911",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-9",
           "target": "JDP-31",
@@ -3310,7 +3307,7 @@
       },
       {
         "data": {
-          "id": "JDP6d9405c7a7b6b",
+          "id": "JDP42eefd2c83f02",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-6",
           "target": "JDP-5",
@@ -3321,7 +3318,7 @@
       },
       {
         "data": {
-          "id": "JDPacd97490db63d",
+          "id": "JDPed4c8ae347ddc",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-4",
           "target": "JDP-2",
@@ -3332,7 +3329,7 @@
       },
       {
         "data": {
-          "id": "JDP649a234bae652",
+          "id": "JDPdb326ee9209d9",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Mario Aleixo",
           "source": "JDP-18",
           "target": "JDP-45",
@@ -3344,7 +3341,7 @@
       },
       {
         "data": {
-          "id": "JDPc8a7cc01c9ffc",
+          "id": "JDP37ca5203695a",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-22",
           "target": "JDP-20",
@@ -3356,7 +3353,7 @@
       },
       {
         "data": {
-          "id": "JDPec75bf97a3a49",
+          "id": "JDP14cf45f06e1ed",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-18",
           "target": "JDP-20",
@@ -3368,7 +3365,7 @@
       },
       {
         "data": {
-          "id": "JDPe3679ae8c5f14",
+          "id": "JDPe50b518c1caff",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-18",
           "target": "JDP-19",
@@ -3379,7 +3376,7 @@
       },
       {
         "data": {
-          "id": "JDP65f688d5c9543",
+          "id": "JDP13edf7c45336c",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-18",
           "target": "JDP-23",
@@ -3391,7 +3388,7 @@
       },
       {
         "data": {
-          "id": "JDP7bb789fa4db12",
+          "id": "JDP87c5bbbce5221",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-19",
           "target": "JDP-21",
@@ -3403,7 +3400,7 @@
       },
       {
         "data": {
-          "id": "JDPf22ac9d8d78f9",
+          "id": "JDP70898be419fbd",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-18",
           "target": "JDP-21",
