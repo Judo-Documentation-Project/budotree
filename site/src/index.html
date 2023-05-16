@@ -151,10 +151,20 @@
     <ul id="teachers">
     {{#teachers}}
     {{#teacher_name}}	    
-    <li><a href="#" id="{{id}}">{{teacher_name}}</a></li>
+    <li><a href="#" id="{{id}}">{{teacher_name}}</a>
+    <span class="style_native"> {{native_name}} </span>
+    </li>
     {{/teacher_name}}    
     {{/teachers}}
-    </ul> 
+	    </ul>
+    <h2>Students</h2>
+    {{#students}}
+    <ul id="students">
+    <li><a href="#" id="{{id}}">{{name}}</a>
+    <span class="style_native"> {{native_name}} </span>
+     </li>
+    {{/students}}
+    </ul>    
     <h2>Rank</h2>
     {{#rank}}
       <ul>

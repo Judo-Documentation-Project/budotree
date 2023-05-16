@@ -317,11 +317,18 @@ function updateInfo (target) {
         };
     };
 
-
+    //console.log("Students? ", target.outgoers('node'))
+    let students = []
+    target.outgoers('node').forEach( e => {
+	students.push(e.data())
+    });
+    target.data().students = students;
+    console.log("After students: ", target.data());
+    
     target.data().birth["country_local"] = function () {
         return countries.getName(this.country_code, "en");
     };
-    
+
     target.data().death["country_local"] = function () {
         return countries.getName(this.country_code, "en");
     };
@@ -346,6 +353,17 @@ function updateInfo (target) {
 	target.unselect();
 	updateInfo(cy.nodes('#' + e.target.id));
     });
+
+
+    // Student link navigation
+    if (students.length > 0) {
+	let studentsInfo = document.getElementById("students");
+	studentsInfo.addEventListener('click', e => {
+	    target.unselect();
+	    updateInfo(cy.nodes('#' + e.target.id));
+	});
+    }
+
 }
 
 cy.nodes().bind("tap", event => updateInfo(event.target));
