@@ -124,7 +124,6 @@ and used precisely for the same reason.
   supports the assertion, interviews or biographies that independently match each other.
 * 3: Direct and primary evidence, or by dominance of evidence.
 
-
 There is always a degree of relativity in determining the "quality" of sources,
 but these guidelines should be good enough to start with.
 
