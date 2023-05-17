@@ -6,7 +6,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "gh_pages" ]
   pull_request:
     branches: [ "main" ]
 
@@ -44,7 +44,7 @@ jobs:
         git checkout -b gh-pages
         git add export/jdp-tree.json site/src/js/tree.json
         git commit -m "Automated file creation."
-        git push origin gh-pages
+        git push -f origin gh-pages
         
   build:
     runs-on: ubuntu-latest
