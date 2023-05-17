@@ -4,7 +4,9 @@
 person:
   id: JDP-28
   name: Takeda Sōkaku
-  native_name: 武田 惣角
+  native_name: 
+    name: 武田 惣角
+    lang: ja
   nationality:
     - JPN
   birth: 

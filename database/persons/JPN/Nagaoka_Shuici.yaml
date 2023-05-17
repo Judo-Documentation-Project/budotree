@@ -4,7 +4,9 @@
 person:
   id: JDP-44
   name: Nagaoka Shūichi
-  native_name:  永岡 秀一
+  native_name:
+    name: 永岡 秀一
+    lang: ja  
   aka:
     - name: Nagaoka Hideichi
   nationality:

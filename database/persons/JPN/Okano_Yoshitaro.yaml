@@ -4,10 +4,14 @@
 person:
   id: JDP-38
   name: Okano Yoshitaro
-  native_name:  岡野好太郎
+  native_name:
+    name: 岡野好太郎
+    lang: ja
   aka:
     - name: Okano Kotaru
-      native_name:  岡野好太郎
+      native_name:
+        - name: 岡野好太郎
+          lang: ja      
   nationality:
     - JPN
   birth: 

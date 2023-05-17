@@ -4,7 +4,9 @@
 person:
   id: JDP-33
   name: Kuboki Sozaemon
-  native_name: 
+  native_name:
+    name:
+    lang: 
   nationality:
     - JPN
   birth: 

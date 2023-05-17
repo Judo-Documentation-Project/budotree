@@ -4,7 +4,9 @@
 person:
   id: JDP-3
   name: Iso Masatari Mataemon
-  native_name: 磯又右衛門
+  native_name:
+    name: 磯又右衛門
+    lang: ja  
   nationality:
     - JPN
   birth: 

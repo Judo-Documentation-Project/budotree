@@ -4,7 +4,9 @@
 style:
   id: JDP-S-8
   name: Kendo
-  native_name: 剣道
+  native_name:
+    name: 剣道
+    lang: ja
   birth: 
     date: 1912
     location: 

@@ -4,7 +4,9 @@
 person:
   id: JDP-30
   name: Sugino Yoshio
-  native_name: 杉野嘉男
+  native_name: 
+    name: 杉野嘉男
+    lang: ja
   nationality:
     - JPN
   birth: 

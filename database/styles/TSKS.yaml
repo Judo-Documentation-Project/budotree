@@ -4,10 +4,14 @@
 style:
   id: JDP-S-6
   name: Tenshin Shōden Katori Shintō-ryū
-  native_name: 天真正伝香取神道流
+  native_name:
+    name: 天真正伝香取神道流
+    lang: ja  
   aka:
     - name: Katori Shintō-ryū
-      native_name: 香取神道流
+      native_name: 
+        name: 香取神道流
+        lang: ja      
   birth: 
     date: 1147
     location: Shimōsa

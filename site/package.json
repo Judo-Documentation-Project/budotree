@@ -7,6 +7,7 @@
     },
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
+        "@parcel/transformer-yaml": "^2.8.3",
         "buffer": "^5.7.1",
         "cytoscape": "^3.24.0",
         "cytoscape-bubblesets": "^3.2.0",
@@ -28,7 +29,10 @@
         "cytoscape-cola": "^2.5.1",
         "cytoscape-elk": "^2.1.0",
         "cytoscape-popper": "^2.0.0",
+        "i18next": "^22.4.15",
         "jquery": "^3.6.4",
+        "js-yaml": "^4.1.0",
+        "node-polyglot": "^2.5.0",
         "popper": "^1.0.1",
         "tachyons": "^4.12.0",
         "web-worker": "^1.2.0"

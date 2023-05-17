@@ -6,20 +6,20 @@ $body-color: #111111;
 $family-serif: 'Noto Serif JP', serif;
 $family-primary: $family-serif;
 $primary: red;
-
+$card-footer-padding: 0;
 //@import '../../node_modules/bulma/css/bulma.css';
 @import '../../node_modules/bulma/bulma.sass';
 @import '../../node_modules/bulma-switch/src/sass/index.sass';
 
 
 //body {
-//    background-color: white;    
+//    background-color: white;
 //}
 //$font: 'Cormorant Garamond, serif';
 
 body {
     font-family: $family-serif;
-    font-weight: 700; 
+    font-weight: 700;
     background-color: white;
     color: #27221F;
 }
@@ -50,9 +50,10 @@ li p{
 }
 
 .style_native {
-    color: #0f2540;
-    font-size: 0.5rem;
-    vertical-align: super;
+  _color: #0f2540;
+  color: #e98b2a;
+    _font-size: 0.5rem;
+    _vertical-align: super;
 }
 .info li {
   alist-style-type: none;
@@ -66,7 +67,7 @@ li p{
    list-style: disc;
 }
 .info img {
-  display: block;    
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -82,27 +83,27 @@ li p{
 
 .info .birth {
     font-size: 0.7rem;
-    text-align: center;    
+    text-align: center;
 }
 h1.name  {
     font-size: 0.8rem;
     font-weight: bold;
     color: #0f2540;
-    text-align: center;    
+    text-align: center;
 }
 
 .info .native-name  {
     font-size: 1rem;
     font-weight: bold;
     color: #0f2540;
-    text-align: center;    
+    text-align: center;
 }
 
 .info h2 {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #cb4042;
-    _color: #f596aa;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #cb4042;
+  _color: #f596aa;
 }
 
 .info dt {
@@ -113,26 +114,27 @@ h1.name  {
 .info dt {
     font-size: 1rem;
     font-weight: bold;
-
 }
+
 .info {
-    position: fixed;
-    font-weight: 500;
-    top: 100px;
-    left: 20px;
-    _width: 20vw;
-    min-width: 300px;
-    padding: 0px;
-    max-width: 20vw;
-    width: 20vw;
-    max-height: 70%;
-    _min-heigth: 0px ;
-    box-sizing: border-box;
-    overflow: auto;
-    _color: #cb4042;
-    background-color: white;
-    _opacity: 0.5;
-    _background: rgba(100, 100, 100, 0.0); 
+  position: fixed;
+  font-weight: 500;
+  top: 40px;
+  left: 10px;
+  _width: 20vw;
+  min-width: 300px;
+  padding: 0px;
+  max-width: 20vw;
+  width: 20vw;
+  max-height: 70%;
+  _min-heigth: 0px ;
+  box-sizing: border-box;
+  overflow: auto;
+  overflow-wrap: break-word;
+  _color: #cb4042;
+  background-color: white;
+  _opacity: 0.5;
+  _background: rgba(100, 100, 100, 0.0);
 }
 
 
@@ -304,4 +306,3 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
         font-size: 1rem;
     }
 }
-

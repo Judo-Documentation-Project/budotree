@@ -4,7 +4,9 @@
 person:
   id: JDP-18
   name: Maeda Mitsuyo
-  native_name: 前田 光世
+  native_name:
+    name: 前田 光世
+    lang: ja
   aka:
     - Otávio Maeda
     - Conde Koma
