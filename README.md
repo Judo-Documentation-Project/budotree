@@ -7,7 +7,7 @@ The Budō Lineage Tree is a community-driven database of
 teacher/student interactions, presented as an interactive lineage
 tree.
 
-There are three main components to this:
+There are three main components in the project:
 
 * A database of persons, training places, styles, organisations, and
   sources, using YAML as the format to make manual editing in a
