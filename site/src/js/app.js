@@ -54,7 +54,7 @@ function changeLanguage () {
 }
 
 function updateContent () {
-    document.getElementById('nav-budo').innerHTML = polyglot.t("Budō Tree");
+    document.getElementById('nav-budo').innerHTML = polyglot.t("Budō Lineage Tree");
     updateInfo(cy.elements("node:selected"));
     cy.style().update();
 }
