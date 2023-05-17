@@ -4,7 +4,9 @@
 person:
   id: JDP-8
   name: Takino Yūken
-  native_name: 滝野遊軒
+  native_name:
+    name: 滝野遊軒
+    lang: ja
   nationality:
     - JPN  
   birth: 

@@ -5,7 +5,9 @@ person:
   id: JDP-5
   name: Iikubo Tsunetoshi
   alias: Iikubo Kōnen
-  native_name: 飯久保鍬吉恒年先生
+  native_name: 
+      name: 飯久保鍬吉恒年先生
+      lang: ja
   nationality:
     - JPN  
   birth: 

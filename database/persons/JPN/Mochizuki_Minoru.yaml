@@ -4,7 +4,9 @@
 person:
   id: JDP-29
   name: Mochizuki Minoru
-  native_name:  望月 稔
+  native_name:
+    name: 望月 稔
+    lang: ja
   nationality:
     - JPN
   birth: 

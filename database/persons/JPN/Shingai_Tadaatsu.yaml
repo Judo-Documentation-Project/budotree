@@ -4,7 +4,9 @@
 person:
   id: JDP-40
   name: Shingai Tadaatsu
-  native_name:  真貝忠篤
+  native_name:  
+    name: 真貝忠篤
+    lang: ja
   nationality:
     - JPN
   birth: 

@@ -4,7 +4,9 @@
 person:
   id: JDP-37
   name:  Konishi Yasuhiro
-  native_name:  小西康裕
+  native_name:
+    name: 小西康裕
+    lang: ja
   nationality:
     - JPN
   birth: 

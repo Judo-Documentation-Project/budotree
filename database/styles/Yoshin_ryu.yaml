@@ -4,10 +4,14 @@
 style:
   id: JDP-S-7
   name: Yōshin-ryū
-  native_name: 楊心流
+  native_name:
+    name: 楊心流
+    lang: ja
   aka:
     - name: Yōshin Koryū
-      native_name: 楊心古流
+      native_name:
+        name: 楊心古流
+        lang: ja
   birth: 
     date: 1610
     location:

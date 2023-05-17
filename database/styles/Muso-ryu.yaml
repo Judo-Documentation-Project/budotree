@@ -4,7 +4,9 @@
 style:
   id: JDP-S-9
   name: Muso-ryu
-  native_name: 無相流
+  native_name:
+    name: 無相流
+    lang: ja
   birth: 
     date: 1592
     location: Sanuki

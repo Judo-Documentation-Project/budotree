@@ -4,7 +4,9 @@
 person:
   id: JDP-26
   name: Tomiki Kenji
-  native_name: 富木 謙治
+  native_name:
+    name: 富木 謙治
+    lang: ja
   nationality:
     - JPN
   birth: 

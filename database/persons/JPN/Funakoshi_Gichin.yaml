@@ -4,7 +4,9 @@
 person:
   id: JDP-41
   name: Funakoshi Gichin
-  native_name:  船越 義珍
+  native_name:
+      name: 船越 義珍
+      lang: ja
   nationality:
     - JPN
   birth: 

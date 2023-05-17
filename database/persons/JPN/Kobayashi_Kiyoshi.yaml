@@ -4,7 +4,9 @@
 person:
   id: JDP-12
   name: Kobayashi Kiyoshi
-  native_name:  小林清
+  native_name:  
+      name: 小林清
+      lang: ja
   nationality:
     - JPN
   birth: 

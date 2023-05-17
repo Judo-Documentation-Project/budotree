@@ -4,7 +4,9 @@
 person:
   id: JDP-9
   name: Yokoyama Sakujiro
-  native_name:  横山 作次郎
+  native_name:
+     name: 横山 作次郎
+     lang: ja
   nationality:
     - JPN
   birth: 

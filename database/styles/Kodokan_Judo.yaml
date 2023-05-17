@@ -4,7 +4,9 @@
 style:
   id: JDP-S-1
   name: Kōdōkan Jūdō
-  native_name: 講道館柔道
+  native_name:
+    name: 講道館柔道
+    lang: ja
   birth: 
     date: 1882
     location:

@@ -4,7 +4,9 @@
 person:
   id: JDP-14
   name: Takahashi Kazuyoshi
-  native_name: 高橋数良
+  native_name:
+    name: 高橋数良
+    lang: ja  
   nationality:
     - JPN  
   birth: 

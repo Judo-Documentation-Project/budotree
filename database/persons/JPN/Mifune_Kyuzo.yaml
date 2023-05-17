@@ -4,7 +4,9 @@
 person:
   id: JDP-11
   name: Mifune Kyūzō
-  native_name:  三船 久蔵
+  native_name:
+    name: 三船 久蔵
+    lang: ja  
   nationality:
     - JPN
   birth: 

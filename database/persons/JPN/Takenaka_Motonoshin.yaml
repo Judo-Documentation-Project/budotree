@@ -4,7 +4,9 @@
 person:
   id: JDP-7
   name: Takenaka  Motonoshin
-  native_name: 竹中元之進
+  native_name:
+    name: 竹中元之進
+    lang: ja
   nationality:
     - JPN  
   birth: 

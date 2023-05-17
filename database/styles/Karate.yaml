@@ -4,10 +4,14 @@
 style:
   id: JDP-S-5
   name: Karate
-  native_name: 空手
+  native_name:
+    name: 空手
+    lang: ja
   aka:
     - name: Karatedo
-      native_name: 空手道
+      native_name:
+        - name: 空手道
+          lang: ja
   birth: 
     date: 19th century
     location: Okinawa

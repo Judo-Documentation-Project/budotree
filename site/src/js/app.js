@@ -5,10 +5,15 @@ import cise from 'cytoscape-cise';
 import fcose from 'cytoscape-fcose';
 import BubbleSets from 'cytoscape-bubblesets';
 import $ from 'jquery';
+import Polyglot from 'node-polyglot';
+import yaml from 'js-yaml';
+
 const { DateTime } = require("luxon");
 const Mustache = require('mustache');
 const countries = require("i18n-iso-countries");
 countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
+countries.registerLocale(require("i18n-iso-countries/langs/pt.json"));
+countries.registerLocale(require("i18n-iso-countries/langs/ja.json"));
 
 cytoscape.use( elk );
 cytoscape.use( cola );
@@ -20,23 +25,58 @@ import data from './tree.json';
 console.log(data);
 
 
+
+let polyglot;
+
+
+import pt_res from '../i18n/pt.json';
+import ja_res from '../i18n/ja.json';
+
+let langRes = {};
+langRes["pt"] = pt_res;
+langRes["ja"] = ja_res;
+
+let lang ="en"
+console.log("i18n: setting lang to ", lang)
+polyglot = new Polyglot();
+polyglot.extend(langRes[lang]);
+var updateLanguage = document.getElementById("language");
+updateLanguage.onchange = changeLanguage
+
+function changeLanguage () {
+    var value = updateLanguage.value;
+    var text = updateLanguage.options[updateLanguage.selectedIndex].text;
+    lang = updateLanguage.value;
+    console.log("changeLanguage: ", value, text, langRes[lang]);
+    polyglot = new Polyglot();
+    polyglot.extend(langRes[lang]);
+    updateContent();
+}
+
+function updateContent () {
+    document.getElementById('nav-budo').innerHTML = polyglot.t("Budō Lineage Tree");
+    updateInfo(cy.elements("node:selected"));
+    cy.style().update();
+}
+
+
 const style = [ // the stylesheet for the graph
     {
         selector: 'node',
         style: {
             'label': (ele) => {
-                if (nativeNames && ele.data().native_name) {
-                    return ele.data().native_name
+                if (ele.data().native_name && ele.data().native_name.lang == lang) {
+                    return ele.data().native_name.name
                 } else {
                     return ele.data().name
                 }
             },
-	    'background-image': (ele) => {
-		if (ele.data().photo_url) {
-		    return ele.data().photo_url
-		} else
-		    return false
-	    },
+            'background-image': (ele) => {
+                if (ele.data().photo_url) {
+                    return ele.data().photo_url
+                } else
+                    return false
+            },
             "background-fit": "cover cover",
             "background-image-opacity": 0.4,
             //'label': 'data(name)',
@@ -66,12 +106,12 @@ const style = [ // the stylesheet for the graph
             'taxi-direction': 'auto',
             'line-color': '#888',
             'label': (ele) => {
-                if (nativeNames && ele.data().interaction_native) {
-                    return ele.data().interaction_native
+                if (ele.data().interaction_native && ele.data().interaction_native.lang == lang) {
+                    return ele.data().interaction_native.name
                 } else {
                     return ele.data().interaction
                 }
-            },          
+            },
             //'label': 'data(interaction)',
             'font-size': '0.4em',
             'font-family': 'Noto Serif JP, serif',
@@ -102,18 +142,18 @@ const style = [ // the stylesheet for the graph
         css: {
             'background-color':  '#096148'
         }
-    },    
-    {
-	selector: '.ancestors',
-	css: {
-            'color':  '#f596aa',
-	}
     },
     {
-	selector: '.descendants',
-	css: {
+        selector: '.ancestors',
+        css: {
+            'color':  '#f596aa',
+        }
+    },
+    {
+        selector: '.descendants',
+        css: {
             'color':  '#f9bf45',
-	}
+        }
     }
 ];
 
@@ -126,7 +166,7 @@ var layoutOptions = {
     animationDuration: 250,
     elk: {
             algorithm: 'mrtree',
-    }    
+    }
 };
 
 
@@ -147,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
 //    layoutOptions["name"]="elk";
 //    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
-    cy.nodes('[id = "JDP-1"]').select();    
+    cy.nodes('[id = "JDP-1"]').select();
     layout.run();
     console.log(layout);
     nodesByCountry();
@@ -157,16 +197,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function goHome() {
     console.log("Going home...");
-    cy.nodes('[id = "JDP-1"]').select();
+    let homeNode = cy.nodes('[id = "JDP-1"]')
+    cy.nodes().unselect();
+    cy.nodes(homeNode).select();
     cy.center();
+    updateInfo(cy.nodes(homeNode))
     layout.run();
 }
 
-function onChange() {
-    var value = e.value;
-    var text = e.options[e.selectedIndex].text;
+function changeLayout() {
+    var value = updateLayout.value;
+    var text = updateLayout.options[updateLayout.selectedIndex].text;
     console.log(value, text);
-    switch(e.value) {
+    switch(updateLayout.value) {
     case "mrtree":
         layoutOptions["name"]="elk";
         layoutOptions["elk"]["algorithm"] = "mrtree";
@@ -190,18 +233,17 @@ function onChange() {
         break;
     case "fcose":
         layoutOptions["name"]="fcose";
-        break;  
+        break;
     }
-    
+
     layout = cy.layout(layoutOptions);
     cy.layout(layoutOptions);
     console.log( layoutOptions["name"]);
     layout.run();
 }
 
-var e = document.getElementById("ddlViewBy");
-e.onchange = onChange;
-onChange();
+var updateLayout = document.getElementById("ddlViewBy");
+updateLayout.onchange = changeLayout;
 
 
 var homeBtn = document.getElementById("home");
@@ -266,25 +308,25 @@ document.addEventListener('DOMContentLoaded', function() {
     let pred = document.getElementById("predecessors");
     let focus = document.getElementById("focus");
     pred.addEventListener('click', e => {
-	//console.log("Predecessors" + ele.data().name);
+        //console.log("Predecessors" + ele.data().name);
         if (e.target.checked) {
-	    let person = cy.elements("node:selected")
-	    //focusedPeople = person
-	    let ancestors = person.predecessors('node')
-	    let successors = person.successors('node')
-	    //ancestorsOfPeople = ancestors
-	    //descendantsOfPeople = successors
-	    let family = ancestors.union(successors).union(person)	    
-	    cy.nodes().difference(family).addClass("hidden")
-	    person.addClass("focused");	    
-	    ancestors.addClass("ancestors");
-	    successors.addClass("descendants");
+            let person = cy.elements("node:selected")
+        //focusedPeople = person
+            let ancestors = person.predecessors('node')
+            let successors = person.successors('node')
+            //ancestorsOfPeople = ancestors
+            //descendantsOfPeople = successors
+            let family = ancestors.union(successors).union(person)
+            cy.nodes().difference(family).addClass("hidden")
+            person.addClass("focused");
+            ancestors.addClass("ancestors");
+            successors.addClass("descendants");
             focus.classList.toggle('focus-on');
         } else {
-	    cy.nodes().removeClass(["hidden", "ancestors", "descendants","focused"]);
-	    focus.classList.toggle('focus-on');
-	}
-	layout.run();
+            cy.nodes().removeClass(["hidden", "ancestors", "descendants","focused"]);
+            focus.classList.toggle('focus-on');
+        }
+        layout.run();
     })});
 
 
@@ -298,6 +340,7 @@ function updateInfo (target) {
             if (person.data.id == target.data().teachers[i].id) {
                 //console.log(person.data.name);
                 target.data().teachers[i]["teacher_name"] = person.data.name;
+                target.data().teachers[i]["teacher_native"] = person.data.native_name;
                 console.log(target.data().teachers[i]["teacher_name"]);
             }
         }
@@ -311,6 +354,7 @@ function updateInfo (target) {
                 if (person.data.id == target.data().rank[i].teacher_id) {
                     //console.log(person.data.name);
                     target.data().rank[i]["teacher_name"] = person.data.name;
+                    target.data().rank[i]["teacher_native"] = person.data.native_name;
                     //console.log(event.target.data().teachers[i]);
                 }
             }
@@ -320,55 +364,72 @@ function updateInfo (target) {
     //console.log("Students? ", target.outgoers('node'))
     let students = []
     target.outgoers('node').forEach( e => {
-	students.push(e.data())
+        students.push(e.data())
     });
+
     target.data().students = students;
-    console.log("After students: ", target.data());
-    
+
     target.data().birth["country_local"] = function () {
-        return countries.getName(this.country_code, "en");
+        return countries.getName(this.country_code, lang);
     };
 
     target.data().death["country_local"] = function () {
-        return countries.getName(this.country_code, "en");
+        return countries.getName(this.country_code, lang);
     };
-    
-    
+
+    if (target.data().description) {
+        target.data().description_lang = target.data().description[lang];
+    }
     if (target.data().birth.date) {
         target.data().birth.date_local =  DateTime.fromISO(target.data().birth.date).toFormat("yyyy");
     };
     if (target.data().death.date) {
         target.data().death.date_local =  DateTime.fromISO(target.data().death.date).toFormat("yyyy");
     };
-    cardTitle.innerHTML = target.data().name;
+
+    if (target.data().native_name && target.data().native_name.lang == lang) {
+        cardTitle.innerHTML = target.data().native_name.name;
+    } else {
+        cardTitle.innerHTML = target.data().name;
+    }
+
     const rendered = Mustache.render(template, target.data());
+
+
     document.getElementById('info').innerHTML = rendered;
+
+    // i18n
+    document.getElementById('i18n:teachers').innerHTML = polyglot.t("Teachers");
+    document.getElementById('i18n:students').innerHTML = polyglot.t("Students");
+    document.getElementById('i18n:rank').innerHTML = polyglot.t("Rank");
+    document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
+
     cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
     cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
     console.log("Click on node, adding Selected to ", target.selected())
     // Teacher link navigation
     let teachers = document.getElementById("teachers");
     teachers.addEventListener('click', e => {
-	console.log("Teacher ID: " + e.target.id);
-	target.unselect();
-	updateInfo(cy.nodes('#' + e.target.id));
+        console.log("Teacher ID: " + e.target.id);
+        target.unselect();
+        updateInfo(cy.nodes('#' + e.target.id));
     });
 
 
     // Student link navigation
     if (students.length > 0) {
-	let studentsInfo = document.getElementById("students");
-	studentsInfo.addEventListener('click', e => {
-	    target.unselect();
-	    updateInfo(cy.nodes('#' + e.target.id));
-	});
+        let studentsInfo = document.getElementById("students");
+        studentsInfo.addEventListener('click', e => {
+            target.unselect();
+            updateInfo(cy.nodes('#' + e.target.id));
+        });
     }
 
 }
 
 cy.nodes().bind("tap", event => updateInfo(event.target));
 
-    
+
 document.addEventListener('DOMContentLoaded', function() {
         let cardToggles = document.getElementsByClassName('card-toggle');
         for (let i = 0; i < cardToggles.length; i++) {
@@ -560,17 +621,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 }}})});
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    let nativeName = document.getElementById("nativename");    
-    nativeName.addEventListener('click', e => {
-        //console.log("Changing native name");
-        if (e.target.checked) {
-            nativeNames = true
-        } else {
-            nativeNames = false
-        }
-        cy.style().update()
-    })});
+// document.addEventListener('DOMContentLoaded', function() {
+//     let nativeName = document.getElementById("nativename");
+//     nativeName.addEventListener('click', e => {
+//         //console.log("Changing native name");
+//         if (e.target.checked) {
+//             nativeNames = true
+//         } else {
+//             nativeNames = false
+//         }
+//         cy.style().update()
+//     })});
 
 // navbar burguer
 document.addEventListener('DOMContentLoaded', () => {
@@ -594,5 +655,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
-
-

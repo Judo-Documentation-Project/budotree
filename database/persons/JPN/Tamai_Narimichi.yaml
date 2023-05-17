@@ -4,7 +4,9 @@
 person:
   id: JDP-32
   name: Tamai Narimichi
-  native_name: 
+  native_name:
+    name:
+    lang:
   nationality:
     - JPN
   birth: 

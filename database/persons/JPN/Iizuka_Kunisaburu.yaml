@@ -4,7 +4,9 @@
 person:
   id: JDP-31
   name: Iizuka Kunisaburō
-  native_name:  飯塚 国三郎
+  native_name:
+      name: 飯塚 国三郎
+      lang: ja
   nationality:
     - JPN
   birth: 

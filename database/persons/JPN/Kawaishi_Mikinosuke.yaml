@@ -4,7 +4,9 @@
 person:
   id: JDP-13
   name: Kawaishi  Mikinosuke
-  native_name: 川石 酒造之助
+  native_name:
+      name: 川石 酒造之助
+      lang: ja
   nationality:
     - JPN  
   birth: 

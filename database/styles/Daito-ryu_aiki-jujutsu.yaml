@@ -4,7 +4,9 @@
 style:
   id: JDP-S-10
   name: Daitō-ryū Aiki-jūjutsu
-  native_name: 大東流 合気柔術
+  native_name:
+    name: 大東流 合気柔術
+    lang: ja
   birth: 
     date: 
     location:

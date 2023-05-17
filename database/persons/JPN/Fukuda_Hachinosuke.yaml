@@ -4,7 +4,9 @@
 person:
   id: JDP-2
   name: Fukuda Hachinosuke
-  native_name: 福田八之助
+  native_name:
+      name: 福田八之助
+      lang: ja  
   nationality:
     - JPN  
   birth: 
