@@ -29,7 +29,7 @@ select {
 
 }
 li span:nth-child(1){
-    color: #cb4042;
+    _color: #cb4042;
 }
 
 li h3 {
@@ -47,6 +47,27 @@ li p{
 
 .sources a {
     text-transform: capitalize
+}
+
+.citation {
+  font-style: italic;
+
+  margin-bottom: 0.5rem;
+}
+
+.sources.citation {
+  margin-left: 1rem;
+  font-style: normal;
+}
+
+.sources.citation:before{
+  content:"\2014";
+  margin-right: 0.5rem;
+}
+
+img.thumb {
+  max-width: 80px;
+  height: auto;
 }
 
 .style_native {
@@ -84,6 +105,17 @@ li p{
 .info .birth {
     font-size: 0.7rem;
     text-align: center;
+}
+
+.info .learning-flow {
+  _font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info .learning-arrow {
+  padding: 1rem;
 }
 h1.name  {
     font-size: 0.8rem;

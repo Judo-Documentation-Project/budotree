@@ -15,8 +15,8 @@
     <meta name="og:video:url" content="https://budotree.judoc.org/preview.html">
     <meta name="og:video:secure_url" content="https://budotree.judoc.org/preview.html">
     <meta name="og:video:width" content="1200">
-    <meta name="og:video:height" content="620">    
-    <meta name="og:video:type" content="text/html">    
+    <meta name="og:video:height" content="620">
+    <meta name="og:video:type" content="text/html">
     <meta name="og:type" content="video">
     <meta name="twitter:title" content="Budō Lineage Tree">
     <meta name="twitter:description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open">
@@ -148,73 +148,113 @@
         </a>
       </header>
       <div class="card-content is-hidden">
-        <div class="content p-0">
-          <div id="info" class="is-size-7"></div>
-          <script id="template" type="x-tmpl-mustache">
-    <p class="birth">
-    {{#birth}}
-            * {{date_local}} {{location}} {{country_local}}
-            {{/birth}}
-    -
-    {{#death}}
-             † {{date_local}} {{location}} {{country_local}}
-    {{/death}}
+          <div class="content p-0">
+              <div id="info" class="is-size-7"></div>
+              <script id="template" type="x-tmpl-mustache">
+                  {{^interaction}}
+                  <p class="birth">
 
-    </p>
-    <img src="{{photo_url}}"/>
-           <p class="native-name">{{native_name.name}}</p>
-    <p class="description">{{description_lang}}</p>
-    <h2 id="i18n:teachers">Teachers</h2>
-    <ul id="teachers">
-    {{#teachers}}
-    {{#teacher_name}}
-    <li><a href="#" id="{{id}}">{{teacher_name}}</a>
-    <span class="style_native"> {{native_name.name}} </span>
-    </li>
-    {{/teacher_name}}
-    {{/teachers}}
-            </ul>
-    <h2 id="i18n:students">Students</h2>
-    {{#students}}
-    <ul id="students">
-    <li><a href="#" id="{{id}}">{{name}}</a>
-    <span class="style_native"> {{native_name.name}} </span>
-     </li>
-    {{/students}}
-    </ul>
-    <h2 id="i18n:rank">Rank</h2>
-    {{#rank}}
-      <ul>
-      {{#style}}
-      <li><b>{{style}}</b>
-      {{#style_native}}
-      <span class="style_native"> {{style_native.name}} </span>
-      {{/style_native}}
-      : {{rank}}
-      {{#teacher_name}}
-      ({{teacher_name}} {{org}})
-      {{/teacher_name}}
-      {{#org}}
-      ({{teacher_name}} {{org}})
-      {{/org}}
-      {{/style}}
-      </li>
-    </ul>
-    {{/rank}}
+                      {{#birth}}
+                      * {{date_local}} {{location}} {{country_local}}
+                      {{/birth}}
+                      -
+                      {{#death}}
+                      † {{date_local}} {{location}} {{country_local}}
+                      {{/death}}
 
-    <h2 id="i18n:sources">Sources</h2>
-      {{#sources}}
-      <ul>
-      {{#cite}}
-      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
-      {{/cite}}
-      {{^cite}}
-      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
-      {{/cite}}
-      </ul>
-      {{/sources}}
-</script>
-        </div>
+                  </p>
+                  <img src="{{photo_url}}"/>
+                  <p class="native-name">{{native_name.name}}</p>
+                  <p class="description">{{description_lang}}</p>
+                  <h2 id="i18n:teachers">Teachers</h2>
+                  <ul id="teachers">
+                      {{#teachers}}
+                      {{#teacher_name}}
+                      <li><a href="#" id="{{id}}">{{teacher_name}}</a>
+                          <span class="style_native"> {{teacher_native.name}} </span>
+                      </li>
+                      {{/teacher_name}}
+                      {{/teachers}}
+                  </ul>
+                  <h2 id="i18n:students">Students</h2>
+                  {{#students}}
+                  <ul id="students">
+                      <li><a href="#" id="{{id}}">{{name}}</a>
+                          <span class="style_native"> {{native_name.name}} </span>
+                      </li>
+                      {{/students}}
+                  </ul>
+                  <h2 id="i18n:rank">Rank</h2>
+                  {{#rank}}
+                  <ul>
+                      {{#style}}
+                      <li><b>{{style}}</b>
+                          {{#style_native}}
+                          <span class="style_native"> {{style_native.name}} </span>
+                          {{/style_native}}
+                          : {{rank}}
+                          {{#teacher_name}}
+                          ({{teacher_name}} {{org}})
+                          {{/teacher_name}}
+                          {{#org}}
+                          ({{teacher_name}} {{org}})
+                          {{/org}}
+                          {{/style}}
+                      </li>
+                  </ul>
+                  {{/rank}}
+                  <h2 id="i18n:sources">Sources</h2>
+                  {{#sources}}
+                  <ul>
+                      {{#cite}}
+                      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+                      {{/cite}}
+                      {{^cite}}
+                      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+                      {{/cite}}
+                  </ul>
+                  {{/sources}}
+                  {{/interaction}}
+                  {{#interaction}}
+                  <div class="learning-flow">
+                      <img class="thumb" src="{{teacher_photo_url}}"/>
+                      <a href="#" id="{{id}}">{{teacher_name}}</a>
+                      <span class="style_native"> {{interaction_native.name}}</span>
+
+                      <div class="learning-arrow"><i alt="taught" aria-hidden="true" class="fas fa-solid fa-arrow-down-long fa-xl"></i></div>
+                      <img class="thumb" src="{{student_photo_url}}"/>
+                      <a href="#" id="{{id}}">{{student_name}}</a>
+                      <span class="style_native"> {{student_native.name}} </span>
+                  </div>
+                  <p>
+                      <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"></i> {{period.start}} - {{period.end}}
+                  </p>
+                  <p>
+                      <i alt="Place" aria-hidden="true" class="fas fa-solid fa-school fa-xl mr-4"></i>
+                      {{place}}
+                  </p>
+                  <h2 id="i18n:sources">Sources</h2>
+                  {{#sources}}
+                  <ul>
+                      {{#cite}}
+                      {{#citation}}
+                      <li><div class="citation">{{citation}}</div>
+                          <a class="sources citation" href="{{uri}}" target="_blank">{{cite}}</a></li>
+                      {{/citation}}
+                      {{^citation}}
+                      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+                      {{/citation}}
+                      {{/cite}}
+
+                      {{^cite}}
+                      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+                      {{/cite}}
+                  </ul>
+                  {{/sources}}
+
+                  {{/interaction}}
+              </script>
+          </div>
       </div>
       <footer class="card-footer">
 
@@ -225,15 +265,15 @@
           <a id="card-footer" href="#" target="_blank" class="card-footer-item"></a>
 
       </footer>
-</div>
+    </div>
 
     <footer class="footer _has-text-white is-size-7 is-hidden-mobile">
-      <div class="content has-text-centered">
-        <p>
-          <a href="https://github.com/Judo-Documentation-Project/budotree"><strong>Budo Tree</strong><i class="ml-1 fas fa-brands fa-github fa-fade"></i></a> by <a href="https://fsmunoz.github.io">Frederico Muñoz</a>, <em>Judo Documentation Project</em>. Source code licensed <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
-          Website & database  under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
-        </p>
-      </div>
+        <div class="content has-text-centered">
+            <p>
+                <a href="https://github.com/Judo-Documentation-Project/budotree"><strong>Budo Tree</strong><i class="ml-1 fas fa-brands fa-github fa-fade"></i></a> by <a href="https://fsmunoz.github.io">Frederico Muñoz</a>, <em>Judo Documentation Project</em>. Source code licensed <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>.
+                Website & database  under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:16px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a>
+            </p>
+        </div>
     </footer>
   </body>
 </html>
