@@ -1,0 +1,37 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-46
+  name: Oshima Masateru
+  native_name:
+    name:
+    lang:
+  nationality:
+    - JPN
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country:
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
+    - uri: https://www.worldcat.org/title/952578913

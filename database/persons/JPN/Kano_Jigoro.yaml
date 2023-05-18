@@ -67,7 +67,17 @@ person:
         start: 1881
         end:
       quality: 3
-  rank:
+    - id: JDP-46
+      style_id: JDP-S-11
+      place:
+      period:
+        start: 1881
+        end:
+      quality: 1
+      sources:
+        - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
+          citation: "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō"
+rank:
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
@@ -92,3 +102,4 @@ person:
     - uri: https://doi.org/10.18002/rama.v9i2.1162
       cite: "DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96."
     - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
+    - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/

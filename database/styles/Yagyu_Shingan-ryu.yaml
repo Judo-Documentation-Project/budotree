@@ -1,0 +1,16 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-11
+  name: Yagyū Shingan-ryū
+  native_name:
+    name: 柳生心眼流
+    lang: ja
+  birth:
+    date: 1600
+    location: Sendai
+    country_code: JPN
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+    - uri: https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81
