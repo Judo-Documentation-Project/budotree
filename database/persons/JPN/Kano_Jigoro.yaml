@@ -77,7 +77,7 @@ person:
       sources:
         - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
           citation: "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō"
-rank:
+  rank:
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
