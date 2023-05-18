@@ -71,7 +71,7 @@ jobs:
     - name: Copy static assets
       working-directory: site
       run: |
-        cp src/images/budotree.mp4 dist/images/budotree.mp4
+        cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4
     - name: Upload artefacts
       uses: actions/upload-pages-artifact@v1
       with:
