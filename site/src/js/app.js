@@ -418,6 +418,7 @@ function updateInfo (target) {
             target.data().death.date_local =  DateTime.fromISO(target.data().death.date).toFormat("yyyy");
         };
 
+
         if (target.data().native_name && target.data().native_name.lang == lang) {
             cardTitle.innerHTML = target.data().native_name.name;
         } else {
@@ -483,7 +484,7 @@ function updateInfo (target) {
         }
 
         if (target.data().interaction_native && target.data().interaction_native.lang == lang) {
-            cardTitle.innerHTML = target.data().interaction_native.namepu
+            cardTitle.innerHTML = target.data().interaction_native.name;
         } else {
             cardTitle.innerHTML = target.data().interaction;
         }
