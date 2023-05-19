@@ -434,7 +434,7 @@ function updateInfo (target) {
         document.getElementById('i18n:students').innerHTML = polyglot.t("Students");
         document.getElementById('i18n:rank').innerHTML = polyglot.t("Rank");
         document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
-        document.getElementById('i18n:sources_int').innerHTML = polyglot.t("Sources");
+
 
         cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
         cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
@@ -484,13 +484,15 @@ function updateInfo (target) {
         }
 
         if (target.data().interaction_native && target.data().interaction_native.lang == lang) {
-            cardTitle.innerHTML = target.data().interaction_native.name
+            cardTitle.innerHTML = target.data().interaction_native.namepu
         } else {
             cardTitle.innerHTML = target.data().interaction;
         }
 
         const rendered = Mustache.render(template, target.data());
         document.getElementById('info').innerHTML = rendered;
+        // i18n
+        document.getElementById('i18n:sources_int').innerHTML = polyglot.t("Sources");
 
     };
 };
