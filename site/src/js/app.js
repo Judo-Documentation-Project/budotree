@@ -434,6 +434,7 @@ function updateInfo (target) {
         document.getElementById('i18n:students').innerHTML = polyglot.t("Students");
         document.getElementById('i18n:rank').innerHTML = polyglot.t("Rank");
         document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
+        document.getElementById('i18n:sources_int').innerHTML = polyglot.t("Sources");
 
         cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
         cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
@@ -497,7 +498,7 @@ function updateInfo (target) {
 
 cy.nodes().bind("tap", event => updateInfo(event.target));
 cy.edges().bind("tap", event => updateInfo(event.target));
-
+cy.nodes().bind("dbltap", event => { cy.reset(); cy.center(event.target); layout.run(); });
 
 document.addEventListener('DOMContentLoaded', function() {
     let cardToggles = document.getElementsByClassName('card-toggle');
