@@ -125,10 +125,19 @@ const style = [ // the stylesheet for the graph
         }
     },
     {
-        selector: ':selected',
+        selector: 'node:selected',
         css: {
             'background-color':  '#cb4042',//'#BC002D',
             'color': 'white',
+        }
+    },
+    {
+        selector: 'edge:selected',
+        css: {
+            'color': '#cb4042',
+            'line-color': '#f9bf45',
+            'target-arrow-color':  '#f9bf45'
+
         }
     },
     {
