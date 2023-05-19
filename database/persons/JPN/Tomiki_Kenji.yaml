@@ -22,9 +22,9 @@ person:
     - id: JDP-1
       style_id: JDP-S-1
       place: 
-        period:
-          start: 1895
-          end: 1896
+      period:
+        start: 1895
+        end: 1896
     - id: JDP-27
       style_id: JDP-S-4
       place:
