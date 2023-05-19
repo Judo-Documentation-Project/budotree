@@ -247,7 +247,14 @@
                       {{/cite}}
 
                       {{^cite}}
-                      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+                      {{#citation}}
+                      <li><div class="citation">{{citation}}</div>
+                          <a class="sources citation" href="{{uri}}" target="_blank">{{uri}}</a></li>
+                      {{/citation}}
+                      {{^citation}}
+                      <li><a class="sources" href="{{uri}}" target="_blank">{{uri}}</a></li>
+                      {{/citation}}
+
                       {{/cite}}
                   </ul>
                   {{/sources}}
