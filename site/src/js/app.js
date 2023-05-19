@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function goHome() {
-    console.log("Going home...");
+    //console.log("Going home...");
     let homeNode = cy.nodes('[id = "JDP-1"]')
     cy.nodes().unselect();
     cy.nodes(homeNode).select();
@@ -231,7 +231,7 @@ function goHome() {
 function changeLayout() {
     var value = updateLayout.value;
     var text = updateLayout.options[updateLayout.selectedIndex].text;
-    console.log(value, text);
+    //console.log(value, text);
     switch(updateLayout.value) {
     case "mrtree":
         layoutOptions["name"]="elk";
@@ -435,14 +435,13 @@ function updateInfo (target) {
         document.getElementById('i18n:rank').innerHTML = polyglot.t("Rank");
         document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
 
-
         cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
         cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
-        console.log("Click on node, adding Selected to ", target.selected())
+
         // Teacher link navigation
         let teachers = document.getElementById("teachers");
         teachers.addEventListener('click', e => {
-            console.log("Teacher ID: " + e.target.id);
+            //console.log("Teacher ID: " + e.target.id);
             target.unselect();
             updateInfo(cy.nodes('#' + e.target.id));
         });
@@ -462,11 +461,11 @@ function updateInfo (target) {
         target.incomers("node").addClass("parents");
 
     } else { // is edge
-        console.log("Tapped on edge");
+        //console.log("Tapped on edge");
 
         for (let person of data.elements.nodes) {
             if (person.data.id == target.data().source) {
-                console.log(person.data.name);
+                //console.log(person.data.name);
                 target.data()["teacher_name"] = person.data.name;
                 target.data()["teacher_native"] = person.data.native_name;
                 target.data()["teacher_photo_url"] = person.data.photo_url;
@@ -475,7 +474,7 @@ function updateInfo (target) {
         }
         for (let person of data.elements.nodes) {
             if (person.data.id == target.data().target) {
-                console.log(person.data.name);
+                //console.log(person.data.name);
                 target.data()["student_name"] = person.data.name;
                 target.data()["student_native"] = person.data.native_name;
                 target.data()["student_photo_url"] = person.data.photo_url;
@@ -516,7 +515,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
     let lineType = document.getElementById("lineType");
     lineType.addEventListener('click', e => {
-            console.log(style[1]["style"]["curve-style"]);
+            //console.log(style[1]["style"]["curve-style"]);
             if (e.target.checked) {
                 cy.style()
                         .selector('edge')
@@ -563,7 +562,7 @@ var stringToColourSimple = function(str) {
 }
 
 function edgesByQuality () {
-    console.log("Setting edges by quality")
+    //console.log("Setting edges by quality")
     cy.edges().forEach(function(ele) {
         //console.log(ele.data().quality);
         switch (ele.data().quality) {
@@ -603,7 +602,7 @@ function edgesByQuality () {
 };
 
 function edgesByStyle () {
-    console.log ("Setting edges by style");
+    //console.log ("Setting edges by style");
     cy.edges().forEach(function(ele) {
         ele.style({
             'line-color': stringToColourSimple(ele.data().interaction)
@@ -660,7 +659,7 @@ function nodesByCountry () {
         }
     })
     for (const [key, value] of Object.entries(countryList)) {
-        console.log(countryList);
+        //console.log(countryList);
         countryNodes[key] = cy.filter(function(element,i) {
             if (element.isNode()) {
                 for (country of element.data().nationality) {
