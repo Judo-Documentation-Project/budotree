@@ -9,7 +9,7 @@ person:
     lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1883-12-14
     location: Tanabe
     country_code: JPN
@@ -21,13 +21,26 @@ person:
   teachers:
     - id: JDP-28
       style_id: JDP-S-10
-      place: 
-        period:
-          start: 1915
-          end: 1922
+      place:
+      period:
+        start: 1915
+        end: 1922
+    - id: JDP-47
+      style_id: JDP-S-3
+      place:
+      period:
+        start: 1901
+        end: 1901
+      sources:
+        - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+          cite: "BUYENS, Guy. Introduction to Traditional martial systems. 2016"
+          citation: "Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu with Tozawa Tokusaburo"
+        - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
+          citation: "[Tokusaburo Tozawa]. Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901"
+          events: [ period ]
   rank:
     - style_id: JDP-S-10
-      org: 
+      org:
       teacher: JDP-28
       rank: Kyōju Dairi
       year: 1922

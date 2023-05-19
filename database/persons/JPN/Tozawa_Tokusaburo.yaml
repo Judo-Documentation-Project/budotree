@@ -1,0 +1,43 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-47
+  name: Tozawa Tokusaburo
+  native_name:
+    name: 戸沢徳三郎
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 1848
+    location:
+    country_code:
+  death:
+    date: 1912
+    location:
+    country:
+  teachers:
+    - id: JDP-4
+      style_id: JDP-S-3
+      place:
+      period:
+        start:
+        end:
+      sources:
+        - uri: http://www.tenyokai.com/booklet.php
+          citation: "Geneology of Tenjin Shinyo Ryu Jujutsu: (...) Iso Matauemon Masatomo -> Tozawa Tokusaburo"
+        - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+          citation: "Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu with Tozawa Tokusaburo"
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      year:
+  sources:
+    - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
+      events: [name, native_name, birth, death]
+    - uri: https://www.google.pt/books/edition/Koryu_Bujutsu/ZNetk-lJ_O4C
+    - uri: http://www.tenyokai.com/booklet.php
+    - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
