@@ -163,6 +163,20 @@ const style = [ // the stylesheet for the graph
         css: {
             'color':  '#f9bf45',
         }
+    },
+    {
+        selector: '.parents',
+        css: {
+            'background-color':  '#446',
+            'color': 'white'
+        }
+    },
+    {
+        selector: '.children',
+        css: {
+            'background-color':  '#464',
+            'color': 'white'
+        }
     }
 ];
 
@@ -441,6 +455,11 @@ function updateInfo (target) {
                 updateInfo(cy.nodes('#' + e.target.id));
             });
         }
+        cy.nodes().removeClass(["parents"]);
+        cy.nodes().removeClass(["children"]);
+        target.outgoers("node").addClass("children");
+        target.incomers("node").addClass("parents");
+
     } else { // is edge
         console.log("Tapped on edge");
 
