@@ -87,6 +87,14 @@ const style = [ // the stylesheet for the graph
             'text-halign' : 'center',
             'shape': 'ellipse',
             'text-wrap': 'wrap',
+            'text-overflow-wrap': (ele) => {
+                if (ele.data().native_name && ele.data().native_name.lang == lang) {
+                    return "anywhere"
+                } else {
+                    return "whitespace"
+                }
+            },
+            'word-break': 'break-all',
             'text-max-width': 40,
             'width': 55,
             'height': 55,
