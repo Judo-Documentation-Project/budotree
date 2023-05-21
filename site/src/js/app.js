@@ -837,7 +837,6 @@ function listStyles() {
 
         for (const person of value) {
             let p = {}
-            console.log("getname:", person)
             p["name"] = getNameById(person).name;
             p["id"] = person;
             pp.push(p)
