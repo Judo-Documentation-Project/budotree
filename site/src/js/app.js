@@ -813,6 +813,7 @@ function listStyles() {
 
     for (edge of data.elements.edges) {
 
+
         console.log("EDGE: ", edge.data)
         if (! styleList[edge.data.interaction]) {
             styleList[edge.data.interaction] = [];
