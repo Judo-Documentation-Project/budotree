@@ -7,6 +7,7 @@ $family-serif: 'Noto Serif JP', serif;
 $family-primary: $family-serif;
 $primary: red;
 $card-footer-padding: 0;
+//$tabs-link-padding: 3rem;
 //@import '../../node_modules/bulma/css/bulma.css';
 @import '../../node_modules/bulma/bulma.sass';
 @import '../../node_modules/bulma-switch/src/sass/index.sass';
@@ -16,6 +17,33 @@ $card-footer-padding: 0;
 //    background-color: white;
 //}
 //$font: 'Cormorant Garamond, serif';
+
+.tabs:not(:last-child) {
+  margin-bottom: 0px;
+}
+
+.tabs a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom-width: 0px;
+  border-bottom-color: black;
+}
+
+.tabs li.is-active a {
+  _color: #cb4042;
+  color: white;
+  border-bottom-color: #f596aa;;
+  border-bottom-width: 3px;
+  font-weight: 700;
+}
+
+.tabs li.is-active a:before{
+  content:"\273f";
+  _content:"\1f338";
+  color:#f596aa;
+  margin-right: 0.5rem;
+}
 
 body {
     font-family: $family-serif;
@@ -31,6 +59,7 @@ select {
 li span:nth-child(1){
     _color: #cb4042;
 }
+
 
 li h3 {
     color: #cb4042;
@@ -143,15 +172,11 @@ h1.name  {
     font-weight: bold;
 
 }
-.info dt {
-    font-size: 1rem;
-    font-weight: bold;
-}
 
 .info {
   position: fixed;
   font-weight: 500;
-  top: 80px;
+  top: 150px;
   left: 10px;
   _width: 20vw;
   min-width: 300px;
@@ -170,8 +195,21 @@ h1.name  {
 }
 
 
-.card-footer {
+dt {
+  color: #cb4042;
+  padding: 1rem;
+}
+dd {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
 
+dd ul {
+  margin-left: 1rem;
+}
+.columns {
+  margin-top: 2rem;
+  columns: 4 300px;
 }
 .footer {
     position: fixed;

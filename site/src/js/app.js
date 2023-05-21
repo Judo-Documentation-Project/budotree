@@ -56,6 +56,10 @@ function changeLanguage () {
 function updateContent () {
     document.getElementById('nav-budo').innerHTML = polyglot.t("Budō Lineage Tree");
     updateInfo(cy.elements(":selected"));
+    document.getElementById('tab:cy').innerHTML = polyglot.t("Tree");
+    document.getElementById('tab:Persons').innerHTML = polyglot.t("Persons");
+    document.getElementById('tab:Styles').innerHTML = polyglot.t("Styles");
+
     cy.style().update();
 }
 
@@ -215,6 +219,7 @@ var bb = cy.bubbleSets({
 document.addEventListener('DOMContentLoaded', function() {
 
     console.log("DOM content loaded, running layout");
+    openTab(true,"tab:cy");
 //    layoutOptions["name"]="elk";
 //    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
@@ -222,7 +227,12 @@ document.addEventListener('DOMContentLoaded', function() {
     layout.run();
     console.log(layout);
     nodesByCountry();
+    listPersons();
+    listStyles();
     //edgesByStyle();
+
+
+
 });
 
 
@@ -434,7 +444,6 @@ function updateInfo (target) {
         }
 
         const rendered = Mustache.render(template, target.data());
-
 
         document.getElementById('info').innerHTML = rendered;
 
@@ -735,3 +744,115 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
+// Tabs
+
+var tabs = document.getElementById("tabs");
+tabs.addEventListener('click', e => {
+    console.log("target:",e.target)
+    if (e.target.id != "tabs") {
+        openTab(e,e.target.id)
+    }
+});
+
+
+
+function openTab(evt, tabName) {
+    //console.log("tab name: ",tabName.replace(/tab\:/, ""))
+    var i, x, tablinks;
+    let info = document.getElementById("infobox");
+    x = document.getElementsByClassName("content-tab");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" is-active", "");
+    }
+    document.getElementById(tabName.replace(/tab\:/,"")).style.display = "block";
+    document.getElementById(tabName).parentElement.className += " is-active";
+    if (tabName == "tab:cy") {
+        info.style.display = "block";
+    } else {
+        info.style.display = "none";
+    }
+}
+
+function listPersons () {
+    const template = document.getElementById('template:persons').innerHTML;
+    const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
+    const rendered = Mustache.render(template, {arr:sorted});
+
+    let persons = document.getElementById("Persons");
+    persons.addEventListener('click', e => {
+        cy.nodes().unselect()
+        cy.nodes('[id = "' + e.target.id +  '"]').select()
+        updateInfo(cy.nodes('#' + e.target.id));
+        cy.reset();
+        //cy.center('[id = "' + e.target.id +  '"]');
+        openTab(true, "tab:cy")
+    });
+    document.getElementById('Persons').innerHTML = rendered;
+}
+
+
+function getNameById (id) {
+    for (let person of data.elements.nodes) {
+        if (person.data.id == id) {
+            return person.data
+        }
+    }
+}
+
+function listStyles() {
+    const template = document.getElementById('template:styles').innerHTML;
+  //  const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
+    let styleList = {};
+
+    console.log("data:", data)
+    for ( edge of data.elements.edges) {
+
+        console.log("EDGE: ", edge.data)
+        if (! styleList[edge.data.interaction]) {
+            styleList[edge.data.interaction] = [];
+        }
+        let sourceName = getNameById(edge.data.source).name
+        let targetName = getNameById(edge.data.target).name
+        //styleList[edge.data.interaction].indexOf(sourceName) === -1 ? styleList[edge.data.interaction].push(sourceName) : false;
+        //styleList[edge.data.interaction].indexOf(targetName) === -1 ? styleList[edge.data.interaction].psh(targetName) : false;
+        styleList[edge.data.interaction].indexOf(edge.data.source) === -1 ? styleList[edge.data.interaction].push(edge.data.source) : false;
+        styleList[edge.data.interaction].indexOf(edge.data.target) === -1 ? styleList[edge.data.interaction].push(edge.data.target) : false;
+    }
+
+    for (const [key, value] of Object.entries(styleList)) {
+        styleList[key] = value.sort((a, b) => a.localeCompare(b))
+    }
+    view = []
+
+    for (const [key, value] of Object.entries(styleList)) {
+        let s = {}
+        let pp = []
+        s["name"] = key;
+
+        for (person of value) {
+            let p = {}
+            console.log("getname:", person)
+            p["name"] = getNameById(person).name;
+            p["id"] = person;
+            pp.push(p)
+        }
+        s["persons"] = pp;
+        view.push(s)
+    }
+
+    const rendered = Mustache.render(template, {arr:view});
+    document.getElementById('Styles').innerHTML = rendered;
+
+    let styles = document.getElementById("Styles");
+    styles.addEventListener('click', e => {
+        cy.nodes().unselect()
+        cy.nodes('[id = "' + e.target.id +  '"]').select()
+        updateInfo(cy.nodes('#' + e.target.id));
+        cy.reset();
+        openTab(true, "tab:cy")
+    });
