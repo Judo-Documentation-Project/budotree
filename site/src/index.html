@@ -38,7 +38,6 @@
 
       gtag('config', 'G-LN5TCW2MTP');
     </script>
-
     <script type="module" src="js/app.js"></script>
   </head>
   <body>
@@ -138,9 +137,52 @@
             </div>
 
       </div>
-    </nav>
-    <div id="cy" class="cy"></div>
-    <div class="card info mt-5">
+      </nav
+>
+      <div class="tabs is-centered _is-boxed _is-fullwidth has-background-black has-text-white">
+          <ul id="tabs">
+              <li class="tab is-active" ><a id="tab:cy">Tree</a></li>
+              <li class="tab"><a id="tab:Persons">Persons</a></li>
+              <li class="tab"><a id="tab:Styles">Styles</a></li>
+          </ul>
+      </div>
+
+      <div id="Persons" class="container content-tab columns is-fluid _has-text-centered">
+          <script id="template:persons" type="x-tmpl-mustache">
+                  <ul>
+                  {{#arr}}
+                  {{#data}}
+                      <li>
+                          <a href="#" id="{{id}}">{{name}}</a>
+                          <span class="style_native"> {{native_name.name}} </span>
+                      </li>
+
+                  {{/data}}
+                  {{/arr}}
+                  </ul>
+          </script>
+      </div>
+      <div id="Styles" class="container content-tab columns _has-text-centered is-fluid">
+          <script id="template:styles" type="x-tmpl-mustache">
+           <dl>
+           {{#arr}}
+           <dt>
+           {{name}}
+           </dt>
+           <dd>
+               <ul>
+               {{#persons}}
+                   <li><a href="#" id="{{id}}">{{name}}</a></li>
+               {{/persons}}
+               </ul>
+           </dd>
+           {{/arr}}
+           </dl>
+          </script>
+      </div>
+      <div id="cy" class="cy content-tab"></div>
+
+    <div id="infobox" class="card info mt-5">
       <header class="card-header">
         <p id="card-title" class="card-header-title"></p>
         <a class="card-header-icon card-toggle">
