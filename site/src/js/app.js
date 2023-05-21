@@ -808,11 +808,12 @@ function listStyles() {
     const template = document.getElementById('template:styles').innerHTML;
   //  const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
     let styleList = {};
+    let view = [];
 
-    console.log("data:", data);
+    //console.log("data:", data);
 
     for (const edge of data.elements.edges) {
-        console.log("EDGE: ", edge.data)
+        //console.log("EDGE: ", edge.data)
         if (! styleList[edge.data.interaction]) {
             styleList[edge.data.interaction] = [];
         }
@@ -827,7 +828,7 @@ function listStyles() {
     for (const [key, value] of Object.entries(styleList)) {
         styleList[key] = value.sort((a, b) => a.localeCompare(b))
     }
-    view = []
+
 
     for (const [key, value] of Object.entries(styleList)) {
         let s = {}
