@@ -809,8 +809,10 @@ function listStyles() {
   //  const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
     let styleList = {};
 
-    console.log("data:", data)
-    for ( edge of data.elements.edges) {
+    console.log("data:", data);
+
+    for (edge of data.elements.edges) {
+
 
         console.log("EDGE: ", edge.data)
         if (! styleList[edge.data.interaction]) {
