@@ -30,6 +30,7 @@
         "cytoscape-elk": "^2.1.0",
         "cytoscape-popper": "^2.0.0",
         "i18next": "^22.4.15",
+        "interactjs": "^1.10.17",
         "jquery": "^3.6.4",
         "js-yaml": "^4.1.0",
         "node-polyglot": "^2.5.0",

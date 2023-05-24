@@ -2,11 +2,18 @@
 @import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap');
 
-$body-color: #111111;
+//$body-color: #111111;
+//$body-color: #111111;
+$body-color: #FFF;
 $family-serif: 'Noto Serif JP', serif;
 $family-primary: $family-serif;
-$primary: red;
+$primary: #cb4042;
 $card-footer-padding: 0;
+
+//$panel-block-hover-background-color: red;
+$panel-heading-size: 16px;
+
+
 //$tabs-link-padding: 3rem;
 //@import '../../node_modules/bulma/css/bulma.css';
 @import '../../node_modules/bulma/bulma.sass';
@@ -33,7 +40,7 @@ $card-footer-padding: 0;
 .tabs li.is-active a {
   _color: #cb4042;
   color: white;
-  border-bottom-color: #f596aa;;
+  border-bottom-color: #f596aa;
   border-bottom-width: 3px;
   font-weight: 700;
 }
@@ -72,6 +79,12 @@ li p{
 
 .focus-on {
     color: #096148;
+}
+
+.focus-style {
+  color: white;
+  background-color: #cb4042;
+  border-width: 0px;
 }
 
 .sources a {
@@ -173,17 +186,29 @@ h1.name  {
 
 }
 
+.info-container {
+  position: relative;
+}
+
+.distance-line {
+  position: absolute;
+  z-index: 500;
+  right: 0.5rem;
+
+
+}
 .info {
-  position: fixed;
+  position: absolute;
+  z-index: 200;
   font-weight: 500;
-  top: 150px;
-  left: 10px;
+  _top: 150px;
+  left: 0.5rem;
   _width: 20vw;
   min-width: 300px;
   padding: 0px;
   max-width: 20vw;
   width: 20vw;
-  max-height: 70%;
+  max-height: 70vh;
   _min-heigth: 0px ;
   box-sizing: border-box;
   overflow: auto;
@@ -192,6 +217,7 @@ h1.name  {
   background-color: white;
   _opacity: 0.5;
   _background: rgba(100, 100, 100, 0.0);
+  margin-top: 0.6rem !important;
 }
 
 
@@ -213,11 +239,11 @@ dd ul {
 }
 .footer {
     position: fixed;
-    bottom:0px;
+    bottom: 0px;
     width: 100%;
     padding: 10px;
     background-color: white;
-
+    z-index: 1000;
 }
 
 
@@ -230,11 +256,13 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
     text-transform: uppercase;
 }
 .cy {
-    background-color: #efefef;// #fcfaf2;
+  background-color: #efefef;// #fcfaf2;
     width: 100%;
+    _height: 80vh;
     height: 90vh;
     min-width: 90%;
     //margin-left: 160px;
+    z-index: 1;
 }
 
 .border-box {
@@ -375,4 +403,64 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
     .f5-l {
         font-size: 1rem;
     }
+}
+
+
+// Interact
+
+.draggable {
+  _position: absolute;
+  _text-align: right;
+  _right: 0rem;
+  _width: 15%;
+  _min-height: 6.5em;
+  _margin: 1rem 1rem 0 1rem;
+  _background-color: white;
+  color: black;
+  _border-radius: 0.75em;
+  _padding: 4%;
+  touch-action: none;
+  user-select: none;
+  z-index: 1000;
+}
+
+#toolbox {
+  position:absolute;
+  _margin-top: 2rem;
+  _width: 20%;
+  right: 0rem;
+  _top: 1rem;
+  _margin: auto;
+  _background-color: white;
+
+}
+
+.panel-heading.toolbox-heading {
+  _background-color: white;
+  background: rgba(0,0,0,0);
+  border-width: 0;
+  border-radius: 0;
+ text-align: right;
+}
+
+.panel-block {
+  background-color: white;
+  font-size: 0.6rem;
+  right: 0px;
+
+}
+
+.toolbox-label {
+  margin-right: 1rem;
+  background-color: red;
+}
+
+.toolbox-item {
+  border-width: 2px;
+  border-color: black;
+
+}
+
+.toolbox-icon {
+  color: #cb4042;
 }
