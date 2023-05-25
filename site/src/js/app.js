@@ -967,7 +967,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Toolbox interact
 
-
 const position = { x: 0, y: 0 }
 
 const positions = {};
@@ -988,6 +987,7 @@ interact('.draggable').allowFrom('.drag-handle').draggable({
                 `translate(${positions[event.target.id].x}px, ${positions[event.target.id].y}px)`
         },
     }
+
 })
 
 document.addEventListener('DOMContentLoaded', function() {
