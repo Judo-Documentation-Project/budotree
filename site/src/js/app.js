@@ -966,21 +966,28 @@ document.addEventListener('DOMContentLoaded', function() {
     })});
 
 // Toolbox interact
+
 const position = { x: 0, y: 0 }
 
-interact('.draggable').allowFrom('.drag-handle').draggable({
-  listeners: {
-    start (event) {
-        //console.log(event.type, event.target)
-    },
-    move (event) {
-      position.x += event.dx
-      position.y += event.dy
+const positions = {};
 
-      event.target.style.transform =
-        `translate(${position.x}px, ${position.y}px)`
-    },
-  }
+interact('.draggable').allowFrom('.drag-handle').draggable({
+    listeners: {
+        start (event) {
+            //console.log(event.type, event.target.id)
+        },
+        move (event) {
+            if (!positions[event.target.id]) {
+                positions[event.target.id] = {x: 0, y:0};
+            }
+            positions[event.target.id].x += event.dx
+            positions[event.target.id].y += event.dy
+
+            event.target.style.transform =
+                `translate(${positions[event.target.id].x}px, ${positions[event.target.id].y}px)`
+        },
+    }
+
 })
 
 document.addEventListener('DOMContentLoaded', function() {
