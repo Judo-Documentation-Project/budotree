@@ -855,7 +855,7 @@ function listStyles() {
     sorted.sort((a, b) => a.localeCompare(b))
 
     for (const key of sorted) {
-        value = styleList[key]
+        let value = styleList[key]
         let s = {}
         let pp = []
         s["name"] = key;
@@ -915,7 +915,7 @@ function updateStyleFilter() {
 
     //for (const [key, value] of Object.entries(styleList)) {
     for (const key of sorted) {
-        value = styleList[key];
+        let value = styleList[key];
         let el = document.createElement("option");
         if (value.native_name && value.native_name.lang == lang) {
             el.textContent = value.native_name.name;
@@ -1000,6 +1000,8 @@ interact('.draggable').allowFrom('.drag-handle').draggable({
 
 })
 
+/* "Toolbox" activation
+
 document.addEventListener('DOMContentLoaded', function() {
     let toolboxToggle = document.getElementById('toolbox-icon');
     let toolboxContent = document.getElementById('toolbox-content');
@@ -1010,3 +1012,4 @@ document.addEventListener('DOMContentLoaded', function() {
         //e.currentTarget.parentElement.childNodes[3].classList.toggle('is-hidden');
         });
 });
+*/
