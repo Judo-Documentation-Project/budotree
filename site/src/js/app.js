@@ -854,7 +854,7 @@ function listStyles() {
     }
     sorted.sort((a, b) => a.localeCompare(b))
 
-    for (key of sorted) {
+    for (const key of sorted) {
         value = styleList[key]
         let s = {}
         let pp = []
