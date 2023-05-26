@@ -822,11 +822,9 @@ function getNameById (id) {
 }
 
 
-
-
 function listStyles() {
     const template = document.getElementById('template:styles').innerHTML;
-  //  const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
+    //  const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
     let view = [];
     let styleList = {};
     //console.log("data:", data);
@@ -849,13 +847,15 @@ function listStyles() {
 //    }
 
     let sorted = [];
-    for(var key in styleList) {
-        sorted[sorted.length] = key;
+
+    for (const [key, value] of Object.entries(styleList)) {
+        sorted.push(key);
+        styleList[key].sort((a, b) => getNameById(a).name.localeCompare(getNameById(b).name));
     }
-    sorted.sort();
-    //for (const [key, value] of Object.entries(styleList)) {
+    sorted.sort((a, b) => a.localeCompare(b))
+
     for (key of sorted) {
-        let value = styleList[key];
+        value = styleList[key]
         let s = {}
         let pp = []
         s["name"] = key;
@@ -905,7 +905,17 @@ function updateStyleFilter() {
     allEl.value = "all";
     styleFilter.appendChild(allEl);
 
+    let sorted = [];
+
     for (const [key, value] of Object.entries(styleList)) {
+        sorted.push(key)
+    }
+
+    sorted.sort((a, b) => styleList[a].name.localeCompare(styleList[b].name))
+
+    //for (const [key, value] of Object.entries(styleList)) {
+    for (const key of sorted) {
+        value = styleList[key];
         let el = document.createElement("option");
         if (value.native_name && value.native_name.lang == lang) {
             el.textContent = value.native_name.name;
