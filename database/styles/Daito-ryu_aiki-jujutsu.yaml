@@ -8,9 +8,11 @@ style:
     name: 大東流 合気柔術
     lang: ja
   birth: 
-    date: 
+    date: 1100
     location:
     country_code: JPN  
   sources:
     - uri: https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu
-    
+    - uri: https://www.daitohryu.com/eng-history01
+      events: [ birth ]
+      citation: "According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school."
