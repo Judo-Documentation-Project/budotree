@@ -10,6 +10,9 @@ style:
   birth: 
     date: 1920
     location:
-    country_code: JPN  
+    country_code: JPN
+  media:
+    photo_url: https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg
+    video_url: https://www.youtube.com/watch?v=30Sa0PLquFg
   sources:
     - uri: https://en.wikipedia.org/wiki/Aikido

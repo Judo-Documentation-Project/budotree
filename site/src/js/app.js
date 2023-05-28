@@ -7,8 +7,8 @@ import BubbleSets from 'cytoscape-bubblesets';
 import $ from 'jquery';
 import Polyglot from 'node-polyglot';
 import yaml from 'js-yaml';
-
 import interact from 'interactjs'
+import { Timeline } from '@knight-lab/timelinejs';
 
 
 const { DateTime } = require("luxon");
@@ -240,6 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
     listPersons();
     listStyles();
     updateStyleFilter();
+    updateTimeline();
     //edgesByStyle();
 
 
@@ -385,6 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ancestors.addClass("ancestors");
             successors.addClass("descendants");
             focus.classList.toggle('focus-on');
+
         } else {
             personNodes.removeClass(["hidden", "ancestors", "descendants","focused"]);
             focus.classList.toggle('focus-on');
@@ -888,7 +890,6 @@ let styleFilter  = document.getElementById("pickStyle")
 styleFilter.onchange = pickStyle;
 
 function updateStyleFilter() {
-    styleFilter.innerHTML = "Foo";
     let styleList = {};
     for (const edge of data.elements.edges) {
         if (! styleList[edge.data.interaction_id]) {
@@ -964,6 +965,7 @@ function pickStyle () {
     cy.center();
     cy.fit(styleNodes);
     layout.run();
+    updateTimeline();
 }
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -1013,3 +1015,102 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 });
 */
+// TImeline
+//import tl from './tl.json';
+import st from './styles.json'
+
+function getStyleById (id) {
+    let tree = st;
+    if (id in tree) {
+        return tree[id];
+    } else {
+        return false;
+    }
+}
+
+function createTimeline (nodes, title) {
+    let tlOutput = {};
+    let events = [];
+    tlOutput["title"] = title;
+    // create events
+    for (const node of nodes) {
+        let person = node.data();
+        let event = {}
+        //console.log(person);
+        if (person.birth.date) {
+            let d = new Date(person.birth.date);
+            event["start_date"] = {year: d.getFullYear()}
+            if (person.description) {
+                event["text"] = { headline: person.name,
+                                  text: person.description.en}
+            } else {
+                event["text"] = { headline: person.name }
+            }
+            if (person.photo_url) {
+                event["media"] = {url: person.photo_url}
+            }
+
+            if (person.death.date) {
+                let dd = new Date(person.death.date);
+                event["end_date"] = {year: dd.getFullYear()};
+            }
+
+            //event["group"] = person.data.nationality[0]
+            events.push(event)
+        }
+    }
+    tlOutput["events"] = events;
+    console.log("Created timeline from database", tlOutput);
+    return tlOutput;
+}
+
+
+function updateTimeline() {
+    let selectedStyle = styleFilter.value;
+    let styleData = st[selectedStyle];
+    let url;
+    let caption;
+    let credit;
+    let headline;
+    let text;
+    let background;
+
+    if (selectedStyle == "all") {
+        url = "https://res.cloudinary.com/duu3v9gfg/image/fetch/t_w_640_auto/https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2019/01/jpn-03-1548749418-1548749418.jpg";
+        caption = "Judo practiced at the Fujimi-cho Kodokan dojo";
+        credit = "Image by Hishida Shunso, copyright Kodokan Institute";
+        headline =  "A timeline of Budōka";
+        text = "The history of martial arts through the Budō tree database.";
+    } else {
+
+        if (styleData.media && styleData.media.video_url && styleData.media.photo_url) {
+            url = styleData.media.video_url;
+            background = { url: styleData.media.photo_url };
+        } else if (styleData.media && styleData.media.video_url) {
+            url = styleData.media.video_url;
+        } else if (styleData.media && styleData.media.photo_url) {
+            url = styleData.media.photo_url;
+        } else {
+            url = "";
+        }
+        caption = ""
+        credit = "";
+        headline = getStyleById(selectedStyle).name;
+        text = polyglot.t("A timeline through the Budō tree database.")
+    }
+    console.log("Update Timeline, selected style:", selectedStyle, getStyleById(selectedStyle));
+    let title = { media:
+                  { url: url,
+                    caption: caption,
+                    credit: credit
+                  },
+                  text: {
+                      headline: headline,
+                      text: text
+                  },
+                  background: background
+                };
+    console.log("Sending nodes:", cy.nodes(":visible"));
+    let tl = createTimeline(cy.nodes(":visible"), title);
+    timeline = new Timeline('timeline-embed', tl);
+}

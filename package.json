@@ -13,8 +13,10 @@
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",
     "dependencies": {
+        "@knight-lab/timelinejs": "^3.9.2",
         "glob": "^10.2.2",
         "js-yaml": "^4.1.0",
+        "path": "^0.12.7",
         "yargs": "^17.7.1"
     },
     "devDependencies": {

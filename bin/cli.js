@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const pY = require("../lib/parseYaml.js");
+const path = require('path')
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers')
 const argv = yargs(hideBin(process.argv))
@@ -8,12 +9,17 @@ const argv = yargs(hideBin(process.argv))
       .help()
       .argv;
 
+
 var dir = argv.dir;
 var targetFile = argv.file;
+let stylesFile = path.join(path.dirname(targetFile), "styles.json");
+
 console.log("JDP database parsing started.");
-console.log(`Database dir: ${dir}, target file: ${targetFile}`);
+console.log(`Database dir: ${dir}, target file: ${targetFile}, styles file: ${stylesFile}`);
 
 styles = pY.importStylesYAML("database/styles");
 let database = pY.importYAML(dir);
+
 pY.updateSources(database)
     .then(v => pY.writeJSON(pY.createCYJS(database, styles), targetFile))
+pY.writeJSON(styles, stylesFile)
