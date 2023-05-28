@@ -1038,8 +1038,10 @@ function createTimeline (nodes, title) {
         let event = {}
         //console.log(person);
         if (person.birth.date) {
-            let d = new Date(person.birth.date);
-            event["start_date"] = {year: d.getFullYear()}
+            event["start_date"] = { year: DateTime.fromISO(person.birth.date).year};
+            if (person.death.date) {
+                event["end_date"] = { year: DateTime.fromISO(person.death.date).year };
+            }
             if (person.description) {
                 event["text"] = { headline: person.name,
                                   text: person.description.en}
@@ -1049,12 +1051,6 @@ function createTimeline (nodes, title) {
             if (person.photo_url) {
                 event["media"] = {url: person.photo_url}
             }
-
-            if (person.death.date) {
-                let dd = new Date(person.death.date);
-                event["end_date"] = {year: dd.getFullYear()};
-            }
-
             //event["group"] = person.data.nationality[0]
             events.push(event)
         }
