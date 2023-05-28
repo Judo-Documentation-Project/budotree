@@ -11,10 +11,10 @@ person:
   nationality:
     - JPN  
   birth: 
-    date: 
-    location: 
+    date: 1835
+    location:
   death:
-    date:
+    date: 1889
     location:
   teachers:
     - id: JDP-6
@@ -27,3 +27,8 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
     - uri: https://doi.org/10.18002/rama.v9i2.1162
+    - uri: https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC
+      cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
+      events: [ birth ]
+    - uri: https://www.cismeurope.org/history-judo/
+      events: [ birth death ]

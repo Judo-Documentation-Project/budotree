@@ -10,8 +10,9 @@ person:
   nationality:
     - JPN  
   birth: 
-    date: 
-    location: 
+    date: 1800
+    type: estimated
+    location:
   death:
     date:
     location:

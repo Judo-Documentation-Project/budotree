@@ -10,8 +10,9 @@ person:
   nationality:
     - JPN  
   birth: 
-    date: 
-    location: 
+    date: 1659
+    location: Tamba
+    country_code: JPN
   death:
     date:
     location:
@@ -26,3 +27,5 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
     - uri: https://doi.org/10.18002/rama.v13i2.5700
+    - uri: https://www.ryoishintokai.com/2022/03/24/1819/
+      events: [ birth ]

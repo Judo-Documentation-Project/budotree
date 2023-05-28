@@ -10,7 +10,8 @@ person:
   nationality:
     - JPN  
   birth: 
-    date: 
+    date: 1775
+    type: estimated
     location: 
   death:
     date:

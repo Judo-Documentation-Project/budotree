@@ -62,6 +62,7 @@ function updateContent () {
     document.getElementById('tab:cy').innerHTML = polyglot.t("Tree");
     document.getElementById('tab:Persons').innerHTML = polyglot.t("Persons");
     document.getElementById('tab:Styles').innerHTML = polyglot.t("Styles");
+    document.getElementById('tab:Timeline').innerHTML = polyglot.t("Timeline");fg
     updateStyleFilter();
     cy.style().update();
 }
