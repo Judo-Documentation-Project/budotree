@@ -41,7 +41,7 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git checkout -b gh-pages
-        git add export/tree.json export/styles.json site/src/js/tree.json
+        git add export/tree.json export/styles.json site/src/js/tree.json site/src/js/styles.json
         git commit -m "Automated file creation."
         git push -f origin gh-pages
 
