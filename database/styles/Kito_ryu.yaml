@@ -7,7 +7,13 @@ style:
   native_name:
     name: 起倒流
     lang: ja
-  birth: 
+  birth:
     date: 1600
     location:
-    country_code: JPN  
+    country_code: JPN
+  media:
+    video_url: https://youtu.be/qdzzF4ziu68?t=667
+    photo_url: https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Kit%C5%8D-ry%C5%AB
+    - uri: https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png

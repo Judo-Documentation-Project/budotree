@@ -7,7 +7,10 @@ style:
   native_name:
     name: 天神真楊流
     lang: ja
-  birth: 
+  media:
+    video_url: https://youtu.be/RhTpeCdANzA?t=24
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg
+  birth:
     date: 1830
     location:
-    country_code: JPN  
+    country_code: JPN

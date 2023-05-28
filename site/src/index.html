@@ -166,6 +166,7 @@
                   <li class="tab" ><a id="tab:cy">Tree</a></li>
                   <li class="tab"><a id="tab:Persons">Persons</a></li>
                   <li class="tab"><a id="tab:Styles">Styles</a></li>
+                  <li class="tab"><a id="tab:Timeline">Timeline</a></li>
               </ul>
           </div>
           <div class="info-container">
@@ -192,15 +193,20 @@
            {{name}}
            </dt>
            <dd>
-               <ul>
-               {{#persons}}
-                   <li><a href="#" id="{{id}}">{{name}}</a></li>
-               {{/persons}}
-               </ul>
+           <ul>
+           {{#persons}}
+           <li><a href="#" id="{{id}}">{{name}}</a></li>
+           {{/persons}}
+           </ul>
            </dd>
            {{/arr}}
            </dl>
           </script>
+      </div>
+      <div id="Timeline" class="container content-tab">
+
+          <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
       </div>
 
       <div id="infobox" class="draggable card info mt-5">

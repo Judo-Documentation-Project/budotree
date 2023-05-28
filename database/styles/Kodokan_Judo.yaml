@@ -1,15 +1,18 @@
 # Judo Documentation Project: Judo Lineage Tree Sub-project
----
 
+---
 style:
   id: JDP-S-1
   name: Kōdōkan Jūdō
   native_name:
     name: 講道館柔道
     lang: ja
-  birth: 
+  birth:
     date: 1882
     location:
-    country_code: JPN  
+    country_code: JPN
+  media:
+    video_url: https://www.youtube.com/watch?v=FoFwE8pX2js
+    photo_url: http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93

@@ -6,16 +6,19 @@ style:
   name: Tenshin Shōden Katori Shintō-ryū
   native_name:
     name: 天真正伝香取神道流
-    lang: ja  
+    lang: ja
   aka:
     - name: Katori Shintō-ryū
-      native_name: 
+      native_name:
         name: 香取神道流
-        lang: ja      
-  birth: 
+        lang: ja
+  birth:
     date: 1147
     location: Shimōsa
-    country_code: JPN  
+    country_code: JPN
+  media:
+    video_url: https://youtu.be/4EvjslbRTaA?t=120
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg
   sources:
     - uri: https://en.wikipedia.org/wiki/Tenshin_Sh%C5%8Dden_Katori_Shint%C5%8D-ry%C5%AB
     - uri: https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9C%9F%E6%AD%A3%E4%BC%9D%E9%A6%99%E5%8F%96%E7%A5%9E%E9%81%93%E6%B5%81
