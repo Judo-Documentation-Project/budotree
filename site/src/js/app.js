@@ -1066,6 +1066,7 @@ function createTimeline (nodes, title) {
 
 
 function updateTimeline() {
+    let timeline;
     let selectedStyle = styleFilter.value;
     let styleData = st[selectedStyle];
     let url;
