@@ -6,6 +6,7 @@
         "build": "parcel build --public-url ./ src/index.html"
     },
     "devDependencies": {
+        "@knight-lab/timelinejs": "^3.9.2",
         "@parcel/transformer-less": "^2.8.3",
         "@parcel/transformer-sass": "^2.8.3",
         "@parcel/transformer-yaml": "^2.8.3",
