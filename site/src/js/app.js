@@ -891,6 +891,7 @@ let styleFilter  = document.getElementById("pickStyle")
 styleFilter.onchange = pickStyle;
 
 function updateStyleFilter() {
+    styleFilter.innerHTML = "";
     let styleList = {};
     for (const edge of data.elements.edges) {
         if (! styleList[edge.data.interaction_id]) {
