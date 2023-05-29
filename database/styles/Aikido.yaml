@@ -11,6 +11,17 @@ style:
     date: 1920
     location:
     country_code: JPN
+  description:
+    en: >
+      Aikido (Shinjitai: 合気道, Kyūjitai: 合氣道,) is a modern
+      Japanese martial art that is split into many different styles,
+      including Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Shodokan
+      Aikido, Yoshinkan, Renshinkai, Aikikai and Ki Aikido. Aikido is
+      now practiced in around 140 countries. It was originally
+      developed by Morihei Ueshiba, as a synthesis of his martial
+      studies, philosophy and religious beliefs. Ueshiba's goal was to
+      create an art that practitioners could use to defend themselves
+      while also protecting their attackers from injury.      
   media:
     photo_url: https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg
     video_url: https://www.youtube.com/watch?v=30Sa0PLquFg

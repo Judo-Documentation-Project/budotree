@@ -62,7 +62,7 @@ function updateContent () {
     document.getElementById('tab:cy').innerHTML = polyglot.t("Tree");
     document.getElementById('tab:Persons').innerHTML = polyglot.t("Persons");
     document.getElementById('tab:Styles').innerHTML = polyglot.t("Styles");
-    document.getElementById('tab:Timeline').innerHTML = polyglot.t("Timeline");fg
+    document.getElementById('tab:Timeline').innerHTML = polyglot.t("Timeline");
     updateStyleFilter();
     cy.style().update();
 }
@@ -1057,7 +1057,7 @@ function createTimeline (nodes, title) {
         }
     }
     tlOutput["events"] = events;
-    console.log("Created timeline from database", tlOutput);
+    console.debug("Created timeline from database", tlOutput);
     return tlOutput;
 }
 
@@ -1081,6 +1081,13 @@ function updateTimeline() {
         text = "The history of martial arts through the Budō tree database.";
     } else {
 
+        console.log("TL Desc:", styleData.description, lang)
+        if (styleData.description && styleData.description[lang]) {
+            console.log("Desc is native")
+            text = styleData.description[lang]
+        } else {
+            text = polyglot.t("A timeline through the Budō tree database.")
+        }
         if (styleData.media && styleData.media.video_url && styleData.media.photo_url) {
             url = styleData.media.video_url;
             background = { url: styleData.media.photo_url };
@@ -1094,7 +1101,7 @@ function updateTimeline() {
         caption = ""
         credit = "";
         headline = getStyleById(selectedStyle).name;
-        text = polyglot.t("A timeline through the Budō tree database.")
+
     }
     console.log("Update Timeline, selected style:", selectedStyle, getStyleById(selectedStyle));
     let title = { media:
@@ -1108,7 +1115,7 @@ function updateTimeline() {
                   },
                   background: background
                 };
-    console.log("Sending nodes:", cy.nodes(":visible"));
+
     let tl = createTimeline(cy.nodes(":visible"), title);
     timeline = new Timeline('timeline-embed', tl);
 }
