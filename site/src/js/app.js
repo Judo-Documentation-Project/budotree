@@ -41,7 +41,7 @@ langRes["ja"] = ja_res;
 
 let lang ="en"
 console.log("i18n: setting lang to ", lang)
-polyglot = new Polyglot();
+polyglot = new Polyglot({allowMissing: true});
 polyglot.extend(langRes[lang]);
 var updateLanguage = document.getElementById("language");
 updateLanguage.onchange = changeLanguage
@@ -51,7 +51,7 @@ function changeLanguage () {
     var text = updateLanguage.options[updateLanguage.selectedIndex].text;
     lang = updateLanguage.value;
     console.log("changeLanguage: ", value, text, langRes[lang]);
-    polyglot = new Polyglot();
+    polyglot = new Polyglot({allowMissing: true});
     polyglot.extend(langRes[lang]);
     updateContent();
 }
@@ -64,6 +64,7 @@ function updateContent () {
     document.getElementById('tab:Styles').innerHTML = polyglot.t("Styles");
     document.getElementById('tab:Timeline').innerHTML = polyglot.t("Timeline");
     updateStyleFilter();
+    updateTimeline();
     cy.style().update();
 }
 
@@ -1078,13 +1079,10 @@ function updateTimeline() {
         url = "https://res.cloudinary.com/duu3v9gfg/image/fetch/t_w_640_auto/https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2019/01/jpn-03-1548749418-1548749418.jpg";
         caption = "Judo practiced at the Fujimi-cho Kodokan dojo";
         credit = "Image by Hishida Shunso, copyright Kodokan Institute";
-        headline =  "A timeline of Budōka";
-        text = "The history of martial arts through the Budō tree database.";
+        headline =  polyglot.t("A timeline of Budōka");
+        text = polyglot.t("The history of martial arts through the Budō tree database.");
     } else {
-
-        console.log("TL Desc:", styleData.description, lang)
         if (styleData.description && styleData.description[lang]) {
-            console.log("Desc is native")
             text = styleData.description[lang]
         } else {
             text = polyglot.t("A timeline through the Budō tree database.")
