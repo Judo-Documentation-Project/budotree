@@ -1,0 +1,68 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-48
+  name: Uchida Ryōhei
+  native_name:
+    name: 内田良平
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 1873-02-11
+    location: Fukuoka
+    country_code: JPN
+  death:
+    date: 1937-07-26
+    location:
+    country: JPN
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ryohei_Uchida_Close-up.jpg/200px-Ryohei_Uchida_Close-up.jpg
+  description:
+    en: >
+      Ryōhei Uchida (内田 良平, Uchida Ryōhei, 11 February 1873 – 26
+      July 1937) was a Japanese ultranationalist political theorist,
+      Pan-Asianist, and martial artist, active in the pre-war Empire
+      of Japan. He was also an accomplished jūdōka, a favorite of Kanō
+      shihan 師範 (master), one of the three most senior 5th dan rank
+      holders in Kodokan history, and a noted street brawler.  He was
+      the son of Shinto Muso-ryu practitioner Uchida Ryōgorō, and from
+      an early age was interested in many forms of Japanese
+      traditional martial arts, including kyūdō, kendo, judo and sumo.
+    ja: >
+      内田 良平（うちだ りょうへい、1874年〈明治7年〉2月11日 - 1937年
+      〈昭和12年〉7月26日）は、日本の国家主義者・右翼運動家・アジア主
+      義者。黒龍会主幹、大日本生産党総裁。 旧福岡藩士であり、武芸の達
+      人として知られた内田良五郎の三男として現在の福岡県福岡市大円寺町
+      （現・唐人町）に生まれる[1]。幼名良助、のち甲（きのえ）。明治34
+      年（1902年）に良平と改名した。幼時より弓道、剣道、柔術、相撲、射
+      撃を父に学んだ。なお、父・良五郎の神道夢想流杖術の門下には、[2]
+      「昭和の剣聖」の一人である中山博道がいる。
+  teachers:
+    - id: JDP-1
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1893
+        end:
+      sources:
+        - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+          citation: "Miyakawa remained a Gen’yōshamember and became a Kōdōkan top-executive (Kōdōkan Saikō  Kanbu講道館最高幹部)  closely  associated  with Kanō Jigorō, as was Uchida Ryōhei"
+        - uri: https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/
+          citation: "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler."
+      quality: 1
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 5 dan
+      year:
+  sources:
+    - uri: https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/
+      events: [ name, native_name, birth, death, rank ]
+    - uri: https://en.wikipedia.org/wiki/Ry%C5%8Dhei_Uchida
+      events: [ name, native_name, birth, death ]
+  tags:
+    - Kokuryūkai
+    - Genyōsha
+    - Omoto
