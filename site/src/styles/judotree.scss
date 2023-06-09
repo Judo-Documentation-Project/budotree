@@ -464,3 +464,6 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
 .toolbox-icon {
   color: #cb4042;
 }
+.tl-slide-background {
+  filter: brightness(65%) !important;
+}
