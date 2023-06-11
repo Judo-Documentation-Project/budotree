@@ -51,6 +51,17 @@ person:
         - uri: https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/
           citation: "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler."
       quality: 1
+    - id: JDP-49
+      style_id: JDP-S-12
+      place: Meikokan dojo
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
+          citation: "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。"
+        - uri: https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/
+          citation: "He learned a number of martial arts, most notably Jigō Tenshin Ryū Jūjutsu in Fukuoka’s Meidokan dōjō, an art in which he was notably successful. In 1893 he moved to Tokyo to live with his wealthy coal mine owner uncle Hiraoka Kōtarō, a supporter of the Genyōsha, and began to study Russian at a Tokyo school and jūdō at Kanō Jigorō’s Kodokan."
   rank:
     - style_id: JDP-S-1
       org: Kodokan

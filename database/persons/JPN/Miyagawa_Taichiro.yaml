@@ -1,0 +1,70 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-49
+  name: Miyagawa Taichiro
+  native_name:
+    name: 宮川太
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 1848
+    location: Fukuoka
+    country_code: JPN
+  death:
+    date: 1920-06-20
+    location:
+    country:
+  photo_url:
+  description:
+    en: >
+      Miyagawa Taichiro was born on Kaei first. He served the Kuroda
+      clan as a retainer. He was an accomplished martial artist,
+      having learned Itto-ryu kenjutsu and Jigo Tenshin Ryu jujutsu,
+      which he taught at the Genyosha-linked dojo that would be the
+      origin of the Meidokan. He participated in the Hagi Rebellion
+      against the Meiji government.
+
+    ja: >
+      宮川太一郎、名は鍜キタウ。筑前の人。嘉永元年七月二十四日福岡に生
+      る。世、黒田氏に仕へ、其の藩士たり。夙に文武館に入り、専ら武技を
+      講修し、撃剣（一刀流）柔術（自得天心流）の奥技を究む。維新後藩の
+      併心隊に入り、青年派の牛耳を執る。明治三年、事を以て就義隊の領袖
+      箱田六輔等と争ひ、屏居を命ぜらる。後、節を折り、六輔、及、進藤喜
+      平太等と共に、高場乱の門に入る。七年二月、佐賀の変、福岡臨時鎮撫
+      隊の組織せらるゝや、太一郎、六輔と共に、其半隊長たり。八年、六輔、
+      及、頭山満等と矯志社を起し、九年十二月、萩の事変に坐せられて、六
+      輔等と共に獄に下り、十一年三月、始めて釈さる。後、開墾社を博多向
+      浜に開き、爾来志を政治上に断ち、専ら実業に従事す。
+      宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家
+      の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11
+      月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の
+      起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦
+      之助も目録まで進み，自剛天真流の普及に務めた。
+  teachers:
+    - name: 庄林又七郎
+      style_id: JDP-S-12
+      place:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
+          citation: "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+      quality: 2
+  rank:
+    - style_id: JDP-S-12
+      org:
+      teacher: 庄林又七郎
+      rank: Menkyokaiden (免許皆伝)
+      year:
+  sources:
+    - uri: http://www5e.biglobe.ne.jp/~isitaki/page048.html
+      events: [ name, native_name, birth, death ]
+    - uri: http://www5e.biglobe.ne.jp/~isitaki/page045.html
+    - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
+      events: [ name, native_name, birth, death ]
+  tags:
+    - Genyōsha

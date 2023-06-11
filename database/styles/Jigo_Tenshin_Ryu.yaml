@@ -1,0 +1,50 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-12
+  name: Jigō Tenshin Ryū
+  native_name:
+    name: 自剛天真流
+    lang: ja
+  aka:
+    - name: Ise Jitoku Tenshin-ryū
+      native_name:
+        name: 為勢自得天眞流柔術
+        lang: ja
+  birth:
+    date: 1800
+    location: Fukuoka
+    country_code: JPN
+  description:
+    en: >
+      Jigo Tenshin Ryu (also known as Isei Jitoku Tenshinryu) is one
+      of the martial arts handed down from the Fukuoka Domain. It was
+      founded as a comprehensive martial art system, but the jujutsu
+      component is the one that has been handed down to the
+      present. Many ancient techniques remain, including joint
+      techniques, restraining techniques, and Kappo. In 2005, it was
+      designated as an intangible cultural property of Fukuoka City.
+    ja: >
+      自剛天真流（じごうてんしんりゅう）は、福岡藩伝来の武術の一つ。別
+      名、為勢自得天真流。創流時は全てのものを武器として使用する綜合武
+      術であったが、現在では主に柔術が相伝されている。古式の技法が数多
+      く残されており、逆手を中心とした関節技、居取、拳法、逮捕術、活法
+      など多彩な技を今に伝えている。また2005年に福岡市の無形文化財に指
+      定された。
+
+    pt: >
+      O Jigo Tenshin Ryu (também conhecido como Isei Jitoku
+      Tenshinryu) é uma das artes marciais tradicionais do Domínio de
+      Fukuoka, Japão.Na época de sua fundação, era uma arte marcial
+      completa, mas foi o jujutsu que foi transmitido até aos nossos
+      dias. Preserva muitas técnicas antigas técnicas como as
+      centradas na manipulação de articulações, imobilização,e
+      kappo. Em 2005, foi designado como propriedade cultural imaterial
+      da cidade de Fukuoka.
+  media:
+    video_url: https://youtu.be/yA32io5HYic?t=92
+    photo_url:
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81
+    - uri: https://www.ryoishintokai.com/2019/12/24/84/
