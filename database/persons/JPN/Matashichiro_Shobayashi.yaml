@@ -1,0 +1,42 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-51
+  name: Matashichiro Shobayashi
+  native_name:
+    name: 庄林又七郎
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date:
+    location:
+    country_code: JPN
+  death:
+    date:
+    location:
+    country:
+  photo_url:
+  description:
+  teachers:
+    - name: JDP-52
+      style_id: JDP-S-12
+      place:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
+          citation: "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+      quality: 2
+  rank:
+    - style_id: JDP-S-12
+      org:
+      teacher: 庄林又七郎
+      rank: Menkyokaiden (免許皆伝)
+      year:
+  sources:
+    - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
+      events: [ name, native_name ]
+    - uri: https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81

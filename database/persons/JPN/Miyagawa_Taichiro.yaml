@@ -44,7 +44,7 @@ person:
       起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦
       之助も目録まで進み，自剛天真流の普及に務めた。
   teachers:
-    - name: 庄林又七郎
+    - id: JDP-51
       style_id: JDP-S-12
       place:
       period:

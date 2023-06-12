@@ -9,7 +9,7 @@ person:
     lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1907-04-07
     location: Shizuoka
     country_code: JPN
@@ -30,35 +30,39 @@ person:
       place: Kodokan
       period:
           start: 1925
-          end: 1930          
+          end: 1930
     - id: JDP-27
       style_id: JDP-S-4
       place: Kobukan dojo
       period:
           start: 1930
           end:
+      sources:
+        - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+          citation: "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)"
+
     - name: Sanjuro Oshima
       style: Gyokushin Ryu
-      place: 
+      place:
       period:
           start: 1924
-          end: 
+          end:
   rank:
     - style: Gyokushin Ryu
-      org: 
+      org:
       teacher: Sanjuro Oshima
       rank: Shoden Kirishi Mokuroku
       year: 1924
     - style_id: JDP-S-10
-      org: 
+      org:
       teacher: JDP-27
-      rank: 
+      rank:
       year: 1924
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 8 dan
-      year: 
+      year:
   sources:
     - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
     - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki

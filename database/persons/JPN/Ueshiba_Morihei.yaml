@@ -38,12 +38,33 @@ person:
         - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
           citation: "[Tokusaburo Tozawa]. Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901"
           events: [ period ]
+    - id: JDP-50
+      style_id: JDP-S-13
+      place:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+          citation: "Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū"
+        - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+          citation: "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms."
   rank:
     - style_id: JDP-S-10
       org:
       teacher: JDP-28
       rank: Kyōju Dairi
       year: 1922
+    - style_id: JDP-S-13
+      org:
+      teacher: JDP-50
+      rank: Shoden
+      year: 1908
   sources:
     - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
+      events: [ name native_name birth death ]
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
+      events: [ name native_name birth death ]
+    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+      events: [ rank ]
+    - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/

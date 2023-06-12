@@ -1,0 +1,37 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-50
+  name: Masakatsu Naka
+  native_name:
+    name: 中井 正勝
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date:
+    location:
+    country_code: JPN
+  death:
+    date:
+    location:
+    country_code:
+  photo_url:
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      year:
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
+      events: [ name native_name ]
+    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
