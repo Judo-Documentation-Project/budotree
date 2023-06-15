@@ -7,10 +7,13 @@ style:
   native_name:
     name: 大東流 合気柔術
     lang: ja
-  birth: 
+  birth:
     date: 1100
     location:
-    country_code: JPN  
+    country_code: JPN
+  media:
+    video_url: https://youtu.be/zgezzfG1Rwk?t=167
+    photo_url: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
   sources:
     - uri: https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu
     - uri: https://www.daitohryu.com/eng-history01
