@@ -351,6 +351,27 @@
                   "cite": "Tokusaburo Tozawa 戸沢徳三郎 – Aikido Journal"
                 }
               ]
+            },
+            {
+              "id": "JDP-50",
+              "style_id": "JDP-S-13",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+                  "citation": "Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū",
+                  "cite": "Yagyū Shingan-ryū - Wikipedia"
+                },
+                {
+                  "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+                  "citation": "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms.",
+                  "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
+                }
+              ]
             }
           ],
           "rank": [
@@ -365,12 +386,40 @@
                 "name": "大東流 合気柔術",
                 "lang": "ja"
               }
+            },
+            {
+              "style_id": "JDP-S-13",
+              "org": null,
+              "teacher": "JDP-50",
+              "rank": "Shoden",
+              "year": 1908
             }
           ],
           "sources": [
             {
+              "uri": "https://en.wikipedia.org/wiki/Morihei_Ueshiba",
+              "events": [
+                "name native_name birth death"
+              ],
+              "cite": "Morihei Ueshiba - Wikipedia"
+            },
+            {
               "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
+              "events": [
+                "name native_name birth death"
+              ],
               "cite": "富木謙治 - Wikipedia"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "events": [
+                "rank"
+              ],
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+              "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Ueshiba_Morihei.yaml"
@@ -430,6 +479,121 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Ueda_Heitaro.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-48",
+          "name": "Uchida Ryōhei",
+          "native_name": {
+            "name": "内田良平",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1873-02-11T00:00:00.000Z",
+            "location": "Fukuoka",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1937-07-26T00:00:00.000Z",
+            "location": null,
+            "country": "JPN"
+          },
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ryohei_Uchida_Close-up.jpg/200px-Ryohei_Uchida_Close-up.jpg",
+          "description": {
+            "en": "Ryōhei Uchida (内田 良平, Uchida Ryōhei, 11 February 1873 – 26 July 1937) was a Japanese ultranationalist political theorist, Pan-Asianist, and martial artist, active in the pre-war Empire of Japan. He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.  He was the son of Shinto Muso-ryu practitioner Uchida Ryōgorō, and from an early age was interested in many forms of Japanese traditional martial arts, including kyūdō, kendo, judo and sumo.\n",
+            "ja": "内田 良平（うちだ りょうへい、1874年〈明治7年〉2月11日 - 1937年 〈昭和12年〉7月26日）は、日本の国家主義者・右翼運動家・アジア主 義者。黒龍会主幹、大日本生産党総裁。 旧福岡藩士であり、武芸の達 人として知られた内田良五郎の三男として現在の福岡県福岡市大円寺町 （現・唐人町）に生まれる[1]。幼名良助、のち甲（きのえ）。明治34 年（1902年）に良平と改名した。幼時より弓道、剣道、柔術、相撲、射 撃を父に学んだ。なお、父・良五郎の神道夢想流杖術の門下には、[2] 「昭和の剣聖」の一人である中山博道がいる。\n"
+          },
+          "teachers": [
+            {
+              "id": "JDP-1",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1893,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws",
+                  "citation": "Miyakawa remained a Gen’yōshamember and became a Kōdōkan top-executive (Kōdōkan Saikō  Kanbu講道館最高幹部)  closely  associated  with Kanō Jigorō, as was Uchida Ryōhei"
+                },
+                {
+                  "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+                  "citation": "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.",
+                  "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles® 嘉納歴代"
+                }
+              ],
+              "quality": 1
+            },
+            {
+              "id": "JDP-49",
+              "style_id": "JDP-S-12",
+              "place": "Meikokan dojo",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。",
+                  "cite": "天理大学 学術情報リポジトリ"
+                },
+                {
+                  "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+                  "citation": "He learned a number of martial arts, most notably Jigō Tenshin Ryū Jūjutsu in Fukuoka’s Meidokan dōjō, an art in which he was notably successful. In 1893 he moved to Tokyo to live with his wealthy coal mine owner uncle Hiraoka Kōtarō, a supporter of the Genyōsha, and began to study Russian at a Tokyo school and jūdō at Kanō Jigorō’s Kodokan.",
+                  "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles® 嘉納歴代"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "5 dan",
+              "year": null,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death",
+                "rank"
+              ],
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles® 嘉納歴代"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ry%C5%8Dhei_Uchida",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ],
+              "cite": "Ryōhei Uchida - Wikipedia"
+            }
+          ],
+          "tags": [
+            "Kokuryūkai",
+            "Genyōsha",
+            "Omoto"
+          ],
+          "source_yaml": "database/persons/JPN/Uchida_Ryohei.yaml"
         }
       },
       {
@@ -496,7 +660,7 @@
             },
             {
               "uri": "https://www.google.pt/books/edition/Koryu_Bujutsu/ZNetk-lJ_O4C",
-              "cite": "Koryu Bujutsu: Classical Warrior Traditions of Japan - Google Livros"
+              "cite": "Koryu Bujutsu: Classical Warrior Traditions of Japan - Google Books"
             },
             {
               "uri": "http://www.tenyokai.com/booklet.php"
@@ -634,6 +798,10 @@
           ],
           "sources": [
             {
+              "uri": "https://en.wikipedia.org/wiki/Kenji_Tomiki",
+              "cite": "Kenji Tomiki - Wikipedia"
+            },
+            {
               "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
               "cite": "富木謙治 - Wikipedia"
             }
@@ -705,8 +873,9 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1659,
+            "location": "Tamba",
+            "country_code": "JPN"
           },
           "death": {
             "date": null,
@@ -731,6 +900,13 @@
             },
             {
               "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+            },
+            {
+              "uri": "https://www.ryoishintokai.com/2022/03/24/1819/",
+              "events": [
+                "birth"
+              ],
+              "cite": "From the article 'Famous Budoka of Japan: Ukei Kato and Kito-ryu Jujutsu' - Ryōi Shintōkai 良移心当会"
             }
           ],
           "source_yaml": "database/persons/JPN/Takino_Yūken.yaml"
@@ -748,7 +924,8 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
+            "date": 1800,
+            "type": "estimated",
             "location": null
           },
           "death": {
@@ -791,7 +968,8 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
+            "date": 1775,
+            "type": "estimated",
             "location": null
           },
           "death": {
@@ -1248,11 +1426,11 @@
               "cite": "Soshihiro Satake - Wikipedia"
             },
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -1548,7 +1726,14 @@
               "period": {
                 "start": 1930,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/",
+                  "citation": "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)",
+                  "cite": "Interview with Minoru Mochizuki: Part 1 – Aikido Journal"
+                }
+              ]
             },
             {
               "name": "Sanjuro Oshima",
@@ -1604,6 +1789,97 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Mochizuki_Minoru.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-49",
+          "name": "Miyagawa Taichiro",
+          "native_name": {
+            "name": "宮川太",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1848,
+            "location": "Fukuoka",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1920-06-20T00:00:00.000Z",
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "description": {
+            "en": "Miyagawa Taichiro was born on Kaei first. He served the Kuroda clan as a retainer. He was an accomplished martial artist, having learned Itto-ryu kenjutsu and Jigo Tenshin Ryu jujutsu, which he taught at the Genyosha-linked dojo that would be the origin of the Meidokan. He participated in the Hagi Rebellion against the Meiji government.\n",
+            "ja": "宮川太一郎、名は鍜キタウ。筑前の人。嘉永元年七月二十四日福岡に生 る。世、黒田氏に仕へ、其の藩士たり。夙に文武館に入り、専ら武技を 講修し、撃剣（一刀流）柔術（自得天心流）の奥技を究む。維新後藩の 併心隊に入り、青年派の牛耳を執る。明治三年、事を以て就義隊の領袖 箱田六輔等と争ひ、屏居を命ぜらる。後、節を折り、六輔、及、進藤喜 平太等と共に、高場乱の門に入る。七年二月、佐賀の変、福岡臨時鎮撫 隊の組織せらるゝや、太一郎、六輔と共に、其半隊長たり。八年、六輔、 及、頭山満等と矯志社を起し、九年十二月、萩の事変に坐せられて、六 輔等と共に獄に下り、十一年三月、始めて釈さる。後、開墾社を博多向 浜に開き、爾来志を政治上に断ち、専ら実業に従事す。 宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家 の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11 月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の 起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦 之助も目録まで進み，自剛天真流の普及に務めた。\n"
+          },
+          "teachers": [
+            {
+              "id": "JDP-51",
+              "style_id": "JDP-S-12",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。",
+                  "cite": "天理大学 学術情報リポジトリ"
+                }
+              ],
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-12",
+              "org": null,
+              "teacher": "庄林又七郎",
+              "rank": "Menkyokaiden (免許皆伝)",
+              "year": null,
+              "style": "Jigō Tenshin Ryū",
+              "style_native": {
+                "name": "自剛天真流",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page048.html",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ],
+              "cite": "���m�Ј��̓`�L�W�@�T"
+            },
+            {
+              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page045.html",
+              "cite": "���m�Ј��E����"
+            },
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ],
+              "cite": "天理大学 学術情報リポジトリ"
+            }
+          ],
+          "tags": [
+            "Genyōsha"
+          ],
+          "source_yaml": "database/persons/JPN/Miyagawa_Taichiro.yaml"
         }
       },
       {
@@ -1727,6 +2003,136 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Matsui_Sanzo.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-51",
+          "name": "Matashichiro Shobayashi",
+          "native_name": {
+            "name": "庄林又七郎",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country": null
+          },
+          "photo_url": null,
+          "description": null,
+          "teachers": [
+            {
+              "name": "JDP-52",
+              "style_id": "JDP-S-12",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+                }
+              ],
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-12",
+              "org": null,
+              "teacher": "庄林又七郎",
+              "rank": "Menkyokaiden (免許皆伝)",
+              "year": null,
+              "style": "Jigō Tenshin Ryū",
+              "style_native": {
+                "name": "自剛天真流",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "events": [
+                "name",
+                "native_name"
+              ],
+              "cite": "天理大学 学術情報リポジトリ"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81",
+              "cite": "自剛天真流 - Wikipedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Matashichiro_Shobayashi.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-50",
+          "name": "Masakatsu Naka",
+          "native_name": {
+            "name": "中井 正勝",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "year": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB",
+              "events": [
+                "name native_name"
+              ],
+              "cite": "Yagyū Shinkage-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Masakatsu_Nakai.yaml"
         }
       },
       {
@@ -2268,7 +2674,8 @@
               "cite": "嘉納治五郎 - Wikipedia"
             },
             {
-              "uri": "https://isbnsearch.org/isbn/9781425163495"
+              "uri": "https://isbnsearch.org/isbn/9781425163495",
+              "cite": "ISBN 9781425163495 - Judo Memoirs of Jigoro Kano"
             },
             {
               "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
@@ -2684,11 +3091,11 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
+            "date": 1835,
             "location": null
           },
           "death": {
-            "date": null,
+            "date": 1889,
             "location": null
           },
           "teachers": [
@@ -2711,6 +3118,20 @@
             {
               "uri": "https://doi.org/10.18002/rama.v9i2.1162",
               "cite": "\n\t\tNanatsu-no-kata, Endo-no-kata, and Joge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo\n\t\t\t\t\t\t\t| Revista de Artes Marciales Asiáticas\n\t\t\t"
+            },
+            {
+              "uri": "https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC",
+              "cite": "Judo Memoirs of Jigoro Kano - Brian N. Watson - Google Livros",
+              "events": [
+                "birth"
+              ]
+            },
+            {
+              "uri": "https://www.cismeurope.org/history-judo/",
+              "events": [
+                "birth death"
+              ],
+              "cite": "   History Judo  : CISM Europe"
             }
           ],
           "source_yaml": "database/persons/JPN/Iikubo_Tsunetoshi.yaml"
@@ -2912,11 +3333,11 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -2977,7 +3398,8 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -3027,8 +3449,7 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
-              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
@@ -3089,7 +3510,8 @@
           ],
           "sources": [
             {
-              "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
+              "uri": "https://repositorio.ufsc.br/handle/123456789/103771",
+              "cite": "Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -3111,7 +3533,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDPdcdfe3c51dd45",
+          "id": "JDP9aaecc55c9aa7",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-11",
           "target": "JDP-24",
@@ -3131,7 +3553,7 @@
       },
       {
         "data": {
-          "id": "JDP2696978990ca1",
+          "id": "JDPea3d73a11f5e4",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-12",
           "target": "JDP-25",
@@ -3151,7 +3573,7 @@
       },
       {
         "data": {
-          "id": "JDP977a8cda670b7",
+          "id": "JDP7780320e276b1",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -3170,7 +3592,7 @@
       },
       {
         "data": {
-          "id": "JDPe59d92a8e3a25",
+          "id": "JDPd61d8897410ff",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-12",
           "target": "JDP-16",
@@ -3189,7 +3611,7 @@
       },
       {
         "data": {
-          "id": "JDP83cb0fe25851b",
+          "id": "JDP6234f1875237c",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yokoyama Sakujiro",
           "source": "JDP-1",
           "target": "JDP-9",
@@ -3208,7 +3630,7 @@
       },
       {
         "data": {
-          "id": "JDP625fa60812109",
+          "id": "JDPac86e6315f8a5",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-10",
           "target": "JDP-9",
@@ -3227,7 +3649,7 @@
       },
       {
         "data": {
-          "id": "JDP42f9c346da34f",
+          "id": "JDP292a43cf30661",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-28",
           "target": "JDP-27",
@@ -3246,7 +3668,7 @@
       },
       {
         "data": {
-          "id": "JDP20445c01c4521",
+          "id": "JDP719311e87fed9",
           "name": "Tozawa Tokusaburo (Tenjin Shin'yō-ryū) Ueshiba Morihei",
           "source": "JDP-47",
           "target": "JDP-27",
@@ -3280,7 +3702,95 @@
       },
       {
         "data": {
-          "id": "JDP283312951d79",
+          "id": "JDP67fd807e89fc3",
+          "name": "Masakatsu Naka (undefined) Ueshiba Morihei",
+          "source": "JDP-50",
+          "target": "JDP-27",
+          "interaction_id": "JDP-S-13",
+          "place": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "citation": "Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū",
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+              "citation": "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms.",
+              "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP2cbbcc75aaad9",
+          "name": "Kanō Jigorō (Kōdōkan Jūdō) Uchida Ryōhei",
+          "source": "JDP-1",
+          "target": "JDP-48",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 1,
+          "period": {
+            "start": 1893,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws",
+              "citation": "Miyakawa remained a Gen’yōshamember and became a Kōdōkan top-executive (Kōdōkan Saikō  Kanbu講道館最高幹部)  closely  associated  with Kanō Jigorō, as was Uchida Ryōhei"
+            },
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "citation": "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.",
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles® 嘉納歴代"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP50d7903723f32",
+          "name": "Miyagawa Taichiro (Jigō Tenshin Ryū) Uchida Ryōhei",
+          "source": "JDP-49",
+          "target": "JDP-48",
+          "interaction": "Jigō Tenshin Ryū",
+          "interaction_id": "JDP-S-12",
+          "interaction_native": {
+            "name": "自剛天真流",
+            "lang": "ja"
+          },
+          "place": "Meikokan dojo",
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。",
+              "cite": "天理大学 学術情報リポジトリ"
+            },
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "citation": "He learned a number of martial arts, most notably Jigō Tenshin Ryū Jūjutsu in Fukuoka’s Meidokan dōjō, an art in which he was notably successful. In 1893 he moved to Tokyo to live with his wealthy coal mine owner uncle Hiraoka Kōtarō, a supporter of the Genyōsha, and began to study Russian at a Tokyo school and jūdō at Kanō Jigorō’s Kodokan.",
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles® 嘉納歴代"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf213e71cff0af",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Tozawa Tokusaburo",
           "source": "JDP-4",
           "target": "JDP-47",
@@ -3309,7 +3819,7 @@
       },
       {
         "data": {
-          "id": "JDP19af9423b1bd",
+          "id": "JDP34fd3b2c723ab",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomita Tsunejirō",
           "source": "JDP-1",
           "target": "JDP-17",
@@ -3328,7 +3838,7 @@
       },
       {
         "data": {
-          "id": "JDP9ce2515afd9e4",
+          "id": "JDP9e41d2b15edbf",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-1",
           "target": "JDP-26",
@@ -3347,7 +3857,7 @@
       },
       {
         "data": {
-          "id": "JDPab0ae25c8ecb4",
+          "id": "JDP3ec1cf28fae79",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-27",
           "target": "JDP-26",
@@ -3366,7 +3876,7 @@
       },
       {
         "data": {
-          "id": "JDP22c4a82a5801e",
+          "id": "JDP64979f882fa4b",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-7",
           "target": "JDP-6",
@@ -3385,7 +3895,7 @@
       },
       {
         "data": {
-          "id": "JDPc08c589284ac1",
+          "id": "JDPfb7c8b4255eda",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-8",
           "target": "JDP-7",
@@ -3404,7 +3914,7 @@
       },
       {
         "data": {
-          "id": "JDP567e37686d6d8",
+          "id": "JDPcd146ea5fe6b4",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Takahashi Kazuyoshi",
           "source": "JDP-9",
           "target": "JDP-14",
@@ -3423,7 +3933,7 @@
       },
       {
         "data": {
-          "id": "JDP005d272d5e077",
+          "id": "JDP0474c864386d",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-31",
           "target": "JDP-30",
@@ -3443,7 +3953,7 @@
       },
       {
         "data": {
-          "id": "JDPa66f3fe098096",
+          "id": "JDPf0104472e10c",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-27",
           "target": "JDP-30",
@@ -3463,7 +3973,7 @@
       },
       {
         "data": {
-          "id": "JDP8e0dd4507f3f5",
+          "id": "JDPe8af083997fc4",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-32",
           "target": "JDP-30",
@@ -3483,7 +3993,7 @@
       },
       {
         "data": {
-          "id": "JDP7389f6b7d6122",
+          "id": "JDP424952b5ec253",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-33",
           "target": "JDP-30",
@@ -3503,7 +4013,7 @@
       },
       {
         "data": {
-          "id": "JDPfa877a0e064c6",
+          "id": "JDPd690f2f8edfa2",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-34",
           "target": "JDP-30",
@@ -3523,7 +4033,7 @@
       },
       {
         "data": {
-          "id": "JDPba0308661b80c",
+          "id": "JDPfd6b1ed365e98",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-35",
           "target": "JDP-30",
@@ -3543,7 +4053,7 @@
       },
       {
         "data": {
-          "id": "JDP7a88d474190ce",
+          "id": "JDPff85e9a8fc208",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-36",
           "target": "JDP-30",
@@ -3563,7 +4073,7 @@
       },
       {
         "data": {
-          "id": "JDP87f7728ef99d8",
+          "id": "JDPa2e6234011aae",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-17",
           "target": "JDP-22",
@@ -3583,7 +4093,7 @@
       },
       {
         "data": {
-          "id": "JDP225227be5bffb",
+          "id": "JDPfc16b942eaba6",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-1",
           "target": "JDP-22",
@@ -3603,7 +4113,7 @@
       },
       {
         "data": {
-          "id": "JDPf32f08ad141e8",
+          "id": "JDPfca0fb44a09c",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-42",
           "target": "JDP-38",
@@ -3623,7 +4133,7 @@
       },
       {
         "data": {
-          "id": "JDPf9477250746b8",
+          "id": "JDP549cd6a855299",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-43",
           "target": "JDP-38",
@@ -3643,7 +4153,7 @@
       },
       {
         "data": {
-          "id": "JDP765b16f866d21",
+          "id": "JDPa90900026af3c",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-44",
           "target": "JDP-38",
@@ -3663,7 +4173,7 @@
       },
       {
         "data": {
-          "id": "JDP68f113cfda61e",
+          "id": "JDP1a1977cf19bf",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-1",
           "target": "JDP-44",
@@ -3682,7 +4192,7 @@
       },
       {
         "data": {
-          "id": "JDPf33fafdb2b4b4",
+          "id": "JDPa24cf622b9b0c",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-1",
           "target": "JDP-29",
@@ -3701,7 +4211,7 @@
       },
       {
         "data": {
-          "id": "JDPc2eb22b24ba6f",
+          "id": "JDP245dff381045a",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-11",
           "target": "JDP-29",
@@ -3720,7 +4230,7 @@
       },
       {
         "data": {
-          "id": "JDPde766bdf45fcd",
+          "id": "JDP4026498c6e072",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-27",
           "target": "JDP-29",
@@ -3734,12 +4244,46 @@
           "period": {
             "start": 1930,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/",
+              "citation": "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)",
+              "cite": "Interview with Minoru Mochizuki: Part 1 – Aikido Journal"
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP2594227212cac",
+          "id": "JDP26880a85e71c3",
+          "name": "Matashichiro Shobayashi (Jigō Tenshin Ryū) Miyagawa Taichiro",
+          "source": "JDP-51",
+          "target": "JDP-49",
+          "interaction": "Jigō Tenshin Ryū",
+          "interaction_id": "JDP-S-12",
+          "interaction_native": {
+            "name": "自剛天真流",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。",
+              "cite": "天理大学 学術情報リポジトリ"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPc28c694844323",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-1",
           "target": "JDP-11",
@@ -3758,7 +4302,7 @@
       },
       {
         "data": {
-          "id": "JDPd62e7e5b98941",
+          "id": "JDP23e6510fb5866",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-9",
           "target": "JDP-11",
@@ -3777,7 +4321,7 @@
       },
       {
         "data": {
-          "id": "JDP60a735263a21c",
+          "id": "JDP506f1fa845145",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-17",
           "target": "JDP-18",
@@ -3796,7 +4340,7 @@
       },
       {
         "data": {
-          "id": "JDPa0cae42c87e81",
+          "id": "JDP54d7c04ebd6e7",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-38",
           "target": "JDP-37",
@@ -3816,7 +4360,7 @@
       },
       {
         "data": {
-          "id": "JDPf7278c6e947af",
+          "id": "JDPabecb35ea8dde",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-39",
           "target": "JDP-37",
@@ -3836,7 +4380,7 @@
       },
       {
         "data": {
-          "id": "JDPc16cd92d03354",
+          "id": "JDP900f6ade68ccf",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-42",
           "target": "JDP-37",
@@ -3856,7 +4400,7 @@
       },
       {
         "data": {
-          "id": "JDPad992737a4d2c",
+          "id": "JDP5cac74ce9f613",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-40",
           "target": "JDP-37",
@@ -3876,7 +4420,7 @@
       },
       {
         "data": {
-          "id": "JDPbc778da1048bd",
+          "id": "JDP1636f5b52b1bc",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-41",
           "target": "JDP-37",
@@ -3896,7 +4440,7 @@
       },
       {
         "data": {
-          "id": "JDP74ec6cca059d",
+          "id": "JDPd97c8b27cc5e2",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-27",
           "target": "JDP-37",
@@ -3916,7 +4460,7 @@
       },
       {
         "data": {
-          "id": "JDP51b18d3254101",
+          "id": "JDPb0866aff98e7f",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Kobayashi Kiyoshi",
           "source": "JDP-11",
           "target": "JDP-12",
@@ -3935,7 +4479,7 @@
       },
       {
         "data": {
-          "id": "JDP493194d8d8cf3",
+          "id": "JDP143d86fb8ea7e",
           "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi  Mikinosuke",
           "source": "JDP-14",
           "target": "JDP-13",
@@ -3954,7 +4498,7 @@
       },
       {
         "data": {
-          "id": "JDP59fc6682f8e67",
+          "id": "JDP7bff39be890fc",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-2",
           "target": "JDP-1",
@@ -3974,7 +4518,7 @@
       },
       {
         "data": {
-          "id": "JDP69e0e8f25a25b",
+          "id": "JDPf69c5532bdbb1",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-4",
           "target": "JDP-1",
@@ -3994,7 +4538,7 @@
       },
       {
         "data": {
-          "id": "JDPee2df3bc62cbb",
+          "id": "JDPebb8facdb7a19",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-5",
           "target": "JDP-1",
@@ -4014,7 +4558,7 @@
       },
       {
         "data": {
-          "id": "JDP167a75236e5b6",
+          "id": "JDP4e6c26a6910fe",
           "name": "Oshima Masateru (Yagyū Shingan-ryū) Kanō Jigorō",
           "source": "JDP-46",
           "target": "JDP-1",
@@ -4041,7 +4585,7 @@
       },
       {
         "data": {
-          "id": "JDPeb7d502655552",
+          "id": "JDP47d779c407eea",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-9",
           "target": "JDP-43",
@@ -4060,7 +4604,7 @@
       },
       {
         "data": {
-          "id": "JDP3bd3998da9846",
+          "id": "JDPc8ad2f822ce85",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-3",
           "target": "JDP-4",
@@ -4074,7 +4618,7 @@
       },
       {
         "data": {
-          "id": "JDPa92c86f3044e",
+          "id": "JDP0fc6050178299",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-3",
           "target": "JDP-10",
@@ -4093,7 +4637,7 @@
       },
       {
         "data": {
-          "id": "JDP19886916ee7e7",
+          "id": "JDPdf8e2431cada",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-9",
           "target": "JDP-31",
@@ -4112,7 +4656,7 @@
       },
       {
         "data": {
-          "id": "JDPdd224edb0df2d",
+          "id": "JDP8a0ebcb48deb2",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-6",
           "target": "JDP-5",
@@ -4131,7 +4675,7 @@
       },
       {
         "data": {
-          "id": "JDP2459a1c1e7c8d",
+          "id": "JDP172aa485542dc",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-4",
           "target": "JDP-2",
@@ -4149,7 +4693,7 @@
       },
       {
         "data": {
-          "id": "JDP7697911fd8056",
+          "id": "JDPfbf248cdac3cd",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Mario Aleixo",
           "source": "JDP-18",
           "target": "JDP-45",
@@ -4169,7 +4713,7 @@
       },
       {
         "data": {
-          "id": "JDP6c66647d50fbb",
+          "id": "JDP60b99d18c20e",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-22",
           "target": "JDP-20",
@@ -4189,7 +4733,7 @@
       },
       {
         "data": {
-          "id": "JDP96f4eb1c47247",
+          "id": "JDPdb82688193e1d",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-18",
           "target": "JDP-20",
@@ -4209,7 +4753,7 @@
       },
       {
         "data": {
-          "id": "JDP7f001af2c03da",
+          "id": "JDP93779e50986cc",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-18",
           "target": "JDP-19",
@@ -4228,7 +4772,7 @@
       },
       {
         "data": {
-          "id": "JDPd5570879471ae",
+          "id": "JDP4877040105ad1",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-18",
           "target": "JDP-23",
@@ -4248,7 +4792,7 @@
       },
       {
         "data": {
-          "id": "JDP9ab39061c9afe",
+          "id": "JDP73f28751e4e12",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-19",
           "target": "JDP-21",
@@ -4268,7 +4812,7 @@
       },
       {
         "data": {
-          "id": "JDP630d2459d3372",
+          "id": "JDPddb50bcc612a8",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-18",
           "target": "JDP-21",
