@@ -39,7 +39,7 @@ person:
           citation: "[Tokusaburo Tozawa]. Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901"
           events: [ period ]
     - id: JDP-50
-      style_id: JDP-S-13
+      style_id: JDP-S-11
       place:
       period:
         start:

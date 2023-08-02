@@ -11,6 +11,43 @@ style:
     date: 1600
     location: Sendai
     country_code: JPN
+  description:
+    en: >
+      Yagyū Shingan-ryū (柳生心眼流), is a traditional school (koryū)
+      of Japanese martial arts. Different styles of Yagyū Shingan-ryū,
+      such as Heihojutsu and Taijutsu, assert different founders,
+      Takenaga Hayato and Araki Mataemon respectively, but they all go
+      back to Ushū Tatewaki (羽州 帯刀), referred to in some
+      historical scrolls as Shindō Tatewaki, who taught a system based
+      on Sengoku-period battlefield tactics, that was called
+      Shindō-ryū. The word shingan (心眼) is rooted in Zen philosophy,
+      and was chosen to describe a fundamental concept of the
+      style. Shingan means "mind’s eye," or "heart's eye," and refers
+      to the ability to sense or read an opponent's intentions via an
+      inner sense. Originally called simply Shingan-ryū, it was
+      later renamed Yagyū Shingan-ryū, due to the influence of Yagyu
+      Tajima no Kami Munenori's Yagyū Shinkage-ryū.
+    ja: >
+      柳生心眼流（やぎゅうしんがんりゅう）は、日本の伝統武術の流派とさ
+      れている。現代に伝わる柳生心眼流には大きく分類して東北伝、江戸伝
+      （柳生心眼流荒木堂）がある。東北伝においては竹永隼人（直入）兼次
+      (金次)を開祖としており、江戸伝においては荒木又右衛門を開祖と伝え
+      ている。東北伝では当身技を中心とする特異な内容の柔術が伝えられて
+      おり、江戸伝においては古式からなる甲冑柔（鎧組打ち）が伝承されて
+      いる。 系統によって伝える内容は異なるが、体術（柔術）・剣術・居
+      合術・棒術・薙刀術などを含み、更に江戸伝では大太刀を遣う技法も伝
+      えられている。
+    pt: >
+      Yagyū shingan-ryū é uma tradicional escola japonesa de bujutsu
+      (lit. arte da guerra). Ensina todos os fundamentos das artes
+      marciais japonesas clássicas. É conhecida como Yagyū shingan-ryū
+      kacchu yawara, e foi um estilo de luta adotado por alguns
+      samurais do xogunato Tokugawa. Foi bastante divulgado pela
+      série, "Lobo Solitário" (de Kazuo Koike & Goseki Kojima) e no
+      livro "Musashi" de Eiji Yoshikawa.
+  media:
+    video_url: https://youtu.be/6Ke_d6hN7CI?t=30
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
   sources:
     - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
     - uri: https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81
