@@ -1,0 +1,49 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id:     # TBD
+  name: Karl Geis
+  aka:
+    - name: Karl Geis
+  nationality:
+    - USA
+  birth: 
+    date: 1933  # https://www.legacy.com/us/obituaries/houstonchronicle/name/karl-geis-obituary
+    location:
+    country_code: 
+  death:
+    date: 2014
+    location: 
+    country:
+  photo_url: https://cache.legacy.net/legacy/images/cobrands/houstonchronicle/photos/W0105447-1_20140423.jpgx?w=142&h=199
+  teachers:
+    - id: JDP-12    # Kobayashi Kiyoshi
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1952
+        end: 
+      quality: 2   # Hal Sharp says he trained under Kobayashi
+    # To be added: Tsunako Miyake Sensei, and others
+  rank:
+    - style_id: JDP-S-1
+      org: USJA
+      teacher:
+      rank: 10 dan   # https://news.usja.net/karl-geis-promoted-to-judan/
+      date: 2014
+    - style_id: JDP-S-4
+      org: 
+      teacher:
+      rank: 10 dan  # Fugakukai 
+      year: 1997
+    - style_id: JDP-S-4
+      org: 
+      teacher:
+      rank: 6 dan  # Tomiki / Shodokan 
+      year: 1980  
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Karl_Geis
+    - uri: https://www.karlgeis.com/his-resume
+    - uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
+    - uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
