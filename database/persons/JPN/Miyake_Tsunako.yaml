@@ -1,0 +1,49 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id:     # TBD
+  name: Tsunako Miyake
+  native_name:
+    name: 
+    lang: ja
+  nationality:
+    - JPN
+  birth: 
+    date: 1926
+    location:
+    country_code: 
+  death:
+    date: UNK  # unknown
+    location: 
+    country:
+  photo_url: https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF
+  teachers:
+    - id: JDP-26    # Tomiki Kenji
+      style_id: JDP-S-4
+      place:
+      period:
+        start: 
+        end: 
+      quality: 3
+  rank:
+    - style_id: JDP-S-4
+      org: 
+      teacher: JDP-26
+      rank: 8 dan  # Tomiki / Shodokan 
+      year:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher: 
+      rank: 7 dan
+      date:
+    - style_id:  # Shintō Musō-ryū Jodo
+      teacher:
+      rank: 7 dan
+      date:      
+  sources:  # Seems not much was written about female martial artists in earlier days, but Miyake is an important link to US Judo, Judo, and Aikido
+    - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
+    - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html  # some research pointers in comments
+    - uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
+    - uri: https://en.wikipedia.org/wiki/Karl_Geis
+    - uri: https://www.karlgeis.com/his-resume
