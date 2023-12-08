@@ -212,8 +212,12 @@ h1.name  {
   _min-heigth: 0px ;
   box-sizing: border-box;
   _overflow: auto;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  _overflow: scroll;
+  height: auto;
   -webkit-overflow-scrolling: touch;
+  _overscroll-behavior: contain;  
   overflow-wrap: break-word;
   _color: #cb4042;
   background-color: white;
@@ -411,17 +415,8 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
 // Interact
 
 .draggable {
-  _position: absolute;
-  _text-align: right;
-  _right: 0rem;
-  _width: 15%;
-  _min-height: 6.5em;
-  _margin: 1rem 1rem 0 1rem;
-  _background-color: white;
   color: black;
-  _border-radius: 0.75em;
-  _padding: 4%;
-  touch-action: none;
+  _touch-action: none;
   user-select: none;
   z-index: 1000;
 }

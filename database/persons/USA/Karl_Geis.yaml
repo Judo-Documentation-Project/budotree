@@ -2,19 +2,19 @@
 ---
 
 person:
-  id: 52
+  id: JDP-52
   name: Karl Geis
   aka:
     - name: Karl Geis
   nationality:
     - USA
-  birth: 
+  birth:
     date: 1933  # https://www.legacy.com/us/obituaries/houstonchronicle/name/karl-geis-obituary
     location: Houston, Texas
     country_code: USA
   death:
     date: 2014-04-07
-    location: 
+    location:
     country:
   photo_url: https://ia601208.us.archive.org/9/items/karl_geis_formal_202312/karl_geis_formal.png
   teachers:
@@ -23,7 +23,7 @@ person:
       place: Kodokan
       period:
         start: 1952
-        end: 
+        end:
       quality: 2   # Hal Sharp says he trained under Kobayashi
       sources:
         - uri: https://www.karlgeis.com/his-resume
@@ -31,10 +31,10 @@ person:
           citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
     - id: JDP-53    # Tsunako Miyake
       style_id: JDP-S-4
-      place: 
+      place:
       period:
-        start: 
-        end: 
+        start:
+        end:
       quality: 2
       sources:
         - uri: https://www.karlgeis.com/his-resume
@@ -47,15 +47,15 @@ person:
       rank: 10 dan   # https://news.usja.net/karl-geis-promoted-to-judan/
       date: 2014
     - style_id: JDP-S-4
-      org: 
+      org:
       teacher:
-      rank: 10 dan  # Fugakukai 
+      rank: 10 dan  # Fugakukai
       year: 1997
     - style_id: JDP-S-4
-      org: 
+      org:
       teacher:
-      rank: 6 dan  # Tomiki / Shodokan 
-      year: 1980  
+      rank: 6 dan  # Tomiki / Shodokan
+      year: 1980
   sources:
     - uri: https://en.wikipedia.org/wiki/Karl_Geis
     - uri: https://www.karlgeis.com/his-resume
