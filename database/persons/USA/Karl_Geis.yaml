@@ -27,7 +27,7 @@ person:
       quality: 2   # Hal Sharp says he trained under Kobayashi
       sources:
         - uri: https://www.karlgeis.com/his-resume
-          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)"
           citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
   rank:
     - style_id: JDP-S-1
