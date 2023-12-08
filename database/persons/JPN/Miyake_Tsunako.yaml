@@ -1,0 +1,56 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id:  53
+  name: Tsunako Miyake
+  native_name: 
+    name: 三宅綱子
+    lang: ja
+  nationality:
+    - JPN
+  birth: 
+    date: 1926
+    location:
+    country_code: 
+  death:
+    date:
+    location: 
+    country:
+  photo_url: https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF
+  teachers:
+    - id: JDP-26    # Tomiki Kenji
+      style_id: JDP-S-4
+      place:
+      period:
+        start: 
+        end: 
+      quality: 2
+      sources:
+        - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
+        - cite: "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)"
+        - citation: "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
+  rank:
+    - style_id: JDP-S-4
+      org: 
+      teacher: JDP-26
+      rank: 8 dan  # Tomiki / Shodokan 
+      year:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher: 
+      rank: 7 dan
+      date:
+    - style_id:  # Shintō Musō-ryū Jodo
+      teacher:
+      rank: 7 dan
+      date:      
+  sources:  # Seems not much was written about female martial artists in earlier days, but Miyake is an important link to US Judo, Judo, and Aikido
+    - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
+    - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html  # some research pointers in comments
+    - uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
+    - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/ 
+    - uri: https://www.dentonaikido.com/instructor.html
+    - uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
+    - uri: https://en.wikipedia.org/wiki/Karl_Geis
+    - uri: https://www.karlgeis.com/his-resume
