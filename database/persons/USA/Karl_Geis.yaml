@@ -29,6 +29,17 @@ person:
         - uri: https://www.karlgeis.com/his-resume
           cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)"
           citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
+    - id: JDP-53    # Tsunako Miyake
+      style_id: JDP-S-4
+      place: 
+      period:
+        start: 
+        end: 
+      quality: 2
+      sources:
+        - uri: https://www.karlgeis.com/his-resume
+          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)"
+          citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
   rank:
     - style_id: JDP-S-1
       org: USJA
