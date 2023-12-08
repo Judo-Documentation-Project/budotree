@@ -2,7 +2,7 @@
 ---
 
 person:
-  id:     # TBD
+  id: 52
   name: Karl Geis
   aka:
     - name: Karl Geis
@@ -10,10 +10,10 @@ person:
     - USA
   birth: 
     date: 1933  # https://www.legacy.com/us/obituaries/houstonchronicle/name/karl-geis-obituary
-    location:
-    country_code: 
+    location: Houston, Texas
+    country_code: USA
   death:
-    date: 2014
+    date: 2014-04-07
     location: 
     country:
   photo_url: https://cache.legacy.net/legacy/images/cobrands/houstonchronicle/photos/W0105447-1_20140423.jpgx?w=142&h=199
@@ -25,7 +25,10 @@ person:
         start: 1952
         end: 
       quality: 2   # Hal Sharp says he trained under Kobayashi
-    # To be added: Tsunako Miyake Sensei, and others
+      sources:
+        - uri: https://www.karlgeis.com/his-resume
+          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+          citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
   rank:
     - style_id: JDP-S-1
       org: USJA
