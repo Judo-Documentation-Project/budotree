@@ -28,8 +28,8 @@ person:
       quality: 2
       sources:
         - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
-        - cite: "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)"
-        - citation: "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
+          cite: "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)"
+          citation: "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
   rank:
     - style_id: JDP-S-4
       org: 
