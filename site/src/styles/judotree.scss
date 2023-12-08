@@ -212,7 +212,8 @@ h1.name  {
   _min-heigth: 0px ;
   box-sizing: border-box;
   _overflow: auto;
-  overflow-y: scroll;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   overflow-wrap: break-word;
   _color: #cb4042;
   background-color: white;
