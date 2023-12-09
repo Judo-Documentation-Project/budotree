@@ -26,6 +26,10 @@ person:
         start:
         end:
       rank:
+      quality: 1
+      sources:
+        - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+          citation: "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate."
     - id: JDP-55
       style_id: JDP-S-13
       place:
@@ -33,6 +37,10 @@ person:
         start:
         end:
       rank:
+      quality: 1
+      sources:
+        - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+          citation: "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate."
   rank:
     - style_id:
       org:
@@ -42,3 +50,4 @@ person:
   sources:
     - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
     - uri: https://judoinfo.com/karateranks/
+    - uri: https://search.worldcat.org/title/7673297

@@ -30,6 +30,10 @@ person:
         start:
         end:
       rank:
+      quality: 1
+      sources:
+        - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+          citation: "In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura."
   rank:
     - style_id:
       org:
@@ -37,6 +41,5 @@ person:
       rank:
       date:
   sources:
-    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
     - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
     - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
