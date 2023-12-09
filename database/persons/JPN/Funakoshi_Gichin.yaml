@@ -19,7 +19,7 @@ person:
     country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/EVD-kumite-002.jpg
   teachers:
-    - id: JDP-53
+    - id: JDP-56
       style_id: JDP-S-13
       place:
       period:
