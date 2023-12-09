@@ -199,9 +199,7 @@ h1.name  {
 }
 .info {
   position: absolute;
-  z-index: 200;
   font-weight: 500;
-  _top: 150px;
   left: 0.5rem;
   _width: 20vw;
   min-width: 300px;
@@ -417,7 +415,7 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
 .draggable {
   color: black;
   _touch-action: none;
-  user-select: none;
+  _user-select: none;
   z-index: 1000;
 }
 
