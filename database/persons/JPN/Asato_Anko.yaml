@@ -21,7 +21,7 @@ person:
     date: 1903
     location:
     country_code:
-  photo_url: https://www.world-traditional-karate-federation.com/images/Anko-Asato.jpg
+  photo_url: https://archive.org/download/anko-asato/Anko-Asato.jpg
   teachers:
     - id: JDP-54
       style_id: JDP-S-13
