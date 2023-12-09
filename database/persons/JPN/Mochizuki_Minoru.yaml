@@ -40,7 +40,19 @@ person:
       sources:
         - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
           citation: "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)"
-
+    - id: JDP-41
+      style_id: JDP-S-5
+      place:
+      period:
+        start:
+        end:
+      quality: 1
+      sources:
+        - uri: https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/
+          citation: "Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi"
+        - uri: https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false
+          cite: "A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989."
+          citation: 'Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate, Gichin Funakoshi.'
     - name: Sanjuro Oshima
       style: Gyokushin Ryu
       place:
