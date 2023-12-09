@@ -26,6 +26,13 @@ person:
         start:
         end:
       rank:
+    - id: JDP-55
+      style_id: JDP-S-13
+      place:
+      period:
+        start:
+        end:
+      rank:
   rank:
     - style_id:
       org:
