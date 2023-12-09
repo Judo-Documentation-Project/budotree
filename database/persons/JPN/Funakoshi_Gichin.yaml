@@ -9,7 +9,7 @@ person:
       lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1868-10-11
     location: Shuri, Okinawa
     country_code: JPN
@@ -19,20 +19,19 @@ person:
     country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/commons/1/1d/EVD-kumite-002.jpg
   teachers:
-    - id:
-      style_id:
+    - id: JDP-53
+      style_id: JDP-S-13
       place:
       period:
         start:
         end:
-      rank: 
+      rank:
   rank:
     - style_id:
-      org: 
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
     - uri: https://judoinfo.com/karateranks/
-    

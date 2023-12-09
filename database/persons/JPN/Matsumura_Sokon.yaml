@@ -1,0 +1,41 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-54
+  name: Matsumura Sōkon
+  native_name:
+      name: 松村 宗棍
+      lang: ryu
+  nationality:
+    # This is WRONG since the Ryukyu Kingdom was still legally
+    # separate from Japan, but the ISO 3166-1 alpha-3 codes do not
+    # consider historical countries. A solution needs to be considered
+    # here.
+    - JPN
+  birth:
+    date: 1809
+    location: Shuri, Okinawa
+    country_code: JPN
+  death:
+    date: 1899
+    location:
+    country_code:
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/0/04/S%C5%8Dkon_Matsumura.jpg
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      rank:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+    - uri: https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg
