@@ -9,7 +9,7 @@ person:
     lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1893
     location: Takamatsu, Kagawa
     country_code: JPN
@@ -21,25 +21,25 @@ person:
   teachers:
     - id: JDP-38
       style_id: JDP-S-1
-      place: 
+      place:
       period:
         start: 1906
         end:
       quality: 1
     - id: JDP-39
       style_id: JDP-S-8
-      place: 
+      place:
       period:
         start: 1906
         end:
       quality: 1
     - id: JDP-42
       style_id: JDP-S-9
-      place: 
+      place:
       period:
         start: 1906
         end:
-      quality: 0            
+      quality: 0
     - id: JDP-40
       style_id: JDP-S-8
       place: Keiō Gijuku Daigaku
@@ -54,6 +54,9 @@ person:
         start: 1924
         end:
       quality: 1
+      sources:
+        - uri: https://ryukyu-bugei.com/?p=6586
+          citation: "When he [Konishi] met Funakoshi Gichin in June 1925, he was finally able to learn Karate. However, since its contents was only Kata, together with Ōtsuka Hironori 大塚博紀 (1892–1982, founder of Wadō-ryū Karate-dō and Jūjutsu Kenpō) who was also a disciple of Funakoshi, Konishi began to devise Yakusoku Kumite 約束組手 and the like. Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa."
     - name: Ōtsuka Hironori
       style_id: JDP-S-5
       place: Keiō Gijuku Daigaku
@@ -63,18 +66,19 @@ person:
       quality: 1
     - id: JDP-27
       style_id: JDP-S-4
-      place: 
+      place:
       period:
         start: 1924
         end:
-      quality: 1      
+      quality: 1
   rank:
-    - style: 
-      org: 
+    - style:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+    - uri: https://ryukyu-bugei.com/?p=6586
     - uri: https://blackbeltmag.com/konishi-yasuhiro
     - uri: https://www.jkr-uk.org.uk/yasuhiro-konishi
