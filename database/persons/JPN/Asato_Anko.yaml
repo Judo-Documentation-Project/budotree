@@ -1,0 +1,42 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-53
+  name: Asato Ankō
+  native_name:
+      name: 安里 安恒
+      lang: ryu
+  nationality:
+    # This is WRONG since the Ryukyu Kingdom was still legally
+    # separate from Japan, but the ISO 3166-1 alpha-3 codes do not
+    # consider historical countries. A solution needs to be considered
+    # here.
+    - JPN
+  birth:
+    date: 1827
+    location: Shuri, Okinawa
+    country_code: JPN
+  death:
+    date: 1903
+    location:
+    country_code:
+  photo_url: https://www.world-traditional-karate-federation.com/images/Anko-Asato.jpg
+  teachers:
+    - id: JDP-54
+      style_id: JDP-S-13
+      place:
+      period:
+        start:
+        end:
+      rank:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+    - uri: https://www.world-traditional-karate-federation.com/anko-asato-move-to-tokyo.html
+    - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html

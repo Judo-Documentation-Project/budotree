@@ -1,0 +1,15 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-13
+  name: Shuri-te
+  native_name:
+    name: 首里手
+    lang: ryu
+  birth:
+    date: 18th century
+    location: Okinawa
+    country_code: JPN
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B
