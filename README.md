@@ -13,14 +13,19 @@ There are three main components in the project:
   sources, using YAML as the format to make manual editing in a
   structured form as painless as possible.
 * A parser that converts the database into a [Cytoscape.js JSON
-  format](https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html#cytoscape-js-json), supported in both [Cytoscape](https://cytoscape.org) and [Cytoscape.js](https://js.cytoscape.org/)
-* [A web page that presents the data as an interactive tree](https://judo-documentation-project.github.io/judotree/), allowing
-  exploration of the (sometimes complex) lineage tree.
+  format](https://manual.cytoscape.org/en/stable/Supported_Network_File_Formats.html#cytoscape-js-json),
+  supported in both [Cytoscape](https://cytoscape.org) and
+  [Cytoscape.js](https://js.cytoscape.org/)
+* [A web page that presents the data as an interactive
+  tree](https://judo-documentation-project.github.io/judotree/),
+  allowing exploration of the (sometimes complex) lineage tree.
 
-**While this is done with Judo as a starting point, it is not limited to it**: much like Judo
-had a pioneering role, as the first Budō, that influenced many other martials arts (and was in
-many ways a bridge between Koryū and Gendai), so does this project start from Kodokan Judo
-with the aim of uncovering the rich history of interactions between disciplines.
+**While this is done with Judo as a starting point, it is not limited
+to it**: much like Judo had a pioneering role, as the first Budō, that
+influenced many other martials arts (and was in many ways a bridge
+between Koryū and Gendai), so does this project start from Kodokan
+Judo with the aim of uncovering the rich history of interactions
+between disciplines.
 
 ## How it works
 
@@ -54,16 +59,22 @@ create a branch and edit files with any editor, and submitt the PR.
 If the previous paragraph was cryptic, using GitHub's interace will mostly guide
 you through until we improve instructions:
 
-1. Find an existing file, or identify a missing one about someone that you want
-   to add. The [explorer](https://judo-documentation-project.github.io/judotree/) adds a _Source YAML_ link to every entry that leads directly to the right file.
-2. [Create a new file](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files) based on an existing entry, or on a template, or click
-   "Edit" in an existing file.
-3. This will create a fork of the repository in your account; edit the file and
-   follow the instructions to commit to your copy, and submit a Push Request.
+1. Find an existing file, or identify a missing one about someone that
+   you want to add. The
+   [explorer](https://judo-documentation-project.github.io/judotree/)
+   adds a _Source YAML_ link to every entry that leads directly to the
+   right file.
+2. [Create a new
+   file](https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files)
+   based on an existing entry, or on a template, or click "Edit" in an
+   existing file.
+3. This will create a fork of the repository in your account; edit the
+   file and follow the instructions to commit to your copy, and submit
+   a Push Request.
 4. In the Push Request discussion, address any comments/requests.
 
-The above can still be challenging for someone completely new to GitHub, but we
-will improve the instructions in due time.
+The above can still be challenging for someone completely new to
+GitHub, but we will improve the instructions in due time.
 
 We will start by focusing on "leafs" that can link to some of the
 existing "nodes"; this means that we will focus on finding branches that can
@@ -76,7 +87,10 @@ with existing individuals.
 
 ### Is there any other way?
 
-If the above is impossibly difficult, there's an alternative: open an Issue with the information that you would like to add/change. This can take more time, but eventually it should make its way to the database, after someone picks it up and makes the corresponding changes.
+If the above is impossibly difficult, there's an alternative: open an
+Issue with the information that you would like to add/change. This can
+take more time, but eventually it should make its way to the database,
+after someone picks it up and makes the corresponding changes.
 
 To open an issue, find the "Issues" tab and create a new one.
 
@@ -116,12 +130,15 @@ and used precisely for the same reason.
 
 * Absent: no review done on the link, needs to be updated. It's there because it was added, but it's a placeholder that needs to be reviewed.
 * -1: Reserved for missing links: to be used sparringly and in situation where it's not at all possible to identify the teacher, but it is possible to link that unknown teacher to someone else.
-* 0: Estimated or based on unreliable evidence (e.g. unsourced comments, sources
-  that have conflicting evidence that has shown to be false).
-* 1: Information from indirect sources, like single interviews or biographies, with
-  potential for bias, and without any other direct evidence mentioned.
-* 2: Secondary evidence, data recorded after the event but that directly
-  supports the assertion, interviews or biographies that independently match each other.
+* 0: Estimated or based on unreliable evidence (e.g. unsourced
+  comments, sources that have conflicting evidence that has shown to
+  be false).
+* 1: Information from indirect sources, like single interviews or
+  biographies, with potential for bias, and without any other direct
+  evidence mentioned.
+* 2: Secondary evidence, data recorded after the event but that
+  directly supports the assertion, interviews or biographies that
+  independently match each other.
 * 3: Direct and primary evidence, or by dominance of evidence.
 
 There is always a degree of relativity in determining the "quality" of sources,
@@ -129,11 +146,25 @@ but these guidelines should be good enough to start with.
 
 Some examples:
 
-* -1: We know that person **A** studied Judo at Wased University during 5 years. We also know that the programme there was composed of teachers that are linked to an existing person **B**, but we do not have information about the specific teacher. In this case, listing **B** as a teacher of **A** with a -1 quality indicator denotes this indirection.
-* 0: We have an article that says "person A studied with person B in 1912", witout providing any further sources.
-* 1: We have an interview with person A saying that they studied with person B, and this is the only reference we have, and we also know that the facts are disputed by others (someone else says that "person A never studied with person B".
-* 2: We have records from official institutitions that mention the specific fact in an indirect way, or we have interviews or other texts that support it in a way that appears unbiased (and that independently confirm it, not relying in a single source).
-* 3: We have access to an official certificate, or we have a multitude of supporting evidence in the form of e.g. independent interviews with different people,
+* -1: We know that person **A** studied Judo at Waseda University
+  during 5 years. We also know that the programme there was composed
+  of teachers that are linked to an existing person **B**, but we do
+  not have information about the specific teacher. In this case,
+  listing **B** as a teacher of **A** with a -1 quality indicator
+  denotes this indirection.
+* 0: We have an article that says "person A studied with person B in
+  1912", witout providing any further sources.
+* 1: We have an interview with person A saying that they studied with
+  person B, and this is the only reference we have, and we also know
+  that the facts are disputed by others (someone else says that
+  "person A never studied with person B".
+* 2: We have records from official institutitions that mention the
+  specific fact in an indirect way, or we have interviews or other
+  texts that support it in a way that appears unbiased (and that
+  independently confirm it, not relying in a single source).
+* 3: We have access to an official certificate, or we have a multitude
+  of supporting evidence in the form of e.g. independent interviews
+  with different people,
 
 ### Settling disputes
 
@@ -145,7 +176,14 @@ in the form of an Issue. The overall quality of the database is an important
 goal, so the project lead will, if needed, determine the final outcome if there
 is no possibility of consensus.
 
-Having an extensive database is good, but it is not as important as having a quality database that clearly indicates the sources and how they are used. Making another comparison with genealogy, the Internet is filled with "family trees" that go back centuries, build by people that, in their desire to have a long ancestry line, import other trees that are built with similar carelessness. The information appears impressive, but a superficial look into it shows that most of it is false, untrackable, unproven.
+Having an extensive database is good, but it is not as important as
+having a quality database that clearly indicates the sources and how
+they are used. Making another comparison with genealogy, the Internet
+is filled with "family trees" that go back centuries, build by people
+that, in their desire to have a long ancestry line, import other trees
+that are built with similar carelessness. The information appears
+impressive, but a superficial look into it shows that most of it is
+false, untrackable, unproven.
 
 ## FAQ
 
@@ -217,22 +255,32 @@ obvious choices for this.
 
 #### Why Javascript/Bulma/Cytoscape.js/...
 
-Most technological choices were made because they were the most
+Most technological choices were made because they seemed to be the
+best for the domain, and also because they appeared to be simple
+enough to get started:
 
-* Cytoscape.js: this is a popular and very complete graph theory toolkit (likely
-  the most used) in Javascript. Since having a client application (a web page)
-  was one of the core goals, Cytoscape.js was an obvious choice that was
-  confirmed after some initial tests.
-* Node.js: the initial YAML parser was written in ~50 lines of Common Lisp.
-  Since the heavy lifting is being done at the client app (in Javascript), using
-  node.js was a logical choice to keep everything aligned. This is itself is
-  relatively unimportant, but node.js is also very well supported in terms of
-  Continuous Deployment, used to build the web page, and has a rich library ecosystem.
-* Bulma.io: I wanted something that would work for both desktop and mobile, had
-  good defaults, and allowed customisation. There are many options for this,
-  Bulma was the one that worked for me with minimal testing.
-* Parcel.js: worked as expected with minimal configuration.
+* **Cytoscape.js**: this is a popular and very complete graph theory
+  toolkit (likely the most used) in Javascript. Since having a client
+  application (a web page) was one of the core goals, Cytoscape.js was
+  an obvious choice that was confirmed after some initial tests.
+* **Node.js**: the initial YAML parser was written in ~50 lines of Common
+  Lisp.  Since the heavy lifting is being done at the client app (in
+  Javascript), using node.js was a logical choice to keep everything
+  aligned. This is itself is relatively unimportant, but node.js is
+  also very well supported in terms of Continuous Deployment, used to
+  build the web page, and has a rich library ecosystem.
+* **Bulma.io**: I wanted something that would work for both desktop
+  and mobile, had good defaults, and allowed customisation. There are
+  many options for this, Bulma was the one that worked for me with
+  minimal testing, and without having to buy in a larger framework.
+* **Parcel.js**: worked as expected with minimal configuration, and
+  without the need to spend a lot of time learning to get started.
 
+The core of the project is the database, and that is ultimately
+resilient to changes given that it only depends on the YAML format,
+but the more visible part of it is the web application; the technology
+used can be changed if need be, with Cytoscape.js and node.js being
+the ones that constitute the core that will almost surely remain.
 
 ### YAML format
 
@@ -275,16 +323,33 @@ teacher-student relationship without making assumptions about rank.
 
 #### Shouldn't sources be atachable to a specific section (teachers, rank), instead of being applied to everything?
 
-Yes, this is likely a better idea. Currently, sources are at the "root" level to keep things simple: it's already several orders of magnitude better to have sources listed, and enforce that practice.
+Yes, this is likely a better idea. Currently, sources are at the
+"root" level to keep things simple: it's already several orders of
+magnitude better to have sources listed, and enforce that practice.
 
-Following the genealogy research parallel, it would be better to have sources that can be attached to a specific assertion:
+Following the genealogy research parallel, it would be better to have
+sources that can be attached to a specific assertion:
 
-> A given source may be the basis for many different assertions. Thus, much of the information is the same for many different citations of that source, such as the publisher information; and yet, some of the information varies from one citation to the next, such as the page number for a specific item. Consequently, the SOURCE_STRUCTURE includes a sophisticated mechanism for sharing general source description information that is common across multiple citations, while at the same time allowing more specific information to be more directly associated with individual citations. All tags within the SOURCE_STRUCTURE participate in this approach.
+> A given source may be the basis for many different assertions. Thus,
+> much of the information is the same for many different citations of
+> that source, such as the publisher information; and yet, some of the
+> information varies from one citation to the next, such as the page
+> number for a specific item. Consequently, the SOURCE_STRUCTURE
+> includes a sophisticated mechanism for sharing general source
+> description information that is common across multiple citations,
+> while at the same time allowing more specific information to be more
+> directly associated with individual citations. All tags within the
+> SOURCE_STRUCTURE participate in this approach.
 
-We need to balance how to do this with keeping it simple enough - as simple as it can be, but not simpler. One way to do it would be:
+We need to balance how to do this with keeping it simple enough - as
+simple as it can be, but not simpler. One way to do it would be:
 
-1. Add `source` fields in the specific section (e.g. `teachers->[id=<ID of Teacher 1>->source`).
-2. Use the `uri` as the source ID, which would then point to a more complete entry for the source, in a separate YAML, with name, etc.
+1. Add `source` fields in the specific section
+   (e.g. `teachers->[id=<ID of Teacher 1>->source`).
+2. Use the `uri` as the source ID, which would then point to a more
+   complete entry for the source, in a separate YAML, with name, etc.
 3. Add a `source->page`or `source->citation` field.
 
-We will implement the first shortly enough; the second is an open discussion, and the third will depend on how much this becomes a real issue.
+We will implement the first shortly enough; the second is an open
+discussion, and the third will depend on how much this becomes a real
+issue.
