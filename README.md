@@ -17,9 +17,9 @@ There are three main components in the project:
 * [A web page that presents the data as an interactive tree](https://judo-documentation-project.github.io/judotree/), allowing
   exploration of the (sometimes complex) lineage tree.
 
-**While this is done with Judo as a starting point, it is not limited to it**: much like Judo 
-had a pioneering role, as the first Budō, that influenced many other martials arts (and was in 
-many ways a bridge between Koryū and Gendai), so does this project start from Kodokan Judo 
+**While this is done with Judo as a starting point, it is not limited to it**: much like Judo
+had a pioneering role, as the first Budō, that influenced many other martials arts (and was in
+many ways a bridge between Koryū and Gendai), so does this project start from Kodokan Judo
 with the aim of uncovering the rich history of interactions between disciplines.
 
 ## How it works
@@ -149,12 +149,53 @@ Having an extensive database is good, but it is not as important as having a qua
 
 ## FAQ
 
+### How to deal with broken links?
+
+Sources and photos use URLs, which are external to the
+project. Especially in terms of the sources, this is unavoidable since
+the goal is to clearly point to where things come from, and most of
+the times this means an URL (although not always, since we can also
+add URIs that are not URLs, like for example ISBN numbers).
+
+This leads to the possibility of "link rot", which is when the URLs we
+use stop working. This should be fixed since it's important to keep
+information available (and in the case of photos, it's even more visible).
+
+To help with this, we regularly collect and scan all the links in the
+YAML files (using
+[Linkinator](https://github.com/JustinBeckwith/linkinator), and any
+broken links are added to the report so that they can be fixed:
+
+* [`aux/Links.md`](aux/Links.md) is a Markdown file with all the
+  collected links from the YAML files.
+* [`aux/broken_links.csv`](aux/broken_links.csv) is a CSV file with
+  all the broken links found.
+
+The process is straightforward and it should be easy to act upon the
+findings; to fix broken links the following is recommended:
+
+* Find an alternative URL that is similar to the one that is broken;
+  for example, sometimes URLs change but the page is still available
+  in the site under a new name.
+* Replace it with an archived copy. The [Wayback
+  Machine](https://web.archive.org) is perfect for this: it will
+  likely already have a snapshot of the URL, but if not it can be
+  submitted.
+* In the case of images, upload them to [The Internet
+  Archive](https://archive.org/create/). The resulting page will
+  contain a direct link to the image that can be used. This also helps
+  with cross-site limitations that might occur when "hot linking" an
+  image to an external site, so it's a recommended practice even if
+  the link is healthy.
+
+
 ### Technology
 
 #### Why Git/GitHub
 
-Using git, and GitHub, is one of the core concepts in this project because it
-addresses several requirements that would otherwise require specific solutions:
+Using git, and GitHub, is one of the core concepts in this project
+because it addresses several requirements that would otherwise require
+specific solutions:
 
 * It provides authorship information for every change.
 * It allows public scrutiny of the data and the editing process.
