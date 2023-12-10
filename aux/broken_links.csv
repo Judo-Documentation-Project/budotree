@@ -1,4 +1,4 @@
-URL,Code,Status,Document
+url,status,state,parent,failureDetails
 "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item",0,BROKEN,"aux/Links.md",""
 "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws",403,BROKEN,"aux/Links.md",""
 "https://www.worldcat.org/title/952578913",403,BROKEN,"aux/Links.md",""
@@ -7,5 +7,4 @@ URL,Code,Status,Document
 "https://doi.org/10.18002/rama.v13i2.5700",401,BROKEN,"aux/Links.md",""
 "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",0,BROKEN,"aux/Links.md",""
 "https://isbnsearch.org/isbn/9781425163495",0,BROKEN,"aux/Links.md",""
-"https://ia601205.us.archive.org/27/items/anko-itosu/Anko_Itosu.jpg",0,BROKEN,"aux/Links.md",""
 "http://archive.today/YkEjw",0,BROKEN,"aux/Links.md",""
