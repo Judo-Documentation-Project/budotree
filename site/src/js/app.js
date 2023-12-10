@@ -289,12 +289,29 @@ function changeLayout() {
     case "fcose":
         layoutOptions["name"]="fcose";
         break;
+    case "concentric":
+        layoutOptions["name"]="concentric";
+        layoutOptions["concentric"] = nodeLevel;
+        layoutOptions["levelWidth"] = function(node) {return cy.nodes(":visible").maxDegree() / 6   }
+        break;
     }
 
     layout = cy.layout(layoutOptions);
     cy.layout(layoutOptions);
     console.log( layoutOptions["name"]);
     layout.run();
+}
+
+
+function nodeLevel(node) {
+    //console.log("Nodelevel ", node.data().id);
+    if (node.selected()) {
+        //console.log ("NodeLevel", node.data())
+        return cy.nodes(":visible").maxDegree()
+    } else {
+        //console.log(node.data().name, cy.elements().aStar({ root: cy.$(':selected'), goal: node }).distance);
+        return  -1 * cy.elements().aStar({ root: cy.$(':selected'), goal: node }).distance;
+    }
 }
 
 var updateLayout = document.getElementById("ddlViewBy");
@@ -538,8 +555,19 @@ function updateInfo (target) {
 
 cy.nodes().bind("tap", event => updateInfo(event.target));
 cy.edges().bind("tap", event => updateInfo(event.target));
-cy.nodes().bind("dbltap", event => { cy.reset(); cy.center(event.target); layout.run(); });
 
+cy.nodes().bind("dbltap", event => { //cy.reset();
+                                     console.log("Centering on ", event.target.data().name);
+                                     cy.center(event.target);
+                                     layout.run();
+                                   });
+
+
+cy.nodes().bind("dbltap", event => {
+    console.log("Centering on ", event.target.data().name);
+    cy.center(event.target);
+    //layout.run();
+});
 document.addEventListener('DOMContentLoaded', function() {
     let cardToggles = document.getElementsByClassName('card-toggle');
     for (let i = 0; i < cardToggles.length; i++) {
