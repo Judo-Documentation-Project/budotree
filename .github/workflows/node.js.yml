@@ -73,6 +73,7 @@ jobs:
       run: |
         cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
     - name: Commit
+      working-directory: site
       run: |
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
