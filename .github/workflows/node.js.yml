@@ -72,10 +72,7 @@ jobs:
       working-directory: site
       run: |
         cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
-    - name: Upload artefacts
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: site/dist
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
@@ -88,6 +85,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+    - name: Upload artefacts
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: site/dist
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
