@@ -7,6 +7,7 @@
     },
     "devDependencies": {
         "@knight-lab/timelinejs": "^3.9.2",
+        "@parcel/config-default": "^2.10.3",
         "@parcel/transformer-less": "^2.8.3",
         "@parcel/transformer-sass": "^2.8.3",
         "@parcel/transformer-yaml": "^2.8.3",
@@ -18,7 +19,6 @@
         "i18n-iso-countries": "^7.6.0",
         "luxon": "^3.3.0",
         "mustache": "^4.2.0",
-        "parcel": "^2.8.3",
         "parcel-transformer-ogimage": "^1.0.3",
         "util": "^0.12.5"
     },
@@ -36,6 +36,7 @@
         "jquery": "^3.6.4",
         "js-yaml": "^4.1.0",
         "node-polyglot": "^2.5.0",
+        "parcel": "^2.10.3",
         "popper": "^1.0.1",
         "tachyons": "^4.12.0",
         "web-worker": "^1.2.0"

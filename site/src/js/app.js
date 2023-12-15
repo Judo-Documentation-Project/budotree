@@ -81,7 +81,10 @@ const style = [ // the stylesheet for the graph
                 }
             },
             'background-image': (ele) => {
-                if (ele.data().photo_url) {
+                if (ele.data().photo_local_url) {
+                    return ele.data().photo_local_url
+                }
+                else if (ele.data().photo_url) {
                     return ele.data().photo_url
                 } else
                     return false
@@ -524,7 +527,11 @@ function updateInfo (target) {
                 //console.log(person.data.name);
                 target.data()["teacher_name"] = person.data.name;
                 target.data()["teacher_native"] = person.data.native_name;
-                target.data()["teacher_photo_url"] = person.data.photo_url;
+                if (person.data.photo_local_url) {
+                    target.data()["teacher_photo_url"] = person.data.photo_local_url;
+                } else {
+                    target.data()["teacher_photo_url"] = person.data.photo_url;
+                }
                         //console.log(event.target.data().teachers[i]);
             }
         }
@@ -533,7 +540,11 @@ function updateInfo (target) {
                 //console.log(person.data.name);
                 target.data()["student_name"] = person.data.name;
                 target.data()["student_native"] = person.data.native_name;
-                target.data()["student_photo_url"] = person.data.photo_url;
+                if (person.data.photo_local_url) {
+                    target.data()["student_photo_url"] = person.data.photo_local_url;
+                } else {
+                    target.data()["student_photo_url"] = person.data.photo_url;
+                }
                 //console.log(event.target.data().teachers[i]);
             }
         }
@@ -971,6 +982,7 @@ function pickStyle () {
 
     if (value == "all") {
         cy.nodes().removeClass(["hidden"]);
+        cy.edges().removeClass(["hidden"]);
         //focus.classList.toggle('focus-on');
         clearButton.classList.remove("focus-style");
         clearButton.classList.add("is-dark");
@@ -983,6 +995,7 @@ function pickStyle () {
         styleNodes = styleEdges.connectedNodes()
         //styleNodes.addClass("stylefocus")
         cy.nodes().difference(styleNodes).addClass("hidden");
+        cy.edges().difference(styleEdges).addClass("hidden");
         //clearButton.classList.toggle("focus-style");
         //clearButton.classList.toggle("is-dark");
         //clearButton.classList.toggle("has-text-dark");
@@ -1079,7 +1092,9 @@ function createTimeline (nodes, title) {
             } else {
                 event["text"] = { headline: person.name }
             }
-            if (person.photo_url) {
+            if (person.photo_local_url) {
+                event["media"] = {url: person.photo_local_url}
+            } else if (person.photo_url) {
                 event["media"] = {url: person.photo_url}
             }
             //event["group"] = person.data.nationality[0]

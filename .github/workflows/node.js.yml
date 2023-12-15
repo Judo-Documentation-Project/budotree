@@ -57,21 +57,29 @@ jobs:
       uses: actions/checkout@v3
       with:
        ref: gh-pages
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
+    - name: Image cache
+      run: |
+        npm ci
+        mkdir -p site/dist/images/cache || true
+        npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=site/src/js/tree.json
+
     - name: Build
       working-directory: site
       run: |
         npm ci
         npm run build --if-present
+
     - name: Copy static assets
       working-directory: site
-      run: |
-        cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
+      run: cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
+
     - name: Commit
       working-directory: site
       run: |

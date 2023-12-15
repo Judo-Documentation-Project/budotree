@@ -93,7 +93,6 @@ li p{
 
 .citation {
   font-style: italic;
-
   margin-bottom: 0.5rem;
 }
 
@@ -163,6 +162,12 @@ h1.name  {
     font-size: 0.8rem;
     font-weight: bold;
     color: #0f2540;
+    text-align: center;
+}
+
+.info .photo-sources {
+    font-size: 0.5rem;
+    font-style: italic;    
     text-align: center;
 }
 

@@ -221,115 +221,134 @@
           <div class="content p-0">
               <div id="info" class="is-size-7"></div>
               <script id="template" type="x-tmpl-mustache">
-                  {{^interaction}}
-                  <p class="birth">
+               {{^interaction}}
+               <p class="birth">
 
-                      {{#birth}}
-                      * {{date_local}} {{location}} {{country_local}}
-                      {{/birth}}
-                      -
-                      {{#death}}
-                      † {{date_local}} {{location}} {{country_local}}
-                      {{/death}}
+               {{#birth}}
+               * {{date_local}} {{location}} {{country_local}}
+               {{/birth}}
+               -
+                        {{#death}}
+               † {{date_local}} {{location}} {{country_local}}
+               {{/death}}
 
-                  </p>
-                  <img src="{{photo_url}}"/>
-                  <p class="native-name">{{native_name.name}}</p>
-                  <p class="description">{{description_lang}}</p>
-                  <h2 id="i18n:teachers">Teachers</h2>
-                  <ul id="teachers">
-                      {{#teachers}}
-                      {{#teacher_name}}
-                      <li><a href="#" id="{{id}}">{{teacher_name}}</a>
-                          <span class="style_native"> {{teacher_native.name}} </span>
-                      </li>
-                      {{/teacher_name}}
-                      {{/teachers}}
-                  </ul>
-                  <h2 id="i18n:students">Students</h2>
-                  {{#students}}
-                  <ul id="students">
-                      <li><a href="#" id="{{id}}">{{name}}</a>
-                          <span class="style_native"> {{native_name.name}} </span>
-                      </li>
-                      {{/students}}
-                  </ul>
-                  <h2 id="i18n:rank">Rank</h2>
-                  {{#rank}}
-                  <ul>
-                      {{#style}}
-                      <li><b>{{style}}</b>
-                          {{#style_native}}
-                          <span class="style_native"> {{style_native.name}} </span>
-                          {{/style_native}}
-                          : {{rank}}
-                          {{#teacher_name}}
-                          ({{teacher_name}} {{org}})
-                          {{/teacher_name}}
-                          {{#org}}
-                          ({{teacher_name}} {{org}})
-                          {{/org}}
-                          {{/style}}
-                      </li>
-                  </ul>
-                  {{/rank}}
-                  <h2 id="i18n:sources">Sources</h2>
-                  {{#sources}}
-                  <ul>
-                      {{#cite}}
-                      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
-                      {{/cite}}
-                      {{^cite}}
-                      <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
-                      {{/cite}}
-                  </ul>
-                  {{/sources}}
-                  {{/interaction}}
-                  {{#interaction}}
-                  <div class="learning-flow">
-                      <img class="thumb" src="{{teacher_photo_url}}"/>
-                      <a href="#" id="{{id}}">{{teacher_name}}</a>
-                      <span class="style_native"> {{interaction_native.name}}</span>
+               </p>
 
-                      <div class="learning-arrow"><i alt="taught" aria-hidden="true" class="fas fa-solid fa-arrow-down-long fa-xl"></i></div>
-                      <img class="thumb" src="{{student_photo_url}}"/>
-                      <a href="#" id="{{id}}">{{student_name}}</a>
-                      <span class="style_native"> {{student_native.name}} </span>
-                  </div>
-                  <p>
-                      <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"></i> {{period.start}} - {{period.end}}
-                  </p>
-                  <p>
-                      <i alt="Place" aria-hidden="true" class="fas fa-solid fa-school fa-xl mr-4"></i>
-                      {{place}}
-                  </p>
-                  <h2 id="i18n:sources_int">Sources</h2>
-                  {{#sources}}
-                  <ul>
-                      {{#cite}}
-                      {{#citation}}
-                      <li><div class="citation">{{citation}}</div>
-                          <a class="sources citation" href="{{uri}}" target="_blank">{{cite}}</a></li>
-                      {{/citation}}
-                      {{^citation}}
-                      <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
-                      {{/citation}}
-                      {{/cite}}
+               <p class="native-name">{{native_name.name}}</p>
+               {{#photo}}
+               {{#photo_url_local}}
+               <img src="{{photo_url_local}}" alt="{{photo.cite}}"/>
+               {{/photo_url_local}}
+               {{^photo_url_local}}
+               <img src="{{photo.url}}" alt="{{photo.cite}}"/>
+               {{/photo_url_local}}
+               <p class="photo-sources">
+                   <a  href="{{photo.source.uri}} target="_blank">{{photo.source.cite}}</a>
+               </p>
+               {{/photo}}
+               {{^photo}}
+               {{#photo_url_local}}
+               <img src="{{photo_url_local}}"/>
+               {{/photo_url_local}}
+               {{^photo_url_local}}
+               <img src="{{photo_url}}"/>
+               {{/photo_url_local}}
+               {{/photo}}
+               <p class="description">{{description_lang}}</p>
+               <h2 id="i18n:teachers">Teachers</h2>
+               <ul id="teachers">
+               {{#teachers}}
+               {{#teacher_name}}
+               <li><a href="#" id="{{id}}">{{teacher_name}}</a>
+               <span class="style_native"> {{teacher_native.name}} </span>
+               </li>
+               {{/teacher_name}}
+               {{/teachers}}
+               </ul>
+               <h2 id="i18n:students">Students</h2>
+               {{#students}}
+               <ul id="students">
+               <li><a href="#" id="{{id}}">{{name}}</a>
+               <span class="style_native"> {{native_name.name}} </span>
+               </li>
+               {{/students}}
+               </ul>
+               <h2 id="i18n:rank">Rank</h2>
+               {{#rank}}
+               <ul>
+               {{#style}}
+               <li><b>{{style}}</b>
+               {{#style_native}}
+               <span class="style_native"> {{style_native.name}} </span>
+               {{/style_native}}
+               : {{rank}}
+               {{#teacher_name}}
+               ({{teacher_name}} {{org}})
+               {{/teacher_name}}
+               {{#org}}
+               ({{teacher_name}} {{org}})
+               {{/org}}
+               {{/style}}
+               </li>
+               </ul>
+               {{/rank}}
+               <h2 id="i18n:sources">Sources</h2>
+               {{#sources}}
+               <ul>
+               {{#cite}}
+               <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+               {{/cite}}
+               {{^cite}}
+               <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+               {{/cite}}
+               </ul>
+               {{/sources}}
+               {{/interaction}}
+               {{#interaction}}
+               <div class="learning-flow">
+               <img class="thumb" src="{{teacher_photo_url}}"/>
+               <a href="#" id="{{id}}">{{teacher_name}}</a>
+               <span class="style_native"> {{interaction_native.name}}</span>
 
-                      {{^cite}}
-                      {{#citation}}
-                      <li><div class="citation">{{citation}}</div>
-                          <a class="sources citation" href="{{uri}}" target="_blank">{{uri}}</a></li>
-                      {{/citation}}
-                      {{^citation}}
-                      <li><a class="sources" href="{{uri}}" target="_blank">{{uri}}</a></li>
-                      {{/citation}}
+               <div class="learning-arrow"><i alt="taught" aria-hidden="true" class="fas fa-solid fa-arrow-down-long fa-xl"></i></div>
+               <img class="thumb" src="{{student_photo_url}}"/>
+               <a href="#" id="{{id}}">{{student_name}}</a>
+               <span class="style_native"> {{student_native.name}} </span>
+               </div>
+               <p>
+               <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"></i> {{period.start}} - {{period.end}}
+               </p>
+               <p>
+               <i alt="Place" aria-hidden="true" class="fas fa-solid fa-school fa-xl mr-4"></i>
+               {{place}}
+               </p>
+               <h2 id="i18n:sources_int">Sources</h2>
+               {{#sources}}
+               <ul>
+               {{#cite}}
+               {{#citation}}
+               <li><div class="citation">{{citation}}</div>
+               <a class="sources citation" href="{{uri}}" target="_blank">{{cite}}</a></li>
+               {{/citation}}
+               {{^citation}}
+               <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+               {{/citation}}
+               {{/cite}}
 
-                      {{/cite}}
-                  </ul>
-                  {{/sources}}
+               {{^cite}}
+               {{#citation}}
+               <li><div class="citation">{{citation}}</div>
+               <a class="sources citation" href="{{uri}}" target="_blank">{{uri}}</a></li>
+               {{/citation}}
+               {{^citation}}
+               <li><a class="sources" href="{{uri}}" target="_blank">{{uri}}</a></li>
+               {{/citation}}
 
-                  {{/interaction}}
+               {{/cite}}
+               </ul>
+               {{/sources}}
+
+               {{/interaction}}
               </script>
           </div>
       </div>
