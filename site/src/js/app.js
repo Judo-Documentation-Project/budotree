@@ -530,10 +530,10 @@ function updateInfo (target) {
         document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
 
         cardFooterShare.setAttribute("href", "https://" + window.location.host + "?id=" + target.data().id)
-        cardFooterShare.innerHTML = '<i class="fas fa-link"></i> ' + target.data().id
+        cardFooterShare.innerHTML = '<i class="fas fa-link mr-2"></i> ' + target.data().id
 
         cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
-        cardFooter.innerHTML = '<i class="fas fa-file-code"></i> ' + target.data().id;
+        cardFooter.innerHTML = '<i class="fas fa-file-code mr-2"></i> ' + target.data().id;
 
 
         // Teacher link navigation
