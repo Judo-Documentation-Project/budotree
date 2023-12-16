@@ -19,8 +19,8 @@ person:
     country:
   photo_url: https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF
   teachers:
-    - id: JDP-26    # Tomiki Kenji
-      style_id: JDP-S-4
+    - id: JDP-26          # Tomiki Kenji
+      style_id: JDP-S-4   # Aikido
       place:
       period:
         start:
@@ -30,6 +30,17 @@ person:
         - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
           cite: "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)"
           citation: "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
+    - id: JDP-26        # Tomiki Kenji
+      style_id: JDP-S-1 # Kodokan Judo
+      place: Kodokan
+      period:
+        start:
+        end:
+      quality: 2
+      sources:
+        - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
+          cite: "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)"
+          citation: "Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together."
   rank:
     - style_id: JDP-S-4
       org:

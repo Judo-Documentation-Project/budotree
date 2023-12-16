@@ -312,14 +312,45 @@ IDs are just incrementally generated "by hand". When adding something new, use
 existing IDs (of existing persons/styles) when possible, and leave them blank
 for the new individual, the ID will be added after.
 
+#### How can we represent a single teacher teaching different styles to the same student?
+
+This is done by adding a new entry to `teachers`, with the same `id`,
+but different `style_id`, for example:
+
+``` yaml
+  teachers:
+    - id: JDP-26            # Tomiki Kenji
+      style_id: JDP-S-4     # Teached Aikido
+      place:
+      period:
+        start:
+        end:
+    (...)
+    - id: JDP-26            # Tomiki Kenji
+      style_id: JDP-S-1     # Teached Judo
+      place:
+      period:
+        start:
+        end:
+    (...)
+```
+
+This will create two separate lines from teacher to student, and will
+keep all information about that relation specific to it (different
+locations, time periods, sources, etc.)
+
+(see [issue #35](https://github.com/Judo-Documentation-Project/budotree/issues/35) for a discussion.)
+
+
 #### Why is rank separate from teachers?
 
-Different martial arts have different approaches: some have a teacher-student
-relation that includes rank, while others have central organisations that bestow
-rank. As such, learning from someone is not always the same as receiving rank
-from someone, even if it's the teaching that contributes to the body of
-knowledge. Separating rank from teachers allows to keep track of the
-teacher-student relationship without making assumptions about rank.
+Different martial arts have different approaches: some have a
+teacher-student relation that includes rank, while others have central
+organisations that bestow rank. As such, learning from someone is not
+always the same as receiving rank from someone, even if it's the
+teaching that contributes to the body of knowledge. Separating rank
+from teachers allows to keep track of the teacher-student relationship
+without making assumptions about rank.
 
 #### Shouldn't sources be atachable to a specific section (teachers, rank), instead of being applied to everything?
 
