@@ -68,6 +68,8 @@ function updateContent () {
     cy.style().update();
 }
 
+let edgesShowStyle = true
+let edgesShowPeriod = false
 
 const style = [ // the stylesheet for the graph
     {
@@ -126,11 +128,29 @@ const style = [ // the stylesheet for the graph
             'taxi-direction': 'auto',
             'line-color': '#888',
             'label': (ele) => {
-                if (ele.data().interaction_native && ele.data().interaction_native.lang == lang) {
-                    return ele.data().interaction_native.name
+                let edgeLabel = ""
+                if (edgesShowStyle) {
+                    if (ele.data().interaction_native && ele.data().interaction_native.lang == lang) {
+                        edgeLabel = ele.data().interaction_native.name
+                    } else {
+                        edgeLabel = ele.data().interaction
+                    }
                 } else {
-                    return ele.data().interaction
+                    edgeLabel = ""
                 }
+                if (edgesShowPeriod) {
+                    if (ele.data().period && (ele.data().period.start || ele.data().period.end)) {
+                        edgeLabel += "\n"
+                        if (ele.data().period.start) {
+                            edgeLabel += ele.data().period.start
+                        }
+                        edgeLabel += " - "
+                        if (ele.data().period.end) {
+                            edgeLabel += ele.data().period.end
+                        }
+                    }
+                }
+                return edgeLabel
             },
             //'label': 'data(interaction)',
             'font-size': '0.4em',
@@ -750,6 +770,39 @@ function nodesByCountry () {
     };
 };
 
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    let showStyles = document.getElementById("showStyles")
+    showStyles.addEventListener('click', e => {
+        //console.log(style[1]["style"]["line-type"]);
+        if (e.target.checked) {
+            edgesShowStyle = true
+            cy.style().update()
+        } else {
+            edgesShowStyle = false
+            cy.style().update()
+
+        }
+    })})
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    let showPeriod = document.getElementById("showPeriod")
+    console.log("Toggle!")
+    showPeriod.addEventListener('click', e => {
+        //console.log(style[1]["style"]["line-type"]);
+        console.log("Toggle on")
+        if (e.target.checked) {
+            edgesShowPeriod = true
+            cy.style().update()
+            console.log("Toggle on")
+        } else {
+            edgesShowPeriod = false
+            cy.style().update()
+            console.log("Toggle off")
+        }
+    })})
 
 document.addEventListener('DOMContentLoaded', function() {
     let bubbles = document.getElementById("bubbles");

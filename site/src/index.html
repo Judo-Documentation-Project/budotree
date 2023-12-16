@@ -65,37 +65,25 @@
               <div class="navbar-end">
 
               </div>
-<div class="navbar-item mr-6">
-                      <div class="field has-addons">
-                          <div class="control has-icons-left">
-                              <div class="select is-small is-rounded _is-outlined is-dark">
-                                  <select id="pickStyle" class="form-radio" role="list">
-                                  </select>
-                              </div>
-                              <div class="icon is-small is-left has-text-dark">
-                                  <i class="fas fa-ballot-check" title="Filter by style" aria-hidden="true"></i>
-                              </div>
+
+              <div class="navbar-item mr-6">
+                  <div class="field has-addons">
+                      <div class="control has-icons-left">
+                          <div class="select is-small is-rounded _is-outlined is-dark">
+                              <select id="pickStyle" class="form-radio" role="list">
+                              </select>
                           </div>
-                          <div class="control">
-                              <button type="submit" class="button  is-dark _has-text-dark is-small is-rounded" id="i18n:clear"><i title="Lock style" aria-hidden="true" id="lock-style" class="fas fa-regular fa-lock-open"></i></button>
+                          <div class="icon is-small is-left has-text-dark">
+                              <i class="fas fa-ballot-check" title="Filter by style" aria-hidden="true"></i>
                           </div>
                       </div>
-</div>
-
+                      <div class="control">
+                          <button type="submit" class="button  is-dark _has-text-dark is-small is-rounded" id="i18n:clear"><i title="Lock style" aria-hidden="true" id="lock-style" class="fas fa-regular fa-lock-open"></i></button>
+                      </div>
+                  </div>
+              </div>
 
         <div class="navbar-item _mr-6">
-            <output for="distance" class="_is-size-7 has-text-weight-light mr-3">1</output>
-            <input id="distance" class="slider is-dark _is-fullwidth is-small _is-circle" step="0.1" min="0" max="2" value="1" type="range" >
-        </div>
-        <!--
-        <div class="navbar-item _mr-6">
-          <div class="field">
-            <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
-            <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
-          </div>
-</div>
--->
-        <div class="navbar-item mr-6">
             <div class="control has-icons-left">
                 <div class="select is-small is-rounded _is-outlined is-dark">
                     <select id="ddlViewBy" class="form-radio" role="list">
@@ -114,33 +102,68 @@
                 </div>
             </div>
         </div>
+
+
+
+
+              <div class="navbar-item _mr-6 pr-2">
+                  <label for="distance" class="is-size-5 has-text-weight-light mr-2" ><i title="Distance between nodes" aria-hidden="true" class="fas  fa-arrows-left-right"></i></label>
+                  <output for="distance" class="is-size-7 has-text-weight-light mr-1">1</output>
+                  <input id="distance" class="slider is-dark _is-fullwidth is-small_is-circle" step="0.1" min="0" max="2" value="1" type="range" >
+              </div>
+        <!--
         <div class="navbar-item _mr-6">
           <div class="field">
-            <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-            <label for="bubbles" class="is-size-7 has-text-weight-light" ><i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality" aria-hidden="true" class="fas fa-flag"></i></label>
+            <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
+            <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
           </div>
+</div>
+        -->
+              <div class="navbar-item mr-6 px-2">
+                  <div class="field">
+                      <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
+                      <label for="bubbles" class="is-size-6 has-text-weight-light" ><i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality" aria-hidden="true" class="fas fa-flag"></i></label>
+                  </div>
+              </div>
+
+
+
+
+        <div class="navbar-item _mr-0 ml-4 px-2">
+            <div class="field">
+                <input id="showStyles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl" checked="checked">
+                <label for="showStyles" class="is-size-6 has-text-weight-light" ><i title="Show style names in edges" aria-hidden="true" class="fas fa-tag"></i></label>
+            </div>
         </div>
 
-        <div class="navbar-item _mr-6">
+        <div class="navbar-item _mr-0 px-2">
+            <div class="field">
+                <input id="showPeriod" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
+                <label for="showPeriod" class="is-size-6 has-text-weight-light" ><i title="Show time period" aria-hidden="true" class="fas fa-calendar-days"></i></label>
+            </div>
+        </div>
+
+        <div class="navbar-item _mr-6 px-2">
           <div class="field">
             <input id="quality" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-            <label for="quality" class="is-size-7 has-text-weight-light"><i class="fas fa-certificate" title="Toggle link quality: when active, links will have different line styles depending on source quality." aria-hidden="true"></i></label>
+            <label for="quality" class="is-size-6 has-text-weight-light"><i class="fas fa-ranking-star" title="Toggle link quality: when active, links will have different line styles depending on source quality." aria-hidden="true"></i></label>
           </div>
         </div>
 
-        <div class="navbar-item _mr-6">
+        <div class="navbar-item _mr-6 px-2">
           <div class="field">
             <input id="styleColor" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-            <label for="styleColor" class="is-size-7 has-text-weight-light"><i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fas fa-palette"></i></label>
+            <label for="styleColor" class="is-size-6 has-text-weight-light"><i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fas fa-palette"></i></label>
           </div>
         </div>
 
-        <div class="navbar-item mr-6">
+        <div class="navbar-item mr-6 px-2">
           <div class="field">
             <input id="lineType" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl" checked="checked">
-            <label for="lineType" class="is-size-7 has-text-weight-light"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fas fa-bezier-curve"></i></label>
+            <label for="lineType" class="is-size-6 has-text-weight-light"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fas fa-bezier-curve"></i></label>
           </div>
         </div>
+
 
 
         <div class="navbar-item">
@@ -316,7 +339,7 @@
                <span class="style_native"> {{student_native.name}} </span>
                </div>
                <p>
-               <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"></i> {{period.start}} - {{period.end}}
+               <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"</i>> {{period.start}} - {{period.end}}
                </p>
                <p>
                <i alt="Place" aria-hidden="true" class="fas fa-solid fa-school fa-xl mr-4"></i>
