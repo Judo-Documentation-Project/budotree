@@ -92,8 +92,8 @@ const style = [ // the stylesheet for the graph
                 }
             },
             'background-image': (ele) => {
-                if (ele.data().photo_local_url) {
-                    return ele.data().photo_local_url
+                if (ele.data().photo_url_local) {
+                    return ele.data().photo_url_local
                 }
                 else if (ele.data().photo_url) {
                     return ele.data().photo_url
