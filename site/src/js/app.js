@@ -991,6 +991,7 @@ function pickStyle () {
         lock.classList.remove("fa-lock");
         lock.classList.add("fa-lock-open");
     } else {
+        cy.edges().removeClass(["hidden"]);
         styleEdges = cy.edges('[interaction_id = "' + value + '"]');
         styleNodes = styleEdges.connectedNodes()
         //styleNodes.addClass("stylefocus")
