@@ -153,11 +153,11 @@ Some examples:
   listing **B** as a teacher of **A** with a -1 quality indicator
   denotes this indirection.
 * 0: We have an article that says "person A studied with person B in
-  1912", witout providing any further sources.
+  1912", without providing any further sources.
 * 1: We have an interview with person A saying that they studied with
   person B, and this is the only reference we have, and we also know
   that the facts are disputed by others (someone else says that
-  "person A never studied with person B".
+  "person A never studied with person B").
 * 2: We have records from official institutitions that mention the
   specific fact in an indirect way, or we have interviews or other
   texts that support it in a way that appears unbiased (and that
@@ -173,8 +173,8 @@ it is that different perspectives on what should be added to the database exist.
 
 The general approach will be to have (public) discussions on the relevant topic,
 in the form of an Issue. The overall quality of the database is an important
-goal, so the project lead will, if needed, determine the final outcome if there
-is no possibility of consensus.
+goal, so if needed, the project lead will determine the final outcome in the 
+case of no consensus.
 
 Having an extensive database is good, but it is not as important as
 having a quality database that clearly indicates the sources and how
@@ -266,11 +266,11 @@ enough to get started:
 * **Node.js**: the initial YAML parser was written in ~50 lines of Common
   Lisp.  Since the heavy lifting is being done at the client app (in
   Javascript), using node.js was a logical choice to keep everything
-  aligned. This is itself is relatively unimportant, but node.js is
+  aligned. While relatively unimportant, node.js is
   also very well supported in terms of Continuous Deployment, used to
   build the web page, and has a rich library ecosystem.
 * **Bulma.io**: I wanted something that would work for both desktop
-  and mobile, had good defaults, and allowed customisation. There are
+  and mobile, had good defaults, and allowed customisation. While there are
   many options for this, Bulma was the one that worked for me with
   minimal testing, and without having to buy in a larger framework.
 * **Parcel.js**: worked as expected with minimal configuration, and
@@ -289,7 +289,7 @@ the ones that constitute the core that will almost surely remain.
 The YAML format is a work-in-progress and not written in stone, but some of the
 terms were a compromise between those that would be more correct to a specific
 situation, and those that had a wider scope. An example of this is `style`,
-which will be applied to anything from Kodokan Judo to Catch-as-Catch-Can . As
+which will be applied to anything from Kodokan Judo to Catch-as-Catch-Can. As
 we progress, improvements in terminology can be made.
 
 #### Is everything mandatory? Is everything optional?
@@ -301,7 +301,7 @@ A YAML schema will be available Real Soon Now, but the only mandatory fields are
 * Teacher (1 instance)
 * Sources (at least 1)
 
-Not mandatory but almost are nationality/place of birth/native name, in the
+Not mandatory (but almost) are nationality/place of birth/native name, in the
 sense that they are usually easy to add and can be used for visualisation
 purposes. The more information, the better.
 
@@ -320,14 +320,14 @@ but different `style_id`, for example:
 ``` yaml
   teachers:
     - id: JDP-26            # Tomiki Kenji
-      style_id: JDP-S-4     # Teached Aikido
+      style_id: JDP-S-4     # Taught Aikido
       place:
       period:
         start:
         end:
     (...)
     - id: JDP-26            # Tomiki Kenji
-      style_id: JDP-S-1     # Teached Judo
+      style_id: JDP-S-1     # Taught Judo
       place:
       period:
         start:
@@ -352,7 +352,7 @@ teaching that contributes to the body of knowledge. Separating rank
 from teachers allows to keep track of the teacher-student relationship
 without making assumptions about rank.
 
-#### Shouldn't sources be atachable to a specific section (teachers, rank), instead of being applied to everything?
+#### Shouldn't sources be attached to a specific section (teachers, rank), instead of being applied to everything?
 
 Yes, this is likely a better idea. Currently, sources are at the
 "root" level to keep things simple: it's already several orders of
