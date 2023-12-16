@@ -11,6 +11,15 @@ import interact from 'interactjs'
 import { Timeline } from '@knight-lab/timelinejs';
 
 
+// URL parameters
+const url =require('url')
+
+let url_parts = url.parse(window.location.search, true)
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+console.log("URL: ", urlParams.get('id'))
+
+
 const { DateTime } = require("luxon");
 const Mustache = require('mustache');
 const countries = require("i18n-iso-countries");
@@ -258,14 +267,19 @@ document.addEventListener('DOMContentLoaded', function() {
 //    layoutOptions["name"]="elk";
 //    layoutOptions["elk"]["algorithm"] = "stress";
     layout = cy.layout(layoutOptions);
-    cy.nodes('[id = "JDP-1"]').select();
+    if (urlParams.get('id') && cy.getElementById(urlParams.get('id')).isNode()) {
+        cy.getElementById(urlParams.get('id')).select()
+    } else {
+        cy.getElementById('JDP-1').select()
+    }
+    updateContent()
     layout.run();
     console.log(layout);
     nodesByCountry();
     listPersons();
     listStyles();
-    updateStyleFilter();
-    updateTimeline();
+    //    updateStyleFilter();
+    //    updateTimeline();
     //edgesByStyle();
 
 
@@ -395,6 +409,7 @@ var gitRoot = "https://github.com/Judo-Documentation-Project/budotree/tree/main/
 var info = document.getElementById("info");
 var cardTitle = document.getElementById("card-title");
 var cardFooter = document.getElementById("card-footer");
+var cardFooterShare = document.getElementById("card-footer-share");
 var focusedPeople =[]
 var ancestorsOfPeople = []
 var descendantsOfPeople = []
@@ -441,7 +456,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function updateInfo (target) {
     const template = document.getElementById('template').innerHTML;
     target.select()
-    console.log(event);
+    console.log("Updating info: ", event);
 
     if (target.isNode()) {
         for (var i = 0; i < target.data().teachers.length; i++) {
@@ -514,8 +529,12 @@ function updateInfo (target) {
         document.getElementById('i18n:rank').innerHTML = polyglot.t("Rank");
         document.getElementById('i18n:sources').innerHTML = polyglot.t("Sources");
 
+        cardFooterShare.setAttribute("href", "https://" + window.location.host + "?id=" + target.data().id)
+        cardFooterShare.innerHTML = '<i class="fas fa-link"></i> ' + target.data().id
+
         cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
-        cardFooter.innerHTML = '<i class="ml-1 fas fa-light fa-file-lines mr-3"></i> ' + target.data().id;
+        cardFooter.innerHTML = '<i class="fas fa-file-code"></i> ' + target.data().id;
+
 
         // Teacher link navigation
         let teachers = document.getElementById("teachers");
@@ -789,18 +808,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     let showPeriod = document.getElementById("showPeriod")
-    console.log("Toggle!")
     showPeriod.addEventListener('click', e => {
         //console.log(style[1]["style"]["line-type"]);
         console.log("Toggle on")
         if (e.target.checked) {
             edgesShowPeriod = true
             cy.style().update()
-            console.log("Toggle on")
         } else {
             edgesShowPeriod = false
             cy.style().update()
-            console.log("Toggle off")
         }
     })})
 
