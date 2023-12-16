@@ -58,8 +58,11 @@ function updateDB(nodeId, photo_local_path, photo_local_url) {
 async function downloadAndSaveImage(url, dirPrefix, nodeId) {
     let photo_local_url = path.join(dirPrefix, md5(url)+path.extname(url).toLowerCase())
     let photo_local_path = path.join(dir, md5(url)+path.extname(url).toLowerCase())
+    let options = {
+        headers: { 'User-Agent': 'NodeJS' }
+    }
     return new Promise(async (onSuccess) => {
-        https.get(url, async (res) => {
+        https.get(url, options, async (res) => {
             const fileWriteStream = fs.createWriteStream(photo_local_path, {
                 autoClose: true,
                 flags: "w",
