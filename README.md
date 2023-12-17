@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/Judo-Documentation-Project/budotree/actions/workflows/node.js.yml/badge.svg)](https://github.com/Judo-Documentation-Project/budotree/actions/workflows/node.js.yml)
+
 # Budō Lineage Tree
 
 ![](images/tree.png)
