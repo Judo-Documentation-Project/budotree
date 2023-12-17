@@ -90,7 +90,9 @@ jobs:
         git commit -m "Automated site build"
         git push -f origin gh-pages
   deploy:
-    if: github.event.pull_request.merged == true
+    if: >-
+      github.event.pull_request.merged == true ||
+      ${{ github.event.push }}
     runs-on: ubuntu-latest
     needs: build
     permissions:
