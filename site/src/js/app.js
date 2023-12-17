@@ -52,7 +52,7 @@ let lang ="en"
 console.log("i18n: setting lang to ", lang)
 polyglot = new Polyglot({allowMissing: true});
 polyglot.extend(langRes[lang]);
-var updateLanguage = document.getElementById("language");
+let updateLanguage = document.getElementById("language");
 updateLanguage.onchange = changeLanguage
 
 function changeLanguage () {
@@ -256,29 +256,79 @@ var cy = cytoscape({
     wheelSensitivity: 0.1
 });
 
-var layout = cy.layout(layoutOptions);
+let layout = cy.layout(layoutOptions);
 var bb = cy.bubbleSets({
     interactive: false,}
 );
+
+let layoutButton = document.querySelectorAll('[id=ddlViewBy]')
+let availableLayouts = [...layoutButton[0].options].map(o => o.value)
+
+let langButton = document.querySelectorAll('[id=language]')
+let availableLanguages = [...langButton[0].options].map(o => o.value)
+
+console.log(availableLayouts)
+
 document.addEventListener('DOMContentLoaded', function() {
 
     console.log("DOM content loaded, running layout");
     openTab(true,"tab:cy");
 //    layoutOptions["name"]="elk";
 //    layoutOptions["elk"]["algorithm"] = "stress";
-    layout = cy.layout(layoutOptions);
+
     if (urlParams.get('id') && cy.getElementById(urlParams.get('id')).isNode()) {
         cy.getElementById(urlParams.get('id')).select()
     } else {
         cy.getElementById('JDP-1').select()
     }
+
+    if (urlParams.get('layout') && availableLayouts.includes(urlParams.get('layout'))) {
+        console.log("Setting layout from URL: ", urlParams.get('layout'))
+        //layoutOptions["name"]=urlParams.get('layout');
+        updateLayout.value = urlParams.get('layout')
+        changeLayout()
+    }
+
+    if (urlParams.get('infobox')) {
+        setInfoboxVisibility(urlParams.get('infobox'))
+    }
+
+    if (urlParams.get('focus')) {
+        let isTrueSet = (urlParams.get('focus') === 'true')
+        focusOnIndividual(isTrueSet)
+    }
+
+    if (urlParams.get('lang') && availableLanguages.includes(urlParams.get('lang'))) {
+        console.log(" Setting lang from URL", urlParams.get('lang'))
+        updateLanguage.value=urlParams.get('lang')
+        changeLanguage()
+    }
+
+    // Update content is needed to refresh the infobox, but must be
+    // before the style filter since it would otherwise reset the option
     updateContent()
+
+    let styleList = []
+    for (const edge of data.elements.edges) {
+        styleList[edge.data.interaction_id] = ""
+    }
+
+    updateStyleFilter();
+    if (urlParams.get('style') && urlParams.get('style') in styleList) {
+        styleFilter.value = urlParams.get('style')
+        pickStyle()
+    }
+
+
+    let layout = cy.layout(layoutOptions);
     layout.run();
     console.log(layout);
     nodesByCountry();
     listPersons();
-    listStyles();
-    //    updateStyleFilter();
+
+    //listStyles();
+    //updateStyleFilter();
+    //
     //    updateTimeline();
     //edgesByStyle();
 
@@ -417,46 +467,52 @@ var descendantsOfPeople = []
 let styleNodes;
 let personNodes;
 
+let pred = document.getElementById("predecessors");
+let focus = document.getElementById("focus");
+
+function focusOnIndividual(state){
+    if (state) {
+        //console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
+        if (cy.elements(":selected").isEdge()) {
+            person = cy.elements(":selected").target();
+        } else {
+            person = cy.elements("node:selected");
+        }
+        //focusedPeople = person
+        personNodes = cy.nodes(":visible");
+        let ancestors = person.predecessors('node').filter(":visible");
+        let successors = person.successors('node').filter(":visible");
+        //ancestorsOfPeople = ancestors
+        //descendantsOfPeople = successors
+        let family = ancestors.union(successors).union(person)
+
+        cy.nodes().difference(family).addClass("hidden")
+        person.addClass("focused");
+        ancestors.addClass("ancestors");
+        successors.addClass("descendants");
+        focus.classList.toggle('focus-on');
+    } else {
+        personNodes.removeClass(["hidden", "ancestors", "descendants","focused"]);
+        focus.classList.toggle('focus-on');
+        //document.getElementById('pickStyle').value="all";
+        //pickStyle();
+    }
+    layout.run();
+}
 document.addEventListener('DOMContentLoaded', function() {
-    let pred = document.getElementById("predecessors");
-    let focus = document.getElementById("focus");
     pred.addEventListener('click', e => {
         //console.log("Predecessors" + ele.data().name);
-        let person;
         if (e.target.checked) {
-            console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
-            if (cy.elements(":selected").isEdge()) {
-                person = cy.elements(":selected").target();
-            } else {
-                person = cy.elements("node:selected");
-            }
-            //focusedPeople = person
-            personNodes = cy.nodes(":visible");
-            let ancestors = person.predecessors('node').filter(":visible");
-            let successors = person.successors('node').filter(":visible");
-            //ancestorsOfPeople = ancestors
-            //descendantsOfPeople = successors
-            let family = ancestors.union(successors).union(person)
-
-            cy.nodes().difference(family).addClass("hidden")
-            person.addClass("focused");
-            ancestors.addClass("ancestors");
-            successors.addClass("descendants");
-            focus.classList.toggle('focus-on');
-
+            focusOnIndividual(true)
         } else {
-            personNodes.removeClass(["hidden", "ancestors", "descendants","focused"]);
-            focus.classList.toggle('focus-on');
-            //document.getElementById('pickStyle').value="all";
-            //pickStyle();
+            focusOnIndividual(false)
         }
-        layout.run();
     })});
 
 function updateInfo (target) {
     const template = document.getElementById('template').innerHTML;
     target.select()
-    console.log("Updating info: ", event);
+    //console.log("Updating info: ", event);
 
     if (target.isNode()) {
         for (var i = 0; i < target.data().teachers.length; i++) {
@@ -466,7 +522,7 @@ function updateInfo (target) {
                     //console.log(person.data.name);
                     target.data().teachers[i]["teacher_name"] = person.data.name;
                     target.data().teachers[i]["teacher_native"] = person.data.native_name;
-                    console.log(target.data().teachers[i]["teacher_name"]);
+                    //console.log(target.data().teachers[i]["teacher_name"]);
                 }
             }
 
@@ -559,7 +615,7 @@ function updateInfo (target) {
         target.incomers("node").addClass("parents");
 
     } else { // is edge
-        console.log("Tapped on edge: ", target.data());
+        //console.log("Tapped on edge: ", target.data());
 
         for (let person of data.elements.nodes) {
             if (person.data.id == target.data().source) {
@@ -618,16 +674,29 @@ cy.nodes().bind("dbltap", event => {
     cy.center(event.target);
     //layout.run();
 });
+
+let cardToggles = document.getElementsByClassName('card-toggle');
+
+function setInfoboxVisibility(state) {
+    switch (state) {
+    case "toggle":
+        cardToggles[0].parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+        break;
+    case "visible":
+        cardToggles[0].parentElement.parentElement.childNodes[3].classList.remove('is-hidden');
+        break;
+    case "hidden":
+        cardToggles[0].parentElement.parentElement.childNodes[3].classList.add('is-hidden');
+        break;
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
-    let cardToggles = document.getElementsByClassName('card-toggle');
     for (let i = 0; i < cardToggles.length; i++) {
         cardToggles[i].addEventListener('click', e => {
-            e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
-        });
-    }
-});
-
-
+            setInfoboxVisibility("toggle")
+        })
+    }})
 
 document.addEventListener('DOMContentLoaded', function() {
     let lineType = document.getElementById("lineType");
@@ -645,7 +714,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         .style({
                             'curve-style': 'taxi'
                         }).update();
-            }})});
+            }
+    })});
 
 
 var countryNodes = {};
@@ -878,7 +948,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 var tabs = document.getElementById("tabs");
 tabs.addEventListener('click', e => {
-    console.log("target:",e.target)
+    //console.log("target:",e.target)
+
     if (e.target.id != "tabs") {
         openTab(e,e.target.id)
     }
@@ -932,6 +1003,7 @@ function getNameById (id) {
         }
     }
 }
+
 
 
 function listStyles() {
@@ -997,7 +1069,7 @@ function listStyles() {
 // Style filter
 
 let styleFilter  = document.getElementById("pickStyle")
-styleFilter.onchange = pickStyle;
+styleFilter.onclick = pickStyle
 
 function updateStyleFilter() {
     styleFilter.innerHTML = "";
@@ -1011,7 +1083,7 @@ function updateStyleFilter() {
     //const sorted = data.elements.nodes.sort((a, b) => a.data.name.localeCompare(b.data.name))
     //styleList = styleList.sort((a, b) => a.name_native.localeCompare(b.name_native))
 
-    console.log("Style list: ", styleList);
+    //console.log("Style list: ", styleList);
     let allEl = document.createElement("option");
     allEl.textContent= polyglot.t("All Styles");
     allEl.value = "all";
@@ -1041,13 +1113,13 @@ function updateStyleFilter() {
 }
 function pickStyle () {
     let value = styleFilter.value;
-    let text = styleFilter.options[styleFilter.selectedIndex].text;
+    //let text = styleFilter.options[styleFilter.selectedIndex].text;
     let clearButton = document.getElementById("i18n:clear");
     let lock = document.getElementById("lock-style");
     let styleNodes;
 
     cy.nodes().removeClass(["hidden", "ancestors", "descendants","focused"]);
-    console.log("pickStyle: ", value, text);
+    //console.log("pickStyle: ", value, text);
 
     if (value == "all") {
         cy.nodes().removeClass(["hidden"]);
@@ -1074,7 +1146,7 @@ function pickStyle () {
         clearButton.classList.remove("is-dark");
         clearButton.classList.add("focus-style");
     }
-    console.log("Style Edges", styleEdges);
+    //console.log("Style Edges", styleEdges);
     cy.reset();
     cy.center();
     cy.fit(styleNodes);
@@ -1086,7 +1158,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let clearStyle = document.getElementById("i18n:clear");
     let clearButton = document.getElementById("i18n:clear");
     clearStyle.addEventListener('click', e => {
-        console.log("Clear style:", e);
+        //console.log("Clear style:", e);
         document.getElementById('pickStyle').value="all";
         pickStyle();
     })});
