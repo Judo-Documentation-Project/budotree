@@ -471,6 +471,7 @@ let pred = document.getElementById("predecessors");
 let focus = document.getElementById("focus");
 
 function focusOnIndividual(state){
+    let person
     if (state) {
         //console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
         if (cy.elements(":selected").isEdge()) {
@@ -499,6 +500,7 @@ function focusOnIndividual(state){
     }
     layout.run();
 }
+
 document.addEventListener('DOMContentLoaded', function() {
     pred.addEventListener('click', e => {
         //console.log("Predecessors" + ele.data().name);
