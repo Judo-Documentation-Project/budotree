@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function() {
     nodesByCountry();
     listPersons();
 
-    //listStyles();
+    listStyles();
     //updateStyleFilter();
     //
     //    updateTimeline();
