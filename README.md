@@ -173,7 +173,7 @@ it is that different perspectives on what should be added to the database exist.
 
 The general approach will be to have (public) discussions on the relevant topic,
 in the form of an Issue. The overall quality of the database is an important
-goal, so if needed, the project lead will determine the final outcome in the 
+goal, so if needed, the project lead will determine the final outcome in the
 case of no consensus.
 
 Having an extensive database is good, but it is not as important as
@@ -340,6 +340,27 @@ keep all information about that relation specific to it (different
 locations, time periods, sources, etc.)
 
 (see [issue #35](https://github.com/Judo-Documentation-Project/budotree/issues/35) for a discussion.)
+
+#### Can we link directly to an individual?
+
+Yes, all individuals can be selected through the use of URL query
+parameters, e.g. `https;//budotree.judoc.org/?id=JDP-1`, by using the
+`id`. This can easily be obtained using the information box footer
+button with a link symbol, and used to share links to specific persons.
+
+#### Is there anything more we can set through the URL?
+
+The following options can be set as query parameters:
+
+* `id`: selects the individual with the id (e.g., `id=JDP-1`).
+* `style`: selects the style with the id (e.g., `style="JDP-S-1`).
+* `focus`: if `true`, turns on the individual focus mode (e.g., `focus=true`).
+* `infobox`: sets the information box visibility, allowed values are `visible`, `hidden` (default), and `toggle` (e.g., `infobox=visible`).
+* `layout`: selects the layout, allowed values are the same as the layout dropdown (e.g., `layout=concentric`).
+* `lang`: sets the interface language, allowed values are the same as the language dropdown (e.g., `lang=ja`).
+
+They can be combined, for example:
+[https://budotree.judoc.org?id=JDP-12&infobox=visible&focus=true&layout=mrtree&lang=ja](https://budotree.judoc.org?id=JDP-12&infobox=visible&focus=true&layout=mrtree&lang=ja).
 
 
 #### Why is rank separate from teachers?
