@@ -1,0 +1,78 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-57
+  name: Fukuda Keiko
+  native_name:
+      name: 福田 敬子
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 1913-04-12
+    location: Tokyo
+    country_code: JPN
+  death:
+    date: 2013-02-09
+    location: San Francisco
+    country_code: USA
+  description:
+    en: >-
+      Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April
+      12, 1913 – February 9, 2013) was a Japanese-American martial
+      artist. She was the highest-ranked female judoka in history,
+      holding the rank of 9th dan from the Kodokan (2006), and 10th
+      dan from USA Judo (July 2011) and from the United States Judo
+      Federation (USJF) (September 2011), and was the last surviving
+      student of Kanō Jigorō, founder of judo.
+      She was a renowned pioneer of women's judo, together with her
+      senpai Masako Noritomi (1913–1982) being the first woman
+      promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted
+      Fukuda to 9th dan.[8] She is also the first and, so far, only
+      woman to have been promoted to 10th dan in the art of judo.
+  photo:
+    url: https://assets.change.org/photos/7/kx/tf/pUKxTfavKIGEOvT-800x450-noPad.jpg
+    source:
+      uri: https://www.change.org/p/uemura-haruki-demand-10th-degree-black-belt-for-keiko-fukuda
+      cite: "Change.org - Keiko Fukuda 10th dan petition"
+  teachers:
+    - id: JDP-1
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1935
+        end: 1966
+      quality: 3
+      sources:
+        - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+          cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
+          citation: "Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking"
+    - id: JDP-11
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1935
+        end: 1966
+      quality: 3
+      sources:
+        - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+          cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
+          citation: "Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)"
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 9 dan
+      year:
+    - style_id: JDP-S-1
+      org: USJF
+      teacher:
+      rank: 10 dan
+      year:
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+    - uri: https://www.usjf.com/2018/02/keiko-fukuda/
+    - uri: https://judoinfo.com/fukuda/
+    - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+    - uri: https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/

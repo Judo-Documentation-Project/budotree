@@ -94,11 +94,13 @@ const style = [ // the stylesheet for the graph
             'background-image': (ele) => {
                 if (ele.data().photo_url_local) {
                     return ele.data().photo_url_local
-                }
-                else if (ele.data().photo_url) {
+                } else if (ele.data().photo) {
+                    return ele.data().photo.url
+                } else if (ele.data().photo_url) {
                     return ele.data().photo_url
-                } else
+                } else {
                     return false
+                }
             },
             "background-fit": "cover cover",
             "background-image-opacity": 0.4,
