@@ -24,11 +24,9 @@
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
         "broken-link": "^1.0.1",
-        "gifsicle": "^5.2.1",
         "html-metadata": "^1.7.1",
         "md5": "^2.3.0",
         "mimetics": "^0.0.8",
-        "pngquant-bin": "^6.0.1",
         "process": "^0.11.10",
         "util": "^0.12.5"
     }
