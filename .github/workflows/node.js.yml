@@ -38,13 +38,13 @@ jobs:
         cache-dependency-path: site/package-lock.json
 
     - name: Build database
-      if: steps.filter.outputs.database == 'true'
+      # if: steps.filter.outputs.database == 'true'
       run: |
         npm ci
         npm run cli -- --dir ./database/persons --file ./export/tree.json --local
 
     - name: Copy file
-      if: steps.filter.outputs.database == 'true'
+      # if: steps.filter.outputs.database == 'true'
       run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Build site
