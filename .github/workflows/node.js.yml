@@ -19,6 +19,14 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          site:
+            - 'site/**'
+          database:
+            - 'database/**'
     - name: Checkout
       uses: actions/checkout@v3
 
@@ -30,14 +38,17 @@ jobs:
         cache-dependency-path: site/package-lock.json
 
     - name: Build database
+      if: steps.filter.outputs.database == 'true'
       run: |
         npm ci
-        npm run cli -- --dir ./database/persons --file ./export/tree.json
+        npm run cli -- --dir ./database/persons --file ./export/tree.json --local
 
-    - name: Copy
+    - name: Copy file
+      if: steps.filter.outputs.database == 'true'
       run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Build site
+      if: steps.filter.outputs.site == 'true'
       working-directory: site
       run: |
         npm ci
