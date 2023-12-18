@@ -11,7 +11,40 @@ on:
     branches: [ "main" ]
 
 jobs:
+  parse-build-test:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: site/package-lock.json
+
+    - name: Build database
+      run: |
+        npm ci
+        npm run cli -- --dir ./database/persons --file ./export/tree.json
+
+    - name: Copy
+      run: cp export/tree.json export/styles.json site/src/js/
+
+    - name: Build site
+      working-directory: site
+      run: |
+        npm ci
+        npm run build --if-present
+
   parse:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -46,6 +79,7 @@ jobs:
         git push -f origin gh-pages
 
   build:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     needs: parse
     strategy:
