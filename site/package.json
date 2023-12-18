@@ -30,14 +30,12 @@
         "cytoscape-cise": "^1.0.0",
         "cytoscape-cola": "^2.5.1",
         "cytoscape-elk": "^2.1.0",
-        "cytoscape-popper": "^2.0.0",
         "i18next": "^22.4.15",
         "interactjs": "^1.10.17",
         "jquery": "^3.6.4",
         "js-yaml": "^4.1.0",
         "node-polyglot": "^2.5.0",
         "parcel": "^2.10.3",
-        "popper": "^1.0.1",
         "tachyons": "^4.12.0",
         "web-worker": "^1.2.0"
     }

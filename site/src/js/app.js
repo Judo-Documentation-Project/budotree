@@ -435,10 +435,6 @@ distance.addEventListener("change", function () {
 
 import bulmaSlider from 'bulma-slider';
 bulmaSlider.attach();
-// Popper stuff
-
-import popper from "cytoscape-popper";
-cytoscape.use(popper);
 
 cy.elements().unbind("mouseover");
 
