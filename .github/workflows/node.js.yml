@@ -98,6 +98,14 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          site:
+            - 'site/**'
+          database:
+            - 'database/**'
     - name: Checkout
       uses: actions/checkout@v3
       with:
@@ -110,22 +118,26 @@ jobs:
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
     - name: Image cache
+      if: steps.filter.outputs.database == 'true'
       run: |
         npm ci
         mkdir -p site/dist/images/cache || true
         npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=site/src/js/tree.json
 
     - name: Build
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: |
         npm ci
         npm run build --if-present
 
     - name: Copy static assets
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
 
     - name: Commit
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: |
         git config --global user.name github-actions
@@ -147,14 +159,25 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          site:
+            - 'site/**'
+          database:
+            - 'database/**'
     - name: Checkout
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       uses: actions/checkout@v3
       with:
        ref: gh-pages
     - name: Upload artefacts
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       uses: actions/upload-pages-artifact@v1
       with:
         path: site/dist
     - name: Deploy to GitHub Pages
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       id: deployment
       uses: actions/deploy-pages@v2
