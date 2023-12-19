@@ -19,6 +19,7 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
+    - uses: actions/checkout@v4
     - uses: dorny/paths-filter@v2
       id: filter
       with:
@@ -29,6 +30,12 @@ jobs:
             - 'database/**'
     - name: Checkout
       uses: actions/checkout@v3
+
+    - name: Validate YAML
+      id: json-yaml-validate
+      uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
+      with:
+        comment: "true" # enable comment mode
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
