@@ -252,7 +252,7 @@ dd ul {
     width: 100%;
     padding: 10px;
     background-color: white;
-    z-index: 1000;
+    z-index: 10;
 }
 
 
@@ -421,7 +421,7 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
   color: black;
   _touch-action: none;
   _user-select: none;
-  z-index: 1000;
+  z-index: 10;
 }
 
 #toolbox {
@@ -466,4 +466,23 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
 }
 .tl-slide-background {
   filter: brightness(65%) !important;
+}
+
+.js-modal-trigger {
+  float: right;
+  color: #cb4042;
+  z-index: 2100;
+}
+
+.cc-modal {
+  height: 1rem;
+}
+
+.modal-content h2 {
+font-size: 2rem;
+font-weight: 700;
+}
+.modal-content {
+text-align: left;
+overflow-x: hidden;
 }
