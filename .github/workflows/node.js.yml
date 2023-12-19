@@ -19,7 +19,9 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v3
+
     - uses: dorny/paths-filter@v2
       id: filter
       with:
@@ -28,8 +30,6 @@ jobs:
             - 'site/**'
           database:
             - 'database/**'
-    - name: Checkout
-      uses: actions/checkout@v3
 
     - name: Validate YAML
       id: json-yaml-validate
@@ -69,7 +69,15 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Validate YAML
+      id: json-yaml-validate
+      uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
+      with:
+        comment: "true" # enable comment mode
+
     - uses: dorny/paths-filter@v2
       id: filter
       with:
@@ -78,8 +86,6 @@ jobs:
             - 'site/**'
           database:
             - 'database/**'
-    - name: Checkout
-      uses: actions/checkout@v3
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
