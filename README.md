@@ -23,8 +23,8 @@ There are three main components in the project:
   allowing exploration of the (sometimes complex) lineage tree.
 
 **While this is done with Judo as a starting point, it is not limited
-to it**: much like Judo had a pioneering role that
-influenced many other martials arts (and was in many ways a bridge
+to it**: much like Judo had a pioneering role in Budō that 
+influenced many other martial arts (and was in many ways a bridge
 between Koryū and Gendai), so does this project start from Kodokan
 Judo with the aim of uncovering the rich history of interactions
 between disciplines.
