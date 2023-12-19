@@ -44,7 +44,9 @@ person:
       Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28
       de outubro de 1860 – 4 de maio de 1938) foi o fundador da
       arte marcial Judo.
-  photo_url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
+  photo_url:https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
+     foo: - asdsd
+     "ssss"
   photo:
     url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
     source:
