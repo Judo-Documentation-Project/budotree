@@ -15,6 +15,7 @@ import { Timeline } from "@knight-lab/timelinejs";
 
 import bulmaSlider from "bulma-slider";
 
+console.log("Cytoscape version: ", cytoscape.version)
 /* "Toolbox" activation
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -352,6 +353,7 @@ document.addEventListener("DOMContentLoaded", function () {
   listPersons();
 
   listStyles();
+  listVersions();
   // updateStyleFilter();
   //
   //    updateTimeline();
@@ -988,6 +990,14 @@ function openTab(evt, tabName) {
     info.style.display = "none";
   }
 }
+
+function listVersions() {
+  const template = document.getElementById("template:versions").innerHTML;
+  const rendered = Mustache.render(template, { cytoscape_version: cytoscape.version });
+  console.log("Rendered Versions: ", rendered)
+  document.getElementById("versions").innerHTML = rendered;
+}
+
 
 function listPersons() {
   const template = document.getElementById("template:persons").innerHTML;
