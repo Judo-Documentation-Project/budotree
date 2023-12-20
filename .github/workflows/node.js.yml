@@ -59,6 +59,10 @@ jobs:
       run: |
         npm ci
         npm run build --if-present
+    - name: Run ESLint
+      working-directory: site
+      run: npx eslint ./src --ext .js
+
 
   parse:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -152,6 +156,10 @@ jobs:
       run: |
         npm ci
         npm run build --if-present
+
+    - name: Run ESLint
+      working-directory: site
+      run: npx eslint ./src --ext .js
 
     - name: Copy static assets
       if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
