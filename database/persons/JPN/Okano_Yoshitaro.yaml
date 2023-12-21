@@ -11,17 +11,17 @@ person:
     - name: Okano Kotaru
       native_name:
         - name: 岡野好太郎
-          lang: ja      
+          lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1885-04-24
+  birth:
+    date: "1885-04-24"
     location: Tonoshō
     country_code: JPN
   death:
-    date: 1967-06-02
-    location: 
-    country: JPN
+    date: "1967-06-02"
+    location:
+    country_code: JPN
   photo_url: https://archive.org/download/okano/okano.jpg
   teachers:
     - name:
@@ -32,7 +32,7 @@ person:
         end:
       quality: 1
     - id: JDP-42
-      style_id: JDP-S-9  
+      style_id: JDP-S-9
       place:
       period:
         start:
@@ -52,13 +52,13 @@ person:
         start: 1906
         end:
       quality: 1
-      
+
   rank:
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 10 dan
-      date: 1967-06-02
+      date: "1967-06-02"
   sources:
     - uri: http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
     - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81

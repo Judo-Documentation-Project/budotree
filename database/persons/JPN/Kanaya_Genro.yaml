@@ -5,35 +5,36 @@ person:
   id: JDP-36
   name: Kanaya Genro
   native_name:
+    name:
+    lang:
   aka:
     - name: Kanaya Motoyoshi
   nationality:
     - JPN
-  birth: 
+  birth:
     date:
     location:
     country_code:
   death:
     date:
     location:
-    country: 
+    country_code:
   photo_url:
   teachers:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
-      rank: 
   rank:
-    - style: 
-      org: 
+    - style_id:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu
     - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
     - uri: urn:isbn:9784770026194
-    

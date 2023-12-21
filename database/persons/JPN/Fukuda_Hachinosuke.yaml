@@ -6,20 +6,31 @@ person:
   name: Fukuda Hachinosuke
   native_name:
       name: 福田八之助
-      lang: ja  
+      lang: ja
   nationality:
-    - JPN  
-  birth: 
+    - JPN
+  birth:
     date: 1828
-    location: Nagatoro, Japan
+    location: Nagatoro
+    country_code: JPN
   death:
-    date: 1879-08-14
+    date: "1879-08-14"
+    location:
+    country_code: JPN
   teachers:
     - id: JDP-4
       style_id: JDP-S-3
       place: Otamagaike dojo
+      quality:
       period:
         start: 1851
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9

@@ -16,7 +16,7 @@ person:
   death:
     date: 1983
     location: Tokyo
-    country: JPN
+    country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Konishi.JPG/200px-Konishi.JPG
   teachers:
     - id: JDP-38
@@ -72,7 +72,7 @@ person:
         end:
       quality: 1
   rank:
-    - style:
+    - style_id:
       org:
       teacher:
       rank:

@@ -30,11 +30,11 @@ jobs:
           database:
             - 'database/**'
 
-    - name: Validate YAML
-      id: json-yaml-validate
-      uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
-      with:
-        comment: "true" # enable comment mode
+    # - name: Validate YAML
+    #   id: json-yaml-validate
+    #   uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
+    #   with:
+    #     comment: "true" # enable comment mode
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -42,12 +42,16 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
+    - run: npm ci
+
+
+    - name: Validate YAML
+      if: steps.filter.outputs.database == 'true'
+      run: npm run validate
 
     - name: Build database
       # if: steps.filter.outputs.database == 'true'
-      run: |
-        npm ci
-        npm run cli -- --dir ./database/persons --file ./export/tree.json --local
+      run: npm run cli -- --dir ./database/persons --file ./export/tree.json --local
 
     - name: Copy file
       # if: steps.filter.outputs.database == 'true'
@@ -75,11 +79,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Validate YAML
-      id: json-yaml-validate
-      uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
-      with:
-        comment: "true" # enable comment mode
+    # - name: Validate YAML
+    #   id: json-yaml-validate
+    #   uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
+    #   with:
+    #     comment: "true" # enable comment mode
 
     - uses: dorny/paths-filter@v2
       id: filter
@@ -96,11 +100,14 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
+    - run: npm ci
+
+    - name: Validate YAML
+      if: steps.filter.outputs.database == 'true'
+      run: npm run validate
 
     - name: Build
-      run: |
-        npm ci
-        npm run cli -- --dir ./database/persons --file ./export/tree.json
+      run: npm run cli -- --dir ./database/persons --file ./export/tree.json
 
     - name: Copy
       run: cp export/tree.json export/styles.json site/src/js/
@@ -143,23 +150,26 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
+    - run: npm ci
+
     - name: Image cache
       if: steps.filter.outputs.database == 'true'
       run: |
-        npm ci
         mkdir -p site/dist/images/cache || true
         npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=site/src/js/tree.json
 
-    - name: Build
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
-      working-directory: site
-      run: |
-        npm ci
-        npm run build --if-present
+    - name: Validate YAML
+      if: steps.filter.outputs.database == 'true'
+      run: npm run validate
 
     - name: Run ESLint
       working-directory: site
       run: npx eslint ./src --ext .js
+
+    - name: Build
+      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      working-directory: site
+      run: npm run build --if-present
 
     - name: Copy static assets
       if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
@@ -176,6 +186,7 @@ jobs:
         git add -f dist
         git commit -m "Automated site build"
         git push -f origin gh-pages
+
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest

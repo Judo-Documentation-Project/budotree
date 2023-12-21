@@ -10,13 +10,13 @@ person:
   nationality:
     - JPN
   birth:
-    date: 1883-04-21
+    date: "1883-04-21"
     location: Iwate
     country_code: JPN
   death:
-    date: 1965-01-27
+    date: "1965-01-27"
     location:
-    country: JPN
+    country_code: JPN
   photo:
     url: https://1.bp.blogspot.com/_NjSHIRBuf3Y/SHlsXVS7iGI/AAAAAAAAAk0/d-EnhgFOBPk/s400/kyuzomifune.jpg
     source:
@@ -26,17 +26,17 @@ person:
     - id: JDP-1
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1903
         end: 1965
-      rank:
     - id: JDP-9
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1903
         end:
-      rank:
   rank:
     - style_id: JDP-S-1
       org: Kodokan

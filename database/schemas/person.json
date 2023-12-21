@@ -1,0 +1,344 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/Welcome6",
+    "definitions": {
+        "Welcome6": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "person": {
+                    "$ref": "#/definitions/Person"
+                }
+            },
+            "required": [
+                "person"
+            ],
+            "title": "Welcome6"
+        },
+        "Person": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "native_name": {
+                    "$ref": "#/definitions/NativeName"
+                },
+                "nationality": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "birth": {
+                    "$ref": "#/definitions/Birth"
+                },
+                "death": {
+                    "$ref": "#/definitions/Birth"
+                },
+                "description": {
+                    "$ref": "#/definitions/Description"
+                },
+                "photo_url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".jpg"
+                    ]
+                },
+                "photo": {
+                    "$ref": "#/definitions/Photo"
+                },
+                "teachers": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Teacher"
+                    }
+                },
+                "rank": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Rank"
+                    }
+                },
+                "sources": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/PhotoSource"
+                    }
+                }
+            },
+            "required": [
+                "birth",
+                "death",
+                "description",
+                "id",
+                "name",
+                "nationality",
+                "native_name",
+                "photo",
+                "photo_url",
+                "rank",
+                "sources",
+                "teachers"
+            ],
+            "title": "Person"
+        },
+        "Birth": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "location": {
+                    "type": "string"
+                },
+                "country_code": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "sources": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/BirthSource"
+                    }
+                }
+            },
+            "required": [
+                "country_code",
+                "date",
+                "location"
+            ],
+            "title": "Birth"
+        },
+        "BirthSource": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "uri": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".html"
+                    ]
+                },
+                "citation": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "citation",
+                "uri"
+            ],
+            "title": "BirthSource"
+        },
+        "Description": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "en": {
+                    "type": "string"
+                },
+                "ja": {
+                    "type": "string"
+                },
+                "pt": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "en",
+                "ja",
+                "pt"
+            ],
+            "title": "Description"
+        },
+        "NativeName": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "lang": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "lang",
+                "name"
+            ],
+            "title": "NativeName"
+        },
+        "Photo": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".jpg"
+                    ]
+                },
+                "source": {
+                    "$ref": "#/definitions/PhotoSource"
+                }
+            },
+            "required": [
+                "source",
+                "url"
+            ],
+            "title": "Photo"
+        },
+        "Rank": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "style_id": {
+                    "type": "string"
+                },
+                "org": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "teacher": {
+                    "type": "null"
+                },
+                "rank": {
+                    "type": "string"
+                },
+                "year": {
+                    "type": "null"
+                },
+                "teacher_id": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "org",
+                "rank",
+                "style_id",
+                "year"
+            ],
+            "title": "Rank"
+        },
+        "PhotoSource": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "uri": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".1162",
+                        ".html"
+                    ]
+                },
+                "cite": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "uri"
+            ],
+            "title": "PhotoSource"
+        },
+        "Teacher": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "style_id": {
+                    "type": "string"
+                },
+                "place": {
+                    "anyOf": [
+                        {
+                            "type": "null"
+                        },
+                        {
+                            "type": "string"
+                        }
+                    ]
+                },
+                "period": {
+                    "$ref": "#/definitions/Period"
+                },
+                "quality": {
+                    "type": "integer"
+                },
+                "sources": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/BirthSource"
+                    }
+                }
+            },
+            "required": [
+                "id",
+                "period",
+                "place",
+                "quality",
+                "style_id"
+            ],
+            "title": "Teacher"
+        },
+        "Period": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "start": {
+                    "type": "integer"
+                },
+                "end": {
+                    "anyOf": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "end",
+                "start"
+            ],
+            "title": "Period"
+        }
+    }
+}

@@ -18,7 +18,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://archive.org/download/walter_todd/walter_todd.jpg",
           "teachers": [
@@ -53,6 +53,122 @@
       },
       {
         "data": {
+          "id": "JDP-52",
+          "name": "Karl Geis",
+          "aka": [
+            {
+              "name": "Karl Geis"
+            }
+          ],
+          "nationality": [
+            "USA"
+          ],
+          "birth": {
+            "date": 1933,
+            "location": "Houston, Texas",
+            "country_code": "USA"
+          },
+          "death": {
+            "date": "2014-04-07",
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": "https://ia601208.us.archive.org/9/items/karl_geis_formal_202312/karl_geis_formal.png",
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1952,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://www.karlgeis.com/his-resume",
+                  "cite": "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)",
+                  "citation": "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
+                }
+              ]
+            },
+            {
+              "id": "JDP-53",
+              "style_id": "JDP-S-4",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://www.karlgeis.com/his-resume",
+                  "cite": "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)",
+                  "citation": "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "USJA",
+              "teacher": null,
+              "rank": "10 dan",
+              "date": 2014,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-4",
+              "org": null,
+              "teacher": null,
+              "rank": "10 dan",
+              "date": 1997,
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-4",
+              "org": null,
+              "teacher": null,
+              "rank": "6 dan",
+              "date": 1980,
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Karl_Geis",
+              "cite": "Karl Geis - Wikipedia"
+            },
+            {
+              "uri": "https://www.karlgeis.com/his-resume"
+            },
+            {
+              "uri": "https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf"
+            },
+            {
+              "uri": "https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/",
+              "cite": "Interview with David Witt: Judo, Aikido, and Karl Geis – Martial Arts of Yesterday, Today and Tomorrow"
+            }
+          ],
+          "source_yaml": "database/persons/USA/Karl_Geis.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-25",
           "name": "Hal Sharp",
           "aka": [
@@ -71,7 +187,7 @@
           "death": {
             "date": 2021,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://article-imgs.scribdassets.com/2840m8mlj48oc26j/images/fileLKP2HSNH.jpg",
           "teachers": [
@@ -117,8 +233,7 @@
               "uri": "urn:isbn:978-0804805421"
             },
             {
-              "uri": "https://blackbeltmag.com/hal-sharp-judo",
-              "cite": "Judo Blog: The Legendary Hal Sharp was a Real Mensch! - Black Belt Magazine"
+              "uri": "https://blackbeltmag.com/hal-sharp-judo"
             }
           ],
           "source_yaml": "database/persons/USA/Harold_Sharp.yaml"
@@ -132,14 +247,14 @@
             "PRT"
           ],
           "birth": {
-            "date": "1941-04-01T00:00:00.000Z",
+            "date": "1941-04-01",
             "location": "Ponta Delgada",
             "country_code": "PRT"
           },
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://ia802603.us.archive.org/5/items/costamatos/costamatos1.jpg",
           "teachers": [
@@ -147,11 +262,11 @@
               "id": "JDP-12",
               "style_id": "JDP-S-1",
               "place": "Judo Clube de Portugal",
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -192,25 +307,25 @@
             "PRT"
           ],
           "birth": {
-            "date": "1937-03-13T00:00:00.000Z",
+            "date": "1937-03-13",
             "location": "Sintra",
             "country_code": "PRT"
           },
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-12",
               "style_id": "JDP-S-1",
               "place": "Judo Clube de Portugal",
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -256,9 +371,9 @@
             "country_code": "JPN"
           },
           "death": {
-            "date": "1912-09-23T00:00:00.000Z",
+            "date": "1912-09-23",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/220px-Yokoyama-Sakujiro.jpg",
           "teachers": [
@@ -266,21 +381,30 @@
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1886,
                 "end": null
-              },
-              "rank": null
+              }
             },
             {
               "id": "JDP-10",
               "style_id": "JDP-S-3",
               "place": "Yushima Tenjin dojo",
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -308,12 +432,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1883-12-14T00:00:00.000Z",
+            "date": "1883-12-14",
             "location": "Tanabe",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1969-04-26T00:00:00.000Z",
+            "date": "1969-04-26",
             "location": "Iwama",
             "country_code": "JPN"
           },
@@ -323,6 +447,7 @@
               "id": "JDP-28",
               "style_id": "JDP-S-10",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1915,
                 "end": 1922
@@ -332,6 +457,7 @@
               "id": "JDP-47",
               "style_id": "JDP-S-3",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1901,
                 "end": 1901
@@ -351,6 +477,28 @@
                   "cite": "Tokusaburo Tozawa 戸沢徳三郎 – Aikido Journal"
                 }
               ]
+            },
+            {
+              "id": "JDP-50",
+              "style_id": "JDP-S-11",
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+                  "citation": "Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū",
+                  "cite": "Yagyū Shingan-ryū - Wikipedia"
+                },
+                {
+                  "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+                  "citation": "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms.",
+                  "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
+                }
+              ]
             }
           ],
           "rank": [
@@ -359,18 +507,51 @@
               "org": null,
               "teacher": "JDP-28",
               "rank": "Kyōju Dairi",
-              "year": 1922,
+              "date": 1922,
               "style": "Daitō-ryū Aiki-jūjutsu",
               "style_native": {
                 "name": "大東流 合気柔術",
                 "lang": "ja"
               }
+            },
+            {
+              "style_id": "JDP-S-13",
+              "org": null,
+              "teacher": "JDP-50",
+              "rank": "Shoden",
+              "date": 1908,
+              "style": "Shuri-te",
+              "style_native": {
+                "name": "首里手",
+                "lang": "ryu"
+              }
             }
           ],
           "sources": [
             {
+              "uri": "https://en.wikipedia.org/wiki/Morihei_Ueshiba",
+              "events": [
+                "name native_name birth death"
+              ],
+              "cite": "Morihei Ueshiba - Wikipedia"
+            },
+            {
               "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
+              "events": [
+                "name native_name birth death"
+              ],
               "cite": "富木謙治 - Wikipedia"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "events": [
+                "rank"
+              ],
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+              "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Ueshiba_Morihei.yaml"
@@ -388,14 +569,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1877-08-14T00:00:00.000Z",
+            "date": "1877-08-14",
             "location": "Ikenishi",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1949-07-25T00:00:00.000Z",
+            "date": "1949-07-25",
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png/169px-%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png",
           "teachers": [
@@ -403,11 +584,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -434,6 +615,121 @@
       },
       {
         "data": {
+          "id": "JDP-48",
+          "name": "Uchida Ryōhei",
+          "native_name": {
+            "name": "内田良平",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1873-02-11",
+            "location": "Fukuoka",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1937-07-26",
+            "location": null,
+            "country_code": "JPN"
+          },
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ryohei_Uchida_Close-up.jpg/200px-Ryohei_Uchida_Close-up.jpg",
+          "description": {
+            "en": "Ryōhei Uchida (内田 良平, Uchida Ryōhei, 11 February 1873 – 26 July 1937) was a Japanese ultranationalist political theorist, Pan-Asianist, and martial artist, active in the pre-war Empire of Japan. He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.  He was the son of Shinto Muso-ryu practitioner Uchida Ryōgorō, and from an early age was interested in many forms of Japanese traditional martial arts, including kyūdō, kendo, judo and sumo.\n",
+            "ja": "内田 良平（うちだ りょうへい、1874年〈明治7年〉2月11日 - 1937年 〈昭和12年〉7月26日）は、日本の国家主義者・右翼運動家・アジア主 義者。黒龍会主幹、大日本生産党総裁。 旧福岡藩士であり、武芸の達 人として知られた内田良五郎の三男として現在の福岡県福岡市大円寺町 （現・唐人町）に生まれる[1]。幼名良助、のち甲（きのえ）。明治34 年（1902年）に良平と改名した。幼時より弓道、剣道、柔術、相撲、射 撃を父に学んだ。なお、父・良五郎の神道夢想流杖術の門下には、[2] 「昭和の剣聖」の一人である中山博道がいる。\n"
+          },
+          "teachers": [
+            {
+              "id": "JDP-1",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1893,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws",
+                  "citation": "Miyakawa remained a Gen’yōshamember and became a Kōdōkan top-executive (Kōdōkan Saikō  Kanbu講道館最高幹部)  closely  associated  with Kanō Jigorō, as was Uchida Ryōhei"
+                },
+                {
+                  "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+                  "citation": "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.",
+                  "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles© 嘉納歴代©"
+                }
+              ],
+              "quality": 1
+            },
+            {
+              "id": "JDP-49",
+              "style_id": "JDP-S-12",
+              "place": "Meikokan dojo",
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。"
+                },
+                {
+                  "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+                  "citation": "He learned a number of martial arts, most notably Jigō Tenshin Ryū Jūjutsu in Fukuoka’s Meidokan dōjō, an art in which he was notably successful. In 1893 he moved to Tokyo to live with his wealthy coal mine owner uncle Hiraoka Kōtarō, a supporter of the Genyōsha, and began to study Russian at a Tokyo school and jūdō at Kanō Jigorō’s Kodokan.",
+                  "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles© 嘉納歴代©"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "5 dan",
+              "date": null,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death",
+                "rank"
+              ],
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles© 嘉納歴代©"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ry%C5%8Dhei_Uchida",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ],
+              "cite": "Ryōhei Uchida - Wikipedia"
+            }
+          ],
+          "tags": [
+            "Kokuryūkai",
+            "Genyōsha",
+            "Omoto"
+          ],
+          "source_yaml": "database/persons/JPN/Uchida_Ryohei.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-47",
           "name": "Tozawa Tokusaburo",
           "native_name": {
@@ -451,13 +747,14 @@
           "death": {
             "date": 1912,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-4",
               "style_id": "JDP-S-3",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
@@ -480,7 +777,7 @@
               "org": null,
               "teacher": null,
               "rank": null,
-              "year": null
+              "date": null
             }
           ],
           "sources": [
@@ -520,12 +817,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1864-02-28T00:00:00.000Z",
+            "date": "1864-02-28",
             "location": "Namazu, Shizuoka",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1937-01-13T00:00:00.000Z",
+            "date": "1937-01-13",
             "location": null,
             "country_code": null
           },
@@ -535,6 +832,7 @@
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1882,
                 "end": null
@@ -547,7 +845,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "7 dan",
-              "year": 1937,
+              "date": 1937,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -576,12 +874,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1900-03-15T00:00:00.000Z",
+            "date": "1900-03-15",
             "location": "Yokomachi",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1979-12-25T00:00:00.000Z",
+            "date": "1979-12-25",
             "location": null,
             "country_code": null
           },
@@ -591,6 +889,7 @@
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1895,
                 "end": 1896
@@ -600,6 +899,7 @@
               "id": "JDP-27",
               "style_id": "JDP-S-4",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1926,
                 "end": null
@@ -612,7 +912,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "8 dan",
-              "year": 1971,
+              "date": 1971,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -624,7 +924,7 @@
               "org": null,
               "teacher": "JDP-27",
               "rank": "8 dan",
-              "year": 1971,
+              "date": 1971,
               "style": "Aikidō",
               "style_native": {
                 "name": "合気道",
@@ -633,6 +933,10 @@
             }
           ],
           "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Kenji_Tomiki",
+              "cite": "Kenji Tomiki - Wikipedia"
+            },
             {
               "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
               "cite": "富木謙治 - Wikipedia"
@@ -660,7 +964,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -668,11 +972,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -705,23 +1009,34 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1659,
+            "location": "Tamba",
+            "country_code": "JPN"
           },
           "death": {
             "date": null,
-            "location": null
+            "location": null,
+            "country_code": null
           },
           "teachers": [
             {
               "id": null,
               "style": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -731,6 +1046,13 @@
             },
             {
               "uri": "https://doi.org/10.18002/rama.v13i2.5700"
+            },
+            {
+              "uri": "https://www.ryoishintokai.com/2022/03/24/1819/",
+              "events": [
+                "birth"
+              ],
+              "cite": "From the article 'Famous Budoka of Japan: Ukei Kato and Kito-ryu Jujutsu' - Ryōi Shintōkai 良移心当会"
             }
           ],
           "source_yaml": "database/persons/JPN/Takino_Yūken.yaml"
@@ -748,23 +1070,34 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1800,
+            "location": null,
+            "country_code": null
           },
           "death": {
             "date": null,
-            "location": null
+            "location": null,
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-7",
               "style_id": "JDP-S-2",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -791,23 +1124,34 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1775,
+            "location": null,
+            "country_code": null
           },
           "death": {
             "date": null,
-            "location": null
+            "location": null,
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-8",
               "style_id": "JDP-S-2",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -834,12 +1178,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1859-10-10T00:00:00.000Z",
+            "date": "1859-10-10",
             "location": "Aizu",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1943-04-25T00:00:00.000Z",
+            "date": "1943-04-25",
             "location": null,
             "country_code": "JPN"
           },
@@ -848,11 +1192,11 @@
             {
               "name": null,
               "style": null,
-              "place": {
-                "period": {
-                  "start": null,
-                  "end": null
-                }
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
               }
             }
           ],
@@ -862,13 +1206,17 @@
               "org": null,
               "teacher": null,
               "rank": null,
-              "year": null
+              "date": null
             }
           ],
           "sources": [
             {
               "uri": "https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB",
               "cite": "富木謙治 - Wikipedia"
+            },
+            {
+              "uri": "https://aikidojournal.com/2011/09/02/interview-with-kenji-tomiki-1-2/",
+              "cite": "Interview with Kenji Tomiki, Part 1 – Aikido Journal"
             }
           ],
           "source_yaml": "database/persons/JPN/Takeda_Sokaku.yaml"
@@ -902,11 +1250,11 @@
               "id": "JDP-9",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -915,7 +1263,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "8 dan",
-              "year": null,
+              "date": null,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -943,12 +1291,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1904-12-12T00:00:00.000Z",
+            "date": "1904-12-12",
             "location": "Tokyo",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1998-06-13T00:00:00.000Z",
+            "date": "1998-06-13",
             "location": "Narutō, Chiba",
             "country_code": "JPN"
           },
@@ -1031,7 +1379,7 @@
               "org": null,
               "teacher": null,
               "rank": null,
-              "year": null
+              "date": null
             }
           ],
           "sources": [
@@ -1082,14 +1430,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1842-03-01T00:00:00.000Z",
+            "date": "1842-03-01",
             "location": null,
             "country_code": "JPN"
           },
           "death": {
-            "date": "1920-02-09T00:00:00.000Z",
+            "date": "1920-02-09",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "photo_url": null,
           "teachers": [
@@ -1097,11 +1445,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1149,7 +1497,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -1157,11 +1505,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1203,7 +1551,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg",
           "teachers": [
@@ -1251,8 +1599,7 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -1285,7 +1632,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -1293,11 +1640,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1312,11 +1659,10 @@
           "sources": [
             {
               "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles® 嘉納歴代"
+              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
             },
             {
-              "uri": "https://www.worldcat.org/title/952578913",
-              "cite": "The way of judo : a portrait of Jigoro Kano and his students | WorldCat.org"
+              "uri": "https://www.worldcat.org/title/952578913"
             }
           ],
           "source_yaml": "database/persons/JPN/Oshima_Masateru.yaml"
@@ -1345,14 +1691,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1885-04-24T00:00:00.000Z",
+            "date": "1885-04-24",
             "location": "Tonoshō",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1967-06-02T00:00:00.000Z",
+            "date": "1967-06-02",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "photo_url": "https://archive.org/download/okano/okano.jpg",
           "teachers": [
@@ -1403,7 +1749,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "10 dan",
-              "date": "1967-06-02T00:00:00.000Z",
+              "date": "1967-06-02",
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -1441,14 +1787,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1876-09-17T00:00:00.000Z",
+            "date": "1876-09-17",
             "location": "Okayama",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1952-11-22T00:00:00.000Z",
+            "date": "1952-11-22",
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://archive.org/download/nagaoka_hideichi/nagaoka_hideichi.jpg",
           "teachers": [
@@ -1456,21 +1802,21 @@
               "name": "Noda Kensaburo",
               "style_id": "JDP-S-2",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             },
             {
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1891,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1479,7 +1825,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "10 dan",
-              "date": "1937-12-27T00:00:00.000Z",
+              "date": "1937-12-27",
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -1512,12 +1858,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1907-04-07T00:00:00.000Z",
+            "date": "1907-04-07",
             "location": "Shizuoka",
             "country_code": "JPN"
           },
           "death": {
-            "date": "2003-05-30T00:00:00.000Z",
+            "date": "2003-05-30",
             "location": "Aix-en-Provence",
             "country_code": "FRA"
           },
@@ -1527,6 +1873,7 @@
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1925,
                 "end": 1930
@@ -1536,6 +1883,7 @@
               "id": "JDP-11",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1925,
                 "end": 1930
@@ -1545,15 +1893,46 @@
               "id": "JDP-27",
               "style_id": "JDP-S-4",
               "place": "Kobukan dojo",
+              "quality": null,
               "period": {
                 "start": 1930,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/",
+                  "citation": "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)",
+                  "cite": "Interview with Minoru Mochizuki: Part 1 – Aikido Journal"
+                }
+              ]
+            },
+            {
+              "id": "JDP-41",
+              "style_id": "JDP-S-5",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/",
+                  "citation": "Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi",
+                  "cite": "Hiroo Mochizuki : «Échapper au conditionnement» – Fédération Française de Karaté"
+                },
+                {
+                  "uri": "https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false",
+                  "cite": "A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.",
+                  "citation": "Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and \"the father of Japanese karate, Gichin Funakoshi."
+                }
+              ]
             },
             {
               "name": "Sanjuro Oshima",
               "style": "Gyokushin Ryu",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1924,
                 "end": null
@@ -1566,14 +1945,14 @@
               "org": null,
               "teacher": "Sanjuro Oshima",
               "rank": "Shoden Kirishi Mokuroku",
-              "year": 1924
+              "date": 1924
             },
             {
               "style_id": "JDP-S-10",
               "org": null,
               "teacher": "JDP-27",
               "rank": null,
-              "year": 1924,
+              "date": 1924,
               "style": "Daitō-ryū Aiki-jūjutsu",
               "style_native": {
                 "name": "大東流 合気柔術",
@@ -1585,7 +1964,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "8 dan",
-              "year": null,
+              "date": null,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -1608,6 +1987,220 @@
       },
       {
         "data": {
+          "id": "JDP-53",
+          "name": "Tsunako Miyake",
+          "native_name": {
+            "name": "三宅綱子",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1926,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": "https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF",
+          "teachers": [
+            {
+              "id": "JDP-26",
+              "style_id": "JDP-S-4",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two",
+                  "cite": "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)",
+                  "citation": "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
+                }
+              ]
+            },
+            {
+              "id": "JDP-26",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification",
+                  "cite": "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)",
+                  "citation": "Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-4",
+              "org": null,
+              "teacher": "JDP-26",
+              "rank": "8 dan",
+              "date": null,
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "7 dan",
+              "date": null,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": null,
+              "teacher": null,
+              "rank": "7 dan",
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/",
+              "cite": "Judo Taiso, a scientific vehicle for Aikido – Study Group Tomiki Aikido"
+            },
+            {
+              "uri": "https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html",
+              "cite": "The Dragon's Orb: Tsunako Miyake a cultural treasure?"
+            },
+            {
+              "uri": "https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html"
+            },
+            {
+              "uri": "https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/",
+              "cite": "Interview with Hiroaki Kogure Sensei: Part Two – Aikido Journal"
+            },
+            {
+              "uri": "https://www.dentonaikido.com/instructor.html",
+              "cite": "Denton Aikido"
+            },
+            {
+              "uri": "https://www.youtube.com/watch?v=K__3OoJ_hhM",
+              "cite": "Archive - Miyake - early footage - YouTube"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Karl_Geis",
+              "cite": "Karl Geis - Wikipedia"
+            },
+            {
+              "uri": "https://www.karlgeis.com/his-resume"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Miyake_Tsunako.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-49",
+          "name": "Miyagawa Taichiro",
+          "native_name": {
+            "name": "宮川太",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1848,
+            "location": "Fukuoka",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1920-06-20",
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": null,
+          "description": {
+            "en": "Miyagawa Taichiro was born on Kaei first. He served the Kuroda clan as a retainer. He was an accomplished martial artist, having learned Itto-ryu kenjutsu and Jigo Tenshin Ryu jujutsu, which he taught at the Genyosha-linked dojo that would be the origin of the Meidokan. He participated in the Hagi Rebellion against the Meiji government.\n",
+            "ja": "宮川太一郎、名は鍜キタウ。筑前の人。嘉永元年七月二十四日福岡に生 る。世、黒田氏に仕へ、其の藩士たり。夙に文武館に入り、専ら武技を 講修し、撃剣（一刀流）柔術（自得天心流）の奥技を究む。維新後藩の 併心隊に入り、青年派の牛耳を執る。明治三年、事を以て就義隊の領袖 箱田六輔等と争ひ、屏居を命ぜらる。後、節を折り、六輔、及、進藤喜 平太等と共に、高場乱の門に入る。七年二月、佐賀の変、福岡臨時鎮撫 隊の組織せらるゝや、太一郎、六輔と共に、其半隊長たり。八年、六輔、 及、頭山満等と矯志社を起し、九年十二月、萩の事変に坐せられて、六 輔等と共に獄に下り、十一年三月、始めて釈さる。後、開墾社を博多向 浜に開き、爾来志を政治上に断ち、専ら実業に従事す。 宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家 の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11 月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の 起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦 之助も目録まで進み，自剛天真流の普及に務めた。\n"
+          },
+          "teachers": [
+            {
+              "id": "JDP-51",
+              "style_id": "JDP-S-12",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+                }
+              ],
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-12",
+              "org": null,
+              "teacher": "庄林又七郎",
+              "rank": "Menkyokaiden (免許皆伝)",
+              "date": null,
+              "style": "Jigō Tenshin Ryū",
+              "style_native": {
+                "name": "自剛天真流",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page048.html",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ],
+              "cite": "���m�Ј��̓`�L�W�@�T"
+            },
+            {
+              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page045.html",
+              "cite": "���m�Ј��E����"
+            },
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "events": [
+                "name",
+                "native_name",
+                "birth",
+                "death"
+              ]
+            }
+          ],
+          "tags": [
+            "Genyōsha"
+          ],
+          "source_yaml": "database/persons/JPN/Miyagawa_Taichiro.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-11",
           "name": "Mifune Kyūzō",
           "native_name": {
@@ -1618,36 +2211,42 @@
             "JPN"
           ],
           "birth": {
-            "date": "1883-04-21T00:00:00.000Z",
+            "date": "1883-04-21",
             "location": "Iwate",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1965-01-27T00:00:00.000Z",
+            "date": "1965-01-27",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
-          "photo_url": "https://1.bp.blogspot.com/_NjSHIRBuf3Y/SHlsXVS7iGI/AAAAAAAAAk0/d-EnhgFOBPk/s400/kyuzomifune.jpg",
+          "photo": {
+            "url": "https://1.bp.blogspot.com/_NjSHIRBuf3Y/SHlsXVS7iGI/AAAAAAAAAk0/d-EnhgFOBPk/s400/kyuzomifune.jpg",
+            "source": {
+              "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2008/07/kyuzo-mifune.html",
+              "cite": "Judo Tradicional Goshinjutsukan - Kyuzo Miffing"
+            }
+          },
           "teachers": [
             {
               "id": "JDP-1",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1903,
                 "end": 1965
-              },
-              "rank": null
+              }
             },
             {
               "id": "JDP-9",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1903,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1679,6 +2278,62 @@
       },
       {
         "data": {
+          "id": "JDP-54",
+          "name": "Matsumura Sōkon",
+          "native_name": {
+            "name": "松村 宗棍",
+            "lang": "ryu"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1809,
+            "location": "Shuri, Okinawa",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": 1899,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/S%C5%8Dkon_Matsumura.jpg",
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92",
+              "cite": "安里安恒 - Wikipedia"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg",
+              "cite": "Matsumura Sōkon - Wikipedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Matsumura_Sokon.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-42",
           "name": "Matsui Sanzo",
           "native_name": {
@@ -1689,12 +2344,12 @@
             "JPN"
           ],
           "birth": {
-            "date": "1861-05-16T00:00:00.000Z",
+            "date": "1861-05-16",
             "location": "Higashikaji",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1932-06-8",
+            "date": "1932-06-08",
             "location": null,
             "country_code": null
           },
@@ -1704,11 +2359,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1731,6 +2386,136 @@
       },
       {
         "data": {
+          "id": "JDP-51",
+          "name": "Matashichiro Shobayashi",
+          "native_name": {
+            "name": "庄林又七郎",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": null,
+          "description": null,
+          "teachers": [
+            {
+              "name": "JDP-52",
+              "style_id": "JDP-S-12",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+                  "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+                }
+              ],
+              "quality": 2
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-12",
+              "org": null,
+              "teacher": "庄林又七郎",
+              "rank": "Menkyokaiden (免許皆伝)",
+              "date": null,
+              "style": "Jigō Tenshin Ryū",
+              "style_native": {
+                "name": "自剛天真流",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "events": [
+                "name",
+                "native_name"
+              ]
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81",
+              "cite": "自剛天真流 - Wikipedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Matashichiro_Shobayashi.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-50",
+          "name": "Masakatsu Naka",
+          "native_name": {
+            "name": "中井 正勝",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": null,
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB",
+              "events": [
+                "name native_name"
+              ],
+              "cite": "Yagyū Shinkage-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Masakatsu_Nakai.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-18",
           "name": "Maeda Mitsuyo",
           "native_name": {
@@ -1746,12 +2531,12 @@
             "BRA"
           ],
           "birth": {
-            "date": "1878-11-18T00:00:00.000Z",
+            "date": "1878-11-18",
             "location": "Hirosaki",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1941-11-28T00:00:00.000Z",
+            "date": "1941-11-28",
             "location": "Belém, Pará",
             "country_code": "BRA"
           },
@@ -1760,17 +2545,18 @@
             {
               "name": "Saito Mohei",
               "style": "Hongaku Kokki-ryû",
-              "place": {
-                "period": {
-                  "start": 1895,
-                  "end": 1896
-                }
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": 1895,
+                "end": 1896
               }
             },
             {
               "id": "JDP-17",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1896,
                 "end": null
@@ -1783,7 +2569,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "7 dan",
-              "year": 1941,
+              "date": 1941,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -1819,7 +2605,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -1827,11 +2613,11 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -1871,7 +2657,7 @@
           "death": {
             "date": 1983,
             "location": "Tokyo",
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Konishi.JPG/200px-Konishi.JPG",
           "teachers": [
@@ -1923,7 +2709,14 @@
                 "start": 1924,
                 "end": null
               },
-              "quality": 1
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://ryukyu-bugei.com/?p=6586",
+                  "citation": "When he [Konishi] met Funakoshi Gichin in June 1925, he was finally able to learn Karate. However, since its contents was only Kata, together with Ōtsuka Hironori 大塚博紀 (1892–1982, founder of Wadō-ryū Karate-dō and Jūjutsu Kenpō) who was also a disciple of Funakoshi, Konishi began to devise Yakusoku Kumite 約束組手 and the like. Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa.",
+                  "cite": "\nKonishi Yasuhiro 小西康裕 | Ryukyu Bugei 琉球武芸\t"
+                }
+              ]
             },
             {
               "name": "Ōtsuka Hironori",
@@ -1948,7 +2741,7 @@
           ],
           "rank": [
             {
-              "style": null,
+              "style_id": null,
               "org": null,
               "teacher": null,
               "rank": null,
@@ -1961,8 +2754,11 @@
               "cite": "小西康裕 (空手家) - Wikipedia"
             },
             {
-              "uri": "https://blackbeltmag.com/konishi-yasuhiro",
-              "cite": "Karate’s Forgotten Pioneer - Black Belt Magazine"
+              "uri": "https://ryukyu-bugei.com/?p=6586",
+              "cite": "\nKonishi Yasuhiro 小西康裕 | Ryukyu Bugei 琉球武芸\t"
+            },
+            {
+              "uri": "https://blackbeltmag.com/konishi-yasuhiro"
             },
             {
               "uri": "https://www.jkr-uk.org.uk/yasuhiro-konishi"
@@ -1983,21 +2779,26 @@
             "JPN"
           ],
           "birth": {
-            "date": "1925-04-09T00:00:00.000Z",
+            "date": "1925-04-09",
             "location": "Gunma",
             "country_code": "JPN"
           },
           "death": {
-            "date": "2013-04-09T00:00:00.000Z",
+            "date": "2013-04-09",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "photo_url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC",
+          "description": {
+            "en": "Kobayashi Kiyoshi (小林清) was the «father» of Portuguese Judo and one of the founders of the Portuguese Judo Federation, and the greatest promoter of Judo in Portugal. Sensei Kobayashi was one of the highest grades in the world, 9th dan given Kodokan by in 1999.",
+            "pt": "O Mestre Kiyoshi Kobayashi, uma das mais altas graduações da Modalidade – 9º Dan, foi um dos grandes responsáveis pelo crescimento e desenvolvimento da modalidade em Portugal, sendo conhecido inclusive como \"o pai do judo português\". Foi Selecionador e Treinador da Equipa Nacional e acompanhou-as em Campeonatos da Europa e do Mundo, assim como nas edições dos Jogos Olímpicos de Montreal (1976), Los Angeles(1984) e Seul (1988)."
+          },
           "teachers": [
             {
               "id": "JDP-11",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1903,
                 "end": 1965
@@ -2035,8 +2836,7 @@
               "uri": "http://archive.today/YkEjw"
             },
             {
-              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item",
-              "cite": "O Judo em Portugal"
+              "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item"
             }
           ],
           "source_yaml": "database/persons/JPN/Kobayashi_Kiyoshi.yaml"
@@ -2045,7 +2845,7 @@
       {
         "data": {
           "id": "JDP-13",
-          "name": "Kawaishi  Mikinosuke",
+          "name": "Kawaishi Mikinosuke",
           "native_name": {
             "name": "川石 酒造之助",
             "lang": "ja"
@@ -2054,42 +2854,45 @@
             "JPN"
           ],
           "birth": {
-            "date": "1899-08-13T00:00:00.000Z",
+            "date": "1899-08-13",
             "location": "Himeji",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1969-01-30T00:00:00.000Z",
+            "date": "1969-01-30",
             "location": "Paris",
             "country_code": "FRA"
           },
-          "description": null,
+          "description": {
+            "en": "Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13 August 1899 – 30 January 1969) was a Japanese master of jujutsu and judo who achieved the rank of 7th Dan. He led the development of Judo in France, with Shozo Awazu, and much of Europe and is credited with introducing the colored belt system for differentiating early grades. However, written accounts from the archives of London's Budokwai judo club, founded in 1918, record the use of colored judo belts at the 1926 9th annual Budokwai Display, and a list of ranked colored judokas appears in the Budokwai Committee Minutes of June 1927. Kawaishi visited London and the Budokwai in 1928, and was probably inspired to bring the colored belt system to France. The Fédération Française posthumously awarded him 10th Dan in judo and jujutsu."
+          },
           "photo_url": "https://archive.org/download/kawaishi_mikinosuke/kawaishi_mikinosuke.jpg",
           "teachers": [
             {
               "name": "Yoshida Kōtarō",
               "style_id": "JDP-S-1",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             },
             {
               "name": "Miyakawa Ikkan",
               "style_id": "JDP-S-1",
               "place": "Waseda University",
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             },
             {
               "id": "JDP-14",
               "style_id": "JDP-S-1",
               "place": "Waseda University",
+              "quality": null,
               "period": {
                 "start": 1881,
                 "end": null
@@ -2102,7 +2905,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "7 dan",
-              "year": null,
+              "date": null,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -2114,7 +2917,7 @@
               "org": "FFJDA",
               "teacher": null,
               "rank": "10 dan",
-              "year": null,
+              "date": null,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -2128,11 +2931,10 @@
             },
             {
               "uri": "https://doi.org/10.4471/hse.2013.15",
-              "cite": "View of The Origins of the French Teaching Method of Judo (1936-1967): Acculturation, International Sporting Stakes and Gaullism"
+              "cite": "\n\t\tThe Origins of the French Teaching Method of Judo (1936-1967): Acculturation, International Sporting Stakes and Gaullism\n\t\t\t\t\t\t\t| Social and Education History\n\t\t\t"
             },
             {
-              "uri": "https://judoinfo.com/kawaishi/",
-              "cite": "Mikonosuke Kawaishi: Judo Teacher in Europe | Judo Info"
+              "uri": "https://judoinfo.com/kawaishi/"
             },
             {
               "uri": "https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9",
@@ -2154,7 +2956,7 @@
             "JPN"
           ],
           "birth": {
-            "date": "1860-10-28T00:00:00.000Z",
+            "date": "1860-10-28",
             "location": "Kobe",
             "country_code": "JPN",
             "sources": [
@@ -2165,7 +2967,7 @@
             ]
           },
           "death": {
-            "date": "1928-05-04T00:00:00.000Z",
+            "date": "1928-05-04",
             "location": "Pacific Ocean",
             "country_code": null
           },
@@ -2175,6 +2977,13 @@
             "pt": "Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28 de outubro de 1860 – 4 de maio de 1938) foi o fundador da arte marcial Judo.\n"
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
+            "source": {
+              "uri": "https://commons.wikimedia.org/wiki/Category:Photographs_of_Kan%C5%8D_Jigor%C5%8D#/media/File:Kano_Jigoro.jpg",
+              "cite": "Jigoro Kano, Wikimedia Commons"
+            }
+          },
           "teachers": [
             {
               "id": "JDP-2",
@@ -2219,7 +3028,7 @@
                 {
                   "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
                   "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō",
-                  "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles® 嘉納歴代"
+                  "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
                 }
               ]
             }
@@ -2230,7 +3039,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "Shihan",
-              "year": null,
+              "date": null,
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -2242,7 +3051,7 @@
               "org": null,
               "teacher_id": "JDP-5",
               "rank": "Menkyo kaiden",
-              "year": null,
+              "date": null,
               "style": "Kitō-ryū",
               "style_native": {
                 "name": "起倒流",
@@ -2254,7 +3063,7 @@
               "org": null,
               "teacher_id": "JDP-4",
               "rank": "Menkyo kaiden",
-              "year": null,
+              "date": null,
               "style": "Tenjin Shin'yō-ryū",
               "style_native": {
                 "name": "天神真楊流",
@@ -2268,7 +3077,8 @@
               "cite": "嘉納治五郎 - Wikipedia"
             },
             {
-              "uri": "https://isbnsearch.org/isbn/9781425163495"
+              "uri": "https://isbnsearch.org/isbn/9781425163495",
+              "cite": "ISBN 9781425163495 - Judo Memoirs of Jigoro Kano"
             },
             {
               "uri": "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
@@ -2284,7 +3094,7 @@
             },
             {
               "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles® 嘉納歴代"
+              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
             }
           ],
           "source_yaml": "database/persons/JPN/Kano_Jigoro.yaml"
@@ -2294,7 +3104,10 @@
         "data": {
           "id": "JDP-36",
           "name": "Kanaya Genro",
-          "native_name": null,
+          "native_name": {
+            "name": null,
+            "lang": null
+          },
           "aka": [
             {
               "name": "Kanaya Motoyoshi"
@@ -2311,7 +3124,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -2319,16 +3132,16 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
             {
-              "style": null,
+              "style_id": null,
               "org": null,
               "teacher": null,
               "rank": null,
@@ -2352,9 +3165,75 @@
       },
       {
         "data": {
+          "id": "JDP-55",
+          "name": "Itosu Ankō",
+          "native_name": {
+            "name": "糸洲 安恒",
+            "lang": "ryu"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1831,
+            "location": "Shuri, Okinawa",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1915-03-11",
+            "location": "Shuri, Okinawa",
+            "country_code": "JPN"
+          },
+          "photo_url": "https://ia601205.us.archive.org/27/items/anko-itosu/Anko_Itosu.jpg",
+          "teachers": [
+            {
+              "id": "JDP-54",
+              "style_id": "JDP-S-13",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+                  "citation": "In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.",
+                  "cite": "Ankō Asato - Wikipedia"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu",
+              "cite": "Ankō Itosu - Wikipedia"
+            },
+            {
+              "uri": "https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html",
+              "cite": "Nihon Karate Do Shoto-kai Official Web Site"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Itosu_Anko.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-34",
           "name": "Ito Tanekichi",
-          "native_name": null,
+          "native_name": {
+            "name": null,
+            "lang": null
+          },
           "nationality": [
             "JPN"
           ],
@@ -2366,7 +3245,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": null,
           "teachers": [
@@ -2374,16 +3253,16 @@
               "id": null,
               "style_id": null,
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
             {
-              "style": null,
+              "style_id": null,
               "org": null,
               "teacher": null,
               "rank": null,
@@ -2411,14 +3290,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1871-10-26T00:00:00.000Z",
+            "date": "1871-10-26",
             "location": "Miyazaki",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1947-04-19T00:00:00.000Z",
+            "date": "1947-04-19",
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://archive.org/download/isogai_hajime/isogai_hajime.jpg",
           "teachers": [
@@ -2426,11 +3305,11 @@
               "id": "JDP-9",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
+              "quality": null,
               "period": {
                 "start": 1891,
                 "end": null
-              },
-              "rank": null
+              }
             }
           ],
           "rank": [
@@ -2439,7 +3318,7 @@
               "org": "Kodokan",
               "teacher": null,
               "rank": "10 dan",
-              "date": "1927-12-22T00:00:00.000Z",
+              "date": "1927-12-22",
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -2472,15 +3351,34 @@
             "JPN"
           ],
           "birth": {
-            "date": 1818
+            "date": 1818,
+            "location": null,
+            "country_code": null
           },
           "death": {
-            "date": 1881
+            "date": 1881,
+            "location": null,
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-3",
-              "style_id": "JDP-S-3"
+              "style_id": "JDP-S-3",
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -2509,16 +3407,20 @@
           ],
           "birth": {
             "date": 1790,
-            "location": "Matsuzaka, Japan"
+            "location": "Matsuzaka",
+            "country_code": "JPN"
           },
           "death": {
             "date": 1863,
-            "location": "Otamagaike, Japan"
+            "location": "Otamagaike",
+            "country_code": "JPN"
           },
           "teachers": [
             {
               "name": "Hitotsu Yanagi Oribe",
               "style_id": "JDP-S-3",
+              "place": null,
+              "quality": null,
               "period": {
                 "start": 1785,
                 "end": 1792
@@ -2527,10 +3429,21 @@
             {
               "name": "Homma Jouemon",
               "style": "Shin no Shinto-ryu",
+              "place": null,
+              "quality": null,
               "period": {
                 "start": 1792,
                 "end": 1798
               }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -2559,7 +3472,10 @@
               "name": "Okusawa Keitaro"
             },
             {
-              "native_name": "奥澤敬太郎"
+              "native_name": {
+                "name": "奥澤敬太郎",
+                "lang": "ja"
+              }
             }
           ],
           "nationality": [
@@ -2571,30 +3487,39 @@
             "country_code": "JPN"
           },
           "death": {
-            "date": "1912-09-23T00:00:00.000Z",
+            "date": "1912-09-23",
             "location": null,
-            "country": "JPN"
+            "country_code": "JPN"
           },
           "teachers": [
             {
               "id": "JDP-3",
               "style_id": "JDP-S-3",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
             },
             {
               "name": "Okuzawa Sanzo",
               "style": "Kiraku-ryu",
               "place": null,
+              "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              },
-              "rank": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -2622,14 +3547,14 @@
             "JPN"
           ],
           "birth": {
-            "date": "1875-02-13T00:00:00.000Z",
+            "date": "1875-02-13",
             "location": "Mikamo",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1958-07-25T00:00:00.000Z",
+            "date": "1958-07-25",
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg",
           "teachers": [
@@ -2641,7 +3566,7 @@
                 "start": 1891,
                 "end": null
               },
-              "rank": null
+              "quality": null
             }
           ],
           "rank": [
@@ -2675,7 +3600,11 @@
         "data": {
           "id": "JDP-5",
           "name": "Iikubo Tsunetoshi",
-          "alias": "Iikubo Kōnen",
+          "aka": [
+            {
+              "name": "Iikubo Kōnen"
+            }
+          ],
           "native_name": {
             "name": "飯久保鍬吉恒年先生",
             "lang": "ja"
@@ -2684,12 +3613,14 @@
             "JPN"
           ],
           "birth": {
-            "date": null,
-            "location": null
+            "date": 1835,
+            "location": null,
+            "country_code": null
           },
           "death": {
-            "date": null,
-            "location": null
+            "date": 1889,
+            "location": null,
+            "country_code": null
           },
           "teachers": [
             {
@@ -2700,7 +3631,16 @@
                 "start": null,
                 "end": null
               },
-              "rank": null
+              "quality": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -2711,6 +3651,20 @@
             {
               "uri": "https://doi.org/10.18002/rama.v9i2.1162",
               "cite": "\n\t\tNanatsu-no-kata, Endo-no-kata, and Joge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo\n\t\t\t\t\t\t\t| Revista de Artes Marciales Asiáticas\n\t\t\t"
+            },
+            {
+              "uri": "https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC",
+              "cite": "Judo Memoirs of Jigoro Kano - Brian N. Watson - Google Livros",
+              "events": [
+                "birth"
+              ]
+            },
+            {
+              "uri": "https://www.cismeurope.org/history-judo/",
+              "events": [
+                "birth death"
+              ],
+              "cite": "   History Judo  : CISM Europe"
             }
           ],
           "source_yaml": "database/persons/JPN/Iikubo_Tsunetoshi.yaml"
@@ -2728,26 +3682,50 @@
             "JPN"
           ],
           "birth": {
-            "date": "1868-10-11T00:00:00.000Z",
+            "date": "1868-10-11",
             "location": "Shuri, Okinawa",
             "country_code": "JPN"
           },
           "death": {
-            "date": "1957-04-26T00:00:00.000Z",
+            "date": "1957-04-26",
             "location": "Tokyo",
             "country_code": "JPN"
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/EVD-kumite-002.jpg",
           "teachers": [
             {
-              "id": null,
-              "style_id": null,
+              "id": "JDP-56",
+              "style_id": "JDP-S-13",
               "place": null,
               "period": {
                 "start": null,
                 "end": null
               },
-              "rank": null
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+                  "citation": "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.",
+                  "cite": "Ankō Asato - Wikipedia"
+                }
+              ]
+            },
+            {
+              "id": "JDP-55",
+              "style_id": "JDP-S-13",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+                  "citation": "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.",
+                  "cite": "Ankō Asato - Wikipedia"
+                }
+              ]
             }
           ],
           "rank": [
@@ -2765,11 +3743,131 @@
               "cite": "Gichin Funakoshi - Wikipedia"
             },
             {
-              "uri": "https://judoinfo.com/karateranks/",
-              "cite": "How the masters got their ranks: the origins of karate ranks | Judo Info"
+              "uri": "https://judoinfo.com/karateranks/"
+            },
+            {
+              "uri": "https://search.worldcat.org/title/7673297",
+              "cite": "Karate-dō : my way of life | WorldCat.org"
             }
           ],
           "source_yaml": "database/persons/JPN/Funakoshi_Gichin.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-57",
+          "name": "Fukuda Keiko",
+          "native_name": {
+            "name": "福田 敬子",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1913-04-12",
+            "location": "Tokyo",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "2013-02-09",
+            "location": "San Francisco",
+            "country_code": "USA"
+          },
+          "description": {
+            "en": "Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April 12, 1913 – February 9, 2013) was a Japanese-American martial artist. She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011), and was the last surviving student of Kanō Jigorō, founder of judo. She was a renowned pioneer of women's judo, together with her senpai Masako Noritomi (1913–1982) being the first woman promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted Fukuda to 9th dan.[8] She is also the first and, so far, only woman to have been promoted to 10th dan in the art of judo."
+          },
+          "photo": {
+            "url": "https://assets.change.org/photos/7/kx/tf/pUKxTfavKIGEOvT-800x450-noPad.jpg",
+            "source": {
+              "uri": "https://www.change.org/p/uemura-haruki-demand-10th-degree-black-belt-for-keiko-fukuda",
+              "cite": "Change.org - Keiko Fukuda 10th dan petition"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-1",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1935,
+                "end": 1966
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
+                  "cite": "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.",
+                  "citation": "Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking"
+                }
+              ]
+            },
+            {
+              "id": "JDP-11",
+              "style_id": "JDP-S-1",
+              "place": "Kodokan",
+              "period": {
+                "start": 1935,
+                "end": 1966
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
+                  "cite": "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.",
+                  "citation": "Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "9 dan",
+              "date": null,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-1",
+              "org": "USJF",
+              "teacher": null,
+              "rank": "10 dan",
+              "date": null,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Keiko_Fukuda",
+              "cite": "Keiko Fukuda - Wikipedia"
+            },
+            {
+              "uri": "https://www.usjf.com/2018/02/keiko-fukuda/",
+              "cite": "Keiko Fukuda | United States Judo Federation"
+            },
+            {
+              "uri": "https://judoinfo.com/fukuda/"
+            },
+            {
+              "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
+              "cite": "Black Belt - Google Livros"
+            },
+            {
+              "uri": "https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/",
+              "cite": "A Living Legend: Judo Master Keiko Fukuda | Steph Davis - High Places"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Fukuda_Keiko.yaml"
         }
       },
       {
@@ -2785,19 +3883,33 @@
           ],
           "birth": {
             "date": 1828,
-            "location": "Nagatoro, Japan"
+            "location": "Nagatoro",
+            "country_code": "JPN"
           },
           "death": {
-            "date": "1879-08-14T00:00:00.000Z"
+            "date": "1879-08-14",
+            "location": null,
+            "country_code": "JPN"
           },
           "teachers": [
             {
               "id": "JDP-4",
               "style_id": "JDP-S-3",
               "place": "Otamagaike dojo",
+              "quality": null,
               "period": {
-                "start": 1851
+                "start": 1851,
+                "end": null
               }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
             }
           ],
           "sources": [
@@ -2815,6 +3927,73 @@
       },
       {
         "data": {
+          "id": "JDP-56",
+          "name": "Asato Ankō",
+          "native_name": {
+            "name": "安里 安恒",
+            "lang": "ryu"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": 1827,
+            "location": "Shuri, Okinawa",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": 1903,
+            "location": null,
+            "country_code": null
+          },
+          "photo_url": "https://archive.org/download/anko-asato/Anko-Asato.jpg",
+          "teachers": [
+            {
+              "id": "JDP-54",
+              "style_id": "JDP-S-13",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+                  "citation": "In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.",
+                  "cite": "Ankō Asato - Wikipedia"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92",
+              "cite": "安里安恒 - Wikipedia"
+            },
+            {
+              "uri": "https://www.world-traditional-karate-federation.com/anko-asato-move-to-tokyo.html",
+              "cite": "Anko Asato move to Tokyo - World Traditional Karate Federation"
+            },
+            {
+              "uri": "https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html",
+              "cite": "Nihon Karate Do Shoto-kai Official Web Site"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Asato_Anko.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-45",
           "name": "Mario Aleixo",
           "nationality": [
@@ -2827,8 +4006,8 @@
           },
           "death": {
             "date": 1947,
-            "location": "----",
-            "country": "BRA"
+            "location": null,
+            "country_code": "BRA"
           },
           "photo_url": "https://img1.wsimg.com/isteam/ip/480b94b8-cb6a-48b7-9add-7d9635474067/Aleixo_1918.jpg/:/rs=w:400,cg:true,m",
           "teachers": [
@@ -2869,14 +4048,14 @@
             "BRA"
           ],
           "birth": {
-            "date": "1910-06-02T00:00:00.000Z",
+            "date": "1910-06-02",
             "location": "Alagoas",
             "country_code": "BRA"
           },
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "photo_url": "https://ia601602.us.archive.org/29/items/luiz_franca_filho/vsr23XAf.jpg",
           "teachers": [
@@ -2915,8 +4094,7 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -2953,13 +4131,14 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "teachers": [
             {
               "id": "JDP-18",
               "style_id": "JDP-S-1",
               "place": null,
+              "quality": null,
               "period": {
                 "start": 1915,
                 "end": null
@@ -3002,7 +4181,7 @@
           "death": {
             "date": null,
             "location": null,
-            "country": null
+            "country_code": null
           },
           "teachers": [
             {
@@ -3027,8 +4206,7 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
-              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
@@ -3046,14 +4224,14 @@
             "BRA"
           ],
           "birth": {
-            "date": "1902-09-14T00:00:00.000Z",
+            "date": "1902-09-14",
             "location": "Belém, Pará",
             "country_code": "BRA"
           },
           "death": {
-            "date": "1994-10-07T00:00:00.000Z",
+            "date": "1994-10-07",
             "location": "Petrópolis",
-            "country": "BRA"
+            "country_code": "BRA"
           },
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg",
           "teachers": [
@@ -3111,7 +4289,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDPdcdfe3c51dd45",
+          "id": "JDP90afed07af5f",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-11",
           "target": "JDP-24",
@@ -3131,7 +4309,61 @@
       },
       {
         "data": {
-          "id": "JDP2696978990ca1",
+          "id": "JDP6c4fc3b5ecd1",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Karl Geis",
+          "source": "JDP-12",
+          "target": "JDP-52",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 2,
+          "period": {
+            "start": 1952,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.karlgeis.com/his-resume",
+              "cite": "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)",
+              "citation": "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP04a7d9f08f125",
+          "name": "Tsunako Miyake (Aikidō) Karl Geis",
+          "source": "JDP-53",
+          "target": "JDP-52",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.karlgeis.com/his-resume",
+              "cite": "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)",
+              "citation": "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP30e438b0182d",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-12",
           "target": "JDP-25",
@@ -3151,7 +4383,7 @@
       },
       {
         "data": {
-          "id": "JDP977a8cda670b7",
+          "id": "JDP774278860307d",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -3162,6 +4394,7 @@
             "lang": "ja"
           },
           "place": "Judo Clube de Portugal",
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3170,7 +4403,7 @@
       },
       {
         "data": {
-          "id": "JDPe59d92a8e3a25",
+          "id": "JDP997887bdbdc88",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-12",
           "target": "JDP-16",
@@ -3181,6 +4414,7 @@
             "lang": "ja"
           },
           "place": "Judo Clube de Portugal",
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3189,7 +4423,7 @@
       },
       {
         "data": {
-          "id": "JDP83cb0fe25851b",
+          "id": "JDP56257f703feee",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yokoyama Sakujiro",
           "source": "JDP-1",
           "target": "JDP-9",
@@ -3200,6 +4434,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1886,
             "end": null
@@ -3208,7 +4443,7 @@
       },
       {
         "data": {
-          "id": "JDP625fa60812109",
+          "id": "JDPc14a3e1c2f42d",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-10",
           "target": "JDP-9",
@@ -3219,6 +4454,7 @@
             "lang": "ja"
           },
           "place": "Yushima Tenjin dojo",
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3227,7 +4463,7 @@
       },
       {
         "data": {
-          "id": "JDP42f9c346da34f",
+          "id": "JDP769ce1c3e7d65",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-28",
           "target": "JDP-27",
@@ -3238,6 +4474,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": 1915,
             "end": 1922
@@ -3246,7 +4483,7 @@
       },
       {
         "data": {
-          "id": "JDP20445c01c4521",
+          "id": "JDPbbac9818f4386",
           "name": "Tozawa Tokusaburo (Tenjin Shin'yō-ryū) Ueshiba Morihei",
           "source": "JDP-47",
           "target": "JDP-27",
@@ -3257,6 +4494,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": 1901,
             "end": 1901
@@ -3280,7 +4518,101 @@
       },
       {
         "data": {
-          "id": "JDP283312951d79",
+          "id": "JDPc857a00acf7ec",
+          "name": "Masakatsu Naka (Yagyū Shingan-ryū) Ueshiba Morihei",
+          "source": "JDP-50",
+          "target": "JDP-27",
+          "interaction": "Yagyū Shingan-ryū",
+          "interaction_id": "JDP-S-11",
+          "interaction_native": {
+            "name": "柳生心眼流",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+              "citation": "Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū",
+              "cite": "Yagyū Shingan-ryū - Wikipedia"
+            },
+            {
+              "uri": "https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/",
+              "citation": "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms.",
+              "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP833821e186407",
+          "name": "Kanō Jigorō (Kōdōkan Jūdō) Uchida Ryōhei",
+          "source": "JDP-1",
+          "target": "JDP-48",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 1,
+          "period": {
+            "start": 1893,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws",
+              "citation": "Miyakawa remained a Gen’yōshamember and became a Kōdōkan top-executive (Kōdōkan Saikō  Kanbu講道館最高幹部)  closely  associated  with Kanō Jigorō, as was Uchida Ryōhei"
+            },
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "citation": "He was also an accomplished jūdōka, a favorite of Kanō shihan 師範 (master), one of the three most senior 5th dan rank holders in Kodokan history, and a noted street brawler.",
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles© 嘉納歴代©"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP4c74600e3788e",
+          "name": "Miyagawa Taichiro (Jigō Tenshin Ryū) Uchida Ryōhei",
+          "source": "JDP-49",
+          "target": "JDP-48",
+          "interaction": "Jigō Tenshin Ryū",
+          "interaction_id": "JDP-S-12",
+          "interaction_native": {
+            "name": "自剛天真流",
+            "lang": "ja"
+          },
+          "place": "Meikokan dojo",
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。"
+            },
+            {
+              "uri": "https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/",
+              "citation": "He learned a number of martial arts, most notably Jigō Tenshin Ryū Jūjutsu in Fukuoka’s Meidokan dōjō, an art in which he was notably successful. In 1893 he moved to Tokyo to live with his wealthy coal mine owner uncle Hiraoka Kōtarō, a supporter of the Genyōsha, and began to study Russian at a Tokyo school and jūdō at Kanō Jigorō’s Kodokan.",
+              "cite": "Ki 気 in Jūdō 柔道- Uchida Ryōhei and the Secrets of Budō 武道極意 – The Kanō Chronicles – The Kano Chronicles© 嘉納歴代©"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP922a58baccfdc",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Tozawa Tokusaburo",
           "source": "JDP-4",
           "target": "JDP-47",
@@ -3291,6 +4623,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3309,7 +4642,7 @@
       },
       {
         "data": {
-          "id": "JDP19af9423b1bd",
+          "id": "JDP2810c9ec9d3ca",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomita Tsunejirō",
           "source": "JDP-1",
           "target": "JDP-17",
@@ -3320,6 +4653,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1882,
             "end": null
@@ -3328,7 +4662,7 @@
       },
       {
         "data": {
-          "id": "JDP9ce2515afd9e4",
+          "id": "JDP7bcaa583e0d38",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-1",
           "target": "JDP-26",
@@ -3339,6 +4673,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": 1895,
             "end": 1896
@@ -3347,7 +4682,7 @@
       },
       {
         "data": {
-          "id": "JDPab0ae25c8ecb4",
+          "id": "JDP98898196a7881",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-27",
           "target": "JDP-26",
@@ -3358,6 +4693,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": 1926,
             "end": null
@@ -3366,7 +4702,7 @@
       },
       {
         "data": {
-          "id": "JDP22c4a82a5801e",
+          "id": "JDP8edc2cdb3ef29",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-7",
           "target": "JDP-6",
@@ -3377,6 +4713,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3385,7 +4722,7 @@
       },
       {
         "data": {
-          "id": "JDPc08c589284ac1",
+          "id": "JDPc7cf0fa33553c",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-8",
           "target": "JDP-7",
@@ -3396,6 +4733,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3404,7 +4742,7 @@
       },
       {
         "data": {
-          "id": "JDP567e37686d6d8",
+          "id": "JDP0b714684c4828",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Takahashi Kazuyoshi",
           "source": "JDP-9",
           "target": "JDP-14",
@@ -3415,6 +4753,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -3423,7 +4762,7 @@
       },
       {
         "data": {
-          "id": "JDP005d272d5e077",
+          "id": "JDP0f1371875abdf",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-31",
           "target": "JDP-30",
@@ -3443,7 +4782,7 @@
       },
       {
         "data": {
-          "id": "JDPa66f3fe098096",
+          "id": "JDP705708e86a7bb",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-27",
           "target": "JDP-30",
@@ -3463,7 +4802,7 @@
       },
       {
         "data": {
-          "id": "JDP8e0dd4507f3f5",
+          "id": "JDP2ba930a9daecf",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-32",
           "target": "JDP-30",
@@ -3483,7 +4822,7 @@
       },
       {
         "data": {
-          "id": "JDP7389f6b7d6122",
+          "id": "JDPd1b0d5149d814",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-33",
           "target": "JDP-30",
@@ -3503,7 +4842,7 @@
       },
       {
         "data": {
-          "id": "JDPfa877a0e064c6",
+          "id": "JDP39481586a31a",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-34",
           "target": "JDP-30",
@@ -3523,7 +4862,7 @@
       },
       {
         "data": {
-          "id": "JDPba0308661b80c",
+          "id": "JDP1790c3fed0ee3",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-35",
           "target": "JDP-30",
@@ -3543,7 +4882,7 @@
       },
       {
         "data": {
-          "id": "JDP7a88d474190ce",
+          "id": "JDPa9f6e70e5c4c3",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-36",
           "target": "JDP-30",
@@ -3563,7 +4902,7 @@
       },
       {
         "data": {
-          "id": "JDP87f7728ef99d8",
+          "id": "JDP835e8c7a71ef2",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-17",
           "target": "JDP-22",
@@ -3583,7 +4922,7 @@
       },
       {
         "data": {
-          "id": "JDP225227be5bffb",
+          "id": "JDP33c6fe32dd006",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-1",
           "target": "JDP-22",
@@ -3603,7 +4942,7 @@
       },
       {
         "data": {
-          "id": "JDPf32f08ad141e8",
+          "id": "JDP8e49c07da3d4e",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-42",
           "target": "JDP-38",
@@ -3623,7 +4962,7 @@
       },
       {
         "data": {
-          "id": "JDPf9477250746b8",
+          "id": "JDPa79cd83427713",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-43",
           "target": "JDP-38",
@@ -3643,7 +4982,7 @@
       },
       {
         "data": {
-          "id": "JDP765b16f866d21",
+          "id": "JDPc61767df84d6a",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-44",
           "target": "JDP-38",
@@ -3663,7 +5002,7 @@
       },
       {
         "data": {
-          "id": "JDP68f113cfda61e",
+          "id": "JDP8ab077d677f19",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-1",
           "target": "JDP-44",
@@ -3674,6 +5013,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1891,
             "end": null
@@ -3682,7 +5022,7 @@
       },
       {
         "data": {
-          "id": "JDPf33fafdb2b4b4",
+          "id": "JDPdb59352ffc06a",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-1",
           "target": "JDP-29",
@@ -3693,6 +5033,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1925,
             "end": 1930
@@ -3701,7 +5042,7 @@
       },
       {
         "data": {
-          "id": "JDPc2eb22b24ba6f",
+          "id": "JDPaca139fa90a78",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-11",
           "target": "JDP-29",
@@ -3712,6 +5053,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1925,
             "end": 1930
@@ -3720,7 +5062,7 @@
       },
       {
         "data": {
-          "id": "JDPde766bdf45fcd",
+          "id": "JDP69b3403c96ee7",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-27",
           "target": "JDP-29",
@@ -3731,15 +5073,135 @@
             "lang": "ja"
           },
           "place": "Kobukan dojo",
+          "quality": null,
           "period": {
             "start": 1930,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/",
+              "citation": "That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)",
+              "cite": "Interview with Minoru Mochizuki: Part 1 – Aikido Journal"
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP2594227212cac",
+          "id": "JDPbf5642f488b34",
+          "name": "Funakoshi Gichin (Karate) Mochizuki Minoru",
+          "source": "JDP-41",
+          "target": "JDP-29",
+          "interaction": "Karate",
+          "interaction_id": "JDP-S-5",
+          "interaction_native": {
+            "name": "空手",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 1,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/",
+              "citation": "Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi",
+              "cite": "Hiroo Mochizuki : «Échapper au conditionnement» – Fédération Française de Karaté"
+            },
+            {
+              "uri": "https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false",
+              "cite": "A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.",
+              "citation": "Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and \"the father of Japanese karate, Gichin Funakoshi."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPd361aa0b09873",
+          "name": "Tomiki Kenji (Aikidō) Tsunako Miyake",
+          "source": "JDP-26",
+          "target": "JDP-53",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two",
+              "cite": "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)",
+              "citation": "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPadd60583c3b6a",
+          "name": "Tomiki Kenji (Kōdōkan Jūdō) Tsunako Miyake",
+          "source": "JDP-26",
+          "target": "JDP-53",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification",
+              "cite": "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)",
+              "citation": "Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP32c87698ffccc",
+          "name": "Matashichiro Shobayashi (Jigō Tenshin Ryū) Miyagawa Taichiro",
+          "source": "JDP-51",
+          "target": "JDP-49",
+          "interaction": "Jigō Tenshin Ryū",
+          "interaction_id": "JDP-S-12",
+          "interaction_native": {
+            "name": "自剛天真流",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
+              "citation": "宮川太一郎嘉永元年（1848）生正林又七郎の高弟・免許皆伝代々黒田家の臣である。一万流剣術，自剛天真流組討を極め，明治10年(1877) 11月玄洋社附属の向浜塾で自聞天真流を教授したのが，後の明道館道場の起源とされている。大正9年(1920)6月20日77才にて病没。長男．宮川彦之助も目録まで進み，自剛天真流の普及に務めた。"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP3122695c78ab8",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-1",
           "target": "JDP-11",
@@ -3750,6 +5212,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1903,
             "end": 1965
@@ -3758,7 +5221,7 @@
       },
       {
         "data": {
-          "id": "JDPd62e7e5b98941",
+          "id": "JDPe2e1efc217e3f",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-9",
           "target": "JDP-11",
@@ -3769,6 +5232,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1903,
             "end": null
@@ -3777,7 +5241,7 @@
       },
       {
         "data": {
-          "id": "JDP60a735263a21c",
+          "id": "JDP75ff274c79901",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-17",
           "target": "JDP-18",
@@ -3788,6 +5252,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1896,
             "end": null
@@ -3796,7 +5261,7 @@
       },
       {
         "data": {
-          "id": "JDPa0cae42c87e81",
+          "id": "JDP1db099155c341",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-38",
           "target": "JDP-37",
@@ -3816,7 +5281,7 @@
       },
       {
         "data": {
-          "id": "JDPf7278c6e947af",
+          "id": "JDPf561553a5dbe8",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-39",
           "target": "JDP-37",
@@ -3836,7 +5301,7 @@
       },
       {
         "data": {
-          "id": "JDPc16cd92d03354",
+          "id": "JDP8345aeb8d3305",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-42",
           "target": "JDP-37",
@@ -3856,7 +5321,7 @@
       },
       {
         "data": {
-          "id": "JDPad992737a4d2c",
+          "id": "JDPb4f9362a4edbd",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-40",
           "target": "JDP-37",
@@ -3876,7 +5341,7 @@
       },
       {
         "data": {
-          "id": "JDPbc778da1048bd",
+          "id": "JDP3a51881bda16f",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-41",
           "target": "JDP-37",
@@ -3891,12 +5356,19 @@
           "period": {
             "start": 1924,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://ryukyu-bugei.com/?p=6586",
+              "citation": "When he [Konishi] met Funakoshi Gichin in June 1925, he was finally able to learn Karate. However, since its contents was only Kata, together with Ōtsuka Hironori 大塚博紀 (1892–1982, founder of Wadō-ryū Karate-dō and Jūjutsu Kenpō) who was also a disciple of Funakoshi, Konishi began to devise Yakusoku Kumite 約束組手 and the like. Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa.",
+              "cite": "\nKonishi Yasuhiro 小西康裕 | Ryukyu Bugei 琉球武芸\t"
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP74ec6cca059d",
+          "id": "JDP9d547427f91a9",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-27",
           "target": "JDP-37",
@@ -3916,7 +5388,7 @@
       },
       {
         "data": {
-          "id": "JDP51b18d3254101",
+          "id": "JDP06cfc14394ddb",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Kobayashi Kiyoshi",
           "source": "JDP-11",
           "target": "JDP-12",
@@ -3927,6 +5399,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1903,
             "end": 1965
@@ -3935,8 +5408,8 @@
       },
       {
         "data": {
-          "id": "JDP493194d8d8cf3",
-          "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi  Mikinosuke",
+          "id": "JDP14a7c91e78636",
+          "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi Mikinosuke",
           "source": "JDP-14",
           "target": "JDP-13",
           "interaction": "Kōdōkan Jūdō",
@@ -3946,6 +5419,7 @@
             "lang": "ja"
           },
           "place": "Waseda University",
+          "quality": null,
           "period": {
             "start": 1881,
             "end": null
@@ -3954,7 +5428,7 @@
       },
       {
         "data": {
-          "id": "JDP59fc6682f8e67",
+          "id": "JDP1b65bc121b7af",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-2",
           "target": "JDP-1",
@@ -3974,7 +5448,7 @@
       },
       {
         "data": {
-          "id": "JDP69e0e8f25a25b",
+          "id": "JDPaf00734184035",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-4",
           "target": "JDP-1",
@@ -3994,7 +5468,7 @@
       },
       {
         "data": {
-          "id": "JDPee2df3bc62cbb",
+          "id": "JDP1de3f5530cc03",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-5",
           "target": "JDP-1",
@@ -4014,7 +5488,7 @@
       },
       {
         "data": {
-          "id": "JDP167a75236e5b6",
+          "id": "JDP0fe2597a030c3",
           "name": "Oshima Masateru (Yagyū Shingan-ryū) Kanō Jigorō",
           "source": "JDP-46",
           "target": "JDP-1",
@@ -4034,14 +5508,41 @@
             {
               "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
               "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles® 嘉納歴代"
+              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDPeb7d502655552",
+          "id": "JDP57c8428b93cf4",
+          "name": "Matsumura Sōkon (Shuri-te) Itosu Ankō",
+          "source": "JDP-54",
+          "target": "JDP-55",
+          "interaction": "Shuri-te",
+          "interaction_id": "JDP-S-13",
+          "interaction_native": {
+            "name": "首里手",
+            "lang": "ryu"
+          },
+          "place": null,
+          "quality": 1,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+              "citation": "In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.",
+              "cite": "Ankō Asato - Wikipedia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP78dfa241eb2b6",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-9",
           "target": "JDP-43",
@@ -4052,6 +5553,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1891,
             "end": null
@@ -4060,7 +5562,7 @@
       },
       {
         "data": {
-          "id": "JDP3bd3998da9846",
+          "id": "JDP5ad566eb85236",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-3",
           "target": "JDP-4",
@@ -4069,12 +5571,18 @@
           "interaction_native": {
             "name": "天神真楊流",
             "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
           }
         }
       },
       {
         "data": {
-          "id": "JDPa92c86f3044e",
+          "id": "JDPa40a130c018d6",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-3",
           "target": "JDP-10",
@@ -4085,6 +5593,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -4093,7 +5602,7 @@
       },
       {
         "data": {
-          "id": "JDP19886916ee7e7",
+          "id": "JDP3e313781dc7a4",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-9",
           "target": "JDP-31",
@@ -4104,6 +5613,7 @@
             "lang": "ja"
           },
           "place": "Kodokan",
+          "quality": null,
           "period": {
             "start": 1891,
             "end": null
@@ -4112,7 +5622,7 @@
       },
       {
         "data": {
-          "id": "JDPdd224edb0df2d",
+          "id": "JDP1bcd1303ecf53",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-6",
           "target": "JDP-5",
@@ -4123,6 +5633,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": null,
             "end": null
@@ -4131,7 +5642,115 @@
       },
       {
         "data": {
-          "id": "JDP2459a1c1e7c8d",
+          "id": "JDPaddb0d104e76d",
+          "name": "Asato Ankō (Shuri-te) Funakoshi Gichin",
+          "source": "JDP-56",
+          "target": "JDP-41",
+          "interaction": "Shuri-te",
+          "interaction_id": "JDP-S-13",
+          "interaction_native": {
+            "name": "首里手",
+            "lang": "ryu"
+          },
+          "place": null,
+          "quality": 1,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+              "citation": "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.",
+              "cite": "Ankō Asato - Wikipedia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP7b7d699ad6595",
+          "name": "Itosu Ankō (Shuri-te) Funakoshi Gichin",
+          "source": "JDP-55",
+          "target": "JDP-41",
+          "interaction": "Shuri-te",
+          "interaction_id": "JDP-S-13",
+          "interaction_native": {
+            "name": "首里手",
+            "lang": "ryu"
+          },
+          "place": null,
+          "quality": 1,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+              "citation": "Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.",
+              "cite": "Ankō Asato - Wikipedia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa562c4e789964",
+          "name": "Kanō Jigorō (Kōdōkan Jūdō) Fukuda Keiko",
+          "source": "JDP-1",
+          "target": "JDP-57",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 3,
+          "period": {
+            "start": 1935,
+            "end": 1966
+          },
+          "sources": [
+            {
+              "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
+              "cite": "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.",
+              "citation": "Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP05aaebb76a53d",
+          "name": "Mifune Kyūzō (Kōdōkan Jūdō) Fukuda Keiko",
+          "source": "JDP-11",
+          "target": "JDP-57",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Kodokan",
+          "quality": 3,
+          "period": {
+            "start": 1935,
+            "end": 1966
+          },
+          "sources": [
+            {
+              "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
+              "cite": "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.",
+              "citation": "Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP519b8de2a7e5a",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-4",
           "target": "JDP-2",
@@ -4142,14 +5761,43 @@
             "lang": "ja"
           },
           "place": "Otamagaike dojo",
+          "quality": null,
           "period": {
-            "start": 1851
+            "start": 1851,
+            "end": null
           }
         }
       },
       {
         "data": {
-          "id": "JDP7697911fd8056",
+          "id": "JDP1afc309d9af98",
+          "name": "Matsumura Sōkon (Shuri-te) Asato Ankō",
+          "source": "JDP-54",
+          "target": "JDP-56",
+          "interaction": "Shuri-te",
+          "interaction_id": "JDP-S-13",
+          "interaction_native": {
+            "name": "首里手",
+            "lang": "ryu"
+          },
+          "place": null,
+          "quality": 1,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Ank%C5%8D_Asato",
+              "citation": "In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.",
+              "cite": "Ankō Asato - Wikipedia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP6794e259e6f52",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Mario Aleixo",
           "source": "JDP-18",
           "target": "JDP-45",
@@ -4169,7 +5817,7 @@
       },
       {
         "data": {
-          "id": "JDP6c66647d50fbb",
+          "id": "JDP7a7eac0e2c80c",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-22",
           "target": "JDP-20",
@@ -4189,7 +5837,7 @@
       },
       {
         "data": {
-          "id": "JDP96f4eb1c47247",
+          "id": "JDP77b7c0d4bb00d",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-18",
           "target": "JDP-20",
@@ -4209,7 +5857,7 @@
       },
       {
         "data": {
-          "id": "JDP7f001af2c03da",
+          "id": "JDP6f0fdac58d61c",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-18",
           "target": "JDP-19",
@@ -4220,6 +5868,7 @@
             "lang": "ja"
           },
           "place": null,
+          "quality": null,
           "period": {
             "start": 1915,
             "end": null
@@ -4228,7 +5877,7 @@
       },
       {
         "data": {
-          "id": "JDPd5570879471ae",
+          "id": "JDP070e483f6cbcd",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-18",
           "target": "JDP-23",
@@ -4248,7 +5897,7 @@
       },
       {
         "data": {
-          "id": "JDP9ab39061c9afe",
+          "id": "JDPafc1bf8f8032e",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-19",
           "target": "JDP-21",
@@ -4268,7 +5917,7 @@
       },
       {
         "data": {
-          "id": "JDP630d2459d3372",
+          "id": "JDPb9036c23999fb",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-18",
           "target": "JDP-21",

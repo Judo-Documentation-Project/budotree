@@ -8,14 +8,29 @@ person:
     name: 磯正智
     lang: ja
   nationality:
-    - JPN  
-  birth: 
+    - JPN
+  birth:
     date: 1818
+    location:
+    country_code:
   death:
     date: 1881
+    location:
+    country_code:
   teachers:
     - id: JDP-3
       style_id: JDP-S-3
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA

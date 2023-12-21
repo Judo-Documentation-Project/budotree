@@ -13,9 +13,9 @@ person:
     location: Houston, Texas
     country_code: USA
   death:
-    date: 2014-04-07
+    date: "2014-04-07"
     location:
-    country:
+    country_code:
   photo_url: https://ia601208.us.archive.org/9/items/karl_geis_formal_202312/karl_geis_formal.png
   teachers:
     - id: JDP-12    # Kobayashi Kiyoshi
@@ -50,12 +50,12 @@ person:
       org:
       teacher:
       rank: 10 dan  # Fugakukai
-      year: 1997
+      date: 1997
     - style_id: JDP-S-4
       org:
       teacher:
       rank: 6 dan  # Tomiki / Shodokan
-      year: 1980
+      date: 1980
   sources:
     - uri: https://en.wikipedia.org/wiki/Karl_Geis
     - uri: https://www.karlgeis.com/his-resume

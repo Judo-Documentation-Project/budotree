@@ -8,22 +8,29 @@ person:
     name: 滝野遊軒
     lang: ja
   nationality:
-    - JPN  
-  birth: 
+    - JPN
+  birth:
     date: 1659
     location: Tamba
     country_code: JPN
   death:
     date:
     location:
+    country_code:
   teachers:
     - id:
       style:
-      place: 
+      place:
+      quality:
       period:
         start:
         end:
-      rank: 
+  rank:
+    - style:
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
     - uri: https://doi.org/10.18002/rama.v13i2.5700

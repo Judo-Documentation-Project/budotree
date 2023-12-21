@@ -18,7 +18,7 @@ person:
     location: Shuri, Okinawa
     country_code: JPN
   death:
-    date: 1915-03-11
+    date: "1915-03-11"
     location: Shuri, Okinawa
     country_code: JPN
   photo_url: https://ia601205.us.archive.org/27/items/anko-itosu/Anko_Itosu.jpg
@@ -29,7 +29,6 @@ person:
       period:
         start:
         end:
-      rank:
       quality: 1
       sources:
         - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato

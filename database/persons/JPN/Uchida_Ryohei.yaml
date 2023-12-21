@@ -10,13 +10,13 @@ person:
   nationality:
     - JPN
   birth:
-    date: 1873-02-11
+    date: "1873-02-11"
     location: Fukuoka
     country_code: JPN
   death:
-    date: 1937-07-26
+    date: "1937-07-26"
     location:
-    country: JPN
+    country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ryohei_Uchida_Close-up.jpg/200px-Ryohei_Uchida_Close-up.jpg
   description:
     en: >
@@ -54,6 +54,7 @@ person:
     - id: JDP-49
       style_id: JDP-S-12
       place: Meikokan dojo
+      quality:
       period:
         start:
         end:
@@ -67,7 +68,7 @@ person:
       org: Kodokan
       teacher:
       rank: 5 dan
-      year:
+      date:
   sources:
     - uri: https://kanochronicles.com/2023/06/05/ki-%e6%b0%97-in-judo-%e6%9f%94%e9%81%93-uchida-ryohei-and-the-secrets-of-budo-%e6%ad%a6%e9%81%93%e6%a5%b5%e6%84%8f-the-kano-chronicles/
       events: [ name, native_name, birth, death, rank ]

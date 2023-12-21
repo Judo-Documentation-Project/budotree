@@ -4,26 +4,35 @@
 person:
   id: JDP-5
   name: Iikubo Tsunetoshi
-  alias: Iikubo Kōnen
-  native_name: 
+  aka:
+   - name: Iikubo Kōnen
+  native_name:
       name: 飯久保鍬吉恒年先生
       lang: ja
   nationality:
-    - JPN  
-  birth: 
+    - JPN
+  birth:
     date: 1835
     location:
+    country_code:
   death:
     date: 1889
     location:
+    country_code:
   teachers:
     - id: JDP-6
       style_id: JDP-S-2
-      place: 
+      place:
       period:
         start:
         end:
-      rank: 
+      quality:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
     - uri: https://doi.org/10.18002/rama.v9i2.1162

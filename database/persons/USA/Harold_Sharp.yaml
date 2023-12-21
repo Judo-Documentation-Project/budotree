@@ -8,14 +8,14 @@ person:
     - name: Harold Sharp
   nationality:
     - USA
-  birth: 
+  birth:
     date: 1927
     location:
-    country_code: 
+    country_code:
   death:
     date: 2021
-    location: 
-    country:
+    location:
+    country_code:
   photo_url: https://article-imgs.scribdassets.com/2840m8mlj48oc26j/images/fileLKP2HSNH.jpg
   teachers:
     - id: JDP-12
@@ -23,13 +23,13 @@ person:
       place: Kodokan
       period:
         start: 1952
-        end: 
+        end:
       quality: 3
   rank:
     - style_id: JDP-S-1
       org: Nanka Judo Yudanshakai
       teacher:
-      rank: 10 dan 
+      rank: 10 dan
       date: 2020
   sources:
     - uri: https://en.wikipedia.org/wiki/Harold_Sharp

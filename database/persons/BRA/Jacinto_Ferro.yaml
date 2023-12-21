@@ -6,18 +6,19 @@ person:
   name: Jacinto Ferro
   nationality:
     - BRA
-  birth: 
-    date: 
+  birth:
+    date:
     location:
     country_code: BRA
   death:
-    date: 
-    location: 
-    country:
+    date:
+    location:
+    country_code:
   teachers:
     - id: JDP-18
       style_id: JDP-S-1
-      place: 
+      place:
+      quality:
       period:
         start: 1915
         end:

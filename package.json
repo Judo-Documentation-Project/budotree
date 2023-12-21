@@ -4,12 +4,13 @@
     "description": "Judo Lineage Tree parser",
     "main": "index.js",
     "bin": {
-        "parseJDP": "./bin/cli.js"
+      "parseJDP": "./bin/cli.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "cli": "node bin/cli.js",
-        "image-cache": "node bin/local_img.js"
+        "image-cache": "node bin/local_img.js",
+        "validate": "npx pajv validate --errors text --coerce-types -s database/schemas/person.schema.json -m database/schemas/draft-07.json -d 'database/persons/*/*.yaml'"
     },
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",
@@ -27,7 +28,9 @@
         "html-metadata": "^1.7.1",
         "md5": "^2.3.0",
         "mimetics": "^0.0.8",
+        "pajv": "^1.2.0",
         "process": "^0.11.10",
-        "util": "^0.12.5"
+        "util": "^0.12.5",
+        "yaml-schema-validator": "^1.2.3"
     }
 }

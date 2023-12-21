@@ -4,34 +4,33 @@
 person:
   id: JDP-42
   name: Matsui Sanzo
-  native_name:  
+  native_name:
     name: 松井三蔵
     lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1861-05-16
+  birth:
+    date: "1861-05-16"
     location: Higashikaji
     country_code: JPN
   death:
-    date: 1932-06-8
+    date: "1932-06-08"
     location:
-    country_code: 
+    country_code:
   photo_url:
   teachers:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
-      rank: 
   rank:
-    - style: 
-      org: 
+    - style:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
-    

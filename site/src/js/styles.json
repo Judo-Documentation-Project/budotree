@@ -1,0 +1,348 @@
+{
+  "JDP-S-4": {
+    "id": "JDP-S-4",
+    "name": "Aikidō",
+    "native_name": {
+      "name": "合気道",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1920,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "description": {
+      "en": "Aikido (Shinjitai: 合気道, Kyūjitai: 合氣道,) is a modern Japanese martial art that is split into many different styles, including Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Shodokan Aikido, Yoshinkan, Renshinkai, Aikikai and Ki Aikido. Aikido is now practiced in around 140 countries. It was originally developed by Morihei Ueshiba, as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury.      \n"
+    },
+    "media": {
+      "photo_url": "https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg",
+      "video_url": "https://www.youtube.com/watch?v=30Sa0PLquFg"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Aikido"
+      }
+    ]
+  },
+  "JDP-S-10": {
+    "id": "JDP-S-10",
+    "name": "Daitō-ryū Aiki-jūjutsu",
+    "native_name": {
+      "name": "大東流 合気柔術",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1100,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "media": {
+      "video_url": "https://youtu.be/zgezzfG1Rwk?t=167",
+      "photo_url": "https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu"
+      },
+      {
+        "uri": "https://www.daitohryu.com/eng-history01",
+        "events": [
+          "birth"
+        ],
+        "citation": "According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school."
+      }
+    ]
+  },
+  "JDP-S-12": {
+    "id": "JDP-S-12",
+    "name": "Jigō Tenshin Ryū",
+    "native_name": {
+      "name": "自剛天真流",
+      "lang": "ja"
+    },
+    "aka": [
+      {
+        "name": "Ise Jitoku Tenshin-ryū",
+        "native_name": {
+          "name": "為勢自得天眞流柔術",
+          "lang": "ja"
+        }
+      }
+    ],
+    "birth": {
+      "date": 1800,
+      "location": "Fukuoka",
+      "country_code": "JPN"
+    },
+    "description": {
+      "en": "Jigo Tenshin Ryu (also known as Isei Jitoku Tenshinryu) is one of the martial arts handed down from the Fukuoka Domain. It was founded as a comprehensive martial art system, but the jujutsu component is the one that has been handed down to the present. Many ancient techniques remain, including joint techniques, restraining techniques, and Kappo. In 2005, it was designated as an intangible cultural property of Fukuoka City.\n",
+      "ja": "自剛天真流（じごうてんしんりゅう）は、福岡藩伝来の武術の一つ。別 名、為勢自得天真流。創流時は全てのものを武器として使用する綜合武 術であったが、現在では主に柔術が相伝されている。古式の技法が数多 く残されており、逆手を中心とした関節技、居取、拳法、逮捕術、活法 など多彩な技を今に伝えている。また2005年に福岡市の無形文化財に指 定された。\n",
+      "pt": "O Jigo Tenshin Ryu (também conhecido como Isei Jitoku Tenshinryu) é uma das artes marciais tradicionais do Domínio de Fukuoka, Japão.Na época de sua fundação, era uma arte marcial completa, mas foi o jujutsu que foi transmitido até aos nossos dias. Preserva muitas técnicas antigas técnicas como as centradas na manipulação de articulações, imobilização,e kappo. Em 2005, foi designado como propriedade cultural imaterial da cidade de Fukuoka.\n"
+    },
+    "media": {
+      "video_url": "https://youtu.be/yA32io5HYic?t=92",
+      "photo_url": null
+    },
+    "sources": [
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81"
+      },
+      {
+        "uri": "https://www.ryoishintokai.com/2019/12/24/84/"
+      }
+    ]
+  },
+  "JDP-S-5": {
+    "id": "JDP-S-5",
+    "name": "Karate",
+    "native_name": {
+      "name": "空手",
+      "lang": "ja"
+    },
+    "aka": [
+      {
+        "name": "Karatedo",
+        "native_name": [
+          {
+            "name": "空手道",
+            "lang": "ja"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "date": "19th century",
+      "location": "Okinawa",
+      "country_code": "JPN"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Karate"
+      }
+    ]
+  },
+  "JDP-S-8": {
+    "id": "JDP-S-8",
+    "name": "Kendo",
+    "native_name": {
+      "name": "剣道",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1912,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "sources": [
+      {
+        "uri": "https://www.kendo.or.jp/en/knowledge/kendo-history/"
+      }
+    ]
+  },
+  "JDP-S-2": {
+    "id": "JDP-S-2",
+    "name": "Kitō-ryū",
+    "native_name": {
+      "name": "起倒流",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1600,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "media": {
+      "video_url": "https://youtu.be/qdzzF4ziu68?t=667",
+      "photo_url": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png"
+    },
+    "description": {
+      "en": "The Kitō Ryu [起倒流] is a system of jujutsu that merits a particular place in the doctrine of unarmed martial arts because of its esoteric elements, adopted along with various techniques and training methods (such as randori) in Judo. Of particular interest are the kata that have been preserved by the modern inheritors of kito ryu. Kito ryu is the \"rise and fall\" school of jujutsu.  Some of the available records trace the origin of this school to a Chinese combat based upon the principle of ju (suppleness), as explained and illustrated by Chin Gempin to selected warriors of 17th century Japan. Another version associates this method with two other noted jujutsu experts, Yoshimura and Takenaka.      \n"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Kit%C5%8D-ry%C5%AB"
+      },
+      {
+        "uri": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png"
+      }
+    ]
+  },
+  "JDP-S-1": {
+    "id": "JDP-S-1",
+    "name": "Kōdōkan Jūdō",
+    "native_name": {
+      "name": "講道館柔道",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1882,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "media": {
+      "video_url": "https://www.youtube.com/watch?v=FoFwE8pX2js",
+      "photo_url": "http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg"
+    },
+    "sources": [
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93"
+      }
+    ]
+  },
+  "JDP-S-9": {
+    "id": "JDP-S-9",
+    "name": "Muso-ryu",
+    "native_name": {
+      "name": "無相流",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1592,
+      "location": "Sanuki",
+      "country_code": "JPN"
+    },
+    "sources": [
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81"
+      },
+      {
+        "uri": "https://www.ijf.org/news/show/the-first-edition-of-the-arts-and-sciences-of-judo-online-journal"
+      }
+    ]
+  },
+  "JDP-S-13": {
+    "id": "JDP-S-13",
+    "name": "Shuri-te",
+    "native_name": {
+      "name": "首里手",
+      "lang": "ryu"
+    },
+    "birth": {
+      "date": "18th century",
+      "location": "Okinawa",
+      "country_code": "JPN"
+    },
+    "sources": [
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B"
+      }
+    ]
+  },
+  "JDP-S-6": {
+    "id": "JDP-S-6",
+    "name": "Tenshin Shōden Katori Shintō-ryū",
+    "native_name": {
+      "name": "天真正伝香取神道流",
+      "lang": "ja"
+    },
+    "aka": [
+      {
+        "name": "Katori Shintō-ryū",
+        "native_name": {
+          "name": "香取神道流",
+          "lang": "ja"
+        }
+      }
+    ],
+    "birth": {
+      "date": 1147,
+      "location": "Shimōsa",
+      "country_code": "JPN"
+    },
+    "description": {
+      "en": "Tenshin Shōden Katori Shintō-ryū (天真正伝香取神道流) is one of the oldest extant Japanese martial arts, and an exemplar of bujutsu. The Tenshin Shōden Katori Shintō-ryū was founded by Iizasa Ienao, born in 1387 in Iizasa village (modern Takomachi, Chiba Prefecture), who was living near Katori Shrine (Sawara City, Chiba Prefecture) at the time. The ryū gives 1447 as the year it was founded, but some scholars state that it was about 1480.\n"
+    },
+    "media": {
+      "video_url": "https://youtu.be/4EvjslbRTaA?t=120",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Tenshin_Sh%C5%8Dden_Katori_Shint%C5%8D-ry%C5%AB"
+      },
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9C%9F%E6%AD%A3%E4%BC%9D%E9%A6%99%E5%8F%96%E7%A5%9E%E9%81%93%E6%B5%81"
+      },
+      {
+        "uri": "https://www.katorishintoryu-shinbukan.org/"
+      }
+    ]
+  },
+  "JDP-S-3": {
+    "id": "JDP-S-3",
+    "name": "Tenjin Shin'yō-ryū",
+    "native_name": {
+      "name": "天神真楊流",
+      "lang": "ja"
+    },
+    "description": {
+      "en": "Tenjin Shinyo-ryu (天神真楊流, Tenjin Shin'yō-ryū), meaning \"Divine True Willow School\", can be classified as a traditional school (koryū) of jujutsu. It was founded by Iso Mataemon Ryūkansai Minamoto no Masatari (磯又右衛門柳関斎源正足) in the 1830s. Its syllabus comprises atemi-waza (striking techniques), nage-waza (throwing techniques), torae-waza (immobilization methods), and shime-waza (choking techniques). Once a very popular jujutsu system in Japan, among the famous students who studied the art were Kanō Jigorō, whose modern art of judo was greatly inspired by the Tenjin Shin'yō-ryū and Kitō-ryū.\n"
+    },
+    "media": {
+      "video_url": "https://youtu.be/RhTpeCdANzA?t=24",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg"
+    },
+    "birth": {
+      "date": 1830,
+      "location": null,
+      "country_code": "JPN"
+    }
+  },
+  "JDP-S-11": {
+    "id": "JDP-S-11",
+    "name": "Yagyū Shingan-ryū",
+    "native_name": {
+      "name": "柳生心眼流",
+      "lang": "ja"
+    },
+    "birth": {
+      "date": 1600,
+      "location": "Sendai",
+      "country_code": "JPN"
+    },
+    "description": {
+      "en": "Yagyū Shingan-ryū (柳生心眼流), is a traditional school (koryū) of Japanese martial arts. Different styles of Yagyū Shingan-ryū, such as Heihojutsu and Taijutsu, assert different founders, Takenaga Hayato and Araki Mataemon respectively, but they all go back to Ushū Tatewaki (羽州 帯刀), referred to in some historical scrolls as Shindō Tatewaki, who taught a system based on Sengoku-period battlefield tactics, that was called Shindō-ryū. The word shingan (心眼) is rooted in Zen philosophy, and was chosen to describe a fundamental concept of the style. Shingan means \"mind’s eye,\" or \"heart's eye,\" and refers to the ability to sense or read an opponent's intentions via an inner sense. Originally called simply Shingan-ryū, it was later renamed Yagyū Shingan-ryū, due to the influence of Yagyu Tajima no Kami Munenori's Yagyū Shinkage-ryū.\n",
+      "ja": "柳生心眼流（やぎゅうしんがんりゅう）は、日本の伝統武術の流派とさ れている。現代に伝わる柳生心眼流には大きく分類して東北伝、江戸伝 （柳生心眼流荒木堂）がある。東北伝においては竹永隼人（直入）兼次 (金次)を開祖としており、江戸伝においては荒木又右衛門を開祖と伝え ている。東北伝では当身技を中心とする特異な内容の柔術が伝えられて おり、江戸伝においては古式からなる甲冑柔（鎧組打ち）が伝承されて いる。 系統によって伝える内容は異なるが、体術（柔術）・剣術・居 合術・棒術・薙刀術などを含み、更に江戸伝では大太刀を遣う技法も伝 えられている。\n",
+      "pt": "Yagyū shingan-ryū é uma tradicional escola japonesa de bujutsu (lit. arte da guerra). Ensina todos os fundamentos das artes marciais japonesas clássicas. É conhecida como Yagyū shingan-ryū kacchu yawara, e foi um estilo de luta adotado por alguns samurais do xogunato Tokugawa. Foi bastante divulgado pela série, \"Lobo Solitário\" (de Kazuo Koike & Goseki Kojima) e no livro \"Musashi\" de Eiji Yoshikawa.\n"
+    },
+    "media": {
+      "video_url": "https://youtu.be/6Ke_d6hN7CI?t=30",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB"
+      },
+      {
+        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81"
+      }
+    ]
+  },
+  "JDP-S-7": {
+    "id": "JDP-S-7",
+    "name": "Yōshin-ryū",
+    "native_name": {
+      "name": "楊心流",
+      "lang": "ja"
+    },
+    "aka": [
+      {
+        "name": "Yōshin Koryū",
+        "native_name": {
+          "name": "楊心古流",
+          "lang": "ja"
+        }
+      }
+    ],
+    "birth": {
+      "date": 1610,
+      "location": null,
+      "country_code": "JPN"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB"
+      }
+    ]
+  }
+}
