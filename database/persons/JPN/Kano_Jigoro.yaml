@@ -10,14 +10,14 @@ person:
   nationality:
     - JPN
   birth:
-    date: 1860-10-28
+    date: "1860-10-28"
     location: Kobe
     country_code: JPN
     sources:
       - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
         citation: 10月28日 refers to October 28. In other words, by the Gregorian calendar, Kano was born on October 28, 1860.
   death:
-    date: 1928-05-04
+    date: "1928-05-04"
     location: Pacific Ocean
     country_code:
   description:
@@ -87,17 +87,17 @@ person:
       org: Kodokan
       teacher:
       rank: Shihan
-      year:
+      date:
     - style_id: JDP-S-2
       org:
       teacher_id: JDP-5
       rank: Menkyo kaiden
-      year:
+      date:
     - style_id: JDP-S-3
       org:
       teacher_id: JDP-4
       rank: Menkyo kaiden
-      year:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%98%89%E7%B4%8D%E6%B2%BB%E4%BA%94%E9%83%8E
     - uri: https://isbnsearch.org/isbn/9781425163495

@@ -6,28 +6,28 @@ person:
   name: José Manuel Bastos Nunes
   nationality:
     - PRT
-  birth: 
-    date: 1937-03-13
+  birth:
+    date: "1937-03-13"
     location: Sintra
     country_code: PRT
   death:
-    date: 
-    location: 
-    country:
+    date:
+    location:
+    country_code:
   teachers:
     - id: JDP-12
       style_id: JDP-S-1
       place: Judo Clube de Portugal
+      quality:
       period:
         start:
         end:
-      rank: 
   rank:
     - style_id: JDP-S-1
       org: FPJ
       teacher:
       rank: 9 dan
-      date: 2019  
+      date: 2019
   sources:
     - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
     - uri: https://judolandia.tripod.com/bastosnunes.htm

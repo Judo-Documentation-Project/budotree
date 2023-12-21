@@ -6,28 +6,28 @@ person:
   name: Walter Todd
   nationality:
     - USA
-  birth: 
-    date: 
+  birth:
+    date:
     location:
-    country_code: 
+    country_code:
   death:
-    date: 
-    location: 
-    country:
-  photo_url: https://archive.org/download/walter_todd/walter_todd.jpg    
+    date:
+    location:
+    country_code:
+  photo_url: https://archive.org/download/walter_todd/walter_todd.jpg
   teachers:
     - id: JDP-11
       style_id: JDP-S-1
       place: Kodokan
       period:
         start: 1946
-        end: 
+        end:
       quality: 1
   rank:
-    - style_id: 
-      org: 
+    - style_id:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://www.koryu.com/library/mskoss10.html

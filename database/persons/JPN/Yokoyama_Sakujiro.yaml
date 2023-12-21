@@ -9,30 +9,36 @@ person:
      lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1864
     location: Tokyo
     country_code: JPN
   death:
-    date: 1912-09-23
-    location: 
-    country: JPN
-  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/220px-Yokoyama-Sakujiro.jpg    
+    date: "1912-09-23"
+    location:
+    country_code: JPN
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/220px-Yokoyama-Sakujiro.jpg
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1886
-        end: 
-      rank: 
+        end:
     - id: JDP-10
       style_id: JDP-S-3
       place: Yushima Tenjin dojo
+      quality:
       period:
-        start: 
-        end: 
+        start:
+        end:
+  rank:
+    - style:
+      org:
+      teacher:
       rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D

@@ -6,30 +6,31 @@ person:
   name: Tomita Tsunejirō
   native_name:
     name: 富田 常次郎
-    lang: ja  
+    lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1864-02-28
+  birth:
+    date: "1864-02-28"
     location: Namazu, Shizuoka
     country_code: JPN
   death:
-    date: 1937-01-13
+    date: "1937-01-13"
     location:
-    country_code: 
+    country_code:
   photo_url : https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tomita-Tsunejiro.jpg/454px-Tomita-Tsunejiro.jpg
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1882
-        end: 
+        end:
   rank:
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 7 dan
-      year: 1937
+      date: 1937
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E

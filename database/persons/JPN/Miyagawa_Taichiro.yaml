@@ -14,9 +14,9 @@ person:
     location: Fukuoka
     country_code: JPN
   death:
-    date: 1920-06-20
+    date: "1920-06-20"
     location:
-    country:
+    country_code:
   photo_url:
   description:
     en: >
@@ -59,7 +59,7 @@ person:
       org:
       teacher: 庄林又七郎
       rank: Menkyokaiden (免許皆伝)
-      year:
+      date:
   sources:
     - uri: http://www5e.biglobe.ne.jp/~isitaki/page048.html
       events: [ name, native_name, birth, death ]

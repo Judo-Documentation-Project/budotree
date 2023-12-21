@@ -16,7 +16,7 @@ person:
   death:
     date:
     location:
-    country:
+    country_code:
   photo_url:
   description:
   teachers:
@@ -35,7 +35,7 @@ person:
       org:
       teacher: 庄林又七郎
       rank: Menkyokaiden (免許皆伝)
-      year:
+      date:
   sources:
     - uri: https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/
       events: [ name, native_name ]

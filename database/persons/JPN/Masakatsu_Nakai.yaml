@@ -22,6 +22,7 @@ person:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
@@ -30,7 +31,7 @@ person:
       org:
       teacher:
       rank:
-      year:
+      date:
   sources:
     - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
       events: [ name native_name ]

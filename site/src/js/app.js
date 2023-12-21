@@ -994,7 +994,6 @@ function openTab(evt, tabName) {
 function listVersions() {
   const template = document.getElementById("template:versions").innerHTML;
   const rendered = Mustache.render(template, { cytoscape_version: cytoscape.version });
-  console.log("Rendered Versions: ", rendered)
   document.getElementById("versions").innerHTML = rendered;
 }
 

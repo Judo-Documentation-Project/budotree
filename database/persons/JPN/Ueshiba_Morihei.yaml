@@ -10,11 +10,11 @@ person:
   nationality:
     - JPN
   birth:
-    date: 1883-12-14
+    date: "1883-12-14"
     location: Tanabe
     country_code: JPN
   death:
-    date: 1969-04-26
+    date: "1969-04-26"
     location: Iwama
     country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Morihei_Ueshiba_Portrait.jpg/220px-Morihei_Ueshiba_Portrait.jpg
@@ -22,12 +22,14 @@ person:
     - id: JDP-28
       style_id: JDP-S-10
       place:
+      quality:
       period:
         start: 1915
         end: 1922
     - id: JDP-47
       style_id: JDP-S-3
       place:
+      quality:
       period:
         start: 1901
         end: 1901
@@ -41,6 +43,7 @@ person:
     - id: JDP-50
       style_id: JDP-S-11
       place:
+      quality:
       period:
         start:
         end:
@@ -54,12 +57,12 @@ person:
       org:
       teacher: JDP-28
       rank: Kyōju Dairi
-      year: 1922
+      date: 1922
     - style_id: JDP-S-13
       org:
       teacher: JDP-50
       rank: Shoden
-      year: 1908
+      date: 1908
   sources:
     - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
       events: [ name native_name birth death ]

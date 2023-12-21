@@ -9,33 +9,40 @@ person:
       lang: ja
   aka:
     - name: Okusawa Keitaro
-    - native_name:  奥澤敬太郎  
+    - native_name:
+        name: 奥澤敬太郎
+        lang: ja
   nationality:
     - JPN
-  birth: 
+  birth:
     date: 1847
     location: Tokyo
     country_code: JPN
   death:
-    date: 1912-09-23
-    location: 
-    country: JPN
+    date: "1912-09-23"
+    location:
+    country_code: JPN
   teachers:
     - id: JDP-3
       style_id: JDP-S-3
-      place: 
+      place:
+      quality:
       period:
-        start: 
-        end: 
-      rank: 
+        start:
+        end:
     - name: Okuzawa Sanzo
       style: Kiraku-ryu
-      place: 
+      place:
+      quality:
       period:
-        start: 
-        end: 
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
       rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
-    - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E    
-      
+    - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E

@@ -9,15 +9,15 @@ person:
       lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1875-02-13
+  birth:
+    date: "1875-02-13"
     location: Mikamo
     country_code: JPN
   death:
-    date: 1958-07-25
+    date: "1958-07-25"
     location:
-    country: 
-  photo_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg    
+    country_code:
+  photo_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg
   teachers:
     - id: JDP-9
       style_id: JDP-S-1
@@ -25,7 +25,7 @@ person:
       period:
         start: 1891
         end:
-      rank: 
+      quality:
   rank:
     - style_id: JDP-S-1
       org: Kodokan

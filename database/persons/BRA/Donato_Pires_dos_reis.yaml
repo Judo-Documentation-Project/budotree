@@ -6,20 +6,20 @@ person:
   name: Donato Pires dos Reis
   nationality:
     - BRA
-  birth: 
+  birth:
     date:
     location: Belém, Pará
     country_code: BRA
   death:
-    date: 
+    date:
     location:
-    country:
+    country_code:
   teachers:
     - id: JDP-18
       style_id: JDP-S-1
-      place: 
+      place:
       period:
-        start: 
+        start:
         end:
       quality: 1
   rank:
@@ -31,4 +31,3 @@ person:
   sources:
     - uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
     - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
-

@@ -9,26 +9,26 @@ person:
   nationality:
     - JPN
     - BRA
-  birth: 
-    date: 
+  birth:
+    date:
     location:
     country_code: JPN
   death:
-    date: 
+    date:
     location:
-    country:
+    country_code:
   photo_url: https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
   teachers:
     - id: JDP-17
       style_id: JDP-S-1
       place: Kodokan
       period:
-        start: 
+        start:
         end:
       quality: 2
     - id: JDP-1
       style_id: JDP-S-1
-      place: 
+      place:
       period:
         start: 1917
         end:
@@ -38,7 +38,7 @@ person:
       org: Kodokan
       teacher:
       rank: 3 dan
-      date: 
+      date:
   sources:
     - uri: https://en.wikipedia.org/wiki/Soshihiro_Satake
     - uri: https://repositorio.ufsc.br/handle/123456789/103771

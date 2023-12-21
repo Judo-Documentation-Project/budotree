@@ -1,0 +1,95 @@
+# Judo Documentation Project: Budo Lineage Tree sub-project
+# Schema file for Persons
+---
+
+person:
+  id:
+    type: string
+    required: true
+  name:
+    type: string
+    required: true
+  native_name:
+    name:
+      type: string
+    lang:
+      type: string
+  nationality:
+    - type: string
+  birth:
+    date:
+      type: string
+    location:
+      type: string
+    country_code:
+      type: string
+    sources:
+      - uri:
+          type: string
+        citation:
+          type: string
+  death:
+    date:
+      type: string
+    location:
+      type: string
+    country_code:
+      type: string
+  description:
+    en:
+      type: string
+    ja:
+      type: string
+    pt:
+      type: string
+  photo_url:
+    type: string
+  photo:
+    url:
+      type: string
+    source:
+      uri:
+        type: string
+      cite:
+        type: string
+      citation:
+        type: string
+  teachers:
+    - id:
+        type: string
+      style_id:
+        type: string
+      place:
+        type: string
+      period:
+        start:
+          type: string
+        end:
+          type: string
+      quality:
+          type: number
+      sources:
+        - uri:
+            type: string
+            required: true
+          cite:
+            type: string
+          citation:
+            type: string
+  rank:
+    - style_id:
+        type: string
+      org:
+        type: string
+      teacher:
+        type:string
+      rank:
+        type: string
+      year:
+        type: number
+  sources:
+    - uri:
+        type: string
+        required: true
+      cite:
+        type: string

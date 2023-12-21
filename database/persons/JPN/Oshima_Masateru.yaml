@@ -16,16 +16,16 @@ person:
   death:
     date:
     location:
-    country:
+    country_code:
   photo_url:
   teachers:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
-      rank:
   rank:
     - style_id:
       org:

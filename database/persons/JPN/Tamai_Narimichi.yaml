@@ -9,29 +9,28 @@ person:
     lang:
   nationality:
     - JPN
-  birth: 
+  birth:
     date:
     location:
     country_code:
   death:
-    date: 
+    date:
     location:
-    country: 
+    country_code:
   photo_url:
   teachers:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
-      rank: 
   rank:
-    - style: 
-      org: 
+    - style:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
- 

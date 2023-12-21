@@ -4,33 +4,34 @@
 person:
   id: JDP-28
   name: Takeda Sōkaku
-  native_name: 
+  native_name:
     name: 武田 惣角
     lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1859-10-10
+  birth:
+    date: "1859-10-10"
     location: Aizu
     country_code: JPN
   death:
-    date: 1943-04-25
+    date: "1943-04-25"
     location:
     country_code: JPN
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Takeda_Sokaku.jpg/220px-Takeda_Sokaku.jpg
   teachers:
-    - name: 
+    - name:
       style:
-      place: 
-        period:
-          start:
-          end:
+      place:
+      quality:
+      period:
+        start:
+        end:
   rank:
     - style: Daitō-ryū Aiki-jūjutsu
-      org: 
-      teacher: 
-      rank: 
-      year: 
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
     - uri: https://aikidojournal.com/2011/09/02/interview-with-kenji-tomiki-1-2/

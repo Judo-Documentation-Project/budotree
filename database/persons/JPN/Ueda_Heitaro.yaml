@@ -4,34 +4,34 @@
 person:
   id: JDP-39
   name: Ueda Heitaro
-  native_name: 
+  native_name:
     name: 植田平太郎
-    lang: ja  
+    lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1877-08-14
+  birth:
+    date: "1877-08-14"
     location: Ikenishi
     country_code: JPN
   death:
-    date: 1949-07-25
+    date: "1949-07-25"
     location:
-    country: 
+    country_code:
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png/169px-%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png
   teachers:
     - id:
       style_id:
       place:
+      quality:
       period:
         start:
         end:
-      rank: 
   rank:
-    - style: 
-      org: 
+    - style:
+      org:
       teacher:
-      rank: 
-      date: 
+      rank:
+      date:
   sources:
     - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
     - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E

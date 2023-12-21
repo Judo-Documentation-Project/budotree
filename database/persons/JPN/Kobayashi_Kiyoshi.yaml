@@ -4,24 +4,41 @@
 person:
   id: JDP-12
   name: Kobayashi Kiyoshi
-  native_name:  
+  native_name:
       name: 小林清
       lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1925-04-09
+  birth:
+    date: "1925-04-09"
     location: Gunma
     country_code: JPN
   death:
-    date: 2013-04-09
-    location: 
-    country: JPN
-  photo_url: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC    
+    date: "2013-04-09"
+    location:
+    country_code: JPN
+  photo_url: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSuhkNSuXgXEFBZToZ69C3M_dfMhOmheEPZiLctfs0KLWtq9UNC
+  description:
+    en: >-
+      Kobayashi Kiyoshi (小林清) was the «father» of Portuguese Judo
+      and one of the founders of the Portuguese Judo Federation, and
+      the greatest promoter of Judo in Portugal. Sensei Kobayashi was
+      one of the highest grades in the world, 9th dan given Kodokan by
+      in 1999.
+    pt: >-
+      O Mestre Kiyoshi Kobayashi, uma das mais altas graduações da
+      Modalidade – 9º Dan, foi um dos grandes responsáveis pelo
+      crescimento e desenvolvimento da modalidade em Portugal, sendo
+      conhecido inclusive como "o pai do judo português". Foi
+      Selecionador e Treinador da Equipa Nacional e acompanhou-as em
+      Campeonatos da Europa e do Mundo, assim como nas edições dos
+      Jogos Olímpicos de Montreal (1976), Los Angeles(1984) e Seul
+      (1988).
   teachers:
     - id: JDP-11
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1903
         end: 1965

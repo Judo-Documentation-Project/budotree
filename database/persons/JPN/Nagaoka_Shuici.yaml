@@ -6,41 +6,41 @@ person:
   name: Nagaoka Shūichi
   native_name:
     name: 永岡 秀一
-    lang: ja  
+    lang: ja
   aka:
     - name: Nagaoka Hideichi
   nationality:
     - JPN
-  birth: 
-    date: 1876-09-17
+  birth:
+    date: "1876-09-17"
     location: Okayama
     country_code: JPN
   death:
-    date: 1952-11-22
+    date: "1952-11-22"
     location:
-    country: 
+    country_code:
   photo_url: https://archive.org/download/nagaoka_hideichi/nagaoka_hideichi.jpg
   teachers:
     - name: Noda Kensaburo
       style_id: JDP-S-2
-      place: 
+      place:
+      quality:
       period:
-        start: 
+        start:
         end:
-      rank:   
     - id: JDP-1
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
         start: 1891
         end:
-      rank: 
   rank:
-    - style_id: JDP-S-1 
+    - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 10 dan
-      date:  1937-12-27
+      date: "1937-12-27"
   sources:
       - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
       - uri: https://www.judo-ch.jp/english/legend/nagaoka/

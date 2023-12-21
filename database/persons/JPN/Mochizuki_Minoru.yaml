@@ -10,11 +10,11 @@ person:
   nationality:
     - JPN
   birth:
-    date: 1907-04-07
+    date: "1907-04-07"
     location: Shizuoka
     country_code: JPN
   death:
-    date: 2003-05-30
+    date: "2003-05-30"
     location: Aix-en-Provence
     country_code: FRA
   photo_url: https://upload.wikimedia.org/wikipedia/commons/9/97/Minoru_Mochizuki_c1930.jpg
@@ -22,18 +22,21 @@ person:
     - id: JDP-1
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
           start: 1925
           end: 1930
     - id: JDP-11
       style_id: JDP-S-1
       place: Kodokan
+      quality:
       period:
           start: 1925
           end: 1930
     - id: JDP-27
       style_id: JDP-S-4
       place: Kobukan dojo
+      quality:
       period:
           start: 1930
           end:
@@ -56,6 +59,7 @@ person:
     - name: Sanjuro Oshima
       style: Gyokushin Ryu
       place:
+      quality:
       period:
           start: 1924
           end:
@@ -64,17 +68,17 @@ person:
       org:
       teacher: Sanjuro Oshima
       rank: Shoden Kirishi Mokuroku
-      year: 1924
+      date: 1924
     - style_id: JDP-S-10
       org:
       teacher: JDP-27
       rank:
-      year: 1924
+      date: 1924
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
       rank: 8 dan
-      year:
+      date:
   sources:
     - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
     - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki

@@ -3,40 +3,55 @@
 
 person:
   id: JDP-13
-  name: Kawaishi  Mikinosuke
+  name: Kawaishi Mikinosuke
   native_name:
       name: 川石 酒造之助
       lang: ja
   nationality:
-    - JPN  
-  birth: 
-    date: 1899-08-13
+    - JPN
+  birth:
+    date: "1899-08-13"
     location: Himeji
     country_code: JPN
   death:
-    date: 1969-01-30
+    date: "1969-01-30"
     location: Paris
     country_code: FRA
   description:
+    en: >-
+      Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13
+      August 1899 – 30 January 1969) was a Japanese master of jujutsu
+      and judo who achieved the rank of 7th Dan. He led the
+      development of Judo in France, with Shozo Awazu, and much of
+      Europe and is credited with introducing the colored belt system
+      for differentiating early grades. However, written accounts from
+      the archives of London's Budokwai judo club, founded in 1918,
+      record the use of colored judo belts at the 1926 9th annual
+      Budokwai Display, and a list of ranked colored judokas appears
+      in the Budokwai Committee Minutes of June 1927. Kawaishi visited
+      London and the Budokwai in 1928, and was probably inspired to
+      bring the colored belt system to France. The Fédération
+      Française posthumously awarded him 10th Dan in judo and jujutsu.
   photo_url: https://archive.org/download/kawaishi_mikinosuke/kawaishi_mikinosuke.jpg
   teachers:
     - name: Yoshida Kōtarō
       style_id: JDP-S-1
-      place: 
-      period:
-        start: 
-        end:
-      rank:
-    - name: Miyakawa Ikkan
-      style_id: JDP-S-1
-      place: Waseda University
+      place:
+      quality:
       period:
         start:
         end:
-      rank:
+    - name: Miyakawa Ikkan
+      style_id: JDP-S-1
+      place: Waseda University
+      quality:
+      period:
+        start:
+        end:
     - id: JDP-14
       style_id: JDP-S-1
       place: Waseda University
+      quality:
       period:
         start: 1881
         end:
@@ -45,14 +60,14 @@ person:
       org: Kodokan
       teacher:
       rank: 7 dan
-      year:
+      date:
     - style_id: JDP-S-1
       org: FFJDA
-      teacher: 
+      teacher:
       rank: 10 dan
-      year:
+      date:
   sources:
-    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws    
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
     - uri: https://doi.org/10.4471/hse.2013.15
     - uri: https://judoinfo.com/kawaishi/
     - uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9

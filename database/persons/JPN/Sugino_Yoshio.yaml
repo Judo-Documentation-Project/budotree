@@ -4,17 +4,17 @@
 person:
   id: JDP-30
   name: Sugino Yoshio
-  native_name: 
+  native_name:
     name: 杉野嘉男
     lang: ja
   nationality:
     - JPN
-  birth: 
-    date: 1904-12-12
+  birth:
+    date: "1904-12-12"
     location: Tokyo
     country_code: JPN
   death:
-    date: 1998-06-13
+    date: "1998-06-13"
     location: Narutō, Chiba
     country_code: JPN
   photo_url: https://2.bp.blogspot.com/-y8nNNMaK3cs/VLvcojO-fRI/AAAAAAAAbOM/HzykaZ2XkJw/s1600/Yoshio%2BSugino.jpg
@@ -25,7 +25,7 @@ person:
       period:
         start: 1918
         end: 1919
-      quality: 2 
+      quality: 2
     - id: JDP-27
       style_id: JDP-S-4
       place: Wakamatsu-cho dojo
@@ -39,41 +39,41 @@ person:
       period:
         start: 1927
         end:
-      quality: 1        
+      quality: 1
     - id: JDP-33
       style_id: JDP-S-6
       place: Kawasaki
       period:
         start: 1927
         end:
-      quality: 1        
+      quality: 1
     - id: JDP-34
       style_id: JDP-S-6
       place: Kawasaki
       period:
         start: 1927
         end:
-      quality: 1        
+      quality: 1
     - id: JDP-35
       style_id: JDP-S-6
       place: Kawasaki
       period:
         start: 1927
         end:
-      quality: 1        
+      quality: 1
     - id: JDP-36
       style_id: JDP-S-7
-      place: 
+      place:
       period:
         start: 1928
         end:
-      quality: 1        
+      quality: 1
   rank:
-    - style: 
-      org: 
-      teacher: 
-      rank: 
-      year: 
+    - style:
+      org:
+      teacher:
+      rank:
+      date:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7
     - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino

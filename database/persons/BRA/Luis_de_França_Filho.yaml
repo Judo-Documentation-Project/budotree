@@ -6,30 +6,30 @@ person:
   name: Luis de França Filho
   nationality:
     - BRA
-  birth: 
-    date: 1910-06-02
+  birth:
+    date: "1910-06-02"
     location: Alagoas
     country_code: BRA
   death:
-    date: 
+    date:
     location:
-    country:
+    country_code:
   photo_url: https://ia601602.us.archive.org/29/items/luiz_franca_filho/vsr23XAf.jpg
   teachers:
     - id: JDP-22
       style_id: JDP-S-1
-      place: 
+      place:
       period:
         start:
         end:
       quality: 1
     - id: JDP-18
       style_id: JDP-S-1
-      place: 
+      place:
       period:
         start: 1917
         end:
-      quality: 2      
+      quality: 2
   rank:
     - style_id:
       org:

@@ -16,11 +16,12 @@ person:
   death:
     date: 1912
     location:
-    country:
+    country_code:
   teachers:
     - id: JDP-4
       style_id: JDP-S-3
       place:
+      quality:
       period:
         start:
         end:
@@ -34,7 +35,7 @@ person:
       org:
       teacher:
       rank:
-      year:
+      date:
   sources:
     - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
       events: [name, native_name, birth, death]

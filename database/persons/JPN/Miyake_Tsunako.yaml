@@ -16,7 +16,7 @@ person:
   death:
     date:
     location:
-    country:
+    country_code:
   photo_url: https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF
   teachers:
     - id: JDP-26          # Tomiki Kenji
@@ -46,7 +46,7 @@ person:
       org:
       teacher: JDP-26
       rank: 8 dan  # Tomiki / Shodokan
-      year:
+      date:
     - style_id: JDP-S-1
       org: Kodokan
       teacher:
