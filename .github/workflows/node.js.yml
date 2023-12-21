@@ -157,18 +157,19 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
-    - run: npm ci
 
+    - run: npm ci
+      working-directory: site
+
+    - name: Validate YAML
+      if: steps.filter.outputs.database == 'true'
+      run: npm run validate
 
     - name: Image cache
       if: steps.filter.outputs.database == 'true'
       run: |
         mkdir -p site/dist/images/cache || true
         npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=site/src/js/tree.json
-
-    - name: Validate YAML
-      if: steps.filter.outputs.database == 'true'
-      run: npm run validate
 
     - name: Run ESLint
       working-directory: site
