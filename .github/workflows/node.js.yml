@@ -41,7 +41,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        cache-dependency-path: site/package-lock.json
+        cache-dependency-path: ./package-lock.json
     - run: npm ci
 
 
@@ -56,6 +56,14 @@ jobs:
     - name: Copy file
       # if: steps.filter.outputs.database == 'true'
       run: cp export/tree.json export/styles.json site/src/js/
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: site/package-lock.json
+    - run: npm ci
 
     - name: Build site
       if: steps.filter.outputs.site == 'true'
@@ -150,7 +158,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
-    - run: npm ci
+      run: npm ci
 
     - name: Image cache
       if: steps.filter.outputs.database == 'true'
