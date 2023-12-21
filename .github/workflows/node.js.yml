@@ -44,7 +44,6 @@ jobs:
         cache-dependency-path: ./package-lock.json
     - run: npm ci
 
-
     - name: Validate YAML
       if: steps.filter.outputs.database == 'true'
       run: npm run validate
@@ -158,7 +157,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: site/package-lock.json
-      run: npm ci
+    - run: npm ci
+
 
     - name: Image cache
       if: steps.filter.outputs.database == 'true'
