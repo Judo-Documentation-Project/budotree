@@ -10,7 +10,8 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "cli": "node bin/cli.js",
         "image-cache": "node bin/local_img.js",
-        "validate": "npx pajv validate --errors text --coerce-types -s database/schemas/person.schema.json -m database/schemas/draft-07.json -d 'database/persons/*/*.yaml'"
+      "validate-persons": "npx pajv validate --errors text --coerce-types -s database/schemas/person.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/persons/*/*.yaml'",
+      "validate-styles": "npx pajv validate --errors text --coerce-types -s database/schemas/style.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/styles/*.yaml'"
     },
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",

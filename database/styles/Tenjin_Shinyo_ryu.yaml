@@ -27,3 +27,6 @@ style:
     date: 1830
     location:
     country_code: JPN
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB
+    - uri: http://www.tenyokai.com

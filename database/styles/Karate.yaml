@@ -12,9 +12,9 @@ style:
       native_name:
         - name: 空手道
           lang: ja
-  birth: 
-    date: 19th century
+  birth:
+    date: 1800
     location: Okinawa
-    country_code: JPN  
+    country_code: JPN
   sources:
     - uri: https://en.wikipedia.org/wiki/Karate
