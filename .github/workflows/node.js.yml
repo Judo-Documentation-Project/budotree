@@ -55,9 +55,7 @@ jobs:
 
     - name: Copy file
       if: steps.filter.outputs.database == 'true'
-      run: |
-        cp export/tree.json export/styles.json site/src/js/
-        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- export/tree.json > site/src/js/dbversion.json
+      run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -72,6 +70,7 @@ jobs:
       working-directory: site
       run: |
         npm ci
+        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- ../export/tree.json > site/src/js/dbversion.json
         npm run build --if-present
     - name: Run ESLint
       working-directory: site
