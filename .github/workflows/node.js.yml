@@ -162,7 +162,8 @@ jobs:
 
     - name: Validate YAML
       if: steps.filter.outputs.database == 'true'
-      run: npm run validate
+      run: |
+        npm run validate-persons && npm run validate-styles
 
     - name: Image cache
       if: steps.filter.outputs.database == 'true'

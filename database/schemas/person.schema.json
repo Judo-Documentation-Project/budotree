@@ -1,5 +1,5 @@
 {
-  "$id": "http//judoc.org/JDP/person.schema.json",
+  "$id": "https://budotree.judoc.org/schemas/person.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema",
   "title": "Person",
   "description": "Information on a martial artist.",
@@ -23,22 +23,10 @@
           "type": "string"
         },
         "native_name": {
-          "$ref": "#/definitions/NativeName"
+            "$ref": "budotree.schema.json#/definitions/NativeName"
         },
         "aka": {
-          "type": "array",
-          "items": {
-            "anyOf": [
-              {
-              "$ref": "#/definitions/Name"
-            },
-              {
-              "native_name": {
-                "$ref": "#/definitions/NativeName"
-              }
-            }
-            ]
-          }
+            "$ref": "budotree.schema.json#/definitions/Aka"
         },
         "nationality": {
           "type": "array",
@@ -47,10 +35,10 @@
           }
         },
         "birth": {
-          "$ref": "#/definitions/LifeEvent"
+            "$ref": "budotree.schema.json#/definitions/LifeEvent"
         },
         "death": {
-          "$ref": "#/definitions/LifeEvent"
+            "$ref": "budotree.schema.json#/definitions/LifeEvent"
         },
         "description": {
           "anyOf": [
@@ -58,7 +46,7 @@
             "type": "null"
           },
             {
-            "$ref": "#/definitions/Description"
+            "$ref": "budotree.schema.json#/definitions/Description"
           }
           ]
         },
@@ -68,18 +56,13 @@
             "type": "null"
           },
             {
-            "type": "string",
-            "format": "uri",
-            "qt-uri-protocols": [
-              "https",
-              "http"
-            ]
+            "$ref": "budotree.schema.json#/definitions/PhotoURL"
           }
           ],
           "deprecated": true
         },
         "photo": {
-          "$ref": "#/definitions/Photo"
+          "$ref": "budotree.schema.json#/definitions/Photo"
         },
         "teachers": {
           "type": "array",
@@ -96,14 +79,11 @@
         "sources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Source"
+              "$ref": "budotree.schema.json#/definitions/Source"
           }
         },
         "tags": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "$ref": "budotree.schema.json#/definitions/Tags"
         }
       },
       "required": [
@@ -118,83 +98,6 @@
       ],
       "title": "Person"
     },
-    "LifeEvent": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "date": {
-          "anyOf": [
-            {
-            "type": "integer",
-            "pattern": "^[0-9]$"
-          },
-            {
-            "type": "string",
-            "format": "date"
-          }
-          ]
-        },
-        "location": {
-          "type": "string"
-        },
-        "country_code": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "string"
-          }
-          ]
-        },
-        "sources": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Source"
-          }
-        }
-      },
-      "required": [
-        "country_code",
-        "date",
-        "location"
-      ],
-      "title": "Life Event"
-    },
-    "Source": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "uri": {
-          "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https",
-            "http"
-          ]
-        },
-        "citation": {
-          "type": "string"
-        },
-        "cite": {
-          "type": "string"
-        },
-        "events": {
-          "type": "array"
-        }
-      },
-      "required": [
-        "uri"
-      ],
-      "title": "Source"
-    },
-    "Description": {
-      "type": "object",
-      "additionalProperties": {
-        "type" : "string"
-      },
-      "title": "Description"
-    },
     "Name": {
       "type": "object",
       "additionalProperties": false,
@@ -203,47 +106,6 @@
           "type": "string"
         }
       }
-    },
-    "NativeName": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "lang": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "lang",
-        "name"
-      ],
-      "title": "NativeName"
-    },
-    "Photo": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "url": {
-          "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https"
-          ],
-          "qt-uri-extensions": [
-            ".jpg"
-          ]
-        },
-        "source": {
-          "$ref": "#/definitions/Source"
-        }
-      },
-      "required": [
-        "source",
-        "url"
-      ],
-      "title": "Photo"
     },
     "Rank": {
       "type": "object",
@@ -347,7 +209,7 @@
         "sources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Source"
+              "$ref": "budotree.schema.json#/definitions/Source"
           }
         }
       },

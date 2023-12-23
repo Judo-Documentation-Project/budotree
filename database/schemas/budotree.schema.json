@@ -1,0 +1,178 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/budotree.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Common definitions for the Budo Lineage Tree",
+  "description": "Shared definitions",
+  "type": "object",
+  "definitions": {
+    "NativeName": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "lang": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "lang",
+        "name"
+      ],
+      "title": "NativeName"
+    },
+    "Aka": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+          "$ref": "#/definitions/Name"
+        },
+          {
+          "native_name": {
+            "$ref": "#/definitions/NativeName"
+          }
+        }
+        ]
+      }
+    },
+    "LifeEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "anyOf": [
+            {
+            "type": "integer",
+            "pattern": "^[0-9]$"
+          },
+            {
+            "type": "string",
+            "format": "date"
+          }
+          ]
+        },
+        "location": {
+          "type": "string"
+        },
+        "country_code": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          }
+        }
+      },
+      "required": [
+        "country_code",
+        "date",
+        "location"
+      ],
+      "title": "Life Event"
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uri": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https",
+            "http"
+          ]
+        },
+        "citation": {
+          "type": "string"
+        },
+        "cite": {
+          "type": "string"
+        },
+        "events": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "uri"
+      ],
+      "title": "Source"
+    },
+    "Description": {
+      "type": "object",
+      "additionalProperties": {
+        "type" : "string"
+      },
+      "title": "Description"
+    },
+    "Photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpg"
+          ]
+        },
+        "source": {
+          "$ref": "budotree.schema.json#/definitions/Source"
+        }
+      },
+      "required": [
+        "source",
+        "url"
+      ],
+      "title": "Photo"
+    },
+    "PhotoURL": {
+      "type": "string",
+      "format": "uri",
+      "qt-uri-protocols": [
+        "https",
+        "http"
+      ],
+      "deprecated": true
+    },
+    "Video": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ]
+        },
+        "source": {
+          "$ref": "budotree.schema.json#/definitions/Source"
+        }
+      },
+      "required": [
+        "source",
+        "url"
+      ],
+      "title": "Video"
+    },
+    "Tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
