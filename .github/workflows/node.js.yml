@@ -111,7 +111,7 @@ jobs:
     - run: npm ci
 
     - name: Validate YAML
-      if: steps.filter.outputs.database == 'true'
+      #if: steps.filter.outputs.database == 'true'
       run: |
         npm run validate-persons && npm run validate-styles
 
@@ -124,7 +124,7 @@ jobs:
         echo "Image cache dir" > site/dist/images/cache/README
 
     - name: Build image cache
-      if: steps.filter.outputs.database == 'true'
+      #if: steps.filter.outputs.database == 'true'
       run: npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=export/tree.json
 
     - name: Copy tree
@@ -176,7 +176,7 @@ jobs:
       run: npx eslint ./src --ext .js
 
     - name: Build
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: npm run build --if-present
 
@@ -190,7 +190,7 @@ jobs:
       run: cp -r ../database/schemas dist/
 
     - name: Commit
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: |
         git config --global user.name github-actions
@@ -223,16 +223,16 @@ jobs:
           database:
             - 'database/**'
     - name: Checkout
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       uses: actions/checkout@v3
       with:
        ref: gh-pages
     - name: Upload artefacts
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       uses: actions/upload-pages-artifact@v1
       with:
         path: site/dist
     - name: Deploy to GitHub Pages
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       id: deployment
       uses: actions/deploy-pages@v2
