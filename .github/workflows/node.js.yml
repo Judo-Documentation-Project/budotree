@@ -118,11 +118,12 @@ jobs:
     - name: Build database
       run: npm run cli -- --dir ./database/persons --file ./export/tree.json
 
+    - name: Create cache dir
+      run: mkdir -p site/dist/images/cache || true
+
     - name: Build image cache
       if: steps.filter.outputs.database == 'true'
-      run: |
-        mkdir -p site/dist/images/cache || true
-        npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=export/tree.json
+      run: npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=export/tree.json
 
     - name: Copy tree
       run: cp export/tree.json export/styles.json site/src/js/
