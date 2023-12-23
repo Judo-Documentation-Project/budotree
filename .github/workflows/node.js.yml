@@ -70,7 +70,7 @@ jobs:
       working-directory: site
       run: |
         npm ci
-        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- ../export/tree.json > site/src/js/dbversion.json
+        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- ../export/tree.json > src/js/dbversion.json
         npm run build --if-present
     - name: Run ESLint
       working-directory: site
