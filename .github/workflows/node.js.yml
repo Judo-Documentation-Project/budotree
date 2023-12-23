@@ -70,6 +70,7 @@ jobs:
       working-directory: site
       run: |
         npm ci
+        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- ../export/tree.json > src/js/dbversion.json
         npm run build --if-present
     - name: Run ESLint
       working-directory: site
@@ -136,6 +137,8 @@ jobs:
         git config --global user.email github-actions@github.com
         git checkout -b gh-pages
         git add -f export/tree.json export/styles.json site/src/js/tree.json site/src/js/styles.json site/dist/images/cache
+        git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- export/tree.json > site/src/js/dbversion.json
+        git add -f site/src/js/dbversion.json
         git commit -m "Automated file creation."
         git push -f origin gh-pages
 

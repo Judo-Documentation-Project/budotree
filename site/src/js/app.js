@@ -1,4 +1,5 @@
 import data from "./tree.json";
+import dbversion from "./dbversion.json";
 import ptRes from "../i18n/pt.json";
 import jaRes from "../i18n/ja.json";
 
@@ -993,7 +994,8 @@ function openTab(evt, tabName) {
 
 function listVersions() {
   const template = document.getElementById("template:versions").innerHTML;
-  const rendered = Mustache.render(template, { cytoscape_version: cytoscape.version });
+  const rendered = Mustache.render(template, { cytoscape_version: cytoscape.version,
+                                               db_version: dbversion.dbversion});
   document.getElementById("versions").innerHTML = rendered;
 }
 
