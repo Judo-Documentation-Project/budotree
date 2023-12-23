@@ -30,11 +30,11 @@ jobs:
           database:
             - 'database/**'
 
-    # - name: Validate YAML
-    #   id: json-yaml-validate
-    #   uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
-    #   with:
-    #     comment: "true" # enable comment mode
+    - name: Validate YAML syntax
+      id: json-yaml-validate
+      uses: GrantBirki/json-yaml-validate@v2.4.0 # replace with the latest version
+      with:
+        comment: "true" # enable comment mode
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
@@ -44,17 +44,17 @@ jobs:
         cache-dependency-path: ./package-lock.json
     - run: npm ci
 
-    - name: Validate YAML
+    - name: Validate YAML schema
       if: steps.filter.outputs.database == 'true'
       run: |
         npm run validate-persons && npm run validate-styles
 
     - name: Build database
-      # if: steps.filter.outputs.database == 'true'
+      if: steps.filter.outputs.database == 'true'
       run: npm run cli -- --dir ./database/persons --file ./export/tree.json --local
 
     - name: Copy file
-      # if: steps.filter.outputs.database == 'true'
+      if: steps.filter.outputs.database == 'true'
       run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Use Node.js ${{ matrix.node-version }}
@@ -112,12 +112,19 @@ jobs:
 
     - name: Validate YAML
       if: steps.filter.outputs.database == 'true'
-      run: npm run validate
+      run: |
+        npm run validate-persons && npm run validate-styles
 
-    - name: Build
+    - name: Build database
       run: npm run cli -- --dir ./database/persons --file ./export/tree.json
 
-    - name: Copy
+    - name: Build image cache
+      if: steps.filter.outputs.database == 'true'
+      run: |
+        mkdir -p site/dist/images/cache || true
+        npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=export/tree.json
+
+    - name: Copy tree
       run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Commit
@@ -125,7 +132,7 @@ jobs:
         git config --global user.name github-actions
         git config --global user.email github-actions@github.com
         git checkout -b gh-pages
-        git add export/tree.json export/styles.json site/src/js/tree.json site/src/js/styles.json
+        git add -f export/tree.json export/styles.json site/src/js/tree.json site/src/js/styles.json site/dist/images/cache
         git commit -m "Automated file creation."
         git push -f origin gh-pages
 
@@ -161,17 +168,6 @@ jobs:
     - run: npm ci
       working-directory: site
 
-    - name: Validate YAML
-      if: steps.filter.outputs.database == 'true'
-      run: |
-        npm run validate-persons && npm run validate-styles
-
-    - name: Image cache
-      if: steps.filter.outputs.database == 'true'
-      run: |
-        mkdir -p site/dist/images/cache || true
-        npm run image-cache -- --dir=site/dist/images/cache --dirPrefix=images/cache --sourceFile=export/tree.json --targetFile=site/src/js/tree.json
-
     - name: Run ESLint
       working-directory: site
       run: npx eslint ./src --ext .js
@@ -182,9 +178,13 @@ jobs:
       run: npm run build --if-present
 
     - name: Copy static assets
-      if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       working-directory: site
       run: cp src/images/budotree_h.mp4 dist/images/budotree_h.mp4 && cp src/preview.html dist/preview.html && cp src/images/budotree_timeline.mp4 dist/images/budotree_timeline.mp4
+
+    - name: Copy JSON schemas
+      #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      working-directory: site
+      run: cp -r ../database/schemas dist/
 
     - name: Commit
       if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
