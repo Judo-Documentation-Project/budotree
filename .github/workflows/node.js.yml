@@ -119,7 +119,9 @@ jobs:
       run: npm run cli -- --dir ./database/persons --file ./export/tree.json
 
     - name: Create cache dir
-      run: mkdir -p site/dist/images/cache || true
+      run: |
+        mkdir -p site/dist/images/cache || true
+        echo "Image cache dir" > site/dist/images/cache/README
 
     - name: Build image cache
       if: steps.filter.outputs.database == 'true'
