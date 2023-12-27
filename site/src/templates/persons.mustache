@@ -1,0 +1,15 @@
+{{> head}}
+<div class="person columns is-fluid container content-tab">
+<ul>
+ {{#arr}}
+ {{#data}}
+
+  <li>
+    <a href="{{id}}.html" id="{{id}}">{{name}}</a>
+    <span class="style_native"> {{native_name.name}} </span>
+  </li>
+  {{/data}}
+  {{/arr}}
+</ul>
+</div>
+{{> tail}}

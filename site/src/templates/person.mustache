@@ -1,0 +1,116 @@
+{{> head}}
+<div id="info" class="person" vocab="https://schema.org/" resource="{{id}}.html" typeof="Person">
+
+  <h1 class="name" property="name">{{name}}</h1>
+  <p class="native-name">{{native_name.name}}</p>
+  <p class="nationality">
+    {{#nationality}}
+    <span property="nationality">{{.}}</span>
+    {{/nationality}}
+  <p>
+    <p class="birth">
+      {{#birth}}
+      * <span property="birthDate">{{date_local}}</span> <span property="birthPlace">{{location}}</span> {{country_local}}
+      {{/birth}}
+      -
+      {{#death}}
+      † <span property="deathDate">{{date_local}}</span> <span property="deathPlace">{{location}}</span> {{country_local}}
+      {{/death}}
+    </p>
+
+    <div class="individual-links">
+      <a href="https://budotree.judoc.org?id={{id}}" alt="Link to view">
+        View
+        <i class="fas fa-eye mr-3 "></i>
+      </a>
+      <a href="https://budotree.judoc.org/persons/{{id}}.html" alt="Link to individual page">
+        ID
+        <i class="fas fa-share-nodes mr-3 "></i>
+      </a>
+      <a href="{{gitRoot}}{{source_yaml}}" alt="Link to the YAML source">
+        YAML
+        <i class="fas fa-file-code mr-3 "></i>
+      </a>
+    </div>
+
+<figure>
+    {{#photo}}
+    {{#photo_url_local}}
+    <img src="{{photo_url_local}}" alt="{{photo.cite}}" property="image"/>
+    {{/photo_url_local}}
+    {{^photo_url_local}}
+    <img src="{{photo.url}}" alt="{{photo.cite}}" property="image"/>
+    {{/photo_url_local}}
+    <figcaption class="photo-sources">
+      <a href="{{photo.source.uri}}" target="_blank">{{photo.source.cite}}</a>
+    </figcaption>
+
+    {{/photo}}
+    {{^photo}}
+    {{#photo_url_local}}
+    <img src="{{photo_url_local}}" alt="Photo of {{name}}" property="image"/>
+    {{/photo_url_local}}
+    {{#photo_url}}
+    <img src="{{photo_url}}"  alt="Photo of {{name}}" property="image"/>
+    {{/photo_url}}
+    {{/photo}}
+</figure>
+    <p class="description" property="description">{{description_lang}}</p>
+    <h2 id="i18n:teachers">Teachers</h2>
+    <ul id="teachers">
+      {{#teachers}}
+      {{#teacher_name}}
+      <div vocab="https://schema.org/" typeof="EducationEvent">
+        <span property="attendee" typeof="Person" resource="https://budotree.judoc.org/persons/{{id}}.html" hidden>{{name}}</span>
+      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="persons/{{id}}.html">{{teacher_name}}</span></a>
+        <span class="style_native"> {{teacher_native.name}} </span>
+        (<span property="teaches" typeof="Text">{{style}}</span>)
+      </li>
+      </div>
+      {{/teacher_name}}
+      {{/teachers}}
+    </ul>
+    <h2 id="i18n:students">Students</h2>
+    <ul id="students">
+      {{#students}}
+      <div vocab="https://schema.org/" typeof="EducationEvent">
+        <span property="performer" typeof="Person" hidden>{{name}}</span>
+      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person">{{teacher_name}}</span>{{name}}</span></a>
+        <span class="style_native"> {{native_name.name}} </span>
+</li>
+</div>
+      {{/students}}
+    </ul>
+<h2 id="i18n:rank">Rank</h2>
+    <ul>
+    {{#rank}}
+    {{#style}}
+    <span property="hasCredential" typeof="EducationalOccupationalCredential">
+      <li><b><span property="competencyRequired" typeof="Text">{{style}}</span></b>
+        {{#style_native}}
+        <span class="style_native"> {{style_native.name}} </span>
+        {{/style_native}}
+        : <span property="educationalLevel" typeof="Text">{{rank}}</span>
+        {{#teacher_name}}
+        (<span property="creator" typeof="Person">{{teacher_name}}</span> {{org}})
+        {{/teacher_name}}
+        {{#org}}
+        ({{teacher_name}} <span property="creator" typeof="Organization">{{org}}</span>)
+        {{/org}}
+        {{/style}}
+      </li>
+      {{/rank}}
+    </ul>
+    <h2 id="i18n:sources">Sources</h2>
+    {{#sources}}
+    <ul>
+      {{#cite}}
+      <li><a class="sources" href="{{uri}}" target="_blank" property="url">{{cite}}</a></li>
+      {{/cite}}
+      {{^cite}}
+      <li><a href="{{uri}}" target="_blank" property="url">{{uri}}</a></li>
+      {{/cite}}
+    </ul>
+    {{/sources}}
+    </div>
+{{> tail}}

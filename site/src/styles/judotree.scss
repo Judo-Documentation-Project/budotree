@@ -117,13 +117,13 @@ img.thumb {
     _font-size: 0.5rem;
     _vertical-align: super;
 }
-.info li {
+.info li, .person li {
   alist-style-type: none;
   margin-left: 10px;
   padding: 0;
 }
 
-.info ul {
+.info ul, .person ul {
    margin: 0;
    padding: 0;
    list-style: disc;
@@ -137,15 +137,34 @@ img.thumb {
   margin-top: 10px;
 }
 
-.info h1 {
+.person figure {
+  border: thin silver solid;
+  float: right;
+  margin-left: 20px;
+}
+
+.person img {
+  margin: 10px;
+  max-width: 200px;
+  _border: thin silver solid;
+}
+
+
+.info h1, .person h1 {
     font-size: 1rem;
     font-weight: bold;
 
 }
 
-.info .birth {
+.info .birth  {
     font-size: 0.7rem;
     text-align: center;
+}
+
+.person .birth {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .info .learning-flow {
@@ -158,17 +177,34 @@ img.thumb {
 .info .learning-arrow {
   padding: 1rem;
 }
-h1.name  {
+.info h1.name  {
     font-size: 0.8rem;
     font-weight: bold;
     color: #0f2540;
     text-align: center;
 }
 
+.person h1.name  {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0f2540;
+  text-align: center;
+}
+
 .info .photo-sources {
     font-size: 0.5rem;
-    font-style: italic;    
+    font-style: italic;
     text-align: center;
+}
+.person {
+  font-size: 1rem;
+}
+.person .photo-sources {
+  font-size: 0.7rem;
+  font-style: italic;
+  text-align: center;
+  _overflow-wrap: break-word;
+  max-width: 200px;
 }
 
 .info .native-name  {
@@ -178,6 +214,22 @@ h1.name  {
     text-align: center;
 }
 
+.person .native-name  {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0f2540;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.person .nationality  {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0f2540;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .info h2 {
   font-weight: bold;
   font-size: 0.8rem;
@@ -185,7 +237,22 @@ h1.name  {
   _color: #f596aa;
 }
 
-.info dt {
+.person h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #cb4042;
+  _color: #f596aa;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  padding: 0.5em;
+  _border: thin silver solid;
+  border-bottom: none;
+}
+
+.info dt, person dt {
     font-size: 1rem;
     font-weight: bold;
 
@@ -220,7 +287,7 @@ h1.name  {
   _overflow: scroll;
   height: auto;
   -webkit-overflow-scrolling: touch;
-  _overscroll-behavior: contain;  
+  _overscroll-behavior: contain;
   overflow-wrap: break-word;
   _color: #cb4042;
   background-color: white;
@@ -229,7 +296,16 @@ h1.name  {
   margin-top: 0.6rem !important;
 }
 
+.person {
+  width: 90vw;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.individual-links {
+  text-align: center;
 
+}
 dt {
   color: #cb4042;
   padding: 1rem;

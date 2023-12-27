@@ -71,6 +71,7 @@ jobs:
       run: |
         npm ci
         git log --pretty=format:'{ "dbversion": "%h %ad" }' -1 -- ../export/tree.json > src/js/dbversion.json
+        npm run static
         npm run build --if-present
     - name: Run ESLint
       working-directory: site
@@ -177,6 +178,11 @@ jobs:
     - name: Run ESLint
       working-directory: site
       run: npx eslint ./src --ext .js
+
+    - name: Build static pages
+      #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
+      working-directory: site
+      run: npm run static
 
     - name: Build
       #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
