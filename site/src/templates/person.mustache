@@ -36,7 +36,7 @@
 <figure>
     {{#photo}}
     {{#photo_url_local}}
-    <img src="{{photo_url_local}}" alt="{{photo.cite}}" property="image"/>
+    <img src="../{{{photo_url_local}}}" alt="{{photo.cite}}" property="image"/>
     {{/photo_url_local}}
     {{^photo_url_local}}
     <img src="{{photo.url}}" alt="{{photo.cite}}" property="image"/>
@@ -46,13 +46,19 @@
     </figcaption>
 
     {{/photo}}
+
     {{^photo}}
+
     {{#photo_url_local}}
-    <img src="{{photo_url_local}}" alt="Photo of {{name}}" property="image"/>
+    <img src="../{{{photo_url_local}}}" alt="Photo of {{name}}" property="image"/>
     {{/photo_url_local}}
+
+    {{^photo_url_local}}
     {{#photo_url}}
     <img src="{{photo_url}}"  alt="Photo of {{name}}" property="image"/>
     {{/photo_url}}
+    {{/photo_url_local}}
+
     {{/photo}}
 </figure>
     <p class="description" property="description">{{description_lang}}</p>
