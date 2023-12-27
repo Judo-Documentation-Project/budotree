@@ -126,13 +126,13 @@ function createPerson (target){
     }
     target.data().gitRoot = gitRoot;
     const rendered = Mustache.render(template, target.data(), {
-      head: head,
-      tail: tail
+      head: head_top,
+      tail: tail_top
     });
 
     //document.getElementById("info").innerHTML = rendered;
-    console.log("Saving to ", path.join("./src/persons", target.data().id+'.html'))
-    fs.writeFileSync(path.join("./src/persons", target.data().id+'.html'), rendered);
+    console.log("Saving to ", path.join("./src", target.data().id+'.html'))
+    fs.writeFileSync(path.join("./src", target.data().id+'.html'), rendered);
   }
 }
 

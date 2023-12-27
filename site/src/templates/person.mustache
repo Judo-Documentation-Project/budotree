@@ -23,7 +23,7 @@
         View
         <i class="fas fa-eye mr-3 "></i>
       </a>
-      <a href="https://budotree.judoc.org/persons/{{id}}.html" alt="Link to individual page">
+      <a href="{{id}}.html" alt="Link to individual page">
         ID
         <i class="fas fa-share-nodes mr-3 "></i>
       </a>
@@ -67,8 +67,8 @@
       {{#teachers}}
       {{#teacher_name}}
       <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="attendee" typeof="Person" resource="https://budotree.judoc.org/persons/{{id}}.html" hidden>{{name}}</span>
-      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="persons/{{id}}.html">{{teacher_name}}</span></a>
+        <span property="attendee" typeof="Person" resource="https://budotree.judoc.org/{{id}}.html" hidden>{{name}}</span>
+      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="{{id}}.html">{{teacher_name}}</span></a>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
       </li>
