@@ -465,6 +465,7 @@ const gitRoot =
 const cardTitle = document.getElementById("card-title");
 const cardFooter = document.getElementById("card-footer");
 const cardFooterShare = document.getElementById("card-footer-share");
+const cardFooterLink = document.getElementById("card-footer-link");
 // var focusedPeople =[]
 // var ancestorsOfPeople = []
 // var descendantsOfPeople = []
@@ -595,16 +596,24 @@ function updateInfo(target) {
     document.getElementById("i18n:rank").innerHTML = polyglot.t("Rank");
     document.getElementById("i18n:sources").innerHTML = polyglot.t("Sources");
 
+    document.getElementById("footerId").innerHTML = target.data().id + ": ";
     cardFooterShare.setAttribute(
       "href",
       "https://" + window.location.host + "?id=" + target.data().id,
     );
     cardFooterShare.innerHTML =
-      '<i class="fas fa-link mr-2"></i> ' + target.data().id;
+      '<i class="fas fa-eye mr-3 "></i> ' //+ target.data().id;
+
+    cardFooterLink.setAttribute(
+      "href",
+      "https://" + window.location.host + "/persons/" + target.data().id + ".html",
+    );
+    cardFooterLink.innerHTML =
+      '<i class="fas fa-share-nodes mr-3 "></i> ' //+ target.data().id;
 
     cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
     cardFooter.innerHTML =
-      '<i class="fas fa-file-code mr-2"></i> ' + target.data().id;
+      '<i class="fas fa-file-code mr-3"></i> ' //+ target.data().id;
 
     // Teacher link navigation
     const teachers = document.getElementById("teachers");

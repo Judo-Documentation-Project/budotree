@@ -6,13 +6,16 @@ const path = require('path')
 const Mustache = require("mustache");
 const cytoscape = require("cytoscape");
 const { DateTime } = require("luxon");
+
+
 let data = JSON.parse(fs.readFileSync("./src/js/tree.json", 'utf8'));
 let st = JSON.parse(fs.readFileSync("./src/js/styles.json", 'utf8'));
 let dbversion = JSON.parse(fs.readFileSync("./src/js/dbversion.json", 'utf8'));
 const Polyglot = require("node-polyglot");
 
 const countries = require("i18n-iso-countries");
-
+const gitRoot =
+      "https://github.com/Judo-Documentation-Project/budotree/tree/main/";
 countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/pt.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/ja.json"));
@@ -119,7 +122,7 @@ function createPerson (target){
         target.data().death.date,
       ).toFormat("yyyy");
     }
-
+    target.data().gitRoot = gitRoot;
     const rendered = Mustache.render(template, target.data(), {
       head: head,
       tail: tail

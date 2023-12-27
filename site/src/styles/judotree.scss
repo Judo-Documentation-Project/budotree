@@ -222,6 +222,14 @@ img.thumb {
   margin-bottom: 10px;
 }
 
+.person .nationality  {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0f2540;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .info h2 {
   font-weight: bold;
   font-size: 0.8rem;
@@ -293,6 +301,10 @@ figcaption {
   max-width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+.individual-links {
+  text-align: center;
+
 }
 dt {
   color: #cb4042;
