@@ -17,6 +17,9 @@ import { Timeline } from "@knight-lab/timelinejs";
 import bulmaSlider from "bulma-slider";
 
 console.log("Cytoscape version: ", cytoscape.version)
+
+
+
 /* "Toolbox" activation
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -294,6 +297,7 @@ console.log(availableLayouts);
 
 document.addEventListener("DOMContentLoaded", function () {
   console.log("DOM content loaded, running layout");
+
   openTab(true, "tab:cy");
   //    layoutOptions["name"]="elk";
   //    layoutOptions["elk"]["algorithm"] = "stress";
@@ -525,6 +529,7 @@ function updateInfo(target) {
           // console.log(person.data.name);
           target.data().teachers[i].teacher_name = person.data.name;
           target.data().teachers[i].teacher_native = person.data.native_name;
+          target.data().teachers[i].style = getStyleById(target.data().teachers[i].style_id).name
           // console.log(target.data().teachers[i]["teacher_name"]);
         }
       }
