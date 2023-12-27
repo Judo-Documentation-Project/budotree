@@ -64,28 +64,29 @@
     <p class="description" property="description">{{description_lang}}</p>
     <h2 id="i18n:teachers">Teachers</h2>
     <ul id="teachers">
+      <div vocab="https://schema.org/" typeof="EducationEvent">
+        <span property="attendee" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>    
       {{#teachers}}
       {{#teacher_name}}
-      <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="attendee" typeof="Person" resource="https://budotree.judoc.org/{{id}}.html" hidden>{{name}}</span>
-      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="{{id}}.html">{{teacher_name}}</span></a>
+
+      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="{{id}}.html"><span property="name">{{teacher_name}}</span></span></a>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
       </li>
-      </div>
       {{/teacher_name}}
       {{/teachers}}
+      </div>      
     </ul>
     <h2 id="i18n:students">Students</h2>
     <ul id="students">
-      {{#students}}
       <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="performer" typeof="Person" hidden>{{name}}</span>
-      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person">{{name}}</span></a>
+        <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>    
+      {{#students}}
+      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person" resource="{{id}}.html"><span property="name">{{name}}</span></span></a>
         <span class="style_native"> {{native_name.name}} </span>
-</li>
-</div>
+      </li>   
       {{/students}}
+</div>      
     </ul>
 <h2 id="i18n:rank">Rank</h2>
     <ul>
