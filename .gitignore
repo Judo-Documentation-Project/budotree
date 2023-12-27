@@ -8,3 +8,5 @@ node_modules/
 dist/
 .parcel-cache/
 scratch.lisp
+site/src/persons/*
+site/src/images/cache/*
