@@ -31,6 +31,8 @@ let lang = "en";
 
 const head = fs.readFileSync("./src/templates/head.mustache").toString();
 const tail = fs.readFileSync("./src/templates/tail.mustache").toString();
+const head_top = fs.readFileSync("./src/templates/head_top.mustache").toString();
+const tail_top = fs.readFileSync("./src/templates/tail_top.mustache").toString();
 
 var cy = cytoscape({
     elements: data.elements,
@@ -51,11 +53,11 @@ function listPersons() {
     a.data.name.localeCompare(b.data.name),
   );
   const rendered = Mustache.render(template, { arr: sorted }, {
-    head: head,
-    tail: tail
+    head: head_top,
+    tail: tail_top
   });
   console.log(rendered)
-  fs.writeFileSync('./src/persons/persons.html', rendered);
+  fs.writeFileSync('./src/persons.html', rendered);
   for (const person of data.elements.nodes) {
     console.log("Processing ", person.data.id)
     createPerson(cy.getElementById(person.data.id))
@@ -67,10 +69,10 @@ function createAbout() {
   const template = fs.readFileSync("./src/templates/about.mustache").toString();
   const rendered = Mustache.render(template, { cytoscape_version: cytoscape.version,
                                                db_version: dbversion.dbversion}, {
-    head: head,
-    tail: tail
+    head: head_top,
+    tail: tail_top
                                                })
-  fs.writeFileSync(path.join("./src/persons", 'about.html'), rendered);
+  fs.writeFileSync(path.join("./src/", 'about.html'), rendered);
 }
 
 function createPerson (target){

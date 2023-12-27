@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -10,9 +9,7 @@
     <meta
       name="description"
       content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"
-    />
-    <meta name="author" content="Frederico Muñoz" />
-    <meta name="image" content="images/preview.png" />
+      />
     <meta property="og:title" content="Budō Lineage Tree" />
     <meta property="og:url" content="https://budotree.judoc.org" />
     <meta
@@ -50,33 +47,38 @@
     <meta name="twitter:player:height" content="620" />
     <meta name="twitter:site" content="@fredericomunoz" />
     <meta name="twitter:card" content="player" />
+    <meta name="author" content="Frederico Muñoz" />
     <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="styles/judotree.scss" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-LN5TCW2MTP"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-LN5TCW2MTP");
-    </script>
   </head>
   <body>
-    <!-- JavasScript version -->
-    <script>
-      window.location.href = "./tree.html";
-    </script>
-    <!-- Static version -->
-    <h1>Budo Lineage Tree</h1>
-    This is the Budo Lineage Tree.
-    <br />
-    <a href="persons.html">List of martial artists</a>
-    <a href="tree.html">JS version</a>
-  </body>
-</html>
+    <nav
+      class="navbar _is-dark _is-spaced has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-item _mr-6">
+        <figure class="image is-24x24 is-clickable">
+          <a href="persons.html">
+          <img
+            class="image is-rounded"
+            src="images/kano_jigoro_small.jpg"
+            id="home"
+            alt="Home"
+            />
+          </a>
+        </figure>
+      </div>
+      <div class="navbar-brand">
+        <a id="jdp" class="navbar-item" href="https://www.judoc.org"
+          >柔道 | JDP</a>
+        <div id="nav-budo" class="navbar-item">Budō Lineage Tree</div>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start ml-6"></div>
+        <div class="navbar-end"></div>
+      </div>
+      </div>
+    </nav>
