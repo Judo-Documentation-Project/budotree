@@ -94,6 +94,21 @@ function createPerson (target){
       }
     }
 
+    if (target.isNode()) {
+      for (let i = 0; i < target.data().rank.length; i++) {
+        // console.log(event.target.data().teachers[i]);
+        for (const person of data.elements.nodes) {
+          if (person.data.id == target.data().rank[i].teacher_id) {
+            // console.log(person.data.name);
+            target.data().rank[i].teacher_name = person.data.name;
+            target.data().rank[i].teacher_native = person.data.native_name;
+            target.data().rank[i].style = getStyleById(target.data().teachers[i].style_id).name
+            console.log(target.data().rank[i]["teacher_name"]);
+          }
+        }
+      }
+    }
+
 
     // console.log("Students? ", target.outgoers('node'))
     const students = [];
@@ -129,8 +144,8 @@ function createPerson (target){
       head: head_top,
       tail: tail_top
     });
-
     //document.getElementById("info").innerHTML = rendered;
+    console.log(target.data())
     console.log("Saving to ", path.join("./src", target.data().id+'.html'))
     fs.writeFileSync(path.join("./src", target.data().id+'.html'), rendered);
   }

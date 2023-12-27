@@ -65,11 +65,11 @@
     <h2 id="i18n:teachers">Teachers</h2>
     <ul id="teachers">
       <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="attendee" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>    
+        <span property="attendee" typeof="Person"" hidden><span property="name" resource="{{id}}.html">{{name}}</span></span>
       {{#teachers}}
       {{#teacher_name}}
 
-      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person" resource="{{id}}.html"><span property="name">{{teacher_name}}</span></span></a>
+      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person"><span property="name" resource="{{id}}.html">{{teacher_name}}</span></span></a>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
       </li>
@@ -82,7 +82,7 @@
       <div vocab="https://schema.org/" typeof="EducationEvent">
         <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>    
       {{#students}}
-      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person" resource="{{id}}.html"><span property="name">{{name}}</span></span></a>
+      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person"><span property="name" resource="{{id}}.html">{{name}}</span></span></a>
         <span class="style_native"> {{native_name.name}} </span>
       </li>   
       {{/students}}
@@ -99,10 +99,11 @@
         {{/style_native}}
         : <span property="educationalLevel" typeof="Text">{{rank}}</span>
         {{#teacher_name}}
-        (<span property="creator" typeof="Person">{{teacher_name}}</span> {{org}})
+        (<span property="creator" typeof="Person"><a href="{{teacher_id}}.html"><span resource="{{id}}.html" property="name">{{teacher_name}}</span></a></span> {{org}})
         {{/teacher_name}}
         {{#org}}
-        ({{teacher_name}} <span property="creator" typeof="Organization">{{org}}</span>)
+        (<span property="creator" typeof="Person"><a href="{{teacher_id}}.html"><span resource="{{id}}.html" property="name">
+        {{teacher_name}}</span></a></span> <span property="creator" typeof="Organization">{{org}}</span>)
         {{/org}}
         {{/style}}
       </li>
