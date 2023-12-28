@@ -94,7 +94,8 @@ function createPerson (target){
       }
     }
 
-    if (target.isNode()) {
+    if (target.isNode() && target.data().rank) {
+
       for (let i = 0; i < target.data().rank.length; i++) {
         // console.log(event.target.data().teachers[i]);
         for (const person of data.elements.nodes) {
