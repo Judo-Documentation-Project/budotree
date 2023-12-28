@@ -69,24 +69,27 @@
       {{#teachers}}
       {{#teacher_name}}
 
-      <li><a href="{{id}}.html" id="{{id}}"><span property="performer" typeof="Person"><span property="name" resource="{{id}}.html">{{teacher_name}}</span></span></a>
+      <li>
+      <span property="performer" typeof="Person">
+        <a href="{{id}}.html" id="{{id}}" resource="{{id}}.html" property="name">{{teacher_name}}</a>
+      </span>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
       </li>
       {{/teacher_name}}
       {{/teachers}}
-      </div>      
+      </div>
     </ul>
     <h2 id="i18n:students">Students</h2>
     <ul id="students">
       <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>    
+        <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
       {{#students}}
       <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person"><span property="name" resource="{{id}}.html">{{name}}</span></span></a>
         <span class="style_native"> {{native_name.name}} </span>
-      </li>   
+      </li>
       {{/students}}
-</div>      
+</div>
     </ul>
 <h2 id="i18n:rank">Rank</h2>
     <ul>
