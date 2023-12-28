@@ -85,7 +85,10 @@
       <div vocab="https://schema.org/" typeof="EducationEvent">
         <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
       {{#students}}
-      <li><a href="{{id}}.html" id="{{id}}"><span property="attendee" typeof="Person"><span property="name" resource="{{id}}.html">{{name}}</span></span></a>
+        <li>
+          <span property="attendee" typeof="Person">
+            <a href="{{id}}.html" id="{{id}}" property="name" resource="{{id}}.html">{{name}}</a>
+          </span>
         <span class="style_native"> {{native_name.name}} </span>
       </li>
       {{/students}}
@@ -102,11 +105,19 @@
         {{/style_native}}
         : <span property="educationalLevel" typeof="Text">{{rank}}</span>
         {{#teacher_name}}
-        (<span property="creator" typeof="Person"><a href="{{teacher_id}}.html"><span resource="{{id}}.html" property="name">{{teacher_name}}</span></a></span> {{org}})
+        (<span property="creator" typeof="Person">
+          <a href="{{teacher_id}}.html" resource="{{id}}.html" property="name">{{teacher_name}}</a>
+        </span> {{org}})
         {{/teacher_name}}
         {{#org}}
-        (<span property="creator" typeof="Person"><a href="{{teacher_id}}.html"><span resource="{{id}}.html" property="name">
-        {{teacher_name}}</span></a></span> <span property="creator" typeof="Organization">{{org}}</span>)
+        (<!-- <span property="creator" typeof="Person"> -->
+        <!--   <a href="{{teacher_id}}.html" resource="{{id}}.html" property="name"> -->
+        <!--     {{teacher_name}} -->
+        <!--   </a> -->
+        <!-- </span> -->
+        <span property="creator" typeof="Organization">
+          <span property="name">{{org}}</span>
+        </span>)
         {{/org}}
         {{/style}}
       </li>
