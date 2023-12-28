@@ -65,8 +65,8 @@
     <h2 id="i18n:teachers">Teachers</h2>
     <ul id="teachers">
       <div vocab="https://schema.org/" typeof="EducationEvent">
-        <span property="attendee" typeof="Person"" hidden><span property="name" resource="{{id}}.html">{{name}}</span></span>
-      {{#teachers}}
+        {{#teachers}}
+        <span property="attendee" typeof="Person" hidden><span property="name" resource="{{id}}.html">{{name}}</span></span>
       {{#teacher_name}}
 
       <li>
