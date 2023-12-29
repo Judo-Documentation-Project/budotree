@@ -89,6 +89,8 @@ function createPerson (target){
           target.data().teachers[i].teacher_name = person.data.name;
           target.data().teachers[i].teacher_native = person.data.native_name;
           target.data().teachers[i].style = getStyleById(target.data().teachers[i].style_id).name
+          target.data().teachers[i].student_id = target.data().id;
+          target.data().teachers[i].student_name = target.data().name;
           // console.log(target.data().teachers[i]["teacher_name"]);
         }
       }

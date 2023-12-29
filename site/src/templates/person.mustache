@@ -78,11 +78,11 @@
       {{#teacher_name}}
       <div vocab="https://schema.org/" typeof="EducationEvent">
       <li>
-      <span property="performer" typeof="Person" resource="{{teacher_id}}.html">
-        <a href="{{teacher_id}}.html" id="{{teacher_id}}" property="name">{{teacher_name}}</a>
+      <span property="performer" typeof="Person" resource="{{id}}.html">
+        <a href="{{id}}.html" id="{{id}}" property="name">{{teacher_name}}</a>
       </span>
       <span hidden> -> </span>
-      <span property="attendee" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
+      <span property="attendee" typeof="Person" resource="{{student_id}}.html" hidden><span property="name">{{student_name}}</span></span>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
       </li>
