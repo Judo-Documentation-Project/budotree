@@ -83,3 +83,8 @@ person:
     - uri: https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/
     - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
     - uri: https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3
+  links:
+    - uri: https://www.wikidata.org/wiki/Q8056250
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Yoshio_Sugino
+      cite: DBpedia

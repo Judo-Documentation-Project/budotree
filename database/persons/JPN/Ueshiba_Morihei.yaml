@@ -71,3 +71,8 @@ person:
     - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
       events: [ rank ]
     - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q182130
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Morihei_Ueshiba
+      cite: DBpedia

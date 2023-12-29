@@ -46,3 +46,8 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+  links:
+    - uri: https://www.wikidata.org/wiki/Q2453372
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Kyuzo_Mifune
+      cite: DBpedia

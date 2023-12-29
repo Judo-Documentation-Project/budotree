@@ -34,3 +34,6 @@ person:
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9
+  links:
+    - uri: https://www.wikidata.org/wiki/Q22124384
+      cite: Wikidata

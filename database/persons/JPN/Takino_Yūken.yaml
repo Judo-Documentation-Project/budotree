@@ -36,3 +36,6 @@ person:
     - uri: https://doi.org/10.18002/rama.v13i2.5700
     - uri: https://www.ryoishintokai.com/2022/03/24/1819/
       events: [ birth ]
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11565323
+      cite: Wikidata

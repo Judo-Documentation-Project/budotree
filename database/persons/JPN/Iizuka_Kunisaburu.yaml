@@ -35,3 +35,8 @@ person:
   sources:
     - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
     - uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+  links:
+    - uri: https://www.wikidata.org/wiki/Q6444749
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Kunisaburo_Iizuka
+      cite: DBpedia

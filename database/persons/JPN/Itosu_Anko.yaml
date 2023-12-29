@@ -42,3 +42,8 @@ person:
   sources:
     - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
     - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  links:
+    - uri: https://www.wikidata.org/wiki/Q527422
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Ank%C5%8D_Itosu
+      cite: DBpedia

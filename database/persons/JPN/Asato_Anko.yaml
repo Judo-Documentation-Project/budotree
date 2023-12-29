@@ -43,3 +43,8 @@ person:
     - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
     - uri: https://www.world-traditional-karate-federation.com/anko-asato-move-to-tokyo.html
     - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  links:
+    - uri: https://www.wikidata.org/wiki/Q721201
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Ank%C5%8D_Asato
+      cite: DBpedia

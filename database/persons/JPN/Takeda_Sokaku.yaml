@@ -35,3 +35,8 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
     - uri: https://aikidojournal.com/2011/09/02/interview-with-kenji-tomiki-1-2/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q503880
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Takeda_S%C5%8Dkaku
+      cite: DBpedia

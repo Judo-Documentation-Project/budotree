@@ -35,3 +35,8 @@ person:
   sources:
       - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
       - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11973675
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Hajime_Isogai
+      cite: DBpedia

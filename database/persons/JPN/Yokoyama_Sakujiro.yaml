@@ -42,3 +42,8 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+  links:
+    - uri: https://www.wikidata.org/wiki/Q3276775
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Yokoyama_Sakujiro
+      cite: DBpedia

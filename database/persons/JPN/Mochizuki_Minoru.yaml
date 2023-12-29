@@ -82,3 +82,8 @@ person:
   sources:
     - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
     - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+  links:
+    - uri: https://www.wikidata.org/wiki/Q1937662
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Minoru_Mochizuki
+      cite: DBpedia

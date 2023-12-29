@@ -76,3 +76,8 @@ person:
     - uri: https://judoinfo.com/fukuda/
     - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
     - uri: https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q460890
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Keiko_Fukuda
+      cite: DBpedia
