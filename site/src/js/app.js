@@ -606,7 +606,7 @@ function updateInfo(target) {
 
     cardFooterLink.setAttribute(
       "href",
-      "https://" + window.location.host + target.data().id + ".html",
+      "https://" + window.location.host + "/" + target.data().id + ".html",
     );
     cardFooterLink.innerHTML =
       '<i class="fas fa-share-nodes mr-3 "></i> ' //+ target.data().id;
