@@ -96,8 +96,8 @@
         <span property="performer" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
       {{#students}}
         <li>
-          <span property="attendee" typeof="Person">
-            <a href="{{id}}.html" id="{{id}}" property="name" resource="{{id}}.html">{{name}}</a>
+          <span property="attendee" typeof="Person" resource="{{id}}.html">
+            <a href="{{id}}.html" id="{{id}}" property="name">{{name}}</a>
           </span>
         <span class="style_native"> {{native_name.name}} </span>
       </li>
@@ -115,8 +115,8 @@
         {{/style_native}}
         : <span property="educationalLevel" typeof="Text">{{rank}}</span>
         {{#teacher_name}}
-        (<span property="creator" typeof="Person">
-          <a href="{{teacher_id}}.html" resource="{{teacher_id}}.html" property="name">{{teacher_name}}</a>
+        (<span property="creator" typeof="Person" resource="{{teacher_id}}.html">
+          <a href="{{teacher_id}}.html"  property="name">{{teacher_name}}</a>
         </span>)
         {{/teacher_name}}
         {{#org}}
