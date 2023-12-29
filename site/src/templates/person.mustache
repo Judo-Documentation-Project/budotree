@@ -76,12 +76,12 @@
     <ul id="teachers">
       <div vocab="https://schema.org/" typeof="EducationEvent">
         {{#teachers}}
-        <span property="attendee" typeof="Person" hidden><span property="name" resource="{{id}}.html">{{name}}</span></span>
+        <span property="attendee" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
       {{#teacher_name}}
 
       <li>
-      <span property="performer" typeof="Person">
-        <a href="{{id}}.html" id="{{id}}" resource="{{id}}.html" property="name">{{teacher_name}}</a>
+      <span property="performer" typeof="Person"  resource="{{id}}.html">
+        <a href="{{id}}.html" id="{{id}}" property="name">{{teacher_name}}</a>
       </span>
         <span class="style_native"> {{teacher_native.name}} </span>
         (<span property="teaches" typeof="Text">{{style}}</span>)
