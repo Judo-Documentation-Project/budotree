@@ -9,4 +9,4 @@ dist/
 .parcel-cache/
 scratch.lisp
 site/src/persons/*
-site/src/images/cache/*
+site/src/js/tree.json
