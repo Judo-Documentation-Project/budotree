@@ -144,7 +144,7 @@ function createPerson (target){
     if (target.data().links) {
       for (let i = 0; i < target.data().links.length; i++) {
         let link = target.data().links[i].uri
-        if (link.match("/www\.wikidata\.org")) {
+        if (link.match("wikidata.org")) {
           target.data().links[i].img = "wikidata.png"
         }
         if (link.match("/dbpedia.org")) {
