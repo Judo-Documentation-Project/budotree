@@ -163,7 +163,7 @@ img.thumb {
 
 .person .birth {
   font-size: 1rem;
-  text-align: center;
+  _text-align: center;
   margin-bottom: 20px;
 }
 
@@ -181,14 +181,15 @@ img.thumb {
     font-size: 0.8rem;
     font-weight: bold;
     color: #0f2540;
-    text-align: center;
+    text-align: cent
 }
 
 .person h1.name  {
   font-size: 1.8rem;
   font-weight: bold;
   color: #0f2540;
-  text-align: center;
+  _text-align: center;
+  _display: inline-block;
 }
 
 .info .photo-sources {
@@ -198,6 +199,7 @@ img.thumb {
 }
 .person {
   font-size: 1rem;
+
 }
 .person .photo-sources {
   font-size: 0.7rem;
@@ -218,7 +220,7 @@ img.thumb {
   font-size: 1rem;
   font-weight: bold;
   color: #0f2540;
-  text-align: center;
+ _text-align: center;
   margin-bottom: 10px;
 }
 
@@ -226,7 +228,7 @@ img.thumb {
   font-size: 1rem;
   font-weight: bold;
   color: #0f2540;
-  text-align: center;
+  _text-align: center;
   margin-bottom: 10px;
 }
 
@@ -304,7 +306,9 @@ figcaption {
 }
 .individual-links {
   text-align: center;
-
+  margin-bottom: 1rem;
+  border: thin silver solid;
+  padding: 0.5rem;
 }
 dt {
   color: #cb4042;
@@ -331,6 +335,20 @@ dd ul {
     z-index: 10;
 }
 
+.footer-static {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  z-index: 10;
+}
+
+.semantic-links img {
+  max-height: 40px;
+  vertical-align: middle;
+  float: right;
+}
 
 // Make bavbar dropbown smaller
 ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), select, textarea {

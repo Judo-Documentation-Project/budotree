@@ -79,11 +79,24 @@
         "sources": {
           "type": "array",
           "items": {
-              "$ref": "budotree.schema.json#/definitions/Source"
+            "$ref": "budotree.schema.json#/definitions/Source"
           }
         },
         "tags": {
           "$ref": "budotree.schema.json#/definitions/Tags"
+        },
+        "links": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "array",
+            "items": {
+              "$ref": "budotree.schema.json#/definitions/Source"
+            }
+          }
+          ]
         }
       },
       "required": [

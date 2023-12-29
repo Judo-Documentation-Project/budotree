@@ -2,6 +2,16 @@
 <div id="info" class="person" vocab="https://schema.org/" resource="{{id}}.html" typeof="Person">
 
   <h1 class="name" property="name">{{name}}</h1>
+  <div class="semantic-links">
+    {{#links}}
+    {{#img}}
+    <a  href="{{uri}}" target="_blank">
+      <img src="images/{{img}}" alt="{{cite}} entry"></img>
+      <span property="sameAs" hidden>{{uri}}</span>
+     </a>
+     {{/img}}
+     {{/links}}
+   </div>
   <p class="native-name">{{native_name.name}}</p>
   <p class="nationality">
     {{#nationality}}
@@ -20,15 +30,15 @@
 
     <div class="individual-links">
       <a href="https://budotree.judoc.org?id={{id}}" alt="Link to view">
-        View
+        Open in tree
         <i class="fas fa-eye mr-3 "></i>
       </a>
       <a href="{{id}}.html" alt="Link to individual page">
-        ID
+        ID page
         <i class="fas fa-share-nodes mr-3 "></i>
       </a>
       <a href="{{gitRoot}}{{source_yaml}}" alt="Link to the YAML source">
-        YAML
+        Source YAML
         <i class="fas fa-file-code mr-3 "></i>
       </a>
     </div>
@@ -124,16 +134,20 @@
       </li>
       {{/rank}}
     </ul>
-    <h2 id="i18n:sources">Sources</h2>
+<h2 id="i18n:sources">Sources</h2>
+   <ul>
     {{#sources}}
-    <ul>
       {{#cite}}
       <li><a class="sources" href="{{uri}}" target="_blank" property="url">{{cite}}</a></li>
       {{/cite}}
       {{^cite}}
       <li><a href="{{uri}}" target="_blank" property="url">{{uri}}</a></li>
       {{/cite}}
-    </ul>
     {{/sources}}
-    </div>
+    </ul>
+   <h2 id="i18n:sources">Linked data</h2>
+
+</div>
+<div  mb-5>
+</div>
 {{> tail}}

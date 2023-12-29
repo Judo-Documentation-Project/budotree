@@ -173,6 +173,17 @@
       "items": {
         "type": "string"
       }
+    },
+    "Links": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri",
+        "qt-uri-protocols": [
+          "https",
+          "http"
+        ]
+      }
     }
   }
 }

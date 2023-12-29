@@ -14,16 +14,27 @@
     <meta property="og:url" content="https://budotree.judoc.org/{{id}}.html" />
     <meta
       property="og:description"
-      content="{{name}}page in the Budõ lineage tree: community-based, curated, comprehensive, and open martial arts database."
-    />
-    <meta property="og:image" content="{{#photo}}{{#photo_url_local}}{{{photo_url_local}}}{{/photo_url_local}}{{/photo}}{{^photo}}{{#photo_url_local}}{{{photo_url_local}}}{{/photo_url_local}}{{/photo}}" />
+      content="{{name}} page in the Budõ lineage tree: community-based, curated, comprehensive, and open martial arts database."
+      />
+    {{#photo}}
+    {{#photo_url_local}}
+    <meta property="og:image" content="{{{photo_url_local}}}" />
+    <meta name="twitter:image" content="{{{photo_url_local}}}" />
+    {{/photo_url_local}}
+    {{/photo}}
+    {{^photo}}
+    {{#photo_url_local}}
+    <meta property="og:image" content="{{{photo_url_local}}}" />
+    <meta name="twitter:image" content="{{{photo_url_local}}}" />
+    {{/photo_url_local}}
+    {{/photo}}
 
     <meta name="twitter:title" content="{{name}} (Budō Lineage Tree)" />
+
     <meta
       name="twitter:description"
       content="{{name}} page, (Budō Lineage Tree)"
     />
-    <meta name="twitter:image" content="{{#photo}}{{#photo_url_local}}{{{photo_url_local}}}{{/photo_url_local}}{{/photo}}{{^photo}}{{#photo_url_local}}{{{photo_url_local}}}{{/photo_url_local}}{{/photo}}" />
     <meta name="twitter:site" content="@fredericomunoz" />
 
     <meta name="author" content="Frederico Muñoz" />

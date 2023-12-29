@@ -140,6 +140,21 @@ function createPerson (target){
         target.data().death.date,
       ).toFormat("yyyy");
     }
+
+    if (target.data().links) {
+      for (let i = 0; i < target.data().links.length; i++) {
+        let link = target.data().links[i].uri
+        if (link.match("wikidata.org")) {
+          target.data().links[i].img = "wikidata.png"
+        }
+        if (link.match("/dbpedia.org")) {
+          target.data().links[i].img = "dbpedia.png"
+        }
+      }
+    }
+
+
+
     target.data().gitRoot = gitRoot;
     const rendered = Mustache.render(template, target.data(), {
       head: head_top,
