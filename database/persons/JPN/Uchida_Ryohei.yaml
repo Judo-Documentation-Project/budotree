@@ -78,3 +78,8 @@ person:
     - Kokuryūkai
     - Genyōsha
     - Omoto
+  links:
+    - uri: https://www.wikidata.org/wiki/Q120662
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Ry%C5%8Dhei_Uchida
+      cite: DBpedia

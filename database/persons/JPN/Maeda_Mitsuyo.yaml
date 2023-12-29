@@ -45,3 +45,8 @@ person:
       date: 1941
   sources:
     - uri: https://en.wikipedia.org/wiki/Mitsuyo_Maeda
+  links:
+    - uri: https://www.wikidata.org/wiki/Q2456537
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Mitsuyo_Maeda
+      cite: DBpedia

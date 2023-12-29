@@ -34,3 +34,8 @@ person:
       date: 1937
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+  links:
+    - uri: https://www.wikidata.org/wiki/Q2672426
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Tomita_Tsunejir%C5%8D
+      cite: DBpedia

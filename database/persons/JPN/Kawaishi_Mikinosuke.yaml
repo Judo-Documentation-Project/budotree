@@ -71,3 +71,8 @@ person:
     - uri: https://doi.org/10.4471/hse.2013.15
     - uri: https://judoinfo.com/kawaishi/
     - uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  links:
+    - uri: https://www.wikidata.org/wiki/Q3090191
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Mikinosuke_Kawaishi
+      cite: DBpedia

@@ -39,3 +39,8 @@ person:
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
     - uri: https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg
+  links:
+    - uri: https://www.wikidata.org/wiki/Q715769
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Matsumura_S%C5%8Dkon
+      cite: DBpedia

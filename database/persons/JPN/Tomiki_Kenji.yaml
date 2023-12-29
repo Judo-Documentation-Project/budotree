@@ -47,3 +47,8 @@ person:
   sources:
     - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
+  links:
+    - uri: https://www.wikidata.org/wiki/Q6389379
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Kenji_Tomiki
+      cite: DBpedia

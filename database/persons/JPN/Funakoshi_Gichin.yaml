@@ -49,3 +49,8 @@ person:
     - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
     - uri: https://judoinfo.com/karateranks/
     - uri: https://search.worldcat.org/title/7673297
+  links:
+    - uri: https://www.wikidata.org/wiki/Q41105
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Gichin_Funakoshi
+      cite: DBpedia
