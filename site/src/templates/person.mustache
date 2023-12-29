@@ -7,7 +7,7 @@
     {{#img}}
     <a  href="{{uri}}" target="_blank">
       <img src="images/{{img}}" alt="{{cite}} entry"></img>
-      <link property="sameAs" typeof="Person" resource="{{uri}}" />
+      <link property="sameAs" typeof="Person" resource="{{uri}}" href="{{uri}}" />
      </a>
      {{/img}}
      {{/links}}
@@ -75,11 +75,10 @@
     <h2 id="i18n:teachers">Teachers</h2>
     <ul id="teachers">
       {{#teachers}}
+      {{#teacher_name}}
+      <li>
       <div vocab="https://schema.org/" typeof="EducationEvent">
         <span property="attendee" typeof="Person" resource="{{id}}.html" hidden><span property="name">{{name}}</span></span>
-      {{#teacher_name}}
-
-      <li>
       <span property="performer" typeof="Person" resource="{{teacher_id}}.html">
         <a href="{{teacher_id}}.html" id="{{teacher_id}}" property="name">{{teacher_name}}</a>
       </span>
