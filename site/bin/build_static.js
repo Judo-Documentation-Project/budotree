@@ -95,7 +95,6 @@ function createPerson (target){
     }
 
     if (target.isNode() && target.data().rank) {
-
       for (let i = 0; i < target.data().rank.length; i++) {
         // console.log(event.target.data().teachers[i]);
         for (const person of data.elements.nodes) {
@@ -114,6 +113,8 @@ function createPerson (target){
     // console.log("Students? ", target.outgoers('node'))
     const students = [];
     target.outgoers("node").forEach((e) => {
+      e.data().teacher_id = target.data().id
+      e.data().teacher_name = target.data().name
       students.push(e.data());
     });
 
