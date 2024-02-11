@@ -19,13 +19,17 @@ person:
     country_code:
   photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png/169px-%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png
   teachers:
-    - id:
-      style_id:
-      place:
-      quality:
+    - id: JDP-60
+      style_id: JDP-S-8
+      place: Bujutsu Kyoin Yoseijo
+      quality: 3
       period:
-        start:
+        start: 1905
         end:
+      sources:
+        - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+          cite: "The iron will of the kendo god Ueda Heitaro - Kenshi 24/7"
+          citation: "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
   rank:
     - style:
       org:
