@@ -1,0 +1,60 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-60
+  name: Naitō Takaharu
+  native_name:
+      name: 内藤高治
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1862"
+    location: Mito
+    country_code: JPN
+  death:
+    date: "1929"
+    location:
+    country_code:
+  description:
+    en: >-
+        A swordsman of the Hokushin Ittō-ryū, Naitō taught kendo to
+        the Japanese Police force, and was also the first teacher at
+        the Budo Senmon Gakko. He helped to create the Dai Nihon
+        Teikoku Kendo Kata, a group that promulgated the practice of
+        kendo in Japanese schools and universities under the auspices
+        of the Dai Nippon Butoku Kai.
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg/220px-Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jp
+    source:
+      uri: https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu#/media/File:Nait%C5%8D_Takaharu_(%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB).jpg
+      cite: "Naitō Takaharu (内藤高治) - Wikimedia Commons"
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id: JDP-S-8
+      org: Dai-Nippon Butoku Kai
+      teacher:
+      rank: Hanshi
+      date:
+      sources:
+        - uri: https://kenshi247.net/blog/2013/10/16/monna-tadashi/
+          cite: "Monna Tadashi - Kenshi 24/7"
+          citation: "In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi."
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu
+    - uri: https://kenshi247.net/blog/2020/06/17/finding-naito/
+    - uri: https://kenshi247.net/blog/2012/12/04/naito-takaharu/
+    - uri: https://ja.wikipedia.org/wiki/%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11394577
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Nait%C5%8D_Takaharu
+      cite: DBpedia

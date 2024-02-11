@@ -1,0 +1,87 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-58
+  name: Abbe Kenshirõ
+  native_name:
+      name: 阿部 謙四郎
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1915-12-15"
+    location: Tokushima
+    country_code: JPN
+  death:
+    date: "1985-12-01"
+    location: Tokushima
+    country_code: USA
+  description:
+    en: >-
+      Kenshiro Abbe was a prominent Japanese master of judo, aikido,
+      and kendo. He introduced aikido to the United Kingdom in 1955,
+      and founded the Kyushindo system.  Abbe was a graduate of the
+      Budo Senmon Gakko, having studied judo and kendo
+      there. Following an illustrious early career in the martial
+      arts, he served in the Imperial Japanese Army before and during
+      World War II. He then trained in aikido under its founder,
+      Morihei Ueshiba, for a decade. Abbe held dan ranks in several
+      martial arts, most notably 8th dan in judo, 6th dan in aikido,
+      and 6th dan in kendo. After introducing aikido to the UK, he
+      established several Japanese martial arts councils there during
+      the late 1950s. He returned to Japan in 1964 and remained there
+      for most of the remainder of his life.
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Kenshiro_Abbe.jpg/220px-Kenshiro_Abbe.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Kenshiro_Abbe#/media/File:Kenshiro_Abbe.jpg
+      cite: "Kenshiro Abbe - Wikipedia (original from Kendo Nagasaki, http://kendonagasaki.org/)"
+  teachers:
+    - id: JDP-59
+      style_id: JDP-S-8
+      place: Budō Senmon Gakko
+      period:
+        start: 1934
+        end: 1945
+      quality: 3
+      sources:
+        - uri: https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm
+          cite: "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo"
+          citation: "At the Busen Abbe received instruction from Ogawa Hanshi (genius), the Butokukai Judan (10th Dan) sword master. While at the Busen Kenshiro also enrolled in Mr. Gen Tanabe's philosophy class, at the Kyoto Teikoku University. That early encounter with philosophy would be influential in the formation of his system. While the training was arduous at the Busen, Kenshiro managed to receive his Yondan (4th Dan) rank in Judo, being again the young Judoka to attain it. His sister, Toyoka, decided to take Martial Arts too, enrolling in Mrs. Mitamura's Naginata class. She would dedicate the rest of her life to the practice of the art."
+    - id: JDP-27
+      style_id: JDP-S-4
+      place:
+      period:
+        start: 1937
+        end: 1947
+      quality: 3
+      sources:
+        - uri: https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm
+          cite: "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo"
+          citation: "In 1937, at the age of 23, Abbe was awarded his Rokudan (6th Dan) rank and in June of that year he enlisted in the Japanese army, serving for four years in a garrison in the Toan-sho Province in Manchuria. It was during the time in Manchuria that Abbe began formulating his theory of Budo (the Way of the Warrior), Kyu-Shin-Do. And it was also at this time that Abbe was invited by O'Sensei, Morihei Ueshiba to study Aikido under his care."
+  rank:
+    - style_id: JDP-S-8
+      org: Dai-Nippon Butoku Kai
+      teacher:
+      rank: 6 dan
+      date: 1945
+    - style_id: JDP-S-4
+      org:
+      teacher: JDP-27
+      rank: 6 dan
+      date: 1945
+    - style_id: JDP-S-1
+      org: Dai-Nippon Butoku Kai
+      teacher:
+      rank: 7 dan
+      date: 1945
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Kenshiro_Abbe
+    - uri: https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E8%AC%99%E5%9B%9B%E9%83%8E
+    - uri: http://www.sydhoare.com/Kenshiro.pdf
+  links:
+    - uri: https://www.wikidata.org/wiki/Q1739011
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Keiko_Fukuda
+      cite: DBpedia

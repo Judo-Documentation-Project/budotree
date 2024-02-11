@@ -1,0 +1,71 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-59
+  name: Ogawa Kinnosuke
+  native_name:
+      name: 小川 金之助
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1884"
+    location: Aiichi
+    country_code: JPN
+  death:
+    date: "1962"
+    location:
+    country_code:
+  description:
+    en: >-
+      Ogawa Kinnosuke was born in 1884 in Aiichi prefecture. He began
+      kendo whilst in school, at around 13/15 years of age, under
+      kendo hanshi Kato Kiichi and later under Kohori Yasutada. In his
+      late teens and very early 20s he taught kendo at a middle school
+      and joined the army (field gunnery position) before being
+      employed by Nagoya police department. He was a student and later
+      an instructor at the Budo Senmon Gakko, as well as in the Nagoya
+      police. He was a Butokukai hanshi and was Busen's principle
+      kendo instructor in the 1930's and up until 1945.
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png/220px-%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png
+    source:
+      uri: https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png
+      cite: "小川金之助 - Wikimedia Commons"
+  teachers:
+    - id: JDP-60
+      style_id: JDP-S-8
+      place: Budō Senmon Gakko
+      period:
+        start: 1907
+        end: 1910
+      quality: 3
+      sources:
+        - uri: https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm
+          cite: "Ogawa Kinnosuke - Kenshi 24/7"
+          citation: "In 1905 a school was formally opened to teach
+            kendo instructors and Naito was selected as the senior
+            teacher. At this time the school was known as the Bujutsu
+            Kyoin Yoseijo, but eventually (after a few
+            re-organisations and renames) it would be known to
+            everyone as Busen (Budo Senmon Gakko). It was to this
+            school that Ogawa was dispatched by the Nagoya police
+            department in 1907. Ogawa would spend 3 years studying
+            kendo directly under Naito."
+  rank:
+    - style_id: JDP-S-8
+      org: Dai-Nippon Butoku Kai
+      teacher:
+      rank: Hanshi
+      date:
+    - style_id: JDP-S-8
+      org: Zen Nippon Kendo Renmei
+      teacher:
+      rank: 10 dan
+      date: 1957
+  sources:
+    - uri: https://kenshi247.net/blog/2015/05/22/ogawa-kinnosuke/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11460626
+      cite: Wikidata
