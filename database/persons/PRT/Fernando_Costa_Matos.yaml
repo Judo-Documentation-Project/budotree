@@ -18,18 +18,39 @@ person:
   teachers:
     - id: JDP-12
       style_id: JDP-S-1
+      place: INEF
+      quality:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://www.facebook.com/ipatj/photos/a.243433975668608/1073113529367311/?type=3&locale=pt_PT
+          cite: "Renato Santos Kobayashi, in Instituto Português de Artes Tradicionais Japonesas - Facebook"
+          citation: "Em 1958 o Mestre K.K. assinou então um contrato para ficar em Portugal por um período de dois anos. Nesta sequência, aceita o convite para integrar o corpo docente do então Instituto Nacional de Educação Física (INEF), onde lecionou durante dez anos (...)  Destaca-se o nome do Fernando Costa Matos, atleta olímpico que iniciou o Judo no INEF em 1959 e em 1964 participou pela 1.ª vez nos J. Olímpicosde Tóquio."
+    - id: JDP-12
+      style_id: JDP-S-1
       place: Judo Clube de Portugal
       quality:
       period:
         start:
         end:
+      sources:
+        - uri: https://web.archive.org/web/20240212151508/https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt
+          cite: "Nuno Delgado LinkedIn post"
+          citation: "O Mestre Bastos Nunes, juntou-se ao seu querido Mestre Kobayashi que serviu com verdadeira alma Samurai, «linha dura» como dizia sempre. A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia."
   rank:
     - style_id: JDP-S-1
-      org: FPJ
+      org: Federação Portuguesa de Judo
       teacher:
       rank: 9 dan
       date: 2019
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf
+          cite: "Relatório de Atividade e Contas 2019, FPJ"
+          citation: "E, grande momento da Gala e absolutamente inédito em Portugal, os Mestres José Manuel Bastos Nunes (ausente por motivos de saúde, tendo enviado uma linda mensagem) e Fernando Costa Matos receberam o Diploma de Graduação de 9.º Dan, a mais alta graduação nacional e naturalmente, das maiores do Mundo!"
   sources:
     - uri: https://correiodosacores.pt/NewsDetail/ArtMID/383/ArticleID/31195/%E2%80%9CA-not237cia-de-que-iria-aos-Jogos-Ol237mpicos-foi-um-pouco-inesperada-mas-recebida-com-emo231227o-e-alegria%E2%80%9D
     - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
     - uri: https://judolandia.tripod.com/costamatos-bi.htm
+    - uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+    - uri: https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/

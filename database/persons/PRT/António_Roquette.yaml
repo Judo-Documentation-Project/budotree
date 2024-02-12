@@ -1,0 +1,56 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-61
+  name: António Roquette de Andrade
+  aka:
+    - name: António Roquette
+    - name: António Roquete
+    - name: Tona
+  nationality:
+    - PRT
+  birth:
+    date: "1955-05-26"
+    location: Estoril
+    country_code: PRT
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/tona1980/tona1980.jpg
+    source:
+      uri: https://fcmjudo.pt/moscovo.html
+      cite: "Diário de Lisboa, 1980 (in: FCM Judo)"
+  teachers:
+    - id: JDP-15
+      style_id: JDP-S-1
+      place:
+      quality:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://www.ahbe.pt/portfolio-item/judo/
+          cite: "A História Do Judo na AHBE"
+          citation: "O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976."
+  rank:
+    - style_id: JDP-S-1
+      org: Federação Portuguesa de Judo
+      teacher:
+      rank: 7 dan
+      date: 2009
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf
+          cite: "Relatório de Atividades e Contas, 2019. FPJ"
+          citation: "Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes"
+  sources:
+    - uri: https://judolandia.tripod.com/roquete.htm
+    - uri: https://www.olympedia.org/athletes/34295
+    - uri: https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q20973014
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Ant%C3%B3nio_Roquete_(judoka)
+      cite: DBpedia
