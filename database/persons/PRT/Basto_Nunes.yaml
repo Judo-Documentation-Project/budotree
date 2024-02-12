@@ -11,9 +11,14 @@ person:
     location: Sintra
     country_code: PRT
   death:
-    date:
+    date: 2024-01-20
     location:
-    country_code:
+    country_code: PRT
+  photo:
+    url: https://archive.org/download/bastos_nunes/bastos_nunes.jpg
+    source:
+      uri: https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0
+      cite: "Tele-Judo e Karate-do (revista quinzenal), 1. 1977"
   teachers:
     - id: JDP-12
       style_id: JDP-S-1
@@ -31,3 +36,5 @@ person:
   sources:
     - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
     - uri: https://judolandia.tripod.com/bastosnunes.htm
+    - uri: https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/
+    - uri: https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539
