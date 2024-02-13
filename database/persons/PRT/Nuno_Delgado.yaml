@@ -4,6 +4,8 @@
 person:
   id: JDP-63
   name: Nuno Delgado
+  aka:
+    - name: Nuno Miguel Delgado
   nationality:
     - PRT
   birth:
