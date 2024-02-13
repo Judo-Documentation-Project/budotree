@@ -11,13 +11,13 @@ person:
     location: Sintra
     country_code: PRT
   death:
-    date: 2024-01-20
+    date: "2024-01-20"
     location:
     country_code: PRT
   photo:
     url: https://archive.org/download/bastos_nunes/bastos_nunes.jpg
     source:
-      uri: https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0
+      uri: "https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0"
       cite: "Tele-Judo e Karate-do (revista quinzenal), 1. 1977"
   teachers:
     - id: JDP-12
