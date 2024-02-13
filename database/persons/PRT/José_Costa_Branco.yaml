@@ -1,0 +1,53 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-62
+  name: José Costa Branco
+  aka:
+    - name: José Branco
+    - name: José da Costa Branco
+  nationality:
+    - PRT
+  birth:
+    date: "1937-03-13"
+    location: Lourenço Marques
+    country_code: MOZ
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/screenshot-from-2024-02-13-15-42-24/jose_branco.png
+    source:
+      uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+      cite: "Diário de Lisboa, 1980 (in: The Delagoa Bay Company)"
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality:
+      period:
+        start: 1975
+        end:
+      sources:
+        - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
+          cite: "José Branco não boicotou o seu sonho (Judo Magazine)"
+          citation: "O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana."
+        - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+          cite: "José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)"
+          citation: "Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos."
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 3 dan
+      date: 1982
+      source:
+        - uri: https://search.worldcat.org/title/817030285?oclcNum=817030285
+          cite: "Judo: da iniciação à competição (1983), p. 23"
+          citation: "1982: (...) José Branco: 3º Dan . J. C. Portugal"
+  sources:
+    - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
+    - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+    - uri: https://archive.is/cMx9V
