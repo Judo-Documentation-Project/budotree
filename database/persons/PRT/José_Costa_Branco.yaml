@@ -43,7 +43,7 @@ person:
       teacher:
       rank: 3 dan
       date: 1982
-      source:
+      sources:
         - uri: https://search.worldcat.org/title/817030285?oclcNum=817030285
           cite: "Judo: da iniciação à competição (1983), p. 23"
           citation: "1982: (...) José Branco: 3º Dan . J. C. Portugal"

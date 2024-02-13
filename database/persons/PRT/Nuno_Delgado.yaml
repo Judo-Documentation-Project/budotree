@@ -1,0 +1,67 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-63
+  name: Nuno Delgado
+  nationality:
+    - PRT
+  birth:
+    date: "1976-08-27"
+    location: Lisboa
+    country_code: PRT
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/nuno_delgado/nuno_delgado.jpg
+    source:
+      uri: https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704
+      cite: "Fernando Ferreira (in: «Record», 9-XII-2013"
+  teachers:
+    - id: JDP-62
+      style_id: JDP-S-1
+      place: Sport Algés e Dafundo
+      quality: 3
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://www.ulisboa.pt/sites/ulisboa.pt/files/public/aluno_de_kobayashi_moldou_o_campeao.pdf
+          cite: "José Costa Branco: Aluno de Kobayashi moldou o campeão (O Jogo, 22-II-2020)"
+          citation: "... no histórico Sport Algés e Dafundo durante 28 anos. Foi lá que José Costa Branco encontrou Nuno Delgado, que saiu de Santarém, onde vivia e combatia, para regressar a Lisboa e se licenciar em Ciências do Desporto"
+        - uri: https://www.record.pt/modalidades/detalhe/alges-conquista-nacional-de-seniores-por-equipas
+          cite: "Algés conquista Nacional de seniores por equipas (Record, 30-IV-2001)"
+          citation: "Quero dedicar o triunfo ao ex-treinador José Branco, porque ele já merecia este título no ano passado, altura em que se retirou dos tapetes, considerou Nuno Delgado, medalha de bronze em Sydney 2000."
+    - id: JDP-15
+      style_id: JDP-S-1
+      place:
+      quality: 2
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY?originalSubdomain=pt
+          cite: "Nuno Delgado"
+          citation: "A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia"
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 3 dan
+      date: 1982
+      sources:
+        - uri: http://fpj.pt/wp-content/uploads/2017/04/17ci175-Divulga%C3%A7%C3%A3o-Evento.pdf
+          cite: "Circular 175/17, FPJ"
+          citation: "Nuno Delgado - Portugal - 6º Dan"
+  sources:
+    - uri: https://www.nunodelgado.net/nuno-delgado
+    - uri: https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704
+    - uri: https://pt.wikipedia.org/wiki/Nuno_Delgado
+    - uri: https://en.wikipedia.org/wiki/Nuno_Delgado
+  links:
+    - uri: https://www.wikidata.org/wiki/Q1884969
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Kan%C5%8D_Jigor%C5%8D
+      cite: https://dbpedia.org/page/Nuno_Delgado
