@@ -17,11 +17,6 @@ person:
     date:
     location:
     country_code:
-  photo:
-    url:
-    source:
-      uri:
-      cite:
   teachers:
     - id:
       style_id:
