@@ -1,0 +1,52 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-65
+  name: Afonso Henriques Maia de Loureiro
+  aka:
+    - name: Afonso Henriques Ivens-Ferraz Maia de Loureiro
+  nationality:
+    - PRT
+  birth:
+    date: "1917-06-1917"
+    location: Ilha de Moçambique
+    country_code: MOZ
+  death:
+    date: "1999-11-08"
+    location: Lisboa
+    country_code: PRT
+  photo:
+    url: https://archive.org/download/maialoureiro-1/Maialoureiro1.gif
+    source:
+      uri: https://www.fcmjudo.pt/Socioshonorarios.html
+      cite: "Sócios Honorários da F.P. Judo"
+  teachers:
+    - id: JDP-66
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality: 3
+      period:
+        start: 1954
+        end: 1958
+      sources:
+        - uri: https://judolandia.tripod.com/histport.htm
+          cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
+          citation: "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
+        - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243
+          cite: "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ"
+          citation: "Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga".
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 3 dan
+      date:
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+          cite: "Relatório de Atividades e Contas do Exercício de 2019"
+          citation: "Afonso Henriques I. F. Maia de Loureiro (3º Dan)"
+  sources:
+    - uri: https://judolandia.tripod.com/histport.htm
+    - uri: https://www.fcmjudo.pt/Socioshonorarios.html
+    - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243

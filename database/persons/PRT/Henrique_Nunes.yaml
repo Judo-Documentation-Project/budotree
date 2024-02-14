@@ -36,6 +36,17 @@ person:
         - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
           cite: "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ"
           citation: "... o mestre Kobayashi em Portugal, em '58 (...) foi o meu mestre."
+    - id: JDP-65
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality: 3
+      period:
+        start: 1954
+        end:
+      sources:
+        - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+          cite: "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ"
+          citation: "...Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro, era o dr. Nuno Ribeiro..."
   rank:
     - style_id: JDP-S-1
       org: FPJ

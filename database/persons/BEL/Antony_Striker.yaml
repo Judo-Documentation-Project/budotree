@@ -1,0 +1,44 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-66
+  name: Antony Striker
+  aka:
+    - name: Antony Stricker
+    - name: Tony Striker
+  nationality:
+    - BEL
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url:
+    source:
+      uri:
+      cite:
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id: JDP-S-1
+      org:
+      teacher:
+      rank: 1 dan
+      date:
+      sources:
+        - uri: https://judolandia.tripod.com/histport.htm
+          cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
+          citation: "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
+  sources:
+    - uri: https://judolandia.tripod.com/histport.htm
