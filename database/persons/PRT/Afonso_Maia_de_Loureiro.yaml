@@ -10,7 +10,7 @@ person:
     - PRT
   birth:
     date: "1917-06-27"
-    location: Ilha de Moçambique
+    location: "Ilha de Moçambique"
     country_code: MOZ
   death:
     date: "1999-11-08"
