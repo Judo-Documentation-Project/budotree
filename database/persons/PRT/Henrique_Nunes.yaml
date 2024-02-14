@@ -1,0 +1,52 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-64
+  name: Henrique Nunes
+  aka:
+    - name: Henrique Carinhas Martins Nunes
+  nationality:
+    - PRT
+  birth:
+    date: "1948-03-28"
+    location: Benguela
+    country_code: AGO
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/henrique_nunes/henrique_nunes.jpeg
+    source:
+      uri: https://www.fpj.pt/wp-content/uploads/2019/03/19ci052-Divulgação-de-Eventos.pdf
+      cite: "Divulgação de Eventos (FPJ)"
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality: 3
+      period:
+        start: 1959
+        end:
+      sources:
+        - uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+          cite: "No «santuário» com Henrique Nunes (Judo Magazine)"
+          citation: "«Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho imensas saudades» adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi, aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao ponto de ser difícil recordar-se de todas."
+        - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+          cite: "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ"
+          citation: "... o mestre Kobayashi em Portugal, em '58 (...) foi o meu mestre."
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 8 dan
+      date: "2019-07-12"
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf
+          cite: "Relatório Anual FPJ 2019"
+          citation: "Henrique Nunes (...) 8º Dan"
+  sources:
+    - uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+    - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+    - uri: https://judolandia.tripod.com/hnunes.htm
