@@ -9,7 +9,7 @@ person:
   nationality:
     - PRT
   birth:
-    date: "1917-06-1917"
+    date: "1917-06-27"
     location: Ilha de Moçambique
     country_code: MOZ
   death:
@@ -35,7 +35,7 @@ person:
           citation: "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
         - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243
           cite: "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ"
-          citation: "Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga".
+          citation: "Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga"
   rank:
     - style_id: JDP-S-1
       org: FPJ
