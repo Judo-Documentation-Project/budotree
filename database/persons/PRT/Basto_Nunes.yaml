@@ -27,6 +27,17 @@ person:
       period:
         start:
         end:
+    - id: JDP-66
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality:
+      period:
+        start:
+        end:
+      sources:
+        - uri: http://judokai.pt/JUDO%20-%20MANUAL.pdf
+          cite: "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)"
+          citation: "Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes."
   rank:
     - style_id: JDP-S-1
       org: FPJ
