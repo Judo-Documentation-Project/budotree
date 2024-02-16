@@ -375,6 +375,27 @@ function goHome() {
   layout.run();
 }
 
+function wordToInteger(word) {
+  // Simple hash function to convert string to integer
+  let hash = 0;
+  for (let i = 0; i < word.length; i++) {
+    hash = (hash << 5) - hash + word.charCodeAt(i);
+    hash |= 0; // Convert to 32bit integer
+  }
+  return hash;
+}
+
+function clusterInfo(node){
+    let clusterId;
+    if (node.data().nationality) {
+        clusterId = node.data().nationality[0]
+    } else {
+        clusterId = None
+    }
+    console.log("Clusterid"+ clusterId)
+    return wordToInteger(clusterId)
+
+}
 function changeLayout() {
   // var value = updateLayout.value;
   // var text = updateLayout.options[updateLayout.selectedIndex].text;
@@ -397,6 +418,9 @@ function changeLayout() {
       break;
     case "cise":
       layoutOptions.name = "cise";
+      layoutOptions.clusters = clusterInfo;
+      layoutOptions.allowNodesInsideCircle = false;
+
       break;
     case "cola":
       layoutOptions.name = "cola";
