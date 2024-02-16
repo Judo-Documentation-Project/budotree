@@ -14,6 +14,11 @@ person:
     date:
     location:
     country_code:
+  photo:
+    url: https://archive.org/download/alexandre_gueifao/alexandre_gueifao.png
+    source:
+      uri: https://www.bushidoespadaepena.com/entrevistas
+      cite: "Bushido: a Espada e a Pena"
   teachers:
     - id: JDP-66
       style_id: JDP-S-1
