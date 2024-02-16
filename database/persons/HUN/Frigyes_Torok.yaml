@@ -4,12 +4,14 @@
 person:
   id: JDP-69
   name: Frigyes Tӧrӧ
+  aka:
+    - name: Frigyes Vilmos Török
   nationality:
     - HUN
   birth:
-    date:
-    location:
-    country_code:
+    date: 1944
+    location: Budapest
+    country_code: HUN
   death:
     date:
     location:
@@ -46,3 +48,4 @@ person:
     - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
       cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
     - uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+    - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
