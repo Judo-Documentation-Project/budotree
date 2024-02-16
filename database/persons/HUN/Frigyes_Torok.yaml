@@ -4,7 +4,6 @@
 person:
   id: JDP-69
   name: Frigyes Tӧrӧ
-  aka:
   nationality:
     - HUN
   birth:
