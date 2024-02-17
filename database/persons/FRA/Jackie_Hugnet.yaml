@@ -1,0 +1,38 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-78
+  name: Jackie Hugnet
+  nationality:
+    - FRA
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank: 2 dab
+      date:
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+          cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
+          citation: "Determinado em encontrar professores que o ajudassem a criar um Dojo, conheceu no então Parque de Campismo do Lima o francês Mestre Hugnet. Não podendo ficar em Portugal, mas sensível à determinação de Manuel Reis, enviou o seu irmão, Jackie Hugnet, 2º Dan, para o Porto."
+  sources:
+    - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+      cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
