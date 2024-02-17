@@ -57,6 +57,19 @@ person:
           citation: "Em 1955, os judocas do Porto organizados em torno do professor Jackie Hugnet, criam o Círculo de Judo do Porto, onde Hugnet foi professor durante sete anos, lecionando três vezes por semana a primeira classe em que o Judo Kodokan foi ministrado de forma sistemática no Porto. Os professores Hugnet e Manuel Reis foram instrutores de Judo da Polícia de Segurança Pública do Porto, durante cerca de dois anos meio, coincidentes com parte do período em que o Comandante da corporação era o famoso Chefe Santos Júnior."
         - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
           citation: "Este, impressionado com a determinação de Manuel Reis mas sem disponibilidade para ficar em Portugal, enviou para o Círculo de Judo do Porto o seu irmão Jackie Hugnet, 2º Dan de Judo, que connosco permaneceu por uma década"
+    - id: JDP-78
+      style_id: JDP-S-1
+      place: Círculo de Judo do Porto
+      quality: 2
+      period:
+        start: 1961
+        end: 1963
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+          cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
+          citation: "No Verão de 1961, o professor Hugnet é substituído pelo também francês, Gilbert Bryskine, 4º Dan, campeão de França, bicampeão da Europa (1952 e 1954) e professor diplomado pela Federação Francesa de Judo e Ju Jutsu. É com Bryskine que os atletas do Círculo começam a participar em provas federativas, quer individualmente, quer por equipas. Em 1963, Gilbert Bryskine regressou a França devido a um grave acidente de automóvel que o deixou incapacitado."
+        - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+          citation: "Na época, recebemos também os ensinamento de outro francês, Gilbert Briskine, 4º Dan de Judo e mestre de Karaté-Do 空手道, Disciplina a quem a divulgação em Portugal muito deve."
   rank:
     - style_id:
       org:

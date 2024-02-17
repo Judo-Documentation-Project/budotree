@@ -2,8 +2,8 @@
 ---
 
 person:
-  id: JDP-78
-  name: Jackie Hugnet
+  id: JDP-79
+  name: Gilbert Briskine
   nationality:
     - FRA
   birth:
@@ -24,15 +24,17 @@ person:
         end:
   rank:
     - style_id:
-      org:
+      org: FFJDA
       teacher:
-      rank: 2 dan
+      rank: 4 dan
       date:
       sources:
         - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
           cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
-          citation: "Determinado em encontrar professores que o ajudassem a criar um Dojo, conheceu no então Parque de Campismo do Lima o francês Mestre Hugnet. Não podendo ficar em Portugal, mas sensível à determinação de Manuel Reis, enviou o seu irmão, Jackie Hugnet, 2º Dan, para o Porto."
+          citation: "No Verão de 1961, o professor Hugnet é substituído pelo também francês, Gilbert Bryskine, 4º Dan, campeão de França, bicampeão da Europa (1952 e 1954) e professor diplomado pela Federação Francesa de Judo e Ju Jutsu."
   sources:
     - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
     - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
       cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
+    - uri: https://www.fnkp.pt/historia/
+    - uri: https://www.judoinside.com/judoka/5062/Gilbert_Briskine/judo-career
