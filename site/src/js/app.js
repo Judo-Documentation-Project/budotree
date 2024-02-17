@@ -262,6 +262,16 @@ const style = [
       color: "white",
     },
   },
+    {
+        selector: ":parent",
+        css: {
+            shape: "rectangle",
+            //shape: 'cutrectangle',
+            //"shape": 'triangle',
+            "background-color": "cyan",
+            "background-opacity": 0.1,
+        }
+    },
 ];
 
 const layoutOptions = {
@@ -391,12 +401,37 @@ function clusterInfo(node){
     if (node.data().nationality) {
         clusterId = node.data().nationality[0]
     } else {
-        clusterId = None
+        clusterId = null
     }
-    console.log("Clusterid"+ clusterId)
+    //console.log("Clusterid"+ clusterId)
     return wordToInteger(clusterId)
 
 }
+
+
+function setCluster(criteria) {
+    if (criteria == "nationality")
+    {
+        cy.nodes().forEach(function (ele) {
+            if (ele.data()[criteria]) {
+                for (criteriaEle of ele.data()[criteria]) {
+                    if (cy.getElementById(criteriaEle).length == 0 ) {
+                        cy.add(
+                            {
+                                group: 'nodes',
+                                data: { id: criteriaEle, name: criteriaEle, type: "grouping"}
+                            }
+                        )
+                    };
+                    ele.move({
+                        parent: criteriaEle
+                    });
+                }
+            }
+        });
+    }
+}
+
 function changeLayout() {
   // var value = updateLayout.value;
   // var text = updateLayout.options[updateLayout.selectedIndex].text;
@@ -419,9 +454,7 @@ function changeLayout() {
       break;
     case "cise":
       layoutOptions.name = "cise";
-      layoutOptions.clusters = clusterInfo;
       layoutOptions.allowNodesInsideCircle = false;
-
       break;
     case "cola":
       layoutOptions.name = "cola";
@@ -944,6 +977,41 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const clusterNationality = document.getElementById("clusterNationality");
+    clusterNationality.addEventListener("click", (e) => {
+        if (e.target.checked) {
+            layoutOptions.clusters = clusterInfo;
+        } else {
+            layoutOptions.clusters = null;
+        }
+        layout = cy.layout(layoutOptions);
+        layout.run();
+    })});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const compoundNationality = document.getElementById("compoundNationality");
+    compoundNationality.addEventListener("click", (e) => {
+        console.log(e.target.checked)
+        if (e.target.checked) {
+            console.log("Cluster nationality checked")
+            setCluster("nationality")
+        } else {
+
+            cy.nodes().forEach(function (ele) {
+                ele.move({
+                    parent: null
+                })
+            });
+
+            let parents = cy.elements('node[type = "grouping"]')
+            console.log("Parents")
+            console.log(parents)
+            cy.remove(parents)
+        }
+        layout.run();
+    })});
 
 document.addEventListener("DOMContentLoaded", function () {
   const bubbles = document.getElementById("bubbles");
