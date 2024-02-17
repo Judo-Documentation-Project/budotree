@@ -1,0 +1,65 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-70
+  name: Saitō Morihiro
+  native_name:
+    name: 斉藤 守弘
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1928-03-31"
+    location: Ibaraki
+    country_code: JPN
+  death:
+    date: "2002-05-13"
+    location: Iwama
+    country_code: JPN
+  photo:
+    url: https://archive.org/download/morihiro-saito_formal/morihiro-saito_formal.jpg
+    source:
+      uri: https://aikidojournal.com/2003/02/28/interview-with-morihiro-saito-part-1-1987/
+      cite: "Interview with Morihiro Saito - Part 1 (Aikido Journal)"
+  description:
+    en: >
+      Morihiro Saito (斉藤 守弘 Saitō Morihiro) was a teacher of the
+      Japanese martial art of aikido, with many students around the
+      world. Saito's practice of aikido spanned 56 years, from the age
+      of 18, when he first met aikido founder Morihei Ueshiba, until
+      his death in 2002.  The kind of aikido that Saito's students do
+      is often referred to as Iwama aikido or Iwama style. In Europe,
+      Saito, along with many of his students, formed a dan-ranking
+      network of dojos called Iwama Ryu, with ranks received directly
+      from Saito rather than or in addition to those from the Aikikai
+      although Saito never left that organization.
+  teachers:
+    - id: JDP-27
+      style_id: JDP-S-4
+      place: Iwama Dōjō
+      quality:
+      period:
+        start: 1946
+        end: 1969
+      sources:
+        - uri: https://en.wikipedia.org/wiki/Morihiro_Saito
+          citation: "It was at this time, at the age of 18, that Saito joined Ueshiba for training (...) From 1946 until Ueshiba’s passing in 1969, Saito served as Ueshiba's assistant in a variety of ways at Iwama while his wife served Mrs. Ueshiba. During Saito’s period as a deshi he taught classes in the Iwama dojo."
+  rank:
+    - style_id: JDP-S-4
+      org: Aikikai
+      teacher:
+      rank: 9 dan
+      date:
+      sources:
+        - uri: https://www.saitosensei.com/1990s/
+          citation: "1992. Mrs. Saito and Saito Sensei in regal formal attire at his huge first party in Iwama’s Kabuki Wedding Palace, celebrating his promotion to 9th dan by Honbu Aikikai and the 50th anniversary of aikido in Iwama"
+  sources:
+    - uri: https://saito-sensei.org/
+    - uri: https://en.wikipedia.org/wiki/Morihiro_Saito
+    - uri: https://www.saitosensei.com
+  links:
+    - uri: https://www.wikidata.org/wiki/Q550626
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Morihiro_Saito
+      cite: DBpedia

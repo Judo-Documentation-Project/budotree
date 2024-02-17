@@ -1,0 +1,51 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-69
+  name: Frigyes Tӧrӧk
+  aka:
+    - name: Frigyes Vilmos Török
+  nationality:
+    - HUN
+  birth:
+    date: 1944
+    location: Budapest
+    country_code: HUN
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/torok_202402/torok.jpeg
+    source:
+      uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+      cite: "ENTREVISTA – Viagem ao mundo dos homens bons (Judo Magazine)"
+  teachers:
+    - id: JDP-12
+      style_id: JDP-S-1
+      place: Judo Clube de Portugal
+      quality:
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+          cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
+          citation: "Em 1974, o então presidente da Federação Portuguesa de Judo, Prof. Fernando Costa Matos, sabendo da intenção do Mestre Frigyes Tӧrӧk, 3º Dan, de regressar a Portugal, vindo de Angola onde lecionava, colocou em contacto este professor de ascendência húngara e discípulo direto do Mestre Kiyoshi Kobayashi, com a Direção do Clube. "
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 7 dan
+      date: 2019
+      sources:
+        - uri: https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf
+          cite: "Relatório Anual FPJ 2019"
+          citation: "Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok"
+  sources:
+    - uri: https://judolandia.tripod.com/torok.htm
+    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+      cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"
+    - uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+    - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html

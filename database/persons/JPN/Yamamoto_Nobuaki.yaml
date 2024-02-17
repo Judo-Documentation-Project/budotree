@@ -1,0 +1,40 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-74
+  name: Yamamoto Nobuaki
+  native_name:
+    name:
+    lang:
+  nationality:
+    - JPN
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/yamamoto73_1/yamamoto73_1.jpg
+    source:
+      uri: https://www.fcmjudo.pt/visitantes.html
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://www.fcmjudo.pt/visitantes.html
+    - uri: https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/

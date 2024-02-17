@@ -1,0 +1,46 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-76
+  name: Armando Gonçalves
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/armando_goncalves/armando_goncalves.png
+    source:
+      uri: http://id.bnportugal.gov.pt/bib/catbnp/735884
+      cite: "GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942."
+  teachers:
+    - id: JDP-77
+      style_id: JDP-S-14
+      place:
+      quality: 2
+      period:
+        start:
+        end:
+      sources:
+        - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
+          cite: "GONÇALVES, Armando; O fraco vence o forte. 1941"
+          citation: "Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano"
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://judolandia.tripod.com/histport.htm
+    - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    - uri: https://www.fjjdap.pt/jujitsu/
+    - uri: https://www.ungoshin.pt/correa-pereira-historia-budo
+    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+      cite: "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)"

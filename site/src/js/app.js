@@ -125,6 +125,7 @@ const style = [
       },
       "background-fit": "cover cover",
       "background-image-opacity": 0.4,
+      "background-position-y": "10%",
       // 'label': 'data(name)',
       "font-size": "0.5em",
       "font-family": "Noto Serif JP, serif",

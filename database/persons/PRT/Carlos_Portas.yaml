@@ -1,0 +1,47 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-72
+  name: Carlos Portas
+  nationality:
+    - PRT
+  birth:
+    date: "1956"
+    location:
+    country_code: PRT
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/carlos_portas/carlos_portas.png
+    source:
+      uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
+      cite: "Mestre Carlos Portas (Aikido Marcial Dojo Clube)"
+  teachers:
+    - id: JDP-71
+      style_id: JDP-S-4
+      place: Iwama Dōjō
+      quality:
+      period:
+        start: 1985
+        end: 1993
+      sources:
+        - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
+          cite: "Mestre Carlos Portas (Aikido Marcial Dojo Clube)"
+          citation: " Em 1985, viu no jornal o anúncio de uma demonstração de Aikido por um mestre japonês (Mestre Tomita), em Estocolmo, e foi ver. Achou que tinha caído num poço de luz e logo ali perguntou ao Mestre se o aceitava como aluno, o que veio a acontecer. Regressou a Portugal em 1993"
+  rank:
+    - style_id: JDP-S-4
+      org: Aikikai
+      teacher:
+      rank: 6 dan
+      date:
+      sources:
+        - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
+          cite: "Carlos Portas, a prática e a evolução do Aikido em Aveiro: «Temos que nos reinventar» (Sport Magazine)"
+          citation: "Com graduação de 6º dan, Aikikai recomendada por Ulf Evenas Shihan e atribuída pelo Hombo Dojo Aikikai Tokyo, Carlos Portal é uma referência na prática do Aikido em Portugal."
+  sources:
+    - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
+    - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
+    - uri: https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm

@@ -1,0 +1,38 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-77
+  name: Hirano Yuzo
+  nationality:
+    - JPN
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/hirano_202402/hirano.png
+    source:
+      uri: https://orca.cardiff.ac.uk/id/eprint/136518/
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
+    - uri: https://orca.cardiff.ac.uk/id/eprint/136518/
+    - uri: https://judolandia.tripod.com/histport.htm

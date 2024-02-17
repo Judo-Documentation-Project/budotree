@@ -48,7 +48,8 @@
               "cite": "Walter Todd: An Interview"
             }
           ],
-          "source_yaml": "database/persons/USA/Walter_Todd.yaml"
+          "source_yaml": "database/persons/USA/Walter_Todd.yaml",
+          "photo_url_local": "images/cache/f675dca6b1d7d2394952b1b6ee6810bc.jpg"
         }
       },
       {
@@ -154,8 +155,7 @@
               "cite": "Karl Geis - Wikipedia"
             },
             {
-              "uri": "https://www.karlgeis.com/his-resume",
-              "cite": "His Resume | karlgeisryu"
+              "uri": "https://www.karlgeis.com/his-resume"
             },
             {
               "uri": "https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf"
@@ -165,7 +165,8 @@
               "cite": "Interview with David Witt: Judo, Aikido, and Karl Geis – Martial Arts of Yesterday, Today and Tomorrow"
             }
           ],
-          "source_yaml": "database/persons/USA/Karl_Geis.yaml"
+          "source_yaml": "database/persons/USA/Karl_Geis.yaml",
+          "photo_url_local": "images/cache/f9bf4313ab12ede4973da500f2141d00.png"
         }
       },
       {
@@ -223,12 +224,10 @@
               "cite": "Harold Sharp - Wikipedia"
             },
             {
-              "uri": "https://youtu.be/B5B39yYPIlQ?t=169",
-              "cite": "Hal Sharp's History - YouTube"
+              "uri": "https://youtu.be/B5B39yYPIlQ?t=169"
             },
             {
-              "uri": "https://www.usjf.com/2018/02/harold-hal-sharp/",
-              "cite": "Harold (Hal) Sharp | United States Judo Federation"
+              "uri": "https://www.usjf.com/2018/02/harold-hal-sharp/"
             },
             {
               "uri": "urn:isbn:978-0804805421"
@@ -237,7 +236,528 @@
               "uri": "https://blackbeltmag.com/hal-sharp-judo"
             }
           ],
-          "source_yaml": "database/persons/USA/Harold_Sharp.yaml"
+          "source_yaml": "database/persons/USA/Harold_Sharp.yaml",
+          "photo_url_local": "images/cache/8a2641e4f643cea115938f9b84d9eb9f.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-63",
+          "name": "Nuno Delgado",
+          "aka": [
+            {
+              "name": "Nuno Miguel Delgado"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1976-08-27",
+            "location": "Lisboa",
+            "country_code": "PRT"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/nuno_delgado/nuno_delgado.jpg",
+            "source": {
+              "uri": "https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704",
+              "cite": "Fernando Ferreira (in: «Record», 9-XII-2013"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-62",
+              "style_id": "JDP-S-1",
+              "place": "Sport Algés e Dafundo",
+              "quality": 3,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.ulisboa.pt/sites/ulisboa.pt/files/public/aluno_de_kobayashi_moldou_o_campeao.pdf",
+                  "cite": "José Costa Branco: Aluno de Kobayashi moldou o campeão (O Jogo, 22-II-2020)",
+                  "citation": "... no histórico Sport Algés e Dafundo durante 28 anos. Foi lá que José Costa Branco encontrou Nuno Delgado, que saiu de Santarém, onde vivia e combatia, para regressar a Lisboa e se licenciar em Ciências do Desporto"
+                },
+                {
+                  "uri": "https://www.record.pt/modalidades/detalhe/alges-conquista-nacional-de-seniores-por-equipas",
+                  "cite": "Algés conquista Nacional de seniores por equipas (Record, 30-IV-2001)",
+                  "citation": "Quero dedicar o triunfo ao ex-treinador José Branco, porque ele já merecia este título no ano passado, altura em que se retirou dos tapetes, considerou Nuno Delgado, medalha de bronze em Sydney 2000."
+                }
+              ]
+            },
+            {
+              "id": "JDP-15",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "quality": 2,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY?originalSubdomain=pt",
+                  "cite": "Nuno Delgado",
+                  "citation": "A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "3 dan",
+              "date": 1982,
+              "sources": [
+                {
+                  "uri": "http://fpj.pt/wp-content/uploads/2017/04/17ci175-Divulga%C3%A7%C3%A3o-Evento.pdf",
+                  "cite": "Circular 175/17, FPJ",
+                  "citation": "Nuno Delgado - Portugal - 6º Dan"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.nunodelgado.net/nuno-delgado",
+              "cite": "Nuno Delgado – Nuno Delgado"
+            },
+            {
+              "uri": "https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704",
+              "cite": "Nuno Delgado: «Quero inspirar cada vez mais crianças»  - Jogo da Vida - Jornal Record"
+            },
+            {
+              "uri": "https://pt.wikipedia.org/wiki/Nuno_Delgado",
+              "cite": "Nuno Delgado – Wikipédia, a enciclopédia livre"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Nuno_Delgado",
+              "cite": "Nuno Delgado - Wikipedia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1884969",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Kan%C5%8D_Jigor%C5%8D",
+              "cite": "https://dbpedia.org/page/Nuno_Delgado"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Nuno_Delgado.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-75",
+          "name": "Manuel Reis",
+          "aka": [
+            {
+              "name": "Manuel Pereira de Matos Reis"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1922-07-23",
+            "location": null,
+            "country_code": "PRT"
+          },
+          "death": {
+            "date": "2005-11-23",
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/manuel_reis/manuel_reis.png",
+            "source": {
+              "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-74",
+              "style_id": "JDP-S-1",
+              "place": "Clube de Judo do Porto",
+              "quality": 2,
+              "period": {
+                "start": 1968,
+                "end": 1969
+              },
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf",
+                  "cite": "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)",
+                  "citation": "Em 1968, ao abrigo do Fundo de Fomento Desportivo, chega ao Porto o jovem Mestre japonês, de 26 anos, Nabuaki Yamamoto, 5º Dan, aluno do Kodokan e antigo campeão universitário do Japão, tornando-se professor do Clube de Judo do Porto. No início de 1969, o Mestre Yamamoto parte para a Islândia e as aulas voltam a ser ministradas pelos judocas mais graduados, que contavam agora com o apoio muito esporádico de alguns elementos da Federação Portuguesa de Judo"
+                },
+                {
+                  "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
+                  "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta."
+                }
+              ]
+            },
+            {
+              "id": "JDP-76",
+              "style_id": "JDP-S-14",
+              "place": null,
+              "quality": 2,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html",
+                  "citation": "...Manuel Reis fora aluno de  Armando Gonçalves, um portuense Professor de Ju-Jutsu 柔術...",
+                  "cite": "historiaclube - Clube de Judo do Porto"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html",
+              "cite": "historiaclube - Clube de Judo do Porto"
+            },
+            {
+              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/",
+              "cite": "Clube de Judo do Porto faz 50 anos mas continua jovem"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
+            },
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Manuel_Reis.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-62",
+          "name": "José Costa Branco",
+          "aka": [
+            {
+              "name": "José Branco"
+            },
+            {
+              "name": "José da Costa Branco"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1937-03-13",
+            "location": "Lourenço Marques",
+            "country_code": "MOZ"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/screenshot-from-2024-02-13-15-42-24/jose_branco.png",
+            "source": {
+              "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/",
+              "cite": "Diário de Lisboa, 1980 (in: The Delagoa Bay Company)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": null,
+              "period": {
+                "start": 1975,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://judomagazine.pt/2021/07/04/1980-moscovo/",
+                  "cite": "José Branco não boicotou o seu sonho (Judo Magazine)",
+                  "citation": "O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana."
+                },
+                {
+                  "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/",
+                  "cite": "José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)",
+                  "citation": "Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "3 dan",
+              "date": 1982,
+              "sources": [
+                {
+                  "uri": "https://search.worldcat.org/title/817030285?oclcNum=817030285",
+                  "cite": "Judo: da iniciação à competição (1983), p. 23",
+                  "citation": "1982: (...) José Branco: 3º Dan . J. C. Portugal"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judomagazine.pt/2021/07/04/1980-moscovo/"
+            },
+            {
+              "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/",
+              "cite": "JOSÉ BRANCO, OLÍMPICO E CAMPEÃO DE JUDO E DE TIRO | THE DELAGOA BAY COMPANY"
+            },
+            {
+              "uri": "https://archive.is/cMx9V"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/José_Costa_Branco.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-64",
+          "name": "Henrique Nunes",
+          "aka": [
+            {
+              "name": "Henrique Carinhas Martins Nunes"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1948-03-28",
+            "location": "Benguela",
+            "country_code": "AGO"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/henrique_nunes/henrique_nunes.jpeg",
+            "source": {
+              "uri": "https://www.fpj.pt/wp-content/uploads/2019/03/19ci052-Divulgação-de-Eventos.pdf",
+              "cite": "Divulgação de Eventos (FPJ)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": 3,
+              "period": {
+                "start": 1959,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/",
+                  "cite": "No «santuário» com Henrique Nunes (Judo Magazine)",
+                  "citation": "«Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho imensas saudades» adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi, aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao ponto de ser difícil recordar-se de todas."
+                },
+                {
+                  "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381",
+                  "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+                  "citation": "... o mestre Kobayashi em Portugal, em '58 (...) foi o meu mestre."
+                }
+              ]
+            },
+            {
+              "id": "JDP-65",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": 3,
+              "period": {
+                "start": 1954,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381",
+                  "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+                  "citation": "...Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro, era o dr. Nuno Ribeiro..."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "8 dan",
+              "date": "2019-07-12",
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf",
+                  "cite": "Relatório Anual FPJ 2019",
+                  "citation": "Henrique Nunes (...) 8º Dan"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/"
+            },
+            {
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381"
+            },
+            {
+              "uri": "https://judolandia.tripod.com/hnunes.htm",
+              "cite": "Henrique Nunes"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Henrique_Nunes.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-73",
+          "name": "Fernando Sarmento",
+          "aka": [
+            {
+              "name": "Fernando Duarte Sarmento"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1950",
+            "location": "Maia",
+            "country_code": "PRT"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/franciso_sarmento/fernando_sarmento.jpg",
+            "source": {
+              "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+              "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-74",
+              "style_id": "JDP-S-1",
+              "place": "Clube de Judo do Porto",
+              "quality": 3,
+              "period": {
+                "start": 1968,
+                "end": 1969
+              },
+              "sources": [
+                {
+                  "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+                  "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)",
+                  "citation": "Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)"
+                }
+              ]
+            },
+            {
+              "id": "JDP-72",
+              "style_id": "JDP-S-4",
+              "place": "Mussubi Escola de Aikido",
+              "quality": 3,
+              "period": {
+                "start": 2006,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+                  "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)",
+                  "citation": "A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-4",
+              "org": "Aikikai",
+              "teacher": null,
+              "rank": "2 dan",
+              "date": 2009,
+              "sources": [
+                {
+                  "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+                  "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)",
+                  "citation": "A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009."
+                }
+              ],
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/",
+              "cite": "Carlos Portas, a prática e a evolução do Aikido em Aveiro: \"Temos que nos reinventar\" - SportMagazine"
+            },
+            {
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
+              "cite": "Mestre Carlos Portas | brpd"
+            },
+            {
+              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm",
+              "cite": "ENTREVISTA AO PROFESSOR CARLOS PORTAS"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Fernando_Sarmento.yaml"
         }
       },
       {
@@ -262,21 +782,52 @@
             {
               "id": "JDP-12",
               "style_id": "JDP-S-1",
+              "place": "INEF",
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.facebook.com/ipatj/photos/a.243433975668608/1073113529367311/?type=3&locale=pt_PT",
+                  "cite": "Renato Santos Kobayashi, in Instituto Português de Artes Tradicionais Japonesas - Facebook",
+                  "citation": "Em 1958 o Mestre K.K. assinou então um contrato para ficar em Portugal por um período de dois anos. Nesta sequência, aceita o convite para integrar o corpo docente do então Instituto Nacional de Educação Física (INEF), onde lecionou durante dez anos (...)  Destaca-se o nome do Fernando Costa Matos, atleta olímpico que iniciou o Judo no INEF em 1959 e em 1964 participou pela 1.ª vez nos J. Olímpicosde Tóquio."
+                }
+              ]
+            },
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
               "place": "Judo Clube de Portugal",
               "quality": null,
               "period": {
                 "start": null,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://web.archive.org/web/20240212151508/https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt",
+                  "cite": "Nuno Delgado LinkedIn post",
+                  "citation": "O Mestre Bastos Nunes, juntou-se ao seu querido Mestre Kobayashi que serviu com verdadeira alma Samurai, «linha dura» como dizia sempre. A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia."
+                }
+              ]
             }
           ],
           "rank": [
             {
               "style_id": "JDP-S-1",
-              "org": "FPJ",
+              "org": "Federação Portuguesa de Judo",
               "teacher": null,
               "rank": "9 dan",
               "date": 2019,
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf",
+                  "cite": "Relatório de Atividade e Contas 2019, FPJ",
+                  "citation": "E, grande momento da Gala e absolutamente inédito em Portugal, os Mestres José Manuel Bastos Nunes (ausente por motivos de saúde, tendo enviado uma linda mensagem) e Fernando Costa Matos receberam o Diploma de Graduação de 9.º Dan, a mais alta graduação nacional e naturalmente, das maiores do Mundo!"
+                }
+              ],
               "style": "Kōdōkan Jūdō",
               "style_native": {
                 "name": "講道館柔道",
@@ -294,9 +845,97 @@
             {
               "uri": "https://judolandia.tripod.com/costamatos-bi.htm",
               "cite": "Costa Matos"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/"
             }
           ],
-          "source_yaml": "database/persons/PRT/Fernando_Costa_Matos.yaml"
+          "source_yaml": "database/persons/PRT/Fernando_Costa_Matos.yaml",
+          "photo_url_local": "images/cache/2749bcbf71db36921390832ebc5c9767.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-72",
+          "name": "Carlos Portas",
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1956",
+            "location": null,
+            "country_code": "PRT"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/carlos_portas/carlos_portas.png",
+            "source": {
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
+              "cite": "Mestre Carlos Portas (Aikido Marcial Dojo Clube)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-71",
+              "style_id": "JDP-S-4",
+              "place": "Iwama Dōjō",
+              "quality": null,
+              "period": {
+                "start": 1985,
+                "end": 1993
+              },
+              "sources": [
+                {
+                  "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
+                  "cite": "Mestre Carlos Portas (Aikido Marcial Dojo Clube)",
+                  "citation": " Em 1985, viu no jornal o anúncio de uma demonstração de Aikido por um mestre japonês (Mestre Tomita), em Estocolmo, e foi ver. Achou que tinha caído num poço de luz e logo ali perguntou ao Mestre se o aceitava como aluno, o que veio a acontecer. Regressou a Portugal em 1993"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-4",
+              "org": "Aikikai",
+              "teacher": null,
+              "rank": "6 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/",
+                  "cite": "Carlos Portas, a prática e a evolução do Aikido em Aveiro: «Temos que nos reinventar» (Sport Magazine)",
+                  "citation": "Com graduação de 6º dan, Aikikai recomendada por Ulf Evenas Shihan e atribuída pelo Hombo Dojo Aikikai Tokyo, Carlos Portal é uma referência na prática do Aikido em Portugal."
+                }
+              ],
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/",
+              "cite": "Carlos Portas, a prática e a evolução do Aikido em Aveiro: \"Temos que nos reinventar\" - SportMagazine"
+            },
+            {
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
+              "cite": "Mestre Carlos Portas | brpd"
+            },
+            {
+              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm",
+              "cite": "ENTREVISTA AO PROFESSOR CARLOS PORTAS"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Carlos_Portas.yaml"
         }
       },
       {
@@ -312,9 +951,16 @@
             "country_code": "PRT"
           },
           "death": {
-            "date": null,
+            "date": "2024-01-20",
             "location": null,
-            "country_code": null
+            "country_code": "PRT"
+          },
+          "photo": {
+            "url": "https://archive.org/download/bastos_nunes/bastos_nunes.jpg",
+            "source": {
+              "uri": "https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0",
+              "cite": "Tele-Judo e Karate-do (revista quinzenal), 1. 1977"
+            }
           },
           "teachers": [
             {
@@ -326,6 +972,23 @@
                 "start": null,
                 "end": null
               }
+            },
+            {
+              "id": "JDP-66",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "http://judokai.pt/JUDO%20-%20MANUAL.pdf",
+                  "cite": "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)",
+                  "citation": "Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes."
+                }
+              ]
             }
           ],
           "rank": [
@@ -349,9 +1012,399 @@
             {
               "uri": "https://judolandia.tripod.com/bastosnunes.htm",
               "cite": "Bastos Nunes"
+            },
+            {
+              "uri": "https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/"
+            },
+            {
+              "uri": "https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539",
+              "cite": "Faleceu José Bastos Nunes | Abola.pt"
             }
           ],
           "source_yaml": "database/persons/PRT/Basto_Nunes.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-76",
+          "name": "Armando Gonçalves",
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/armando_goncalves/armando_goncalves.png",
+            "source": {
+              "uri": "http://id.bnportugal.gov.pt/bib/catbnp/735884",
+              "cite": "GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942."
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-77",
+              "style_id": "JDP-S-14",
+              "place": null,
+              "quality": 2,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "http://id.bnportugal.gov.pt/bib/catbnp/732683",
+                  "cite": "GONÇALVES, Armando; O fraco vence o forte. 1941",
+                  "citation": "Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            },
+            {
+              "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html",
+              "cite": "historiaclube - Clube de Judo do Porto"
+            },
+            {
+              "uri": "https://www.fjjdap.pt/jujitsu/",
+              "cite": "História"
+            },
+            {
+              "uri": "https://www.ungoshin.pt/correa-pereira-historia-budo"
+            },
+            {
+              "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Armando_Gonçalves.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-61",
+          "name": "António Roquette de Andrade",
+          "aka": [
+            {
+              "name": "António Roquette"
+            },
+            {
+              "name": "António Roquete"
+            },
+            {
+              "name": "Tona"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1955-05-26",
+            "location": "Estoril",
+            "country_code": "PRT"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/tona1980/tona1980.jpg",
+            "source": {
+              "uri": "https://fcmjudo.pt/moscovo.html",
+              "cite": "Diário de Lisboa, 1980 (in: FCM Judo)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-15",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.ahbe.pt/portfolio-item/judo/",
+                  "cite": "A História Do Judo na AHBE",
+                  "citation": "O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Federação Portuguesa de Judo",
+              "teacher": null,
+              "rank": "7 dan",
+              "date": 2009,
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf",
+                  "cite": "Relatório de Atividades e Contas, 2019. FPJ",
+                  "citation": "Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/roquete.htm",
+              "cite": "António Roquete"
+            },
+            {
+              "uri": "https://www.olympedia.org/athletes/34295",
+              "cite": "Olympedia – António Roquete"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q20973014",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Ant%C3%B3nio_Roquete_(judoka)",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/António_Roquette.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-67",
+          "name": "Alexandre Gueifão",
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1940-12-07",
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/alexandre_gueifao/alexandre_gueifao.png",
+            "source": {
+              "uri": "https://www.bushidoespadaepena.com/entrevistas",
+              "cite": "Bushido: a Espada e a Pena"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-66",
+              "style_id": "JDP-S-1",
+              "place": "Judokai de Lisboa",
+              "quality": 3,
+              "period": {
+                "start": 1958,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+                  "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+                  "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+                }
+              ]
+            },
+            {
+              "id": "JDP-68",
+              "style_id": "JDP-S-1",
+              "place": "Judokai de Lisboa",
+              "quality": 3,
+              "period": {
+                "start": 1958,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+                  "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+                  "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+                }
+              ]
+            },
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": 3,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+                  "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+                  "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "UBU",
+              "teacher": null,
+              "rank": "1 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.suishinkan.com.pt/biografia.html",
+                  "citation": "Graduação de 1º. Dan de Judo certificada pela UBU."
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.suishinkan.com.pt/biografia.html",
+              "cite": "Biografia Alexandre Gueifão - Suishinkan-portugal 2017"
+            },
+            {
+              "uri": "https://www.ubu.pt/home/professores/mestre-alexandre-gueifao/",
+              "cite": "Mestre Alexandre Gueifão - União Portuguesa de Budo"
+            },
+            {
+              "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf"
+            },
+            {
+              "uri": "https://www.youtube.com/watch?v=BkBldZFIcBY",
+              "cite": "Entrevista ao Sensei Alexandre Gueifão (Parte 1) - YouTube"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Alexandre_Gueifão.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-65",
+          "name": "Afonso Henriques Maia de Loureiro",
+          "aka": [
+            {
+              "name": "Afonso Henriques Ivens-Ferraz Maia de Loureiro"
+            }
+          ],
+          "nationality": [
+            "PRT"
+          ],
+          "birth": {
+            "date": "1917-06-27",
+            "location": "Ilha de Moçambique",
+            "country_code": "MOZ"
+          },
+          "death": {
+            "date": "1999-11-08",
+            "location": "Lisboa",
+            "country_code": "PRT"
+          },
+          "photo": {
+            "url": "https://archive.org/download/maialoureiro-1/Maialoureiro1.gif",
+            "source": {
+              "uri": "https://www.fcmjudo.pt/Socioshonorarios.html",
+              "cite": "Sócios Honorários da F.P. Judo"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-66",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": 3,
+              "period": {
+                "start": 1954,
+                "end": 1958
+              },
+              "sources": [
+                {
+                  "uri": "https://judolandia.tripod.com/histport.htm",
+                  "cite": "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al",
+                  "citation": "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
+                },
+                {
+                  "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243",
+                  "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+                  "citation": "Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "3 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf",
+                  "cite": "Relatório de Atividades e Contas do Exercício de 2019",
+                  "citation": "Afonso Henriques I. F. Maia de Loureiro (3º Dan)"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            },
+            {
+              "uri": "https://www.fcmjudo.pt/Socioshonorarios.html",
+              "cite": "Fotos Presidentes F.P.J."
+            },
+            {
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243"
+            }
+          ],
+          "source_yaml": "database/persons/PRT/Afonso_Maia_de_Loureiro.yaml"
         }
       },
       {
@@ -417,7 +1470,79 @@
               "cite": "Kanō Jigorō - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Yokoyama_Sakujiro.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q3276775",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Yokoyama_Sakujiro",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Yokoyama_Sakujiro.yaml",
+          "photo_url_local": "images/cache/3326476096b40cabee471bb36cde6755.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-74",
+          "name": "Yamamoto Nobuaki",
+          "native_name": {
+            "name": null,
+            "lang": null
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/yamamoto73_1/yamamoto73_1.jpg",
+            "source": {
+              "uri": "https://www.fcmjudo.pt/visitantes.html"
+            }
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.fcmjudo.pt/visitantes.html",
+              "cite": "Visitantes Estrangeiros"
+            },
+            {
+              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/",
+              "cite": "Clube de Judo do Porto faz 50 anos mas continua jovem"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Yamamoto_Nobuaki.yaml"
         }
       },
       {
@@ -554,7 +1679,18 @@
               "cite": "Interview with Morihei Ueshiba and Kisshomaru Ueshiba – Aikido Journal"
             }
           ],
-          "source_yaml": "database/persons/JPN/Ueshiba_Morihei.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q182130",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Morihei_Ueshiba",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Ueshiba_Morihei.yaml",
+          "photo_url_local": "images/cache/8443eb7fc742180dd0257abdd1bc1414.jpg"
         }
       },
       {
@@ -581,14 +1717,21 @@
           "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png/169px-%E5%8D%81%E4%B8%83%E4%BB%A3%E5%AE%97%E5%AE%B6%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E.png",
           "teachers": [
             {
-              "id": null,
-              "style_id": null,
-              "place": null,
-              "quality": null,
+              "id": "JDP-60",
+              "style_id": "JDP-S-8",
+              "place": "Bujutsu Kyoin Yoseijo",
+              "quality": 3,
               "period": {
-                "start": null,
+                "start": 1905,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/",
+                  "cite": "The iron will of the kendo god Ueda Heitaro - Kenshi 24/7",
+                  "citation": "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
+                }
+              ]
             }
           ],
           "rank": [
@@ -610,7 +1753,8 @@
               "cite": "植田平太郎 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Ueda_Heitaro.yaml"
+          "source_yaml": "database/persons/JPN/Ueda_Heitaro.yaml",
+          "photo_url_local": "images/cache/dedfe9883a7b4ce53c0e4aa65e674a05.png"
         }
       },
       {
@@ -725,7 +1869,18 @@
             "Genyōsha",
             "Omoto"
           ],
-          "source_yaml": "database/persons/JPN/Uchida_Ryohei.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q120662",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Ry%C5%8Dhei_Uchida",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Uchida_Ryohei.yaml",
+          "photo_url_local": "images/cache/02cd85debf9ee87b78b2972ea0f4abfc.jpg"
         }
       },
       {
@@ -859,7 +2014,106 @@
               "cite": "富田常次郎 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Tomita_Tsunejiro.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2672426",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Tomita_Tsunejir%C5%8D",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Tomita_Tsunejiro.yaml",
+          "photo_url_local": "images/cache/f2ca4e8be5ae3fb80bbca86e4bd3b51c.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-71",
+          "name": "Tomita Takeji",
+          "native_name": {
+            "name": "斉藤 守弘",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1928-03-31",
+            "location": "Ibaraki",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "2002-05-13",
+            "location": "Iwama",
+            "country_code": "JPN"
+          },
+          "photo": {
+            "url": "https://archive.org/download/takeji_tomita/takeji_tomita.png",
+            "source": {
+              "uri": "https://www.aikidojournal.eu/docs/238/393_946_en.pdf",
+              "cite": "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-70",
+              "style_id": "JDP-S-4",
+              "place": "Iwama Dōjō",
+              "quality": null,
+              "period": {
+                "start": 1962,
+                "end": 1
+              },
+              "sources": [
+                {
+                  "uri": "https://www.aikidojournal.eu/docs/238/393_946_en.pdf",
+                  "cite": "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)",
+                  "citation": "From 1962 on, after his first visit in Iwama, he decides to follow the teaching of O'Sensei and of his assistant, Morihiro Saito Sensei (...) In 1968, he becomes Morihiro Saito's Uchideshi and is rapidly adopted by the Master's family (...) Tomita Sensei practiced for about 7 years at the Iwama Dojo. Those years were for him formativeyears dedicated to education and to discovering the way of Budo."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-4",
+              "org": "Aikikai",
+              "teacher": null,
+              "rank": "8 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.aikidojournal.eu/docs/238/393_946_en.pdf",
+                  "cite": "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)",
+                  "citation": "Today an 8th Dan, Tomita Sensei still lives in Stockholm."
+                }
+              ],
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.takemusuaiki.eu/master/",
+              "cite": "Master"
+            },
+            {
+              "uri": "https://www.aikidojournal.eu/docs/238/393_946_en.pdf"
+            },
+            {
+              "uri": "https://aikidojournal.com/2011/08/27/takeji-tomita/",
+              "cite": "Takeji Tomita 富田武治 – Aikido Journal"
+            },
+            {
+              "uri": "https://takemusuaikichel.ru/en/tomita-sensei/",
+              "cite": "Tomita Sensei / Takemusu Aiki,  Aikido Dojo, Chelyabinsk"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Tomita_Takeji.yaml"
         }
       },
       {
@@ -942,7 +2196,18 @@
               "cite": "富木謙治 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Tomiki_Kenji.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q6389379",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Kenji_Tomiki",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Tomiki_Kenji.yaml",
+          "photo_url_local": "images/cache/01597240280937ae594546b0b42191db.jpg"
         }
       },
       {
@@ -1053,6 +2318,12 @@
                 "birth"
               ],
               "cite": "From the article 'Famous Budoka of Japan: Ukei Kato and Kito-ryu Jujutsu' - Ryōi Shintōkai 良移心当会"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11565323",
+              "cite": "Wikidata"
             }
           ],
           "source_yaml": "database/persons/JPN/Takino_Yūken.yaml"
@@ -1219,7 +2490,18 @@
               "cite": "Interview with Kenji Tomiki, Part 1 – Aikido Journal"
             }
           ],
-          "source_yaml": "database/persons/JPN/Takeda_Sokaku.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q503880",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Takeda_S%C5%8Dkaku",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Takeda_Sokaku.yaml",
+          "photo_url_local": "images/cache/88929a754386f464b40986a0ba0da928.jpg"
         }
       },
       {
@@ -1396,8 +2678,7 @@
               "cite": "JCS: Kunisaburo Iizuka : Svinth"
             },
             {
-              "uri": "https://www.judo-ch.jp/english/legend/iizuka/",
-              "cite": "Kodokan hall of fame | Judo Channel | Token Corporation"
+              "uri": "https://www.judo-ch.jp/english/legend/iizuka/"
             },
             {
               "uri": "https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/"
@@ -1411,11 +2692,21 @@
               "cite": "The Last Swordsman: The Yoshio Sugino Story, Part 2 – Aikido Journal"
             },
             {
-              "uri": "https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3",
-              "cite": "The Last Swordsman: The Yoshio Sugino Story"
+              "uri": "https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3"
             }
           ],
-          "source_yaml": "database/persons/JPN/Sugino_Yoshio.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q8056250",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Yoshio_Sugino",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Sugino_Yoshio.yaml",
+          "photo_url_local": "images/cache/204acc1061913636de7a1118afce89fe.jpg"
         }
       },
       {
@@ -1599,8 +2890,7 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -1611,7 +2901,104 @@
               "cite": "MITSUYO MAEDA E O JUDÔ KODOKAN"
             }
           ],
-          "source_yaml": "database/persons/JPN/Satake_Soshihiro.yaml"
+          "source_yaml": "database/persons/JPN/Satake_Soshihiro.yaml",
+          "photo_url_local": "images/cache/5a789699a4256fc5c95059913972a8fd.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-70",
+          "name": "Saitō Morihiro",
+          "native_name": {
+            "name": "斉藤 守弘",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1928-03-31",
+            "location": "Ibaraki",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "2002-05-13",
+            "location": "Iwama",
+            "country_code": "JPN"
+          },
+          "photo": {
+            "url": "https://archive.org/download/morihiro-saito_formal/morihiro-saito_formal.jpg",
+            "source": {
+              "uri": "https://aikidojournal.com/2003/02/28/interview-with-morihiro-saito-part-1-1987/",
+              "cite": "Interview with Morihiro Saito - Part 1 (Aikido Journal)"
+            }
+          },
+          "description": {
+            "en": "Morihiro Saito (斉藤 守弘 Saitō Morihiro) was a teacher of the Japanese martial art of aikido, with many students around the world. Saito's practice of aikido spanned 56 years, from the age of 18, when he first met aikido founder Morihei Ueshiba, until his death in 2002.  The kind of aikido that Saito's students do is often referred to as Iwama aikido or Iwama style. In Europe, Saito, along with many of his students, formed a dan-ranking network of dojos called Iwama Ryu, with ranks received directly from Saito rather than or in addition to those from the Aikikai although Saito never left that organization.\n"
+          },
+          "teachers": [
+            {
+              "id": "JDP-27",
+              "style_id": "JDP-S-4",
+              "place": "Iwama Dōjō",
+              "quality": null,
+              "period": {
+                "start": 1946,
+                "end": 1969
+              },
+              "sources": [
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Morihiro_Saito",
+                  "citation": "It was at this time, at the age of 18, that Saito joined Ueshiba for training (...) From 1946 until Ueshiba’s passing in 1969, Saito served as Ueshiba's assistant in a variety of ways at Iwama while his wife served Mrs. Ueshiba. During Saito’s period as a deshi he taught classes in the Iwama dojo.",
+                  "cite": "Morihiro Saito - Wikipedia"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-4",
+              "org": "Aikikai",
+              "teacher": null,
+              "rank": "9 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.saitosensei.com/1990s/",
+                  "citation": "1992. Mrs. Saito and Saito Sensei in regal formal attire at his huge first party in Iwama’s Kabuki Wedding Palace, celebrating his promotion to 9th dan by Honbu Aikikai and the 50th anniversary of aikido in Iwama"
+                }
+              ],
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://saito-sensei.org/"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Morihiro_Saito",
+              "cite": "Morihiro Saito - Wikipedia"
+            },
+            {
+              "uri": "https://www.saitosensei.com",
+              "cite": "Morihiro Saito Sensei – March 31, 1928 – May 12, 2002"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q550626",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Morihiro_Saito",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Saito_Morihiro.yaml"
         }
       },
       {
@@ -1659,8 +3046,7 @@
           ],
           "sources": [
             {
-              "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
+              "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/"
             },
             {
               "uri": "https://www.worldcat.org/title/952578913"
@@ -1760,15 +3146,198 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/",
-              "cite": "岡野好太郎 | 講道館"
+              "uri": "http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/"
             },
             {
               "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81",
               "cite": "無相流 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Okano_Yoshitaro.yaml"
+          "source_yaml": "database/persons/JPN/Okano_Yoshitaro.yaml",
+          "photo_url_local": "images/cache/ef589301a9079949fe6001e90aa1e174.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-59",
+          "name": "Ogawa Kinnosuke",
+          "native_name": {
+            "name": "小川 金之助",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1884",
+            "location": "Aiichi",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1962",
+            "location": null,
+            "country_code": null
+          },
+          "description": {
+            "en": "Ogawa Kinnosuke was born in 1884 in Aiichi prefecture. He began kendo whilst in school, at around 13/15 years of age, under kendo hanshi Kato Kiichi and later under Kohori Yasutada. In his late teens and very early 20s he taught kendo at a middle school and joined the army (field gunnery position) before being employed by Nagoya police department. He was a student and later an instructor at the Budo Senmon Gakko, as well as in the Nagoya police. He was a Butokukai hanshi and was Busen's principle kendo instructor in the 1930's and up until 1945."
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png/220px-%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png",
+            "source": {
+              "uri": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%B7%9D%E9%87%91%E4%B9%8B%E5%8A%A9.png",
+              "cite": "小川金之助 - Wikimedia Commons"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-60",
+              "style_id": "JDP-S-8",
+              "place": "Budō Senmon Gakko",
+              "period": {
+                "start": 1907,
+                "end": 1910
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+                  "cite": "Ogawa Kinnosuke - Kenshi 24/7",
+                  "citation": "In 1905 a school was formally opened to teach kendo instructors and Naito was selected as the senior teacher. At this time the school was known as the Bujutsu Kyoin Yoseijo, but eventually (after a few re-organisations and renames) it would be known to everyone as Busen (Budo Senmon Gakko). It was to this school that Ogawa was dispatched by the Nagoya police department in 1907. Ogawa would spend 3 years studying kendo directly under Naito."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-8",
+              "org": "Dai-Nippon Butoku Kai",
+              "teacher": null,
+              "rank": "Hanshi",
+              "date": null,
+              "style": "Kendo",
+              "style_native": {
+                "name": "剣道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-8",
+              "org": "Zen Nippon Kendo Renmei",
+              "teacher": null,
+              "rank": "10 dan",
+              "date": 1957,
+              "style": "Kendo",
+              "style_native": {
+                "name": "剣道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://kenshi247.net/blog/2015/05/22/ogawa-kinnosuke/"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11460626",
+              "cite": "Wikidata"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Ogawa_Kinnosuke.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-60",
+          "name": "Naitō Takaharu",
+          "native_name": {
+            "name": "内藤高治",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1862",
+            "location": "Mito",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1929",
+            "location": null,
+            "country_code": null
+          },
+          "description": {
+            "en": "A swordsman of the Hokushin Ittō-ryū, Naitō taught kendo to the Japanese Police force, and was also the first teacher at the Budo Senmon Gakko. He helped to create the Dai Nihon Teikoku Kendo Kata, a group that promulgated the practice of kendo in Japanese schools and universities under the auspices of the Dai Nippon Butoku Kai."
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg/220px-Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg",
+            "source": {
+              "uri": "https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu#/media/File:Nait%C5%8D_Takaharu_(%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB).jpg",
+              "cite": "Naitō Takaharu (内藤高治) - Wikimedia Commons"
+            }
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-8",
+              "org": "Dai-Nippon Butoku Kai",
+              "teacher": null,
+              "rank": "Hanshi",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://kenshi247.net/blog/2013/10/16/monna-tadashi/",
+                  "cite": "Monna Tadashi - Kenshi 24/7",
+                  "citation": "In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi."
+                }
+              ],
+              "style": "Kendo",
+              "style_native": {
+                "name": "剣道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu",
+              "cite": "Naitō Takaharu - Wikipedia"
+            },
+            {
+              "uri": "https://kenshi247.net/blog/2020/06/17/finding-naito/"
+            },
+            {
+              "uri": "https://kenshi247.net/blog/2012/12/04/naito-takaharu/"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB",
+              "cite": "内藤高治 - Wikipedia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11394577",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Nait%C5%8D_Takaharu",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Naito_Takaharu.yaml"
         }
       },
       {
@@ -1840,11 +3409,11 @@
               "cite": "Shuichi Nagaoka - Wikipedia"
             },
             {
-              "uri": "https://www.judo-ch.jp/english/legend/nagaoka/",
-              "cite": "Kodokan hall of fame | Judo Channel | Token Corporation"
+              "uri": "https://www.judo-ch.jp/english/legend/nagaoka/"
             }
           ],
-          "source_yaml": "database/persons/JPN/Nagaoka_Shuici.yaml"
+          "source_yaml": "database/persons/JPN/Nagaoka_Shuici.yaml",
+          "photo_url_local": "images/cache/11a297ba540c94bd025868da5eb45e1b.jpg"
         }
       },
       {
@@ -1983,7 +3552,18 @@
               "cite": "Minoru Mochizuki - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Mochizuki_Minoru.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1937662",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Minoru_Mochizuki",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Mochizuki_Minoru.yaml",
+          "photo_url_local": "images/cache/10306b68d5b5a690b5c86d083c61657f.jpg"
         }
       },
       {
@@ -2078,8 +3658,7 @@
           ],
           "sources": [
             {
-              "uri": "https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/",
-              "cite": "Judo Taiso, a scientific vehicle for Aikido – Study Group Tomiki Aikido"
+              "uri": "https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/"
             },
             {
               "uri": "https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html",
@@ -2104,11 +3683,11 @@
               "cite": "Karl Geis - Wikipedia"
             },
             {
-              "uri": "https://www.karlgeis.com/his-resume",
-              "cite": "His Resume | karlgeisryu"
+              "uri": "https://www.karlgeis.com/his-resume"
             }
           ],
-          "source_yaml": "database/persons/JPN/Miyake_Tsunako.yaml"
+          "source_yaml": "database/persons/JPN/Miyake_Tsunako.yaml",
+          "photo_url_local": "images/cache/57ee38fb484c838bde16ecc98bd671bb.gif"
         }
       },
       {
@@ -2177,12 +3756,10 @@
                 "native_name",
                 "birth",
                 "death"
-              ],
-              "cite": "���m�Ј��̓`�L�W�@�T"
+              ]
             },
             {
-              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page045.html",
-              "cite": "���m�Ј��E����"
+              "uri": "http://www5e.biglobe.ne.jp/~isitaki/page045.html"
             },
             {
               "uri": "https://opac.tenri-u.ac.jp/opac/repository/metadata/1573/",
@@ -2274,6 +3851,16 @@
               "cite": "Kanō Jigorō - Wikipedia"
             }
           ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2453372",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Kyuzo_Mifune",
+              "cite": "DBpedia"
+            }
+          ],
           "source_yaml": "database/persons/JPN/Mifune_Kyuzo.yaml"
         }
       },
@@ -2330,7 +3917,18 @@
               "cite": "Matsumura Sōkon - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Matsumura_Sokon.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q715769",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Matsumura_S%C5%8Dkon",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Matsumura_Sokon.yaml",
+          "photo_url_local": "images/cache/d3d8d5f6459ab8ddf5dc181c0fd1042b.jpg"
         }
       },
       {
@@ -2584,7 +4182,18 @@
               "cite": "Mitsuyo Maeda - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Maeda_Mitsuyo.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q2456537",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Mitsuyo_Maeda",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Maeda_Mitsuyo.yaml",
+          "photo_url_local": "images/cache/3f7c419cc1985a2cb0d3581aa3adf353.jpg"
         }
       },
       {
@@ -2762,11 +4371,11 @@
               "uri": "https://blackbeltmag.com/konishi-yasuhiro"
             },
             {
-              "uri": "https://www.jkr-uk.org.uk/yasuhiro-konishi",
-              "cite": "• Yasuhiro Konishi — JKR-UK"
+              "uri": "https://www.jkr-uk.org.uk/yasuhiro-konishi"
             }
           ],
-          "source_yaml": "database/persons/JPN/Konishi_Yasuhiro.yaml"
+          "source_yaml": "database/persons/JPN/Konishi_Yasuhiro.yaml",
+          "photo_url_local": "images/cache/8b2d9702cc96e4583e32d0bf958873fd.jpg"
         }
       },
       {
@@ -2823,12 +4432,10 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/",
-              "cite": "講道館創立１３０周年記念式典・祝賀会 | 講道館"
+              "uri": "http://kodokanjudoinstitute.org/news/2012/04/epost-15/"
             },
             {
-              "uri": "http://kodokanjudoinstitute.org/magazine/201401/",
-              "cite": "機関誌「柔道」 | 講道館"
+              "uri": "http://kodokanjudoinstitute.org/magazine/201401/"
             },
             {
               "uri": "https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/",
@@ -2841,7 +4448,8 @@
               "uri": "http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item"
             }
           ],
-          "source_yaml": "database/persons/JPN/Kobayashi_Kiyoshi.yaml"
+          "source_yaml": "database/persons/JPN/Kobayashi_Kiyoshi.yaml",
+          "photo_url_local": "images/cache/9f54fb588b61dd606a167494c564c23e.jpg"
         }
       },
       {
@@ -2943,7 +4551,18 @@
               "cite": "川石酒造之助 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Kawaishi_Mikinosuke.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q3090191",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Mikinosuke_Kawaishi",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Kawaishi_Mikinosuke.yaml",
+          "photo_url_local": "images/cache/b1183f842d638260d7b449d81deefacd.jpg"
         }
       },
       {
@@ -3029,8 +4648,7 @@
               "sources": [
                 {
                   "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-                  "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō",
-                  "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
+                  "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō"
                 }
               ]
             }
@@ -3091,12 +4709,10 @@
               "cite": "\n\t\tNanatsu-no-kata, Endo-no-kata, and Joge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo\n\t\t\t\t\t\t\t| Revista de Artes Marciales Asiáticas\n\t\t\t"
             },
             {
-              "uri": "https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html",
-              "cite": "When was Professor Kano Born?"
+              "uri": "https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html"
             },
             {
-              "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
+              "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/"
             }
           ],
           "links": [
@@ -3109,7 +4725,8 @@
               "cite": "DBpedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Kano_Jigoro.yaml"
+          "source_yaml": "database/persons/JPN/Kano_Jigoro.yaml",
+          "photo_url_local": "images/cache/2d37934d8f5ff0af610d77918dbf5da6.jpg"
         }
       },
       {
@@ -3235,7 +4852,18 @@
               "cite": "Nihon Karate Do Shoto-kai Official Web Site"
             }
           ],
-          "source_yaml": "database/persons/JPN/Itosu_Anko.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q527422",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Ank%C5%8D_Itosu",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Itosu_Anko.yaml",
+          "photo_url_local": "images/cache/73451543abe5bd9fa0165442c90132b7.jpg"
         }
       },
       {
@@ -3340,15 +4968,25 @@
           ],
           "sources": [
             {
-              "uri": "http://kodokanjudoinstitute.org/en/doctrine/palace/",
-              "cite": "Kodokan Hall of Fame | Kodokan Judo Institute"
+              "uri": "http://kodokanjudoinstitute.org/en/doctrine/palace/"
             },
             {
               "uri": "https://en.wikipedia.org/wiki/Hajime_Isogai",
               "cite": "Hajime Isogai - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Isogai_Hajime.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q11973675",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Hajime_Isogai",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Isogai_Hajime.yaml",
+          "photo_url_local": "images/cache/473c6f563fa53cadd82ceda396295ca0.jpg"
         }
       },
       {
@@ -3605,7 +5243,18 @@
               "cite": "飯塚国三郎 - Wikipedia"
             }
           ],
-          "source_yaml": "database/persons/JPN/Iizuka_Kunisaburu.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q6444749",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Kunisaburo_Iizuka",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Iizuka_Kunisaburu.yaml",
+          "photo_url_local": "images/cache/4f34b5221e2c9496072d5abbecb3e67b.jpg"
         }
       },
       {
@@ -3666,7 +5315,6 @@
             },
             {
               "uri": "https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC",
-              "cite": "Judo Memoirs of Jigoro Kano - Brian N. Watson - Google Livros",
               "events": [
                 "birth"
               ]
@@ -3676,10 +5324,71 @@
               "events": [
                 "birth death"
               ],
-              "cite": "   History Judo  : CISM Europe"
+              "cite": "   History Judo  : CISM EUROPE"
             }
           ],
           "source_yaml": "database/persons/JPN/Iikubo_Tsunetoshi.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-77",
+          "name": "Hirano Yuzo",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/hirano_202402/hirano.png",
+            "source": {
+              "uri": "https://orca.cardiff.ac.uk/id/eprint/136518/"
+            }
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614",
+              "cite": "Espaço Universidade Os primórdios do Jujutsu em Portugal (artigo de Vítor Rosa, 147) | Abola.pt"
+            },
+            {
+              "uri": "https://orca.cardiff.ac.uk/id/eprint/136518/",
+              "cite": " The Golden Square Dojo and its place in British Jujutsu history  -ORCA"
+            },
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Hirano_Yuzo.yaml"
         }
       },
       {
@@ -3758,10 +5467,22 @@
               "uri": "https://judoinfo.com/karateranks/"
             },
             {
-              "uri": "https://search.worldcat.org/title/7673297"
+              "uri": "https://search.worldcat.org/title/7673297",
+              "cite": "Karate-dō : my way of life | WorldCat.org"
             }
           ],
-          "source_yaml": "database/persons/JPN/Funakoshi_Gichin.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q41105",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Gichin_Funakoshi",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Funakoshi_Gichin.yaml",
+          "photo_url_local": "images/cache/3bd273efb342fd77de8cd38ab0974a11.jpg"
         }
       },
       {
@@ -3863,19 +5584,26 @@
               "cite": "Keiko Fukuda - Wikipedia"
             },
             {
-              "uri": "https://www.usjf.com/2018/02/keiko-fukuda/",
-              "cite": "Keiko Fukuda | United States Judo Federation"
+              "uri": "https://www.usjf.com/2018/02/keiko-fukuda/"
             },
             {
               "uri": "https://judoinfo.com/fukuda/"
             },
             {
-              "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29",
-              "cite": "Black Belt - Google Livros"
+              "uri": "https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29"
             },
             {
-              "uri": "https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/",
-              "cite": "A Living Legend: Judo Master Keiko Fukuda | Steph Davis - High Places"
+              "uri": "https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q460890",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Keiko_Fukuda",
+              "cite": "DBpedia"
             }
           ],
           "source_yaml": "database/persons/JPN/Fukuda_Keiko.yaml"
@@ -3931,6 +5659,12 @@
             {
               "uri": "https://ja.wikipedia.org/wiki/%E7%A6%8F%E7%94%B0%E5%85%AB%E4%B9%8B%E5%8A%A9",
               "cite": "福田八之助 - Wikipedia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q22124384",
+              "cite": "Wikidata"
             }
           ],
           "source_yaml": "database/persons/JPN/Fukuda_Hachinosuke.yaml"
@@ -4000,7 +5734,291 @@
               "cite": "Nihon Karate Do Shoto-kai Official Web Site"
             }
           ],
-          "source_yaml": "database/persons/JPN/Asato_Anko.yaml"
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q721201",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Ank%C5%8D_Asato",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Asato_Anko.yaml",
+          "photo_url_local": "images/cache/b76050a70bf8ad93156f68171d1b25fd.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-58",
+          "name": "Abbe Kenshirõ",
+          "native_name": {
+            "name": "阿部 謙四郎",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1915-12-15",
+            "location": "Tokushima",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1985-12-01",
+            "location": "Tokushima",
+            "country_code": "USA"
+          },
+          "description": {
+            "en": "Kenshiro Abbe was a prominent Japanese master of judo, aikido, and kendo. He introduced aikido to the United Kingdom in 1955, and founded the Kyushindo system.  Abbe was a graduate of the Budo Senmon Gakko, having studied judo and kendo there. Following an illustrious early career in the martial arts, he served in the Imperial Japanese Army before and during World War II. He then trained in aikido under its founder, Morihei Ueshiba, for a decade. Abbe held dan ranks in several martial arts, most notably 8th dan in judo, 6th dan in aikido, and 6th dan in kendo. After introducing aikido to the UK, he established several Japanese martial arts councils there during the late 1950s. He returned to Japan in 1964 and remained there for most of the remainder of his life."
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Kenshiro_Abbe.jpg/220px-Kenshiro_Abbe.jpg",
+            "source": {
+              "uri": "https://en.wikipedia.org/wiki/Kenshiro_Abbe#/media/File:Kenshiro_Abbe.jpg",
+              "cite": "Kenshiro Abbe - Wikipedia (original from Kendo Nagasaki, http://kendonagasaki.org/)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-59",
+              "style_id": "JDP-S-8",
+              "place": "Budō Senmon Gakko",
+              "period": {
+                "start": 1934,
+                "end": 1945
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+                  "cite": "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo",
+                  "citation": "At the Busen Abbe received instruction from Ogawa Hanshi (genius), the Butokukai Judan (10th Dan) sword master. While at the Busen Kenshiro also enrolled in Mr. Gen Tanabe's philosophy class, at the Kyoto Teikoku University. That early encounter with philosophy would be influential in the formation of his system. While the training was arduous at the Busen, Kenshiro managed to receive his Yondan (4th Dan) rank in Judo, being again the young Judoka to attain it. His sister, Toyoka, decided to take Martial Arts too, enrolling in Mrs. Mitamura's Naginata class. She would dedicate the rest of her life to the practice of the art."
+                }
+              ]
+            },
+            {
+              "id": "JDP-27",
+              "style_id": "JDP-S-4",
+              "place": null,
+              "period": {
+                "start": 1937,
+                "end": 1947
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+                  "cite": "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo",
+                  "citation": "In 1937, at the age of 23, Abbe was awarded his Rokudan (6th Dan) rank and in June of that year he enlisted in the Japanese army, serving for four years in a garrison in the Toan-sho Province in Manchuria. It was during the time in Manchuria that Abbe began formulating his theory of Budo (the Way of the Warrior), Kyu-Shin-Do. And it was also at this time that Abbe was invited by O'Sensei, Morihei Ueshiba to study Aikido under his care."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-8",
+              "org": "Dai-Nippon Butoku Kai",
+              "teacher": null,
+              "rank": "6 dan",
+              "date": 1945,
+              "style": "Kendo",
+              "style_native": {
+                "name": "剣道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-4",
+              "org": null,
+              "teacher": "JDP-27",
+              "rank": "6 dan",
+              "date": 1945,
+              "style": "Aikidō",
+              "style_native": {
+                "name": "合気道",
+                "lang": "ja"
+              }
+            },
+            {
+              "style_id": "JDP-S-1",
+              "org": "Dai-Nippon Butoku Kai",
+              "teacher": null,
+              "rank": "7 dan",
+              "date": 1945,
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Kenshiro_Abbe",
+              "cite": "Kenshiro Abbe - Wikipedia"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E9%98%BF%E9%83%A8%E8%AC%99%E5%9B%9B%E9%83%8E",
+              "cite": "阿部謙四郎 - Wikipedia"
+            },
+            {
+              "uri": "http://www.sydhoare.com/Kenshiro.pdf"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q1739011",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Keiko_Fukuda",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Abe_Kenshiro.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-69",
+          "name": "Frigyes Tӧrӧk",
+          "aka": [
+            {
+              "name": "Frigyes Vilmos Török"
+            }
+          ],
+          "nationality": [
+            "HUN"
+          ],
+          "birth": {
+            "date": 1944,
+            "location": "Budapest",
+            "country_code": "HUN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/torok_202402/torok.jpeg",
+            "source": {
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
+              "cite": "ENTREVISTA – Viagem ao mundo dos homens bons (Judo Magazine)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-12",
+              "style_id": "JDP-S-1",
+              "place": "Judo Clube de Portugal",
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf",
+                  "cite": "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)",
+                  "citation": "Em 1974, o então presidente da Federação Portuguesa de Judo, Prof. Fernando Costa Matos, sabendo da intenção do Mestre Frigyes Tӧrӧk, 3º Dan, de regressar a Portugal, vindo de Angola onde lecionava, colocou em contacto este professor de ascendência húngara e discípulo direto do Mestre Kiyoshi Kobayashi, com a Direção do Clube. "
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "FPJ",
+              "teacher": null,
+              "rank": "7 dan",
+              "date": 2019,
+              "sources": [
+                {
+                  "uri": "https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf",
+                  "cite": "Relatório Anual FPJ 2019",
+                  "citation": "Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/torok.htm",
+              "cite": "Frigyes Torok"
+            },
+            {
+              "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
+            },
+            {
+              "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html",
+              "cite": "historiaclube - Clube de Judo do Porto"
+            }
+          ],
+          "source_yaml": "database/persons/HUN/Frigyes_Torok.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-68",
+          "name": "Henri Bouchend'Homme",
+          "nationality": [
+            "FRA"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://judolandia.tripod.com/histport.htm",
+                  "cite": "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al",
+                  "citation": "Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava Judo em Lisboa começou a leccionar no Lisboa Ginásio."
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            }
+          ],
+          "source_yaml": "database/persons/FRA/Henri_Bouchend_Homme.yaml"
         }
       },
       {
@@ -4048,7 +6066,8 @@
               "cite": "MUITO ANTES DO MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo , por ELTON SILVA e EDUARDO CORRÊA - agBook - O seu livro Publicado 100% gratuito e sob demanda"
             }
           ],
-          "source_yaml": "database/persons/BRA/Mario_Aleixo.yaml"
+          "source_yaml": "database/persons/BRA/Mario_Aleixo.yaml",
+          "photo_url_local": "images/cache/c6045e9f5e720ffc90b700bc4a13cc78.jpg"
         }
       },
       {
@@ -4105,8 +6124,7 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda",
-              "cite": "HISTÓRIA | FADDA BJJ"
+              "uri": "https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/",
@@ -4125,7 +6143,8 @@
               "cite": "Carlos Gracie – Wikipédia, a enciclopédia livre"
             }
           ],
-          "source_yaml": "database/persons/BRA/Luis_de_França_Filho.yaml"
+          "source_yaml": "database/persons/BRA/Luis_de_França_Filho.yaml",
+          "photo_url_local": "images/cache/2eb49812686fa9df85178583b7666f50.jpg"
         }
       },
       {
@@ -4218,8 +6237,7 @@
           ],
           "sources": [
             {
-              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1",
-              "cite": "Breve História do Jiu Jitsu Brasileiro - Parte 1"
+              "uri": "https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
@@ -4295,14 +6313,82 @@
               "cite": "Carlos Gracie – Wikipédia, a enciclopédia livre"
             }
           ],
-          "source_yaml": "database/persons/BRA/Carlos_Gracie.yaml"
+          "source_yaml": "database/persons/BRA/Carlos_Gracie.yaml",
+          "photo_url_local": "images/cache/7dcf54e5389a877accaab66596b014d1.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-66",
+          "name": "Antony Striker",
+          "aka": [
+            {
+              "name": "Antony Stricker"
+            },
+            {
+              "name": "Tony Striker"
+            }
+          ],
+          "nationality": [
+            "BEL"
+          ],
+          "birth": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "quality": null,
+              "period": {
+                "start": null,
+                "end": null
+              }
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": null,
+              "teacher": null,
+              "rank": "1 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://judolandia.tripod.com/histport.htm",
+                  "cite": "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al",
+                  "citation": "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal"
+            }
+          ],
+          "source_yaml": "database/persons/BEL/Antony_Striker.yaml"
         }
       }
     ],
     "edges": [
       {
         "data": {
-          "id": "JDP995c231f474ca",
+          "id": "JDP37243ecbf38e2",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-11",
           "target": "JDP-24",
@@ -4322,7 +6408,7 @@
       },
       {
         "data": {
-          "id": "JDPf0f58ec52e953",
+          "id": "JDP119453c94b64c",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Karl Geis",
           "source": "JDP-12",
           "target": "JDP-52",
@@ -4349,7 +6435,7 @@
       },
       {
         "data": {
-          "id": "JDP286408839b236",
+          "id": "JDPaad57b969dd63",
           "name": "Tsunako Miyake (Aikidō) Karl Geis",
           "source": "JDP-53",
           "target": "JDP-52",
@@ -4376,7 +6462,7 @@
       },
       {
         "data": {
-          "id": "JDP4e0a312d37b65",
+          "id": "JDP52b747182d2ed",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-12",
           "target": "JDP-25",
@@ -4396,7 +6482,296 @@
       },
       {
         "data": {
-          "id": "JDP38f5e4bd37dc6",
+          "id": "JDP83e6bef709fcb",
+          "name": "José Costa Branco (Kōdōkan Jūdō) Nuno Delgado",
+          "source": "JDP-62",
+          "target": "JDP-63",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Sport Algés e Dafundo",
+          "quality": 3,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.ulisboa.pt/sites/ulisboa.pt/files/public/aluno_de_kobayashi_moldou_o_campeao.pdf",
+              "cite": "José Costa Branco: Aluno de Kobayashi moldou o campeão (O Jogo, 22-II-2020)",
+              "citation": "... no histórico Sport Algés e Dafundo durante 28 anos. Foi lá que José Costa Branco encontrou Nuno Delgado, que saiu de Santarém, onde vivia e combatia, para regressar a Lisboa e se licenciar em Ciências do Desporto"
+            },
+            {
+              "uri": "https://www.record.pt/modalidades/detalhe/alges-conquista-nacional-de-seniores-por-equipas",
+              "cite": "Algés conquista Nacional de seniores por equipas (Record, 30-IV-2001)",
+              "citation": "Quero dedicar o triunfo ao ex-treinador José Branco, porque ele já merecia este título no ano passado, altura em que se retirou dos tapetes, considerou Nuno Delgado, medalha de bronze em Sydney 2000."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf75d364c194e5",
+          "name": "Fernando Costa Matos (Kōdōkan Jūdō) Nuno Delgado",
+          "source": "JDP-15",
+          "target": "JDP-63",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY?originalSubdomain=pt",
+              "cite": "Nuno Delgado",
+              "citation": "A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa5bb3ba20112f",
+          "name": "Yamamoto Nobuaki (Kōdōkan Jūdō) Manuel Reis",
+          "source": "JDP-74",
+          "target": "JDP-75",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Clube de Judo do Porto",
+          "quality": 2,
+          "period": {
+            "start": 1968,
+            "end": 1969
+          },
+          "sources": [
+            {
+              "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf",
+              "cite": "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)",
+              "citation": "Em 1968, ao abrigo do Fundo de Fomento Desportivo, chega ao Porto o jovem Mestre japonês, de 26 anos, Nabuaki Yamamoto, 5º Dan, aluno do Kodokan e antigo campeão universitário do Japão, tornando-se professor do Clube de Judo do Porto. No início de 1969, o Mestre Yamamoto parte para a Islândia e as aulas voltam a ser ministradas pelos judocas mais graduados, que contavam agora com o apoio muito esporádico de alguns elementos da Federação Portuguesa de Judo"
+            },
+            {
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
+              "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP1764c08b05c87",
+          "name": "Armando Gonçalves (Jūjutsu) Manuel Reis",
+          "source": "JDP-76",
+          "target": "JDP-75",
+          "interaction": "Jūjutsu",
+          "interaction_id": "JDP-S-14",
+          "interaction_native": {
+            "name": "柔術",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html",
+              "citation": "...Manuel Reis fora aluno de  Armando Gonçalves, um portuense Professor de Ju-Jutsu 柔術...",
+              "cite": "historiaclube - Clube de Judo do Porto"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP594f87d7204b2",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Costa Branco",
+          "source": "JDP-12",
+          "target": "JDP-62",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": null,
+          "period": {
+            "start": 1975,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://judomagazine.pt/2021/07/04/1980-moscovo/",
+              "cite": "José Branco não boicotou o seu sonho (Judo Magazine)",
+              "citation": "O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana."
+            },
+            {
+              "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/",
+              "cite": "José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)",
+              "citation": "Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP31d506fffccd4",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Henrique Nunes",
+          "source": "JDP-12",
+          "target": "JDP-64",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": 3,
+          "period": {
+            "start": 1959,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/",
+              "cite": "No «santuário» com Henrique Nunes (Judo Magazine)",
+              "citation": "«Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho imensas saudades» adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi, aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao ponto de ser difícil recordar-se de todas."
+            },
+            {
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381",
+              "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+              "citation": "... o mestre Kobayashi em Portugal, em '58 (...) foi o meu mestre."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP17f98cfec6732",
+          "name": "Afonso Henriques Maia de Loureiro (Kōdōkan Jūdō) Henrique Nunes",
+          "source": "JDP-65",
+          "target": "JDP-64",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": 3,
+          "period": {
+            "start": 1954,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381",
+              "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+              "citation": "...Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro, era o dr. Nuno Ribeiro..."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPaa09b3184a541",
+          "name": "Yamamoto Nobuaki (Kōdōkan Jūdō) Fernando Sarmento",
+          "source": "JDP-74",
+          "target": "JDP-73",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Clube de Judo do Porto",
+          "quality": 3,
+          "period": {
+            "start": 1968,
+            "end": 1969
+          },
+          "sources": [
+            {
+              "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+              "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)",
+              "citation": "Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP5f4a09c574d1e",
+          "name": "Carlos Portas (Aikidō) Fernando Sarmento",
+          "source": "JDP-72",
+          "target": "JDP-73",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": "Mussubi Escola de Aikido",
+          "quality": 3,
+          "period": {
+            "start": 2006,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "http://escolamurakamimaia.weebly.com/fernando-sarmento.html",
+              "cite": "Fernando Duarte Sarmento (Escola Murakami da Maia)",
+              "citation": "A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP40d0d96b2632",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
+          "source": "JDP-12",
+          "target": "JDP-15",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "INEF",
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.facebook.com/ipatj/photos/a.243433975668608/1073113529367311/?type=3&locale=pt_PT",
+              "cite": "Renato Santos Kobayashi, in Instituto Português de Artes Tradicionais Japonesas - Facebook",
+              "citation": "Em 1958 o Mestre K.K. assinou então um contrato para ficar em Portugal por um período de dois anos. Nesta sequência, aceita o convite para integrar o corpo docente do então Instituto Nacional de Educação Física (INEF), onde lecionou durante dez anos (...)  Destaca-se o nome do Fernando Costa Matos, atleta olímpico que iniciou o Judo no INEF em 1959 e em 1964 participou pela 1.ª vez nos J. Olímpicosde Tóquio."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa931a96d56ec3",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -4411,12 +6786,46 @@
           "period": {
             "start": null,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://web.archive.org/web/20240212151508/https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt",
+              "cite": "Nuno Delgado LinkedIn post",
+              "citation": "O Mestre Bastos Nunes, juntou-se ao seu querido Mestre Kobayashi que serviu com verdadeira alma Samurai, «linha dura» como dizia sempre. A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDPfbbc9f1a86e3f",
+          "id": "JDP098aa9c0d75a3",
+          "name": "Tomita Takeji (Aikidō) Carlos Portas",
+          "source": "JDP-71",
+          "target": "JDP-72",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": "Iwama Dōjō",
+          "quality": null,
+          "period": {
+            "start": 1985,
+            "end": 1993
+          },
+          "sources": [
+            {
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
+              "cite": "Mestre Carlos Portas (Aikido Marcial Dojo Clube)",
+              "citation": " Em 1985, viu no jornal o anúncio de uma demonstração de Aikido por um mestre japonês (Mestre Tomita), em Estocolmo, e foi ver. Achou que tinha caído num poço de luz e logo ali perguntou ao Mestre se o aceitava como aluno, o que veio a acontecer. Regressou a Portugal em 1993"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP8de4225abee55",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-12",
           "target": "JDP-16",
@@ -4436,7 +6845,201 @@
       },
       {
         "data": {
-          "id": "JDP704019661206b",
+          "id": "JDP723f31eca3f0c",
+          "name": "Antony Striker (Kōdōkan Jūdō) José Manuel Bastos Nunes",
+          "source": "JDP-66",
+          "target": "JDP-16",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "http://judokai.pt/JUDO%20-%20MANUAL.pdf",
+              "cite": "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)",
+              "citation": "Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP430d5179ac7a7",
+          "name": "Hirano Yuzo (Jūjutsu) Armando Gonçalves",
+          "source": "JDP-77",
+          "target": "JDP-76",
+          "interaction": "Jūjutsu",
+          "interaction_id": "JDP-S-14",
+          "interaction_native": {
+            "name": "柔術",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "http://id.bnportugal.gov.pt/bib/catbnp/732683",
+              "cite": "GONÇALVES, Armando; O fraco vence o forte. 1941",
+              "citation": "Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP18e55053ae509",
+          "name": "Fernando Costa Matos (Kōdōkan Jūdō) António Roquette de Andrade",
+          "source": "JDP-15",
+          "target": "JDP-61",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.ahbe.pt/portfolio-item/judo/",
+              "cite": "A História Do Judo na AHBE",
+              "citation": "O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP8f8d25a8ca12e",
+          "name": "Antony Striker (Kōdōkan Jūdō) Alexandre Gueifão",
+          "source": "JDP-66",
+          "target": "JDP-67",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judokai de Lisboa",
+          "quality": 3,
+          "period": {
+            "start": 1958,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+              "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+              "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPf773e0c037bd5",
+          "name": "Henri Bouchend'Homme (Kōdōkan Jūdō) Alexandre Gueifão",
+          "source": "JDP-68",
+          "target": "JDP-67",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judokai de Lisboa",
+          "quality": 3,
+          "period": {
+            "start": 1958,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+              "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+              "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP444f58796342a",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Alexandre Gueifão",
+          "source": "JDP-12",
+          "target": "JDP-67",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": 3,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf",
+              "cite": "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»",
+              "citation": "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP968ff84b6632f",
+          "name": "Antony Striker (Kōdōkan Jūdō) Afonso Henriques Maia de Loureiro",
+          "source": "JDP-66",
+          "target": "JDP-65",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": 3,
+          "period": {
+            "start": 1954,
+            "end": 1958
+          },
+          "sources": [
+            {
+              "uri": "https://judolandia.tripod.com/histport.htm",
+              "cite": "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al",
+              "citation": "Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes."
+            },
+            {
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243",
+              "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ",
+              "citation": "Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP02e693a04cb5a",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yokoyama Sakujiro",
           "source": "JDP-1",
           "target": "JDP-9",
@@ -4456,7 +7059,7 @@
       },
       {
         "data": {
-          "id": "JDP5e0c15abe1ac6",
+          "id": "JDP74fa07c1264c3",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-10",
           "target": "JDP-9",
@@ -4476,7 +7079,7 @@
       },
       {
         "data": {
-          "id": "JDPb204733890d18",
+          "id": "JDP97a28fc37c416",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-28",
           "target": "JDP-27",
@@ -4496,7 +7099,7 @@
       },
       {
         "data": {
-          "id": "JDP858e0ed30c3cd",
+          "id": "JDPf4e84c2f616b4",
           "name": "Tozawa Tokusaburo (Tenjin Shin'yō-ryū) Ueshiba Morihei",
           "source": "JDP-47",
           "target": "JDP-27",
@@ -4531,7 +7134,7 @@
       },
       {
         "data": {
-          "id": "JDP72dd528aae69",
+          "id": "JDP9abbf3f3e203",
           "name": "Masakatsu Naka (Yagyū Shingan-ryū) Ueshiba Morihei",
           "source": "JDP-50",
           "target": "JDP-27",
@@ -4563,7 +7166,34 @@
       },
       {
         "data": {
-          "id": "JDPcfaf5c71f8f73",
+          "id": "JDP542f7674f9fd4",
+          "name": "Naitō Takaharu (Kendo) Ueda Heitaro",
+          "source": "JDP-60",
+          "target": "JDP-39",
+          "interaction": "Kendo",
+          "interaction_id": "JDP-S-8",
+          "interaction_native": {
+            "name": "剣道",
+            "lang": "ja"
+          },
+          "place": "Bujutsu Kyoin Yoseijo",
+          "quality": 3,
+          "period": {
+            "start": 1905,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/",
+              "cite": "The iron will of the kendo god Ueda Heitaro - Kenshi 24/7",
+              "citation": "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP5994052e01cfe",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Uchida Ryōhei",
           "source": "JDP-1",
           "target": "JDP-48",
@@ -4594,7 +7224,7 @@
       },
       {
         "data": {
-          "id": "JDPfc076882ea71e",
+          "id": "JDP1b8f882c69fb7",
           "name": "Miyagawa Taichiro (Jigō Tenshin Ryū) Uchida Ryōhei",
           "source": "JDP-49",
           "target": "JDP-48",
@@ -4625,7 +7255,7 @@
       },
       {
         "data": {
-          "id": "JDP803ec5672dd0f",
+          "id": "JDPca5ec5108ad23",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Tozawa Tokusaburo",
           "source": "JDP-4",
           "target": "JDP-47",
@@ -4655,7 +7285,7 @@
       },
       {
         "data": {
-          "id": "JDPa0dfadb9cc7cc",
+          "id": "JDPfd2b5059f4eb7",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomita Tsunejirō",
           "source": "JDP-1",
           "target": "JDP-17",
@@ -4675,7 +7305,34 @@
       },
       {
         "data": {
-          "id": "JDP7afafab437046",
+          "id": "JDP99808b5dea0b2",
+          "name": "Saitō Morihiro (Aikidō) Tomita Takeji",
+          "source": "JDP-70",
+          "target": "JDP-71",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": "Iwama Dōjō",
+          "quality": null,
+          "period": {
+            "start": 1962,
+            "end": 1
+          },
+          "sources": [
+            {
+              "uri": "https://www.aikidojournal.eu/docs/238/393_946_en.pdf",
+              "cite": "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)",
+              "citation": "From 1962 on, after his first visit in Iwama, he decides to follow the teaching of O'Sensei and of his assistant, Morihiro Saito Sensei (...) In 1968, he becomes Morihiro Saito's Uchideshi and is rapidly adopted by the Master's family (...) Tomita Sensei practiced for about 7 years at the Iwama Dojo. Those years were for him formativeyears dedicated to education and to discovering the way of Budo."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP8cfad5d0a2794",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-1",
           "target": "JDP-26",
@@ -4695,7 +7352,7 @@
       },
       {
         "data": {
-          "id": "JDP63da9973ff46e",
+          "id": "JDPb15f33484aceb",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-27",
           "target": "JDP-26",
@@ -4715,7 +7372,7 @@
       },
       {
         "data": {
-          "id": "JDP688e0ee35cc35",
+          "id": "JDP0c76dc63a648",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-7",
           "target": "JDP-6",
@@ -4735,7 +7392,7 @@
       },
       {
         "data": {
-          "id": "JDP831e191095166",
+          "id": "JDP8f434664d5efb",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-8",
           "target": "JDP-7",
@@ -4755,7 +7412,7 @@
       },
       {
         "data": {
-          "id": "JDP5ee98d6af3dee",
+          "id": "JDP1d064f3c6729",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Takahashi Kazuyoshi",
           "source": "JDP-9",
           "target": "JDP-14",
@@ -4775,7 +7432,7 @@
       },
       {
         "data": {
-          "id": "JDPa4bc4af29760c",
+          "id": "JDP582d3594d0ebd",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-31",
           "target": "JDP-30",
@@ -4795,7 +7452,7 @@
       },
       {
         "data": {
-          "id": "JDPe0d68a3506615",
+          "id": "JDPde285536061a3",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-27",
           "target": "JDP-30",
@@ -4815,7 +7472,7 @@
       },
       {
         "data": {
-          "id": "JDPbdfb81f322c67",
+          "id": "JDP9d6cb436d32f4",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-32",
           "target": "JDP-30",
@@ -4835,7 +7492,7 @@
       },
       {
         "data": {
-          "id": "JDPcf579924f578b",
+          "id": "JDPa111edc4aa5a8",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-33",
           "target": "JDP-30",
@@ -4855,7 +7512,7 @@
       },
       {
         "data": {
-          "id": "JDPcadf6170e6818",
+          "id": "JDPf18a399beefcf",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-34",
           "target": "JDP-30",
@@ -4875,7 +7532,7 @@
       },
       {
         "data": {
-          "id": "JDP5420c2a3507",
+          "id": "JDP9a54e3959e3f7",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-35",
           "target": "JDP-30",
@@ -4895,7 +7552,7 @@
       },
       {
         "data": {
-          "id": "JDPa0c3a27c789d8",
+          "id": "JDPa11623959198a",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-36",
           "target": "JDP-30",
@@ -4915,7 +7572,7 @@
       },
       {
         "data": {
-          "id": "JDP209a79a8f2c65",
+          "id": "JDP16b6285be9eba",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-17",
           "target": "JDP-22",
@@ -4935,7 +7592,7 @@
       },
       {
         "data": {
-          "id": "JDP1b6a453667bd8",
+          "id": "JDP8039ea6f3374e",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
           "source": "JDP-1",
           "target": "JDP-22",
@@ -4955,7 +7612,34 @@
       },
       {
         "data": {
-          "id": "JDP27620c39245ab",
+          "id": "JDP28fcef7ce6cc5",
+          "name": "Ueshiba Morihei (Aikidō) Saitō Morihiro",
+          "source": "JDP-27",
+          "target": "JDP-70",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": "Iwama Dōjō",
+          "quality": null,
+          "period": {
+            "start": 1946,
+            "end": 1969
+          },
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Morihiro_Saito",
+              "citation": "It was at this time, at the age of 18, that Saito joined Ueshiba for training (...) From 1946 until Ueshiba’s passing in 1969, Saito served as Ueshiba's assistant in a variety of ways at Iwama while his wife served Mrs. Ueshiba. During Saito’s period as a deshi he taught classes in the Iwama dojo.",
+              "cite": "Morihiro Saito - Wikipedia"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa771ce1f693ec",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-42",
           "target": "JDP-38",
@@ -4975,7 +7659,7 @@
       },
       {
         "data": {
-          "id": "JDPe76025b6d0e56",
+          "id": "JDP11fd853ce1c76",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-43",
           "target": "JDP-38",
@@ -4995,7 +7679,7 @@
       },
       {
         "data": {
-          "id": "JDP576b7f2ed26d3",
+          "id": "JDP805dc46da3a81",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-44",
           "target": "JDP-38",
@@ -5015,7 +7699,34 @@
       },
       {
         "data": {
-          "id": "JDP1b35cb567d93b",
+          "id": "JDPf3c5aec4cb4ec",
+          "name": "Naitō Takaharu (Kendo) Ogawa Kinnosuke",
+          "source": "JDP-60",
+          "target": "JDP-59",
+          "interaction": "Kendo",
+          "interaction_id": "JDP-S-8",
+          "interaction_native": {
+            "name": "剣道",
+            "lang": "ja"
+          },
+          "place": "Budō Senmon Gakko",
+          "quality": 3,
+          "period": {
+            "start": 1907,
+            "end": 1910
+          },
+          "sources": [
+            {
+              "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+              "cite": "Ogawa Kinnosuke - Kenshi 24/7",
+              "citation": "In 1905 a school was formally opened to teach kendo instructors and Naito was selected as the senior teacher. At this time the school was known as the Bujutsu Kyoin Yoseijo, but eventually (after a few re-organisations and renames) it would be known to everyone as Busen (Budo Senmon Gakko). It was to this school that Ogawa was dispatched by the Nagoya police department in 1907. Ogawa would spend 3 years studying kendo directly under Naito."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPb1eb8384e7a1b",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-1",
           "target": "JDP-44",
@@ -5035,7 +7746,7 @@
       },
       {
         "data": {
-          "id": "JDP57274036f3a4c",
+          "id": "JDPf1a895670d323",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-1",
           "target": "JDP-29",
@@ -5055,7 +7766,7 @@
       },
       {
         "data": {
-          "id": "JDPafa041c765d97",
+          "id": "JDP4ac2521502c9d",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-11",
           "target": "JDP-29",
@@ -5075,7 +7786,7 @@
       },
       {
         "data": {
-          "id": "JDP7e532d0da8a12",
+          "id": "JDPb521181c97059",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-27",
           "target": "JDP-29",
@@ -5102,7 +7813,7 @@
       },
       {
         "data": {
-          "id": "JDP9bbe96949b257",
+          "id": "JDP2d5bc5a571e0e",
           "name": "Funakoshi Gichin (Karate) Mochizuki Minoru",
           "source": "JDP-41",
           "target": "JDP-29",
@@ -5134,7 +7845,7 @@
       },
       {
         "data": {
-          "id": "JDP193ccbf9a2056",
+          "id": "JDPa662787c31d3e",
           "name": "Tomiki Kenji (Aikidō) Tsunako Miyake",
           "source": "JDP-26",
           "target": "JDP-53",
@@ -5161,7 +7872,7 @@
       },
       {
         "data": {
-          "id": "JDP6349dfc39787d",
+          "id": "JDP7f8435e97b9b",
           "name": "Tomiki Kenji (Kōdōkan Jūdō) Tsunako Miyake",
           "source": "JDP-26",
           "target": "JDP-53",
@@ -5188,7 +7899,7 @@
       },
       {
         "data": {
-          "id": "JDPa8a055a5aaf97",
+          "id": "JDP37985ddcfcf94",
           "name": "Matashichiro Shobayashi (Jigō Tenshin Ryū) Miyagawa Taichiro",
           "source": "JDP-51",
           "target": "JDP-49",
@@ -5214,7 +7925,7 @@
       },
       {
         "data": {
-          "id": "JDPfb8ff460cc37b",
+          "id": "JDPd611fb3c1b6e1",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-1",
           "target": "JDP-11",
@@ -5234,7 +7945,7 @@
       },
       {
         "data": {
-          "id": "JDP19d8ca95ee85f",
+          "id": "JDPbc1da6bb28e15",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-9",
           "target": "JDP-11",
@@ -5254,7 +7965,7 @@
       },
       {
         "data": {
-          "id": "JDP29dd399714ec9",
+          "id": "JDP46d6b059b5b1e",
           "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
           "source": "JDP-17",
           "target": "JDP-18",
@@ -5274,7 +7985,7 @@
       },
       {
         "data": {
-          "id": "JDP3878ba10faa23",
+          "id": "JDPc932f067f337e",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-38",
           "target": "JDP-37",
@@ -5294,7 +8005,7 @@
       },
       {
         "data": {
-          "id": "JDPd13bad813c4db",
+          "id": "JDPb7e148c95bf67",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-39",
           "target": "JDP-37",
@@ -5314,7 +8025,7 @@
       },
       {
         "data": {
-          "id": "JDPd439607af406f",
+          "id": "JDP0c0f13f9c439a",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-42",
           "target": "JDP-37",
@@ -5334,7 +8045,7 @@
       },
       {
         "data": {
-          "id": "JDP8329d50c56348",
+          "id": "JDP8048b2774d696",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-40",
           "target": "JDP-37",
@@ -5354,7 +8065,7 @@
       },
       {
         "data": {
-          "id": "JDP32be4acb5da82",
+          "id": "JDPf1a27afbcb3ae",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-41",
           "target": "JDP-37",
@@ -5381,7 +8092,7 @@
       },
       {
         "data": {
-          "id": "JDPbeb6801e428e3",
+          "id": "JDPacf807ba25eff",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-27",
           "target": "JDP-37",
@@ -5401,7 +8112,7 @@
       },
       {
         "data": {
-          "id": "JDP7da2c3c4116e7",
+          "id": "JDP7eaa0847e0b7",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Kobayashi Kiyoshi",
           "source": "JDP-11",
           "target": "JDP-12",
@@ -5421,7 +8132,7 @@
       },
       {
         "data": {
-          "id": "JDPea0c4b78589a3",
+          "id": "JDP67c0b96b25bf4",
           "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi Mikinosuke",
           "source": "JDP-14",
           "target": "JDP-13",
@@ -5441,7 +8152,7 @@
       },
       {
         "data": {
-          "id": "JDPad7ea475a0ce4",
+          "id": "JDP52a18e9796662",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-2",
           "target": "JDP-1",
@@ -5461,7 +8172,7 @@
       },
       {
         "data": {
-          "id": "JDPa8e415df2db28",
+          "id": "JDP3a3e661ebe968",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-4",
           "target": "JDP-1",
@@ -5481,7 +8192,7 @@
       },
       {
         "data": {
-          "id": "JDP71569ce9985f4",
+          "id": "JDP4c961a48138d",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-5",
           "target": "JDP-1",
@@ -5501,7 +8212,7 @@
       },
       {
         "data": {
-          "id": "JDPeef8bc6e94b33",
+          "id": "JDP8caacdf40515c",
           "name": "Oshima Masateru (Yagyū Shingan-ryū) Kanō Jigorō",
           "source": "JDP-46",
           "target": "JDP-1",
@@ -5520,15 +8231,14 @@
           "sources": [
             {
               "uri": "https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/",
-              "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō",
-              "cite": "The Kodokan and Bōjutsu (jō)   Staff fighting and jūdō – The Kano Chronicles© 嘉納歴代©"
+              "citation": "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP8092943e79f6a",
+          "id": "JDPc1c80203e96b",
           "name": "Matsumura Sōkon (Shuri-te) Itosu Ankō",
           "source": "JDP-54",
           "target": "JDP-55",
@@ -5555,7 +8265,7 @@
       },
       {
         "data": {
-          "id": "JDP53dbbe7b63427",
+          "id": "JDPb8e1cbeb06453",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-9",
           "target": "JDP-43",
@@ -5575,7 +8285,7 @@
       },
       {
         "data": {
-          "id": "JDP524153021021e",
+          "id": "JDPa480cfbb5275d",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-3",
           "target": "JDP-4",
@@ -5595,7 +8305,7 @@
       },
       {
         "data": {
-          "id": "JDP17b19e2c56e71",
+          "id": "JDPc741d9b641a7f",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-3",
           "target": "JDP-10",
@@ -5615,7 +8325,7 @@
       },
       {
         "data": {
-          "id": "JDP88bd4b9a9b489",
+          "id": "JDP17e3c2e845ca6",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-9",
           "target": "JDP-31",
@@ -5635,7 +8345,7 @@
       },
       {
         "data": {
-          "id": "JDP98cee00f84f43",
+          "id": "JDP46353f2d2e984",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-6",
           "target": "JDP-5",
@@ -5655,7 +8365,7 @@
       },
       {
         "data": {
-          "id": "JDPa07b83601041d",
+          "id": "JDP44ad142af7822",
           "name": "Asato Ankō (Shuri-te) Funakoshi Gichin",
           "source": "JDP-56",
           "target": "JDP-41",
@@ -5682,7 +8392,7 @@
       },
       {
         "data": {
-          "id": "JDP5d7692cb87dba",
+          "id": "JDPa8e2d354f5f21",
           "name": "Itosu Ankō (Shuri-te) Funakoshi Gichin",
           "source": "JDP-55",
           "target": "JDP-41",
@@ -5709,7 +8419,7 @@
       },
       {
         "data": {
-          "id": "JDP9d107ec03a23f",
+          "id": "JDP110a8ffa8a7d1",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Fukuda Keiko",
           "source": "JDP-1",
           "target": "JDP-57",
@@ -5736,7 +8446,7 @@
       },
       {
         "data": {
-          "id": "JDPc23d3804b7683",
+          "id": "JDP6d4301a95603e",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Fukuda Keiko",
           "source": "JDP-11",
           "target": "JDP-57",
@@ -5763,7 +8473,7 @@
       },
       {
         "data": {
-          "id": "JDPc84c732ec2349",
+          "id": "JDP656634325f08b",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-4",
           "target": "JDP-2",
@@ -5783,7 +8493,7 @@
       },
       {
         "data": {
-          "id": "JDP1b69e622315",
+          "id": "JDP4edd568df0ce3",
           "name": "Matsumura Sōkon (Shuri-te) Asato Ankō",
           "source": "JDP-54",
           "target": "JDP-56",
@@ -5810,7 +8520,88 @@
       },
       {
         "data": {
-          "id": "JDPc0c51427c1d17",
+          "id": "JDP6e49228be4abf",
+          "name": "Ogawa Kinnosuke (Kendo) Abbe Kenshirõ",
+          "source": "JDP-59",
+          "target": "JDP-58",
+          "interaction": "Kendo",
+          "interaction_id": "JDP-S-8",
+          "interaction_native": {
+            "name": "剣道",
+            "lang": "ja"
+          },
+          "place": "Budō Senmon Gakko",
+          "quality": 3,
+          "period": {
+            "start": 1934,
+            "end": 1945
+          },
+          "sources": [
+            {
+              "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+              "cite": "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo",
+              "citation": "At the Busen Abbe received instruction from Ogawa Hanshi (genius), the Butokukai Judan (10th Dan) sword master. While at the Busen Kenshiro also enrolled in Mr. Gen Tanabe's philosophy class, at the Kyoto Teikoku University. That early encounter with philosophy would be influential in the formation of his system. While the training was arduous at the Busen, Kenshiro managed to receive his Yondan (4th Dan) rank in Judo, being again the young Judoka to attain it. His sister, Toyoka, decided to take Martial Arts too, enrolling in Mrs. Mitamura's Naginata class. She would dedicate the rest of her life to the practice of the art."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa6cf670cb606b",
+          "name": "Ueshiba Morihei (Aikidō) Abbe Kenshirõ",
+          "source": "JDP-27",
+          "target": "JDP-58",
+          "interaction": "Aikidō",
+          "interaction_id": "JDP-S-4",
+          "interaction_native": {
+            "name": "合気道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 3,
+          "period": {
+            "start": 1937,
+            "end": 1947
+          },
+          "sources": [
+            {
+              "uri": "https://web.archive.org/web/20090218133219/http://rrjudo.com/history/zenjudo.htm",
+              "cite": "Kenshiro Abbe, The Kyu-Shin-Do And Zen Judo - Keo Cavalcanti, 6th Dan Zen Judo",
+              "citation": "In 1937, at the age of 23, Abbe was awarded his Rokudan (6th Dan) rank and in June of that year he enlisted in the Japanese army, serving for four years in a garrison in the Toan-sho Province in Manchuria. It was during the time in Manchuria that Abbe began formulating his theory of Budo (the Way of the Warrior), Kyu-Shin-Do. And it was also at this time that Abbe was invited by O'Sensei, Morihei Ueshiba to study Aikido under his care."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa02720d142027",
+          "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Frigyes Tӧrӧk",
+          "source": "JDP-12",
+          "target": "JDP-69",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Judo Clube de Portugal",
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf",
+              "cite": "Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)",
+              "citation": "Em 1974, o então presidente da Federação Portuguesa de Judo, Prof. Fernando Costa Matos, sabendo da intenção do Mestre Frigyes Tӧrӧk, 3º Dan, de regressar a Portugal, vindo de Angola onde lecionava, colocou em contacto este professor de ascendência húngara e discípulo direto do Mestre Kiyoshi Kobayashi, com a Direção do Clube. "
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP433ac28ba50c1",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Mario Aleixo",
           "source": "JDP-18",
           "target": "JDP-45",
@@ -5830,7 +8621,7 @@
       },
       {
         "data": {
-          "id": "JDP472245391db5b",
+          "id": "JDP2eb8fd9b4adcb",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-22",
           "target": "JDP-20",
@@ -5850,7 +8641,7 @@
       },
       {
         "data": {
-          "id": "JDP0b4bd719598bc",
+          "id": "JDP3b5c48adbc82e",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-18",
           "target": "JDP-20",
@@ -5870,7 +8661,7 @@
       },
       {
         "data": {
-          "id": "JDP60e9945900409",
+          "id": "JDPa1fcab6830294",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-18",
           "target": "JDP-19",
@@ -5890,7 +8681,7 @@
       },
       {
         "data": {
-          "id": "JDP94c703fecaeae",
+          "id": "JDP2cb1816c225fa",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
           "source": "JDP-18",
           "target": "JDP-23",
@@ -5910,7 +8701,7 @@
       },
       {
         "data": {
-          "id": "JDP2cdffdb1e2204",
+          "id": "JDP47a70d95d4c27",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-19",
           "target": "JDP-21",
@@ -5930,7 +8721,7 @@
       },
       {
         "data": {
-          "id": "JDPe71d6abe0b91e",
+          "id": "JDP1d7aceecd8ef1",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-18",
           "target": "JDP-21",
