@@ -414,7 +414,7 @@ function setCluster(criteria) {
     {
         cy.nodes().forEach(function (ele) {
             if (ele.data()[criteria]) {
-                for (criteriaEle of ele.data()[criteria]) {
+                for (const criteriaEle of ele.data()[criteria]) {
                     if (cy.getElementById(criteriaEle).length == 0 ) {
                         cy.add(
                             {
