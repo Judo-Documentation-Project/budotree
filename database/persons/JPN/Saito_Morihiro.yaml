@@ -22,6 +22,18 @@ person:
     source:
       uri: https://aikidojournal.com/2003/02/28/interview-with-morihiro-saito-part-1-1987/
       cite: "Interview with Morihiro Saito - Part 1 (Aikido Journal)"
+  description:
+    en: >
+      Morihiro Saito (斉藤 守弘 Saitō Morihiro) was a teacher of the
+      Japanese martial art of aikido, with many students around the
+      world. Saito's practice of aikido spanned 56 years, from the age
+      of 18, when he first met aikido founder Morihei Ueshiba, until
+      his death in 2002.  The kind of aikido that Saito's students do
+      is often referred to as Iwama aikido or Iwama style. In Europe,
+      Saito, along with many of his students, formed a dan-ranking
+      network of dojos called Iwama Ryu, with ranks received directly
+      from Saito rather than or in addition to those from the Aikikai
+      although Saito never left that organization.
   teachers:
     - id: JDP-27
       style_id: JDP-S-4
