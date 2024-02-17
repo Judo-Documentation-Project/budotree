@@ -1,0 +1,30 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-14
+  name: Jūjutsu
+  native_name:
+    name: 柔術
+    lang: ja
+  birth:
+    date: 1530
+    location:
+    country_code: JPN
+  media:
+    video_url: https://www.youtube.com/watch?v=TFFGo14oSxg
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/1/14/JUJITSU_%28AND_RIFLES%29_in_an_agricultural_school.jpg
+  description:
+    en: >
+      Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of
+      Japanese martial arts and a system of close combat (unarmed or
+      with a minor weapon) that can be used in a defensive or
+      offensive manner to kill or subdue one or more weaponless or
+      armed and armored opponents. It was designed in the 1530s and is
+      coined by Hisamori Tenenuchi when he officially established the
+      first school of Jiu-Jitsu in Japan. A subset of techniques from
+      certain styles of jujutsu were used to develop many modern
+      martial arts and combat sports, such as judo, aikido, sambo,
+      ARB, Brazilian jiu-jitsu, and mixed martial arts.
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Jujutsu
