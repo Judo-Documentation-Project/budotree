@@ -46,9 +46,9 @@ person:
         - uri: https://en.wikipedia.org/wiki/Morihiro_Saito
           citation: "It was at this time, at the age of 18, that Saito joined Ueshiba for training (...) From 1946 until Ueshiba’s passing in 1969, Saito served as Ueshiba's assistant in a variety of ways at Iwama while his wife served Mrs. Ueshiba. During Saito’s period as a deshi he taught classes in the Iwama dojo."
   rank:
-    - style_id: JDP-S-10
-      org:
-      teacher: JDP-28
+    - style_id: JDP-S-4
+      org: Aikikai
+      teacher:
       rank: 9 dan
       date:
       sources:
