@@ -265,11 +265,19 @@ const style = [
     {
         selector: ":parent",
         css: {
-            shape: "rectangle",
+            label: (ele) => {
+                console.log("parent title")
+                console.log(ele)
+                return countries.getName(ele.data().name, lang);
+            },
+            color: "black",
+            shape: "round-rectangle",
             //shape: 'cutrectangle',
             //"shape": 'triangle',
-            "background-color": "cyan",
+            "background-color": "blue",
             "background-opacity": 0.1,
+            "text-valign": "top",
+            "text-halign": "left"
         }
     },
 ];
