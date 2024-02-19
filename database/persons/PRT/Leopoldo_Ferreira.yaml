@@ -22,7 +22,7 @@ person:
         uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
         cite: "Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)"
   teachers:
-    - name: JDP-S-87 # Misao Honda
+    - name: JDP-87 # Misao Honda
       style_id: JDP-S-4
       place: Academia de Budo
       quality: 3
@@ -33,7 +33,7 @@ person:
         - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
           cite: "Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)"
           citation: "Não, eu só comecei a praticar em 1971, mais precisamente a 30 de Dezembro de 1971, quinta-feira, às 18.30h (Risos), na Academia de Budo, com Misao Honda (...) Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972, pelo simples motivo que quando o Honda se foi embora, como eu era o aluno mais graduado, e também porque era estudante de Educação Física, o Dr. Pires Martins insistiu para que eu ficasse a dar as aulas de Aikido"
-    - id: JDP-S-86 # Stobbaerts
+    - id: JDP-86 # Stobbaerts
       style_id: JDP-S-4
       place: Budokai Cascais
       quality: 3
