@@ -114,6 +114,10 @@
       },
       "title": "Description"
     },
+     "Notes": {
+          "type": "string",
+          "title": "Notes"
+      },
     "Photo": {
       "type": "object",
       "additionalProperties": false,

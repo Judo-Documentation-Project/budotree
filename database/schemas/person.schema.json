@@ -50,6 +50,16 @@
           }
           ]
         },
+          "notes": {
+              "anyOf": [
+                  {
+                      "type": "null"
+                  },
+                  {
+                      "$ref": "budotree.schema.json#/definitions/Notes"
+                  }
+              ]
+          },
         "photo_url": {
           "anyOf": [
             {
