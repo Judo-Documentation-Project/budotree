@@ -1,0 +1,45 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-86
+  name: Georges Stobbaerts
+  nationality:
+    - PRT
+    - BEL
+  birth:
+    date: 1940
+    location: Casablanca
+    country_code: MAR
+  death:
+    date: "2014-01-06"
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/stobbaerts/stobbaerts.jpg
+    source:
+      uri: https://www.georgesstobbaerts.com/pt/
+      cite: "Life and work of Georges Stobbaerts"
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id: JDP-S-4
+      org: Dai Nippon Butokukai
+      teacher:
+      rank: 8 dan
+      date:
+      sources:
+        - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
+          cite: "Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)"
+          citation: "Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial."
+  sources:
+    - uri: https://www.georgesstobbaerts.com/georges/
+    - uri: https://tenchi.pt/georges-stobbaerts/
+    - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
+      cite: "Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)"

@@ -1,0 +1,69 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-83
+  name: António Corrêa Pereira
+  aka:
+    - name: António Hilmar Schalck Corrêa Pereira
+    - name: António Correia Pereira
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/correapereira3/correapereira3.jpg
+    source:
+      uri: https://www.ubu.pt/home/professores/p1/https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
+      cite: "Mestre António Corrêa Pereira (1906-1982) -UBU"
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 1 dan
+      date: "1963-09-10"
+      sources:
+        - uri: https://repositorio.ipv.pt/handle/10400.19/448
+          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+          citation: "Mas o arranque institucional que mais influenciará a história do Karaté está na Academia de Judo, propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em Lisboa. Além de ser o primeiro cinto negro inscrito no Kodokan (Japão) (...) António LIMA retira dos estatutos respectivos a referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo, sendo «o primeiro Português a possuir a graduação de cinto negro conferida na Alemanha» (LIMA, 1990, p. 121)"
+        - uri: https://www.ubu.pt/home/arquivo-fotografico/correapereirakodokan/
+          citation: "Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira [1 dan / 3-III-1958 / Risei Kano]"
+  sources:
+    - uri: https://www.ubu.pt/home/professores/p1/
+    - uri: https://www.ubu.pt/home/historia/
+    - uri: https://judolandia.tripod.com/histport.htm
+  notes: |
+    As relações de aprendizagem entre os membros fundadores da UBU não
+    são claras, provavelmente apenas por não serem tópico que é
+    expressamente dito nas fontes, mas também provavelmente pela
+    dinâmica de grande voluntarismo e inovação que caracterizam uma
+    organização que foi pioneira. Uma leitura transversal das várias
+    fontes apontam para relações de aprendizagem mútua, com posterior
+    validação/homologação em alguns casos (como no do Karate).  Assim,
+    a identificação das relações aluno/professor provavelmente
+    demonstrarão uma relação em rede, sendo que a figura de Corrêa
+    Pereira se apresenta como agregadora, mesmo não sendo na maior
+    parte das vezes claro a influência directa (em termos de treino)
+    que existiu, em especial a partir do final dos anos 50.  Isto é
+    particularmente aplicável ao Judo (e jujutsu), visto que para o
+    Aikido e Karate a evolução posterior na UBU permitem leituras mais
+    concretas. Sobre o Judo, antes de Shirooka não é claro quem faz a
+    instrução, assumindo-se que Corrêa Pereira é uma das fontes (e.g.,
+    a demonstração com Sebastião Durão). O 1º dan Kodokan é dado como
+    atribuido na Alemanha (Figueiredo 2006), em entrevista Luis
+    Antunes indica que Corrêa Pereira treinou Jujutsu em Berlim com
+    Eric Rahm.

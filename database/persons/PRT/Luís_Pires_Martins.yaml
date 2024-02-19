@@ -1,0 +1,80 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-82
+  name: Luís Franco Pires Martins
+  nationality:
+    - PRT
+  birth:
+    date: "1925"
+    location:
+    country_code:
+  death:
+    date: "2003"
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/piresmartins1965/piresmartins1965.jpg
+    source:
+      uri: https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
+      cite: "Dr. Luís Franco Pires Martins (1925-2003) - UBU"
+  teachers:
+    - id: JDP-83 # Corrêa Pereira
+      style_id: JDP-S-1
+      place: Academia de Budo
+      quality: 1
+      period:
+        start: 1951
+        end:
+      sources:
+        - uri: https://repositorio.ipv.pt/handle/10400.19/448
+          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+          citation: "(...)Além de ser o primeiro cinto negro inscrito no Kodokan (Japão), Corrêa Pereira é o primeiro editor de revistas de Judo Kodokan (...) o Dr. João Luís Franco Pires Martins refere que por volta de 1946 é que se iniciou a prática de Judo na Academia de Judo, sendo aí que ele inicia a prática de Judo, em 1951"
+  rank:
+    - style_id: JDP-S-4
+      org: UBU
+      teacher:
+      rank: 1 dan
+      date: "1963-09-10"
+      sources:
+        - uri: https://repositorio.ipv.pt/handle/10400.19/448
+          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+          citation: "sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação honorífica de 4º dan a Pires Martins"
+    - style_id: JDP-S-4
+      org: FAJKO
+      teacher:
+      rank: 1 dan
+      date: "1971-12-15"
+      sources:
+        - uri: https://repositorio.ipv.pt/handle/10400.19/448
+          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+          citation: "sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação honorífica de 4º dan a Pires Martins"
+  sources:
+    - uri: https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+    - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf
+      cite: "O Dr. Pires Martins e a União Portuguesa de Budo"
+    - uri: https://repositorio.ipv.pt/handle/10400.19/448
+      cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+    - uri: https://mestremanuelceia.webnode.pt/memorias/
+    - uri: http://pks.pt/ROP1.php
+  notes: |
+    As relações de aprendizagem entre os membros fundadores da UBU não
+    são claras, provavelmente apenas por não serem tópico que é
+    expressamente dito nas fontes, mas também provavelmente pela
+    dinâmica de grande voluntarismo e inovação que caracterizam uma
+    organização que foi pioneira. Uma leitura transversal das várias
+    fontes apontam para relações de aprendizagem mútua, com posterior
+    validação/homologação em alguns casos (como no do Karate).  Assim,
+    a identificação das relações aluno/professor provavelmente
+    demonstrarão uma relação em rede, sendo que a figura de Corrêa
+    Pereira se apresenta como agregadora, mesmo não sendo na maior
+    parte das vezes claro a influência directa (em termos de treino)
+    que existiu, em especial a partir do final dos anos 50.  Isto é
+    particularmente aplicável ao Judo (e jujutsu), visto que para o
+    Aikido e Karate a evolução posterior na UBU permitem leituras mais
+    concretas. Sobre o Judo, antes de Shirooka não é claro quem faz a
+    instrução, assumindo-se que Corrêa Pereira é uma das fontes (e.g.,
+    a demonstração com Sebastião Durão).

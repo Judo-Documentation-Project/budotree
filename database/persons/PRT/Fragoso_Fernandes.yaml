@@ -1,0 +1,53 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-81
+  name: Fragoso Fernandes
+  aka:
+    - name: António Luis Rivara Fragoso Fernandes
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/luis-araujo/Luis_Araujo.png
+    source:
+      uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
+      cite: "Aikido Marcial Dôjo Clube - Mestre José Araújo"
+  teachers:
+    - id: JDP-82 # Pires Martins
+      style_id: JDP-S-5
+      place: Academia de Budo
+      quality: 3
+      period:
+        start: 1966
+        end:
+      sources:
+        - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf
+          cite: "ARAÚJO, José, O Dr. Pires Martins e a União Portuguesa de Budo. In: A Génese do Karaté em Portugal"
+          citation: "Guardo ainda a imagem das minhas primeiras aulas de Karate-do, orientadas por essa extraordinária ﬁgura que era o Doutor Fragoso Fernandes, para mim, naquela época, a incarnação das virtudes físicas, técnicas e morais do Budoka (...)  Aluno desde o primeiro dia do Dr. Pires Martins, transpôs para o contacto com os alunos que se iniciavam a sua visão, como tive desde então o ensejo de conﬁrmar"
+        - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+          cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+          citation: "O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada."
+  rank:
+    - style_id: JDP-S-4
+      org: UBU
+      teacher:
+      rank: 1 dan
+      date: "1968-08-14"
+      sources:
+        - uri: https://www.fnkp.pt/wp-content/uploads/2020/06/ProgramaForma__o2012-2015_-_Passado_e_Futuro_dos_Treinadores_de_Karate_-_Abel_Figueiredo.pdf
+          cite: "50 Anos da carreira de treinador de Karate em Portugal (Federação Nacional de Karate)"
+          citation: "António Luiz Rivara Fragoso Fernandes -  14-08-68 - 1º Dan"
+  sources:
+    - uri: https://www.ubu.pt/home/professores/prof-doutor-antonio-fragoso-fernandes/
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+    - uri: https://sites.google.com/campus.ul.pt/df-flul/professores/mem%C3%B3ria

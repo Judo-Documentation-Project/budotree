@@ -1,0 +1,92 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-80
+  name: José Araújo
+  aka:
+    - name: José Manuel da Silva Araújo
+  nationality:
+    - PRT
+  birth:
+    date: "1955"
+    location: Lisboa
+    country_code: PRT
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/luis-araujo/Luis_Araujo.png
+    source:
+      uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
+      cite: "Aikido Marcial Dôjo Clube - Mestre José Araújo"
+  teachers:
+    - id: JDP-81 # Fragoso Fernandes
+      style_id: JDP-S-5
+      place: Academia de Budo
+      quality: 3
+      period:
+        start: 1966
+        end:
+      sources:
+        - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
+          cite: "Aikido Marcial Dôjo Clube - Mestre José Araújo"
+          citation: "Inicia a prática do Aikido e Karatedo em 1966, na Academia de Budo, com a idade de 10 anos, sendo seus professores Carlos Pereira, aluno de Mestre Georges Stobbaerts, e Fragoso Fernandes, aluno de Pires Martins, introdutor do Karatedo em Portugal."
+        - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+          cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+          citation: "O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada."
+    - id: JDP-84 # Carlos Pereira
+      style_id: JDP-S-4
+      place: Academia de Budo
+      quality: 3
+      period:
+        start: 1966
+        end:
+      sources:
+        - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+          cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+          citation: "O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada."
+    - id: JDP-85 # Leopoldo Ferreira
+      style_id: JDP-S-4
+      place: Academia de Budo
+      quality: 3
+      period:
+        start: 1973
+        end:
+      sources:
+        - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+          cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+          citation: "Foi o Leopoldo Ferreira (...) Mas quem ficou na Academia, em permanência, a dar aulas de Aikido foi o Leopoldo Ferreira."
+        - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+          cite: "Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)"
+          citation: "Quando o José Araújo recomeçou a praticar já estava eu a dar aulas, portanto, foi por volta de 1973, creio."
+  rank:
+    - style_id: JDP-S-4
+      org: UBU
+      teacher:
+      rank: 7 dan
+      date:
+      sources:
+        - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+          citation: "7º Dan Aikido UBU"
+    - style_id: JDP-S-4
+      org: Dai Nippon Butokukai
+      teacher:
+      rank: Renshi
+      date:
+      sources:
+        - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+          citation: "6º Dan Aikido Dai Nippon Butokukai – Renshi"
+    - style_id: JDP-S-1
+      org: IMAF
+      teacher:
+      rank: Kyoshi
+      date:
+      sources:
+        - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+          citation: "6º Dan Aikido – International Martial Arts Federation – Kyoshi"
+  sources:
+    - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"

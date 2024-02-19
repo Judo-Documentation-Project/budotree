@@ -1,0 +1,39 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-84
+  name: Carlos Pereira
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  teachers:
+    - id: JDP-86 # Georges Stobbaerts
+      style_id: JDP-S-4
+      place:
+      quality: 2
+      period:
+        start:
+        end:
+      sources:
+        - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+          cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+          citation: "O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada."
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+      cite: "Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)"
