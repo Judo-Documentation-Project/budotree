@@ -16,11 +16,6 @@ person:
     date:
     location:
     country_code:
-  photo:
-    url: https://archive.org/download/luis-araujo/Luis_Araujo.png
-    source:
-      uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
-      cite: "Aikido Marcial Dôjo Clube - Mestre José Araújo"
   teachers:
     - id: JDP-82 # Pires Martins
       style_id: JDP-S-5

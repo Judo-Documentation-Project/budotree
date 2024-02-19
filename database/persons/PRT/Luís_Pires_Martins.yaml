@@ -32,7 +32,7 @@ person:
           cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
           citation: "(...)Além de ser o primeiro cinto negro inscrito no Kodokan (Japão), Corrêa Pereira é o primeiro editor de revistas de Judo Kodokan (...) o Dr. João Luís Franco Pires Martins refere que por volta de 1946 é que se iniciou a prática de Judo na Academia de Judo, sendo aí que ele inicia a prática de Judo, em 1951"
   rank:
-    - style_id: JDP-S-4
+    - style_id: JDP-S-5
       org: UBU
       teacher:
       rank: 1 dan
@@ -41,7 +41,7 @@ person:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
           cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
           citation: "sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação honorífica de 4º dan a Pires Martins"
-    - style_id: JDP-S-4
+    - style_id: JDP-S-5
       org: FAJKO
       teacher:
       rank: 1 dan
