@@ -42,6 +42,16 @@ person:
         - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
           cite: "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»"
           citation: "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+    - id: JDP-82
+      style_id: JDP-S-5
+      place: Academia de Budo
+      quality: 3
+      period:
+        start: 1964
+        end:
+      sources:
+        - uri: https://www.suishinkan.com.pt/biografia.html
+          citation: "Foi co-introdutor da prática do Karate em Portugal na Academia de Budo, em Lisboa, onde começou a praticar em 1964 sob a orientação do seu primeiro Mestre de Karate-Do - Mestre Pires Martins da UBU"
     - id: JDP-12
       style_id: JDP-S-1
       place: Judo Clube de Portugal
