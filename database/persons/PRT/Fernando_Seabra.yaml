@@ -1,0 +1,46 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-87
+  name: Fernando Seabra
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/fernando_seabra/fernando_seabra.png
+    source:
+        uri: https://judomagazine.pt/2024/01/23/mestre-ze-manel/
+        cite: "Mestre Zé Manel (Judo MAGAZINE, 2024)"
+  teachers:
+    - id: JDP-16 # Bastos Nunes
+      style_id: JDP-S-1
+      place: Judo Clube de Sintra - Judokai
+      quality: 2
+      period:
+        start: 1980
+        end:
+      sources:
+        - uri: https://judomagazine.pt/2024/01/23/mestre-ze-manel/
+          citation: "Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo"
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 5 dan
+      date: "2017-01-13"
+      sources:
+        - uri: https://fpj.pt/wp-content/uploads/2018/01/18ci019-Exames-Nacionais-Gradua%C3%A7%C3%A3o-Resultados.pdf
+          cite: "Exames Nacionais de Graduação - Resultados (FPJ, 13-1-2017)"
+          citation: "Exames para 5º DAN (...) Fernando Seabra (...) APROVADO"
+  sources:
+    - uri: https://www.judokai.pt/judokai/mestres-treinadores-e-graduados/
+    - uri: https://site.judototal.com/seccao/treinadores-e-cintos-negros
+    - uri: https://judobeirainterior.blogspot.com/2011/04/
