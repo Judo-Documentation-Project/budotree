@@ -1,0 +1,46 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-88
+  name: Mário Aguilar
+  nationality:
+    - PRT
+  birth:
+    date:
+    location:
+    country_code:
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/mario_aguilar/mario_aguilar.jpg
+    source:
+        uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
+        cite: "Clube Desportivo Marista de Carcavelos (Facebook)"
+  teachers:
+    - id: JDP-61 # Antonio Roquette
+      style_id: JDP-S-1
+      place: Judo Clube do Estoril
+      quality: 2
+      period:
+        start: 1981
+        end: 1982
+      sources:
+        - uri: https://github.com/Judo-Documentation-Project/budotree
+          cite: "Mário Aguilar, private communication, 2021"
+          citation: "... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano"
+  rank:
+    - style_id: JDP-S-1
+      org: FPJ
+      teacher:
+      rank: 2 dan
+      date:
+      sources:
+        - uri: https://github.com/Judo-Documentation-Project/budotree
+          cite: "Mário Aguilar, private communication, 2021"
+
+  sources:
+    - uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
+    - uri: https://cdmc.marista-carcavelos.org/judo/
