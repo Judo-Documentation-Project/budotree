@@ -1,0 +1,53 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-90
+  name: Ushijima Tatsukuma
+  native_name:
+    name: 牛島辰熊
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1904-03-10"
+    location: Kumamoto
+    country_code: JPN
+  death:
+    date: "1985-05-26"
+    location:
+    country_code: JPN
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/3/33/Tatsukuma_Ushijima.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Tatsukuma_Ushijima#/media/File:Tatsukuma_Ushijima.jpg
+      cite: "Tatsukuma Ushijima. (2023, March 12). In Wikipedia. https://en.wikipedia.org/wiki/Tatsukuma_Ushijima"
+  teachers:
+    - id:
+      style_id:
+      place:
+      quality:
+      period:
+          start:
+          end:
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 9 dan
+      date: 1984
+      sources:
+        - uri: https://www.researchgate.net/publication/263087428_Nanatsu-no-kata_Endo-no-kata_and_Joge-no-kata_-A_pedagogical_and_qualitative_biomechanical_evaluation_of_Hirano_Tokio's_kuzushi_unbalancing_concept_as_part_of_skill_acquisition_for_throwing_techniques
+          cite: "De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162."
+          citation: "While still at Kyōto, Hirano later also became an uchi deshi to Ushijima Tatsukuma 牛島辰熊 (1904‐1985) (Figure 2), famous for his competitive achievements and who too was a Busen jūdō teacher and future (1984) 9th dan holder"
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Tatsukuma_Ushijima
+    - uri: https://ja.wikipedia.org/wiki/%E7%89%9B%E5%B3%B6%E8%BE%B0%E7%86%8A
+    - uri: https://judo.forumotion.com/t1770-tatsukuma-ushijima
+    - uri: https://www.researchgate.net/publication/263087428_Nanatsu-no-kata_Endo-no-kata_and_Joge-no-kata_-A_pedagogical_and_qualitative_biomechanical_evaluation_of_Hirano_Tokio's_kuzushi_unbalancing_concept_as_part_of_skill_acquisition_for_throwing_techniques
+      cite: "De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162."
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11570129
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Tatsukuma_Ushijima
+      cite: DBpedia

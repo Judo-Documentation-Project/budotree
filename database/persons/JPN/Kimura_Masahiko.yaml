@@ -1,0 +1,79 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-89
+  name: Kimura Masahiko
+  native_name:
+    name: 木村 政彦
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1917-09-10"
+    location: Kumamoto
+    country_code: JPN
+  death:
+    date: "1993-04-18"
+    location: Tokyo
+    country_code: JPN
+  photo:
+    url: https://web.archive.org/web/20120622122136im_/http://judoinfo.com/images/kimura24.jpg
+    source:
+      uri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
+      cite: "Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com [Archived])"
+  teachers:
+    - id: JDP-90 # Ushijima Tatskukuma
+      style_id: JDP-S-1
+      place: Kodokan
+      quality:
+      period:
+          start: 1925
+          end: 1930
+    - id: JDP-41 # Funakoshi
+      style_id: JDP-S-5 # Karate
+      place:
+      quality:
+      period:
+          start:
+          end:
+      sources:
+        - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
+          cite: "'My Judo' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)"
+          citation: "Later on, I [ed. Kimura] got interested in
+          karate, and learned Shorinji-ryu (Note: today’s Shotokan
+          karate) under the guidance of Master Funakoshi for a little
+          over 2 years."
+    - name: JDP-xx # Chu So
+      style_id: JDP-S-5 # Karate
+      place:
+      quality:
+      period:
+          start:
+          end:
+      sources:
+        - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
+          cite: "'My Judo' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)"
+          citation: "After this, I learned Goju-ryu karate from Master So, who was a great master of Gojuryu, and eventually became an assistant instructor in his dojo."
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 7 dan
+      date: 1947
+      sources:
+        - uri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
+          cite: "Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com [Archived])"
+          citation: "His shichidan rank was frozen after disputes with Kodokan over becoming a professional wrestler, refusal to return the All Japan Judo Championship Flag"
+        - uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
+          citation: "He was promoted to 7th dan at age 30"
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
+    - uri: https://www.aikidosangenkai.org/blog/aikido-judo-gozo-shioda-masahiko-kimura/
+    - uri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
+    - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q270727
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Masahiko_Kimura
+      cite: DBpedia
