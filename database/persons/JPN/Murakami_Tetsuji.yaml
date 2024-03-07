@@ -1,0 +1,54 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-94
+  name: Murakami Tetsuji
+  native_name:
+    name: 村上 哲次
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1927-03-31"
+    location: Shizuoka
+    country_code: JPN
+  death:
+    date: "1987-01-24"
+    location: Paris
+    country_code: FRA
+  photo:
+    url: https://archive.org/download/mura-4/Mura4.jpg
+    source:
+      uri: https://karate-shotokai.blogspot.com/2014/08/mestre-tetsuji-murakami.html
+      cite: "Mestre Tetsuji Murakami (Karate-do Shotokai)"
+  teachers:
+    - id: JDP-93 # Egami
+      style_id: JDP-S-5
+      place:
+      quality: 2
+      period:
+          start: 1968
+          end:
+      sources:
+        - uri: https://shotokai.com/tetsuji-murakami/
+          cite: "Tetsuji Murakami Sensei (Shotokai Encyclopedia)"
+          citation: "In 1968 he travels to Japan where he meets Master Shigeru Egami. Very impressed by Master Egami and the technique he observes, he decides to make a profound and very difficult transformation in his technique and his practice. He returns to Europe as the representative of the Nihon Karate-do Shotokai."
+        - uri: https://kogenbudo.org/interview-with-master-nuno-russo-by-pedro-escudeiro/
+          cite: "https://kogenbudo.org/interview-with-master-nuno-russo-by-pedro-escudeiro/"
+          citation: " A couple of years later, though, we had our first international seminar with a Japanese karate master: Murakami Tetsuji, from Shotokai Karate, a student of Egami Shigeru sensei. After this seminar, Murakami sensei became the leader of our karate group"
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+      quality:
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Tetsuji_Murakami
+    - uri: https://shotokai.com/tetsuji-murakami/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q3519204
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Tetsuji_Murakami
+      cite: DBpedia
