@@ -178,6 +178,9 @@
           }
           ]
         },
+        "quality": {
+            "type": "integer"
+        },        
         "teacher_id": {
           "type": "string"
         },
