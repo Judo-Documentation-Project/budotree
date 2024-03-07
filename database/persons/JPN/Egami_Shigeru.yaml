@@ -1,0 +1,54 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-93
+  name: Egami Shigeru
+  native_name:
+    name: 江上 茂
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1912-12-07"
+    location: Ōmuta
+    country_code: JPN
+  death:
+    date: "1981-01-08"
+    location: Tokyo
+    country_code: JPN
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/en/f/f4/Egami.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Shigeru_Egami#/media/File:Egami.jpg
+  teachers:
+    - id: JDP-41 # Ginshin Funakoshi
+      style_id: JDP-S-5
+      place:
+      quality: 2
+      period:
+          start: 1930
+          end:
+      sources:
+        - uri: https://shotokai.com/shigeru-egami/
+          cite: "Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)"
+          citation: "Egami met Master Funakoshi when he was 18 years old, the moment he began studying at the famous Waseda University, there he helped to establish its Karate Do Club. (...)  He followed his Master together with Yoshitaka Funakoshi and Takeshi Shimoda all around Japan staging exhibitions, trying to expand the knowledge of Karate-do as a Japanese martial art."
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+      quality:
+  sources:
+    - uri: https://www.shotokai.jp/en_about/en_teacher/en_egami/
+    - uri: https://en.wikipedia.org/wiki/Shigeru_Egami
+    - uri: https://ja.wikipedia.org/wiki/%E6%B1%9F%E4%B8%8A%E8%8C%82
+    - uri: https://budojapan.com/karate/20230608se/
+    - uri: https://shotokai.com/shigeru-egami/
+      cite: "Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)"
+  links:
+    - uri: https://www.wikidata.org/wiki/Q1246030
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Shigeru_Egami
+      cite: DBpedia
