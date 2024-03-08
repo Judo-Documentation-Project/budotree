@@ -63,6 +63,17 @@ person:
         - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
           cite: "Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»"
           citation: "Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal."
+    - id: JDP-94 # Murakami
+      style_id: JDP-S-5
+      place:
+      quality: 2
+      period:
+        start: 1969
+        end:
+      sources:
+        - uri: https://www.suishinkan.com.pt/biografia.html
+          citation: "O seu segundo Mestre foi Tetsuji Murakami Sensei, de quem foi aluno desde 1969, data que marca o nascimento efectivo da prática do estilo Shotokai em Portugal com a realização do primeiro estágio de Mestre Murakami."
+
   rank:
     - style_id: JDP-S-1
       org: UBU
