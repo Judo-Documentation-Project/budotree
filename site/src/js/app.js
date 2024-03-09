@@ -295,10 +295,10 @@ const layoutOptions = {
 };
 
 var cy = cytoscape({
-  container: $("#cy"), // container to render in
-  elements: data.elements,
-  style,
-  wheelSensitivity: 0.1,
+    container: $("#cy"), // container to render in
+    elements: data.elements,
+    style: style,
+    wheelSensitivity: 0.1,
 });
 
 let layout = cy.layout(layoutOptions);
@@ -665,7 +665,7 @@ function updateInfo(target) {
     document.getElementById("footerId").innerHTML = target.data().id + ": ";
     cardFooterShare.setAttribute(
       "href",
-      "https://" + window.location.host + "?id=" + target.data().id,
+      "https://" + window.location.host + "/tree.html?id=" + target.data().id,
     );
     cardFooterShare.innerHTML =
       '<i class="fas fa-eye mr-3 "></i> ' //+ target.data().id;
