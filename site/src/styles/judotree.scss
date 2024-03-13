@@ -18,6 +18,7 @@ $panel-heading-size: 16px;
 //@import '../../node_modules/bulma/css/bulma.css';
 @import '../../node_modules/bulma/bulma.sass';
 @import '../../node_modules/bulma-switch/src/sass/index.sass';
+@import '../../node_modules/bulma-slider/dist/css/bulma-slider.min.css';
 
 
 //body {
@@ -526,7 +527,11 @@ ainput:not([type="checkbox"], [type="radio"], [type="range"], [type="file"]), se
   _top: 1rem;
   _margin: auto;
   _background-color: white;
+  padding: 20px;
+}
 
+#toolbox-inner {
+    padding: 6px;
 }
 
 .panel-heading.toolbox-heading {
