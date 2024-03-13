@@ -25,7 +25,7 @@ console.log("Cytoscape version: ", cytoscape.version)
 document.addEventListener('DOMContentLoaded', function() {
     let toolboxToggle = document.getElementById('toolbox-icon');
     let toolboxContent = document.getElementById('toolbox-content');
-    toolboxContent.classList.toggle('is-hidden')
+    //toolboxContent.classList.toggle('is-hidden')
     toolboxToggle.addEventListener('click', e => {
         //console.log("Hide: ", e.currentTarget.parentElement.parentElement.childNodes)
         //e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
