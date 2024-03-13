@@ -20,11 +20,12 @@ console.log("Cytoscape version: ", cytoscape.version)
 
 
 
-/* "Toolbox" activation
+//"Toolbox" activation
 
 document.addEventListener('DOMContentLoaded', function() {
     let toolboxToggle = document.getElementById('toolbox-icon');
     let toolboxContent = document.getElementById('toolbox-content');
+    toolboxContent.classList.toggle('is-hidden')
     toolboxToggle.addEventListener('click', e => {
         //console.log("Hide: ", e.currentTarget.parentElement.parentElement.childNodes)
         //e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
@@ -32,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //e.currentTarget.parentElement.childNodes[3].classList.toggle('is-hidden');
         });
 });
-*/
+
 // TImeline
 // import tl from './tl.json';
 import st from "./styles.json";
@@ -256,11 +257,11 @@ const style = [
     },
   },
   {
-    selector: ".stylefocus",
-    css: {
-      "background-color": "yellow",
-      color: "white",
-    },
+      selector: ".stylefocus",
+      css: {
+          "background-color": "yellow",
+          color: "white",
+      },
   },
     {
         selector: ":parent",
@@ -280,6 +281,15 @@ const style = [
             "text-halign": "left"
         }
     },
+    {
+        selector: ".matched",
+        css: {
+            
+            "background-color": "gold",
+            "color": "#446",
+        },
+    }
+    
 ];
 
 const layoutOptions = {
@@ -523,7 +533,65 @@ distance.addEventListener("change", function () {
 });
 bulmaSlider.attach();
 
+// FIXME: find ou and comment why we need this, or remove it
 cy.elements().unbind("mouseover");
+
+const searchNode = document.getElementById("searchNode");
+
+
+const searchReset = document.getElementById("reset-search");
+
+searchReset.addEventListener("click", function (e) {
+    searchNode.value="";
+    cy.nodes().removeClass("matched");
+    
+});
+searchNode.addEventListener("input", updateValue);
+
+function updateValue(e) {
+    search(e.target.value)
+}
+
+
+function search(pattern) {
+    console.log(pattern)
+    cy.nodes().removeClass("matched");
+    let matchingNodes = cy.elements('node[ name *= "' + pattern + '"]')
+    console.log(matchingNodes)
+    if (cy.nodes().size() != matchingNodes.size()) {
+        matchingNodes.addClass("matched");
+    }
+}
+function sd(){
+  let person;
+  if (state) {
+    // console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
+    if (cy.elements(":selected").isEdge()) {
+      person = cy.elements(":selected").target();
+    } else {
+      person = cy.elements("node:selected");
+    }
+    // focusedPeople = person
+    personNodes = cy.nodes(":visible");
+    const ancestors = person.predecessors("node").filter(":visible");
+    const successors = person.successors("node").filter(":visible");
+    // ancestorsOfPeople = ancestors
+    // descendantsOfPeople = successors
+    const family = ancestors.union(successors).union(person);
+
+    cy.nodes().difference(family).addClass("hidden");
+    person.addClass("focused");
+      ancestors.addClass("ancestors");
+    successors.addClass("descendants");
+    focus.classList.toggle("focus-on");
+  } else {
+    personNodes.removeClass(["hidden", "ancestors", "descendants", "focused"]);
+    focus.classList.toggle("focus-on");
+    // document.getElementById('pickStyle').value="all";
+    // pickStyle();
+  }
+  layout.run();
+}
 
 const gitRoot =
   "https://github.com/Judo-Documentation-Project/budotree/tree/main/";

@@ -105,7 +105,7 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start ml-6"></div>
         <div class="navbar-end"></div>
-
+<!---
         <div class="navbar-item mr-6">
           <div class="field has-addons">
             <div class="control has-icons-left">
@@ -182,14 +182,17 @@
             type="range"
           />
         </div>
-        <!--
+
+
+
                      <div class="navbar-item _mr-6">
                      <div class="field">
                      <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
                      <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
                      </div>
                      </div>
-                -->
+
+
         <div class="navbar-item mr-0 px-2">
           <div class="field">
             <input
@@ -207,6 +210,8 @@
             ></label>
           </div>
         </div>
+
+
         <div class="navbar-item mr-0 ml-0 px-0">
             <label class="checkbox">
                 <i
@@ -319,7 +324,7 @@
             ></label>
           </div>
         </div>
-
+-->
         <div class="navbar-item">
           <div class="control has-icons-left">
             <div class="select is-small _is-rounded is-dark">
@@ -592,78 +597,246 @@
                 </div>
         </footer>
       </div>
-      <!--
 
-                 <div id="toolbox" class="draggable toolbox">
-                 <div id="_toolbox" class="panel _draggable">
-                 <p class="panel-heading drag-handle toolbox-heading">
-                 <i title="Map settings" id="toolbox-icon"" aria-hidden="true" class="toolbox-icon fas fa-gear fa-2xl"></i>
-                 </p>
-                 <div id="toolbox-content" class="is-hidden">
-                 <div class="panel-block _toolbox">
-                 <div class="control has-icons-left">
-                 <div class="select is-small is-rounded _is-outlined is-dark">
-                 <select id="ddlViewBy" class="form-radio" role="list">
-                 <option value="fcose">fCoSE</option>
-                 <option value="cise">Cise</option>
-                 <option value="cola">CoLa</option>
-                 <option value="stress">Stress</option>
-                 <option value="mrtree">MrTree</option>
-                 <option value="layered">Layered</option>
-                 <option value="breadthfirst">Breadth</option>
-                 </select>
-                 </div>
-                 <div class="icon is-small is-left has-text-dark">
-                 <i class="fas fa-diagram-project" title="Select the layout algorithm." aria-hidden="true"></i>
-                 </div>
-                 </div>
-                 </div>
 
-                 <div class="panel-block">
-                 <div class="field">
-                 <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-                 <label for="bubbles" class="is-size-7 has-text-weight-light" ><i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality" aria-hidden="true" class="fas fa-flag"></i></label>
-                 </div>
-                 </div>
+      <div id="toolbox" class="draggable toolbox">
+        <div id="toolbox-inner" class="panel _draggable">
+          <p class="panel-heading drag-handle toolbox-heading">
+            <i title="Map settings" id="toolbox-icon" aria-hidden="true" class="toolbox-icon fas fa-gear fa-2xl"></i>
+            <div id="toolbox-content" class="is-hidden">
 
-                 <div class="panel-block">
+              <div class="field is-grouped">
+                <p class="control is-expanded has-icons-left">
+                  <input class="input" type="text" placeholder="Search" id="searchNode">
 
-                 <div class="field">
-                 <input id="quality" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-                 <label for="quality" class="is-size-7 has-text-weight-light"><i class="fas fa-certificate" title="Toggle link quality: when active, links will have different line styles depending on source quality." aria-hidden="true"></i></label>
-                 </div>
-                 </div>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-magnifying-glass"></i>
+                </span>
+                </p>
+                <p class="control">
+                  <a class="button is-dark" id="reset-search">
+                    Reset
+                  </a>
+                </p>
+              </div>
 
-                 <div class="panel-block">
+              <p id="values"></p>
 
-                 <div class="field">
-                 <input id="styleColor" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
-                 <label for="styleColor" class="is-size-7 has-text-weight-light"><i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fas fa-palette"></i></label>
-                 </div>
-                 </div>
 
-                 <div class="panel-block" >
+              <p class="help">Node distance</p>
+              <div class="panel-block">
+                <label for="distance" class="is-size-5 has-text-weight-light mr-2">
+                  <i
+                    title="Distance between nodes"
+                    aria-hidden="true"
+                    class="fas fa-arrows-left-right"
+                    ></i>
+                </label>
+                <output for="distance" class="is-size-7 has-text-weight-light mr-1">1</output>
+                <input
+                  id="distance"
+                  class="slider is-dark is-fullwidth"
+                  step="0.1"
+                  min="0"
+                  max="2"
+                  value="1"
+                  type="range"
+                  >
+              </div>
+              <p class="help">Layout</p>
+              <div class="panel-block">
+                <div class="navbar-item mr-2 px-2">
+                  <div class="control has-icons-left">
+                    <div class="select is-small is-rounded is-outlined is-dark">
+                      <select id="ddlViewBy" class="form-radio" role="list">
+                        <option value="fcose">fCoSE</option>
+                        <option value="cise">Cise</option>
+                        <option value="cola">CoLa</option>
+                        <option value="stress">Stress</option>
+                        <option value="mrtree">MrTree</option>
+                        <option value="layered">Layered</option>
+                        <option value="breadthfirst">Breadth</option>
+                      </select>
+                    </div>
 
-                 <div class="field">
-                 <input id="lineType" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl" checked="checked">
-                 <label for="lineType" class="is-size-7 has-text-weight-light"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fas fa-bezier-curve"></i></label>
-                 </div>
-                 </div>
+                    <div class="icon is-small is-left has-text-dark">
+                      <i class="fas fa-diagram-project" title="Select the layout algorithm." aria-hidden="true"></i>
+                    </div>
 
-                 <div class="panel-block">
-                 <output for="distance" class="_is-size-7 has-text-weight-light mr-3">1</output>
-                 <input id="distance" class="slider is-dark _is-fullwidth is-small _is-circle" step="0.1" min="0" max="2" value="1" type="range" >
-                 </div>
-                 </div>
-                 </div>
+                  </div>
+                </div>
+                <div class="navbar-item mr-2 px-2">
+                  <div class="field">
+                    <input id="lineType" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl" checked="checked">
+                    <label for="lineType" class="is-size-7 has-text-weight-light"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fas fa-bezier-curve"></i></label>
+                  </div>
+                </div>
+              </div>
+              <p class="help">Filtering</p>
 
-                 </div>
-                 </div>
-            -->
+              <div class="panel-block">
+                <div class="field has-addons">
+                  <div class="control has-icons-left">
+                      <div class="select is-small _is-rounded _is-outlined is-dark">
+                        <select id="pickStyle" class="form-radio" role="list"></select>
+                      </div>
+                      <div class="icon is-small is-left has-text-dark">
+                        <i
+                          class="fas fa-ballot-check"
+                          title="Filter by style"
+                          aria-hidden="true"
+                          ></i>
+                      </div>
+                      <p class="help">Filter by style</p>
+                    </div>
+                    <div class="control">
+                      <button
+                        type="submit"
+                        class="button is-dark _has-text-dark is-small _is-rounded"
+                        id="i18n:clear"
+                        >
+                        <i
+                          title="Lock style"
+                          aria-hidden="true"
+                          id="lock-style"
+                          class="fas fa-regular fa-lock-open"
+                          ></i>
+                      </button>
+
+                    </div>
+                  </div>
+                </div>
+
+              <p class="help">Grouping</p>
+              <div class="panel-block">
+
+                <div class="navbar-item mr-2 px-2">
+                  <div class="field">
+                    <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
+                    <label for="bubbles" class="is-size-7 has-text-weight-light" >
+                      <i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
+                         aria-hidden="true"
+                         class="fas fa-flag">
+                      </i>
+                    </label>
+                  </div>
+                </div>
+                <div class="navbar-item mr-2 px-2">
+                  <div class="field">
+                    <input id="clusterNationality" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
+                    <label for="clusterNationality" class="is-size-7 has-text-weight-light" >
+                      <i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
+                         aria-hidden="true"
+                         class="fas fa-circle-nodes">
+                      </i>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="navbar-item mr-2 px-2">
+                  <div class="field">
+                    <input id="compoundNationality" type="checkbox" name="switchRoundedOutlinedDefault" class="switch is-rounded is-outlined is-dark is-rtl">
+                    <label for="compoundNationality" class="is-size-7 has-text-weight-light" >
+                      <i title="For most layouts, create a compound group based on the first nationality."
+                         aria-hidden="true"
+                         class="fas fa-users-rectangle"></i>
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <p class="help">Information</p>
+              <div class="panel-block">
+                <div class="navbar-item _mr-0 px-2">
+                  <div class="field">
+                    <input
+                      id="showStyles"
+                      type="checkbox"
+                      name="switchRoundedOutlinedDefault"
+                      class="switch is-rounded is-outlined is-dark is-rtl"
+                      checked="checked"
+                      />
+                    <label for="showStyles" class="is-size-6 has-text-weight-light"
+                           ><i
+                              title="Show style names in edges"
+                              aria-hidden="true"
+                              class="fas fa-tag"
+                              ></i
+                                 ></label>
+                  </div>
+                </div>
+
+                <div class="navbar-item _mr-0 px-2">
+                  <div class="field">
+                    <input
+                      id="showPeriod"
+                      type="checkbox"
+                      name="switchRoundedOutlinedDefault"
+                      class="switch is-rounded is-outlined is-dark is-rtl"
+                      />
+                    <label for="showPeriod" class="is-size-6 has-text-weight-light"
+                           ><i
+                              title="Show time period"
+                              aria-hidden="true"
+                              class="fas fa-calendar-days"
+                              ></i
+                                 ></label>
+                  </div>
+                </div>
+
+                <div class="navbar-item _mr-6 px-2">
+                  <div class="field">
+                    <input
+                      id="quality"
+                      type="checkbox"
+                      name="switchRoundedOutlinedDefault"
+                      class="switch is-rounded is-outlined is-dark is-rtl"
+                      />
+                    <label for="quality" class="is-size-6 has-text-weight-light"
+                           ><i
+                              class="fas fa-ranking-star"
+                              title="Toggle link quality: when active, links will have different line styles depending on source quality."
+                              aria-hidden="true"
+                              ></i
+                                 ></label>
+                  </div>
+                </div>
+
+                <div class="navbar-item _mr-6 px-2">
+                  <div class="field">
+                    <input
+                      id="styleColor"
+                      type="checkbox"
+                      name="switchRoundedOutlinedDefault"
+                      class="switch is-rounded is-outlined is-dark is-rtl"
+                      />
+                    <label for="styleColor" class="is-size-6 has-text-weight-light"
+                           ><i
+                              title="Toggle style colours: when active, links will have different colours according to the style."
+                              aria-hidden="true"
+                              class="fas fa-palette"
+                              ></i
+                                 ></label>
+                  </div>
+                </div>
+
+              </div>
+
+              <!--
+                  <div class="panel-block">
+                    <output for="distance" class="_is-size-7 has-text-weight-light mr-3">1</output>
+                    <input id="distance" class="slider is-dark _is-fullwidth is-small _is-circle" step="0.1" min="0" max="2" value="1" type="range" >
+                  </div>
+                  -->
+            </div>
+        </div>
+      </div>
+
+
       <div id="cy" class="cy content-tab"></div>
-    </div>
-    <footer class="footer _has-text-white is-size-7 is-hidden-mobile">
-      <div class="content has-text-centered">
+
+      <footer class="footer _has-text-white is-size-7 is-hidden-mobile">
+        <div class="content has-text-centered">
         <p>
           <a href="https://github.com/Judo-Documentation-Project/budotree"
             ><strong>Budō Tree</strong
@@ -768,5 +941,5 @@
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
-  </body>
+</body>
 </html>
