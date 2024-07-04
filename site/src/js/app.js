@@ -25,7 +25,7 @@ console.log("Cytoscape version: ", cytoscape.version)
 document.addEventListener('DOMContentLoaded', function() {
     let toolboxToggle = document.getElementById('toolbox-icon');
     let toolboxContent = document.getElementById('toolbox-content');
-    //toolboxContent.classList.toggle('is-hidden')
+    toolboxContent.classList.toggle('is-hidden')
     toolboxToggle.addEventListener('click', e => {
         //console.log("Hide: ", e.currentTarget.parentElement.parentElement.childNodes)
         //e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
@@ -288,7 +288,31 @@ const style = [
             "background-color": "gold",
             "color": "#446",
         },
-    }
+    },
+    {
+        selector: ".path",
+        css: {
+            
+            "background-color": "#FBE251",
+            "color": "#446",
+        },
+    },
+    {
+        selector: ".start-path",
+        css: {
+            
+            "background-color": "#FBE251",
+            "color": "#446"
+        },
+    },
+    {
+        selector: ".end-path",
+        css: {
+            
+            "background-color": "#FB251",
+            "color": "#446",
+        },
+    }        
     
 ];
 
@@ -308,6 +332,9 @@ var cy = cytoscape({
     container: $("#cy"), // container to render in
     elements: data.elements,
     style: style,
+    userPanningEnabled: true,
+    //boxSelectionEnabled: true,
+    selectionType: "addictive",
     wheelSensitivity: 0.1,
 });
 
@@ -537,8 +564,6 @@ bulmaSlider.attach();
 cy.elements().unbind("mouseover");
 
 const searchNode = document.getElementById("searchNode");
-
-
 const searchReset = document.getElementById("reset-search");
 
 searchReset.addEventListener("click", function (e) {
@@ -552,7 +577,6 @@ function updateValue(e) {
     search(e.target.value)
 }
 
-
 function search(pattern) {
     console.log(pattern)
     cy.nodes().removeClass("matched");
@@ -562,36 +586,139 @@ function search(pattern) {
         matchingNodes.addClass("matched");
     }
 }
-function sd(){
-  let person;
-  if (state) {
-    // console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
-    if (cy.elements(":selected").isEdge()) {
-      person = cy.elements(":selected").target();
-    } else {
-      person = cy.elements("node:selected");
-    }
-    // focusedPeople = person
-    personNodes = cy.nodes(":visible");
-    const ancestors = person.predecessors("node").filter(":visible");
-    const successors = person.successors("node").filter(":visible");
-    // ancestorsOfPeople = ancestors
-    // descendantsOfPeople = successors
-    const family = ancestors.union(successors).union(person);
 
-    cy.nodes().difference(family).addClass("hidden");
-    person.addClass("focused");
-      ancestors.addClass("ancestors");
-    successors.addClass("descendants");
-    focus.classList.toggle("focus-on");
-  } else {
-    personNodes.removeClass(["hidden", "ancestors", "descendants", "focused"]);
-    focus.classList.toggle("focus-on");
-    // document.getElementById('pickStyle').value="all";
-    // pickStyle();
-  }
-  layout.run();
+
+// Path
+
+const showPath = document.getElementById("show-path");
+showPath.addEventListener("click", function (e) {
+    if (e.target.checked) {
+        getPath(true)
+    } else {
+        getPath(false)
+    }
+});
+
+const isolatePath = document.getElementById("isolate-path");
+isolatePath.addEventListener("click", function (e) {
+    if (e.target.checked) {
+        focusPath(true);
+    } else {
+        focusPath(false);
+    }
+    
+});
+
+
+const pathOrigin = document.getElementById("pathOrigin");
+pathOrigin.onclick = setPathOrigin
+
+const pathEnd = document.getElementById("pathEnd");
+pathEnd.onclick = setPathEnd
+
+function setPathOrigin() {
+    const originNode = pathOrigin.value;
+    cy.nodes().removeClass("start-path");
+    cy.nodes('[id = "' + originNode + '"]').addClass("start-path");
 }
+
+function setPathEnd() {
+    const originNode = pathEnd.value;
+    cy.nodes().removeClass("end-path");
+    cy.nodes('[id = "' + originNode + '"]').addClass("end-path");
+}
+
+function getPath (state) {
+    cy.nodes().removeClass("path");
+    const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
+    const goal = cy.nodes('[id = "' + pathEnd.value + '"]')
+    let aStar = cy.elements().aStar( {root: root, goal: goal} );
+    if (state) {
+        aStar.path.addClass("path");
+    } else {
+
+        aStar.path.removeClass("path");
+    }
+    //console.log("A*");
+    // console.log(aStar);
+    //aStar.path.select();
+    
+}
+function focusPath (state) {
+    const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
+    const goal = cy.nodes('[id = "' + pathEnd.value + '"]')    
+    let aStar = cy.elements().aStar( {root: root, goal: goal} );
+    if (state) {
+        aStar.path.addClass("path");
+        cy.nodes().difference(aStar.path).addClass("hidden");
+    } else {
+        cy.nodes().removeClass(["path", "hidden"]);
+    }
+    layout.run();
+}
+
+updateNodeName()
+
+function updateNodeName() {
+    pathOrigin.innerHTML = "";
+    pathEnd.innerHTML = "";
+    const nameList = {};
+    for (const node of data.elements.nodes) {
+        if (!nameList[node.data.id]) {
+            nameList[node.data.id] = {
+                name: node.data.name,
+                //native_name: node.data.native_name.name,
+                //lang: node.data.native_name.lang
+            };
+        }
+    }
+   
+    const allEl = document.createElement("option");
+    //allEl.textContent = polyglot.t("All Styles");
+    //allEl.value = "all";
+    //styleFilter.appendChild(allEl);
+    
+    const sorted = [];
+    
+    for (const [key] of Object.entries(nameList)) {
+        sorted.push(key);
+    }
+    
+    sorted.sort((a, b) => nameList[a].name.localeCompare(nameList[b].name));
+    
+    console.log(sorted)
+    // for (const [key, value] of Object.entries(styleList)) {
+    for (const key of sorted) {
+        const value = nameList[key];
+        const el = document.createElement("option");
+        if (value.native_name && value.native_name.lang == lang) {
+            el.textContent = value.native_name.name;
+        } else {
+            el.textContent = value.name;
+        }
+        
+        el.value = key;
+        pathOrigin.appendChild(el);
+
+        
+    }
+
+    for (const key of sorted) {
+        const value = nameList[key];
+        const el = document.createElement("option");
+        if (value.native_name && value.native_name.lang == lang) {
+            el.textContent = value.native_name.name;
+        } else {
+            el.textContent = value.name;
+        }
+        
+        el.value = key;
+        
+        pathEnd.appendChild(el);
+        
+    }    
+}
+
 
 const gitRoot =
   "https://github.com/Judo-Documentation-Project/budotree/tree/main/";
@@ -651,11 +778,22 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+let pathOriginNode = cy.getElementById("JDP-1").select();
+let pathEndNode = cy.getElementById("JDP-1").select();
+
+function updatePath(target) {
+    pathOriginNode = pathEndNode
+    pathEndNode = target
+    
+    pathOrigin.value = pathOriginNode.data().id;
+    pathEnd.value = pathEndNode.data().id;
+}
+
 function updateInfo(target) {
   const template = document.getElementById("template").innerHTML;
-  target.select();
-  // console.log("Updating info: ", event);
-
+    target.select();
+    updatePath(target);
+    // console.log("Updating info: ", event);
   if (target.isNode()) {
     for (let i = 0; i < target.data().teachers.length; i++) {
       // console.log(event.target.data().teachers[i]);
@@ -819,6 +957,7 @@ function updateInfo(target) {
 
 cy.nodes().bind("tap", (event) => updateInfo(event.target));
 cy.edges().bind("tap", (event) => updateInfo(event.target));
+
 
 cy.nodes().bind("dbltap", (event) => {
   // cy.reset();
@@ -1324,6 +1463,7 @@ function updateStyleFilter() {
     styleFilter.appendChild(el);
   }
 }
+
 function pickStyle() {
   const value = styleFilter.value;
   // let text = styleFilter.options[styleFilter.selectedIndex].text;
