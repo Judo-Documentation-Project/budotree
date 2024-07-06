@@ -1,0 +1,88 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/style.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Style",
+  "description": "Information on a martial art style",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "style": {
+      "$ref": "#/definitions/Style"
+    }
+  },
+  "required": [ "style" ],
+  "definitions": {
+    "Style": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+          "$ref": "budotree.schema.json#/definitions/NativeName"
+        },
+        "aka": {
+          "$ref": "budotree.schema.json#/definitions/Aka"
+        },
+        "birth": {
+          "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        },
+        "death": {
+          "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        },
+        "description": {
+          "$ref": "budotree.schema.json#/definitions/Description"
+        },
+        "media": {
+          "$ref": "#/definitions/Media"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Source"
+          }
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        }
+      },
+      "required": [
+        "birth",
+        "id",
+        "name",
+        "sources"
+      ],
+      "title": "Style"
+    },
+    "Media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "video_url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ]
+        },
+        "photo_url": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "$ref": "budotree.schema.json#/definitions/PhotoURL"
+          }
+          ]
+        }
+      },
+      "required": [
+      ],
+      "title": "Media"
+    }
+  }
+}
