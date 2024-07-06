@@ -59,8 +59,10 @@ async function downloadAndSaveImage(url, dirPrefix, nodeId) {
     let photo_local_url = path.join(dirPrefix, md5(url)+path.extname(url).toLowerCase())
     let photo_local_path = path.join(dir, md5(url)+path.extname(url).toLowerCase())
     let options = {
-        headers: { 'User-Agent': 'NodeJS' }
+        headers: { 'User-Agent': 'NodeJS'}
     }
+    options.rejectUnauthorized = false;
+    
     return new Promise(async (onSuccess) => {
         https.get(url, options, async (res) => {
             const fileWriteStream = fs.createWriteStream(photo_local_path, {
