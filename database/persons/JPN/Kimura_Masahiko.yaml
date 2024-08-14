@@ -39,10 +39,7 @@ person:
       sources:
         - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
           cite: "'My Judo' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)"
-          citation: "Later on, I [ed. Kimura] got interested in
-          karate, and learned Shorinji-ryu (Note: today’s Shotokan
-          karate) under the guidance of Master Funakoshi for a little
-          over 2 years."
+          citation: "Later on, I [ed. Kimura] got interested in karate, and learned Shorinji-ryu (Note: today’s Shotokan karate) under the guidance of Master Funakoshi for a little over 2 years."
     - name: JDP-xx # Chu So
       style_id: JDP-S-5 # Karate
       place:
