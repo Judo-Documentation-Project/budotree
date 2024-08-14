@@ -21,7 +21,7 @@ console.log("Cytoscape version: ", cytoscape.version)
 
 
 //"Toolbox" activation
-
+/*
 document.addEventListener('DOMContentLoaded', function() {
     let toolboxToggle = document.getElementById('toolbox-icon');
     let toolboxContent = document.getElementById('toolbox-content');
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //e.currentTarget.parentElement.childNodes[3].classList.toggle('is-hidden');
         });
 });
-
+*/
 // TImeline
 // import tl from './tl.json';
 import st from "./styles.json";
@@ -291,7 +291,7 @@ const style = [
     },
     {
         selector: ".path",
-        css: {
+        css:{ 
             
             "background-color": "#FBE251",
             "color": "#446",
@@ -309,7 +309,7 @@ const style = [
         selector: ".end-path",
         css: {
             
-            "background-color": "#FB251",
+            "background-color": "#FFA400",
             "color": "#446",
         },
     }        
@@ -338,6 +338,9 @@ var cy = cytoscape({
     wheelSensitivity: 0.1,
 });
 
+// Keep track of who is being displayed in the info box
+let focusedPerson;
+
 let layout = cy.layout(layoutOptions);
 const bb = cy.bubbleSets({
   interactive: false,
@@ -363,6 +366,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     cy.getElementById("JDP-1").select();
   }
+
 
   if (
     urlParams.get("layout") &&
@@ -610,19 +614,74 @@ isolatePath.addEventListener("click", function (e) {
 });
 
 
-const pathOrigin = document.getElementById("pathOrigin");
-pathOrigin.onclick = setPathOrigin
 
-const pathEnd = document.getElementById("pathEnd");
-pathEnd.onclick = setPathEnd
 
-function setPathOrigin() {
-    const originNode = pathOrigin.value;
-    cy.nodes().removeClass("start-path");
-    cy.nodes('[id = "' + originNode + '"]').addClass("start-path");
+let pathOriginNode = cy.getElementById("JDP-1").select();
+let pathEndNode = cy.getElementById("JDP-1").select();
+
+
+//const pathOrigin = document.getElementById("pathOrigin");
+//pathOrigin.onclick = setPathOrigin
+
+//const pathEnd = document.getElementById("pathEnd");
+//pathEnd.onclick = setPathEnd
+
+const pathOriginT = document.getElementById("pathOriginT");
+
+const pathEndT = document.getElementById("pathEndT");
+
+document.addEventListener("DOMContentLoaded", function () {
+    pathOriginT.addEventListener("click", (e) => {
+        console.log(e);
+        if (e.target.checked) {
+            setPathOrigin(true);
+        } else {
+            setPathOrigin(false)
+        }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    pathEndT.addEventListener("click", (e) => {
+        // console.log("Predecessors" + ele.data().name);
+        if (e.target.checked) {
+            setPathEnd(true)
+        } else {
+            setPathEnd(false)
+        }
+    });
+});
+
+
+
+function setPathOrigin(state) {
+    let person;
+    person = cy.elements("node:selected");
+    if (state) {
+        pathOriginNode = person        
+        cy.nodes().removeClass("start-path");
+        person.addClass("start-path")
+        //cy.nodes('[id = "' + origi + '"]').addClass("start-path");
+    } else {
+        cy.nodes().removeClass("start-path");
+        pathOriginNode = false
+    }
 }
 
-function setPathEnd() {
+function setPathEnd(state) {
+    let person;
+    person = cy.elements("node:selected");
+    if (state) {
+        pathEndNode = person;
+        cy.nodes().removeClass("end-path");
+        person.addClass("end-path")
+        //cy.nodes('[id = "' + origi + '"]').addClass("start-path");
+    } else {
+        cy.nodes().removeClass("end-path");
+        pathEndNode = false
+    }
+}
+function setPathEnd_() {
     const originNode = pathEnd.value;
     cy.nodes().removeClass("end-path");
     cy.nodes('[id = "' + originNode + '"]').addClass("end-path");
@@ -630,9 +689,10 @@ function setPathEnd() {
 
 function getPath (state) {
     cy.nodes().removeClass("path");
-    const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
-    const goal = cy.nodes('[id = "' + pathEnd.value + '"]')
-    let aStar = cy.elements().aStar( {root: root, goal: goal} );
+    //const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
+    //const goal = cy.nodes('[id = "' + pathEnd.value + '"]')
+    
+    let aStar = cy.elements().aStar( {root: pathOriginNode, goal: pathEndNode} );
     if (state) {
         aStar.path.addClass("path");
     } else {
@@ -645,9 +705,9 @@ function getPath (state) {
     
 }
 function focusPath (state) {
-    const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
-    const goal = cy.nodes('[id = "' + pathEnd.value + '"]')    
-    let aStar = cy.elements().aStar( {root: root, goal: goal} );
+    // const root = cy.nodes('[id = "' + pathOrigin.value + '"]')
+    // const goal = cy.nodes('[id = "' + pathEnd.value + '"]')    
+    let aStar = cy.elements().aStar( {root: pathOriginNode, goal: pathEndNode} );
     if (state) {
         aStar.path.addClass("path");
         cy.nodes().difference(aStar.path).addClass("hidden");
@@ -657,7 +717,7 @@ function focusPath (state) {
     layout.run();
 }
 
-updateNodeName()
+//updateNodeName()
 
 function updateNodeName() {
     pathOrigin.innerHTML = "";
@@ -734,37 +794,38 @@ const cardFooterLink = document.getElementById("card-footer-link");
 let personNodes;
 
 const pred = document.getElementById("predecessors");
-const focus = document.getElementById("focus");
+//const focus = document.getElementById("focus");
 
 function focusOnIndividual(state) {
-  let person;
-  if (state) {
-    // console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
-    if (cy.elements(":selected").isEdge()) {
-      person = cy.elements(":selected").target();
+    let person;   
+    if (state) {
+        // console.log(cy.elements(":selected"),cy.elements(":selected").isEdge())
+        if (cy.elements(":selected").isEdge()) {
+            person = cy.elements(":selected").target();
+        } else {
+            person = cy.elements("node:selected");
+        }
+        focusedPerson = person
+        cy.nodes().removeClass(["hidden", "ancestors", "descendants", "focused"]);        
+        personNodes = cy.nodes(":visible");
+        const ancestors = person.predecessors("node").filter(":visible");
+        const successors = person.successors("node").filter(":visible");
+        // ancestorsOfPeople = ancestors
+        // descendantsOfPeople = successors
+        const family = ancestors.union(successors).union(person);
+        cy.nodes().difference(family).addClass("hidden");
+        person.addClass("focused");
+        ancestors.addClass("ancestors");
+        successors.addClass("descendants");
+        pred.classList.toggle("focus-on");
     } else {
-      person = cy.elements("node:selected");
+        //personNodes.removeClass(["hidden", "ancestors", "descendants", "focused"]);
+        cy.nodes().removeClass(["hidden", "ancestors", "descendants", "focused"]);
+        pred.classList.toggle("focus-on");
+        // document.getElementById('pickStyle').value="all";
+        // pickStyle();
     }
-    // focusedPeople = person
-    personNodes = cy.nodes(":visible");
-    const ancestors = person.predecessors("node").filter(":visible");
-    const successors = person.successors("node").filter(":visible");
-    // ancestorsOfPeople = ancestors
-    // descendantsOfPeople = successors
-    const family = ancestors.union(successors).union(person);
-
-    cy.nodes().difference(family).addClass("hidden");
-    person.addClass("focused");
-    ancestors.addClass("ancestors");
-    successors.addClass("descendants");
-    focus.classList.toggle("focus-on");
-  } else {
-    personNodes.removeClass(["hidden", "ancestors", "descendants", "focused"]);
-    focus.classList.toggle("focus-on");
-    // document.getElementById('pickStyle').value="all";
-    // pickStyle();
-  }
-  layout.run();
+    layout.run();
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -778,8 +839,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-let pathOriginNode = cy.getElementById("JDP-1").select();
-let pathEndNode = cy.getElementById("JDP-1").select();
 
 function updatePath(target) {
     pathOriginNode = pathEndNode
@@ -792,7 +851,8 @@ function updatePath(target) {
 function updateInfo(target) {
   const template = document.getElementById("template").innerHTML;
     target.select();
-    updatePath(target);
+    // Commented out in path refactoring.
+    //updatePath(target);
     // console.log("Updating info: ", event);
   if (target.isNode()) {
     for (let i = 0; i < target.data().teachers.length; i++) {
@@ -868,7 +928,8 @@ function updateInfo(target) {
     document.getElementById("i18n:rank").innerHTML = polyglot.t("Rank");
     document.getElementById("i18n:sources").innerHTML = polyglot.t("Sources");
 
-    document.getElementById("footerId").innerHTML = target.data().id + ": ";
+      // Removed to make space for path UI; uncomment to add the "JDP-xx" label
+      //document.getElementById("footerId").innerHTML = target.data().id + ": ";
     cardFooterShare.setAttribute(
       "href",
       "https://" + window.location.host + "/tree.html?id=" + target.data().id,
@@ -903,10 +964,33 @@ function updateInfo(target) {
         updateInfo(cy.nodes("#" + e.target.id));
       });
     }
-    cy.nodes().removeClass(["parents"]);
-    cy.nodes().removeClass(["children"]);
-    target.outgoers("node").addClass("children");
-    target.incomers("node").addClass("parents");
+      cy.nodes().removeClass(["parents"]);
+      cy.nodes().removeClass(["children"]);
+      target.outgoers("node").addClass("children");
+      target.incomers("node").addClass("parents");
+
+      // Individual buttons
+      console.log("Pred state:")
+      if (target.same(focusedPerson)) {
+          pred.checked=true
+      } else {
+          pred.checked=false
+      }
+
+      if (target.same(pathOriginNode)) {
+          pathOriginT.checked=true
+      } else {
+          pathOriginT.checked=false
+      }
+
+      if (target.same(pathEndNode)) {
+          pathEndT.checked=true
+      } else {
+          pathEndT.checked=false
+      }      
+       
+      
+      
   } else {
     // is edge
     // console.log("Tapped on edge: ", target.data());
@@ -1026,7 +1110,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const countryNodes = {};
 let styleEdges = {};
-// var nativeNames = false;
+//var nativeNames = false;
 
 const stringToColour = function (str) {
   let hash = 0;
@@ -1251,7 +1335,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // document.addEventListener('DOMContentLoaded', function() {
 //     let nativeName = document.getElementById("nativename");
 //     nativeName.addEventListener('click', e => {
-//         //console.log("Changing native name");
+//         console.log("Changing native name");
 //         if (e.target.checked) {
 //             nativeNames = true
 //         } else {

@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://budotree.judoc.org" />
     <meta
       property="og:description"
-      content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"
+     content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"
     />
     <meta property="og:image" content="images/preview.png" />
     <meta
@@ -105,8 +105,8 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start ml-6"></div>
         <div class="navbar-end"></div>
-<!---
-        <div class="navbar-item mr-6">
+
+        <div class="navbar-item _mr-6">
           <div class="field has-addons">
             <div class="control has-icons-left">
               <div class="select is-small is-rounded _is-outlined is-dark">
@@ -136,14 +136,29 @@
             </div>
           </div>
         </div>
+        <div class="navbar-item _mr-6">
+          <div class="field is-grouped">
+            <p class="control is-expanded has-icons-left">
+              <input class="input is-small" type="text" placeholder="Search" id="searchNode">
 
+              <span class="icon is-small is-left">
+                <i class="fas fa-magnifying-glass"></i>
+              </span>
+            </p>
+            <p class="control">
+              <a class="button is-dark is-small" id="reset-search">
+                <i class="fas fa-delete-left"></i>
+              </a>
+            </p>
+          </div>
+        </div>
         <div class="navbar-item _mr-6">
           <div class="control has-icons-left">
             <div class="select is-small is-rounded _is-outlined is-dark">
               <select id="ddlViewBy" class="form-radio" role="list">
                 <option value="fcose">fCoSE</option>
                 <option value="cise">Cise</option>
-                <option value="cola">CoLa</option>
+                <!--<option value="cola">CoLa</option> -->
                 <option value="stress">Stress</option>
                 <option value="mrtree">MrTree</option>
                 <option value="layered">Layered</option>
@@ -161,6 +176,32 @@
           </div>
         </div>
 
+
+     <!--
+        <div class="navbar-item _mr-6">
+          <div class="control has-icons-left">
+            <div class="select is-small _is-rounded _is-outlined is-dark">
+              <select id="pathOrigin" class="form-radio" role="list"></select>
+            </div>
+            <span class="icon is-small is-left">
+              <i class="fas fa-map-pin"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="navbar-item _mr-6">
+          <div class="field">
+            <div class="control has-icons-left">
+              <div class="select is-small _is-rounded _is-outlined is-dark">
+                <select id="pathEnd" class="form-radio" role="list"></select>
+              </div>
+              <span class="icon is-small is-left">
+                <i class="fas fa-flag-checkered"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        -->
         <div class="navbar-item _mr-6 pr-2">
           <label for="distance" class="is-size-5 has-text-weight-light mr-2"
             ><i
@@ -183,57 +224,101 @@
           />
         </div>
 
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <i class="fas fa-road"></i>
+          </a>
+          <div class="navbar-dropdown">
+
+            <div class="navbar-item _mr-6 px-2">
+              <div class="field">
+                <input
+                  id="show-path"
+                  type="checkbox"
+                  name="switchRoundedOutlinedDefault"
+                  class="switch is-rounded is-outlined is-dark is-rtl"
+                  />
+                <label for="show-path" class="is-size-6 has-text-weight-light">
+                  <i title="Toggle style colours: when active, links will have different colours according to the style."
+                     aria-hidden="true"
+                     class="fas fa-highlighter">
+                  </i>
+                </label>
+              </div>
+            </div>
+
+            <div class="navbar-item _mr-6 px-2">
+              <div classss="field">
+                <input
+                  id="isolate-path"
+                  type="checkbox"
+                  name="switchRoundedOutlinedDefault"
+                  class="switch is-rounded is-outlined is-dark is-rtl"
+                  />
+                <label for="isolate-path" class="is-size-6 has-text-weight-light">
+                  <i title="Toggle style colours: when active, links will have different colours according to the style."
+                     aria-hidden="true"
+                     class="fas fa-users-viewfinder">
+                  </i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-                     <div class="navbar-item _mr-6">
-                     <div class="field">
-                     <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
-                     <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
-                     </div>
-                     </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <i class="fas fa-eye"></i>
+          </a>
+          <div class="navbar-dropdown">
 
-
-        <div class="navbar-item mr-0 px-2">
+        <div class="navbar-item _mr-6 _px-2">
           <div class="field">
             <input
-              id="bubbles"
+              id="lineType"
               type="checkbox"
               name="switchRoundedOutlinedDefault"
               class="switch is-rounded is-outlined is-dark is-rtl"
+              checked="checked"
             />
-            <label for="bubbles" class="is-size-6 has-text-weight-light"
+            <label for="lineType" class="is-size-6 has-text-weight-light"
               ><i
-                title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
+                title="Toggle line type between bezier (round) and taxi (straight)."
                 aria-hidden="true"
-                class="fas fa-flag"
+                class="fas fa-bezier-curve"
               ></i
             ></label>
           </div>
         </div>
 
-
-        <div class="navbar-item mr-0 ml-0 px-0">
-            <label class="checkbox">
-                <i
-                     title="For some layouts (like CiSE), create clusters around the first nationality."
-                     aria-hidden="true"
-                     class="fas fa-circle-nodes"
-                 ></i>
-                <input type="checkbox" id="clusterNationality">
-            </label>
-        </div>
-        <div class="navbar-item mr-4 ml-0" px-0>
-            <label class="checkbox">
-                <i
-                    title="For most layouts, create a compound group based on the first nationality."
+        <!--
+            <div class="navbar-item _mr-6">
+              <div class="field">
+                <input id="nativename" type="checkbox" name="switchNativeName" class="switch is-rounded is-outlined is-dark is-rtl">
+                <label for="nativename" class="is-size-7 has-text-weight-light" ><i title="Toggle showing the native name." aria-hidden="true" class="fas fa-language fa-xl"></i></label>
+              </div>
+            </div>
+            -->
+            <div class="navbar-item _mr-0 _px-2">
+              <div class="field">
+                <input
+                  id="bubbles"
+                  type="checkbox"
+                  name="switchRoundedOutlinedDefault"
+                  class="switch is-rounded is-outlined is-dark is-rtl"
+                  />
+                <label for="bubbles" class="is-size-6 has-text-weight-light">
+                  <i
+                    title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
                     aria-hidden="true"
-                    class="fas fa-users-rectangle"
-                ></i>
-                <input type="checkbox" id="compoundNationality">
-            </label>
-        </div>
+                    class="fas fa-flag">
+                  </i>
+                </label>
+              </div>
+            </div>
 
-        <div class="navbar-item _mr-0 px-2">
+        <div class="navbar-item _mr-0 _px-2">
           <div class="field">
             <input
               id="showStyles"
@@ -252,7 +337,7 @@
           </div>
         </div>
 
-        <div class="navbar-item _mr-0 px-2">
+        <div class="navbar-item _mr-0 _px-2">
           <div class="field">
             <input
               id="showPeriod"
@@ -270,7 +355,7 @@
           </div>
         </div>
 
-        <div class="navbar-item _mr-6 px-2">
+        <div class="navbar-item _mr-6 _px-2">
           <div class="field">
             <input
               id="quality"
@@ -287,8 +372,7 @@
             ></label>
           </div>
         </div>
-
-        <div class="navbar-item _mr-6 px-2">
+        <div class="navbar-item _mr-6 _px-2">
           <div class="field">
             <input
               id="styleColor"
@@ -306,25 +390,50 @@
           </div>
         </div>
 
-        <div class="navbar-item mr-6 px-2">
-          <div class="field">
-            <input
-              id="lineType"
-              type="checkbox"
-              name="switchRoundedOutlinedDefault"
-              class="switch is-rounded is-outlined is-dark is-rtl"
-              checked="checked"
-            />
-            <label for="lineType" class="is-size-6 has-text-weight-light"
-              ><i
-                title="Toggle line type between bezier (round) and taxi (straight)."
-                aria-hidden="true"
-                class="fas fa-bezier-curve"
-              ></i
-            ></label>
+
+
           </div>
         </div>
--->
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <i class="fas fa-object-group"></i>
+          </a>
+          <div class="navbar-dropdown">
+
+            <div class="navbar-item _mr-0 _ml-0 _px-0">
+              <div class="field">
+                <input type="checkbox"
+                       class="switch is-rounded is-rtl is-dark is-outlined"
+                       id="clusterNationality" />
+                <label class="is-size-6 -is-dark is-rtl" for="clusterNationality">
+                  <i
+                    title="For some layouts (like CiSE), create clusters around the first nationality."
+                    aria-hidden="true"
+                    class="fas fa-circle-nodes"
+                    ></i>
+
+                </label>
+              </div>
+            </div>
+
+            <div class="navbar-item _mr-4 _ml-0">
+              <div class="field">
+                <input type="checkbox"
+                       class="switch is-rounded is-rtl is-dark is-outlined"
+                       id="compoundNationality" />
+                <label class="is-size-6 -is-dark is-rtl" for="compoundNationality">
+                  <i
+                  title="For most layouts, create a compound group based on the first nationality."
+                  aria-hidden="true"
+                  class="fas fa-users-rectangle"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <div class="navbar-item">
           <div class="control has-icons-left">
             <div class="select is-small _is-rounded is-dark">
@@ -557,15 +666,47 @@
             />
             <label
               for="predecessors"
-              class="is-size-7 has-text-weight-light mt-3"
-              ><i
-                id="focus"
+              class="is-size-7 has-text-weight-light m-1">
+              <i
+                _id="focus"
                 title="Focus on selected person and keep only ancestors and descendants"
                 aria-hidden="true"
-                class="fas fa-solid fa-person-rays fa-lg ml-3"
-              ></i
-            ></label>
-            </div>
+                class="fas fa-solid fa-person-rays fa-lg ml-3">
+              </i>
+            </label>
+            <input
+              id="pathOriginT"
+              type="checkbox"
+              name="pathOriginT"
+              class="switch is-rounded is-outlined is-dark is-rtl"
+            />
+            <label
+              for="pathOriginT"
+              class="is-size-7 has-text-weight-light m-1">
+              <i
+                _id="focus"
+                title="Select as origin"
+                aria-hidden="true"
+                class="fas fa-solid fa-map-pin fa-lg ml-2">
+              </i>
+            </label>
+            <input
+              id="pathEndT"
+              type="checkbox"
+              name="pathEndT"
+              class="switch is-rounded is-outlined is-dark is-rtl"
+            />
+            <label
+              for="pathEndT"
+              class="is-size-7 has-text-weight-light m-1">
+              <i
+                _id="focus"
+                title="Select as end"
+                aria-hidden="true"
+                class="fas fa-solid fa-flag-checkered fa-lg ml-2">
+              </i>
+            </label>
+
             <div class="card-footer-item">
                 <span id="footerId" class="mr-4"></span>
                 <a
@@ -598,7 +739,7 @@
         </footer>
       </div>
 
-
+<!--
       <div id="toolbox" class="draggable toolbox">
         <div id="toolbox-inner" class="panel _draggable">
           <p class="panel-heading drag-handle toolbox-heading">
@@ -688,7 +829,7 @@
                           aria-hidden="true"
                           ></i>
                       </div>
-                      <!-- <p class="help">Filter by style</p> -->
+                      <-- <p class="help">Filter by style</p> ->
                     </div>
                     <div class="control">
                       <button
@@ -825,7 +966,7 @@
               <p class="help">Path</p>
 
                 <div class="field">
-                  <!-- <label class="is-size-7">Origin</label> -->
+                  <-- <label class="is-size-7">Origin</label> ->
                   <div class="control has-icons-left">
                     <div class="select is-small _is-rounded _is-outlined is-dark">
                       <select id="pathOrigin" class="form-radio" role="list"></select>
@@ -837,7 +978,7 @@
                 </div>
 
                 <div class="field">
-                  <!-- <label class="is-size-7">Target</label> -->
+                  <-- <label class="is-size-7">Target</label> ->
 
                   <div class="control has-icons-left">
                     <div class="select is-small _is-rounded _is-outlined is-dark">
@@ -847,8 +988,9 @@
                       <i class="fas fa-flag-checkered"></i>
                     </span>
                   </div>
-              </div>
-<div class="panel-block">
+                </div>
+
+                <div class="panel-block">
                 <div class="navbar-item _mr-6 px-2">
                   <div class="field">
                     <input
@@ -882,17 +1024,17 @@
                   </div>
                 </div>
               </div>
-                <!--
+                <--
                   <div class="panel-block">
                     <output for="distance" class="_is-size-7 has-text-weight-light mr-3">1</output>
                     <input id="distance" class="slider is-dark _is-fullwidth is-small _is-circle" step="0.1" min="0" max="2" value="1" type="range" >
                   </div>
-                  -->
+                  ->
             </div>
         </div>
       </div>
 
-
+-->
       <div id="cy" class="cy content-tab"></div>
 
       <footer class="footer _has-text-white is-size-7 is-hidden-mobile">
