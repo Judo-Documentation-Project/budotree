@@ -1,0 +1,57 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-95
+  name: Yamashita Yoshitsugu
+  native_name:
+    name: 山下 義韶
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1865-02-16"
+    location: Kanazawa
+    country_code: JPN
+  death:
+    date: "1935-10-26"
+    location:
+    country_code:
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/d/d6/YoshiakiYamashita.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu#/media/File:YoshiakiYamashita.jpg
+  teachers:
+    - id: JDP-1 # Kano
+      style_id: JDP-S-1
+      place: Kodokan
+      quality:
+      period:
+          start: 1884
+          end:
+      sources:
+        - uri: https://www.judo-ch.jp/english/legend/yamasita/
+          cite: "Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)"
+          citation: "Yoshitsugu Yamashita was the son of an Odawara Han martial arts instructor, and he entered Kodokan in August of 1884."
+        - uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
+          citation: "In August 1884, he joined the Kodokan judo dojo of his childhood friend Kano Jigoro as its nineteenth member"
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 10 dan
+      date:
+      sources:
+        - uri: https://www.judo-ch.jp/english/legend/yamasita/
+          cite: "Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)"
+          citation: "At the memorial ceremony held at Kodokan, Jigoro Kano posthumously awarded Mr. Yamashita the 10th Dan rank as of October 24th, making Mr. Yamashita the first holder of the Kodokan 10th Dan rank in recognition of his service."
+
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
+    - uri: https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E7%BE%A9%E9%9F%B6
+    - uri: https://www.judo-ch.jp/english/legend/yamasita/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q3236604
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Yamashita_Yoshitsugu
+      cite: DBpedia
