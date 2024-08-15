@@ -1,0 +1,60 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-96
+  name: Theodore Roosevelt Jr.
+  aka:
+    - name: Theodore Roosevelt Jr.
+    - name: Teddy Roosevelt
+  nationality:
+    - USA
+  birth:
+    date: "1958-10-27"
+    location: Manhattan
+    country_code: USA
+  death:
+    date: "1919-01-06"
+    location: Oyster Bay
+    country_code: USA
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/800px-Theodore_Roosevelt_by_the_Pach_Bros.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt#/media/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg
+  teachers:
+    - id: JDP-95    # Yamashita
+      style_id: JDP-S-1
+      place:
+      period:
+        start: 1904
+        end: 1904
+      quality: 2
+      sources:
+        - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+          cite: "Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)"
+          citation: "So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor office in the White House as his workout space (...) Yamashita later said that while Roosevelt was his best pupil (...)"
+    - name: James O'Brien # Jujutsu
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id: JDP-S-1
+      org: USJA
+      teacher:
+      rank: 8 dan (honorary)
+      date: 2007
+      sources:
+        - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+          citation: "The USJA made Roosevelt an 8th Degree Black Belt, an honor usually bestowed on those who have been doing Judo over 50 years and occasionally on those of distinguished leadership who have bought Judo into the international limelight."
+  sources:
+    - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+    - uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt
+    - uri: https://martialarts.stackexchange.com/questions/2209/what-level-of-expertise-did-theodore-roosevelt-have-in-judo
+  links:
+    - uri: https://www.wikidata.org/wiki/Q33866
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Theodore_Roosevelt
+      cite: DBpedia
