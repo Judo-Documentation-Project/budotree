@@ -106,6 +106,31 @@
         <div class="navbar-start ml-6"></div>
         <div class="navbar-end"></div>
 
+
+        <div class="navbar-item _mr-6">
+          <div class="control has-icons-left">
+            <div class="select is-small is-rounded _is-outlined is-dark">
+              <select id="ddlViewBy" class="form-radio" role="list">
+                <option value="fcose">fCoSE</option>
+                <option value="cise">Cise</option>
+                <!--<option value="cola">CoLa</option> -->
+                <option value="stress">Stress</option>
+                <option value="mrtree">MrTree</option>
+                <option value="layered">Layered</option>
+                <option value="breadthfirst">Breadth</option>
+                <option value="concentric">Concentric</option>
+              </select>
+            </div>
+            <div class="icon is-small is-left has-text-dark">
+              <i
+                class="fas fa-diagram-project"
+                title="Select the layout algorithm."
+                aria-hidden="true"
+              ></i>
+            </div>
+          </div>
+        </div>
+
         <div class="navbar-item _mr-6">
           <div class="field has-addons">
             <div class="control has-icons-left">
@@ -152,29 +177,7 @@
             </p>
           </div>
         </div>
-        <div class="navbar-item _mr-6">
-          <div class="control has-icons-left">
-            <div class="select is-small is-rounded _is-outlined is-dark">
-              <select id="ddlViewBy" class="form-radio" role="list">
-                <option value="fcose">fCoSE</option>
-                <option value="cise">Cise</option>
-                <!--<option value="cola">CoLa</option> -->
-                <option value="stress">Stress</option>
-                <option value="mrtree">MrTree</option>
-                <option value="layered">Layered</option>
-                <option value="breadthfirst">Breadth</option>
-                <option value="concentric">Concentric</option>
-              </select>
-            </div>
-            <div class="icon is-small is-left has-text-dark">
-              <i
-                class="fas fa-diagram-project"
-                title="Select the layout algorithm."
-                aria-hidden="true"
-              ></i>
-            </div>
-          </div>
-        </div>
+
 
 
      <!--
@@ -282,7 +285,7 @@
               class="switch is-rounded is-outlined is-dark is-rtl"
               checked="checked"
             />
-            <label for="lineType" class="is-size-6 has-text-weight-light"
+            <label for="lineType" class="is-size-7 has-text-weight-light"
               ><i
                 title="Toggle line type between bezier (round) and taxi (straight)."
                 aria-hidden="true"
@@ -300,23 +303,6 @@
               </div>
             </div>
             -->
-            <div class="navbar-item _mr-0 _px-2">
-              <div class="field">
-                <input
-                  id="bubbles"
-                  type="checkbox"
-                  name="switchRoundedOutlinedDefault"
-                  class="switch is-rounded is-outlined is-dark is-rtl"
-                  />
-                <label for="bubbles" class="is-size-6 has-text-weight-light">
-                  <i
-                    title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
-                    aria-hidden="true"
-                    class="fas fa-flag">
-                  </i>
-                </label>
-              </div>
-            </div>
 
         <div class="navbar-item _mr-0 _px-2">
           <div class="field">
@@ -363,7 +349,7 @@
               name="switchRoundedOutlinedDefault"
               class="switch is-rounded is-outlined is-dark is-rtl"
             />
-            <label for="quality" class="is-size-6 has-text-weight-light"
+            <label for="quality" class="is-size-7 has-text-weight-light"
               ><i
                 class="fas fa-ranking-star"
                 title="Toggle link quality: when active, links will have different line styles depending on source quality."
@@ -400,6 +386,24 @@
             <i class="fas fa-object-group"></i>
           </a>
           <div class="navbar-dropdown">
+
+            <div class="navbar-item _mr-0 _px-2">
+              <div class="field">
+                <input
+                  id="bubbles"
+                  type="checkbox"
+                  name="switchRoundedOutlinedDefault"
+                  class="switch is-rounded is-outlined is-dark is-rtl"
+                  />
+                <label for="bubbles" class="is-size-6 has-text-weight-light">
+                  <i
+                    title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality"
+                    aria-hidden="true"
+                    class="fas fa-flag">
+                  </i>
+                </label>
+              </div>
+            </div>
 
             <div class="navbar-item _mr-0 _ml-0 _px-0">
               <div class="field">
@@ -516,6 +520,35 @@
       <div id="infobox" class="draggable card info mt-5">
         <header class="card-header drag-handle">
           <p id="card-title" class="card-header-title"></p>
+            <div class="card-footer-item">
+                <span id="footerId" class="mr-4"></span>
+                <a
+                    id="card-footer-share"
+                    href="#"
+                    target="_blank"
+                    _class="card-footer-item"
+                    class="mr5"
+                    aria-hidden="true"
+                    title="Link to the tree centered on this individual"
+                ></a>
+
+                <a
+                    id="card-footer-link"
+                    href="#"
+                    target="_blank"
+                    _class="card-footer-item"
+                    aria-hidden="true"
+                    title="Link to the static individual page."
+                ></a>
+
+                <a
+                    id="card-footer"
+                    href="#"
+                    target="_blank"
+                    _class="card-footer-item"
+                    title="Go to source YAML file in GitHub."
+          ></a>
+                </div>
           <a class="card-header-icon card-toggle">
             <i class="fa fa-angle-down"></i>
           </a>
@@ -707,35 +740,6 @@
               </i>
             </label>
 
-            <div class="card-footer-item">
-                <span id="footerId" class="mr-4"></span>
-                <a
-                    id="card-footer-share"
-                    href="#"
-                    target="_blank"
-                    _class="card-footer-item"
-                    class="mr5"
-                    aria-hidden="true"
-                    title="Link to the individual view."
-                ></a>
-
-                <a
-                    id="card-footer-link"
-                    href="#"
-                    target="_blank"
-                    _class="card-footer-item"
-                    aria-hidden="true"
-                    title="Link to the individual page."
-                ></a>
-
-                <a
-                    id="card-footer"
-                    href="#"
-                    target="_blank"
-                    _class="card-footer-item"
-                    title="Go to source YAML file in GitHub."
-          ></a>
-                </div>
         </footer>
       </div>
 
