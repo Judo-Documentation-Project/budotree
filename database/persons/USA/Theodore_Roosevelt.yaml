@@ -10,7 +10,7 @@ person:
   nationality:
     - USA
   birth:
-    date: "1958-10-27"
+    date: "1858-10-27"
     location: Manhattan
     country_code: USA
   death:
