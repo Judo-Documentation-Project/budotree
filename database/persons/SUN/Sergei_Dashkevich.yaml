@@ -1,0 +1,65 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-98
+  name: Sergei Dashkevich
+  native_name:
+    name: Сергея Дашкевича
+    lang: ru
+  nationality:
+    - RUS
+    - SUN
+  birth:
+    date: "1896-10-18"
+    location: Petrodvorets
+    country_code: RUS
+  death:
+    date: "1955-03-17"
+    location: Leningrad
+    country_code: SUN
+  photo:
+    url: https://archive.org/download/dashkevich/dashkevich.png
+    source:
+      uri: https://judo.ru/news/9889
+  teachers:
+    - id: JDP-97    # Vasili Oshchepkov
+      style_id: JDP-S-1
+      place:
+      period:
+        start: 1931
+        end:
+      quality: 2
+      sources:
+        - uri: https://judo.ru/news/9889
+          citation: "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
+    - id: JDP-97    # Vasili Oshchepkov
+      style_id: JDP-S-15
+      place:
+      period:
+        start: 1931
+        end:
+      quality: 2
+      sources:
+        - uri: https://judo.ru/news/9889
+          citation: "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
+        - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+          citation: "Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин."
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+      sources:
+        - uri:
+          citation:
+  sources:
+    - uri: https://judo.ru/news/9889
+    - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+    - uri:
+  links:
+    - uri:
+      cite:
+    - uri:
+      cite:

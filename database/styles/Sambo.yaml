@@ -1,0 +1,21 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-15
+  name:
+  native_name:
+    name: сaмбо
+    lang: ru
+  aka:
+    - name: Samozashchita bez oruzhiya
+      native_name:
+        - name:  самозащита без оружия
+          lang: ru
+  birth:
+    date: 1920
+    location:
+    country_code: SUN
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Sambo_(martial_art)
+    - uri: https://sambo.sport
