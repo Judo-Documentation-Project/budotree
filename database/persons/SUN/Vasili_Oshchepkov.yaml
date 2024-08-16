@@ -19,7 +19,7 @@ person:
     location: Moscow
     country_code: SUN
   photo:
-    url: https://www.vokrug.tv/pic/person/8/d/c/c/8dcc775e218b23e34614560eca0bd11e.jpg
+    url: https://archive.org/download/vasili/vasili.jpg
     source:
       uri: https://www.vokrug.tv/person/show/16914436371/
   teachers:
