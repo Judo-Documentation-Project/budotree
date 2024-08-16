@@ -1,0 +1,66 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-97
+  name: Vasili Oshchepkov
+  native_name:
+    name: Васи́лий Серге́евич Още́пков
+    lang: ru
+  nationality:
+    - RUS
+    - SUN
+  birth:
+    date: "1893-01-07"
+    location: Sakhalin
+    country_code: RUS
+  death:
+    date: "1938-10-10"
+    location: Moscow
+    country_code: SUN
+  photo:
+    url: https://www.vokrug.tv/pic/person/8/d/c/c/8dcc775e218b23e34614560eca0bd11e.jpg
+    source:
+      uri: https://www.vokrug.tv/person/show/16914436371/
+  teachers:
+    - id: JDP-1    # Yamashita
+      style_id: JDP-S-1
+      place:
+      period:
+        start: 1911
+        end: 1917
+      quality: 0
+      sources:
+        - uri: https://oca.asia/sports/info/15/58/
+          citation: "Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro."
+        - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
+          citation: ""
+
+    - name: James O'Brien # Jujutsu
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 2 dan
+      date: 2007
+      sources:
+        - uri: https://web.archive.org/web/20211028220427/http://kodokanjudoinstitute.org/en/news/2016/12/special-exhibition-of-the-material-concerning-mr-vasili-oshchepkov/
+          citation: "Mr. Oshchepkov became a disciple of the Kodokan in 1911 and then was promoted to 2nd Dan. A record book of initiation pleading shows his address and signature. Also his unique seal that says 'B.O' can be seen on it."
+        - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
+          citation: "On June 15, 1913, Oshchepkov received the first degree black belt - shodan (first dan); in October 1917, during a trip to Japan, he passed the exams to receive his second degree black belt,becoming the first Russian and the third European to get a nidan in judo"
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
+    - uri: https://www.rbth.com/arts/2015/05/30/vasily_oshchepkov_the_founder_of_sambo_46477.html
+    - uri: https://oca.asia/sports/info/15/58/
+    - uri: https://ru.wikipedia.org/wiki/%D0%9E%D1%89%D0%B5%D0%BF%D0%BA%D0%BE%D0%B2,_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87
+  links:
+    - uri: https://www.wikidata.org/wiki/Q4340844
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Vasili_Oshchepkov
+      cite: DBpedia
