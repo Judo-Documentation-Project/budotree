@@ -235,12 +235,44 @@
       }
     ]
   },
+  "JDP-S-15": {
+    "id": "JDP-S-15",
+    "name": "Sambo",
+    "native_name": {
+      "name": "сaмбо",
+      "lang": "ru"
+    },
+    "aka": [
+      {
+        "name": "Samozashchita bez oruzhiya",
+        "native_name": [
+          {
+            "name": "самозащита без оружия",
+            "lang": "ru"
+          }
+        ]
+      }
+    ],
+    "birth": {
+      "date": 1920,
+      "location": null,
+      "country_code": "SUN"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
+      },
+      {
+        "uri": "https://sambo.sport"
+      }
+    ]
+  },
   "JDP-S-13": {
     "id": "JDP-S-13",
     "name": "Shuri-te",
     "native_name": {
       "name": "首里手",
-      "lang": "ryu"
+      "lang": "ja"
     },
     "birth": {
       "date": 1700,

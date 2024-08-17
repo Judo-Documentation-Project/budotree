@@ -23,7 +23,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-promise": "^6.1.1",
-    "i18n-iso-countries": "^7.7.0",
+    "i18n-iso-countries": "github:fsmunoz/node-i18n-iso-countries#iso-3166-3",
     "i18next": "^23.7.11",
     "luxon": "^3.4.4",
     "mustache": "^4.2.0",

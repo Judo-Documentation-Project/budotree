@@ -561,11 +561,11 @@
               <p class="birth">
 
               {{#birth}}
-              * {{date_local}} {{location}} {{country_local}}
+              * {{date_local}} {{location}} {{#country_local}} ({{.}}) {{/country_local}}
               {{/birth}}
               -
-                       {{#death}}
-              † {{date_local}} {{location}} {{country_local}}
+              {{#death}}
+              † {{date_local}} {{location}} {{#country_local}} ({{.}}) {{/country_local}}
               {{/death}}
 
               </p>
