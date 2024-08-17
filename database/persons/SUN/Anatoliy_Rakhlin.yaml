@@ -1,0 +1,57 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-99
+  name: Anatoliy Rakhlin
+  native_name:
+    name: Анато́лий Соломо́нович
+    lang: ru
+  nationality:
+    - SUN
+    - RUS
+  birth:
+    date: "1938-05-23"
+    location: Leningrad
+    country_code: SUN
+  death:
+    date: "2013-08-07"
+    location: Saint Petersburg
+    country_code: RUS
+  photo:
+    url: https://archive.org/download/raxlin-5/Raxlin5.jpg
+    source:
+      uri: https://ekogradmoscow.ru/sreda/ekologija-kultury/sensej-dlya-prezidenta-anatolij-solomonovich-rakhlin
+      cite: "Сенсей для президента - Анатолий Соломонович Рахлин ('ЭКОГРАД+')"
+  teachers:
+    - id: JDP-98    # Sergei Dashkevich
+      style_id: JDP-S-15
+      place: Leningrad Palace of the Pioneers
+      period:
+        start: 1955
+        end:
+      quality: 2
+      sources:
+        - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
+          citation: "In 1953 he started taking SAMBO classes in the Palace of the Pioneers under the guidance of a highly experienced wrestler S. Dashkevich, a wrestling partner of Ivan Poddubny himself."
+  rank:
+    - style_id: JDP-S-1
+      org:
+      teacher:
+      rank: 8 dan
+      date:
+      sources:
+          - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
+            cite: "Anatoliy Rakhlin: person, teacher, coack (International Sambo Federation)"
+            citation: "On August 7, 2013 in Saint Petersburg (Russia) after extended illness died Anatoliy Rakhlin, Honorary Coach of the Russian Federation, holder of the 8th dan rank in judo."
+  sources:
+    - uri: https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%85%D0%BB%D0%B8%D0%BD,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87
+    - uri: https://rus.team/people/rakhlin-anatolij-solomonovich
+    - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
+    - uri: https://www.kino-teatr.ru/kino/stuntman/sov/409209/bio/
+    - uri: https://ria.ru/20130807/954840950.html
+    - uri: https://web.archive.org/web/20120329141858/http://www.mir-judo.ru/territory/index.php?ELEMENT_ID=1380#
+    - uri: https://www.lechaim.ru/ARHIV/258/kadish.htm
+  links:
+    - uri: https://www.wikidata.org/wiki/Q15088978
+      cite: Wikidata
