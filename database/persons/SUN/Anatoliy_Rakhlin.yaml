@@ -35,6 +35,14 @@ person:
         - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
           citation: "In 1953 he started taking SAMBO classes in the Palace of the Pioneers under the guidance of a highly experienced wrestler S. Dashkevich, a wrestling partner of Ivan Poddubny himself."
   rank:
+    - style_id: JDP-S-15
+      org: Soviet Union
+      teacher:
+      rank: Master of Sports
+      date:
+      sources:
+          - uri: https://fondsambo.ru/news/detail.php?ELEMENT_ID=26984
+            citation: "11 лет занятий с Анатолием Соломоновичем помогли будущему политическому лидеру России стать мастером спорта сначала по самбо, а потом по дзюдо.  Владимир Путин приглашал Анатолия Рахлина на значимые события своей жизни – от дней рождений до президентских инаугураций. Такие отношения можно без преувеличения назвать дружескими."
     - style_id: JDP-S-1
       org:
       teacher:

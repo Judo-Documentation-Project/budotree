@@ -1,0 +1,73 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-100
+  name: Vladimir Putin
+  native_name:
+    name: Влади́мир Влади́мирович Пу́тин
+    lang: ru
+  nationality:
+    - SUN
+    - RUS
+  birth:
+    date: "1952-10-07"
+    location: Leningrad
+    country_code: SUN
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: https://archive.org/download/putin_202408/putin.png
+    source:
+      uri: https://judo.ru/news/4783
+      cite: "С днем рожденья! (ФЕДЕРАЦИЯ ДЗЮДО РОССИИ)"
+  teachers:
+    - id: JDP-99    # Anatoliy Rakhlin
+      style_id: JDP-S-1
+      place:
+      period:
+        start: 1964
+        end:
+      quality: 2
+      sources:
+        - uri: https://judo.ru/news/4707
+          citation: "В 1964 году набрал первую группу юношей, среди которых были Аркадий Ротенберг, Валентин Степанов, Николай Кононов, Василий Шестаков, Владимир Путин."
+
+    - id: JDP-99    # Anatoliy Rakhlin
+      style_id: JDP-S-15
+      place:
+      period:
+        start: 1964
+        end:
+      quality: 2
+      sources:
+        - uri: https://vecherka-spb.ru/2023/08/08/chestnoe-i-dobrosovestnoe-otnoshenie-k-delu-kakim-bil-anatolii-rakhlin--lichnii-trener-vladimira-putina-
+          citation: "Хорошо помню, как Анатолий Соломонович проводил отбор в секцию самбо. Нужно было подтянуться — кто сколько сможет."
+  rank:
+    - style_id: JDP-S-15
+      org:
+      teacher:
+      rank: Master of Sports
+      date:
+      sources:
+          - uri: http://en.putin.kremlin.ru/interests/page-0
+            citation: "Putin is also multiple champion of St Petersburg in Sambo and Master of Sports in Sambo"
+    - style_id: JDP-S-1
+      org: EJU
+      teacher:
+      rank: 8 dan
+      date:
+      sources:
+          - uri: https://www.eju.net/8th-dan-attributed-to-vladimir-putin/
+            cite: "8th Dan attributed to Vladimir Putin (European Judo Union)"
+            citation: "Following the festivities of the 60th anniversary of the International Judo Federation, celebrated last year in Paris on the occasion of the World Championships, the IJF had the honor of awarding the 8th dan to Vladimir Putin, President of the Russian Federation, who was also celebrating his 60th birthday on the 7th of october."
+  sources:
+    - uri: https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+      cite: "Путин, Владимир Владимирович (Википедии)"
+    - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
+
+  links:
+    - uri: https://www.wikidata.org/wiki/Q15088978
+      cite: Wikidata
