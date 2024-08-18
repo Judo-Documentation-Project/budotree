@@ -19,6 +19,23 @@ style:
   media:
     video_url: https://www.youtube.com/watch?v=S3AgKTD1cYc&t=321
     photo_url: https://archive.org/download/sambo-history/Sambo-history.jpeg
+  description:
+    en: >
+      Sambo (Russian: сaмбо, pronounced [ˈsambə]) is a martial art
+      with Soviet origins, an internationally practised combat sport,
+      and a recognized style of amateur wrestling included by UWW in
+      the World Wrestling Championships along with Graeco-Roman
+      wrestling and freestyle wrestling.  It originated in the Russian
+      SFSR in the Soviet Union. The word sambo is an acronym of
+      samozashchita bez oruzhiya (Russian: самозащита без оружия),
+      which literally translates to 'self-defence without weapons'.
+      SAMBO is a martial art and combat sport developed and used by
+      the Soviet Red Army in the early 1920s to improve their
+      hand-to-hand combat abilities. The sport is similar in many ways
+      to judo and jiu jitsu but also incorporates different types of
+      wrestling and various self-defence systems.  Soviet martial arts
+      expert Vasili Oshchepkov is credited as one of the founding
+      fathers of SAMBO.
   sources:
     - uri: https://en.wikipedia.org/wiki/Sambo_(martial_art)
     - uri: https://sambo.sport
