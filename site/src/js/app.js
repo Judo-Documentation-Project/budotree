@@ -1656,10 +1656,12 @@ function createTimeline(nodes, title) {
       } else {
         event.text = { headline: person.name };
       }
-      if (person.photo_local_url) {
-        event.media = { url: person.photo_local_url };
+      if (person.photo_url_local) {
+        event.media = { url: person.photo_url_local };
       } else if (person.photo_url) {
-        event.media = { url: person.photo_url };
+          event.media = { url: person.photo_url };
+      } else if (person.photo) {
+          event.media = { url: person.photo.url };
       }
       // event["group"] = person.data.nationality[0]
       events.push(event);
