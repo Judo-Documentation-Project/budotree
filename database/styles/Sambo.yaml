@@ -17,8 +17,8 @@ style:
     location:
     country_code: SUN
   media:
-    video_url: https://www.youtube.com/watch?v=S3AgKTD1cYc
-    photo_url: http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg
+    video_url: https://www.youtube.com/watch?v=S3AgKTD1cYc&t=321
+    photo_url: https://archive.org/download/sambo-history/Sambo-history.jpeg
   sources:
     - uri: https://en.wikipedia.org/wiki/Sambo_(martial_art)
     - uri: https://sambo.sport
