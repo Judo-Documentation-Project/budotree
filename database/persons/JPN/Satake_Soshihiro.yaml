@@ -20,13 +20,6 @@ person:
     country_code:
   photo_url: https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
   teachers:
-    - id: JDP-17 # Tomita
-      style_id: JDP-S-1
-      place: Kodokan
-      period:
-        start:
-        end:
-      quality: 2
     - id: JDP-9
       style_id: JDP-S-1
       place:
