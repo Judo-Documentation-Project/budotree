@@ -23,13 +23,6 @@ person:
         start:
         end:
       quality:
-    - id: JDP-18
-      style_id: JDP-S-1
-      place:
-      period:
-        start: 1917
-        end:
-      quality: 2
   rank:
     - style_id:
       org:
