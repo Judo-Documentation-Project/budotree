@@ -30,13 +30,20 @@ person:
       period:
         start: 1895
         end: 1896
-    - id: JDP-17
+    - id: JDP-9 # Yokoyama Sakujiro
       style_id: JDP-S-1
       place: Kodokan
-      quality:
+      quality: 1
       period:
-        start: 1896
+        start: 1897
         end:
+      sources:
+        - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+          cite: "横山作次郎 (ウィキペディア)"
+          citation: "また、三船久蔵や前田光世の師匠としても知られる"
+        - uri: https://simonbjj.com/satake
+          cite: "The Sumo wrestle who taught BJJ, Soshiro Satake"
+          citation: "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
   rank:
     - style_id: JDP-S-1
       org: Kodokan

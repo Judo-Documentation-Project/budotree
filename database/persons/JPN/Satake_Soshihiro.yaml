@@ -6,6 +6,7 @@ person:
   name: Satake Soshihiro
   aka:
     - name: Antônio Satake
+    - name: Nobushiro Satake
   nationality:
     - JPN
     - BRA
@@ -19,20 +20,26 @@ person:
     country_code:
   photo_url: https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg
   teachers:
-    - id: JDP-17
+    - id: JDP-17 # Tomita
       style_id: JDP-S-1
       place: Kodokan
       period:
         start:
         end:
       quality: 2
-    - id: JDP-1
+    - id: JDP-9
       style_id: JDP-S-1
       place:
       period:
-        start: 1917
+        start: 1892
         end:
-      quality:
+      quality: 1
+      sources:
+        - uri: https://simonbjj.com/satake
+          cite: "The Sumo wrestle who taught BJJ, Soshiro Satake"
+          citation: "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
+        - uri: https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E4%BF%A1%E5%9B%9B%E9%83%8E
+          citation: "1892年（明治25年）5月に講道館に入門"
   rank:
     - style_id: JDP-S-1
       org: Kodokan
@@ -42,6 +49,6 @@ person:
   sources:
     - uri: https://en.wikipedia.org/wiki/Soshihiro_Satake
     - uri: https://repositorio.ufsc.br/handle/123456789/103771
-    - uri: https://www.faddabjj.com/historia-fadda
-    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+    - uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
+      cite: "103 anos de Oswaldo Fadda - Fadda BJJ (arquivado)"
     - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
