@@ -7,13 +7,17 @@ person:
   nationality:
     - BRA
   birth:
-    date:
+    date: 1881
     location:
     country_code: BRA
   death:
-    date:
+    date: 1929
     location:
     country_code:
+  photo:
+    url: https://archive.org/download/jacinto_ferro/jacinto_ferro.png
+    source:
+      uri: https://simonbjj.com/ferro
   teachers:
     - id: JDP-18
       style_id: JDP-S-1
@@ -22,6 +26,14 @@ person:
       period:
         start: 1915
         end:
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol. 3, p. 89"
+          citation: "... Tenho [Maeda] os seguintes alunos aos quais deposito inteira confiança [...] Jacintho Ferro, Dr. Matheus Pereira, Guilherm de La Rocque, Raphael Gomes e Waldermar Gomes..."
+        - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+          cite: "Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)"
+          citation: "as aulas eram dadas em uma academia que Maeda abriu em 1916,nos salões do Cine Teatro Moderno, localizado ao lado da Igreja de Nazaré, hoje uma praça, as aulas eram amplamente divulgadas nos ornais para quem quisesse aprender pagando.O primeiro aluno de Maeda foi o estivador Jacinto Ferro, ex-lutador de greco-romana, Jacinto foi instrutor de Maeda e ajudou a dar aulas para o Carlos Gracie."
   rank:
     - style_id:
       org:
@@ -30,4 +42,8 @@ person:
       date:
   sources:
     - uri: https://repositorio.ufsc.br/handle/123456789/103771
+    - uri: https://isbnsearch.org/isbn/9798639871030
+      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
     - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+    - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+      cite: "Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)"
