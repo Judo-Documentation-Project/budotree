@@ -1,0 +1,30 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-16
+  name: Brazilian jiu-jitsu
+  native_name:
+    name: Jiu-Jitsu brasileiro
+    lang: pt
+  aka:
+    - name: Jiu-jitsu
+    - name: BJJ
+  birth:
+    date:
+    location:
+    country_code: BRA
+  media:
+    video_url: https://www.youtube.com/watch?v=rZQkydT-SyM
+    photo_url: https://s2-ge.glbimg.com/XHMUEtCldtpWyc7VaWzVWKN6NIk=/0x0:900x559/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/s/L/UpVASJTr65lfkp2P8x8g/heliograciefamilia.jpg
+  description:
+    en: >
+      Brazilian jiu-jitsu also abbreviated as BJJ, is a self-defence martial art and combat sport based on grappling, ground fighting, and submission holds. BJJ is primarily a ground-based fighting style and focuses on taking one's opponent down to the ground, gaining a dominant position, and using a number of techniques to force them into submission via joint locks, chokeholds, or compression locks.
+      Brazilian jiu-jitsu was first developed around 1925 by Brazilian brothers Carlos, Oswaldo, Gastão Jr., and Hélio Gracie, after Carlos was taught a hybrid fighting style of traditional Jujutsu and Kodokan judo by a travelling Japanese judoka, Mitsuyo Maeda, in 1917. Later on the Gracie family developed their own self-defense system which they named Gracie Jiu-Jitsu. BJJ eventually came to be its own defined combat sport through the innovations, practices, and adaptation of Gracie jiu-jitsu and judo, and has become one of the essential martial arts for modern MMA.
+    pt: >
+       Jiu-jítsu brasileiro é uma arte marcial e esporte de combate, desenvolvido pela família Gracie, no início do século XX, que se tornou a forma mais difundida e praticada do "Jiu-jitsu" (após o judô) no mundo, principalmente depois das primeiras edições dos torneios de Vale Tudo e artes marciais mistas (MMA), principalmente no UFC, nos idos da década de 1990 e no Pride FC durante o final da década de 1990 e começo da década de 2000. É uma arte marcial de luta agarrada, onde o objetivo é imobilizar o oponente no chão por meio de uma "finalização", colocando o oponente em uma torção de um membro do corpo (como por exemplo uma chave de braço ou chave de perna) ou estrangulamento (como o mata-leão ou triângulo), forçando o oponente a desistir. O jiu-jitsu brasileiro tem um apreço em focar na luta de solo onde a luta em pé tem papel secundário, ao contrário de outras marciais de luta agarrada.
+  sources:
+    - uri: https://pt.wikipedia.org/wiki/Jiu-j%C3%ADtsu_brasileiro
+    - uri: https://cbjj.com.br/
+    - uri: https://ibjjf.com/
+    - uri: https://jjgf.com/

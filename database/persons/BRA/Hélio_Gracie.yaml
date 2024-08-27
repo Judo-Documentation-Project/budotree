@@ -1,0 +1,63 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-102
+  name: Hélio Gracie
+  nationality:
+    - BRA
+  birth:
+    date: "1913-10-01"
+    location: Belém
+    country_code: BRA
+  death:
+    date: "2009-01-29"
+    location: Petrópolis
+    country_code: BRA
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/H%C3%A9lio_Gracie_%281952%29.tif/lossy-page1-800px-H%C3%A9lio_Gracie_%281952%29.tif.jpg
+    source:
+      uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie#/media/Ficheiro:H%C3%A9lio_Gracie_(1952).tif
+      cite: "Arquivo Nacional, 1952 (Hélio Gracie - Wikipedia)"
+  teachers:
+    - id: JDP-21
+      style_id: JDP-S-16
+      place:
+      period:
+        start: 1925
+        end:
+      quality:
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol. 3, p. 165"
+          citation: "... meu Jiu Jitsu era muito diferente do dele. O meu fôra aprendido há muitos anos com o meu irmão Carlos..."
+        - uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie
+          citation: "Observador, Hélio passou a acompanhar, dos seus treze aos dezesseis anos, as aulas ministradas por Carlos."
+    - name: George
+      style_id: JDP-S-16
+      place:
+      period:
+        start:
+        end:
+      quality:
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol 3, p.91"
+          citation: "Hélio foi treinado por George para as suas primeiras lutas, antes deste romper com Carlos em 1934"
+
+  rank:
+    - style_id: JDP-S-16
+      org:
+      teacher:
+      rank: 10 dan
+      date:
+      sources:
+        - uri: https://ge.globo.com/rj/serra-lagos-norte/noticia/2017/01/faixa-vermelha-lembra-ensinamentos-de-helio-gracie-oito-anos-apos-morte.html
+          citation: "Hélio Gracie foi o último condecorado com a faixa vermelha 10º grau"
+  sources:
+    - uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie
+    - uri: https://isbnsearch.org/isbn/9798639871030
+      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    - uri: https://bjjfanatics.com.br/blogs/news/helio-gracie-o-mestre-dos-mestres
