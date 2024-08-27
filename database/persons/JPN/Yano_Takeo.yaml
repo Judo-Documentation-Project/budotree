@@ -1,0 +1,53 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-105
+  name: Yano Takeo
+  nationality:
+    - JPN
+  birth:
+    date: "1909"
+    location:
+    country_code: JPN
+  death:
+    date: "1988"
+    location: Belo Horizonte
+    country_code: BRA
+  photo:
+    url: https://archive.org/download/geo-omori/geo-omori.jpg
+    source:
+      uri: https://simonbjj.com/takeo-yano
+      cite: "Takeo Yano in a pre-fight publicity photo (Simon BJJ)"
+  teachers:
+    - id: JDP-43 # Isogai Hajime
+      style_id: JDP-S-1
+      place:
+      period:
+        start:
+        end:
+      quality:
+      sources:
+        - uri: https://simonbjj.com/takeo-yano
+          cite: "The Eastern Demon, Takeo Yano (Simon BJJ)"
+          citation: "There is not much information known about Takeo Yano, but it is believed he may have been born in 1909 and trained at the Dai Nippon Butoko Kai academy in Kioto under famed Judoka, Hajime Isogai."
+  rank:
+    - style_id: JDP-S-1
+      org: Dai Nippon Butoku Kai
+      teacher:
+      rank: 3 dan
+      date:
+      sources:
+        - uri: https://simonbjj.com/takeo-yano
+          cite: "The Eastern Demon, Takeo Yano (Simon BJJ)"
+          citation: " Yano trained at the academy until he received his 3rd dan and then began travelling internationally."
+        - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+          cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
+          citation: "A Marinha há muito contratou um japonês, Yano, 3º dan, como instrutor para a prática do judô japonês para os soldados"
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Takeo_Yano
+    - uri: https://simonbjj.com/takeo-yano
+    - uri: https://isbnsearch.org/isbn/9798639871030
+      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+      cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
