@@ -13,7 +13,7 @@ person:
     location: Rio de Janeiro
     country_code: BRA
   death:
-    date: "2005-14-01"
+    date: "2005-04-01"
     location: Rio de Janeiro
     country_code: BRA
   photo:
@@ -23,7 +23,7 @@ person:
       cite: "Oswaldo Fadda (Portal do Vale Tudo)"
   teachers:
     - id: JDP-20
-      style_id: JDP-S-15
+      style_id: JDP-S-16
       place: Academia França de Jiu-jitsu
       period:
         start: 1938
