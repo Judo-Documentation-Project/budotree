@@ -14,14 +14,24 @@ person:
     date:
     location:
     country_code:
+  photo:
+    url: https://archive.org/download/donato/donato.png
+    source:
+      uri: https://simonbjj.com/donato-pires
+      cite: "Donato Pires dos Reis, RJ, 1930"
   teachers:
-    - id: JDP-18
+    - id: JDP-19 # Jacinto Ferro
       style_id: JDP-S-1
       place:
       period:
-        start:
+        start: 1920
         end:
-      quality: 1
+      quality:
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol. 3, p. 94"
+          citation: "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
   rank:
     - style_id:
       org:
@@ -31,3 +41,6 @@ person:
   sources:
     - uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
     - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+    - uri: https://isbnsearch.org/isbn/9798639871030
+      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    - uri: https://simonbjj.com/donato-pires
