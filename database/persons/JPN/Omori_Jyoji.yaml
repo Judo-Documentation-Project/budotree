@@ -17,7 +17,7 @@ person:
     location: Tokyo
     country_code: JPN
   death:
-    date: "1938-03-1938"
+    date: "1938-03-02"
     location: Belo Horizonte
     country_code: BRA
   photo:
