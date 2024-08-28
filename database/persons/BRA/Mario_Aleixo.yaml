@@ -16,13 +16,30 @@ person:
     country_code: BRA
   photo_url: https://img1.wsimg.com/isteam/ip/480b94b8-cb6a-48b7-9add-7d9635474067/Aleixo_1918.jpg/:/rs=w:400,cg:true,m
   teachers:
-    - id: JDP-18
+    - id: JDP-18 # Maeda
       style_id: JDP-S-1
       place:
       period:
-        start:
+        start: 1915
         end:
-      quality:
+      quality: 3
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol. 1, p. 110"
+          citation: "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+    - id: JDP-106 # Sada Miyako
+      style_id: JDP-S-1
+      place:
+      period:
+        start: 1909
+        end:
+      quality: 3
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+          location: "vol. 1, p. 110"
+          citation: "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
   rank:
     - style_id:
       org:

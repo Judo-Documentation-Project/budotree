@@ -1,0 +1,53 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-106
+  name: Miyako Sada
+  native_name:
+    name: 三浦鑿
+    lang: ja
+  aka:
+    - Miura Saku
+  nationality:
+    - BRA
+    - JPN
+  birth:
+    date: "1881"
+    location: Ehime
+    country_code: JPN
+  death:
+    date: "1945-10-26"
+    location: Tokyo
+    country_code: JPN
+  photo:
+    url: https://judotradicionalgoshinjutsukan.blogspot.com/2009/10/capoeira-vs-jujutsu.html
+    source:
+      uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
+      cite: "100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)"
+  teachers:
+    - id:
+      style_id:
+      place:
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank: 2
+      date:
+  sources:
+    - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/10/capoeira-vs-jujutsu.html
+      cite: "Capoeira vs Jujutsu (Judo Tadicional Goshinjutsukan)"
+    - uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
+      cite: "100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)"
+    - uri: https://cenb.org.br/articles/display/240
+      cite: "三浦　鑿（みうら・さく） - Centro de Estudos Nipo-Brasileiros"
+    - uri: https://isbnsearch.org/isbn/9798639871030
+      location: "vol. II, p. 100"
+      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    - uri: https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
+      cite: "Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)"
