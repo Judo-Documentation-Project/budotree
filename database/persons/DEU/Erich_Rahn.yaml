@@ -1,0 +1,38 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-109
+  name: Erich Rahn
+  nationality:
+    - DEU
+  birth:
+    date: "1885-05-01"
+    location: Berlin
+    country_code: DEU
+  death:
+    date: "1973-07-05"
+    location: Berlin
+    country_code: BRA
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/d/da/Bundesarchiv_Bild_102-12574%2C_Berlin%2C_Jiu-Jitsu-Schule.jpg
+    source:
+      uri: https://de.wikipedia.org/wiki/Erich_Rahn#/media/Datei:Bundesarchiv_Bild_102-12574,_Berlin,_Jiu-Jitsu-Schule.jpg
+      cite: "Erich Rahn (below) performing an overhead throw (Tomoe-nage), November 1931 (Wikipedia)"
+  teachers:
+    - name: Higashi
+      style_id: JDP-S-14
+      place:
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://de.wikipedia.org/wiki/Erich_Rahn
+    - uri: https://judoencyclopedia.jimdofree.com/internationalization-diffusion-of-judo/

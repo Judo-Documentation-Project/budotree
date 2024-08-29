@@ -23,8 +23,8 @@ person:
       uri: https://www.ubu.pt/home/professores/p1/https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
       cite: "Mestre António Corrêa Pereira (1906-1982) -UBU"
   teachers:
-    - id:
-      style_id:
+    - id: JDP-109
+      style_id: JDP-S-14
       place:
       quality:
       period:
