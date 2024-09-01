@@ -361,6 +361,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //    layoutOptions["name"]="elk";
   //    layoutOptions["elk"]["algorithm"] = "stress";
 
+  cy.nodes().unselect();
   if (urlParams.get("id") && cy.getElementById(urlParams.get("id")).isNode()) {
     cy.getElementById(urlParams.get("id")).select();
   } else {
