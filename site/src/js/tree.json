@@ -349,6 +349,129 @@
       },
       {
         "data": {
+          "id": "JDP-100",
+          "name": "Vladimir Putin",
+          "native_name": {
+            "name": "Влади́мир Влади́мирович Пу́тин",
+            "lang": "ru"
+          },
+          "nationality": [
+            "SUN",
+            "RUS"
+          ],
+          "birth": {
+            "date": "1952-10-07",
+            "location": "Leningrad",
+            "country_code": "SUN"
+          },
+          "death": {
+            "date": null,
+            "location": null,
+            "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/putin_202408/putin.png",
+            "source": {
+              "uri": "https://judo.ru/news/4783",
+              "cite": "С днем рожденья! (ФЕДЕРАЦИЯ ДЗЮДО РОССИИ)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-99",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1964,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://judo.ru/news/4707",
+                  "citation": "В 1964 году набрал первую группу юношей, среди которых были Аркадий Ротенберг, Валентин Степанов, Николай Кононов, Василий Шестаков, Владимир Путин.",
+                  "cite": "Утрата"
+                }
+              ]
+            },
+            {
+              "id": "JDP-99",
+              "style_id": "JDP-S-15",
+              "place": null,
+              "period": {
+                "start": 1964,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://vecherka-spb.ru/2023/08/08/chestnoe-i-dobrosovestnoe-otnoshenie-k-delu-kakim-bil-anatolii-rakhlin--lichnii-trener-vladimira-putina-",
+                  "citation": "Хорошо помню, как Анатолий Соломонович проводил отбор в секцию самбо. Нужно было подтянуться — кто сколько сможет.",
+                  "cite": "Вечерний Санкт-Петербург"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-15",
+              "org": null,
+              "teacher": null,
+              "rank": "Master of Sports",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "http://en.putin.kremlin.ru/interests/page-0",
+                  "citation": "Putin is also multiple champion of St Petersburg in Sambo and Master of Sports in Sambo"
+                }
+              ],
+              "style": "Sambo",
+              "style_native": {
+                "name": "сaмбо",
+                "lang": "ru"
+              }
+            },
+            {
+              "style_id": "JDP-S-1",
+              "org": "EJU",
+              "teacher": null,
+              "rank": "8 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.eju.net/8th-dan-attributed-to-vladimir-putin/",
+                  "cite": "8th Dan attributed to Vladimir Putin (European Judo Union)",
+                  "citation": "Following the festivities of the 60th anniversary of the International Judo Federation, celebrated last year in Paris on the occasion of the World Championships, the IJF had the honor of awarding the 8th dan to Vladimir Putin, President of the Russian Federation, who was also celebrating his 60th birthday on the 7th of october."
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+              "cite": "Путин, Владимир Владимирович — Википедия"
+            },
+            {
+              "uri": "https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/",
+              "cite": "Anatoliy Rakhlin: Person, Teacher, Coach | International SAMBO Federation (FIAS)"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q15088978",
+              "cite": "Wikidata"
+            }
+          ],
+          "source_yaml": "database/persons/SUN/Vladimir_Putin.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-97",
           "name": "Vasili Oshchepkov",
           "native_name": {
@@ -388,8 +511,7 @@
               "sources": [
                 {
                   "uri": "https://oca.asia/sports/info/15/58/",
-                  "citation": "Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro.",
-                  "cite": "\n    Sambo\n"
+                  "citation": "Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro."
                 },
                 {
                   "uri": "https://en.wikipedia.org/wiki/Vasili_Oshchepkov",
@@ -439,16 +561,13 @@
               "cite": "Vasili Oshchepkov - Wikipedia"
             },
             {
-              "uri": "https://www.rbth.com/arts/2015/05/30/vasily_oshchepkov_the_founder_of_sambo_46477.html",
-              "cite": "Vasily Oshchepkov: The founder of sambo - Russia Beyond"
+              "uri": "https://www.rbth.com/arts/2015/05/30/vasily_oshchepkov_the_founder_of_sambo_46477.html"
             },
             {
-              "uri": "https://oca.asia/sports/info/15/58/",
-              "cite": "\n    Sambo\n"
+              "uri": "https://oca.asia/sports/info/15/58/"
             },
             {
-              "uri": "https://ru.wikipedia.org/wiki/%D0%9E%D1%89%D0%B5%D0%BF%D0%BA%D0%BE%D0%B2,_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87",
-              "cite": "Ощепков, Василий Сергеевич — Википедия"
+              "uri": "https://ru.wikipedia.org/wiki/%D0%9E%D1%89%D0%B5%D0%BF%D0%BA%D0%BE%D0%B2,_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87"
             }
           ],
           "links": [
@@ -505,8 +624,7 @@
               "sources": [
                 {
                   "uri": "https://judo.ru/news/9889",
-                  "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов",
-                  "cite": "Юбилей основоположника"
+                  "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
                 }
               ]
             },
@@ -522,13 +640,11 @@
               "sources": [
                 {
                   "uri": "https://judo.ru/news/9889",
-                  "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов",
-                  "cite": "Юбилей основоположника"
+                  "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
                 },
                 {
                   "uri": "https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie",
-                  "citation": "Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.",
-                  "cite": "В день 125-летия со дня рождения..."
+                  "citation": "Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин."
                 }
               ]
             }
@@ -544,15 +660,220 @@
           ],
           "sources": [
             {
-              "uri": "https://judo.ru/news/9889",
-              "cite": "Юбилей основоположника"
+              "uri": "https://judo.ru/news/9889"
             },
             {
-              "uri": "https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie",
-              "cite": "В день 125-летия со дня рождения..."
+              "uri": "https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie"
             }
           ],
           "source_yaml": "database/persons/SUN/Sergei_Dashkevich.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-101",
+          "name": "Anatoly Kharlampiyev",
+          "native_name": {
+            "name": "Анато́лий Арка́дьевич Харла́мпиев",
+            "lang": "ru"
+          },
+          "nationality": [
+            "RUS",
+            "SUN"
+          ],
+          "birth": {
+            "date": "1906-10-29",
+            "location": "Smolensk",
+            "country_code": "RUS"
+          },
+          "death": {
+            "date": "1979-04-16",
+            "location": "Moscow",
+            "country_code": "SUN"
+          },
+          "photo": {
+            "url": "https://archive.org/download/kharlampiyev/kharlampiyev.jpeg",
+            "source": {
+              "uri": "https://dzen.ru/a/YgYnw0IeDT93JdjX"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-97",
+              "style_id": "JDP-S-1",
+              "place": "State Central Order of Lenin Institute of Physical Culture",
+              "period": {
+                "start": 1931,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+                  "citation": "В 1936 г. окончил Государственный центральный ордена Ленина институт физической культуры (отделение дзюдо Василия Сергеевича Ощепкова)[...]Создавая «систему самбо», Харлампиев тщательно изучал дзюдо и осваивал его на практике. В дзюдо он видел основание нового вида борьбы в одежде, обогащённого наиболее эффективными приёмами других видов борьбы. Дзюдо он осваивал под руководством Василия Сергеевича Ощепкова, который во время многолетнего пребывания в Японии тренировался в школе дзюдо Кодокан."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-15",
+              "org": "Soviet Union",
+              "teacher": null,
+              "rank": "Honored Master of Sports of the USSR",
+              "date": 1947,
+              "sources": [
+                {
+                  "uri": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+                  "citation": "Заслуженный мастер спорта СССР (1947)"
+                }
+              ],
+              "style": "Sambo",
+              "style_native": {
+                "name": "сaмбо",
+                "lang": "ru"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Anatoly_Kharlampiyev"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q3615112",
+              "cite": "Wikidata"
+            },
+            {
+              "uri": "https://dbpedia.org/page/Anatoly_Kharlampiyev",
+              "cite": "DBpedia"
+            }
+          ],
+          "source_yaml": "database/persons/SUN/Anatoly_Kharlampiyev.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-99",
+          "name": "Anatoliy Rakhlin",
+          "native_name": {
+            "name": "Анато́лий Соломо́нович",
+            "lang": "ru"
+          },
+          "nationality": [
+            "SUN",
+            "RUS"
+          ],
+          "birth": {
+            "date": "1938-05-23",
+            "location": "Leningrad",
+            "country_code": "SUN"
+          },
+          "death": {
+            "date": "2013-08-07",
+            "location": "Saint Petersburg",
+            "country_code": "RUS"
+          },
+          "photo": {
+            "url": "https://archive.org/download/raxlin-5/Raxlin5.jpg",
+            "source": {
+              "uri": "https://ekogradmoscow.ru/sreda/ekologija-kultury/sensej-dlya-prezidenta-anatolij-solomonovich-rakhlin",
+              "cite": "Сенсей для президента - Анатолий Соломонович Рахлин ('ЭКОГРАД+')"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-98",
+              "style_id": "JDP-S-15",
+              "place": "Leningrad Palace of the Pioneers",
+              "period": {
+                "start": 1955,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/",
+                  "citation": "In 1953 he started taking SAMBO classes in the Palace of the Pioneers under the guidance of a highly experienced wrestler S. Dashkevich, a wrestling partner of Ivan Poddubny himself.",
+                  "cite": "Anatoliy Rakhlin: Person, Teacher, Coach | International SAMBO Federation (FIAS)"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-15",
+              "org": "Soviet Union",
+              "teacher": null,
+              "rank": "Master of Sports of the USSR",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://fondsambo.ru/news/detail.php?ELEMENT_ID=26984",
+                  "citation": "11 лет занятий с Анатолием Соломоновичем помогли будущему политическому лидеру России стать мастером спорта сначала по самбо, а потом по дзюдо.  Владимир Путин приглашал Анатолия Рахлина на значимые события своей жизни – от дней рождений до президентских инаугураций. Такие отношения можно без преувеличения назвать дружескими."
+                }
+              ],
+              "style": "Sambo",
+              "style_native": {
+                "name": "сaмбо",
+                "lang": "ru"
+              }
+            },
+            {
+              "style_id": "JDP-S-1",
+              "org": null,
+              "teacher": null,
+              "rank": "8 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/",
+                  "cite": "Anatoliy Rakhlin: person, teacher, coack (International Sambo Federation)",
+                  "citation": "On August 7, 2013 in Saint Petersburg (Russia) after extended illness died Anatoliy Rakhlin, Honorary Coach of the Russian Federation, holder of the 8th dan rank in judo."
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%85%D0%BB%D0%B8%D0%BD,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B8%D1%87"
+            },
+            {
+              "uri": "https://rus.team/people/rakhlin-anatolij-solomonovich"
+            },
+            {
+              "uri": "https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/",
+              "cite": "Anatoliy Rakhlin: Person, Teacher, Coach | International SAMBO Federation (FIAS)"
+            },
+            {
+              "uri": "https://www.kino-teatr.ru/kino/stuntman/sov/409209/bio/"
+            },
+            {
+              "uri": "https://ria.ru/20130807/954840950.html"
+            },
+            {
+              "uri": "https://web.archive.org/web/20120329141858/http://www.mir-judo.ru/territory/index.php?ELEMENT_ID=1380#"
+            },
+            {
+              "uri": "https://www.lechaim.ru/ARHIV/258/kadish.htm"
+            }
+          ],
+          "links": [
+            {
+              "uri": "https://www.wikidata.org/wiki/Q15088978",
+              "cite": "Wikidata"
+            }
+          ],
+          "source_yaml": "database/persons/SUN/Anatoliy_Rakhlin.yaml"
         }
       },
       {
@@ -648,20 +969,16 @@
           ],
           "sources": [
             {
-              "uri": "https://www.nunodelgado.net/nuno-delgado",
-              "cite": "Nuno Delgado – Nuno Delgado"
+              "uri": "https://www.nunodelgado.net/nuno-delgado"
             },
             {
-              "uri": "https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704",
-              "cite": "Nuno Delgado: «Quero inspirar cada vez mais crianças»  - Jogo da Vida - Jornal Record"
+              "uri": "https://www.record.pt/jogo-da-vida/detalhe/nuno-delgado-quero-inspirar-cada-vez-mais-criancas-857704"
             },
             {
-              "uri": "https://pt.wikipedia.org/wiki/Nuno_Delgado",
-              "cite": "Nuno Delgado – Wikipédia, a enciclopédia livre"
+              "uri": "https://pt.wikipedia.org/wiki/Nuno_Delgado"
             },
             {
-              "uri": "https://en.wikipedia.org/wiki/Nuno_Delgado",
-              "cite": "Nuno Delgado - Wikipedia"
+              "uri": "https://en.wikipedia.org/wiki/Nuno_Delgado"
             }
           ],
           "links": [
@@ -745,8 +1062,7 @@
               "uri": "https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3"
             },
             {
-              "uri": "https://cdmc.marista-carcavelos.org/judo/",
-              "cite": "Judo – Colégio Marista de Carcavelos – Maristas Compostela"
+              "uri": "https://cdmc.marista-carcavelos.org/judo/"
             }
           ],
           "source_yaml": "database/persons/PRT/Mario_Aguilar.yaml"
@@ -798,8 +1114,7 @@
                 },
                 {
                   "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
-                  "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta.",
-                  "cite": "ENTREVISTA – Viagem ao mundo dos homens bons – Judo MAGAZINE"
+                  "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta."
                 }
               ]
             },
@@ -876,16 +1191,13 @@
               "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html"
             },
             {
-              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/",
-              "cite": "Clube de Judo do Porto faz 50 anos mas continua jovem"
+              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/"
             },
             {
-              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
-              "cite": "ENTREVISTA – Viagem ao mundo dos homens bons – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
             },
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/Manuel_Reis.yaml"
@@ -976,27 +1288,22 @@
           ],
           "sources": [
             {
-              "uri": "https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/",
-              "cite": "Dr. Luís Franco Pires Martins (1925-2003) - União Portuguesa de Budo"
+              "uri": "https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/"
             },
             {
-              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR JOS� ARA�JO"
+              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm"
             },
             {
               "uri": "https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf"
             },
             {
-              "uri": "https://repositorio.ipv.pt/handle/10400.19/448",
-              "cite": "Repositório Científico do Instituto Politécnico de Viseu: A Institucionalização do Karaté - Os Modelos Organizacionais do Karaté em Portugal"
+              "uri": "https://repositorio.ipv.pt/handle/10400.19/448"
             },
             {
-              "uri": "https://mestremanuelceia.webnode.pt/memorias/",
-              "cite": "Memórias :: Mestre Manuel de Magalhães e Silva Ceia"
+              "uri": "https://mestremanuelceia.webnode.pt/memorias/"
             },
             {
-              "uri": "http://pks.pt/ROP1.php",
-              "cite": "PKS - Associação Portugal Karate-Do Shotokai"
+              "uri": "http://pks.pt/ROP1.php"
             }
           ],
           "notes": "As relações de aprendizagem entre os membros fundadores da UBU não\nsão claras, provavelmente apenas por não serem tópico que é\nexpressamente dito nas fontes, mas também provavelmente pela\ndinâmica de grande voluntarismo e inovação que caracterizam uma\norganização que foi pioneira. Uma leitura transversal das várias\nfontes apontam para relações de aprendizagem mútua, com posterior\nvalidação/homologação em alguns casos (como no do Karate).  Assim,\na identificação das relações aluno/professor provavelmente\ndemonstrarão uma relação em rede, sendo que a figura de Corrêa\nPereira se apresenta como agregadora, mesmo não sendo na maior\nparte das vezes claro a influência directa (em termos de treino)\nque existiu, em especial a partir do final dos anos 50.  Isto é\nparticularmente aplicável ao Judo (e jujutsu), visto que para o\nAikido e Karate a evolução posterior na UBU permitem leituras mais\nconcretas. Sobre o Judo, antes de Shirooka não é claro quem faz a\ninstrução, assumindo-se que Corrêa Pereira é uma das fontes (e.g.,\na demonstração com Sebastião Durão).\n",
@@ -1096,12 +1403,10 @@
           ],
           "sources": [
             {
-              "uri": "https://www.ubu.pt/home/professores/mestre-luis-fernando/",
-              "cite": "Mestre Leopoldo Ferreira - União Portuguesa de Budo"
+              "uri": "https://www.ubu.pt/home/professores/mestre-luis-fernando/"
             },
             {
-              "uri": "https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm",
-              "cite": "ENTREVISTA AO PROFESSOR LEOPOLDO FERREIRA"
+              "uri": "https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm"
             },
             {
               "uri": "https://www.fpaikido.pt/sites/default/files/docs/HistoPt%20-%20atualizacao%20MSendim.pdf"
@@ -1189,12 +1494,10 @@
           ],
           "sources": [
             {
-              "uri": "https://judomagazine.pt/2021/07/04/1980-moscovo/",
-              "cite": "1980,  Moscovo – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2021/07/04/1980-moscovo/"
             },
             {
-              "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/",
-              "cite": "JOSÉ BRANCO, OLÍMPICO E CAMPEÃO DE JUDO E DE TIRO | THE DELAGOA BAY COMPANY"
+              "uri": "https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/"
             },
             {
               "uri": "https://archive.is/cMx9V"
@@ -1353,12 +1656,10 @@
           ],
           "sources": [
             {
-              "uri": "https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/",
-              "cite": "Mestre José Manuel Araújo - União Portuguesa de Budo"
+              "uri": "https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/"
             },
             {
-              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR JOS� ARA�JO"
+              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/José_Araújo.yaml"
@@ -1457,16 +1758,13 @@
           ],
           "sources": [
             {
-              "uri": "https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/",
-              "cite": "REPORTAGEM – No “santuário” com Henrique Nunes (1) – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/"
             },
             {
-              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381",
-              "cite": "Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ - YouTube"
+              "uri": "https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381"
             },
             {
-              "uri": "https://judolandia.tripod.com/hnunes.htm",
-              "cite": "Henrique Nunes"
+              "uri": "https://judolandia.tripod.com/hnunes.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/Henrique_Nunes.yaml"
@@ -1541,16 +1839,13 @@
           ],
           "sources": [
             {
-              "uri": "https://www.ubu.pt/home/professores/prof-doutor-antonio-fragoso-fernandes/",
-              "cite": "Prof. Doutor António Fragoso Fernandes - União Portuguesa de Budo"
+              "uri": "https://www.ubu.pt/home/professores/prof-doutor-antonio-fragoso-fernandes/"
             },
             {
-              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR JOS� ARA�JO"
+              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm"
             },
             {
-              "uri": "https://sites.google.com/campus.ul.pt/df-flul/professores/mem%C3%B3ria",
-              "cite": "DF-FLUL - Memória"
+              "uri": "https://sites.google.com/campus.ul.pt/df-flul/professores/mem%C3%B3ria"
             }
           ],
           "source_yaml": "database/persons/PRT/Fragoso_Fernandes.yaml"
@@ -1593,8 +1888,7 @@
               "sources": [
                 {
                   "uri": "https://judomagazine.pt/2024/01/23/mestre-ze-manel/",
-                  "citation": "Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo",
-                  "cite": "Mestre Zé Manel – Judo MAGAZINE"
+                  "citation": "Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo"
                 }
               ]
             }
@@ -1622,16 +1916,13 @@
           ],
           "sources": [
             {
-              "uri": "https://www.judokai.pt/judokai/mestres-treinadores-e-graduados/",
-              "cite": "Mestres, Treinadores e Graduados | Judokai"
+              "uri": "https://www.judokai.pt/judokai/mestres-treinadores-e-graduados/"
             },
             {
-              "uri": "https://site.judototal.com/seccao/treinadores-e-cintos-negros",
-              "cite": "Clube Judo Total"
+              "uri": "https://site.judototal.com/seccao/treinadores-e-cintos-negros"
             },
             {
-              "uri": "https://judobeirainterior.blogspot.com/2011/04/",
-              "cite": "judo beira interior: abril 2011"
+              "uri": "https://judobeirainterior.blogspot.com/2011/04/"
             }
           ],
           "source_yaml": "database/persons/PRT/Fernando_Seabra.yaml"
@@ -1728,12 +2019,10 @@
               "uri": "https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/"
             },
             {
-              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
-              "cite": "Mestre Carlos Portas | brpd"
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv"
             },
             {
-              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR CARLOS PORTAS"
+              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/Fernando_Sarmento.yaml"
@@ -1822,16 +2111,13 @@
               "uri": "http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf"
             },
             {
-              "uri": "https://judolandia.tripod.com/costamatos-bi.htm",
-              "cite": "Costa Matos"
+              "uri": "https://judolandia.tripod.com/costamatos-bi.htm"
             },
             {
-              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
-              "cite": "ENTREVISTA – Viagem ao mundo dos homens bons – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
             },
             {
-              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/",
-              "cite": "ENTREVISTA – Fernando Costa Matos, um velejador-navegador de judogi (1) – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/"
             }
           ],
           "source_yaml": "database/persons/PRT/Fernando_Costa_Matos.yaml",
@@ -1907,12 +2193,10 @@
               "uri": "https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/"
             },
             {
-              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv",
-              "cite": "Mestre Carlos Portas | brpd"
+              "uri": "https://aikidomdc.wixsite.com/brpd/untitled-c1nrv"
             },
             {
-              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR CARLOS PORTAS"
+              "uri": "https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/Carlos_Portas.yaml"
@@ -1965,12 +2249,10 @@
           ],
           "sources": [
             {
-              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm",
-              "cite": "ENTREVISTA AO PROFESSOR JOS� ARA�JO"
+              "uri": "https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm"
             },
             {
-              "uri": "https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm",
-              "cite": "ENTREVISTA AO PROFESSOR LEOPOLDO FERREIRA"
+              "uri": "https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm"
             }
           ],
           "source_yaml": "database/persons/PRT/Carlos_Pereira.yaml"
@@ -2114,8 +2396,7 @@
           ],
           "sources": [
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             },
             {
               "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html"
@@ -2216,8 +2497,7 @@
               "uri": "https://www.olympedia.org/athletes/34295"
             },
             {
-              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/",
-              "cite": "ENTREVISTA – Fernando Costa Matos, um velejador-navegador de judogi (1) – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/"
             }
           ],
           "links": [
@@ -2267,8 +2547,8 @@
           },
           "teachers": [
             {
-              "id": null,
-              "style_id": null,
+              "id": "JDP-109",
+              "style_id": "JDP-S-14",
               "place": null,
               "quality": null,
               "period": {
@@ -2310,8 +2590,7 @@
               "uri": "https://www.ubu.pt/home/historia/"
             },
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             }
           ],
           "notes": "As relações de aprendizagem entre os membros fundadores da UBU não\nsão claras, provavelmente apenas por não serem tópico que é\nexpressamente dito nas fontes, mas também provavelmente pela\ndinâmica de grande voluntarismo e inovação que caracterizam uma\norganização que foi pioneira. Uma leitura transversal das várias\nfontes apontam para relações de aprendizagem mútua, com posterior\nvalidação/homologação em alguns casos (como no do Karate).  Assim,\na identificação das relações aluno/professor provavelmente\ndemonstrarão uma relação em rede, sendo que a figura de Corrêa\nPereira se apresenta como agregadora, mesmo não sendo na maior\nparte das vezes claro a influência directa (em termos de treino)\nque existiu, em especial a partir do final dos anos 50.  Isto é\nparticularmente aplicável ao Judo (e jujutsu), visto que para o\nAikido e Karate a evolução posterior na UBU permitem leituras mais\nconcretas. Sobre o Judo, antes de Shirooka não é claro quem faz a\ninstrução, assumindo-se que Corrêa Pereira é uma das fontes (e.g.,\na demonstração com Sebastião Durão). O 1º dan Kodokan é dado como\natribuido na Alemanha (Figueiredo 2006), em entrevista Luis\nAntunes indica que Corrêa Pereira treinou Jujutsu em Berlim com\nEric Rahm.\n",
@@ -2540,8 +2819,7 @@
           ],
           "sources": [
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             },
             {
               "uri": "https://www.fcmjudo.pt/Socioshonorarios.html"
@@ -2626,6 +2904,92 @@
           ],
           "source_yaml": "database/persons/JPN/Yokoyama_Sakujiro.yaml",
           "photo_url_local": "images/cache/3326476096b40cabee471bb36cde6755.jpg"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-105",
+          "name": "Yano Takeo",
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1909",
+            "location": null,
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1988",
+            "location": "Belo Horizonte",
+            "country_code": "BRA"
+          },
+          "photo": {
+            "url": "https://archive.org/download/yano_20240827/yano.png",
+            "source": {
+              "uri": "https://simonbjj.com/takeo-yano",
+              "cite": "Takeo Yano in a pre-fight publicity photo (Simon BJJ)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-43",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://simonbjj.com/takeo-yano",
+                  "cite": "The Eastern Demon, Takeo Yano (Simon BJJ)",
+                  "citation": "There is not much information known about Takeo Yano, but it is believed he may have been born in 1909 and trained at the Dai Nippon Butoko Kai academy in Kioto under famed Judoka, Hajime Isogai."
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Dai Nippon Butoku Kai",
+              "teacher": null,
+              "rank": "3 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://simonbjj.com/takeo-yano",
+                  "cite": "The Eastern Demon, Takeo Yano (Simon BJJ)",
+                  "citation": " Yano trained at the academy until he received his 3rd dan and then began travelling internationally."
+                },
+                {
+                  "uri": "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php",
+                  "cite": "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte",
+                  "citation": "A Marinha há muito contratou um japonês, Yano, 3º dan, como instrutor para a prática do judô japonês para os soldados"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Takeo_Yano"
+            },
+            {
+              "uri": "https://simonbjj.com/takeo-yano"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Yano_Takeo.yaml"
         }
       },
       {
@@ -2776,8 +3140,7 @@
               "uri": "https://www.fcmjudo.pt/visitantes.html"
             },
             {
-              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/",
-              "cite": "Clube de Judo do Porto faz 50 anos mas continua jovem"
+              "uri": "https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/"
             }
           ],
           "source_yaml": "database/persons/JPN/Yamamoto_Nobuaki.yaml"
@@ -4117,6 +4480,9 @@
           "aka": [
             {
               "name": "Antônio Satake"
+            },
+            {
+              "name": "Nobushiro Satake"
             }
           ],
           "nationality": [
@@ -4136,24 +4502,25 @@
           "photo_url": "https://2.bp.blogspot.com/_NjSHIRBuf3Y/S84w0kJnWrI/AAAAAAAABrg/eFg_AlSH4Cw/s1600/Nobushiro_Satake.jpg",
           "teachers": [
             {
-              "id": "JDP-17",
-              "style_id": "JDP-S-1",
-              "place": "Kodokan",
-              "period": {
-                "start": null,
-                "end": null
-              },
-              "quality": 2
-            },
-            {
-              "id": "JDP-1",
+              "id": "JDP-9",
               "style_id": "JDP-S-1",
               "place": null,
               "period": {
-                "start": 1917,
+                "start": 1892,
                 "end": null
               },
-              "quality": null
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://simonbjj.com/satake",
+                  "cite": "The Sumo wrestle who taught BJJ, Soshiro Satake",
+                  "citation": "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
+                },
+                {
+                  "uri": "https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E4%BF%A1%E5%9B%9B%E9%83%8E",
+                  "citation": "1892年（明治25年）5月に講道館に入門"
+                }
+              ]
             }
           ],
           "rank": [
@@ -4178,10 +4545,7 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
-              "uri": "https://www.faddabjj.com/historia-fadda"
-            },
-            {
-              "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+              "uri": "https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda"
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
@@ -4336,6 +4700,97 @@
             }
           ],
           "source_yaml": "database/persons/JPN/Oshima_Masateru.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-103",
+          "name": "Geo Omori",
+          "native_name": {
+            "name": "大森 城司",
+            "lang": "ja"
+          },
+          "aka": [
+            "Jyoji Omori"
+          ],
+          "nationality": [
+            "BRA",
+            "JPN"
+          ],
+          "birth": {
+            "date": "1898",
+            "location": "Tokyo",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1938-03-02",
+            "location": "Belo Horizonte",
+            "country_code": "BRA"
+          },
+          "photo": {
+            "url": "https://archive.org/download/geo-omori/geo-omori.jpg",
+            "source": {
+              "uri": "https://forum.bjjforum.com.br/",
+              "cite": "BJJ Forum"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-104",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 153",
+                  "citation": "Foi discípulo de um dos maiores lutadores do Kodokan, Tokugoro Ito"
+                },
+                {
+                  "uri": "https://en.wikipedia.org/wiki/Geo_Omori",
+                  "citation": "He learned under Tokugoro Ito and was a training partner of the famed Sanpo Toku"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": null,
+              "teacher": null,
+              "rank": "2 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php",
+                  "cite": "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte",
+                  "citation": "Geo Omori 2º dan não oficial"
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://en.wikipedia.org/wiki/Geo_Omori"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Omori_Jyoji.yaml"
         }
       },
       {
@@ -5135,6 +5590,80 @@
       },
       {
         "data": {
+          "id": "JDP-107",
+          "name": "Miyako Sada",
+          "native_name": {
+            "name": "三浦鑿",
+            "lang": "ja"
+          },
+          "aka": [
+            "Miura Saku"
+          ],
+          "nationality": [
+            "BRA",
+            "JPN"
+          ],
+          "birth": {
+            "date": "1881",
+            "location": "Ehime",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1945-10-26",
+            "location": "Tokyo",
+            "country_code": "JPN"
+          },
+          "photo": {
+            "url": "https://archive.org/download/sada_miyako/sada_miyako.jpg",
+            "source": {
+              "uri": "https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html",
+              "cite": "100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)"
+            }
+          },
+          "teachers": [
+            {
+              "id": null,
+              "style_id": null,
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": 2,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2009/10/capoeira-vs-jujutsu.html"
+            },
+            {
+              "uri": "https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html"
+            },
+            {
+              "uri": "https://cenb.org.br/articles/display/240"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "location": "vol. II, p. 100"
+            },
+            {
+              "uri": "https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Miura_Saku.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-11",
           "name": "Mifune Kyūzō",
           "native_name": {
@@ -5500,14 +6029,26 @@
               }
             },
             {
-              "id": "JDP-17",
+              "id": "JDP-9",
               "style_id": "JDP-S-1",
               "place": "Kodokan",
-              "quality": null,
+              "quality": 1,
               "period": {
-                "start": 1896,
+                "start": 1897,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E",
+                  "cite": "横山作次郎 (ウィキペディア)",
+                  "citation": "また、三船久蔵や前田光世の師匠としても知られる"
+                },
+                {
+                  "uri": "https://simonbjj.com/satake",
+                  "cite": "The Sumo wrestle who taught BJJ, Soshiro Satake",
+                  "citation": "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
+                }
+              ]
             }
           ],
           "rank": [
@@ -6325,6 +6866,91 @@
       },
       {
         "data": {
+          "id": "JDP-104",
+          "name": "Itō Tokugorō",
+          "native_name": {
+            "name": "伊藤 徳五郎",
+            "lang": "ja"
+          },
+          "nationality": [
+            "JPN"
+          ],
+          "birth": {
+            "date": "1878",
+            "location": "Misato, Akita",
+            "country_code": "JPN"
+          },
+          "death": {
+            "date": "1939",
+            "location": null,
+            "country_code": "JPN"
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/en/5/5c/Ito_PI_nov_6_1909jpg.JPG",
+            "source": {
+              "uri": "https://en.wikipedia.org/wiki/Tokugoro_Ito#/media/File:Ito_PI_nov_6_1909jpg.JPG",
+              "cite": "Tokugoro Ito appeared in the Seattle Post-Intelligencer on November 6, 1909 (Wikipedia)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-1",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf",
+                  "cite": "Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning Promotion Headquarters, December 15, 2008",
+                  "location": "pp. 31-32"
+                },
+                {
+                  "uri": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E",
+                  "citation": "中退後は講道館で嘉納治五郎門下となって磯貝一・徳三宝・三船久蔵らと共に柔道に励んだ"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-1",
+              "org": "Kodokan",
+              "teacher": null,
+              "rank": "5 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://www.attacktheback.com/catch-wrestling/",
+                  "citation": "One of the first major intercultural clashes of the 20th century in martial arts, between the American wrestler Ad Santel and the Japanese Tokugoro Ito, black belt judo of the fifth degree."
+                }
+              ],
+              "style": "Kōdōkan Jūdō",
+              "style_native": {
+                "name": "講道館柔道",
+                "lang": "ja"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://www.attacktheback.com/catch-wrestling/"
+            }
+          ],
+          "source_yaml": "database/persons/JPN/Ito_Tokugoro.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-34",
           "name": "Ito Tanekichi",
           "native_name": {
@@ -6826,8 +7452,7 @@
               "uri": "https://orca.cardiff.ac.uk/id/eprint/136518/"
             },
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             }
           ],
           "source_yaml": "database/persons/JPN/Hirano_Yuzo.yaml"
@@ -7672,8 +8297,7 @@
               "uri": "https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf"
             },
             {
-              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
-              "cite": "ENTREVISTA – Viagem ao mundo dos homens bons – Judo MAGAZINE"
+              "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/"
             },
             {
               "uri": "http://clubejudoporto.weebly.com/os-nossos-fundadores.html"
@@ -7785,8 +8409,7 @@
           ],
           "sources": [
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             }
           ],
           "source_yaml": "database/persons/FRA/Henri_Bouchend_Homme.yaml"
@@ -7856,6 +8479,144 @@
       },
       {
         "data": {
+          "id": "JDP-109",
+          "name": "Erich Rahn",
+          "nationality": [
+            "DEU"
+          ],
+          "birth": {
+            "date": "1885-05-01",
+            "location": "Berlin",
+            "country_code": "DEU"
+          },
+          "death": {
+            "date": "1973-07-05",
+            "location": "Berlin",
+            "country_code": "DEU"
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Bundesarchiv_Bild_102-12574%2C_Berlin%2C_Jiu-Jitsu-Schule.jpg",
+            "source": {
+              "uri": "https://de.wikipedia.org/wiki/Erich_Rahn#/media/Datei:Bundesarchiv_Bild_102-12574,_Berlin,_Jiu-Jitsu-Schule.jpg",
+              "cite": "Erich Rahn (below) performing an overhead throw (Tomoe-nage), November 1931 (Wikipedia)"
+            }
+          },
+          "teachers": [
+            {
+              "name": "Higashi",
+              "style_id": "JDP-S-14",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://de.wikipedia.org/wiki/Erich_Rahn"
+            },
+            {
+              "uri": "https://judoencyclopedia.jimdofree.com/internationalization-diffusion-of-judo/"
+            }
+          ],
+          "source_yaml": "database/persons/DEU/Erich_Rahn.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-106",
+          "name": "Oswaldo Fadda",
+          "aka": [
+            {
+              "name": "Oswaldo Baptista Fadda"
+            }
+          ],
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": "1920-08-01",
+            "location": "Rio de Janeiro",
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": "2005-04-01",
+            "location": "Rio de Janeiro",
+            "country_code": "BRA"
+          },
+          "photo": {
+            "url": "https://archive.org/download/oswaldo_fadda/oswaldo_fadda.jpeg",
+            "source": {
+              "uri": "https://www.portaldovaletudo.com.br/fadda-e-paiva-explicam-origem-do-sapateiro-e-principais-linhagens-do-jiu-jitsu-do-suburbio-carioca/",
+              "cite": "Oswaldo Fadda (Portal do Vale Tudo)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-20",
+              "style_id": "JDP-S-16",
+              "place": "Academia França de Jiu-jitsu",
+              "period": {
+                "start": 1938,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 108",
+                  "citation": "Oswaldo Fadda começou a treinar com França por volta de 1938"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://bjjfanatics.com.br/blogs/news/oswaldo-fadda",
+                  "cite": "Oswaldo Fadda, Um Pioneiro na Democratização do Jiu Jitsu (BJJ Fanatics)",
+                  "citation": "Oswaldo Baptista Fadda, conhecido como “Mestre Fadda”, nascido 15 de janeiro de 1921 no Rio de Janeiro e falecido em 1 de abril de 2005, na mesma cidade. Fadda foi um Grande Mestre de Jiu Jitsu Brasileiro, chegando ao 9º grau (faixa vermelha), sendo o aluno mais talentoso de Luiz França, e dando continuidade ao legado de seu mestre, sendo um dos mais importantes nomes da linhagem de mestres da GF Team, como Julio Cesar e Baraúna."
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://pt.wikipedia.org/wiki/Oswaldo_Fadda"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://bjjfanatics.com.br/blogs/news/oswaldo-fadda"
+            },
+            {
+              "uri": "https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda"
+            }
+          ],
+          "source_yaml": "database/persons/BRA/Oswaldo_Fadda.yaml"
+        }
+      },
+      {
+        "data": {
           "id": "JDP-45",
           "name": "Mario Aleixo",
           "nationality": [
@@ -7878,10 +8639,36 @@
               "style_id": "JDP-S-1",
               "place": null,
               "period": {
-                "start": null,
+                "start": 1915,
                 "end": null
               },
-              "quality": null
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 1, p. 110",
+                  "citation": "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+                }
+              ]
+            },
+            {
+              "id": "JDP-107",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": 1909,
+                "end": null
+              },
+              "quality": 3,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 1, p. 110",
+                  "citation": "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+                }
+              ]
             }
           ],
           "rank": [
@@ -7906,6 +8693,11 @@
         "data": {
           "id": "JDP-20",
           "name": "Luis de França Filho",
+          "aka": [
+            {
+              "name": "Luiz França"
+            }
+          ],
           "nationality": [
             "BRA"
           ],
@@ -7926,20 +8718,76 @@
               "style_id": "JDP-S-1",
               "place": null,
               "period": {
-                "start": null,
+                "start": 1916,
                 "end": null
               },
-              "quality": 1
+              "quality": 1,
+              "sources": [
+                {
+                  "uri": "https://www.bjjheroes.com/bjj-fighters/luiz-franca",
+                  "cite": "BJJ Heroes: Luiz França",
+                  "citation": "There Satake settled for a while, opening his own academy in 1916, at the Atlético Clube Rio Negro, becoming the first Japanese to open a Judo/Jiu Jitsu academy in Brazil. This gym became the place where Luiz França started his life as a martial artist. Satake would also become a Brazilian citizen years later, and change his name to Antônio Soshihiro Satake."
+                },
+                {
+                  "uri": "https://www.facebook.com/photo.php?fbid=543032192445535&id=455479647867457&set=a.455593414522747",
+                  "cite": "Equipe Fadda Jiu-Jitsu (Facebook)",
+                  "citation": "Antigo aluno de Soishiro Satake e Mitsuyo Maeda, Luiz França foi o fundador da linhagem (não pertencente à família Gracie) de mais sucesso no Jiu-Jitsu, uma linhagem continuada especialmente através do trabalho efetuado pelo mais proeminente e capaz aluno de França, o Mestre Oswaldo Fadda, que mais tarde formaria a sua própria escola de talentosos alunos."
+                }
+              ]
             },
             {
               "id": "JDP-18",
               "style_id": "JDP-S-1",
-              "place": null,
+              "place": "Belém",
               "period": {
-                "start": 1917,
+                "start": 1929,
                 "end": null
               },
-              "quality": 2
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 106",
+                  "citation": "Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n Marinha, quando esteve em Belém ao serviço no navio Minas Gerais."
+                }
+              ]
+            },
+            {
+              "id": "JDP-103",
+              "style_id": "JDP-S-1",
+              "place": "Rio de Janeiro",
+              "period": {
+                "start": 1930,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 106",
+                  "citation": "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
+                }
+              ]
+            },
+            {
+              "id": "JDP-102",
+              "style_id": "JDP-S-16",
+              "place": "Rio de Janeiro",
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": 2,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 106",
+                  "citation": "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
+                }
+              ]
             }
           ],
           "rank": [
@@ -7965,10 +8813,7 @@
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
             },
             {
-              "uri": "https://www.amazon.com.br/MUITO-ANTES-MMA-precursores-CONSOLIDA%C3%87%C3%83O-ebook/dp/B084ZB3D3P"
-            },
-            {
-              "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
             }
           ],
           "source_yaml": "database/persons/BRA/Luis_de_França_Filho.yaml",
@@ -7983,14 +8828,20 @@
             "BRA"
           ],
           "birth": {
-            "date": null,
+            "date": 1881,
             "location": null,
             "country_code": "BRA"
           },
           "death": {
-            "date": null,
+            "date": 1929,
             "location": null,
             "country_code": null
+          },
+          "photo": {
+            "url": "https://archive.org/download/jacinto_ferro/jacinto_ferro.png",
+            "source": {
+              "uri": "https://simonbjj.com/ferro"
+            }
           },
           "teachers": [
             {
@@ -8001,7 +8852,20 @@
               "period": {
                 "start": 1915,
                 "end": null
-              }
+              },
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 89",
+                  "citation": "... Tenho [Maeda] os seguintes alunos aos quais deposito inteira confiança [...] Jacintho Ferro, Dr. Matheus Pereira, Guilherm de La Rocque, Raphael Gomes e Waldermar Gomes..."
+                },
+                {
+                  "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+                  "cite": "Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)",
+                  "citation": "as aulas eram dadas em uma academia que Maeda abriu em 1916,nos salões do Cine Teatro Moderno, localizado ao lado da Igreja de Nazaré, hoje uma praça, as aulas eram amplamente divulgadas nos ornais para quem quisesse aprender pagando.O primeiro aluno de Maeda foi o estivador Jacinto Ferro, ex-lutador de greco-romana, Jacinto foi instrutor de Maeda e ajudou a dar aulas para o Carlos Gracie."
+                }
+              ]
             }
           ],
           "rank": [
@@ -8018,10 +8882,183 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
+            },
+            {
+              "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
             }
           ],
           "source_yaml": "database/persons/BRA/Jacinto_Ferro.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-102",
+          "name": "Hélio Gracie",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": "1913-10-01",
+            "location": "Belém",
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": "2009-01-29",
+            "location": "Petrópolis",
+            "country_code": "BRA"
+          },
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/H%C3%A9lio_Gracie_%281952%29.tif/lossy-page1-800px-H%C3%A9lio_Gracie_%281952%29.tif.jpg",
+            "source": {
+              "uri": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie#/media/Ficheiro:H%C3%A9lio_Gracie_(1952).tif",
+              "cite": "Arquivo Nacional, 1952 (Hélio Gracie - Wikipedia)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-21",
+              "style_id": "JDP-S-16",
+              "place": null,
+              "period": {
+                "start": 1925,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 165",
+                  "citation": "... meu Jiu Jitsu era muito diferente do dele. O meu fôra aprendido há muitos anos com o meu irmão Carlos..."
+                },
+                {
+                  "uri": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie",
+                  "citation": "Observador, Hélio passou a acompanhar, dos seus treze aos dezesseis anos, as aulas ministradas por Carlos."
+                }
+              ]
+            },
+            {
+              "name": "George",
+              "style_id": "JDP-S-16",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol 3, p.91",
+                  "citation": "Hélio foi treinado por George para as suas primeiras lutas, antes deste romper com Carlos em 1934"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": "JDP-S-16",
+              "org": null,
+              "teacher": null,
+              "rank": "10 dan",
+              "date": null,
+              "sources": [
+                {
+                  "uri": "https://ge.globo.com/rj/serra-lagos-norte/noticia/2017/01/faixa-vermelha-lembra-ensinamentos-de-helio-gracie-oito-anos-apos-morte.html",
+                  "citation": "Hélio Gracie foi o último condecorado com a faixa vermelha 10º grau"
+                }
+              ],
+              "style": "Brazilian jiu-jitsu",
+              "style_native": {
+                "name": "Jiu-Jitsu brasileiro",
+                "lang": "pt"
+              }
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://bjjfanatics.com.br/blogs/news/helio-gracie-o-mestre-dos-mestres"
+            }
+          ],
+          "source_yaml": "database/persons/BRA/Hélio_Gracie.yaml"
+        }
+      },
+      {
+        "data": {
+          "id": "JDP-108",
+          "name": "George Gracie",
+          "nationality": [
+            "BRA"
+          ],
+          "birth": {
+            "date": "1911",
+            "location": null,
+            "country_code": "BRA"
+          },
+          "death": {
+            "date": "1986",
+            "location": null,
+            "country_code": "BRA"
+          },
+          "photo": {
+            "url": "https://archive.org/download/george_gracie/george_gracie.png",
+            "source": {
+              "uri": "https://www.instagram.com/historyofbjj/p/C6I-H-prJB3/",
+              "cite": "George Gracie (History of BJJ Instagram)"
+            }
+          },
+          "teachers": [
+            {
+              "id": "JDP-21",
+              "style_id": "JDP-S-1",
+              "place": null,
+              "period": {
+                "start": null,
+                "end": null
+              },
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2010/01/topico-bubishi.html",
+                  "cite": "Tópico Bubishi (Judo Tradicional Goshinjutsukan)",
+                  "citation": "...O que sabemos de fato é que, Maeda ensinou Judô a Carlos Gracie em virtude da afinidade com seu pai, Gastão Gracie. Carlos por sua vez ensinou a seus demais irmãos, em especial a Hélio Gracie. Neste ponto surgem duas teorias. A primeira alega que Maeda ensinou somente o judô de Jigoro Kano a Carlos, e esse o repassou a Hélio, que era o mais franzino dos Gracie, adaptando-o com grande enfoque no Ne-waza - técnicas de solo do judô, ponto central do Gracie jiu-jitsu ou brasilian jiu-jitsu. Para compensar seu biotipo, a partir dos ensinamentos de Carlos, Hélio aprimorou a parte de solo pelo uso do dispositivo de alavanca, dando-lhe a força extra que o mesmo não dispunha. A segunda teoria, apoiada pelos Gracies, fala que Maeda era, também, exímio praticante de Ju-jutsu tradicional e foi essa a arte que ensinou aos brasileiros. Porém, em uma recente entrevista, Hélio Gracie afirma que 'Carlos lutava judô', veja a entrevista http://www.youtube.com/watch?v=BG309oqVLb4"
+                }
+              ]
+            }
+          ],
+          "rank": [
+            {
+              "style_id": null,
+              "org": null,
+              "teacher": null,
+              "rank": null,
+              "date": null
+            }
+          ],
+          "sources": [
+            {
+              "uri": "https://www.bjjheroes.com/bjj-fighters/george-gracie-facts-and-bio"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "location": "vol III, p. 172"
+            },
+            {
+              "uri": "https://simonbjj.com/george-gracie"
+            }
+          ],
+          "source_yaml": "database/persons/BRA/George_Gracie.yaml"
         }
       },
       {
@@ -8041,16 +9078,31 @@
             "location": null,
             "country_code": null
           },
+          "photo": {
+            "url": "https://archive.org/download/donato/donato.png",
+            "source": {
+              "uri": "https://simonbjj.com/donato-pires",
+              "cite": "Donato Pires dos Reis, RJ, 1930"
+            }
+          },
           "teachers": [
             {
-              "id": "JDP-18",
+              "id": "JDP-19",
               "style_id": "JDP-S-1",
               "place": null,
               "period": {
-                "start": null,
+                "start": 1920,
                 "end": null
               },
-              "quality": 1
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 94",
+                  "citation": "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
+                }
+              ]
             }
           ],
           "rank": [
@@ -8068,6 +9120,12 @@
             },
             {
               "uri": "http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
+              "uri": "https://simonbjj.com/donato-pires"
             }
           ],
           "source_yaml": "database/persons/BRA/Donato_Pires_dos_reis.yaml"
@@ -8090,27 +9148,55 @@
             "location": "Petrópolis",
             "country_code": "BRA"
           },
-          "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg",
+          "photo": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg",
+            "source": {
+              "uri": "https://en.wikipedia.org/wiki/Carlos_Gracie#/media/File:Carlos_Gracie_(1951).tif",
+              "cite": "Imagem do Fundo Correio da Manhã (Carlos Gracie - Wikipedia)"
+            }
+          },
           "teachers": [
             {
               "id": "JDP-19",
               "style_id": "JDP-S-1",
               "place": null,
               "period": {
-                "start": null,
+                "start": 1916,
                 "end": null
               },
-              "quality": null
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol. 3, p. 94",
+                  "citation": "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
+                }
+              ]
             },
             {
               "id": "JDP-18",
               "style_id": "JDP-S-1",
-              "place": null,
+              "place": "Paysandu Sport Club",
               "period": {
-                "start": 1917,
+                "start": 1916,
                 "end": null
               },
-              "quality": 2
+              "quality": null,
+              "sources": [
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol 3, p.91",
+                  "citation": "...chefiada pelo competentissimo prof. Conde Koma. Aqui, depois de algumas demosntrações, organisou um gymnasio e eu [Carlos] fui um dos primeiros alunos [...] há registos que Maeda deu aulas, em 1916, no Paysandu Sport Club, em Belém, cidade onde Carlos residia com a sua família"
+                },
+                {
+                  "uri": "https://isbnsearch.org/isbn/9798639871030",
+                  "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+                  "location": "vol 3, p.93",
+                  "citation": "Fui aluno do célebre Conde Koma, no Pará [...] e nessa época Carlos Gracia também estava aprendendo"
+                }
+              ]
             }
           ],
           "rank": [
@@ -8127,6 +9213,9 @@
               "uri": "https://repositorio.ufsc.br/handle/123456789/103771"
             },
             {
+              "uri": "https://isbnsearch.org/isbn/9798639871030"
+            },
+            {
               "uri": "https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/"
             },
             {
@@ -8136,8 +9225,7 @@
               "uri": "https://pt.wikipedia.org/wiki/Carlos_Gracie"
             }
           ],
-          "source_yaml": "database/persons/BRA/Carlos_Gracie.yaml",
-          "photo_url_local": "images/cache/7dcf54e5389a877accaab66596b014d1.jpg"
+          "source_yaml": "database/persons/BRA/Carlos_Gracie.yaml"
         }
       },
       {
@@ -8272,8 +9360,7 @@
           ],
           "sources": [
             {
-              "uri": "https://judolandia.tripod.com/histport.htm",
-              "cite": "História do Judo em Portugal"
+              "uri": "https://judolandia.tripod.com/histport.htm"
             }
           ],
           "source_yaml": "database/persons/BEL/Antony_Striker.yaml"
@@ -8283,7 +9370,7 @@
     "edges": [
       {
         "data": {
-          "id": "JDP2de4af0d8099b",
+          "id": "JDP2f073fbe88277",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Walter Todd",
           "source": "JDP-11",
           "target": "JDP-24",
@@ -8303,7 +9390,7 @@
       },
       {
         "data": {
-          "id": "JDP8f685e713b317",
+          "id": "JDP3876bf00dea7e",
           "name": "Yamashita Yoshitsugu (Kōdōkan Jūdō) Theodore Roosevelt Jr.",
           "source": "JDP-95",
           "target": "JDP-96",
@@ -8330,7 +9417,7 @@
       },
       {
         "data": {
-          "id": "JDP5c3f79fd67b3c",
+          "id": "JDP56e65e832fab1",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Karl Geis",
           "source": "JDP-12",
           "target": "JDP-52",
@@ -8357,7 +9444,7 @@
       },
       {
         "data": {
-          "id": "JDPe67d6c6a5444b",
+          "id": "JDP1266acf9ecf44",
           "name": "Tsunako Miyake (Aikidō) Karl Geis",
           "source": "JDP-53",
           "target": "JDP-52",
@@ -8384,7 +9471,7 @@
       },
       {
         "data": {
-          "id": "JDP15453d5e0eeba",
+          "id": "JDP846d2581dbeb7",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Hal Sharp",
           "source": "JDP-12",
           "target": "JDP-25",
@@ -8404,7 +9491,61 @@
       },
       {
         "data": {
-          "id": "JDP1632f3ca15b6c",
+          "id": "JDPb5ccfe478e783",
+          "name": "Anatoliy Rakhlin (Kōdōkan Jūdō) Vladimir Putin",
+          "source": "JDP-99",
+          "target": "JDP-100",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": 1964,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://judo.ru/news/4707",
+              "citation": "В 1964 году набрал первую группу юношей, среди которых были Аркадий Ротенберг, Валентин Степанов, Николай Кононов, Василий Шестаков, Владимир Путин.",
+              "cite": "Утрата"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPe2899ba650b13",
+          "name": "Anatoliy Rakhlin (Sambo) Vladimir Putin",
+          "source": "JDP-99",
+          "target": "JDP-100",
+          "interaction": "Sambo",
+          "interaction_id": "JDP-S-15",
+          "interaction_native": {
+            "name": "сaмбо",
+            "lang": "ru"
+          },
+          "place": null,
+          "quality": 2,
+          "period": {
+            "start": 1964,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://vecherka-spb.ru/2023/08/08/chestnoe-i-dobrosovestnoe-otnoshenie-k-delu-kakim-bil-anatolii-rakhlin--lichnii-trener-vladimira-putina-",
+              "citation": "Хорошо помню, как Анатолий Соломонович проводил отбор в секцию самбо. Нужно было подтянуться — кто сколько сможет.",
+              "cite": "Вечерний Санкт-Петербург"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPe8d5877f2192",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Vasili Oshchepkov",
           "source": "JDP-1",
           "target": "JDP-97",
@@ -8423,8 +9564,7 @@
           "sources": [
             {
               "uri": "https://oca.asia/sports/info/15/58/",
-              "citation": "Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro.",
-              "cite": "\n    Sambo\n"
+              "citation": "Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro."
             },
             {
               "uri": "https://en.wikipedia.org/wiki/Vasili_Oshchepkov",
@@ -8436,7 +9576,7 @@
       },
       {
         "data": {
-          "id": "JDPbfa63579a3f4a",
+          "id": "JDPfea80be9e8244",
           "name": "Vasili Oshchepkov (Kōdōkan Jūdō) Sergei Dashkevich",
           "source": "JDP-97",
           "target": "JDP-98",
@@ -8455,15 +9595,14 @@
           "sources": [
             {
               "uri": "https://judo.ru/news/9889",
-              "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов",
-              "cite": "Юбилей основоположника"
+              "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP8db5a04842643",
+          "id": "JDP0711b822d87f6",
           "name": "Vasili Oshchepkov (Sambo) Sergei Dashkevich",
           "source": "JDP-97",
           "target": "JDP-98",
@@ -8482,20 +9621,71 @@
           "sources": [
             {
               "uri": "https://judo.ru/news/9889",
-              "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов",
-              "cite": "Юбилей основоположника"
+              "citation": "В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов"
             },
             {
               "uri": "https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie",
-              "citation": "Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.",
-              "cite": "В день 125-летия со дня рождения..."
+              "citation": "Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин."
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP74aff68d78f52",
+          "id": "JDPfa0610077fbe2",
+          "name": "Vasili Oshchepkov (Kōdōkan Jūdō) Anatoly Kharlampiyev",
+          "source": "JDP-97",
+          "target": "JDP-101",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "State Central Order of Lenin Institute of Physical Culture",
+          "quality": 2,
+          "period": {
+            "start": 1931,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87",
+              "citation": "В 1936 г. окончил Государственный центральный ордена Ленина институт физической культуры (отделение дзюдо Василия Сергеевича Ощепкова)[...]Создавая «систему самбо», Харлампиев тщательно изучал дзюдо и осваивал его на практике. В дзюдо он видел основание нового вида борьбы в одежде, обогащённого наиболее эффективными приёмами других видов борьбы. Дзюдо он осваивал под руководством Василия Сергеевича Ощепкова, который во время многолетнего пребывания в Японии тренировался в школе дзюдо Кодокан."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPfead1007758d2",
+          "name": "Sergei Dashkevich (Sambo) Anatoliy Rakhlin",
+          "source": "JDP-98",
+          "target": "JDP-99",
+          "interaction": "Sambo",
+          "interaction_id": "JDP-S-15",
+          "interaction_native": {
+            "name": "сaмбо",
+            "lang": "ru"
+          },
+          "place": "Leningrad Palace of the Pioneers",
+          "quality": 2,
+          "period": {
+            "start": 1955,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/",
+              "citation": "In 1953 he started taking SAMBO classes in the Palace of the Pioneers under the guidance of a highly experienced wrestler S. Dashkevich, a wrestling partner of Ivan Poddubny himself.",
+              "cite": "Anatoliy Rakhlin: Person, Teacher, Coach | International SAMBO Federation (FIAS)"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPb6ae63640ac21",
           "name": "José Costa Branco (Kōdōkan Jūdō) Nuno Delgado",
           "source": "JDP-62",
           "target": "JDP-63",
@@ -8527,7 +9717,7 @@
       },
       {
         "data": {
-          "id": "JDP5ff4094ddc463",
+          "id": "JDPfadb6f65b0705",
           "name": "Fernando Costa Matos (Kōdōkan Jūdō) Nuno Delgado",
           "source": "JDP-15",
           "target": "JDP-63",
@@ -8554,7 +9744,7 @@
       },
       {
         "data": {
-          "id": "JDP1034ec76de0c1",
+          "id": "JDP99bd1fab906b5",
           "name": "António Roquette de Andrade (Kōdōkan Jūdō) Mário Aguilar",
           "source": "JDP-61",
           "target": "JDP-88",
@@ -8581,7 +9771,7 @@
       },
       {
         "data": {
-          "id": "JDP808c8d9e989e8",
+          "id": "JDP9bf5b9f127f15",
           "name": "Yamamoto Nobuaki (Kōdōkan Jūdō) Manuel Reis",
           "source": "JDP-74",
           "target": "JDP-75",
@@ -8605,15 +9795,14 @@
             },
             {
               "uri": "https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/",
-              "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta.",
-              "cite": "ENTREVISTA – Viagem ao mundo dos homens bons – Judo MAGAZINE"
+              "citation": "Fernando Costa Matos encontrou-se com um dos mais antigos praticantes do judo em Portugal, Manuel Reis, que já tinha trazido o japonês Yamamoto nos anos 60 para orientar o clube e que aceitou de bom grado a vinda de Frigyes Torok para a direção técnica do tradicional clube da cidade Invicta."
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDPab84547678fbc",
+          "id": "JDPb05dcb642ad87",
           "name": "Armando Gonçalves (Jūjutsu) Manuel Reis",
           "source": "JDP-76",
           "target": "JDP-75",
@@ -8639,7 +9828,7 @@
       },
       {
         "data": {
-          "id": "JDPd24925f283d36",
+          "id": "JDPc57e51ddac6d6",
           "name": "Jackie Hugnet (Kōdōkan Jūdō) Manuel Reis",
           "source": "JDP-78",
           "target": "JDP-75",
@@ -8670,7 +9859,7 @@
       },
       {
         "data": {
-          "id": "JDP7f0d680d804ab",
+          "id": "JDP030376ec41ade",
           "name": "Gilbert Briskine (Kōdōkan Jūdō) Manuel Reis",
           "source": "JDP-79",
           "target": "JDP-75",
@@ -8701,7 +9890,7 @@
       },
       {
         "data": {
-          "id": "JDPa2836a1f8ee2b",
+          "id": "JDP7c7b09740c9af",
           "name": "António Corrêa Pereira (Kōdōkan Jūdō) Luís Franco Pires Martins",
           "source": "JDP-83",
           "target": "JDP-82",
@@ -8728,7 +9917,7 @@
       },
       {
         "data": {
-          "id": "JDPb2bd2ade668c4",
+          "id": "JDP5c99f447c368f",
           "name": "Georges Stobbaerts (Aikidō) Leopoldo Ferreira",
           "source": "JDP-86",
           "target": "JDP-85",
@@ -8760,7 +9949,7 @@
       },
       {
         "data": {
-          "id": "JDP37dca64fc5dd7",
+          "id": "JDPfe2c7fbd9d25d",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Costa Branco",
           "source": "JDP-12",
           "target": "JDP-62",
@@ -8792,7 +9981,7 @@
       },
       {
         "data": {
-          "id": "JDP2e85f957c86ef",
+          "id": "JDPbbaad4323e1d5",
           "name": "Fragoso Fernandes (Karate) José Araújo",
           "source": "JDP-81",
           "target": "JDP-80",
@@ -8824,7 +10013,7 @@
       },
       {
         "data": {
-          "id": "JDP506bda9265125",
+          "id": "JDPd486572201bc8",
           "name": "Carlos Pereira (Aikidō) José Araújo",
           "source": "JDP-84",
           "target": "JDP-80",
@@ -8851,7 +10040,7 @@
       },
       {
         "data": {
-          "id": "JDP78a2300c98595",
+          "id": "JDP5aa6426b15edb",
           "name": "Leopoldo Ferreira (Aikidō) José Araújo",
           "source": "JDP-85",
           "target": "JDP-80",
@@ -8883,7 +10072,7 @@
       },
       {
         "data": {
-          "id": "JDP1ce3646855351",
+          "id": "JDP258970d95dfb4",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Henrique Nunes",
           "source": "JDP-12",
           "target": "JDP-64",
@@ -8915,7 +10104,7 @@
       },
       {
         "data": {
-          "id": "JDP789aec39b714f",
+          "id": "JDP9104e9564782",
           "name": "Afonso Henriques Maia de Loureiro (Kōdōkan Jūdō) Henrique Nunes",
           "source": "JDP-65",
           "target": "JDP-64",
@@ -8942,7 +10131,7 @@
       },
       {
         "data": {
-          "id": "JDP861d6bc4c9a36",
+          "id": "JDP31e6990ad6b5c",
           "name": "Luís Franco Pires Martins (Karate) Fragoso Fernandes",
           "source": "JDP-82",
           "target": "JDP-81",
@@ -8974,7 +10163,7 @@
       },
       {
         "data": {
-          "id": "JDP0b6d29ebd5a2e",
+          "id": "JDPed8c609adc817",
           "name": "José Manuel Bastos Nunes (Kōdōkan Jūdō) Fernando Seabra",
           "source": "JDP-16",
           "target": "JDP-87",
@@ -8993,15 +10182,14 @@
           "sources": [
             {
               "uri": "https://judomagazine.pt/2024/01/23/mestre-ze-manel/",
-              "citation": "Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo",
-              "cite": "Mestre Zé Manel – Judo MAGAZINE"
+              "citation": "Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo"
             }
           ]
         }
       },
       {
         "data": {
-          "id": "JDP800fc41aff811",
+          "id": "JDPf0ae665989e38",
           "name": "Yamamoto Nobuaki (Kōdōkan Jūdō) Fernando Sarmento",
           "source": "JDP-74",
           "target": "JDP-73",
@@ -9028,7 +10216,7 @@
       },
       {
         "data": {
-          "id": "JDP08ba9907b062c",
+          "id": "JDP3e99ee4777cc5",
           "name": "Carlos Portas (Aikidō) Fernando Sarmento",
           "source": "JDP-72",
           "target": "JDP-73",
@@ -9055,7 +10243,7 @@
       },
       {
         "data": {
-          "id": "JDPf3ffaaf695676",
+          "id": "JDP0dbe478713511",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -9082,7 +10270,7 @@
       },
       {
         "data": {
-          "id": "JDPe673623a6c58a",
+          "id": "JDP2b03623049a4c",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Fernando Costa Matos",
           "source": "JDP-12",
           "target": "JDP-15",
@@ -9109,7 +10297,7 @@
       },
       {
         "data": {
-          "id": "JDPbc033d531ffec",
+          "id": "JDP62819888795cd",
           "name": "Tomita Takeji (Aikidō) Carlos Portas",
           "source": "JDP-71",
           "target": "JDP-72",
@@ -9136,7 +10324,7 @@
       },
       {
         "data": {
-          "id": "JDPe3ab1973b6d61",
+          "id": "JDPcbfe0904f9aec",
           "name": "Georges Stobbaerts (Aikidō) Carlos Pereira",
           "source": "JDP-86",
           "target": "JDP-84",
@@ -9163,7 +10351,7 @@
       },
       {
         "data": {
-          "id": "JDP90828f9e5508a",
+          "id": "JDP0d7fbd4800f09",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-12",
           "target": "JDP-16",
@@ -9183,7 +10371,7 @@
       },
       {
         "data": {
-          "id": "JDP292b06b40553d",
+          "id": "JDPea4c0c599bb6a",
           "name": "Antony Striker (Kōdōkan Jūdō) José Manuel Bastos Nunes",
           "source": "JDP-66",
           "target": "JDP-16",
@@ -9210,7 +10398,7 @@
       },
       {
         "data": {
-          "id": "JDP6b1ce5a56a60a",
+          "id": "JDPa9588c9cd69c5",
           "name": "Hirano Yuzo (Jūjutsu) Armando Gonçalves",
           "source": "JDP-77",
           "target": "JDP-76",
@@ -9237,7 +10425,7 @@
       },
       {
         "data": {
-          "id": "JDPc520430e2f023",
+          "id": "JDP2d7ffcdcd6bb7",
           "name": "Fernando Costa Matos (Kōdōkan Jūdō) António Roquette de Andrade",
           "source": "JDP-15",
           "target": "JDP-61",
@@ -9264,7 +10452,27 @@
       },
       {
         "data": {
-          "id": "JDP75ace9b720306",
+          "id": "JDPb686c86543f47",
+          "name": "Erich Rahn (Jūjutsu) António Corrêa Pereira",
+          "source": "JDP-109",
+          "target": "JDP-83",
+          "interaction": "Jūjutsu",
+          "interaction_id": "JDP-S-14",
+          "interaction_native": {
+            "name": "柔術",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      },
+      {
+        "data": {
+          "id": "JDP7aec5dc22a495",
           "name": "Antony Striker (Kōdōkan Jūdō) Alexandre Gueifão",
           "source": "JDP-66",
           "target": "JDP-67",
@@ -9291,7 +10499,7 @@
       },
       {
         "data": {
-          "id": "JDP8fc68e7e94f93",
+          "id": "JDP08e3c589126c",
           "name": "Henri Bouchend'Homme (Kōdōkan Jūdō) Alexandre Gueifão",
           "source": "JDP-68",
           "target": "JDP-67",
@@ -9318,7 +10526,7 @@
       },
       {
         "data": {
-          "id": "JDPccc9d86d47856",
+          "id": "JDP007558e4f5f35",
           "name": "Luís Franco Pires Martins (Karate) Alexandre Gueifão",
           "source": "JDP-82",
           "target": "JDP-67",
@@ -9344,7 +10552,7 @@
       },
       {
         "data": {
-          "id": "JDPea6e5b52c259e",
+          "id": "JDP1487f43822da3",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Alexandre Gueifão",
           "source": "JDP-12",
           "target": "JDP-67",
@@ -9371,7 +10579,7 @@
       },
       {
         "data": {
-          "id": "JDP41e720ce81613",
+          "id": "JDP49ca64ba71843",
           "name": "Murakami Tetsuji (Karate) Alexandre Gueifão",
           "source": "JDP-94",
           "target": "JDP-67",
@@ -9397,7 +10605,7 @@
       },
       {
         "data": {
-          "id": "JDPa06a8417c754b",
+          "id": "JDP506e101a475c5",
           "name": "Antony Striker (Kōdōkan Jūdō) Afonso Henriques Maia de Loureiro",
           "source": "JDP-66",
           "target": "JDP-65",
@@ -9429,7 +10637,7 @@
       },
       {
         "data": {
-          "id": "JDP2e65d39fd00f5",
+          "id": "JDPf2138fd76fef6",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yokoyama Sakujiro",
           "source": "JDP-1",
           "target": "JDP-9",
@@ -9449,7 +10657,7 @@
       },
       {
         "data": {
-          "id": "JDP8ebaa6016b6d",
+          "id": "JDP1f2bd57aac376",
           "name": "Inoe Keitaro (Tenjin Shin'yō-ryū) Yokoyama Sakujiro",
           "source": "JDP-10",
           "target": "JDP-9",
@@ -9469,7 +10677,34 @@
       },
       {
         "data": {
-          "id": "JDPefebb49e69229",
+          "id": "JDP6037771a1eb65",
+          "name": "Isogai Hajime (Kōdōkan Jūdō) Yano Takeo",
+          "source": "JDP-43",
+          "target": "JDP-105",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://simonbjj.com/takeo-yano",
+              "cite": "The Eastern Demon, Takeo Yano (Simon BJJ)",
+              "citation": "There is not much information known about Takeo Yano, but it is believed he may have been born in 1909 and trained at the Dai Nippon Butoko Kai academy in Kioto under famed Judoka, Hajime Isogai."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP67020e303d278",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Yamashita Yoshitsugu",
           "source": "JDP-1",
           "target": "JDP-95",
@@ -9500,7 +10735,7 @@
       },
       {
         "data": {
-          "id": "JDP4776704c4ea48",
+          "id": "JDPee37d9d20546f",
           "name": "Takeda Sōkaku (Daitō-ryū Aiki-jūjutsu) Ueshiba Morihei",
           "source": "JDP-28",
           "target": "JDP-27",
@@ -9520,7 +10755,7 @@
       },
       {
         "data": {
-          "id": "JDPcaef7ec4e5dc9",
+          "id": "JDP84e6c81ba6b6b",
           "name": "Tozawa Tokusaburo (Tenjin Shin'yō-ryū) Ueshiba Morihei",
           "source": "JDP-47",
           "target": "JDP-27",
@@ -9554,7 +10789,7 @@
       },
       {
         "data": {
-          "id": "JDP88e6860aff9cf",
+          "id": "JDPbbafe5a2fd824",
           "name": "Masakatsu Naka (Yagyū Shingan-ryū) Ueshiba Morihei",
           "source": "JDP-50",
           "target": "JDP-27",
@@ -9584,7 +10819,7 @@
       },
       {
         "data": {
-          "id": "JDPd5ed532fc9158",
+          "id": "JDP24df18372c54",
           "name": "Naitō Takaharu (Kendo) Ueda Heitaro",
           "source": "JDP-60",
           "target": "JDP-39",
@@ -9611,7 +10846,7 @@
       },
       {
         "data": {
-          "id": "JDP4e8b302701976",
+          "id": "JDP0ac5b32b6a021",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Uchida Ryōhei",
           "source": "JDP-1",
           "target": "JDP-48",
@@ -9641,7 +10876,7 @@
       },
       {
         "data": {
-          "id": "JDP785023c66c1ad",
+          "id": "JDPe5b6a5975833",
           "name": "Miyagawa Taichiro (Jigō Tenshin Ryū) Uchida Ryōhei",
           "source": "JDP-49",
           "target": "JDP-48",
@@ -9671,7 +10906,7 @@
       },
       {
         "data": {
-          "id": "JDP722aee89e3cc3",
+          "id": "JDPf003a23ee186",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Tozawa Tokusaburo",
           "source": "JDP-4",
           "target": "JDP-47",
@@ -9701,7 +10936,7 @@
       },
       {
         "data": {
-          "id": "JDPa378a55204da7",
+          "id": "JDP35447041e2fa1",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomita Tsunejirō",
           "source": "JDP-1",
           "target": "JDP-17",
@@ -9721,7 +10956,7 @@
       },
       {
         "data": {
-          "id": "JDPffc9aa5d3712",
+          "id": "JDP9eb474b7e788c",
           "name": "Saitō Morihiro (Aikidō) Tomita Takeji",
           "source": "JDP-70",
           "target": "JDP-71",
@@ -9748,7 +10983,7 @@
       },
       {
         "data": {
-          "id": "JDP5ad52a0cc816c",
+          "id": "JDPf0096cb7f27b3",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Tomiki Kenji",
           "source": "JDP-1",
           "target": "JDP-26",
@@ -9768,7 +11003,7 @@
       },
       {
         "data": {
-          "id": "JDP74e7c7a3f62ad",
+          "id": "JDPb88ea3ac67199",
           "name": "Ueshiba Morihei (Aikidō) Tomiki Kenji",
           "source": "JDP-27",
           "target": "JDP-26",
@@ -9788,7 +11023,7 @@
       },
       {
         "data": {
-          "id": "JDPcb891b06f023f",
+          "id": "JDPa944d3c386716",
           "name": "Takenaka  Motonoshin (Kitō-ryū) Takenaka Tetsunosuke Issei",
           "source": "JDP-7",
           "target": "JDP-6",
@@ -9808,7 +11043,7 @@
       },
       {
         "data": {
-          "id": "JDP7fe14bee36fa8",
+          "id": "JDP51a4be80dd8c4",
           "name": "Takino Yūken (Kitō-ryū) Takenaka  Motonoshin",
           "source": "JDP-8",
           "target": "JDP-7",
@@ -9828,7 +11063,7 @@
       },
       {
         "data": {
-          "id": "JDP5097ffc9ffea1",
+          "id": "JDP2ef2b1ac25411",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Takahashi Kazuyoshi",
           "source": "JDP-9",
           "target": "JDP-14",
@@ -9848,7 +11083,7 @@
       },
       {
         "data": {
-          "id": "JDP266eb612302b3",
+          "id": "JDPfd99e3059fa71",
           "name": "Iizuka Kunisaburō (Kōdōkan Jūdō) Sugino Yoshio",
           "source": "JDP-31",
           "target": "JDP-30",
@@ -9868,7 +11103,7 @@
       },
       {
         "data": {
-          "id": "JDPd52f2f47acbbd",
+          "id": "JDP9bddfc916d8f6",
           "name": "Ueshiba Morihei (Aikidō) Sugino Yoshio",
           "source": "JDP-27",
           "target": "JDP-30",
@@ -9888,7 +11123,7 @@
       },
       {
         "data": {
-          "id": "JDP5a29bd52d0bb2",
+          "id": "JDPf8cf233d161f5",
           "name": "Tamai Narimichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-32",
           "target": "JDP-30",
@@ -9908,7 +11143,7 @@
       },
       {
         "data": {
-          "id": "JDPb42b42765b2fe",
+          "id": "JDP352244ac61556",
           "name": "Kuboki Sozaemon (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-33",
           "target": "JDP-30",
@@ -9928,7 +11163,7 @@
       },
       {
         "data": {
-          "id": "JDPe7b5a8136e403",
+          "id": "JDPe8b4f64ab3ee4",
           "name": "Ito Tanekichi (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-34",
           "target": "JDP-30",
@@ -9948,7 +11183,7 @@
       },
       {
         "data": {
-          "id": "JDP9afb2592cbcc",
+          "id": "JDP8b6ddaadf60d7",
           "name": "Shiina Ichizo (Tenshin Shōden Katori Shintō-ryū) Sugino Yoshio",
           "source": "JDP-35",
           "target": "JDP-30",
@@ -9968,7 +11203,7 @@
       },
       {
         "data": {
-          "id": "JDPa17751b873c57",
+          "id": "JDPb2bbdda2c5811",
           "name": "Kanaya Genro (Yōshin-ryū) Sugino Yoshio",
           "source": "JDP-36",
           "target": "JDP-30",
@@ -9988,29 +11223,9 @@
       },
       {
         "data": {
-          "id": "JDP04e5b67ed3bf7",
-          "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Satake Soshihiro",
-          "source": "JDP-17",
-          "target": "JDP-22",
-          "interaction": "Kōdōkan Jūdō",
-          "interaction_id": "JDP-S-1",
-          "interaction_native": {
-            "name": "講道館柔道",
-            "lang": "ja"
-          },
-          "place": "Kodokan",
-          "quality": 2,
-          "period": {
-            "start": null,
-            "end": null
-          }
-        }
-      },
-      {
-        "data": {
-          "id": "JDP1c75bd73ce10f",
-          "name": "Kanō Jigorō (Kōdōkan Jūdō) Satake Soshihiro",
-          "source": "JDP-1",
+          "id": "JDP0d78d4695d9f4",
+          "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Satake Soshihiro",
+          "source": "JDP-9",
           "target": "JDP-22",
           "interaction": "Kōdōkan Jūdō",
           "interaction_id": "JDP-S-1",
@@ -10019,16 +11234,27 @@
             "lang": "ja"
           },
           "place": null,
-          "quality": null,
+          "quality": 1,
           "period": {
-            "start": 1917,
+            "start": 1892,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://simonbjj.com/satake",
+              "cite": "The Sumo wrestle who taught BJJ, Soshiro Satake",
+              "citation": "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E4%BF%A1%E5%9B%9B%E9%83%8E",
+              "citation": "1892年（明治25年）5月に講道館に入門"
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDPcd46f7abade1d",
+          "id": "JDP554b89d511bff",
           "name": "Ueshiba Morihei (Aikidō) Saitō Morihiro",
           "source": "JDP-27",
           "target": "JDP-70",
@@ -10054,7 +11280,39 @@
       },
       {
         "data": {
-          "id": "JDP8ce758bba8f59",
+          "id": "JDP272afcfe331a9",
+          "name": "Itō Tokugorō (Kōdōkan Jūdō) Geo Omori",
+          "source": "JDP-104",
+          "target": "JDP-103",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 153",
+              "citation": "Foi discípulo de um dos maiores lutadores do Kodokan, Tokugoro Ito"
+            },
+            {
+              "uri": "https://en.wikipedia.org/wiki/Geo_Omori",
+              "citation": "He learned under Tokugoro Ito and was a training partner of the famed Sanpo Toku"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa413c5ace5137",
           "name": "Matsui Sanzo (Muso-ryu) Okano Yoshitaro",
           "source": "JDP-42",
           "target": "JDP-38",
@@ -10074,7 +11332,7 @@
       },
       {
         "data": {
-          "id": "JDP54d2562ae7b39",
+          "id": "JDP3f8e3d796e8b3",
           "name": "Isogai Hajime (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-43",
           "target": "JDP-38",
@@ -10094,7 +11352,7 @@
       },
       {
         "data": {
-          "id": "JDPaca66ce9261ce",
+          "id": "JDP40543bb7931d4",
           "name": "Nagaoka Shūichi (Kōdōkan Jūdō) Okano Yoshitaro",
           "source": "JDP-44",
           "target": "JDP-38",
@@ -10114,7 +11372,7 @@
       },
       {
         "data": {
-          "id": "JDPd9902843c8dd2",
+          "id": "JDPbd49f98527816",
           "name": "Naitō Takaharu (Kendo) Ogawa Kinnosuke",
           "source": "JDP-60",
           "target": "JDP-59",
@@ -10141,7 +11399,7 @@
       },
       {
         "data": {
-          "id": "JDP771e9a0451c8",
+          "id": "JDP413fe97844abd",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Nagaoka Shūichi",
           "source": "JDP-1",
           "target": "JDP-44",
@@ -10161,7 +11419,7 @@
       },
       {
         "data": {
-          "id": "JDP6ca9bb844ebd3",
+          "id": "JDP6d5f7322523be",
           "name": "Egami Shigeru (Karate) Murakami Tetsuji",
           "source": "JDP-93",
           "target": "JDP-94",
@@ -10193,7 +11451,7 @@
       },
       {
         "data": {
-          "id": "JDPda86718262bb8",
+          "id": "JDP09b2764ba5f47",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-1",
           "target": "JDP-29",
@@ -10213,7 +11471,7 @@
       },
       {
         "data": {
-          "id": "JDP78db959de8097",
+          "id": "JDPc9b9195aa85c8",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Mochizuki Minoru",
           "source": "JDP-11",
           "target": "JDP-29",
@@ -10233,7 +11491,7 @@
       },
       {
         "data": {
-          "id": "JDP3cde153d07402",
+          "id": "JDP24d931c9a47dd",
           "name": "Ueshiba Morihei (Aikidō) Mochizuki Minoru",
           "source": "JDP-27",
           "target": "JDP-29",
@@ -10259,7 +11517,7 @@
       },
       {
         "data": {
-          "id": "JDPb4042fe0031a9",
+          "id": "JDPf22be23e97782",
           "name": "Funakoshi Gichin (Karate) Mochizuki Minoru",
           "source": "JDP-41",
           "target": "JDP-29",
@@ -10290,7 +11548,7 @@
       },
       {
         "data": {
-          "id": "JDP30b13170d69fd",
+          "id": "JDP8d3caab79c24",
           "name": "Tomiki Kenji (Aikidō) Tsunako Miyake",
           "source": "JDP-26",
           "target": "JDP-53",
@@ -10317,7 +11575,7 @@
       },
       {
         "data": {
-          "id": "JDP6a1589dd41aa3",
+          "id": "JDP739044190e667",
           "name": "Tomiki Kenji (Kōdōkan Jūdō) Tsunako Miyake",
           "source": "JDP-26",
           "target": "JDP-53",
@@ -10344,7 +11602,7 @@
       },
       {
         "data": {
-          "id": "JDPe5b5077e23253",
+          "id": "JDP543301553f216",
           "name": "Matashichiro Shobayashi (Jigō Tenshin Ryū) Miyagawa Taichiro",
           "source": "JDP-51",
           "target": "JDP-49",
@@ -10370,7 +11628,7 @@
       },
       {
         "data": {
-          "id": "JDPd02cfcbf186be",
+          "id": "JDPa09bb70e71c3",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-1",
           "target": "JDP-11",
@@ -10390,7 +11648,7 @@
       },
       {
         "data": {
-          "id": "JDPed91d7b0106d1",
+          "id": "JDPedf80232a19c2",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Mifune Kyūzō",
           "source": "JDP-9",
           "target": "JDP-11",
@@ -10410,9 +11668,9 @@
       },
       {
         "data": {
-          "id": "JDP534676ddf6866",
-          "name": "Tomita Tsunejirō (Kōdōkan Jūdō) Maeda Mitsuyo",
-          "source": "JDP-17",
+          "id": "JDP3991888aeadf2",
+          "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Maeda Mitsuyo",
+          "source": "JDP-9",
           "target": "JDP-18",
           "interaction": "Kōdōkan Jūdō",
           "interaction_id": "JDP-S-1",
@@ -10421,16 +11679,28 @@
             "lang": "ja"
           },
           "place": "Kodokan",
-          "quality": null,
+          "quality": 1,
           "period": {
-            "start": 1896,
+            "start": 1897,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E",
+              "cite": "横山作次郎 (ウィキペディア)",
+              "citation": "また、三船久蔵や前田光世の師匠としても知られる"
+            },
+            {
+              "uri": "https://simonbjj.com/satake",
+              "cite": "The Sumo wrestle who taught BJJ, Soshiro Satake",
+              "citation": "At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan"
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP5c0b01c5b9ffa",
+          "id": "JDP6c640ddb50c46",
           "name": "Okano Yoshitaro (Kōdōkan Jūdō) Konishi Yasuhiro",
           "source": "JDP-38",
           "target": "JDP-37",
@@ -10450,7 +11720,7 @@
       },
       {
         "data": {
-          "id": "JDP0969460c486d4",
+          "id": "JDP8db8cfb09ac",
           "name": "Ueda Heitaro (Kendo) Konishi Yasuhiro",
           "source": "JDP-39",
           "target": "JDP-37",
@@ -10470,7 +11740,7 @@
       },
       {
         "data": {
-          "id": "JDP6221926e87fe2",
+          "id": "JDP8cc700da3764f",
           "name": "Matsui Sanzo (Muso-ryu) Konishi Yasuhiro",
           "source": "JDP-42",
           "target": "JDP-37",
@@ -10490,7 +11760,7 @@
       },
       {
         "data": {
-          "id": "JDPbc8badaf8698e",
+          "id": "JDP0680800ffe9ff",
           "name": "Shingai Tadaatsu (Kendo) Konishi Yasuhiro",
           "source": "JDP-40",
           "target": "JDP-37",
@@ -10510,7 +11780,7 @@
       },
       {
         "data": {
-          "id": "JDP8a7878a9a4502",
+          "id": "JDP42be1591f3a0c",
           "name": "Funakoshi Gichin (Karate) Konishi Yasuhiro",
           "source": "JDP-41",
           "target": "JDP-37",
@@ -10536,7 +11806,7 @@
       },
       {
         "data": {
-          "id": "JDP0834727d8f784",
+          "id": "JDP250d8ec26672a",
           "name": "Ueshiba Morihei (Aikidō) Konishi Yasuhiro",
           "source": "JDP-27",
           "target": "JDP-37",
@@ -10556,7 +11826,7 @@
       },
       {
         "data": {
-          "id": "JDP44d16d8d3a4cf",
+          "id": "JDP30b950ae15f05",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Kobayashi Kiyoshi",
           "source": "JDP-11",
           "target": "JDP-12",
@@ -10576,7 +11846,7 @@
       },
       {
         "data": {
-          "id": "JDP10fa2ab83e265",
+          "id": "JDPbbfb115c9f8bc",
           "name": "Ushijima Tatsukuma (Kōdōkan Jūdō) Kimura Masahiko",
           "source": "JDP-90",
           "target": "JDP-89",
@@ -10596,7 +11866,7 @@
       },
       {
         "data": {
-          "id": "JDP576dd4068d724",
+          "id": "JDPeb3f04c0fa017",
           "name": "Funakoshi Gichin (Karate) Kimura Masahiko",
           "source": "JDP-41",
           "target": "JDP-89",
@@ -10623,7 +11893,7 @@
       },
       {
         "data": {
-          "id": "JDPa3ff15c8d1915",
+          "id": "JDPc596a92aa529d",
           "name": "Takahashi Kazuyoshi (Kōdōkan Jūdō) Kawaishi Mikinosuke",
           "source": "JDP-14",
           "target": "JDP-13",
@@ -10643,7 +11913,7 @@
       },
       {
         "data": {
-          "id": "JDP4515c3630ef19",
+          "id": "JDP2ec61800df451",
           "name": "Fukuda Hachinosuke (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-2",
           "target": "JDP-1",
@@ -10663,7 +11933,7 @@
       },
       {
         "data": {
-          "id": "JDPfc735e3533f7f",
+          "id": "JDP2a289382f0ae1",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Kanō Jigorō",
           "source": "JDP-4",
           "target": "JDP-1",
@@ -10683,7 +11953,7 @@
       },
       {
         "data": {
-          "id": "JDP64375fbaa33cc",
+          "id": "JDPfd27d1f392b01",
           "name": "Iikubo Tsunetoshi (Kitō-ryū) Kanō Jigorō",
           "source": "JDP-5",
           "target": "JDP-1",
@@ -10703,7 +11973,7 @@
       },
       {
         "data": {
-          "id": "JDPe3c7eef707468",
+          "id": "JDP989d2e9f240ea",
           "name": "Oshima Masateru (Yagyū Shingan-ryū) Kanō Jigorō",
           "source": "JDP-46",
           "target": "JDP-1",
@@ -10729,7 +11999,7 @@
       },
       {
         "data": {
-          "id": "JDP1a21513ba3476",
+          "id": "JDP142092e334bee",
           "name": "Matsumura Sōkon (Shuri-te) Itosu Ankō",
           "source": "JDP-54",
           "target": "JDP-55",
@@ -10755,7 +12025,38 @@
       },
       {
         "data": {
-          "id": "JDP25daa7b878c9",
+          "id": "JDP5ce0f9a0ba07",
+          "name": "Kanō Jigorō (Kōdōkan Jūdō) Itō Tokugorō",
+          "source": "JDP-1",
+          "target": "JDP-104",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf",
+              "cite": "Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning Promotion Headquarters, December 15, 2008",
+              "location": "pp. 31-32"
+            },
+            {
+              "uri": "https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E",
+              "citation": "中退後は講道館で嘉納治五郎門下となって磯貝一・徳三宝・三船久蔵らと共に柔道に励んだ"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa36ec1d75d1dc",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Isogai Hajime",
           "source": "JDP-9",
           "target": "JDP-43",
@@ -10775,7 +12076,7 @@
       },
       {
         "data": {
-          "id": "JDP8f3e67618b1c2",
+          "id": "JDP9f5134c1bee6b",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Iso Masatomo",
           "source": "JDP-3",
           "target": "JDP-4",
@@ -10795,7 +12096,7 @@
       },
       {
         "data": {
-          "id": "JDP5de591ee0208c",
+          "id": "JDPe237fbbc10212",
           "name": "Iso Masatari Mataemon (Tenjin Shin'yō-ryū) Inoe Keitaro",
           "source": "JDP-3",
           "target": "JDP-10",
@@ -10815,7 +12116,7 @@
       },
       {
         "data": {
-          "id": "JDPa9061af7bb0a",
+          "id": "JDP134b90dc5ac25",
           "name": "Yokoyama Sakujiro (Kōdōkan Jūdō) Iizuka Kunisaburō",
           "source": "JDP-9",
           "target": "JDP-31",
@@ -10835,7 +12136,7 @@
       },
       {
         "data": {
-          "id": "JDP08e4e3f80e257",
+          "id": "JDP9fa5a6ddb36a",
           "name": "Takenaka Tetsunosuke Issei (Kitō-ryū) Iikubo Tsunetoshi",
           "source": "JDP-6",
           "target": "JDP-5",
@@ -10855,7 +12156,7 @@
       },
       {
         "data": {
-          "id": "JDP27565d0d69e9e",
+          "id": "JDPf825c4e997697",
           "name": "Ushijima Tatsukuma (Kōdōkan Jūdō) Hirano Tokio",
           "source": "JDP-90",
           "target": "JDP-91",
@@ -10882,7 +12183,7 @@
       },
       {
         "data": {
-          "id": "JDPf491cdb646c92",
+          "id": "JDP536f9a69df974",
           "name": "Funakoshi Gichin (Karate) Funakoshi Gigō",
           "source": "JDP-41",
           "target": "JDP-92",
@@ -10908,7 +12209,7 @@
       },
       {
         "data": {
-          "id": "JDP35acc9ccd6615",
+          "id": "JDP2a764b0278806",
           "name": "Asato Ankō (Shuri-te) Funakoshi Gichin",
           "source": "JDP-56",
           "target": "JDP-41",
@@ -10934,7 +12235,7 @@
       },
       {
         "data": {
-          "id": "JDP1d29d3b8296ea",
+          "id": "JDP4e4c146eabf3",
           "name": "Itosu Ankō (Shuri-te) Funakoshi Gichin",
           "source": "JDP-55",
           "target": "JDP-41",
@@ -10960,7 +12261,7 @@
       },
       {
         "data": {
-          "id": "JDPd1f27ff2eee38",
+          "id": "JDP05778ec29bc74",
           "name": "Kanō Jigorō (Kōdōkan Jūdō) Fukuda Keiko",
           "source": "JDP-1",
           "target": "JDP-57",
@@ -10987,7 +12288,7 @@
       },
       {
         "data": {
-          "id": "JDP18c747a8391b7",
+          "id": "JDP38c798e7f84fa",
           "name": "Mifune Kyūzō (Kōdōkan Jūdō) Fukuda Keiko",
           "source": "JDP-11",
           "target": "JDP-57",
@@ -11014,7 +12315,7 @@
       },
       {
         "data": {
-          "id": "JDP25c679d9e64a3",
+          "id": "JDP9b75c34d8b977",
           "name": "Iso Masatomo (Tenjin Shin'yō-ryū) Fukuda Hachinosuke",
           "source": "JDP-4",
           "target": "JDP-2",
@@ -11034,7 +12335,7 @@
       },
       {
         "data": {
-          "id": "JDP8932f96867b32",
+          "id": "JDP3c04cb3f6d82d",
           "name": "Funakoshi Gichin (Karate) Egami Shigeru",
           "source": "JDP-41",
           "target": "JDP-93",
@@ -11061,7 +12362,7 @@
       },
       {
         "data": {
-          "id": "JDP3d9c4f22d1339",
+          "id": "JDP3577b9240dc5c",
           "name": "Matsumura Sōkon (Shuri-te) Asato Ankō",
           "source": "JDP-54",
           "target": "JDP-56",
@@ -11087,7 +12388,7 @@
       },
       {
         "data": {
-          "id": "JDP36b46104351a2",
+          "id": "JDPf9ef89e139fe9",
           "name": "Ogawa Kinnosuke (Kendo) Abbe Kenshirõ",
           "source": "JDP-59",
           "target": "JDP-58",
@@ -11114,7 +12415,7 @@
       },
       {
         "data": {
-          "id": "JDP41aa1c95046e5",
+          "id": "JDP3255d7fd9b029",
           "name": "Ueshiba Morihei (Aikidō) Abbe Kenshirõ",
           "source": "JDP-27",
           "target": "JDP-58",
@@ -11141,7 +12442,7 @@
       },
       {
         "data": {
-          "id": "JDP6809fc3e2f746",
+          "id": "JDPf59b0c7c426f6",
           "name": "Kobayashi Kiyoshi (Kōdōkan Jūdō) Frigyes Tӧrӧk",
           "source": "JDP-12",
           "target": "JDP-69",
@@ -11168,7 +12469,35 @@
       },
       {
         "data": {
-          "id": "JDP4d459ec9ccd55",
+          "id": "JDP2c40f9d71c831",
+          "name": "Luis de França Filho (Brazilian jiu-jitsu) Oswaldo Fadda",
+          "source": "JDP-20",
+          "target": "JDP-106",
+          "interaction": "Brazilian jiu-jitsu",
+          "interaction_id": "JDP-S-16",
+          "interaction_native": {
+            "name": "Jiu-Jitsu brasileiro",
+            "lang": "pt"
+          },
+          "place": "Academia França de Jiu-jitsu",
+          "quality": null,
+          "period": {
+            "start": 1938,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 108",
+              "citation": "Oswaldo Fadda começou a treinar com França por volta de 1938"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP4cee632a6bf4c",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Mario Aleixo",
           "source": "JDP-18",
           "target": "JDP-45",
@@ -11179,16 +12508,52 @@
             "lang": "ja"
           },
           "place": null,
-          "quality": null,
+          "quality": 3,
           "period": {
-            "start": null,
+            "start": 1915,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 1, p. 110",
+              "citation": "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDPf56d03a042e7c",
+          "id": "JDPd839f3712eb39",
+          "name": "Miyako Sada (Kōdōkan Jūdō) Mario Aleixo",
+          "source": "JDP-107",
+          "target": "JDP-45",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": 3,
+          "period": {
+            "start": 1909,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 1, p. 110",
+              "citation": "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDPa3be466ed338d",
           "name": "Satake Soshihiro (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-22",
           "target": "JDP-20",
@@ -11201,14 +12566,26 @@
           "place": null,
           "quality": 1,
           "period": {
-            "start": null,
+            "start": 1916,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://www.bjjheroes.com/bjj-fighters/luiz-franca",
+              "cite": "BJJ Heroes: Luiz França",
+              "citation": "There Satake settled for a while, opening his own academy in 1916, at the Atlético Clube Rio Negro, becoming the first Japanese to open a Judo/Jiu Jitsu academy in Brazil. This gym became the place where Luiz França started his life as a martial artist. Satake would also become a Brazilian citizen years later, and change his name to Antônio Soshihiro Satake."
+            },
+            {
+              "uri": "https://www.facebook.com/photo.php?fbid=543032192445535&id=455479647867457&set=a.455593414522747",
+              "cite": "Equipe Fadda Jiu-Jitsu (Facebook)",
+              "citation": "Antigo aluno de Soishiro Satake e Mitsuyo Maeda, Luiz França foi o fundador da linhagem (não pertencente à família Gracie) de mais sucesso no Jiu-Jitsu, uma linhagem continuada especialmente através do trabalho efetuado pelo mais proeminente e capaz aluno de França, o Mestre Oswaldo Fadda, que mais tarde formaria a sua própria escola de talentosos alunos."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP9127a8521ed22",
+          "id": "JDP2decb8acd660b",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Luis de França Filho",
           "source": "JDP-18",
           "target": "JDP-20",
@@ -11218,17 +12595,81 @@
             "name": "講道館柔道",
             "lang": "ja"
           },
-          "place": null,
+          "place": "Belém",
           "quality": 2,
           "period": {
-            "start": 1917,
+            "start": 1929,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 106",
+              "citation": "Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n Marinha, quando esteve em Belém ao serviço no navio Minas Gerais."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP84c877d39bc3d",
+          "id": "JDPe8e4facd6c865",
+          "name": "Geo Omori (Kōdōkan Jūdō) Luis de França Filho",
+          "source": "JDP-103",
+          "target": "JDP-20",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": "Rio de Janeiro",
+          "quality": 2,
+          "period": {
+            "start": 1930,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 106",
+              "citation": "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP4ec6fb179db79",
+          "name": "Hélio Gracie (Brazilian jiu-jitsu) Luis de França Filho",
+          "source": "JDP-102",
+          "target": "JDP-20",
+          "interaction": "Brazilian jiu-jitsu",
+          "interaction_id": "JDP-S-16",
+          "interaction_native": {
+            "name": "Jiu-Jitsu brasileiro",
+            "lang": "pt"
+          },
+          "place": "Rio de Janeiro",
+          "quality": 2,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 106",
+              "citation": "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP04f32345a2e33",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Jacinto Ferro",
           "source": "JDP-18",
           "target": "JDP-19",
@@ -11243,14 +12684,86 @@
           "period": {
             "start": 1915,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 89",
+              "citation": "... Tenho [Maeda] os seguintes alunos aos quais deposito inteira confiança [...] Jacintho Ferro, Dr. Matheus Pereira, Guilherm de La Rocque, Raphael Gomes e Waldermar Gomes..."
+            },
+            {
+              "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html",
+              "cite": "Mitsuyo Maeda e o Judô Kodokan (Judo Tradicional Goshinjutsukan)",
+              "citation": "as aulas eram dadas em uma academia que Maeda abriu em 1916,nos salões do Cine Teatro Moderno, localizado ao lado da Igreja de Nazaré, hoje uma praça, as aulas eram amplamente divulgadas nos ornais para quem quisesse aprender pagando.O primeiro aluno de Maeda foi o estivador Jacinto Ferro, ex-lutador de greco-romana, Jacinto foi instrutor de Maeda e ajudou a dar aulas para o Carlos Gracie."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDPb3aa20a21194",
-          "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Donato Pires dos Reis",
-          "source": "JDP-18",
+          "id": "JDPcfd4e10bc2388",
+          "name": "Carlos Gracie (Brazilian jiu-jitsu) Hélio Gracie",
+          "source": "JDP-21",
+          "target": "JDP-102",
+          "interaction": "Brazilian jiu-jitsu",
+          "interaction_id": "JDP-S-16",
+          "interaction_native": {
+            "name": "Jiu-Jitsu brasileiro",
+            "lang": "pt"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": 1925,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 165",
+              "citation": "... meu Jiu Jitsu era muito diferente do dele. O meu fôra aprendido há muitos anos com o meu irmão Carlos..."
+            },
+            {
+              "uri": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie",
+              "citation": "Observador, Hélio passou a acompanhar, dos seus treze aos dezesseis anos, as aulas ministradas por Carlos."
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP0b802d814f14d",
+          "name": "Carlos Gracie (Kōdōkan Jūdō) George Gracie",
+          "source": "JDP-21",
+          "target": "JDP-108",
+          "interaction": "Kōdōkan Jūdō",
+          "interaction_id": "JDP-S-1",
+          "interaction_native": {
+            "name": "講道館柔道",
+            "lang": "ja"
+          },
+          "place": null,
+          "quality": null,
+          "period": {
+            "start": null,
+            "end": null
+          },
+          "sources": [
+            {
+              "uri": "https://judotradicionalgoshinjutsukan.blogspot.com/2010/01/topico-bubishi.html",
+              "cite": "Tópico Bubishi (Judo Tradicional Goshinjutsukan)",
+              "citation": "...O que sabemos de fato é que, Maeda ensinou Judô a Carlos Gracie em virtude da afinidade com seu pai, Gastão Gracie. Carlos por sua vez ensinou a seus demais irmãos, em especial a Hélio Gracie. Neste ponto surgem duas teorias. A primeira alega que Maeda ensinou somente o judô de Jigoro Kano a Carlos, e esse o repassou a Hélio, que era o mais franzino dos Gracie, adaptando-o com grande enfoque no Ne-waza - técnicas de solo do judô, ponto central do Gracie jiu-jitsu ou brasilian jiu-jitsu. Para compensar seu biotipo, a partir dos ensinamentos de Carlos, Hélio aprimorou a parte de solo pelo uso do dispositivo de alavanca, dando-lhe a força extra que o mesmo não dispunha. A segunda teoria, apoiada pelos Gracies, fala que Maeda era, também, exímio praticante de Ju-jutsu tradicional e foi essa a arte que ensinou aos brasileiros. Porém, em uma recente entrevista, Hélio Gracie afirma que 'Carlos lutava judô', veja a entrevista http://www.youtube.com/watch?v=BG309oqVLb4"
+            }
+          ]
+        }
+      },
+      {
+        "data": {
+          "id": "JDP1c8895b1b8762",
+          "name": "Jacinto Ferro (Kōdōkan Jūdō) Donato Pires dos Reis",
+          "source": "JDP-19",
           "target": "JDP-23",
           "interaction": "Kōdōkan Jūdō",
           "interaction_id": "JDP-S-1",
@@ -11259,16 +12772,24 @@
             "lang": "ja"
           },
           "place": null,
-          "quality": 1,
+          "quality": null,
           "period": {
-            "start": null,
+            "start": 1920,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 94",
+              "citation": "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP3752180060a9d",
+          "id": "JDP5a033c9a171e5",
           "name": "Jacinto Ferro (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-19",
           "target": "JDP-21",
@@ -11281,14 +12802,22 @@
           "place": null,
           "quality": null,
           "period": {
-            "start": null,
+            "start": 1916,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol. 3, p. 94",
+              "citation": "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
+            }
+          ]
         }
       },
       {
         "data": {
-          "id": "JDP68c993d863d21",
+          "id": "JDPb30007eb171b2",
           "name": "Maeda Mitsuyo (Kōdōkan Jūdō) Carlos Gracie",
           "source": "JDP-18",
           "target": "JDP-21",
@@ -11298,12 +12827,26 @@
             "name": "講道館柔道",
             "lang": "ja"
           },
-          "place": null,
-          "quality": 2,
+          "place": "Paysandu Sport Club",
+          "quality": null,
           "period": {
-            "start": 1917,
+            "start": 1916,
             "end": null
-          }
+          },
+          "sources": [
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol 3, p.91",
+              "citation": "...chefiada pelo competentissimo prof. Conde Koma. Aqui, depois de algumas demosntrações, organisou um gymnasio e eu [Carlos] fui um dos primeiros alunos [...] há registos que Maeda deu aulas, em 1916, no Paysandu Sport Club, em Belém, cidade onde Carlos residia com a sua família"
+            },
+            {
+              "uri": "https://isbnsearch.org/isbn/9798639871030",
+              "cite": "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.",
+              "location": "vol 3, p.93",
+              "citation": "Fui aluno do célebre Conde Koma, no Pará [...] e nessa época Carlos Gracia também estava aprendendo"
+            }
+          ]
         }
       }
     ]
