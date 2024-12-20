@@ -13,7 +13,7 @@ person:
   death:
     date: "1973-07-05"
     location: Berlin
-    country_code: BRA
+    country_code: DEU
   photo:
     url: https://upload.wikimedia.org/wikipedia/commons/d/da/Bundesarchiv_Bild_102-12574%2C_Berlin%2C_Jiu-Jitsu-Schule.jpg
     source:
