@@ -1,0 +1,58 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-110
+  name: Alfred Rhode
+  aka:
+    - name: Alfred Werner Carl Rhode
+  nationality:
+    - DEU
+  birth:
+    date: "1896-08-16"
+    location: Steinwalde
+    country_code: DEU
+  death:
+    date: "1978-09-13"
+    location: Sprendlingen
+    country_code: DEU
+  photo:
+    url: https://archive.org/download/alfred_rhode/alfred_rhode.jpg
+    source:
+      uri: https://www.bath.ac.uk/library/cabinet-of-curiosities/story/45
+      cite: "Yannick SCHULTZE - Die «Internationale Judo-Sommerschule»"
+  teachers:
+    - name: JDP-19
+      style_id: JDP-S-14
+      place:
+      period:
+        start:
+        end:
+      quality:
+      sources:
+        - uri: https://books.google.de/books?id=Oa8Cdh9UVrIC
+          cite: "WEDEMEYER-KOLWE, Bernd. «Der neue Mensch»: Körperkultur im Kaiserreich und in der Weimarer Republik. Königshausen & Neumann, 2004, p. 308"
+          citation: "(...) 1922 gründete der Rahn-Schüler Alfred Rohde dann den 1. Deutschen Judo-Club in Frankfur (...)"
+        - uri: https://link.springer.com/chapter/10.1057/9781137573971_6
+          cite: "PANZER, Sarah. When Jiu-Jitsu was German: Japanese Martial Arts in German Sport-and Körperkultur, 1905–1933. In: Transnational Encounters between Germany and Japan: Perceptions of Partnership in the Nineteenth and Twentieth Centuries. New York: Palgrave Macmillan US, 2016. p. 91-106."
+          citation: "The first German judo club was formed in 1922 in Frankfurt by Alfred Rhode, a former student of Erich Rahn. For several years, jiu-jitsu and judo coexisted relatively collegially in Germany, most likely because the still relatively small community of instructors and active participants made cooperation necessary if either discipline was to survive"
+  rank:
+    - style_id: JDP-S-1
+      org: Deutsches-Dan Kollegium
+      teacher:
+      rank: 8 dan
+      date: "1976-08-16"
+      sources:
+        - uri: http://www.lothar-nest.de/ln0243/ddk1932.html
+          cite: "Sportschule Lothar Nest: Judo - Sommerschule 1932 in Frankfurt a.M. aus den Unterlagen von Dieter Schiemann"
+          citation: "Doris Schiemann und ihr Sohn Holger überbringen Lothar Nest mehrere Kartons aus dem Nachlaß von Dieter Schiemann, - er war Schatzmeister des DDK/DJB in den 60er Jahren und überreichte Alfred Rhode am 16.8.1076 die Urkunde zum 8.DAN DDK/DJB! Alfred Rhode gründete 1952 das DDK."
+  sources:
+    - uri: https://de.wikipedia.org/wiki/Alfred_Rhode
+    - uri: https://www.judobund.de/ueber-uns/judo-und-seine-geschichte
+      cite: "DJB: Judo Und Seine Geschichte"
+    - uri: https://www.ijf.org/history/from-martial-art-to-olympic-sport/1129
+      cite: "IJF: From Martial Art to Olympic Sport - PART 4"
+    - uri: https://www.bath.ac.uk/library/cabinet-of-curiosities/story/45
+      cite: "Yannick SCHULTZE - Die «Internationale Judo-Sommerschule»"
+    - uri: http://www.lothar-nest.de/ln0243/ddk1932.html
+      cite: "Sportschule Lothar Nest: Judo - Sommerschule 1932 in Frankfurt a.M. aus den Unterlagen von Dieter Schiemann"
