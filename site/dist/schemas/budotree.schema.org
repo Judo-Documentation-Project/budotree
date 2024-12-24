@@ -1,0 +1,400 @@
+{
+  "$id": "http//judoc.org/JDP/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Person",
+  "description": "Information on a martial artist.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "person": {
+      "$ref": "#/definitions/Person"
+    }
+  },
+  "required": [ "person" ],
+  "definitions": {
+    "Person": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+          "$ref": "#/definitions/NativeName"
+        },
+        "aka": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+              "$ref": "#/definitions/Name"
+            },
+              {
+              "native_name": {
+                "$ref": "#/definitions/NativeName"
+              }
+            }
+            ]
+          }
+        },
+        "nationality": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "birth": {
+          "$ref": "#/definitions/LifeEvent"
+        },
+        "death": {
+          "$ref": "#/definitions/LifeEvent"
+        },
+        "description": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "$ref": "#/definitions/Description"
+          }
+          ]
+        },
+        "photo_url": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string",
+            "format": "uri",
+            "qt-uri-protocols": [
+              "https",
+              "http"
+            ]
+          }
+          ],
+          "deprecated": true
+        },
+        "photo": {
+          "$ref": "#/definitions/Photo"
+        },
+        "teachers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Teacher"
+          }
+        },
+        "rank": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Rank"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "birth",
+        "death",
+        "id",
+        "name",
+        "nationality",
+        "rank",
+        "sources",
+        "teachers"
+      ],
+      "title": "Person"
+    },
+    "LifeEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "anyOf": [
+            {
+            "type": "integer",
+            "pattern": "^[0-9]$"
+          },
+            {
+            "type": "string",
+            "format": "date"
+          }
+          ]
+        },
+        "location": {
+          "type": "string"
+        },
+        "country_code": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          }
+        }
+      },
+      "required": [
+        "country_code",
+        "date",
+        "location"
+      ],
+      "title": "Life Event"
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uri": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https",
+            "http"
+          ]
+        },
+        "citation": {
+          "type": "string"
+        },
+        "cite": {
+          "type": "string"
+        },
+        "events": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "uri"
+      ],
+      "title": "Source"
+    },
+    "Description": {
+      "type": "object",
+      "additionalProperties": {
+        "type" : "string"
+      },
+      "title": "Description"
+    },
+    "Name": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "NativeName": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "lang": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "lang",
+        "name"
+      ],
+      "title": "NativeName"
+    },
+    "Photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpg"
+          ]
+        },
+        "source": {
+          "$ref": "#/definitions/Source"
+        }
+      },
+      "required": [
+        "source",
+        "url"
+      ],
+      "title": "Photo"
+    },
+    "Rank": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "style_id": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string"
+        },
+        "org": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "teacher": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "rank": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string",
+            "format": "date"
+          },
+            {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          }
+          ]
+        },
+        "teacher_id": {
+          "type": "string"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          }
+        }
+      },
+      "required": [
+        "rank",
+        "date"
+      ],
+      "oneOf": [
+        {"required": [ "style_id" ]},
+        {"required": [ "style" ]}
+      ],
+      "anyOf": [
+        {"required": [ "org" ]},
+        {"required": [ "teacher" ]}
+      ],
+      "title": "Rank"
+    },
+    "Teacher": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "style_id": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string",
+          "deprecated": true
+        },
+        "place": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "period": {
+          "$ref": "#/definitions/Period"
+        },
+        "quality": {
+          "type": "integer"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Source"
+          }
+        }
+      },
+      "required": [
+        "period",
+        "place",
+        "quality"
+      ],
+      "oneOf": [
+        {"required": [ "id" ]},
+        {"required": [ "name" ]}
+      ],
+      "oneOf": [
+        {"required": [ "style_id" ]},
+        {"required": [ "style" ]}
+      ],
+      "title": "Teacher"
+    },
+    "Period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer"
+        },
+        "end": {
+          "anyOf": [
+            {
+            "type": "integer"
+          },
+            {
+            "type": "null"
+          }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "start"
+      ],
+      "title": "Period"
+    }
+  }
+}
