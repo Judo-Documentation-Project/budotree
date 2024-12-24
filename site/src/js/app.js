@@ -2,6 +2,8 @@ import data from "./tree.json";
 import dbversion from "./dbversion.json";
 import ptRes from "../i18n/pt.json";
 import jaRes from "../i18n/ja.json";
+import deRes from "../i18n/de.json";
+
 
 import cytoscape from "cytoscape";
 import elk from "cytoscape-elk";
@@ -53,6 +55,7 @@ const countries = require("i18n-iso-countries");
 countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/pt.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/ja.json"));
+countries.registerLocale(require("i18n-iso-countries/langs/de.json"));
 
 cytoscape.use(elk);
 cytoscape.use(cola);
@@ -67,6 +70,7 @@ console.log(data);
 const langRes = {};
 langRes.pt = ptRes;
 langRes.ja = jaRes;
+langRes.de = deRes;
 
 let lang = "en";
 console.log("i18n: setting lang to ", lang);
