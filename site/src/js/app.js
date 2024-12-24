@@ -362,6 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //    layoutOptions["elk"]["algorithm"] = "stress";
 
   cy.nodes().unselect();
+  
   if (urlParams.get("id") && cy.getElementById(urlParams.get("id")).isNode()) {
     cy.getElementById(urlParams.get("id")).select();
   } else {
@@ -415,6 +416,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const layout = cy.layout(layoutOptions);
   layout.run();
   console.log(layout);
+
+  // This is used by the nationality bubbles
   nodesByCountry();
   listPersons();
 
@@ -936,14 +939,14 @@ function updateInfo(target) {
       "https://" + window.location.host + "/tree.html?id=" + target.data().id,
     );
     cardFooterShare.innerHTML =
-      '<i class="fas fa-eye mr-3 "></i> ' //+ target.data().id;
+      '<i class="fas fa-share-nodes mr-3 "></i> ' //+ target.data().id;
 
     cardFooterLink.setAttribute(
       "href",
       "https://" + window.location.host + "/" + target.data().id + ".html",
     );
     cardFooterLink.innerHTML =
-      '<i class="fas fa-share-nodes mr-3 "></i> ' //+ target.data().id;
+      '<i class="fas fa-circle-user mr-3 "></i> ' //+ target.data().id;
 
     cardFooter.setAttribute("href", gitRoot + target.data().source_yaml);
     cardFooter.innerHTML =
@@ -1226,6 +1229,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
 function nodesByCountry() {
   const countryList = {};
   let country;
@@ -1282,7 +1286,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const clusterNationality = document.getElementById("clusterNationality");
     clusterNationality.addEventListener("click", (e) => {
         if (e.target.checked) {
-            layoutOptions.clusters = clusterInfo;
+          layoutOptions.clusters = clusterInfo;
         } else {
             layoutOptions.clusters = null;
         }
@@ -1298,19 +1302,18 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Cluster nationality checked")
             setCluster("nationality")
         } else {
-
-            cy.nodes().forEach(function (ele) {
-                ele.move({
-                    parent: null
-                })
-            });
-
-            let parents = cy.elements('node[type = "grouping"]')
-            console.log("Parents")
-            console.log(parents)
-            cy.remove(parents)
+          cy.nodes().forEach(function (ele) {
+            ele.move({
+              parent: null
+            })
+          });
+          let parents = cy.elements('node[type = "grouping"]')
+          console.log("Parents")
+          console.log(parents)
+          cy.remove(parents)
         }
-        layout.run();
+      layout = cy.layout(layoutOptions);      
+      layout.run();
     })});
 
 document.addEventListener("DOMContentLoaded", function () {
