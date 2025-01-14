@@ -31,8 +31,8 @@ person:
       style_id: JDP-S-6 # TSKR
       place: 
       period:
-        start: 1918
-        end: 1919
+        start: 
+        end:
       quality: 2
       sources:
         - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
