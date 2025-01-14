@@ -1,0 +1,51 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-116
+  name: Iizasa Shuri-no-suke Morisada
+  native_name:
+    name: 飯篠修理亮盛貞
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 
+    location: 
+    country_code: JPN
+  death:
+    date: 
+    location: 
+    country_code: JPN
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/a/ad/XVIII_Dai_S%C5%8Dke_Iizasa_Shuri-no-suke_Morisada.jpg
+    source:
+      uri: https://commons.wikimedia.org/wiki/File:XVIII_Dai_S%C5%8Dke_Iizasa_Shuri-no-suke_Morisada.jpg
+      cite: "XVIII Dai Sōke Iizasa Shuri-no-suke Morisada (Wikimedia Commons)"
+  teachers:
+    - id: 
+      style_id: 
+      place: 
+      period:
+        start: 
+        end: 
+      quality: 2
+  rank:
+    - style: JDP-S-6
+      org:
+      teacher:
+      rank: Soke
+      date:
+      sources:
+        - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+          cite: "Women of Katori Shintō-ryū"
+          citation: "In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju."        
+  sources:
+    - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+      cite: "Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo"
+    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+      cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"      
+    - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+      cite: "Women of Katori Shintō-ryū"
+    - uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
+      citation: "天真正伝香取神道流 (天真正伝香取神道流)"

@@ -1,0 +1,48 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-115
+  name: Kumajiro Yamaguchi
+  native_name:
+    name: 山口熊次郎
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 
+    location: 
+    country_code: JPN
+  death:
+    date: 
+    location: 
+    country_code: JPN
+  teachers:
+    - id: JDP-116 # Izasa Morisada
+      style_id: JDP-S-6 # TSKR
+      place: 
+      period:
+        start: 
+        end: 
+      quality: 2
+      sources:
+        - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+          cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+          citation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke"
+  rank:
+    - style: JDP-S-6
+      org:
+      teacher:
+      rank: Kyoju
+      date:
+      sources:
+        - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+          cite: "Women of Katori Shintō-ryū"
+          citation: "In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju."        
+  sources:
+    - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+      cite: "Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo"
+    - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+      cite: "Women of Katori Shintō-ryū"
+    - uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
+      citation: "天真正伝香取神道流 (天真正伝香取神道流)"

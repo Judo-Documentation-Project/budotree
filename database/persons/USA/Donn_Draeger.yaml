@@ -1,0 +1,45 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-111
+  name: Donn F. Draeger
+  aka:
+    - name: Donald Frederick Draeger
+  nationality:
+    - USA
+  birth:
+    date: "1922-04-15"
+    location: Milwaukee, Wisconsin
+    country_code: USA
+  death:
+    date: "1982-10-20"
+    location: Milwaukee, Wisconsin
+    country_code: USA
+  photo:
+    url: https://archive.org/download/draeger/draeger.jpg
+    source:
+      uri: https://judoinfo.com/kata/
+      cite: "Nage no Kata and Katame no Kata, by Donn F. Draeger - JudoIndo"
+  teachers:
+    - id: JDP-112 # Otake Risuke
+      style_id: JDP-S-6 # TSKS
+      place: 
+      period:
+        start: 1967
+        end:
+      quality: 3
+      sources:
+        - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
+          cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
+          citation: "A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur."
+  rank:
+    - style_id: #FIXME Shintō Musō-ryū 
+      org: 
+      teacher: 
+      rank: 
+      date: 
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
+    - uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
+

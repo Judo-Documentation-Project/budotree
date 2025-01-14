@@ -3,14 +3,13 @@
 
 style:
   id: JDP-S-9
-  name: Muso-ryu
+  name: Muso-ryu Shinjujutsu
   native_name:
-    name: 無相流
+    name: 無相流新柔術
     lang: ja
   birth: 
     date: 1592
     location: Sanuki
     country_code: JPN  
   sources:
-    - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81
-    - uri: https://www.ijf.org/news/show/the-first-edition-of-the-arts-and-sciences-of-judo-online-journal
+    - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81%E6%96%B0%E6%9F%94%E8%A1%93

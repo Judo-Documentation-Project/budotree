@@ -1,0 +1,62 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-112
+  name: Ōtake Risuke
+  native_name:
+    name: 大竹利典
+    lang: ja
+  aka:
+    - name: Ōtake Risuke Minamoto no Takeyuki
+    - name: 大竹利典源健之
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1926-03-10"
+    location: 
+    country_code: JPN
+  death:
+    date: "2021-06-07"
+    location: 
+    country_code: JPN
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/7/78/Risuke_%C5%8Ctake.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Risuke_Otake#/media/File:Risuke_%C5%8Ctake.jpg
+      cite: "Risuke Ōtake, Japanese swordsman (Wikipedia Commons)"
+  teachers:
+    - id: JDP-113 # Hayashi Yazaemon
+      style_id: JDP-S-6 # TSKR
+      place: 
+      period:
+        start: 1918
+        end: 1919
+      quality: 2
+      sources:
+        - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+          cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+          citation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke"
+  rank:
+    - style: JDP-S-6 
+      org:
+      teacher: JDP-113
+      rank: Gokui kaiden
+      date: 1967
+      sources:
+        - uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+          cite: "Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)"
+          citation: "That year, I received the Gokui Kaiden scroll and a proof signifying that I have attained Gokui Sōden from Hayashi-sensei. Sensei told me, “Call yourself Gokui Kaiden once you are 42 years old.” At the time I was 32 years old, so I think it was to be in accordance with the rules of our school."
+        - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+          cite: "Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo"
+          citation: "Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan Dojo founder)."          
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Risuke_Otake
+    - uri: https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%AB%B9%E5%88%A9%E5%85%B8
+    - uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q3433225
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Risuke_Otake
+      cite: DBpedia

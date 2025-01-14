@@ -5,8 +5,8 @@ person:
   id: JDP-35
   name: Shiina Ichizo
   native_name:
-    name:
-    lang:
+    name: 椎名市蔵
+    lang: ja
   nationality:
     - JPN
   birth:
@@ -19,13 +19,17 @@ person:
     country_code:
   photo_url:
   teachers:
-    - id:
-      style_id:
+    - id: JDP-116 #  Iizasa Shuri-no-suke Morisada
+      style_id: JDP-S-6
       place:
       quality:
       period:
         start:
         end:
+      sources:
+        - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+          cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+          citation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô"
   rank:
     - style:
       org:
@@ -34,3 +38,7 @@ person:
       date:
   sources:
     - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+      cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"        
+    - uri: https://ja.wikipedia.org/wiki/%E8%AC%9B%E9%81%93%E9%A4%A8
+      cite: "講道館"

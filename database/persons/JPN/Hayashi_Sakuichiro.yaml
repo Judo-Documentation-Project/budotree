@@ -1,0 +1,43 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-114
+  name: Hayashi Sakuichiro
+  native_name:
+    name: 林作一郎
+    lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: 
+    location: 
+    country_code: JPN
+  death:
+    date: 
+    location: 
+    country_code: JPN
+  teachers:
+    - id: JDP-115 # Kumajiro Yamagushi
+      style_id: JDP-S-6 # TSKR
+      place: 
+      period:
+        start: 
+        end: 
+      quality: 2
+      sources:
+        - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+          cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+          citation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke"
+        - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+          cite: "Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo"
+          citation: "Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan Dojo founder)."
+  rank:
+    - style:
+      org:
+      teacher:
+      rank: 
+      date:
+  sources:
+    - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+      cite: "Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo"
