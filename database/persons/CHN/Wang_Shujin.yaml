@@ -34,7 +34,7 @@ person:
         - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
           cite: "Martial arts fight for survival (Taipei Times)"
           citation: " By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang's instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means \"eight diagram palms\" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy"
-    - id: JDP-119 # Zhang Zhaodong
+    - id: JDP-118 # Zhang Zhaodong
       style_id: JDP-S-18 # Xingyiquan
       place: 
       period:
