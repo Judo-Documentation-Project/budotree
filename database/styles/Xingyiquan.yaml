@@ -1,0 +1,43 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+style:
+  id: JDP-S-18
+  name: Xingyiquan
+  native_name:
+    name: 形意拳
+    lang: cn
+  birth:
+    date: 
+    location:
+    country_code: CHN
+  media:
+    video_url: https://www.youtube.com/watch?v=MD144T5cpiU
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
+  description:
+    en: >
+      Xingyiquan, or Xingyi, is a style of internal Chinese martial
+      arts. The word translates approximately to "Form-Intention
+      Fist", or "Shape-Will Fist". It is characterized by
+      aggressive, seemingly linear movements and explosive power most
+      often applied from a short range. A practitioner of Xingyi uses
+      coordinated movements to generate bursts of power intended to
+      overwhelm the opponent, simultaneously attacking and
+      defending. Methods vary from school to school, but always
+      include bare-handed fighting training (mostly in single
+      movements/combinations and sometimes in forms) and the training
+      of weapons usage with similar or identical body mechanics to
+      that used for bare-handed intense fighting. The most basic
+      notions of movement and body mechanics in the art were heavily
+      influenced by the practice of staves and spears.
+    cn: >-
+      形意拳，又称心意拳、心意六合拳，中国传统武术，属内家拳，流行于中
+      国北方，分成河北、山西、河南3个系统，打法多直行直进。形意拳发源
+      于山西太谷，山西形拳讲究功力，形松意紧，外形不拘一格，打法变幻多
+      端的风格特点。在形意十二形中，重点突出所取动物的进攻技巧，不求形
+      象但求意真的练法，五行中讲究木、火、土、金、水的内涵。形意拳是中
+      国三大著名内家拳拳种之一（形意、太极、八卦），与少林拳位列中国四
+      大名拳。
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Xingyiquan
+    - uri: https://zh.wikipedia.org/zh-hans/%E5%BD%A2%E6%84%8F%E6%8B%B3

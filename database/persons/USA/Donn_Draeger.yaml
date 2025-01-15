@@ -33,6 +33,17 @@ person:
         - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
           cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
           citation: "A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur."
+    - id: JDP-117 # Wang Shujin
+      style_id: JDP-S-6 # TSKS
+      place: Meiji Shrine
+      period:
+        start: 
+        end:
+      quality: 2
+      sources:
+        - uri: https://kogenbudo.org/i-htm/
+          cite: "Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)"
+          citation: "There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)"
   rank:
     - style_id: #FIXME Shintō Musō-ryū 
       org: 

@@ -1,0 +1,62 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-117
+  name: Wang Shujin
+  aka:
+    - name: Wang Heng Sun
+  nationality:
+    - CHN
+    - TWN
+  birth:
+    date: "1904"
+    location: 
+    country_code: CHN
+  death:
+    date: "1981"
+    location: Taipei
+    country_code: TWN
+  photo:
+    url: https://archive.org/download/wang-hawk-posture/Wang-hawk-posture.jpg
+    source:
+      uri: https://blog.awma.com/man-of-steel/wang-hawk-posture/
+      cite: "Wang [Shujin] hawk posture (AWMA)"
+  teachers:
+    - id: JDP-118 # Zhang Zhaodong
+      style_id: JDP-S-17 # Baguazhang
+      place: 
+      period:
+        start: 
+        end:
+      quality: 2
+      sources:
+        - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+          cite: "Martial arts fight for survival (Taipei Times)"
+          citation: " By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang's instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means \"eight diagram palms\" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy"
+    - id: JDP-119 # Zhang Zhaodong
+      style_id: JDP-S-18 # Xingyiquan
+      place: 
+      period:
+        start: 
+        end:
+      quality: 2
+      sources:
+        - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+          cite: "Martial arts fight for survival (Taipei Times)"
+          citation: " By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang's instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means \"eight diagram palms\" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy"          
+  rank:
+    - style:
+      org:
+      teacher:
+      rank:
+      date:
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Wang_Shujin 
+    - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+      cite: "Martial arts fight for survival (Taipei Times)"
+  links:
+    - uri: https://www.wikidata.org/wiki/Q4018116
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Wang_Shujin
+      cite: DBpedia
