@@ -1699,15 +1699,15 @@ function updateTimeline() {
       "https://res.cloudinary.com/duu3v9gfg/image/fetch/t_w_640_auto/https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2019/01/jpn-03-1548749418-1548749418.jpg";
     caption = "Judo practiced at the Fujimi-cho Kodokan dojo";
     credit = "Image by Hishida Shunso, copyright Kodokan Institute";
-    headline = polyglot.t("A timeline of Budōka");
+    headline = polyglot.t("A timeline of martial artists");
     text = polyglot.t(
-      "The history of martial arts through the Budō tree database.",
+      "The history of martial arts through the tree database.",
     );
   } else {
     if (styleData.description && styleData.description[lang]) {
       text = styleData.description[lang];
     } else {
-      text = polyglot.t("A timeline through the Budō tree database.");
+      text = polyglot.t("A timeline through the tree database.");
     }
     if (
       styleData.media &&
