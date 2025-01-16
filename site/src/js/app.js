@@ -57,6 +57,7 @@ countries.registerLocale(require("i18n-iso-countries/langs/en.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/pt.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/ja.json"));
 countries.registerLocale(require("i18n-iso-countries/langs/de.json"));
+countries.registerLocale(require("i18n-iso-countries/langs/zh.json"));
 
 cytoscape.use(elk);
 cytoscape.use(cola);
