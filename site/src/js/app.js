@@ -3,6 +3,7 @@ import dbversion from "./dbversion.json";
 import ptRes from "../i18n/pt.json";
 import jaRes from "../i18n/ja.json";
 import deRes from "../i18n/de.json";
+import zhRes from "../i18n/zh.json";
 
 
 import cytoscape from "cytoscape";
@@ -71,6 +72,7 @@ const langRes = {};
 langRes.pt = ptRes;
 langRes.ja = jaRes;
 langRes.de = deRes;
+langRes.zh = zhRes;
 
 let lang = "en";
 console.log("i18n: setting lang to ", lang);
