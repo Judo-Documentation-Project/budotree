@@ -25,6 +25,17 @@ person:
         start: 1952
         end:
       quality: 3
+    - id: JDP-119 # Ishikawa Takahiko
+      style_id: JDP-S-1
+      place: Keishicho
+      period:
+        start: 1953
+        end: 1955
+      quality: 3
+      sources:
+          - uri: https://www.usjf.com/takahiko-ishikawa/
+            cite: "Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)"
+            citation: "I would like to share some of my experiences with you about my Sensei and dear friend, Takahiko Ishikawa (...) I first met Ishikawa in 1953 in Japan after I became a Shodan (1st degree black belt) and thus was allowed to workout at the Keishicho (Tokyo Police Dojo) (...)"
   rank:
     - style_id: JDP-S-1
       org: Nanka Judo Yudanshakai

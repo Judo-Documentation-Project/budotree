@@ -1,0 +1,59 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-119
+  name: Ishikawa Takahiko
+  native_name:
+      name: 石川隆彦
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1917-05-15"
+    location: Mitoyo, Kagawa
+    country_code: JPN
+  death:
+    date: "2008-06-09"
+    location:
+    country_code: JPN
+  photo:
+    url: https://upload.wikimedia.org/wikipedia/commons/c/c6/Takahiko_Ishikawa_%281949%29.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Takahiko_Ishikawa#/media/File:Takahiko_Ishikawa_(1949).jpg
+      cite: " Takahiko Ishikawa (1949) (Wikipedia Commons)"    
+  description:
+    en: >-
+      Takahiko Ishikawa (石川隆彦, Ishikawa Takahiko, 1917–2008) was
+      an All Japan Judo Champion. In the 1949 All-Japan Judo
+      Championships Tahahiko fought Masahiko Kimura to a draw. In the
+      following year he became the champion and subsequently placed
+      three more times in the semi-finals and then retired.      
+    ja: >-
+      石川 隆彦（いしかわ たかひこ、1917年〈大正6年〉5月15日 - 2008年
+      〈平成20年〉6月9日）は日本の柔道家（講道館9段）。戦前から戦後に
+      かけて昭和天覧試合準優勝、第2回・第3回全日本選手権優勝等の成績を
+      残し、晩年は米国で柔道普及を行った。身長175cm、体重82kg。
+  teachers:
+    - id: 
+      style_id:
+      place: 
+      quality:
+      period:
+        start:
+        end:
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 9 dan
+      date: 1984
+      sources:
+        - uri: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6
+          cite: "石川隆彦 (Wikipedia)"
+          citation: "1963年に8段を許され、1984年の講道館創立100周年記念に際して9段へ昇段。"
+  sources:
+    - uri: https://ja.wikipedia.org/wiki/%E7%9F%B3%E5%B7%9D%E9%9A%86%E5%BD%A6
+      cite: "石川隆彦 (Wikipedia)"
+    - uri: https://www.usjf.com/takahiko-ishikawa/
+      cite: "Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)"
