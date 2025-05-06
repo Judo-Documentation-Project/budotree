@@ -1,0 +1,58 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-123"
+  name: "James Cagney"
+  aka:
+    - name: "James Francis Cagney Jr."
+  nationality:
+    - USA
+  birth:
+    date: "1899-07-17"
+    location: "New York City"
+    country_code: "USA"
+  death:
+    date: "1986-03-30"
+    location: "Stanford, New York"
+    country_code: "USA"
+  photo:
+    url: "https://archive.org/download/james_cagney/james_cagney.jpg"
+    source:
+      uri: https://archive.org/details/james_cagney
+      cite: Internet Archive
+  teachers:
+    - id: "JDP-122"  # Kenneth Kuniyuki
+      style_id: "JDP-S-1"  # Judo
+      place: "Seinan Dojo, Los Angeles"
+      period:
+        start: 1945
+        end:
+      quality: 1  # Often mentioned but the sources are circular
+      sources:
+        - uri: "https://www.mixedmartialarts.com/judo/1945-film-fight-scene"
+          cite: "1945 film fight scene - MixedMartialArts.com"
+          citation: "James would train Judo at the Seinan Dojo under Kenneth Kuniyuki"	
+  rank:
+    - style_id: "JDP-S-1"
+      rank: "1 dan"
+      date:
+      org:
+      quality: 0  # Conflicting evidence. 
+      sources:
+        - uri: "urn:isbn:0831758058"
+          cite: "CORCORAN, John; FARKAS, Emil. Martial Arts: Traditions, History. People, 1988"
+          location: "p. 187"
+          citation: "James Cagney, a certified judo black belt"
+        - uri: "https://www.e-budo.com/archive/index.php/t-13797.html"
+          cite: "Cagney's Black Belt - E-Budo.com"
+          citation: "He studied Judo just for the movie... up to Brown Belt"
+        - uri: "https://www.e-budo.com/archive/index.php/t-13797.html"
+          cite: "Cagney's Black Belt - E-Budo.com"
+          citation: "His judo dan ranking was honorary"
+  sources:
+    - uri: https://en.wikipedia.org/wiki/James_Cagney
+      cite: "James Cagney (Wikipedia)"
+    - uri: "https://www.mixedmartialarts.com/judo/1945-film-fight-scene"
+      cite: "1945 film fight scene - MixedMartialArts.com"
+    - uri: "https://www.e-budo.com/archive/index.php/t-13797.html"
+      cite: "Cagney's Black Belt - E-Budo.com"
