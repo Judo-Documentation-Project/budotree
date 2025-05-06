@@ -1,0 +1,52 @@
+person:
+  id: JDP-121
+  name: "Saigō Shirō"
+  native_name:
+    name: "西郷四郎"
+    lang: "ja"
+  nationality:
+    - JPN
+  birth:
+    date: "1866-01-04"
+    location: "Aizuwakamatsu, Fukushima"
+    country_code: "JPN"
+  death:
+    date: "1922-12-22"
+    location: "Onomichi"
+    country_code: "JPN"
+  photo:
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Saigo_Shirou.jpg
+      source:
+        uri: https://en.wikipedia.org/wiki/Shiro_Saigo#/media/File:Saigo-Shiro.jpg
+        cite: "Saigo Shiro, Wikimedia Commons"
+  description:
+    en: >
+      Shiro Saigo (西郷四郎, Saigō Shirō, February 4, 1866 – December 22, 1922) was one of the earliest disciples of Judo. Saigo, together with Tsunejiro Tomita, became first in history of judo to be awarded Shodan by the founder of judo Jigoro Kano, who established the kyu-dan ranking system. He was one of the Kōdōkan Shitennō or Four Guardians of the Kodokan along with Yoshitsugu Yamashita, Sakujiro Yokoyama, and Tsunejiro Tomita.
+  teachers:
+    - id: "JDP-1"
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1882
+        end: 1890
+      quality: 3
+      sources:
+        - uri: urn:isbn:1425163491
+          cite: "WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008"
+          location: "p. 20"
+          citation: "Shortly thereafter, in August 1882, the now famous Shiro Saigo became a student of mine"	    
+  rank:
+    - style_id: "JDP-S-1"
+      org: "Kodokan"
+      teacher: "JPN/Kano_Jigoro"
+      rank: "6 dan"
+      date: "1923-01-14"
+      sources:
+        - uri: "https://www.judo-ch.jp/english/legend/saigou/"
+          citation: "January, 1923: 6th Dan (...) Upon receiving news of his death, Jigoro Kano awarded him a posthumous promotion to the 6th Dan on January 14, 1923"
+
+  sources:
+    - uri: "https://www.judo-ch.jp/english/legend/saigou/"
+      cite: "Judo Channel"     
+    - uri: "https://ja.wikipedia.org/wiki/西郷四郎"
+    - uri: "https://judoinfo.com/saigo/"
