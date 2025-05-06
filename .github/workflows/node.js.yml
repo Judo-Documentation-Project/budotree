@@ -20,8 +20,8 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
-    - uses: dorny/paths-filter@v2
+      uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: |
@@ -37,7 +37,7 @@ jobs:
         comment: "true" # enable comment mode
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
@@ -58,7 +58,7 @@ jobs:
       run: cp export/tree.json export/styles.json site/src/js/
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
@@ -87,7 +87,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # - name: Validate YAML
     #   id: json-yaml-validate
@@ -95,7 +95,7 @@ jobs:
     #   with:
     #     comment: "true" # enable comment mode
 
-    - uses: dorny/paths-filter@v2
+    - uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: |
@@ -105,7 +105,7 @@ jobs:
             - 'database/**'
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
@@ -152,8 +152,8 @@ jobs:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
-    - uses: actions/checkout@v3
-    - uses: dorny/paths-filter@v2
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: |
@@ -162,12 +162,12 @@ jobs:
           database:
             - 'database/**'
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
        ref: gh-pages
 
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
@@ -222,8 +222,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - uses: actions/checkout@v3
-    - uses: dorny/paths-filter@v2
+    - uses: actions/checkout@v4
+    - uses: dorny/paths-filter@v3
       id: filter
       with:
         filters: |
@@ -233,15 +233,15 @@ jobs:
             - 'database/**'
     - name: Checkout
       # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
        ref: gh-pages
     - name: Upload artefacts
       # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v4
       with:
         path: site/dist
     - name: Deploy to GitHub Pages
       # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
       id: deployment
-      uses: actions/deploy-pages@v2
+      uses: actions/deploy-pages@v4
