@@ -238,7 +238,7 @@ jobs:
        ref: gh-pages
     - name: Upload artefacts
       # if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@v3
       with:
         path: site/dist
     - name: Deploy to GitHub Pages
