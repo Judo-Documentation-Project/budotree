@@ -1,0 +1,51 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: JDP-122  # [PLEASE ASSIGN ID]
+  name: "Kenneth Kuniyuki"
+  nationality:
+    - USA
+  birth:
+    date: "1910-10-06"
+    location: "Seattle"
+    country_code: "USA"
+  death:
+    date: "2002-11-28"
+    location:
+    country_code: "USA"
+  photo:
+    url: "https://www.usjf.com/wp-content/uploads/2018/02/kuniyuki.png"
+    source:
+      uri: "https://www.usjf.com/kenneth-kuniyuki/"
+      cite: "Kenneth Kuniyuki - USJF"
+  teachers:
+    - id: "JDP-31"  # Kunisaburo Iizuka
+      style_id: "JDP-S-1"  # Judo
+      place: "Keio University, Tokyo"
+      period:
+        start: "1931"
+        end: "1932"
+      quality: 3
+      sources:
+        - uri: "https://www.usjf.com/kenneth-kuniyuki/"
+          cite: "Kenneth Kuniyuki - USJF"
+          location:
+          citation: "From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in Tokyo, Japan"
+        - uri: "https://shoyuzine.tripod.com/id14.html"
+          cite: "Asian Americans who've made a difference - Shoyu Zine"
+          citation: "In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at the time"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "USJF"
+      rank: "9 dan"
+      date:
+      sources:
+        - uri: "https://www.usjf.com/kenneth-kuniyuki/"
+          cite: "Kenneth Kuniyuki - USJF"
+        - uri: "https://shoyuzine.tripod.com/id14.html"
+          cite: "Asian Americans who've made a difference - Shoyu Zine"
+  sources:
+    - uri: "https://www.usjf.com/kenneth-kuniyuki/"
+      cite: "Kenneth Kuniyuki - USJF"
+    - uri: "https://shoyuzine.tripod.com/id14.html"
+      cite: "Asian Americans who've made a difference - Shoyu Zine"
