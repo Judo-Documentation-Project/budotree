@@ -1,0 +1,68 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-125"
+  name: "Yves Klein"
+  nationality:
+    - "FRA"
+  birth:
+    date: "1928-04-28"
+    location: "Nice"
+    country_code: "FRA"
+  death:
+    date: "1962-06-06"
+    location: "Paris"
+    country_code: "FRA"
+  photo:
+    url: "https://www.radiofrance.fr/s3/cruiser-production/2023/12/8d7118cf-6be3-4573-8886-fd621281f20d/860_sc_photo-file-597.webp"
+    source:
+      uri: "https://www.radiofrance.fr/francebleu/podcasts/les-pourquoi-de-la-cote-d-azur/pourquoi-7150784"
+      cite: "Pourquoi un judoka niçois est-il devenu le maître du bleu ? - Radio France"
+  teachers:
+    # Kodokan training
+    - id: "JDP-124"  # Oda Tsunetane
+      style_id: "JDP-S-1"  # Judo
+      place: "Kodokan"
+      period:
+        start: "1952"
+        end: "1954"
+      quality: 3
+      sources:
+        - uri: "https://theeverydaypress.net/the-foundations-of-judo/"
+          cite: "THE FOUNDATIONS OF JUDO - The Everyday Press"
+          citation: "In the early 1950s, the 24-year-old Yves Klein spent a year and a half in Tokyo, studying mainly at the Kodokan under the ninth-dan judo master Oda"    
+    # Tokyo Police training
+    - id: "JDP-124"
+      style_id: "JDP-S-1"
+      place: "Municipal Police of Tokyo"
+      period:
+        start: "1952"
+        end: "1954"
+      quality: 2 
+      sources:
+        - uri: "https://www.ianwhittlesea.net/works_pages/wks_klein/wks_klein1.html"
+          cite: "The Foundations of Judo - Ian Whittlesea"
+          citation: "He has spent this time solely studying Judo... with the Municipal Police of Tokyo under Master Oda"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      rank: "4 dan"
+      date: "1954"  # Shortly before leaving Japan
+      org: "Kodokan"
+      quality: 3  # High certainty
+      sources:
+        - uri: "https://www.yvesklein.com/en/yves-klein/"
+          cite: "Yves Klein - Official Website"
+          citation: "Shortly before his return, he obtained his 4th dan in judo, thus reaching the highest level in Europe"
+  sources:
+    - uri: "https://theeverydaypress.net/the-foundations-of-judo/"
+      cite: "THE FOUNDATIONS OF JUDO - The Everyday Press"
+    - uri: "https://www.ianwhittlesea.net/works_pages/wks_klein/wks_klein1.html"
+      cite: "The Foundations of Judo - Ian Whittlesea"
+    - uri: "https://en.wikipedia.org/wiki/Yves_Klein"
+      cite: "Yves Klein - Wikipedia"
+    - uri: "https://fr.wikipedia.org/wiki/Yves_Klein"
+      cite: "Yves Klein — Wikipédia"
+    - uri: "https://www.yvesklein.com/en/yves-klein/"
+      cite: "Yves Klein - Official Website"
+    - uri: "https://walkerart.org/magazine/yves-klein-the-judoka/"
+      cite: "Yves Klein the Judoka - Walker Art Center"
