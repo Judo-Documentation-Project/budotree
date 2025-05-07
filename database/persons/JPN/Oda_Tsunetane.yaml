@@ -1,0 +1,48 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-124"  # [PLEASE ASSIGN ID]
+  name: "Oda Tsunetane"
+  aka:
+    - name: Join Oda
+  native_name:
+    name: "田常胤"
+    lang: "ja"
+  nationality:
+     - JPN
+  birth:
+    date: "1892-03-10"
+    location: "Yamanashi Prefecture"
+    country_code: "JPN"
+  death:
+    date: "1955-02-11"
+    location: "Shinjuku"
+    country_code: "JPN"
+  photo:
+    url: "https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg"
+    source:
+      uri: "https://en.wikipedia.org/wiki/Tsunetane_Oda"
+      cite: "Japanese judoka Oda - Wikipedia"
+  teachers:
+    - id:
+      style_id:
+      place: 
+      period:
+        start:
+        end:
+      quality:
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "Kodokan"
+      rank: "9 dan"
+      date: "1948"
+      quality: 3
+      sources:
+        - uri: "https://judoinfo.com/oda/"
+          cite: "Master Tsunetane Oda - JudoInfo"
+          citation: "Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third edition of Koshita Judo Wa Sushume"
+  sources:
+    - uri: "https://judoinfo.com/oda/"
+      cite: "Master Tsunetane Oda - JudoInfo"
+    - uri: "https://en.wikipedia.org/wiki/Tsunetane_Oda"
+      cite: "Tsunetane Oda - Wikipedia"
