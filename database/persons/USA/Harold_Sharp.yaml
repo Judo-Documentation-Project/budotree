@@ -36,6 +36,17 @@ person:
           - uri: https://www.usjf.com/takahiko-ishikawa/
             cite: "Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)"
             citation: "I would like to share some of my experiences with you about my Sensei and dear friend, Takahiko Ishikawa (...) I first met Ishikawa in 1953 in Japan after I became a Shodan (1st degree black belt) and thus was allowed to workout at the Keishicho (Tokyo Police Dojo) (...)"
+    - id: JDP-124 # Oda
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1950
+        end:
+      quality: 3
+      sources:
+          - uri: https://judoinfo.com/oda/
+            cite: "Master Tsunetane Oda - JudoInfo"	  
+            citation: "...I began to practice with Master Oda at Rikkyo University in Tokyo, during the early 1950’s and still remain fascinated by his bravado (...) I remained under Master Oda’s tutelage for many years practicing 3 times a day. Often I would accompany Master Oda to the Kodokan as well as the Dojo at Sugamo Prison."
   rank:
     - style_id: JDP-S-1
       org: Nanka Judo Yudanshakai
