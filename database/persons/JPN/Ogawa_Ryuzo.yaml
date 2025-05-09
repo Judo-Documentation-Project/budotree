@@ -1,0 +1,79 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-126"
+  name: "Ogawa Ryuzo"
+  native_name:
+    name: "小川 龍造"
+    lang: "ja"
+  nationality:
+    - JPN
+  birth:
+    date: "1885"
+    location: "Taira, Fukushima"
+    country_code: "JPN"
+  death:
+    date: "1974"
+    location: ""
+    country_code: "JPN"
+  photo:
+    url: "https://fpj.com.br/wp-content/uploads/2022/02/A-partir-de-2022-a-Federacao-Paulista-de-Judo-realizara-os-campeonatos-do-Hombu-Dojo-Budokan-3.jpg"
+    source:
+      uri: "https://fpj.com.br/"  # [MAIN DOMAIN - SPECIFIC PAGE URI UNAVAILABLE]
+      cite: "Mestre Ryuzo Ogawa, fundador do Hombu Dojô Budokan (FPJudo)"
+  teachers:
+    # Iga Jujutsu lineage (incomplete)
+    - name: ""  # [TO BE ADDED - Toyotaro Tokoro]
+      style_id: ""  # [TO BE ADDED - Iga Jujutsu style ID]
+      place:
+      period:
+        start:
+        end:
+      quality:
+      sources:
+        - uri: "urn:isbn:1425163491"
+          cite: "Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015"    
+    # Kashima Shinyo Ryu lineage (incomplete)
+    - name: ""  # [TO BE ADDED - Kosuke Yamada]
+      style_id: ""  # [TO BE ADDED - Kashima Shinyo Ryu style ID]
+      place:
+      period:
+        start:
+        end:
+      quality:          
+      # note: "Yamada also studied Tenjin Shinyo Ryu"
+      sources:
+        - uri: "urn:isbn:1425163491"
+          cite: "Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      rank: "5 dan"
+      date: "1954"  # Shortly before leaving Japan
+      org: "Dai Nippo Butokukai"
+      quality: 2  # High certainty
+      sources:
+        - uri: "https://judo.forumotion.com/t3031-japanese-certificate-help-again"
+          cite: "Japanese Certificate - Help Again [Ryuzo Ogawa] (E-Judo)"
+          citation: "Ogawa Ryuzo signed far left. The three vertical columns are his positions, right to left: 5th dan judo, Dai Nihon Butokukai / Member, Greater Japan Ancient Martial Arts Preservation Society / Shihan, Kashima Shin'yo Ryu Jujutsu Judo"
+    - style_id: "JDP-S-1"  # Judo
+      rank: "8 dan"
+      date: "1954"  # Shortly before leaving Japan
+      org: "Dai Nippo Butokukai"
+      quality: 2  # High certainty
+      sources:
+        - uri: "https://revistabudo.com.br/a-partir-de-2022-a-federacao-paulista-de-judo-realizara-os-campeonatos-do-hombu-dojo-budokan/"
+          cite: "A partir de 2022, a Federação Paulista de Judô realizará os campeonatos do Hombu Dojô Budokan (Revista Budô)"
+          citation: "Após o falecimento de Ryuzo, que conquistara a graduação hachi-dan (8º dan), quem assumiu foi o pai de Hitoshi e Hatiro, Matsuo Ogawa"
+  sources:
+    - uri: "urn:isbn:1425163491"
+      cite: "Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015"
+    - uri: "https://books.google.pt/books?id=WtgDAAAAMBAJ&pg=PA23"
+      cite: "Ryuzo Ogawa's 80 Years of Judo (Black Belt, May 1972)"
+    - uri: "https://ge.globo.com/judo/noticia/2014/09/precursor-na-difusao-do-judo-no-pais-ryuzo-ogawa-e-uma-lenda-do-esporte.html"
+      cite: "Precursor na difusão do judô no país, Ryuzo Ogawa é uma lenda do esporte (GloboEsporte)"
+    - uri: "https://pt.wikipedia.org/wiki/Jud%C3%B4_do_Brasil"
+      cite: "Judô no Brasil - Wikipedia"
+    - uri: "https://www.revistas.usp.br/rbefe/article/view/52889/56819"
+      cite: "NUNES & RUBIO (2012). As origens do judô brasileiro"
+    - uri: "https://isbnsearch.org/isbn/9798639871030"
+      cite: "SILVA & CORRÊA (2020). Muito antes do MMA"

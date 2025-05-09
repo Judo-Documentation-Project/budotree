@@ -1,0 +1,74 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-127"
+  name: "Augusto de Oliveira Cordeiro"
+  nationality:
+    - PRT
+    - BRA
+  birth:
+    date: "1920"
+    location: "Guarda"
+    country_code: "PRT"
+  death:
+    date: 
+    location: 
+    country_code:     
+  photo:
+    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0SaP3kJCQsq0xVQfxvIua1TgIRyiqpJZIznwf5_SWbrdmi4CQLfGOp8Y4Xl-Di4hN2Ytu6UUwdq2Vp74gV4TtNsZRQ1CrdVjjnUdrBeedK1WjAy0DgXat0n8a7oKIKA0-e-BhEhLxhdvI/s320/Augusto+Cordeiro+c.jpg"
+    source:
+      uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
+      cite: "O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)"
+  teachers:
+    # Judo under Ogawa
+    - id: "JDP-126"  # Ryuzo Ogawa
+      style_id: "JDP-S-1"  # Judo
+      place: "Budokan (SP)"
+      period:
+        start: "1950"  # Early 1950s per Maçaneiro
+        end:
+      quality: 3  # High certainty
+      sources:
+        - uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
+          cite: "Rudolf Hermanny's Blog"
+          citation: "ao estabelecer contato com a Associação Budokan do Prof. Riuzo Ogawa se apaixonou pelo magnífico Judô que ali se ensinava e praticava. Após uma temporada residindo em casa do mestre e praticando com seus alunos, o Prof. Cordeiro adotou a nova metodologia e a forma de competição oficial do judô"
+        - uri: "https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/"
+          cite: "Revista Budô"
+          citation: "discípulo direto do mestre japonês Ryuzo Ogawa"
+        - uri: "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php"
+          cite: "Maçaneiro (2024)"
+          location: "pp. 91-92"
+          citation: "Cordeiro continuou a procurar pelo judô e, no início da década de 1950, chegou à um acordo com Ryuzo Ogawa, tornando-se sua primeira filial no Rio de Janeiro"
+    # Jujutsu under Yano
+    - id: "JDP-115"  # Yano Takeo
+      style_id: "JDP-S-14"  # Jujutsu
+      place: "Rio de Janeiro"
+      period:
+        start: "1944"
+        end: "1948"
+      quality: 2
+      sources:
+        - uri: "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php"
+          cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"	
+          location: "p. 91"
+          citation: "em 1944 a ACM promoveu competições e graduações (...) Por esse período é que Takeo Yano foi responsável pela graduação de professores no Rio de Janeiro e, dentre eles, aquele que se tornou, anos mais tarde, o primeiro presidente da CBJ, Augusto Cordeiro"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "Budokan/Federação Guanabarina de Judô"
+      rank: "5 dan"
+      date: "1963"  # Documented in FGJ bulletin
+      sources:
+        - uri: "https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/"
+          cite: "O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)"
+          citation: "Boletim Informativo nº 1, de 1963... Prof. Cordeiro - 5º dan"
+  sources:
+    - uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
+      cite: "O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)"
+    - uri: "https://pt.wikipedia.org/wiki/Jud%C3%B4_do_Brasil"
+      cite: "Judô no Brasil - Wikipedia"
+    - uri: "https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/"
+      cite: "Georges Mehdi e Rudolf Hermanny - Revista Budô"
+    - uri: "https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php"
+      cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
+    - uri: "https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/"
+      cite: "O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)"
