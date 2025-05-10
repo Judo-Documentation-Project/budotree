@@ -1,0 +1,51 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-128"
+  name: "Rudolf Hermanny"
+  nationality:
+    - BRA
+  birth:
+    date: "1931-08-16"
+    location: "São Paulo"
+    country_code: "BRA"
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: "https://archive.org/download/hermanny/hermanny.png"
+    source:
+      uri: "https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-farao-palestras-no-seminario-os-pioneiros/"
+      cite: "Georges Mehdi e Rudolf Hermanny farão palestras no seminário Os Pioneiros - Revista Budô"
+  teachers:
+    - id: "JDP-127"  # Augusto Cordeiro
+      style_id: "JDP-S-1"  # Judo
+      place: "Academia Augusto Cordeiro"
+      period:
+        start: "1952"
+        end: "1987"  # Until Cordeiro's death
+      quality: 3  # High certainty (direct account)
+      sources:
+        - uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
+          cite: "O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)"
+          citation: "Iniciei a prática do judô sob a orientação do Prof. Augusto de Oliveira Cordeiro em dezembro de 1952 na Academia localizada à rua Barata Ribeiro, nº 530, que muitas recordações deixou."
+        - uri: "https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/"
+          cite: "Georges Mehdi e Rudolf Hermanny - Revista Budô"
+          citation: "Segundo o historiador Stanlei Virgílio, o professor Hermanny iniciou seu judô com o professor Augusto Cordeiro em 1952, a quem esteve ligado até sua morte em 1987."
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "Federação Guanabarina de Judô"
+      rank: "4 dan"
+      date: "1963"  # Documented in bulletin
+      sources:
+        - uri: "https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/"
+          cite: "O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)"
+          citation: "Boletim Informativo nº 1, de 1963... Prof. Hermanny - 4º dan"
+  sources:
+    - uri: "https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/"
+      cite: "Georges Mehdi e Rudolf Hermanny - Revista Budô"
+    - uri: "https://saladepesquisacapoeira.blogspot.com/2009/03/rudolf-hermany-boxcapoeira-e-judo.html"
+      cite: "RUDOLF HERMANY, BOX, CAPOEIRA E JUDO - Sala de Pesquisa"
+    - uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
+      cite: "O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)"
