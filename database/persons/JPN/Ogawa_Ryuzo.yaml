@@ -17,9 +17,9 @@ person:
     location: ""
     country_code: "JPN"
   photo:
-    url: "https://fpj.com.br/wp-content/uploads/2022/02/A-partir-de-2022-a-Federacao-Paulista-de-Judo-realizara-os-campeonatos-do-Hombu-Dojo-Budokan-3.jpg"
+    url: "https://archive.org/download/ogawa/ogawa.jpgDojo-Budokan-3.jpg"
     source:
-      uri: "https://fpj.com.br/"  # [MAIN DOMAIN - SPECIFIC PAGE URI UNAVAILABLE]
+      uri: "https://fpj.com.br/"
       cite: "Mestre Ryuzo Ogawa, fundador do Hombu Dojô Budokan (FPJudo)"
   teachers:
     # Iga Jujutsu lineage (incomplete)
