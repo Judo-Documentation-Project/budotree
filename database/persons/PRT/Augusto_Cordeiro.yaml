@@ -15,7 +15,7 @@ person:
     location: 
     country_code:     
   photo:
-    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0SaP3kJCQsq0xVQfxvIua1TgIRyiqpJZIznwf5_SWbrdmi4CQLfGOp8Y4Xl-Di4hN2Ytu6UUwdq2Vp74gV4TtNsZRQ1CrdVjjnUdrBeedK1WjAy0DgXat0n8a7oKIKA0-e-BhEhLxhdvI/s320/Augusto+Cordeiro+c.jpg"
+    url: https://archive.org/download/augusto-cordeiro-c/Augusto%20Cordeiro%20c.jpg
     source:
       uri: "https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html"
       cite: "O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)"
@@ -54,7 +54,7 @@ person:
           citation: "em 1944 a ACM promoveu competições e graduações (...) Por esse período é que Takeo Yano foi responsável pela graduação de professores no Rio de Janeiro e, dentre eles, aquele que se tornou, anos mais tarde, o primeiro presidente da CBJ, Augusto Cordeiro"
   rank:
     - style_id: "JDP-S-1"  # Judo
-      org: "Budokan/Federação Guanabarina de Judô"
+      org: "Federação Guanabarina de Judô"
       rank: "5 dan"
       date: "1963"  # Documented in FGJ bulletin
       sources:
