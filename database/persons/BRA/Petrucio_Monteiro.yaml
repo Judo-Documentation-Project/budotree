@@ -1,0 +1,52 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-128"
+  name: "Petrucio Monteiro"
+  aka:
+    - name: "Petrucio de Queiroz Monteiro"
+  nationality:
+    - BRA
+  birth:
+    date: "1942"
+    location: ""
+    country_code: "BRA"
+  death:
+    date: "2022"
+    location: ""
+    country_code: "BRA"
+  photo:
+    url: "https://i0.wp.com/judorio.org/wp-content/uploads/2022/04/Petrucio-Monteiro.jpg"
+    source:
+      uri: "https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/"
+      cite: "Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro"
+  teachers:
+    - id: "JDP-127"  # Rudolf Hermanny
+      style_id: "JDP-S-1"  # Judo
+      quality: 2  # Medium certainty (single source)
+      place: "Academia Rudolf Hermanny"
+      period:
+        start:
+        end:
+      sources:
+        - uri: "https://benfeitoria.com/projeto/biopetrucio"
+          cite: "Biografia Petrucio Monteiro - Benfeitoria"
+          citation: "O professor Petrucio seguiu a linha do professor Rudolf Hermanny"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      rank: "1 dan"
+      date: "1967"
+      org:
+      sources:
+        - uri: "https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf"
+          cite: "Petrucio Monteiro (PDF)"
+          citation: "Faixa preta desde 1967"
+  sources:
+    - uri: "https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/"
+      cite: "Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro"
+    - uri: "https://benfeitoria.com/projeto/biopetrucio"
+      cite: "Biografia Petrucio Monteiro - Benfeitoria"
+    - uri: "https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf"
+      cite: "Petrucio Monteiro (PDF)"
+    - uri: "https://www.facebook.com/judopetruciomonteiro/"
+      cite: "Judô Petrucio Monteiro - Facebook"

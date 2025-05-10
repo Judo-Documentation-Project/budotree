@@ -31,6 +31,17 @@ person:
         - uri: https://github.com/Judo-Documentation-Project/budotree
           cite: "Mário Aguilar, private communication, 2021"
           citation: "... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano"
+    - id: JDP-128 # Petrucio Monteiro
+      style_id: JDP-S-1
+      place: "Academia Petrucio Monteiro"
+      quality: 3
+      period:
+        start: 1980
+        end: 1981
+      sources:
+        - uri: https://github.com/Judo-Documentation-Project/budotree
+          cite: "Mário Aguilar, private communication, 2021"
+          citation: "... os meus mestres por ordem cronológica foram: (...) Mestre Petrúcio Monteiro (Brasil) - 1980 a 1981 e meio"
   rank:
     - style_id: JDP-S-1
       org: FPJ
