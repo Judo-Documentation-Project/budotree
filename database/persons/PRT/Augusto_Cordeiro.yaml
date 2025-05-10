@@ -39,9 +39,8 @@ person:
           cite: "Maçaneiro (2024)"
           location: "pp. 91-92"
           citation: "Cordeiro continuou a procurar pelo judô e, no início da década de 1950, chegou à um acordo com Ryuzo Ogawa, tornando-se sua primeira filial no Rio de Janeiro"
-    # Jujutsu under Yano
     - id: "JDP-105"  # Yano Takeo
-      style_id: "JDP-S-14"  # Jujutsu
+      style_id: "JDP-S-1"  # Judo or jujutsu?
       place: "Rio de Janeiro"
       period:
         start: "1944"
