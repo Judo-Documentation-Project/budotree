@@ -17,7 +17,7 @@ person:
     location: ""
     country_code: "JPN"
   photo:
-    url: "https://archive.org/download/ogawa/ogawa.jpgDojo-Budokan-3.jpg"
+    url: "https://archive.org/download/ogawa/ogawa.jpg"
     source:
       uri: "https://fpj.com.br/"
       cite: "Mestre Ryuzo Ogawa, fundador do Hombu Dojô Budokan (FPJudo)"
