@@ -14,7 +14,7 @@ person:
     location:
     country_code:
   photo:
-    url: "https://boxrec.com/images/thumb/2/20/BalthazarCardoso.jpg/200px-BalthazarCardoso.jpg"
+    url: https://archive.org/download/screenshot-from-2025-05-11-16-58-43/Screenshot%20From%202025-05-11%2016-58-43.png
     source:
       uri: "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695"
       cite: "Jornal dos Esportes (1931-09-28, Ed. 167, p.3)"
