@@ -28,12 +28,23 @@ person:
       period:
         start: 1938
         end:
-      quality:
+      quality: 3
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
           cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
           location: "vol. 3, p. 108"
           citation: "Oswaldo Fadda começou a treinar com França por volta de 1938"
+    - id: JDP-129 # Balthazar Cardoso
+      style_id: JDP-S-19 # Boxing
+      place: Liga de Esportes da Marinha
+      period:
+        start: 1938
+        end:
+      quality: 3
+      sources:
+        - uri: https://www.faddabjj.com/historia-fadda
+          cite: "A história da Família Fadda (FaddaBJJ)"            
+          citation: "Antes da sua história com o Jiu-Jitsu, os primeiros passos de Fadda no mundo das lutas foi na \"Nobre Arte\", ou seja, no boxe, através do campeão Baltazar Cardoso."          
   rank:
     - style_id:
       org:

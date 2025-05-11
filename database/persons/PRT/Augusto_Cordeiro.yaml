@@ -43,7 +43,7 @@ person:
       style_id: "JDP-S-1"  # Judo or jujutsu?
       place: "Rio de Janeiro"
       period:
-        start: "1944"
+        start: "1937"
         end: "1948"
       quality: 2
       sources:
@@ -51,6 +51,10 @@ person:
           cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"	
           location: "p. 91"
           citation: "em 1944 a ACM promoveu competições e graduações (...) Por esse período é que Takeo Yano foi responsável pela graduação de professores no Rio de Janeiro e, dentre eles, aquele que se tornou, anos mais tarde, o primeiro presidente da CBJ, Augusto Cordeiro"
+        - uri: "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=221961_03&&pasta=ano%20195&pagfis=59293"
+          cite: "Diario da Noite"
+          location: "Ed. 06066, 11 de Dezembro de 1957, p. 3"
+          citation: "Corria o ano de 1937 e tratei de inscrever o meu nome entre os alunos do professor Takeo Yama [sic], que afinal de contas, funcionou como o meu descobridor"
   rank:
     - style_id: "JDP-S-1"  # Judo
       org: "Federação Guanabarina de Judô"

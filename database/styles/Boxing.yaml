@@ -1,0 +1,19 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+style:
+  id: "JDP-S-19"
+  name: "Boxing"
+  birth:
+    date: 
+    location:
+    country_code: ENG
+  description:
+    en: >
+      Combat sport involving striking with fists, historically practiced worldwide
+      with modern codification in 18th-19th century England. Governed by the
+      Marquess of Queensberry Rules since 1867.
+  sources:
+    - uri: "https://en.wikipedia.org/wiki/Boxing"
+      cite: "Boxing - Wikipedia"
+    - uri: "https://www.britannica.com/sports/boxing"
+      cite: "Boxing - Encyclopedia Britannica"

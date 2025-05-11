@@ -1,0 +1,42 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-129"  # [PLEASE ASSIGN ID]
+  name: "Balthazar Cardoso"
+  nationality:
+    - BRA
+  birth:
+    date:
+    location: "São Luís, Maranhão"
+    country_code: "BRA"
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: "https://boxrec.com/images/thumb/2/20/BalthazarCardoso.jpg/200px-BalthazarCardoso.jpg"
+    source:
+      uri: "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695"
+      cite: "Jornal dos Esportes (1931-09-28, Ed. 167, p.3)"
+  teachers:
+    - id: 
+      style_id:
+      quality:
+      place: 
+      period:
+        start:
+        end:
+  rank:
+    - style_id: "JDP-S-19"  # Boxing
+      rank: 
+      date: 
+      org:
+      sources:
+        - uri: https://boxrec.com/en/proboxer/624960
+          cite: "Balthazar Cardoso (Boxrec)"
+          citation: ""
+  sources:
+    - uri: https://boxrec.com/en/proboxer/624960
+      cite: "Balthazar Cardoso (Boxrec)"
+    - uri: https://www.faddabjj.com/historia-fadda
+      cite: "A história da Família Fadda (FaddaBJJ)"

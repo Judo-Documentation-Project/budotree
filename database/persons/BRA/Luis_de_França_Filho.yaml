@@ -68,6 +68,17 @@ person:
           cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
           location: "vol. 3, p. 106"
           citation: "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
+    - id: JDP-129 # Balthazar Cardoso
+      style_id: JDP-S-19  # Boxing
+      place: Liga de Esportes da Marinha
+      period:
+        start: 1928
+        end:
+      quality: 2
+      sources:
+        - uri: https://isbnsearch.org/isbn/9798639871030
+          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."          
+          citation: "Foi na Marinha, em 1928, que França se iniciou nas artes marciais. Primeiro com o Boxe, sob a orientação de Balthazar Cardoso"
   rank:
     - style_id:
       org:
