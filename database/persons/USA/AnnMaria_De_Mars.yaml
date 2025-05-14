@@ -16,10 +16,10 @@ person:
     location:
     country_code:
   photo:
-    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ-_My5QZ7xSbodgZFTK-ckd5Zt-3H0uNluYVzD7-A8CkcUmA6q7tfdCk9t9GLibt5TteRv4bHnpGvFwgGgAUiieMsiVV-VGAg9hdPYISGTH1H_RosklmmOwY4MFqihEk/s94/*"
+    url: https://www.historyoffighting.com/resources/1_6gv_XNS7Wz4YOIU-7hnMRw.jpeg
     source:
-      uri: "https://www.blogger.com/profile/13741371839260099343"
-      cite: "The Business/Judo of Life (Blog)"
+      uri: https://www.historyoffighting.com/the-blog/dr-annmaria-de-mars
+      cite: "The History of Fighting (AnnMaria de Mars)"
   teachers:
     - id: "JDP-131"  # Yoshimi Ōsawa
       style_id: "JDP-S-1"  # Judo
