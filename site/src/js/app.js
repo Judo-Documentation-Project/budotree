@@ -1032,22 +1032,27 @@ function updateInfo(target) {
         target.data().teacher_native = person.data.native_name;
         if (person.data.photo_local_url) {
           target.data().teacher_photo_url = person.data.photo_local_url;
-        } else {
+        } else if (person.data.photo_url){
           target.data().teacher_photo_url = person.data.photo_url;
-        }
+        } else {
+          target.data().teacher_photo_url = person.data.photo.url;	    
+	}
         // console.log(event.target.data().teachers[i]);
       }
     }
     for (const person of data.elements.nodes) {
       if (person.data.id == target.data().target) {
-        // console.log(person.data.name);
+        console.log(person.data.name);
         target.data().student_name = person.data.name;
         target.data().student_native = person.data.native_name;
         if (person.data.photo_local_url) {
           target.data().student_photo_url = person.data.photo_local_url;
+        } else if (person.data.photo_url){
+            target.data().student_photo_url = person.data.photo_url;	    
         } else {
-          target.data().student_photo_url = person.data.photo_url;
-        }
+          target.data().student_photo_url = person.data.photo.url;	    
+	}
+	  console.log(target.data().student_photo_url)
         // console.log(event.target.data().teachers[i]);
       }
     }
