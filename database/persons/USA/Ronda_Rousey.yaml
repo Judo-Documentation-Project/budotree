@@ -1,0 +1,51 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-133"
+  name: "Ronda Rousey"
+  aka:
+    - name: "Ronda Jean Rousey"
+  nationality: ["USA"]
+  birth:
+    date: "1987-02-01"
+    location: "Riverside, California"
+    country_code: "USA"
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Rousey_HOF_2018_%28cropped%29.jpg/800px-Rousey_HOF_2018_%28cropped%29.jpg"
+    source:
+      uri: "https://en.wikipedia.org/wiki/Ronda_Rousey#/media/File:Rousey_HOF_2018_(cropped).jpg"
+      cite: "WWE Hall of Fame (2018) - Wikipedia"
+  teachers:
+    - id: "JDP-132"  # AnnMaria De Mars
+      style_id: "JDP-S-1"  # Judo
+      period:
+        start: "1998"  # Age 11
+        end:
+      quality: 3
+      place:
+      sources:
+        - uri: "https://www.blackbeltmag.com/fists-of-love-the-mothers-who-raised-martial-arts-legends"
+          cite: "Fists of Love: The Mothers Who Raised Martial Arts Legends - Black Belt Magazine"
+          citation: "She began coaching Ronda at age 11, instilling a mindset that would later carry her daughter to Olympic bronze in judo and UFC glory"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "AAU"
+      rank: "6 dan"
+      date: "2018-03-03"
+      sources:
+        - uri: "http://www.freestylejudo.org/jbba/"
+          cite: "JBBA Rank Promotions - Freestyle Judo Association"
+          citation: "Rokudan (6th Dan): (...)Ronda Rousey, 3/3/2018, Gompers Judo"
+  sources:
+    - uri: "https://en.wikipedia.org/wiki/Ronda_Rousey"
+      cite: "Ronda Rousey - Wikipedia"
+    - uri: "https://www.judoinside.com/judoka/19130/Ronda_Rousey/judo-career"
+      cite: "Ronda Rousey Judo Career - JudoInside"
+    - uri: "https://www.ijf.org/judoka/2589"
+      cite: "Ronda Rousey - International Judo Federation"
+    - uri: "https://www.usjf.com/ronda-rousey/"
+      cite: "Ronda Rousey - United States Judo Federation"

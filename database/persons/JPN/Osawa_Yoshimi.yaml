@@ -1,0 +1,51 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-131"  # [PLEASE ASSIGN ID]
+  name: "Ōsawa Yoshimi"
+  native_name:
+    name: "大沢 吉己"
+    lang: "ja"
+  nationality:
+    - JPN
+  birth:
+    date: "1926-03-06"
+    location: "Munakata, Inba District, Chiba Prefecture"
+    country_code: "JPN"
+  death:
+    date: "2022-10-21"
+    location: ""  # [CITY UNKNOWN - UPDATE IF FOUND]
+    country_code: "JPN"
+  photo:
+    url: "https://upload.wikimedia.org/wikipedia/commons/9/96/Yoshimi_%C5%8Csawa.jpg"
+    source:
+      uri: "https://upload.wikimedia.org/wikipedia/commons/9/96/Yoshimi_%C5%8Csawa.jpg"
+      cite: "Japanese judoka Yoshimi Osawa, pictured here after winning the 4th Tokyo Judoka Championship in 1953 (Wikipedia)"
+  teachers:
+    - id: "JDP-11"  # Kyuzo Mifune
+      style_id: "JDP-S-1"  # Judo
+      place: "Waseda University Judo Club"
+      period:
+        start: "1943"
+        end:
+      quality: 3  # High certainty (direct source)
+      sources:
+        - uri: "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%A2%E6%85%B6%E5%B7%B1"
+          cite: "大沢吉己 - 日本語版ウィキペディア"
+          citation: "1943年4月に早稲田大学に入学し柔道部に入部すると、師範には三船久蔵や徳三宝らが顔を揃え、月に1度ほどではあったが指導に来てその薫陶を受けた"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "Kodokan"
+      rank: "10 dan"
+      date: "2006"
+      sources:
+        - uri: "https://judoinfo.com/judan2/"
+          cite: "Kodokan 10th Dan Promotions - JudoInfo"
+          citation: "Ichiro Abe (83 years old), Toshiro Daigo (80 years old) and Yoshimi Osawa (79 years old) were promoted to 10th Dan"
+  sources:
+    - uri: "https://en.wikipedia.org/wiki/Yoshimi_Osawa"
+      cite: "Yoshimi Osawa - English Wikipedia"
+    - uri: "https://ja.wikipedia.org/wiki/%E5%A4%A7%E6%B2%A2%E6%85%B6%E5%B7%B1"
+      cite: "大沢吉己 - 日本語版ウィキペディア"
+    - uri: "https://judoinfo.com/judan2/"
+      cite: "Kodokan 10th Dan Promotions - JudoInfo"

@@ -1,0 +1,52 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-132"
+  name: "AnnMaria De Mars"
+  aka:
+    - name: "AnnMaria Burns"
+  nationality:
+    - USA
+  birth:
+    date: "1958-06-15"
+    location: "Calumet, Michigan"
+    country_code: "USA"
+  death:
+    date:
+    location:
+    country_code:
+  photo:
+    url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ-_My5QZ7xSbodgZFTK-ckd5Zt-3H0uNluYVzD7-A8CkcUmA6q7tfdCk9t9GLibt5TteRv4bHnpGvFwgGgAUiieMsiVV-VGAg9hdPYISGTH1H_RosklmmOwY4MFqihEk/s94/*"
+    source:
+      uri: "https://www.blogger.com/profile/13741371839260099343"
+      cite: "The Business/Judo of Life (Blog)"
+  teachers:
+    - id: "JDP-131"  # Yoshimi Ōsawa
+      style_id: "JDP-S-1"  # Judo
+      place: "Waseda University, Tokyo"
+      period:
+        start: "1976"
+        end: 
+      quality: 2 
+      sources:
+        - uri: "https://www.usjf.com/annmaria-de-mars-2/"
+          cite: "AnnMaria De Mars - USJF"
+          citation: "at the age of 18, as a college junior, De Mars was an exchange student at Waseda University in Tokyo, Japan. While there, she trained under Sensei Osawa"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      rank: "6 dan"
+      date: "2016"  # Latest verification
+      org: 
+      sources:
+        - uri: "https://www.fukudajudocamp.org/archives/2016-joshi-camp/"
+          cite: "2016 Joshi Judo Camp - Fukuda Judo"
+          citation: "2016 Joshi Judo Camp Guest Instructors: Dr. AnnMaria DeMars (6th Dan)"
+  sources:
+    - uri: "https://en.wikipedia.org/wiki/AnnMaria_De_Mars"
+      cite: "AnnMaria De Mars - Wikipedia"
+    - uri: "https://www.usjf.com/annmaria-de-mars-2/"
+      cite: "AnnMaria De Mars - USJF"
+    - uri: "https://www.fukudajudocamp.org/archives/2016-joshi-camp/"
+      cite: "2016 Joshi Judo Camp - Fukuda Judo"
+    - uri: https://www.judoinside.com/judoka/6000/AnnMaria_Burns/judo-career
+      cite: "AnnMaria Burns (JudoInside)"
