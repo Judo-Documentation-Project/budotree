@@ -1,0 +1,72 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-130"
+  name: "Aluizio de Melo"
+  aka:
+    - name: "Professor Loanzi"
+    - name: "Aluizio Nogueira Bandeira de Melo"
+  nationality:
+    - BRA
+  birth:
+    date: "1893"
+    location: "Paraíba"
+    country_code: "BRA"
+  death:
+    date: "1975"
+    location: "Porto Alegre"
+    country_code: "BRA"
+  photo:
+    url: "https://archive.org/download/loanzi/loanzi.png"
+    source:
+      uri: "https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/"
+      cite: "Dojô Professor Loanzi - Museu Virtual do Judô"
+  teachers:
+    # Training under Maeda (Judo/Jiu-Jitsu)
+    - id: "JDP-18"  # Mitsuyo Maeda
+      style_id: "JDP-S-1"  # We are keeping it Judo until something new appears
+      period:
+        start: "1915"
+        end:
+      place:        
+      quality: 3  # High certainty (multiple sources)
+      sources:
+        - uri: "https://isbnsearch.org/isbn/9798639871030"
+          cite: "SILVA & CORRÊA (2020). Muito antes do MMA"
+          location: "vol. III, p. 111-113"
+          citation: "aos 17 anos, teve a oportunidade de treinar Jiu Jitsu com o Conde Koma, durante a passagem da trupe japonesa pelo Nordeste do Brasil"
+        - uri: "https://aratabajiujitsu.com.br/a-origem-dos-arataba/"
+          cite: "A Origem dos Arataba (Arataba Jiu-Jitsu)"
+          citation: "Todo mundo sabe que Mitsuyo Maeda, o Conde Koma, radicou-se no norte do Brasil por volta de 1913 e ensinou jiu-jitsu para diversas pessoas, dentre as quais posso citar Carlos Gracie, Luiz França e Aluizio de Melo"
+        - uri: "https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/"
+          cite: "Dojô Professor Loanzi - Museu Virtual do Judô"
+          citation: "QUEM FOI ALOIZIO NOGUEIRA BANDEIRA DE MELLO – PROF. LOANZI (...) Foi aluno do famoso Mitsuyo Moeda, Conde Koma, introdutor do jiu jitsu e do judô no Brasil"
+
+    # Training under Ogawa (Judo)
+    - id: "JDP-126"  # Ryuzo Ogawa
+      style_id: "JDP-S-1"  # Judo
+      place: "Budokan, São Paulo"
+      quality: 2  # Medium certainty (single source)
+      period:
+        start:
+        end:      
+      sources:
+        - uri: "https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/"
+          cite: "Dojô Professor Loanzi - Museu Virtual do Judô"
+          citation: "Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo"
+  rank:
+    - style_id: "JDP-S-1"  # Judo
+      org: "Budokan - SP"
+      rank: "1 dan"
+      date:
+      sources:
+        - uri: "https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/"
+          cite: "Dojô Professor Loanzi - Museu Virtual do Judô"
+          citation: "Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo"
+  sources:
+    - uri: "https://isbnsearch.org/isbn/9798639871030"
+      cite: "SILVA & CORRÊA (2020). Muito antes do MMA"
+    - uri: "https://aratabajiujitsu.com.br/a-origem-dos-arataba/"
+      cite: "A Origem dos Arataba (Arataba Jiu-Jitsu)"
+    - uri: "https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/"
+      cite: "Dojô Professor Loanzi - Museu Virtual do Judô"
