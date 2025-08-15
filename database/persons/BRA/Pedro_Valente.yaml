@@ -1,0 +1,44 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-135"
+  name: "Pedro Valente"
+  nationality: ["USA"]  # Based in Miami
+  birth:
+    date: 
+    location: 
+    country_code: "BRA"
+  death:
+    date: 
+    location: 
+    country_code:
+  photo:
+    url: "https://valentebrothers.com/wp-content/uploads/2021/03/Pedro-Valente-1.jpg"
+    source:
+      uri: "https://valentebrothers.com/instructors/"
+      cite: "Pedro Valente - Valente Brothers Instructors"
+  teachers:
+    - id: "JDP-134"  # Pedro Valente Sr.
+      style_id: "JDP-S-16"  # BJJ
+      place: 
+      quality: 3  # High certainty (direct lineage)
+      period:
+        start:
+        end:      
+      sources:
+        - uri: "https://valentebrothers.com/our-story/"
+          cite: "Valente Brothers: Our Story"
+          citation: "Pedro Valente Sr. taught his sons Pedro, Gui, and Joaquim the art of Gracie Jiu-Jitsu"
+  rank:
+    - style_id: "JDP-S-16"  # BJJ
+      rank: "Black belt" 
+      teacher: "JDP-S-16"
+      date:
+      sources:
+        - uri: "https://valentebrothers.com/instructors/"
+          cite: "Valente Brothers Instructors"
+  sources:
+    - uri: "https://valentebrothers.com/our-story/"
+      cite: "Valente Brothers: Our Story"
+    - uri: "https://valentebrothers.com/instructors/"
+      cite: "Valente Brothers Instructors"

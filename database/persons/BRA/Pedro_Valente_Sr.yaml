@@ -1,0 +1,49 @@
+# Judo Documentation Project: Budo Lineage Tree Sub-project
+---
+person:
+  id: "JDP-134"
+  name: "Pedro Valente Sr."
+  nationality: ["BRA"]
+  birth:
+    date: "1928-11-21"
+    location: "Rio de Janeiro"
+    country_code: "BRA"
+  death:
+    date: "2016-05-28"
+    location: ""  # [CITY UNKNOWN - UPDATE IF FOUND]
+    country_code: "BRA"
+  photo:
+    url: "https://archive.org/download/pedro_valente_sr/pedro_valente_sr.png"
+    source:
+      uri: "https://valentebrothers.com/our-story/"
+      cite: "Valente Brothers: Our Story"
+  teachers:
+    - id: "JDP-102"  # Hélio Gracie
+      style_id: "JDP-S-16"  # BJJ
+      place: "Academia Gracie, Rio de Janeiro"
+      period:
+        start: "1951"  # Age 13
+        end:
+      quality: 3  # High certainty (direct account)
+      sources:
+        - uri: "https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/"
+          cite: "Interview with red-belt Pedro Valente Sr. - GracieMag"
+          citation: "My father took me to the Gracie Academy in downtown Rio back in the 50’s. I was 13 then and started to learn Jiu-Jitsu. Later on I participated at some fights at Maracanãzinho"
+  rank:
+    - style_id: "JDP-S-16"  # BJJ
+      rank: "7 dan"
+      teacher: "JDP-102"  # Hélio Gracie
+      date: 
+      sources:
+        - uri: "https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/"
+          cite: "Interview with red-belt Pedro Valente Sr. - GracieMag"
+          citation: "Helio Gracie himself gave me my black belt, as well as the teacher’s degree and the red and black 7th Dan belt"
+  sources:
+    - uri: "https://www.facebook.com/photo.php?fbid=1524410540929851&id=188638484507070&set=a.614160078621573"
+      cite: "Pedro Valente Sr. - Facebook Memorial"
+    - uri: "https://www.gresportela.com.br/Noticias/Detalhes/portela-participa-de-homenagem-ao-cirurgiao-e-torcedor-ilustre-pedro-valente"
+      cite: "Portela pays tribute to Pedro Valente - GRES Portela"
+    - uri: "https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/"
+      cite: "Interview with red-belt Pedro Valente Sr. - GracieMag"
+    - uri: "https://valentebrothers.com/our-story/"
+      cite: "Valente Brothers: Our Story"
