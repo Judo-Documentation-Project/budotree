@@ -13,10 +13,10 @@ person:
     location: 
     country_code:
   photo:
-    url: "https://valentebrothers.com/wp-content/uploads/2021/03/Pedro-Valente-1.jpg"
+    url: "https://archive.org/download/pedro_valente/pedro_valente.jpg"
     source:
-      uri: "https://valentebrothers.com/instructors/"
-      cite: "Pedro Valente - Valente Brothers Instructors"
+      uri: "https://www.youtube.com/watch?v=kggBsJ0j5FI"
+      cite: "Pedro Valente - Resenha PVT"
   teachers:
     - id: "JDP-134"  # Pedro Valente Sr.
       style_id: "JDP-S-16"  # BJJ
@@ -37,6 +37,7 @@ person:
       sources:
         - uri: "https://valentebrothers.com/instructors/"
           cite: "Valente Brothers Instructors"
+          citation: ""
   sources:
     - uri: "https://valentebrothers.com/our-story/"
       cite: "Valente Brothers: Our Story"
