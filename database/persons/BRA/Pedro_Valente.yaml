@@ -3,7 +3,7 @@
 person:
   id: "JDP-135"
   name: "Pedro Valente"
-  nationality: ["USA"]  # Based in Miami
+  nationality: ["BRA"]
   birth:
     date: 
     location: 
