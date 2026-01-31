@@ -43,12 +43,9 @@ person:
       rank: 10 dan
       date: 1984
   sources:
-    - uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
     - uri: https://www.olympedia.org/athletes/59042
     - uri: https://judoinfo.com/judan/
     - uri: https://www.judo-ch.jp/english/legend/kotani/
   links:
-    - uri: https://www.wikidata.org/wiki/Q460890
-      cite: Wikidata
-    - uri: https://dbpedia.org/page/Keiko_Fukuda
-      cite: DBpedia
+    - uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
+      cite: Wikipedia
