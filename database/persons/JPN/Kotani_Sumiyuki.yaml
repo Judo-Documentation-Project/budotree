@@ -1,0 +1,54 @@
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+---
+
+person:
+  id: JDP-136
+  name: Kotani Sumiyuki
+  native_name:
+      name: 小谷 澄之
+      lang: ja
+  nationality:
+    - JPN
+  birth:
+    date: "1903-08-03"
+    location: Nakagawa, Aogo, Hyogo
+    country_code: JPN
+  death:
+    date: "1991-10-09"
+    location: Nishinomiya, Hyogo
+    country_code: JPN
+  description:
+    en: >-
+      Sumiyuki Kotani (小谷 澄之, Kotani Sumiyuki; August 3, 1903 – October 9, 1991).  Judo ambassador who travelled around with Kano. 
+  photo:
+    url: https://en.wikipedia.org/wiki/File:Kotani_Sumiyuki_Judo_Judan.jpg
+    source:
+      uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
+      cite: "Photo from collection of Dr. Clif Norgaard"
+  teachers:
+    - id: JDP-1
+      style_id: JDP-S-1
+      place: Kodokan
+      period:
+        start: 1921
+        end: 1938  # Kano's death
+      quality: 3   # not sure.  Multiple source cite this, so probably very high confidence
+      sources:
+        - uri: https://www.judo-ch.jp/english/legend/kotani/
+          cite: "Judo Channel"
+  rank:
+    - style_id: JDP-S-1
+      org: Kodokan
+      teacher:
+      rank: 10 dan
+      date: 1984
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
+    - uri: https://www.olympedia.org/athletes/59042
+    - uri: https://judoinfo.com/judan/
+    - uri: https://www.judo-ch.jp/english/legend/kotani/
+  links:
+    - uri: https://www.wikidata.org/wiki/Q460890
+      cite: Wikidata
+    - uri: https://dbpedia.org/page/Keiko_Fukuda
+      cite: DBpedia
