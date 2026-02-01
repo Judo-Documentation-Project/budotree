@@ -1,10 +1,6 @@
-const {
-    defineConfig,
-} = require("eslint/config");
-
 const globals = require("globals");
 
-module.exports = defineConfig([{
+module.exports = ([{
     languageOptions: {
         globals: {
             ...globals.browser,
