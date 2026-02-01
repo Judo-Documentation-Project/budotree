@@ -75,7 +75,7 @@ jobs:
         npm run build --if-present
     - name: Run ESLint
       working-directory: site
-      run: npx eslint ./src --ext .js
+      run: npx eslint ./src 
 
 
   parse:
@@ -177,7 +177,7 @@ jobs:
 
     - name: Run ESLint
       working-directory: site
-      run: npx eslint ./src --ext .js
+      run: npx eslint ./src 
 
     - name: Build static pages
       #if: steps.filter.outputs.database == 'true' || steps.filter.outputs.site == 'true'
