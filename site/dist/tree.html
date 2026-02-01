@@ -1,0 +1,162 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><title>Budō Lineage Tree</title><meta name="description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"><meta name="author" content="Frederico Muñoz"><meta name="image" content="images/preview.png"><meta property="og:title" content="Budō Lineage Tree"><meta property="og:url" content="https://budotree.judoc.org"><meta property="og:description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"><meta property="og:image" content="https://budotree.judoc.org/images/preview.png"><meta name="og:video" content="https://budotree.judoc.org/images/budotree_h.mp4"><meta name="og:video:url" content="https://budotree.judoc.org/preview.html"><meta name="og:video:secure_url" content="https://budotree.judoc.org/preview.html"><meta name="og:video:width" content="1200"><meta name="og:video:height" content="620"><meta name="og:video:type" content="text/html"><meta name="og:type" content="video"><meta name="twitter:title" content="Budō Lineage Tree"><meta name="twitter:description" content="Interactive Budõ lineage tree: community-based, curated, comprehensive, and open"><meta name="twitter:image" content="https://budotree.judoc.org/images/preview.png"><meta name="twitter:player" content="https://budotree.judoc.org/preview.html"><meta name="twitter:player:width" content="1200"><meta name="twitter:player:height" content="620"><meta name="twitter:site" content="@fredericomunoz"><meta name="twitter:card" content="player"><link rel="icon" href="favicon.12bce1b4.ico"><link rel="stylesheet" href="JDP-1.38327eef.css"><link rel="stylesheet" href="tree.ea86e307.css"><script async src="https://www.googletagmanager.com/gtag/js?id=G-LN5TCW2MTP"></script><script>function a(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","G-LN5TCW2MTP");</script><script type="module" src="tree.268f841b.js"></script></head><body> <nav class="_is-dark _is-spaced has-shadow navbar" role="navigation" aria-label="main navigation"> <div class="_mr-6 navbar-item"> <figure class="image is-24x24 is-clickable"> <img class="image is-rounded" src="kano_jigoro_small.d80439cf.jpg" id="home"> </figure> </div> <div class="navbar-brand"> <a id="jdp" class="navbar-item" href="https://www.judoc.org">柔道 | JDP</a> <div id="nav-budo" class="navbar-item">Budō Lineage Tree</div> <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"> <span aria-hidden="true"></span> <span aria-hidden="true"></span> <span aria-hidden="true"></span> </a> </div> <div id="navbarBasicExample" class="navbar-menu"> <div class="ml-6 navbar-start"></div> <div class="navbar-end"></div> <div class="_mr-6 navbar-item"> <div class="control has-icons-left"> <div class="_is-outlined is-dark is-rounded is-small select"> <select id="ddlViewBy" class="form-radio" role="list"> <option value="fcose">fCoSE</option> <option value="cise">Cise</option>  <option value="stress">Stress</option> <option value="mrtree">MrTree</option> <option value="layered">Layered</option> <option value="breadthfirst">Breadth</option> <option value="concentric">Concentric</option> </select> </div> <div class="has-text-dark icon is-left is-small"> <i class="fa-diagram-project fas" title="Select the layout algorithm." aria-hidden="true"></i> </div> </div> </div> <div class="_mr-6 navbar-item"> <div class="field has-addons"> <div class="control has-icons-left"> <div class="_is-outlined is-dark is-rounded is-small select"> <select id="pickStyle" class="form-radio" role="list"></select> </div> <div class="has-text-dark icon is-left is-small"> <i class="fa-ballot-check fas" title="Filter by style" aria-hidden="true"></i> </div> </div> <div class="control"> <button type="submit" class="_has-text-dark button is-dark is-rounded is-small" id="i18n:clear"> <i title="Lock style" aria-hidden="true" id="lock-style" class="fa-lock-open fa-regular fas"></i> </button> </div> </div> </div> <div class="_mr-6 navbar-item"> <div class="field is-grouped"> <p class="control has-icons-left is-expanded"> <input class="input is-small" type="text" placeholder="Search" id="searchNode"> <span class="icon is-left is-small"> <i class="fa-magnifying-glass fas"></i> </span> </p> <p class="control"> <a class="button is-dark is-small" id="reset-search"> <i class="fa-delete-left fas"></i> </a> </p> </div> </div>  <div class="_mr-6 navbar-item pr-2"> <label for="distance" class="has-text-weight-light is-size-5 mr-2"><i title="Distance between nodes" aria-hidden="true" class="fa-arrows-left-right fas"></i></label> <output for="distance" class="has-text-weight-light is-size-7 mr-1">1</output> <input id="distance" class="_is-fullwidth is-dark is-small_is-circle slider" step="0.1" min="0" max="2" value="1" type="range"> </div> <div class="has-dropdown is-hoverable navbar-item"> <a class="navbar-link"> <i class="fa-road fas"></i> </a> <div class="navbar-dropdown"> <div class="_mr-6 navbar-item px-2"> <div class="field"> <input id="show-path" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="show-path" class="has-text-weight-light is-size-6"> <i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fa-highlighter fas"> </i> </label> </div> </div> <div class="_mr-6 navbar-item px-2"> <div classss="field"> <input id="isolate-path" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="isolate-path" class="has-text-weight-light is-size-6"> <i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fa-users-viewfinder fas"> </i> </label> </div> </div> </div> </div> <div class="has-dropdown is-hoverable navbar-item"> <a class="navbar-link"> <i class="fa-eye fas"></i> </a> <div class="navbar-dropdown"> <div class="_mr-6 _px-2 navbar-item"> <div class="field"> <input id="lineType" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch" checked> <label for="lineType" class="has-text-weight-light is-size-7"><i title="Toggle line type between bezier (round) and taxi (straight)." aria-hidden="true" class="fa-bezier-curve fas"></i></label> </div> </div>  <div class="_mr-0 _px-2 navbar-item"> <div class="field"> <input id="showStyles" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch" checked> <label for="showStyles" class="has-text-weight-light is-size-6"><i title="Show style names in edges" aria-hidden="true" class="fa-tag fas"></i></label> </div> </div> <div class="_mr-0 _px-2 navbar-item"> <div class="field"> <input id="showPeriod" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="showPeriod" class="has-text-weight-light is-size-6"><i title="Show time period" aria-hidden="true" class="fa-calendar-days fas"></i></label> </div> </div> <div class="_mr-6 _px-2 navbar-item"> <div class="field"> <input id="quality" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="quality" class="has-text-weight-light is-size-7"><i class="fa-ranking-star fas" title="Toggle link quality: when active, links will have different line styles depending on source quality." aria-hidden="true"></i></label> </div> </div> <div class="_mr-6 _px-2 navbar-item"> <div class="field"> <input id="styleColor" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="styleColor" class="has-text-weight-light is-size-6"><i title="Toggle style colours: when active, links will have different colours according to the style." aria-hidden="true" class="fa-palette fas"></i></label> </div> </div> </div> </div> <div class="has-dropdown is-hoverable navbar-item"> <a class="navbar-link"> <i class="fa-object-group fas"></i> </a> <div class="navbar-dropdown"> <div class="_mr-0 _px-2 navbar-item"> <div class="field"> <input id="bubbles" type="checkbox" name="switchRoundedOutlinedDefault" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="bubbles" class="has-text-weight-light is-size-6"> <i title="Toggle nationality bubble groups: when active, bubble sets are added to the layout according to nationality" aria-hidden="true" class="fa-flag fas"> </i> </label> </div> </div> <div class="_ml-0 _mr-0 _px-0 navbar-item"> <div class="field"> <input type="checkbox" class="is-dark is-outlined is-rounded is-rtl switch" id="clusterNationality"> <label class="-is-dark is-rtl is-size-6" for="clusterNationality"> <i title="For some layouts (like CiSE), create clusters around the first nationality." aria-hidden="true" class="fa-circle-nodes fas"></i> </label> </div> </div> <div class="_ml-0 _mr-4 navbar-item"> <div class="field"> <input type="checkbox" class="is-dark is-outlined is-rounded is-rtl switch" id="compoundNationality"> <label class="-is-dark is-rtl is-size-6" for="compoundNationality"> <i title="For most layouts, create a compound group based on the first nationality." aria-hidden="true" class="fa-users-rectangle fas"></i> </label> </div> </div> </div> </div> <div class="navbar-item"> <div class="control has-icons-left"> <div class="_is-rounded is-dark is-small select"> <select id="language" class="form-radio has-text-right" role="list"> <option value="en">English</option> <option value="de">Deutsch</option> <option value="ja">日本語</option> <option value="pt">Português</option> <option value="zh">中文</option> </select> <div class="has-text-dark icon is-left is-small"> <i class="fa-language fa-light fa-xl fas" title="Change language" aria-hidden="true"></i> </div> </div> </div> </div> </div> </nav> <div class="_is-boxed _is-fullwidth has-background-black has-text-white is-centered tabs"> <ul id="tabs"> <li class="tab"><a id="tab:cy">Tree</a></li> <li class="tab"><a id="tab:Persons">Persons</a></li> <li class="tab"><a id="tab:Styles">Styles</a></li> <li class="tab"><a id="tab:Timeline">Timeline</a></li> </ul> </div> <div class="info-container"> <div id="Persons" class="_has-text-centered columns container content-tab is-fluid"> <script id="template:persons" type="x-tmpl-mustache">
+          <ul>
+              {{#arr}}
+              {{#data}}
+              <li>
+                  <a href="#" id="{{id}}">{{name}}</a>
+                  <span class="style_native"> {{native_name.name}} </span>
+              </li>
+
+              {{/data}}
+              {{/arr}}
+          </ul>
+        </script> </div> <div id="Styles" class="_has-text-centered columns container content-tab is-fluid"> <script id="template:styles" type="x-tmpl-mustache">
+          <dl>
+          {{#arr}}
+          <dt>
+          {{name}}
+          </dt>
+          <dd>
+          <ul>
+          {{#persons}}
+          <li><a href="#" id="{{id}}">{{name}}</a></li>
+          {{/persons}}
+          </ul>
+          </dd>
+          {{/arr}}
+          </dl>
+        </script> </div> <div id="Timeline" class="container content-tab"> <div id="timeline-embed" style="width:100%;height:600px"></div> </div> <div id="infobox" class="card draggable info mt-5"> <header class="card-header drag-handle"> <p id="card-title" class="card-header-title"></p> <div class="card-footer-item"> <span id="footerId" class="mr-4"></span> <a id="card-footer-share" href="#" target="_blank" _class="card-footer-item" class="mr5" aria-hidden="true" title="Link to the tree centered on this individual"></a> <a id="card-footer-link" href="#" target="_blank" _class="card-footer-item" aria-hidden="true" title="Link to the static individual page."></a> <a id="card-footer" href="#" target="_blank" _class="card-footer-item" title="Go to source YAML file in GitHub."></a> </div> <a class="card-header-icon card-toggle"> <i class="fa fa-angle-down"></i> </a> </header> <div class="card-content is-hidden"> <div class="content p-0"> <div id="info" class="is-size-7"></div> <script id="template" type="x-tmpl-mustache">
+              {{^interaction}}
+              <p class="birth">
+
+              {{#birth}}
+              * {{date_local}} {{location}} {{#country_local}} ({{.}}) {{/country_local}}
+              {{/birth}}
+              -
+              {{#death}}
+              † {{date_local}} {{location}} {{#country_local}} ({{.}}) {{/country_local}}
+              {{/death}}
+
+              </p>
+
+              <p class="native-name">{{native_name.name}}</p>
+              {{#photo}}
+              {{#photo_url_local}}
+              <img src="{{photo_url_local}}" alt="{{photo.cite}}"/>
+              {{/photo_url_local}}
+              {{^photo_url_local}}
+              <img src="{{photo.url}}" alt="{{photo.cite}}"/>
+              {{/photo_url_local}}
+              <p class="photo-sources">
+              <a  href="{{photo.source.uri}}" target="_blank">{{photo.source.cite}}</a>
+              </p>
+              {{/photo}}
+              {{^photo}}
+              {{#photo_url_local}}
+              <img src="{{photo_url_local}}"/>
+              {{/photo_url_local}}
+              {{^photo_url_local}}
+              <img src="{{photo_url}}"/>
+              {{/photo_url_local}}
+              {{/photo}}
+              <p class="description">{{description_lang}}</p>
+              <h2 id="i18n:teachers">Teachers</h2>
+              <ul id="teachers">
+              {{#teachers}}
+              {{#teacher_name}}
+              <li><a href="#" id="{{id}}">{{teacher_name}}</a>
+             <span class="style_native"> {{teacher_native.name}} </span>
+             ({{style}})
+              </li>
+              {{/teacher_name}}
+              {{/teachers}}
+              </ul>
+             <h2 id="i18n:students">Students</h2>
+             <ul id="students">
+             {{#students}}
+              <li><a href="#" id="{{id}}">{{name}}</a>
+              <span class="style_native"> {{native_name.name}} </span>
+              </li>
+              {{/students}}
+              </ul>
+              <h2 id="i18n:rank">Rank</h2>
+              {{#rank}}
+              <ul>
+              {{#style}}
+              <li><b>{{style}}</b>
+              {{#style_native}}
+              <span class="style_native"> {{style_native.name}} </span>
+              {{/style_native}}
+              : {{rank}}
+              {{#teacher_name}}
+              ({{teacher_name}} {{org}})
+              {{/teacher_name}}
+              {{#org}}
+              ({{teacher_name}} {{org}})
+              {{/org}}
+              {{/style}}
+              </li>
+              </ul>
+              {{/rank}}
+              <h2 id="i18n:sources">Sources</h2>
+              {{#sources}}
+              <ul>
+              {{#cite}}
+              <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+              {{/cite}}
+              {{^cite}}
+              <li><a href="{{uri}}" target="_blank">{{uri}}</a></li>
+              {{/cite}}
+              </ul>
+              {{/sources}}
+              {{/interaction}}
+              {{#interaction}}
+              <div class="learning-flow">
+              <img class="thumb" src="{{teacher_photo_url}}"/>
+              <a href="#" id="{{id}}">{{teacher_name}}</a>
+              <span class="style_native"> {{interaction_native.name}}</span>
+
+              <div class="learning-arrow"><i alt="taught" aria-hidden="true" class="fas fa-solid fa-arrow-down-long fa-xl"></i></div>
+              <img class="thumb" src="{{student_photo_url}}"></img>
+              <a href="#" id="{{id}}">{{student_name}}</a>
+              <span class="style_native"> {{student_native.name}} </span>
+              </div>
+              <p>
+              <i alt="Time period" aria-hidden="true" class="fas fa-solid fa-calendar-days fa-xl mr-4"> </i> {{period.start}} - {{period.end}}
+              </p>
+              <p>
+              <i alt="Place" aria-hidden="true" class="fas fa-solid fa-school fa-xl mr-4"></i>
+              {{place}}
+              </p>
+              <h2 id="i18n:sources_int">Sources</h2>
+              {{#sources}}
+              <ul>
+              {{#cite}}
+              {{#citation}}
+              <li><div class="citation">{{citation}}</div>
+              <a class="sources citation" href="{{uri}}" target="_blank">{{cite}}</a></li>
+              {{/citation}}
+              {{^citation}}
+              <li><a class="sources" href="{{uri}}" target="_blank">{{cite}}</a></li>
+              {{/citation}}
+              {{/cite}}
+
+              {{^cite}}
+              {{#citation}}
+              <li><div class="citation">{{citation}}</div>
+              <a class="sources citation" href="{{uri}}" target="_blank">{{uri}}</a></li>
+              {{/citation}}
+              {{^citation}}
+              <li><a class="sources" href="{{uri}}" target="_blank">{{uri}}</a></li>
+              {{/citation}}
+
+              {{/cite}}
+              </ul>
+              {{/sources}}
+
+              {{/interaction}}
+            </script> </div> </div> <footer class="card-footer"> <div class="card-footer-item field"> <input id="predecessors" type="checkbox" name="predecessors" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="predecessors" class="has-text-weight-light is-size-7 m-1"> <i _id="focus" title="Focus on selected person and keep only ancestors and descendants" aria-hidden="true" class="fa-lg fa-person-rays fa-solid fas ml-3"> </i> </label> <input id="pathOriginT" type="checkbox" name="pathOriginT" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="pathOriginT" class="has-text-weight-light is-size-7 m-1"> <i _id="focus" title="Select as origin" aria-hidden="true" class="fa-lg fa-map-pin fa-solid fas ml-2"> </i> </label> <input id="pathEndT" type="checkbox" name="pathEndT" class="is-dark is-outlined is-rounded is-rtl switch"> <label for="pathEndT" class="has-text-weight-light is-size-7 m-1"> <i _id="focus" title="Select as end" aria-hidden="true" class="fa-flag-checkered fa-lg fa-solid fas ml-2"> </i> </label> </div></footer> </div>  <div id="cy" class="content-tab cy"></div> <footer class="_has-text-white footer is-hidden-mobile is-size-7"> <div class="content has-text-centered"> <p> <a href="https://github.com/Judo-Documentation-Project/budotree"><strong>Budō Tree</strong><i class="fa-brands fa-fade fa-github fas ml-1"></i></a> by <a href="https://fsmunoz.github.io">Frederico Muñoz</a>, <em>Judo Documentation Project</em>. Source code licensed <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3</a>. Website & database under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block">CC BY-SA 4.0<img style="vertical-align:text-bottom;margin-left:3px;height:16px!important" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="vertical-align:text-bottom;margin-left:3px;height:16px!important" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="vertical-align:text-bottom;margin-left:3px;height:16px!important" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a> <a href="#"><i class="fa-circle-question fas fast is-size-6 js-modal-trigger" data-target="modal-js-example"> </i></a> <a href="persons.html" alt="Static version (no JS)" "><i class="fa-terminal fas is-size-6 js-modal-trigger"></i></a> </p> </div> </footer> <div id="modal-js-example" class="modal"> <div class="modal-background"></div> <div class="box has-text-centered modal-content"> <figure class="image is-128x128 is-inline-block"> <img class="is-rounded" src="kano_jigoro_small.d80439cf.jpg"> </figure> <h2>Budō Lineage Tree</h2> <br> <p> <i class="fa-copyright fa-regular"></i> 2023 <a href="https://fsmunoz.github.io">Frederico Muñoz</a>, part of the <a href="https://judoc.org">Judo Documentation Project</a> </p> <br> <p class="modal-content"> <br> GitHub <i class="fa-brands fa-fade fa-github fas ml-1"></i> : <a href="https://github.com/Judo-Documentation-Project/budotree">https://github.com/Judo-Documentation-Project/budotree </a> <br> Source code licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPLv3</a>. <br> Website & database information under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block">CC BY-SA 4.0 <img class="cc-modal" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"> <img class="cc-modal" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"> <img class="cc-modal" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"> </a> </p> <br> <p id="versions"> <script id="template:versions" type="x-tmpl-mustache">
+            <a href="https://js.cytoscape.org/">Cytoscape.js</a> version: {{cytoscape_version}}
+            <br>
+            Database update: <pre>{{db_version}}</pre>
+          </script> </p> </div> <button class="is-large modal-close" aria-label="close"></button> </div> </div></body></html>

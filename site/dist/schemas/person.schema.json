@@ -1,0 +1,288 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Person",
+  "description": "Information on a martial artist.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "person": {
+      "$ref": "#/definitions/Person"
+    }
+  },
+  "required": [ "person" ],
+  "definitions": {
+    "Person": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+            "$ref": "budotree.schema.json#/definitions/NativeName"
+        },
+        "aka": {
+            "$ref": "budotree.schema.json#/definitions/Aka"
+        },
+        "nationality": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "birth": {
+            "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        },
+        "death": {
+            "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        },
+        "description": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "$ref": "budotree.schema.json#/definitions/Description"
+          }
+          ]
+        },
+          "notes": {
+              "anyOf": [
+                  {
+                      "type": "null"
+                  },
+                  {
+                      "$ref": "budotree.schema.json#/definitions/Notes"
+                  }
+              ]
+          },
+        "photo_url": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "$ref": "budotree.schema.json#/definitions/PhotoURL"
+          }
+          ],
+          "deprecated": true
+        },
+        "photo": {
+          "$ref": "budotree.schema.json#/definitions/Photo"
+        },
+        "teachers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Teacher"
+          }
+        },
+        "rank": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Rank"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Source"
+          }
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        },
+        "links": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "array",
+            "items": {
+              "$ref": "budotree.schema.json#/definitions/Source"
+            }
+          }
+          ]
+        }
+      },
+      "required": [
+        "birth",
+        "death",
+        "id",
+        "name",
+        "nationality",
+        "rank",
+        "sources",
+        "teachers"
+      ],
+      "title": "Person"
+    },
+    "Name": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "Rank": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "style_id": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string"
+        },
+        "org": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "teacher": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "rank": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string",
+            "format": "date"
+          },
+            {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          }
+          ]
+        },
+        "quality": {
+            "type": "integer"
+        },        
+        "teacher_id": {
+          "type": "string"
+        },
+        "sources": {
+            "type": "array",
+            "items": {
+                "$ref": "budotree.schema.json#/definitions/Source"
+            }
+        }
+      },
+      "required": [
+        "rank",
+        "date"
+      ],
+      "oneOf": [
+        {"required": [ "style_id" ]},
+        {"required": [ "style" ]}
+      ],
+      "anyOf": [
+        {"required": [ "org" ]},
+        {"required": [ "teacher" ]}
+      ],
+      "title": "Rank"
+    },
+    "Teacher": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "style_id": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string",
+          "deprecated": true
+        },
+        "place": {
+          "anyOf": [
+            {
+            "type": "null"
+          },
+            {
+            "type": "string"
+          }
+          ]
+        },
+        "period": {
+          "$ref": "#/definitions/Period"
+        },
+        "quality": {
+          "type": "integer"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+              "$ref": "budotree.schema.json#/definitions/Source"
+          }
+        }
+      },
+      "required": [
+        "period",
+        "place",
+        "quality"
+      ],
+      "oneOf": [
+        {"required": [ "id" ]},
+        {"required": [ "name" ]}
+      ],
+      "oneOf": [
+        {"required": [ "style_id" ]},
+        {"required": [ "style" ]}
+      ],
+      "title": "Teacher"
+    },
+    "Period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer"
+        },
+        "end": {
+          "anyOf": [
+            {
+            "type": "integer"
+          },
+            {
+            "type": "null"
+          }
+          ]
+        }
+      },
+      "required": [
+        "end",
+        "start"
+      ],
+      "title": "Period"
+    }
+  }
+}
