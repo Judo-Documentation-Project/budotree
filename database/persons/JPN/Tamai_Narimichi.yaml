@@ -7,6 +7,11 @@ person:
   native_name:
     name: 玉井済道
     lang: ja
+  aka:
+    - name: 玉井成道
+      lang: ja
+    - name: Tamai Jidō
+      lang: en
   nationality:
     - JPN
   birth:
