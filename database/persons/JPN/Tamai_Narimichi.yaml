@@ -5,8 +5,13 @@ person:
   id: JDP-32
   name: Tamai Narimichi
   native_name:
-    name:
-    lang:
+    name: 玉井済道
+    lang: ja
+  aka:
+    - name: 玉井成道
+      lang: ja
+    - name: Tamai Jidō
+      lang: en
   nationality:
     - JPN
   birth:
@@ -18,7 +23,7 @@ person:
     location:
     country_code:
   photo_url:
-  teachers:
+  teachers:   # Can't find published info. One likely person is Hayashi Yazaemon (林弥左衛門).  Possible but slightly less likely: Yamaguchi Eikan (山口栄観)
     - id:
       style_id:
       place:
