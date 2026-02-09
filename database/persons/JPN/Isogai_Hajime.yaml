@@ -7,19 +7,22 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1871-10-26'
+    date: "1871-10-26"
     geo:
       location: Miyazaki
       country_code: JPN
   death:
-    date: '1947-04-19'
+    date: "1947-04-19"
     geo:
       location: null
       country_code: null
   teachers:
     - id: JDP-9
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1891
         end: null
@@ -28,15 +31,24 @@ person:
   rank:
     - style_id: JDP-S-1
       rank: 10 dan
-      date: '1927-12-22'
+      date: "1927-12-22"
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q11973675
       cite: Wikidata

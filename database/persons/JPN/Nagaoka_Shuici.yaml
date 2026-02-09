@@ -9,27 +9,33 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1876-09-17'
+    date: "1876-09-17"
     geo:
       location: Okayama
       country_code: JPN
   death:
-    date: '1952-11-22'
+    date: "1952-11-22"
     geo:
       location: null
       country_code: null
   teachers:
     - style_id: JDP-S-2
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
       role: student
-      id: null  # Noda Kensaburo
+      id: null
       place_id: null
     - id: JDP-1
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1891
         end: null
@@ -38,12 +44,21 @@ person:
   rank:
     - style_id: JDP-S-1
       rank: 10 dan
-      date: '1937-12-27'
+      date: "1937-12-27"
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.judo-ch.jp/english/legend/nagaoka/
+      type: unknown
+      supports: true
+      weight: unknown

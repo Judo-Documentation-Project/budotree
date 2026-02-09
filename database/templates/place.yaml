@@ -1,49 +1,36 @@
-# yaml-language-server: $schema=../schemas/place.schema.json
-#
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-# Place template - v2 format (NEW entity type)
-#
-# A training venue - dojo, club, gym, university program, etc.
-#
-# Required fields:
-#   name
-#   type
-#   geo (with location, country_code)
-#   sources (array)
----
-
 place:
-  id:                         # Assigned during import - leave empty
-  name:                       # Venue name (REQUIRED)
-  native_name:                # Optional native script name
-    name:
-    lang:                     # ISO 639-1 code
-  type: dojo                  # REQUIRED: dojo | club | university | temple | arena | gym | military | academy | other
-  geo:                        # Geographic reference (REQUIRED)
-    location:                 # City/region display name
-    location_qid: Q1490       # Wikidata Q-ID for city/region (optional)
-    country_code: JPN         # ISO 3166-1 alpha-3
-    country_qid: Q17          # Wikidata Q-ID for country (optional)
-  address: null               # Street address (optional)
-  org_id: null                # Organization that operates this venue (optional)
-  parent_place_id: null       # Parent place if hierarchical (optional)
-  founded:                    # Optional founding info
-    date: 1882                # BudoDate
+  id: null
+  name: null
+  native_name:
+    name: null
+    lang: null
+  type: dojo
+  geo:
+    location: null
+    location_qid: Q1490
+    country_code: JPN
+    country_qid: Q17
+  address: null
+  org_id: null
+  parent_place_id: null
+  founded:
+    date: 1882
     sources:
       - source_id: JDP-SRC-1
-  dissolved: null             # null if still active
-    # date: 1950
-    # sources:
-    #   - source_id: JDP-SRC-2
-  description:                # Multilingual description (optional)
-    en: >
+        type: unknown
+        supports: true
+        weight: unknown
+  dissolved: null
+  description:
+    en: |
       Brief description of the venue...
-  sources:                    # REQUIRED, at least one
+  sources:
     - source_id: JDP-SRC-1
-    # - uri: "https://..."
-    #   cite: "Source name"
-  links:                      # External identifiers (optional)
-    - uri: "https://www.wikidata.org/wiki/Q1120583"
+      type: unknown
+      supports: true
+      weight: unknown
+  links:
+    - uri: https://www.wikidata.org/wiki/Q1120583
       type: wikidata
-  tags:                       # Optional tags
+  tags:
     - headquarters

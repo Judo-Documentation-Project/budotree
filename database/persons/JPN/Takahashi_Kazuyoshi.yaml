@@ -20,7 +20,10 @@ person:
   teachers:
     - id: JDP-9
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -31,10 +34,15 @@ person:
       rank: 8 dan
       date: null
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
-    - uri: >-
-        https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+      type: unknown
+      supports: true
+      weight: unknown

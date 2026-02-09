@@ -11,6 +11,9 @@ style:
         lang: ja
   sources:
     - uri: https://en.wikipedia.org/wiki/Karate
+      type: unknown
+      supports: true
+      weight: unknown
   founded:
     date: 1800
     geo:

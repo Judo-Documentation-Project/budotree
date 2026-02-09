@@ -7,12 +7,12 @@ person:
   nationality:
     - CHN
   birth:
-    date: '1865'
+    date: "1865"
     geo:
       location: null
       country_code: CHN
   death:
-    date: '1938'
+    date: "1938"
     geo:
       location: Tianjin
       country_code: CHN
@@ -27,18 +27,30 @@ person:
       period:
         start: null
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       role: student
       place_id: null
   rank:
     - rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
       cite: Martial arts fight for survival (Taipei Times)
+      type: unknown
+      supports: true
+      weight: unknown

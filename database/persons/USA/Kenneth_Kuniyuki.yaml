@@ -4,12 +4,12 @@ person:
   nationality:
     - USA
   birth:
-    date: '1910-10-06'
+    date: "1910-10-06"
     geo:
       location: Seattle
       country_code: USA
   death:
-    date: '2002-11-28'
+    date: "2002-11-28"
     geo:
       location: null
       country_code: USA
@@ -22,23 +22,28 @@ person:
     - id: JDP-31
       style_id: JDP-S-1
       period:
-        start: '1931'
-        end: '1932'
-      quality: 3
+        start: "1931"
+        end: "1932"
+      confidence:
+        level: 3
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 3"
       sources:
         - uri: https://www.usjf.com/kenneth-kuniyuki/
           cite: Kenneth Kuniyuki - USJF
           location: null
-          citation: >-
-            From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in
-            Tokyo, Japan
+          quotation: From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in Tokyo, Japan
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://shoyuzine.tripod.com/id14.html
           cite: Asian Americans who've made a difference - Shoyu Zine
-          citation: >-
-            In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at
-            the time
+          quotation: In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at the time
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Keio University, Tokyo
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 9 dan
@@ -46,13 +51,28 @@ person:
       sources:
         - uri: https://www.usjf.com/kenneth-kuniyuki/
           cite: Kenneth Kuniyuki - USJF
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://shoyuzine.tripod.com/id14.html
           cite: Asian Americans who've made a difference - Shoyu Zine
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
-      org_id: null  # USJF
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
+      org_id: null
   sources:
     - uri: https://www.usjf.com/kenneth-kuniyuki/
       cite: Kenneth Kuniyuki - USJF
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://shoyuzine.tripod.com/id14.html
       cite: Asian Americans who've made a difference - Shoyu Zine
+      type: unknown
+      supports: true
+      weight: unknown

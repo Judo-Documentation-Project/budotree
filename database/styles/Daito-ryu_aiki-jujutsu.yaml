@@ -17,12 +17,16 @@ style:
           cite: Video
   sources:
     - uri: https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.daitohryu.com/eng-history01
       events:
         - founded
-      citation: >-
-        According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no
-        Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school.
+      quotation: According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school.
+      type: unknown
+      supports: true
+      weight: unknown
   founded:
     date: 1100
     geo:

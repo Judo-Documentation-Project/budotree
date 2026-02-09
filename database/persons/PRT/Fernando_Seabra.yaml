@@ -21,31 +21,49 @@ person:
   teachers:
     - id: JDP-16
       style_id: JDP-S-1
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       period:
         start: 1980
         end: null
       sources:
         - uri: https://judomagazine.pt/2024/01/23/mestre-ze-manel/
-          citation: >-
-            Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei
-            a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele
-            que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo
+          quotation: Foi com o «Mestre Zé Manel», como carinhosamente os alunos mais chegados se atreviam a tratá-lo, que iniciei a minha prática do Judo no Judo Clube de Sintra – Judokai, no Cacém, em 1980, e foi essencialmente com Ele que aprendi grande parte do pouco que hoje sei neste meu percurso pelo Judo
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Judo Clube de Sintra - Judokai
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 5 dan
-      date: '2017-01-13'
+      date: "2017-01-13"
       sources:
         - uri: https://fpj.pt/wp-content/uploads/2018/01/18ci019-Exames-Nacionais-Gradua%C3%A7%C3%A3o-Resultados.pdf
           cite: Exames Nacionais de Graduação - Resultados (FPJ, 13-1-2017)
-          citation: Exames para 5º DAN (...) Fernando Seabra (...) APROVADO
+          quotation: Exames para 5º DAN (...) Fernando Seabra (...) APROVADO
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
-      org_id: null  # FPJ
+      org_id: null
   sources:
     - uri: https://www.judokai.pt/judokai/mestres-treinadores-e-graduados/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://site.judototal.com/seccao/treinadores-e-cintos-negros
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://judobeirainterior.blogspot.com/2011/04/
+      type: unknown
+      supports: true
+      weight: unknown

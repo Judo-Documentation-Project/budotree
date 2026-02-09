@@ -6,6 +6,9 @@ style:
     lang: ja
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B
+      type: unknown
+      supports: true
+      weight: unknown
   founded:
     date: 1700
     geo:

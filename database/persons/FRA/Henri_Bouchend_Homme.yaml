@@ -16,7 +16,10 @@ person:
   teachers:
     - id: null
       style_id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -28,14 +31,20 @@ person:
       date: null
       sources:
         - uri: https://judolandia.tripod.com/histport.htm
-          cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
-          citation: >-
-            Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri
-            Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava
-            Judo em Lisboa começou a leccionar no Lisboa Ginásio.
+          cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
+          quotation: Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava Judo em Lisboa começou a leccionar no Lisboa Ginásio.
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
       org_id: null
   sources:
     - uri: https://judolandia.tripod.com/histport.htm
+      type: unknown
+      supports: true
+      weight: unknown

@@ -16,15 +16,13 @@ style:
           uri: https://www.youtube.com/watch?v=TFFGo14oSxg
           cite: Video
   description:
-    en: >
-      Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of Japanese martial arts and a system of close combat
-      (unarmed or with a minor weapon) that can be used in a defensive or offensive manner to kill or subdue one or more
-      weaponless or armed and armored opponents. It was designed in the 1530s and is coined by Hisamori Tenenuchi when
-      he officially established the first school of Jiu-Jitsu in Japan. A subset of techniques from certain styles of
-      jujutsu were used to develop many modern martial arts and combat sports, such as judo, aikido, sambo, ARB,
-      Brazilian jiu-jitsu, and mixed martial arts.
+    en: |
+      Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of Japanese martial arts and a system of close combat (unarmed or with a minor weapon) that can be used in a defensive or offensive manner to kill or subdue one or more weaponless or armed and armored opponents. It was designed in the 1530s and is coined by Hisamori Tenenuchi when he officially established the first school of Jiu-Jitsu in Japan. A subset of techniques from certain styles of jujutsu were used to develop many modern martial arts and combat sports, such as judo, aikido, sambo, ARB, Brazilian jiu-jitsu, and mixed martial arts.
   sources:
     - uri: https://en.wikipedia.org/wiki/Jujutsu
+      type: unknown
+      supports: true
+      weight: unknown
   founded:
     date: 1530
     geo:

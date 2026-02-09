@@ -6,12 +6,12 @@ person:
   nationality:
     - USA
   birth:
-    date: '1899-07-17'
+    date: "1899-07-17"
     geo:
       location: New York City
       country_code: USA
   death:
-    date: '1986-03-30'
+    date: "1986-03-30"
     geo:
       location: Stanford, New York
       country_code: USA
@@ -26,35 +26,62 @@ person:
       period:
         start: 1945
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       sources:
         - uri: https://www.mixedmartialarts.com/judo/1945-film-fight-scene
           cite: 1945 film fight scene - MixedMartialArts.com
-          citation: James would train Judo at the Seinan Dojo under Kenneth Kuniyuki
+          quotation: James would train Judo at the Seinan Dojo under Kenneth Kuniyuki
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Seinan Dojo, Los Angeles
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 1 dan
       date: null
-      quality: 0
+      confidence:
+        level: 0
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 0"
       sources:
         - uri: urn:isbn:0831758058
-          cite: 'CORCORAN, John; FARKAS, Emil. Martial Arts: Traditions, History. People, 1988'
+          cite: "CORCORAN, John; FARKAS, Emil. Martial Arts: Traditions, History. People, 1988"
           location: p. 187
-          citation: James Cagney, a certified judo black belt
+          quotation: James Cagney, a certified judo black belt
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://www.e-budo.com/archive/index.php/t-13797.html
           cite: Cagney's Black Belt - E-Budo.com
-          citation: He studied Judo just for the movie... up to Brown Belt
+          quotation: He studied Judo just for the movie... up to Brown Belt
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://www.e-budo.com/archive/index.php/t-13797.html
           cite: Cagney's Black Belt - E-Budo.com
-          citation: His judo dan ranking was honorary
+          quotation: His judo dan ranking was honorary
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
       org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/James_Cagney
       cite: James Cagney (Wikipedia)
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.mixedmartialarts.com/judo/1945-film-fight-scene
       cite: 1945 film fight scene - MixedMartialArts.com
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.e-budo.com/archive/index.php/t-13797.html
       cite: Cagney's Black Belt - E-Budo.com
+      type: unknown
+      supports: true
+      weight: unknown

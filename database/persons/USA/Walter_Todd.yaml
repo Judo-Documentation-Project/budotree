@@ -19,7 +19,10 @@ person:
       period:
         start: 1946
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       role: student
       place_id: JDP-P-1
   rank:
@@ -27,9 +30,15 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://www.koryu.com/library/mskoss10.html
+      type: unknown
+      supports: true
+      weight: unknown

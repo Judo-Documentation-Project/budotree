@@ -22,14 +22,17 @@ person:
       period:
         start: null
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources:
         - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
-          cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
-          citation: >-
-            Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon
-            / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –>
-            Hayashi Yazaemon –> Ôtake Risuke
+          cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+          quotation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke"
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
   rank:
@@ -39,18 +42,30 @@ person:
       sources:
         - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
           cite: Women of Katori Shintō-ryū
-          citation: >-
-            In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male
-            successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi
-            Kumajiro as Kyoju.
+          quotation: In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju.
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
       org_id: null
   sources:
     - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
       cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
       cite: Women of Katori Shintō-ryū
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
-      citation: 天真正伝香取神道流 (天真正伝香取神道流)
+      quotation: 天真正伝香取神道流 (天真正伝香取神道流)
+      type: unknown
+      supports: true
+      weight: unknown

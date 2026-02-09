@@ -19,7 +19,10 @@ person:
   teachers:
     - id: JDP-3
       style_id: JDP-S-3
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -30,10 +33,19 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: http://www.tenyokai.com/history.html
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+      type: unknown
+      supports: true
+      weight: unknown

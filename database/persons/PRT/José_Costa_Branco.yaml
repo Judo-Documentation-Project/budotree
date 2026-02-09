@@ -7,7 +7,7 @@ person:
   nationality:
     - PRT
   birth:
-    date: '1937-03-13'
+    date: "1937-03-13"
     geo:
       location: Lourenço Marques
       country_code: MOZ
@@ -20,42 +20,60 @@ person:
     url: https://archive.org/download/screenshot-from-2024-02-13-15-42-24/jose_branco.png
     source:
       uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
-      cite: 'Diário de Lisboa, 1980 (in: The Delagoa Bay Company)'
+      cite: "Diário de Lisboa, 1980 (in: The Delagoa Bay Company)"
   teachers:
     - id: JDP-12
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1975
         end: null
       sources:
         - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
           cite: José Branco não boicotou o seu sonho (Judo Magazine)
-          citation: >-
-            O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal
-            teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os
-            momentos da vida quotidiana.
+          quotation: O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana.
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
           cite: José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)
-          citation: >-
-            Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil
-            da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a
-            mão. No último segundo da minha vida, ele fará parte dos meus pensamentos.
+          quotation: "Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos."
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Judo Clube de Portugal
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 3 dan
       date: 1982
       sources:
         - uri: https://search.worldcat.org/title/817030285?oclcNum=817030285
-          cite: 'Judo: da iniciação à competição (1983), p. 23'
-          citation: '1982: (...) José Branco: 3º Dan . J. C. Portugal'
+          cite: "Judo: da iniciação à competição (1983), p. 23"
+          quotation: "1982: (...) José Branco: 3º Dan . J. C. Portugal"
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
-      org_id: null  # FPJ
+      org_id: null
   sources:
     - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://archive.is/cMx9V
+      type: unknown
+      supports: true
+      weight: unknown

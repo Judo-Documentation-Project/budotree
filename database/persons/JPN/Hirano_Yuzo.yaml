@@ -20,7 +20,10 @@ person:
   teachers:
     - id: null
       style_id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -31,12 +34,23 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
-    - uri: >-
-        https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
+    - uri: https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://orca.cardiff.ac.uk/id/eprint/136518/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://judolandia.tripod.com/histport.htm
+      type: unknown
+      supports: true
+      weight: unknown

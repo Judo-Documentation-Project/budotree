@@ -19,7 +19,10 @@ person:
   teachers:
     - id: null
       style_id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -30,13 +33,22 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q715769
       cite: Wikidata

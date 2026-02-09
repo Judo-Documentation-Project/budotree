@@ -10,7 +10,7 @@ person:
       location: Casablanca
       country_code: MAR
   death:
-    date: '2014-01-06'
+    date: "2014-01-06"
     geo:
       location: null
       country_code: null
@@ -22,7 +22,10 @@ person:
   teachers:
     - id: null
       style_id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -35,15 +38,28 @@ person:
       sources:
         - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
           cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
-          citation: >-
-            Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai,
-            cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial.
+          quotation: Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial.
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
-      org_id: null  # Dai Nippon Butokukai
+      org_id: null
   sources:
     - uri: https://www.georgesstobbaerts.com/georges/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://tenchi.pt/georges-stobbaerts/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
       cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
+      type: unknown
+      supports: true
+      weight: unknown

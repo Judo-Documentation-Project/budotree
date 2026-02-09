@@ -18,7 +18,10 @@ person:
       country_code: null
   teachers:
     - id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -28,16 +31,28 @@ person:
     - rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://doi.org/10.18002/rama.v13i2.5700
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.ryoishintokai.com/2022/03/24/1819/
       events:
         - birth
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q11565323
       cite: Wikidata

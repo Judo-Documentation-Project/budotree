@@ -6,6 +6,9 @@ style:
     lang: ja
   sources:
     - uri: https://www.kendo.or.jp/en/knowledge/kendo-history/
+      type: unknown
+      supports: true
+      weight: unknown
   founded:
     date: 1912
     geo:

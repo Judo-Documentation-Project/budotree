@@ -7,19 +7,17 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1903-08-03'
+    date: "1903-08-03"
     geo:
       location: Nakagawa, Aogo, Hyogo
       country_code: JPN
   death:
-    date: '1991-10-09'
+    date: "1991-10-09"
     geo:
       location: Nishinomiya, Hyogo
       country_code: JPN
   description:
-    en: >-
-      Sumiyuki Kotani (小谷 澄之, Kotani Sumiyuki; August 3, 1903 – October 9, 1991).  Judo ambassador who travelled around
-      with Kano, and one of this last direct students.
+    en: Sumiyuki Kotani (小谷 澄之, Kotani Sumiyuki; August 3, 1903 – October 9, 1991).  Judo ambassador who travelled around with Kano, and one of this last direct students.
   photo:
     url: https://upload.wikimedia.org/wikipedia/en/6/64/Kotani_Sumiyuki_Judo_Judan.jpg
     source:
@@ -31,19 +29,24 @@ person:
       period:
         start: 1921
         end: 1938
-      quality: 3
+      confidence:
+        level: 3
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 3"
       sources:
         - uri: https://judoinfo.com/judan/
-          cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
-          citation: >-
-            He was one of Jigoro Kano’s direct students, and only the 7th man to receive a 10th Degree Black Belt while
-            he was still alive.
+          cite: "Judo Info: Profiles of Judo 10th Dan Holders"
+          quotation: He was one of Jigoro Kano’s direct students, and only the 7th man to receive a 10th Degree Black Belt while he was still alive.
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://isbnsearch.org/isbn/9781590309162
           cite: The Way of Judo A Portrait of Jigoro Kano and His Students
           location: pp. 167-128
-          citation: >-
-            Kotani can be considered Kano's last direct disciple. (...) Kano often chose Kotani as a traveling
-            instructor on his teaching tours overseas.
+          quotation: Kotani can be considered Kano's last direct disciple. (...) Kano often chose Kotani as a traveling instructor on his teaching tours overseas.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: JDP-P-1
   rank:
@@ -53,24 +56,45 @@ person:
       sources:
         - uri: https://www.judo-ch.jp/english/legend/kotani/
           cite: Judo Channel
-          citation: 'Sumiyuki Kotani April, 1984: 10th dan'
+          quotation: "Sumiyuki Kotani April, 1984: 10th dan"
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://isbnsearch.org/isbn/9781590309162
           cite: The Way of Judo A Portrait of Jigoro Kano and His Students
           location: pp. 167-128
-          citation: '[Kotani] was promoted to tenth dan in 1984'
+          quotation: "[Kotani] was promoted to tenth dan in 1984"
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: https://www.olympedia.org/athletes/59042
-      cite: 'Olympedia: Sumiyuki Kotani'
+      cite: "Olympedia: Sumiyuki Kotani"
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://judoinfo.com/judan/
-      cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
+      cite: "Judo Info: Profiles of Judo 10th Dan Holders"
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.judo-ch.jp/english/legend/kotani/
       cite: Judo Channel
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
-      cite: 'Wikipedia: Sumiyuki Kotani'
+      cite: "Wikipedia: Sumiyuki Kotani"
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q982540
       cite: Wikidata

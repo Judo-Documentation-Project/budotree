@@ -1,36 +1,21 @@
-# yaml-language-server: $schema=../schemas/source.schema.json
-#
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-# Source template - v2 format (EXPANDED entity type)
-#
-# A bibliographic entity: book, article, website, video, thesis, etc.
-#
-# Required fields:
-#   id (pattern: JDP-SRC-{N})
-#   type
-#   title
----
-
 source:
-  id:                         # Pattern: JDP-SRC-1, JDP-SRC-2, etc. (REQUIRED)
-  type: book                  # REQUIRED: book | article | website | video | thesis | interview | archive
-  title:                      # REQUIRED
-  native_title: null          # Optional native title
-    # name: "ネイティブタイトル"
-    # lang: ja
-  authors:                    # List of author names
-    - "Author Name"
-  editors: []                 # List of editor names
-  year: 2008                  # Publication year
-  publisher: null             # Publisher name
-  identifiers:                # Structured identifiers
-    isbn: null                # "978-1234567890"
-    doi: null                 # "10.1000/xyz123"
-  url: null                   # Web access URL
-  language: en                # ISO 639-1 language code
-  description:                # Multilingual description (optional)
-    en: >
+  id: null
+  type: book
+  title: null
+  native_title: null
+  authors:
+    - Author Name
+  editors: []
+  year: 2008
+  publisher: null
+  identifiers:
+    isbn: null
+    doi: null
+  url: null
+  language: en
+  description:
+    en: |
       Brief description of the source...
-  tags:                       # Optional tags
+  tags:
     - primary-source
     - biography

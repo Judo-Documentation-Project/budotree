@@ -7,12 +7,12 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1883-04-21'
+    date: "1883-04-21"
     geo:
       location: Iwate
       country_code: JPN
   death:
-    date: '1965-01-27'
+    date: "1965-01-27"
     geo:
       location: null
       country_code: JPN
@@ -24,7 +24,10 @@ person:
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1903
         end: 1965
@@ -32,7 +35,10 @@ person:
       place_id: JDP-P-1
     - id: JDP-9
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1903
         end: null
@@ -43,13 +49,22 @@ person:
       rank: 10 dan
       date: 1945
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E4%B8%89%E8%88%B9%E4%B9%85%E8%94%B5
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q2453372
       cite: Wikidata

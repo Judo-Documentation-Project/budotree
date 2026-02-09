@@ -1,71 +1,71 @@
 # yaml-language-server: $schema=../schemas/style.schema.json
 #
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-# Style template - v2 format
-#
-# Required fields:
-#   name
-#   founded (with date)
-#   sources (array)
+# Style template - v2 format with confidence/source evidence
 ---
-
 style:
-  id:                         # Assigned during import - leave empty
-  name:                       # Display name (REQUIRED)
-  native_name:                # Optional native script name
-    name:
-    lang:                     # ISO 639-1 code
-  aka:                        # Alternative names (optional)
-    - name: "Alternative Name"
-  type: gendai                # NEW in v2: koryu | gendai | hybrid | sport | other
-  related_styles:             # NEW in v2: replaces parent_style_id
-    - style_id: JDP-S-1       # Target style ID (nullable)
-      type: derived_from      # derived_from | split_from | influenced_by | sibling_style_of
-      quality: 2              # 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed
-      notes: ""               # What was transmitted (optional)
-      sources:                # Sources for this specific relationship (optional)
+  id: null
+  name: null
+  native_name:
+    name: null
+    lang: null
+  aka:
+    - name: Alternative Name
+  type: gendai
+  related_styles:
+    - style_id: JDP-S-1
+      type: derived_from
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Style relationship documented in historical sources"
+      notes: ""
+      sources:
         - source_id: JDP-SRC-1
-  founded:                    # REQUIRED (renamed from 'birth' in v1)
-    date:                     # BudoDate: null | year (int) | "YYYY-MM-DD" | "~YYYY"
-    place_id: JDP-P-1         # Place/venue ID where founded (nullable)
-    geo:                      # Geographic reference (nullable)
-      location:               # Geographic display name (e.g., "Tokyo")
-      location_qid: Q1490     # Wikidata Q-ID for location (optional)
-      country_code: JPN       # ISO 3166-1 alpha-3
-      country_qid: Q17        # Wikidata Q-ID for country (optional)
-    founder_id: JDP-1         # Person ID of founder (nullable)
+          type: secondary
+          supports: true
+          weight: medium
+  founded:
+    date: null
+    place_id: JDP-P-1
+    geo:
+      location: null
+      location_qid: Q1490
+      country_code: JPN
+      country_qid: Q17
+    founder_id: JDP-1
     sources:
       - source_id: JDP-SRC-1
-  dissolved: null             # Renamed from 'death'; null if still active
-    # date: 1950              # BudoDate
-    # sources:
-    #   - source_id: JDP-SRC-2
-  rank_system:                # NEW in v2: describes ranking system (optional)
-    type: dan-kyu             # dan-kyu | menkyo | military | other
+        type: secondary
+        supports: true
+        weight: medium
+  dissolved: null
+  rank_system:
+    type: dan-kyu
     description:
-      en: "Standard dan/kyu grading system"
-  description:                # Multilingual map (optional)
-    en: >
+      en: Standard dan/kyu grading system
+  description:
+    en: |
       Brief description of the style...
-    # ja: >
-    #   スタイルの説明...
-  media:                      # Photos and videos (optional)
+  media:
     photos:
-      - url: "https://..."
+      - url: https://...
         source:
           source_id: JDP-SRC-3
     videos:
-      - url: "https://..."
+      - url: https://...
         source:
           source_id: JDP-SRC-4
-  sources:                    # REQUIRED, at least one
+  sources:
     - source_id: JDP-SRC-1
-      events: [name, founded]
-    # - uri: "https://..."    # Fallback if no source entity
-    #   cite: "Source name"
-  links:                      # External identifiers (optional)
-    - uri: "https://www.wikidata.org/wiki/Q5616"
+      events:
+        - name
+        - founded
+      type: secondary
+      supports: true
+      weight: medium
+  links:
+    - uri: https://www.wikidata.org/wiki/Q5616
       type: wikidata
-  tags:                       # Optional tags
+  tags:
     - grappling
     - throwing

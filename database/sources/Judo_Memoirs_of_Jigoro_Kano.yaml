@@ -1,25 +1,20 @@
-# yaml-language-server: $schema=../schemas/source.schema.json
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-# Updated to v2 format
----
-
 source:
   id: JDP-SRC-1
   type: book
-  title: "Judo Memoirs of Jigoro Kano"
+  title: Judo Memoirs of Jigoro Kano
   native_title: null
   authors:
-    - "Brian N. Watson"
+    - Brian N. Watson
   editors: []
   year: 2008
-  publisher: "Trafford Publishing"
+  publisher: Trafford Publishing
   identifiers:
-    isbn: "978-1425163495"
+    isbn: 978-1425163495
     doi: null
-  url: "https://isbnsearch.org/isbn/9781425163495"
+  url: https://isbnsearch.org/isbn/9781425163495
   language: en
   description:
-    en: "Early translation and compilation of Kano's writings and memoirs."
+    en: Early translation and compilation of Kano's writings and memoirs.
   tags:
     - primary-source
     - biography

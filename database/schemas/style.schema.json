@@ -203,8 +203,8 @@
           "enum": ["derived_from", "split_from", "influenced_by", "sibling_style_of"],
           "description": "derived_from: direct technical lineage. split_from: conscious schism. influenced_by: partial influence. sibling_style_of: peer styles (symmetric, declare in both files)."
         },
-        "quality": {
-          "$ref": "budotree.schema.json#/definitions/Quality"
+        "confidence": {
+          "$ref": "budotree.schema.json#/definitions/Confidence"
         },
         "notes": {
           "type": "string",
@@ -217,7 +217,7 @@
           }
         }
       },
-      "required": ["style_id", "type", "quality"]
+      "required": ["style_id", "type", "confidence"]
     }
   }
 }

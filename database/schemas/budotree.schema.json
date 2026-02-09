@@ -29,8 +29,36 @@
     "Quality": {
       "title": "Quality",
       "description": "Confidence/certainty rating: 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed",
-      "type": "integer",
-      "enum": [0, 1, 2, 3]
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "integer",
+          "enum": [0, 1, 2, 3]
+        }
+      ]
+    },
+    "Confidence": {
+      "title": "Confidence",
+      "description": "Confidence assessment for an assertion",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "$ref": "#/definitions/Quality",
+          "description": "Confidence level: 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed"
+        },
+        "assessed_by": {
+          "type": "string",
+          "description": "Who performed the assessment (person, organization, or 'JDP' for project)"
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Explanation for the confidence assessment"
+        }
+      },
+      "required": ["level"]
     },
     "CountryCode": {
       "title": "CountryCode",
@@ -133,9 +161,9 @@
           "type": "string",
           "description": "Location within the source (page, chapter, etc.)"
         },
-        "citation": {
+        "quotation": {
           "type": "string",
-          "description": "Direct quote or citation text"
+          "description": "Direct quote from the source"
         },
         "events": {
           "type": "array",
@@ -143,6 +171,20 @@
             "type": "string"
           },
           "description": "Which fields this source covers"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["primary", "secondary", "tertiary", "unknown"],
+          "description": "Type of source in terms of proximity to evidence"
+        },
+        "supports": {
+          "type": "boolean",
+          "description": "Whether this source supports (true) or disputes (false) the assertion"
+        },
+        "weight": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "unknown"],
+          "description": "Weight/importance of this source for the assertion"
         }
       },
       "oneOf": [

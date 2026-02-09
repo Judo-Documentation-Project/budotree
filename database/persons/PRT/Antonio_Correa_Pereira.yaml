@@ -24,7 +24,10 @@ person:
   teachers:
     - id: JDP-109
       style_id: JDP-S-14
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -33,28 +36,39 @@ person:
   rank:
     - style_id: JDP-S-1
       rank: 1 dan
-      date: '1963-09-10'
+      date: "1963-09-10"
       sources:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
-          cite: >-
-            FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
-            Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
-          citation: >-
-            Mas o arranque institucional que mais influenciará a história do Karaté está na Academia de Judo,
-            propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em Lisboa. Além de ser o
-            primeiro cinto negro inscrito no Kodokan (Japão) (...) António LIMA retira dos estatutos respectivos a
-            referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo, sendo «o primeiro
-            Português a possuir a graduação de cinto negro conferida na Alemanha» (LIMA, 1990, p. 121)
+          cite: FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+          quotation: Mas o arranque institucional que mais influenciará a história do Karaté está na Academia de Judo, propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em Lisboa. Além de ser o primeiro cinto negro inscrito no Kodokan (Japão) (...) António LIMA retira dos estatutos respectivos a referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo, sendo «o primeiro Português a possuir a graduação de cinto negro conferida na Alemanha» (LIMA, 1990, p. 121)
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://www.ubu.pt/home/arquivo-fotografico/correapereirakodokan/
-          citation: Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira [1 dan / 3-III-1958 / Risei Kano]
+          quotation: Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira [1 dan / 3-III-1958 / Risei Kano]
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: https://www.ubu.pt/home/professores/p1/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.ubu.pt/home/historia/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://judolandia.tripod.com/histport.htm
+      type: unknown
+      supports: true
+      weight: unknown
   notes: |
     As relações de aprendizagem entre os membros fundadores da UBU não
     são claras, provavelmente apenas por não serem tópico que é

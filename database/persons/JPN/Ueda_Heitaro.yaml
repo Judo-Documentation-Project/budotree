@@ -7,40 +7,51 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1877-08-14'
+    date: "1877-08-14"
     geo:
       location: Ikenishi
       country_code: JPN
   death:
-    date: '1949-07-25'
+    date: "1949-07-25"
     geo:
       location: null
       country_code: null
   teachers:
     - id: JDP-60
       style_id: JDP-S-8
-      quality: 3
+      confidence:
+        level: 3
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 3"
       period:
         start: 1905
         end: null
       sources:
         - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
           cite: The iron will of the kendo god Ueda Heitaro - Kenshi 24/7
-          citation: >-
-            At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time
-            students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with
-            the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and
-            Oasa, etc arrived). 
+          quotation: "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Bujutsu Kyoin Yoseijo
+      place_id: null
   rank:
     - rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+      type: unknown
+      supports: true
+      weight: unknown

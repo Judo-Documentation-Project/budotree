@@ -18,30 +18,44 @@ person:
       country_code: JPN
   teachers:
     - style_id: JDP-S-3
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1785
         end: 1792
       role: student
-      id: null  # Hitotsu Yanagi Oribe
+      id: null
       place_id: null
-    - quality: null
+    - confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1792
         end: 1798
       role: student
-      id: null  # Homma Jouemon
-      #FIXME add style_id Shin no Shinto-ryu
+      id: null
       place_id: null
   rank:
     - style_id: null
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: http://www.tenyokai.com/history.html
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
+      type: unknown
+      supports: true
+      weight: unknown

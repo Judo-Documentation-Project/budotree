@@ -21,7 +21,10 @@ person:
   teachers:
     - id: null
       style_id: null
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: null
         end: null
@@ -32,11 +35,23 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: urn:isbn:9784770026194
+      type: unknown
+      supports: true
+      weight: unknown

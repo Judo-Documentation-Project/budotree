@@ -12,12 +12,12 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1885-04-24'
+    date: "1885-04-24"
     geo:
       location: Tonoshō
       country_code: JPN
   death:
-    date: '1967-06-02'
+    date: "1967-06-02"
     geo:
       location: null
       country_code: JPN
@@ -26,7 +26,10 @@ person:
       period:
         start: null
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       role: student
       id: null
       place_id: null
@@ -35,7 +38,10 @@ person:
       period:
         start: null
         end: null
-      quality: 0
+      confidence:
+        level: 0
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 0"
       role: student
       place_id: null
     - id: JDP-43
@@ -43,26 +49,41 @@ person:
       period:
         start: 1906
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       role: student
-      place_id: null  # Butokuden
+      place_id: null
     - id: JDP-44
       style_id: JDP-S-1
       period:
         start: 1906
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       role: student
-      place_id: null  # Butokuden
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 10 dan
-      date: '1967-06-02'
+      date: "1967-06-02"
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81
+      type: unknown
+      supports: true
+      weight: unknown

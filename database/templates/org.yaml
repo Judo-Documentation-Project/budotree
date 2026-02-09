@@ -1,48 +1,36 @@
-# yaml-language-server: $schema=../schemas/org.schema.json
-#
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-# Organization template - v2 format (EXPANDED entity type)
-#
-# A martial arts organization, federation, governing body, or institutional school
-#
-# Required fields:
-#   name
-#   type
-#   sources (array)
----
-
 org:
-  id:                         # Assigned during import - leave empty
-  name:                       # Organization name (REQUIRED)
-  native_name:                # Optional native script name
-    name:
-    lang:                     # ISO 639-1 code
-  type: federation            # REQUIRED: federation | governing_body | school | association | other
-  geo:                        # Geographic reference (nullable)
-    location:                 # Display name (e.g., "Tokyo")
-    location_qid: Q1490       # Wikidata Q-ID for location (optional)
-    country_code: JPN         # ISO 3166-1 alpha-3
-    country_qid: Q17          # Wikidata Q-ID for country (optional)
-  founded:                    # Optional founding info
-    date: 1882                # BudoDate
-    founder_id: JDP-1         # Person ID of founder
+  id: null
+  name: null
+  native_name:
+    name: null
+    lang: null
+  type: federation
+  geo:
+    location: null
+    location_qid: Q1490
+    country_code: JPN
+    country_qid: Q17
+  founded:
+    date: 1882
+    founder_id: JDP-1
     sources:
       - source_id: JDP-SRC-1
-  dissolved: null             # null if still active
-    # date: 1950
-    # sources:
-    #   - source_id: JDP-SRC-2
-  parent_org_id: null         # Parent organization if hierarchical (optional)
-  website: null               # Organization website URL
-  description:                # Multilingual description (optional)
-    en: >
+        type: unknown
+        supports: true
+        weight: unknown
+  dissolved: null
+  parent_org_id: null
+  website: null
+  description:
+    en: |
       Brief description of the organization...
-  sources:                    # REQUIRED, at least one
+  sources:
     - source_id: JDP-SRC-1
-    # - uri: "https://..."
-    #   cite: "Source name"
-  links:                      # External identifiers (optional)
-    - uri: "https://www.wikidata.org/wiki/Q..."
+      type: unknown
+      supports: true
+      weight: unknown
+  links:
+    - uri: https://www.wikidata.org/wiki/Q...
       type: wikidata
-  tags:                       # Optional tags
+  tags:
     - judo

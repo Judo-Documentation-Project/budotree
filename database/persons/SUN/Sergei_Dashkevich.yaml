@@ -8,12 +8,12 @@ person:
     - RUS
     - SUN
   birth:
-    date: '1896-10-18'
+    date: "1896-10-18"
     geo:
       location: Petrodvorets
       country_code: RUS
   death:
-    date: '1955-03-17'
+    date: "1955-03-17"
     geo:
       location: Leningrad
       country_code: SUN
@@ -27,12 +27,16 @@ person:
       period:
         start: 1931
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources:
         - uri: https://judo.ru/news/9889
-          citation: >-
-            В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на
-            курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+          quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
     - id: JDP-97
@@ -40,15 +44,21 @@ person:
       period:
         start: 1931
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources:
         - uri: https://judo.ru/news/9889
-          citation: >-
-            В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на
-            курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
-        - uri: >-
-            https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
-          citation: Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.
+          quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+          type: unknown
+          supports: true
+          weight: unknown
+        - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+          quotation: Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
   rank:
@@ -56,11 +66,19 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://judo.ru/news/9889
-    - uri: >-
-        https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+      type: unknown
+      supports: true
+      weight: unknown
+    - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+      type: unknown
+      supports: true
+      weight: unknown

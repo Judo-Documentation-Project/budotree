@@ -159,8 +159,8 @@
           "enum": ["student", "uchi-deshi", "seminar", "private", "examination"],
           "description": "Type of student-teacher relationship"
         },
-        "quality": {
-          "$ref": "budotree.schema.json#/definitions/Quality"
+        "confidence": {
+          "$ref": "budotree.schema.json#/definitions/Confidence"
         },
         "sources": {
           "type": "array",
@@ -171,7 +171,7 @@
       },
       "required": [
         "period",
-        "quality"
+        "confidence"
       ],
       "title": "Teacher"
     },
@@ -226,8 +226,8 @@
         "date": {
           "$ref": "budotree.schema.json#/definitions/BudoDate"
         },
-        "quality": {
-          "$ref": "budotree.schema.json#/definitions/Quality"
+        "confidence": {
+          "$ref": "budotree.schema.json#/definitions/Confidence"
         },
         "sources": {
           "type": "array",
@@ -238,7 +238,8 @@
       },
       "required": [
         "rank",
-        "date"
+        "date",
+        "confidence"
       ],
       "title": "Rank"
     }

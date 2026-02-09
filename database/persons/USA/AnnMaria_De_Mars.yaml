@@ -6,7 +6,7 @@ person:
   nationality:
     - USA
   birth:
-    date: '1958-06-15'
+    date: "1958-06-15"
     geo:
       location: Calumet, Michigan
       country_code: USA
@@ -24,34 +24,56 @@ person:
     - id: JDP-131
       style_id: JDP-S-1
       period:
-        start: '1976'
+        start: "1976"
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources:
         - uri: https://www.usjf.com/annmaria-de-mars-2/
           cite: AnnMaria De Mars - USJF
-          citation: >-
-            at the age of 18, as a college junior, De Mars was an exchange student at Waseda University in Tokyo, Japan.
-            While there, she trained under Sensei Osawa
+          quotation: at the age of 18, as a college junior, De Mars was an exchange student at Waseda University in Tokyo, Japan. While there, she trained under Sensei Osawa
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Waseda University, Tokyo
+      place_id: null
   rank:
     - style_id: JDP-S-1
       rank: 6 dan
-      date: '2016'
+      date: "2016"
       sources:
         - uri: https://www.fukudajudocamp.org/archives/2016-joshi-camp/
           cite: 2016 Joshi Judo Camp - Fukuda Judo
-          citation: '2016 Joshi Judo Camp Guest Instructors: Dr. AnnMaria DeMars (6th Dan)'
+          quotation: "2016 Joshi Judo Camp Guest Instructors: Dr. AnnMaria DeMars (6th Dan)"
+          type: unknown
+          supports: true
+          weight: unknown
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/AnnMaria_De_Mars
       cite: AnnMaria De Mars - Wikipedia
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.usjf.com/annmaria-de-mars-2/
       cite: AnnMaria De Mars - USJF
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.fukudajudocamp.org/archives/2016-joshi-camp/
       cite: 2016 Joshi Judo Camp - Fukuda Judo
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://www.judoinside.com/judoka/6000/AnnMaria_Burns/judo-career
       cite: AnnMaria Burns (JudoInside)
+      type: unknown
+      supports: true
+      weight: unknown

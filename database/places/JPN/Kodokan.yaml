@@ -12,13 +12,19 @@ place:
     date: 1882
     sources:
       - uri: https://en.wikipedia.org/wiki/Kodokan
-        cite: 'Wikipedia: Kodokan'
+        cite: "Wikipedia: Kodokan"
+        type: unknown
+        supports: true
+        weight: unknown
   dissolved: null
   description:
     en: The headquarters dojo of the worldwide judo community, founded by Kano Jigoro in 1882.
   sources:
     - uri: https://en.wikipedia.org/wiki/Kodokan
-      cite: 'Wikipedia: Kodokan'
+      cite: "Wikipedia: Kodokan"
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q1120583
       type: wikidata

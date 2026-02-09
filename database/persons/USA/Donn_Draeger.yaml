@@ -6,12 +6,12 @@ person:
   nationality:
     - USA
   birth:
-    date: '1922-04-15'
+    date: "1922-04-15"
     geo:
       location: Milwaukee, Wisconsin
       country_code: USA
   death:
-    date: '1982-10-20'
+    date: "1982-10-20"
     geo:
       location: Milwaukee, Wisconsin
       country_code: USA
@@ -26,14 +26,17 @@ person:
       period:
         start: 1967
         end: null
-      quality: 3
+      confidence:
+        level: 3
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 3"
       sources:
         - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
-          cite: 'Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)'
-          citation: >-
-            A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden
-            Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette
-            école par l'obtention d'un grade d'instructeur.
+          cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
+          quotation: A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
     - id: JDP-117
@@ -41,24 +44,37 @@ person:
       period:
         start: null
         end: null
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources:
         - uri: https://kogenbudo.org/i-htm/
-          cite: 'Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)'
-          citation: >-
-            There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn
-            (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
+          cite: "Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)"
+          quotation: There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Meiji Shrine
+      place_id: null
   rank:
     - style_id: null
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
+      type: unknown
+      supports: true
+      weight: unknown

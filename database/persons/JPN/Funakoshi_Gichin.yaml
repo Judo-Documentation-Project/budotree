@@ -7,12 +7,12 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1868-10-11'
+    date: "1868-10-11"
     geo:
       location: Shuri, Okinawa
       country_code: JPN
   death:
-    date: '1957-04-26'
+    date: "1957-04-26"
     geo:
       location: Tokyo
       country_code: JPN
@@ -22,12 +22,16 @@ person:
       period:
         start: null
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       sources:
         - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-          citation: >-
-            Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He
-            and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+          quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
     - id: JDP-55
@@ -35,12 +39,16 @@ person:
       period:
         start: null
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       sources:
         - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-          citation: >-
-            Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He
-            and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+          quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
   rank:
@@ -48,14 +56,26 @@ person:
       rank: null
       date: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://judoinfo.com/karateranks/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://search.worldcat.org/title/7673297
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q41105
       cite: Wikidata

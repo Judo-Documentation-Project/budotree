@@ -7,19 +7,22 @@ person:
   nationality:
     - JPN
   birth:
-    date: '1907-04-07'
+    date: "1907-04-07"
     geo:
       location: Shizuoka
       country_code: JPN
   death:
-    date: '2003-05-30'
+    date: "2003-05-30"
     geo:
       location: Aix-en-Provence
       country_code: FRA
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1925
         end: 1930
@@ -27,7 +30,10 @@ person:
       place_id: JDP-P-1
     - id: JDP-11
       style_id: JDP-S-1
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1925
         end: 1930
@@ -35,53 +41,63 @@ person:
       place_id: JDP-P-1
     - id: JDP-27
       style_id: JDP-S-4
-      quality: null
+      confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1930
         end: null
       sources:
         - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
-          citation: >-
-            That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the
-            living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there,
-            we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)
+          quotation: That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
-      place_id: null  # Kobukan dojo
+      place_id: null
     - id: JDP-41
       style_id: JDP-S-5
       period:
         start: null
         end: null
-      quality: 1
+      confidence:
+        level: 1
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 1"
       sources:
         - uri: https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/
-          citation: >-
-            Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki
-            avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est
-            la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis,
-            qu’il avait pourtant étudié avec Funakoshi
+          quotation: Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi
+          type: unknown
+          supports: true
+          weight: unknown
         - uri: https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false
           cite: A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.
-          citation: >-
-            Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder
-            Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate, Gichin Funakoshi.
+          quotation: Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate, Gichin Funakoshi.
+          type: unknown
+          supports: true
+          weight: unknown
       role: student
       place_id: null
-    - quality: null
+    - confidence:
+        level: null
+        assessed_by: JDP
+        rationale: Legacy quality field migration - value was null
       period:
         start: 1924
         end: null
       role: student
-      id: null  # Sanjuro Oshima
-      #FIXME add style_id Gyokushin Ryu
+      id: null
       place_id: null
   rank:
     - rank: Shoden Kirishi Mokuroku
-      # FIXME: add style_id: Gyokushin Ryu    
       date: 1924
       granted_by: null
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       org_id: null
     - style_id: JDP-S-10
@@ -89,20 +105,32 @@ person:
       date: 1924
       granted_by: JDP-27
       rank_type: other
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       org_id: null
     - style_id: JDP-S-1
       rank: 8 dan
       date: null
       rank_type: dan
-      quality: 2
+      confidence:
+        level: 2
+        assessed_by: JDP
+        rationale: "Legacy quality field migration - original value: 2"
       sources: []
       granted_by: null
       org_id: JDP-O-1
   sources:
     - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+      type: unknown
+      supports: true
+      weight: unknown
     - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+      type: unknown
+      supports: true
+      weight: unknown
   links:
     - uri: https://www.wikidata.org/wiki/Q1937662
       cite: Wikidata
