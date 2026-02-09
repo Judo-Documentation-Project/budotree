@@ -43,7 +43,8 @@ person:
       role: student
       place_id: null
   rank:
-    - rank: Gokui kaiden
+    - style_id: JDP-S-6
+      rank: Gokui kaiden
       date: 1967
       sources:
         - uri: >-
@@ -61,7 +62,6 @@ person:
       granted_by: JDP-113
       rank_type: other
       quality: 2
-      _styleComment: JDP-S-6
       org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Risuke_Otake

@@ -36,7 +36,7 @@ person:
         end: null
       role: student
       id: null  # Okuzawa Sanzo
-      _styleComment: Kiraku-ryu
+      #FIXME: add style_id Kiraku-ryu
       place_id: null
   rank:
     - style_id: null

@@ -73,16 +73,16 @@ person:
         end: null
       role: student
       id: null  # Sanjuro Oshima
-      _styleComment: Gyokushin Ryu
+      #FIXME add style_id Gyokushin Ryu
       place_id: null
   rank:
     - rank: Shoden Kirishi Mokuroku
+      # FIXME: add style_id: Gyokushin Ryu    
       date: 1924
       granted_by: null
       rank_type: other
       quality: 2
       sources: []
-      _styleComment: Gyokushin Ryu
       org_id: null
     - style_id: JDP-S-10
       rank: null

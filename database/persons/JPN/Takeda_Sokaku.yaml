@@ -25,13 +25,13 @@ person:
       id: null
       place_id: null
   rank:
-    - rank: null
+    - style_id: JDP-S-10
+      rank: null
       date: null
       rank_type: other
       quality: 2
       sources: []
       granted_by: null
-      _styleComment: Daitō-ryū Aiki-jūjutsu
       org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB

@@ -31,7 +31,7 @@ person:
         end: 1798
       role: student
       id: null  # Homma Jouemon
-      _styleComment: Shin no Shinto-ryu
+      #FIXME add style_id Shin no Shinto-ryu
       place_id: null
   rank:
     - style_id: null

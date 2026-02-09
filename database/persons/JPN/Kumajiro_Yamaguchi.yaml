@@ -33,7 +33,8 @@ person:
       role: student
       place_id: null
   rank:
-    - rank: Kyoju
+    - style_id: JDP-S-6
+      rank: Kyoju
       date: null
       sources:
         - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
@@ -45,7 +46,6 @@ person:
       rank_type: other
       quality: 2
       granted_by: null
-      _styleComment: JDP-S-6
       org_id: null
   sources:
     - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en

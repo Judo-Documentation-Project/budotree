@@ -27,7 +27,7 @@ person:
         end: 1896
       role: student
       id: null  # Saito Mohei
-      _styleComment: Hongaku Kokki-ryû
+      #FIXME add style id Hongaku Kokki-ryû
       place_id: null
     - id: JDP-9
       style_id: JDP-S-1
