@@ -10,14 +10,15 @@
       "$ref": "#/definitions/Style"
     }
   },
-  "required": [ "style" ],
+  "required": ["style"],
   "definitions": {
     "Style": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^JDP-S-[0-9]+$"
         },
         "name": {
           "type": "string"
@@ -28,14 +29,45 @@
         "aka": {
           "$ref": "budotree.schema.json#/definitions/Aka"
         },
-        "birth": {
-          "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        "type": {
+          "type": "string",
+          "enum": ["koryu", "gendai", "hybrid", "sport", "other"],
+          "description": "Classification of the martial art style"
         },
-        "death": {
-          "$ref": "budotree.schema.json#/definitions/LifeEvent"
+        "related_styles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/StyleRelationship"
+          },
+          "description": "Typed relationships to other styles (lineage, influence, kinship)"
+        },
+        "founded": {
+          "$ref": "#/definitions/StyleLifeEvent",
+          "description": "When and where the style was founded"
+        },
+        "dissolved": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/StyleLifeEvent",
+              "description": "When the style dissolved (null if still active)"
+            }
+          ]
+        },
+        "rank_system": {
+          "$ref": "#/definitions/RankSystem"
         },
         "description": {
-          "$ref": "budotree.schema.json#/definitions/Description"
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
+          ]
         },
         "media": {
           "$ref": "#/definitions/Media"
@@ -43,46 +75,149 @@
         "sources": {
           "type": "array",
           "items": {
-            "$ref": "budotree.schema.json#/definitions/Source"
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
           }
         },
         "tags": {
           "$ref": "budotree.schema.json#/definitions/Tags"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Link"
+          }
         }
       },
       "required": [
-        "birth",
         "id",
         "name",
+        "founded",
         "sources"
       ],
       "title": "Style"
+    },
+    "StyleLifeEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "$ref": "budotree.schema.json#/definitions/BudoDate"
+        },
+        "place_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-P-[0-9]+$"
+            }
+          ],
+          "description": "Place/venue ID where founded"
+        },
+        "geo": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/GeoRef"
+            }
+          ]
+        },
+        "founder_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-[0-9]+$",
+              "description": "Person ID of founder"
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        }
+      },
+      "title": "StyleLifeEvent"
+    },
+    "RankSystem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["dan-kyu", "menkyo", "military", "other"],
+          "description": "Type of ranking system"
+        },
+        "description": {
+          "$ref": "budotree.schema.json#/definitions/Description"
+        }
+      },
+      "title": "RankSystem"
     },
     "Media": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "video_url": {
-          "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https"
-          ]
-        },
-        "photo_url": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "$ref": "budotree.schema.json#/definitions/PhotoURL"
+        "photos": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Photo"
           }
-          ]
+        },
+        "videos": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Video"
+          }
         }
       },
-      "required": [
-      ],
       "title": "Media"
+    },
+    "StyleRelationship": {
+      "title": "StyleRelationship",
+      "description": "A typed relationship from this style to another style",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "style_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-S-[0-9]+$"
+            }
+          ],
+          "description": "ID of the related style"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["derived_from", "split_from", "influenced_by", "sibling_style_of"],
+          "description": "derived_from: direct technical lineage. split_from: conscious schism. influenced_by: partial influence. sibling_style_of: peer styles (symmetric, declare in both files)."
+        },
+        "quality": {
+          "$ref": "budotree.schema.json#/definitions/Quality"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Editorial annotation on what was transmitted or why this relationship matters"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        }
+      },
+      "required": ["style_id", "type", "quality"]
     }
   }
 }

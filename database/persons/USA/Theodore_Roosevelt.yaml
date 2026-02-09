@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-96
   name: Theodore Roosevelt Jr.
@@ -10,45 +7,58 @@ person:
   nationality:
     - USA
   birth:
-    date: "1858-10-27"
-    location: Manhattan
-    country_code: USA
+    date: '1858-10-27'
+    geo:
+      location: Manhattan
+      country_code: USA
   death:
-    date: "1919-01-06"
-    location: Oyster Bay
-    country_code: USA
+    date: '1919-01-06'
+    geo:
+      location: Oyster Bay
+      country_code: USA
   photo:
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/800px-Theodore_Roosevelt_by_the_Pach_Bros.jpg
+    url: >-
+      https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/800px-Theodore_Roosevelt_by_the_Pach_Bros.jpg
     source:
       uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt#/media/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg
   teachers:
-    - id: JDP-95    # Yamashita
+    - id: JDP-95
       style_id: JDP-S-1
-      place:
       period:
         start: 1904
         end: 1904
       quality: 2
       sources:
         - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
-          cite: "Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)"
-          citation: "So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor office in the White House as his workout space (...) Yamashita later said that while Roosevelt was his best pupil (...)"
-    - name: James O'Brien # Jujutsu
-      style_id:
-      place:
+          cite: Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)
+          citation: >-
+            So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor
+            office in the White House as his workout space (...) Yamashita later said that while Roosevelt was his best
+            pupil (...)
+      role: student
+      place_id: null
+    - style_id: null
       period:
-        start:
-        end:
-      quality:
+        start: null
+        end: null
+      quality: null
+      role: student
+      id: null  # James O'Brien
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: USJA
-      teacher:
       rank: 8 dan (honorary)
       date: 2007
       sources:
         - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
-          citation: "The USJA made Roosevelt an 8th Degree Black Belt, an honor usually bestowed on those who have been doing Judo over 50 years and occasionally on those of distinguished leadership who have bought Judo into the international limelight."
+          citation: >-
+            The USJA made Roosevelt an 8th Degree Black Belt, an honor usually bestowed on those who have been doing
+            Judo over 50 years and occasionally on those of distinguished leadership who have bought Judo into the
+            international limelight.
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # USJA
   sources:
     - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
     - uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt
@@ -56,5 +66,7 @@ person:
   links:
     - uri: https://www.wikidata.org/wiki/Q33866
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Theodore_Roosevelt
       cite: DBpedia
+      type: dbpedia

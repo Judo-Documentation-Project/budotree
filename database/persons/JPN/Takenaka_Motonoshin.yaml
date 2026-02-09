@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-7
   name: Takenaka  Motonoshin
@@ -11,26 +8,31 @@ person:
     - JPN
   birth:
     date: 1775
-    location:
-    country_code:
+    geo:
+      location: null
+      country_code: null
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-8
       style_id: JDP-S-2
-      place:
-      quality:
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style:
-      org:
-      teacher:
-      rank:
-      date:
+    - rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
     - uri: https://doi.org/10.18002/rama.v13i2.5700

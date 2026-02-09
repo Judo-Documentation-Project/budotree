@@ -1,42 +1,46 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-43
-  name:  Isogai Hajime
+  name: Isogai Hajime
   native_name:
-      name: 磯貝
-      lang: ja
+    name: 磯貝
+    lang: ja
   nationality:
     - JPN
   birth:
-    date: "1871-10-26"
-    location: Miyazaki
-    country_code: JPN
+    date: '1871-10-26'
+    geo:
+      location: Miyazaki
+      country_code: JPN
   death:
-    date: "1947-04-19"
-    location:
-    country_code:
-  photo_url: https://archive.org/download/isogai_hajime/isogai_hajime.jpg
+    date: '1947-04-19'
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-9
       style_id: JDP-S-1
-      place: Kodokan
-      quality:
+      quality: null
       period:
         start: 1891
-        end:
+        end: null
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 10 dan
-      date: "1927-12-22"
+      date: '1927-12-22'
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
   sources:
-      - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
-      - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+    - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
+    - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
   links:
     - uri: https://www.wikidata.org/wiki/Q11973675
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Hajime_Isogai
       cite: DBpedia
+      type: dbpedia

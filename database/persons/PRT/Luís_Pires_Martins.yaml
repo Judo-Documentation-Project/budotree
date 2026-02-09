@@ -1,63 +1,90 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-82
   name: Luís Franco Pires Martins
   nationality:
     - PRT
   birth:
-    date: "1925"
-    location:
-    country_code:
+    date: '1925'
+    geo:
+      location: null
+      country_code: null
   death:
-    date: "2003"
-    location:
-    country_code:
+    date: '2003'
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/piresmartins1965/piresmartins1965.jpg
     source:
       uri: https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
-      cite: "Dr. Luís Franco Pires Martins (1925-2003) - UBU"
+      cite: Dr. Luís Franco Pires Martins (1925-2003) - UBU
   teachers:
-    - id: JDP-83 # Corrêa Pereira
+    - id: JDP-83
       style_id: JDP-S-1
-      place: Academia de Budo
       quality: 1
       period:
         start: 1951
-        end:
+        end: null
       sources:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
-          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
-          citation: "(...)Além de ser o primeiro cinto negro inscrito no Kodokan (Japão), Corrêa Pereira é o primeiro editor de revistas de Judo Kodokan (...) o Dr. João Luís Franco Pires Martins refere que por volta de 1946 é que se iniciou a prática de Judo na Academia de Judo, sendo aí que ele inicia a prática de Judo, em 1951"
+          cite: >-
+            FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
+            Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+          citation: >-
+            (...)Além de ser o primeiro cinto negro inscrito no Kodokan (Japão), Corrêa Pereira é o primeiro editor de
+            revistas de Judo Kodokan (...) o Dr. João Luís Franco Pires Martins refere que por volta de 1946 é que se
+            iniciou a prática de Judo na Academia de Judo, sendo aí que ele inicia a prática de Judo, em 1951
+      role: student
+      place_id: null  # Academia de Budo
   rank:
     - style_id: JDP-S-5
-      org: UBU
-      teacher:
       rank: 1 dan
-      date: "1963-09-10"
+      date: '1963-09-10'
       sources:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
-          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
-          citation: "sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação honorífica de 4º dan a Pires Martins"
+          cite: >-
+            FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
+            Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+          citation: >-
+            sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos
+            primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser
+            simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de
+            ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento
+            posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação
+            honorífica de 4º dan a Pires Martins
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # UBU
     - style_id: JDP-S-5
-      org: FAJKO
-      teacher:
       rank: 1 dan
-      date: "1971-12-15"
+      date: '1971-12-15'
       sources:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
-          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
-          citation: "sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação honorífica de 4º dan a Pires Martins"
+          cite: >-
+            FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
+            Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+          citation: >-
+            sendo mesmo a data da sua graduação de 1º dan atribuída pela UBU, ou seja por Corrêa Pereira, um dos
+            primeiros marcos de institucionalização do Karaté em Portugal, pelo que 10 de Setembro de 1963 poderá ser
+            simbolicamente a data de início da «época» do Karaté Português. Note-se ainda que essa graduação, apesar de
+            ser institucional e sem o vínculo directo de um mestre ou organização japonesa, tem algum reconhecimento
+            posterior quando em 1971 a FAJKO (Federation of All Japan Karatedo Organizations) atribui a graduação
+            honorífica de 4º dan a Pires Martins
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # FAJKO
   sources:
     - uri: https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
     - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-      cite: "Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)"
+      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
     - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf
-      cite: "O Dr. Pires Martins e a União Portuguesa de Budo"
+      cite: O Dr. Pires Martins e a União Portuguesa de Budo
     - uri: https://repositorio.ipv.pt/handle/10400.19/448
-      cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
+      cite: >-
+        FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
+        Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
     - uri: https://mestremanuelceia.webnode.pt/memorias/
     - uri: http://pks.pt/ROP1.php
   notes: |

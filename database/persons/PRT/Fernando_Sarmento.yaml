@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-73
   name: Fernando Sarmento
@@ -9,51 +6,67 @@ person:
   nationality:
     - PRT
   birth:
-    date: "1950"
-    location: Maia
-    country_code: PRT
+    date: '1950'
+    geo:
+      location: Maia
+      country_code: PRT
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/franciso_sarmento/fernando_sarmento.jpg
     source:
       uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-      cite: "Fernando Duarte Sarmento (Escola Murakami da Maia)"
+      cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
   teachers:
     - id: JDP-74
       style_id: JDP-S-1
-      place:  Clube de Judo do Porto
       quality: 3
       period:
         start: 1968
         end: 1969
       sources:
         - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-          cite: "Fernando Duarte Sarmento (Escola Murakami da Maia)"
-          citation: "Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)"
+          cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+          citation: >-
+            Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua
+            Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
+      role: student
+      place_id: null  # Clube de Judo do Porto
     - id: JDP-72
       style_id: JDP-S-4
-      place: Mussubi Escola de Aikido
       quality: 3
       period:
         start: 2006
-        end:
+        end: null
       sources:
         - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-          cite: "Fernando Duarte Sarmento (Escola Murakami da Maia)"
-          citation: "A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009."
+          cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+          citation: >-
+            A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a
+            direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao
+            presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de
+            2009.
+      role: student
+      place_id: null  # Mussubi Escola de Aikido
   rank:
     - style_id: JDP-S-4
-      org: Aikikai
-      teacher:
       rank: 2 dan
       date: 2009
       sources:
         - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-          cite: "Fernando Duarte Sarmento (Escola Murakami da Maia)"
-          citation: "A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009."
+          cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+          citation: >-
+            A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a
+            direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao
+            presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de
+            2009.
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # Aikikai
   sources:
     - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
     - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv

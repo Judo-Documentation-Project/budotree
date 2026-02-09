@@ -10,3 +10,4 @@ dist/
 scratch.lisp
 site/src/persons/*
 site/src/js/tree.json
+site/src/images/cache

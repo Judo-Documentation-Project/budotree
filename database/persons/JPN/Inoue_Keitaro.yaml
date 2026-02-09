@@ -1,12 +1,9 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-10
   name: Inoe Keitaro
   native_name:
-      name: 井上敬太郎
-      lang: ja
+    name: 井上敬太郎
+    lang: ja
   aka:
     - name: Okusawa Keitaro
     - native_name:
@@ -16,33 +13,40 @@ person:
     - JPN
   birth:
     date: 1847
-    location: Tokyo
-    country_code: JPN
+    geo:
+      location: Tokyo
+      country_code: JPN
   death:
-    date: "1912-09-23"
-    location:
-    country_code: JPN
+    date: '1912-09-23'
+    geo:
+      location: null
+      country_code: JPN
   teachers:
     - id: JDP-3
       style_id: JDP-S-3
-      place:
-      quality:
+      quality: null
       period:
-        start:
-        end:
-    - name: Okuzawa Sanzo
-      style: Kiraku-ryu
-      place:
-      quality:
+        start: null
+        end: null
+      role: student
+      place_id: null
+    - quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      id: null  # Okuzawa Sanzo
+      _styleComment: Kiraku-ryu
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
     - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E

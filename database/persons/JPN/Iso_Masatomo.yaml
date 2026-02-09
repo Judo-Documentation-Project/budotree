@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-4
   name: Iso Masatomo
@@ -11,26 +8,32 @@ person:
     - JPN
   birth:
     date: 1818
-    location:
-    country_code:
+    geo:
+      location: null
+      country_code: null
   death:
     date: 1881
-    location:
-    country_code:
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-3
       style_id: JDP-S-3
-      place:
-      quality:
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA

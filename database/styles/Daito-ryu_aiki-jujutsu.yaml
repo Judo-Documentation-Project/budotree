@@ -1,21 +1,31 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 style:
   id: JDP-S-10
   name: Daitō-ryū Aiki-jūjutsu
   native_name:
     name: 大東流 合気柔術
     lang: ja
-  birth:
-    date: 1100
-    location:
-    country_code: JPN
   media:
-    video_url: https://youtu.be/zgezzfG1Rwk?t=167
-    photo_url: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
+    photos:
+      - url: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
+        source:
+          uri: https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg
+          cite: Photo
+    videos:
+      - url: https://youtu.be/zgezzfG1Rwk?t=167
+        source:
+          uri: https://youtu.be/zgezzfG1Rwk?t=167
+          cite: Video
   sources:
     - uri: https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu
     - uri: https://www.daitohryu.com/eng-history01
-      events: [ birth ]
-      citation: "According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school."
+      events:
+        - founded
+      citation: >-
+        According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no
+        Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school.
+  founded:
+    date: 1100
+    geo:
+      location: null
+      country_code: JPN
+  type: koryu

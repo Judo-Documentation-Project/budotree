@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-25
   name: Hal Sharp
@@ -10,49 +7,62 @@ person:
     - USA
   birth:
     date: 1927
-    location:
-    country_code:
+    geo:
+      location: null
+      country_code: null
   death:
     date: 2021
-    location:
-    country_code:
-  photo_url: https://article-imgs.scribdassets.com/2840m8mlj48oc26j/images/fileLKP2HSNH.jpg
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-12
       style_id: JDP-S-1
-      place: Kodokan
       period:
         start: 1952
-        end:
+        end: null
       quality: 3
-    - id: JDP-119 # Ishikawa Takahiko
+      role: student
+      place_id: JDP-P-1
+    - id: JDP-119
       style_id: JDP-S-1
-      place: Keishicho
       period:
         start: 1953
         end: 1955
       quality: 3
       sources:
-          - uri: https://www.usjf.com/takahiko-ishikawa/
-            cite: "Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)"
-            citation: "I would like to share some of my experiences with you about my Sensei and dear friend, Takahiko Ishikawa (...) I first met Ishikawa in 1953 in Japan after I became a Shodan (1st degree black belt) and thus was allowed to workout at the Keishicho (Tokyo Police Dojo) (...)"
-    - id: JDP-124 # Oda
+        - uri: https://www.usjf.com/takahiko-ishikawa/
+          cite: Memories of My Sensei Takahiko Ishikawa, 9th Dan by Harold (Hal) E. Sharp (USJF)
+          citation: >-
+            I would like to share some of my experiences with you about my Sensei and dear friend, Takahiko Ishikawa
+            (...) I first met Ishikawa in 1953 in Japan after I became a Shodan (1st degree black belt) and thus was
+            allowed to workout at the Keishicho (Tokyo Police Dojo) (...)
+      role: student
+      place_id: null  # Keishicho
+    - id: JDP-124
       style_id: JDP-S-1
-      place: Kodokan
       period:
         start: 1950
-        end:
+        end: null
       quality: 3
       sources:
-          - uri: https://judoinfo.com/oda/
-            cite: "Master Tsunetane Oda - JudoInfo"	  
-            citation: "...I began to practice with Master Oda at Rikkyo University in Tokyo, during the early 1950’s and still remain fascinated by his bravado (...) I remained under Master Oda’s tutelage for many years practicing 3 times a day. Often I would accompany Master Oda to the Kodokan as well as the Dojo at Sugamo Prison."
+        - uri: https://judoinfo.com/oda/
+          cite: Master Tsunetane Oda - JudoInfo
+          citation: >-
+            ...I began to practice with Master Oda at Rikkyo University in Tokyo, during the early 1950’s and still
+            remain fascinated by his bravado (...) I remained under Master Oda’s tutelage for many years practicing 3
+            times a day. Often I would accompany Master Oda to the Kodokan as well as the Dojo at Sugamo Prison.
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-1
-      org: Nanka Judo Yudanshakai
-      teacher:
       rank: 10 dan
       date: 2020
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null  # Nanka Judo Yudanshakai
   sources:
     - uri: https://en.wikipedia.org/wiki/Harold_Sharp
     - uri: https://youtu.be/B5B39yYPIlQ?t=169

@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-26
   name: Tomiki Kenji
@@ -10,45 +7,56 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1900-03-15"
-    location: Yokomachi
-    country_code: JPN
+    date: '1900-03-15'
+    geo:
+      location: Yokomachi
+      country_code: JPN
   death:
-    date: "1979-12-25"
-    location:
-    country_code:
-  photo_url: https://3.bp.blogspot.com/_Cwm1bGlUfkA/R7R9fVsP72I/AAAAAAAAANg/NjJTk4KTUqg/s400/tomiki_10.jpg
+    date: '1979-12-25'
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
-      place:
-      quality:
+      quality: null
       period:
         start: 1895
         end: 1896
+      role: student
+      place_id: null
     - id: JDP-27
       style_id: JDP-S-4
-      place:
-      quality:
+      quality: null
       period:
         start: 1926
-        end:
+        end: null
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 8 dan
       date: 1971
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
     - style_id: JDP-S-4
-      org:
-      teacher: JDP-27
       rank: 8 dan
       date: 1971
+      granted_by: JDP-27
+      rank_type: dan
+      quality: 2
+      sources: []
+      org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
   links:
     - uri: https://www.wikidata.org/wiki/Q6389379
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Kenji_Tomiki
       cite: DBpedia
+      type: dbpedia

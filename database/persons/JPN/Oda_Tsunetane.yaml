@@ -1,48 +1,52 @@
-# Judo Documentation Project: Budo Lineage Tree Sub-project
----
 person:
-  id: "JDP-124"  # [PLEASE ASSIGN ID]
-  name: "Oda Tsunetane"
+  id: JDP-124
+  name: Oda Tsunetane
   aka:
     - name: Join Oda
   native_name:
-    name: "田常胤"
-    lang: "ja"
+    name: 田常胤
+    lang: ja
   nationality:
-     - JPN
+    - JPN
   birth:
-    date: "1892-03-10"
-    location: "Yamanashi Prefecture"
-    country_code: "JPN"
+    date: '1892-03-10'
+    geo:
+      location: Yamanashi Prefecture
+      country_code: JPN
   death:
-    date: "1955-02-11"
-    location: "Shinjuku"
-    country_code: "JPN"
+    date: '1955-02-11'
+    geo:
+      location: Shinjuku
+      country_code: JPN
   photo:
-    url: "https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg"
+    url: https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg
     source:
-      uri: "https://en.wikipedia.org/wiki/Tsunetane_Oda"
-      cite: "Japanese judoka Oda - Wikipedia"
+      uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+      cite: Japanese judoka Oda - Wikipedia
   teachers:
-    - id:
-      style_id:
-      place: 
+    - id: null
+      style_id: null
       period:
-        start:
-        end:
-      quality:
+        start: null
+        end: null
+      quality: null
+      role: student
+      place_id: null
   rank:
-    - style_id: "JDP-S-1"  # Judo
-      org: "Kodokan"
-      rank: "9 dan"
-      date: "1948"
+    - style_id: JDP-S-1
+      rank: 9 dan
+      date: '1948'
       quality: 3
       sources:
-        - uri: "https://judoinfo.com/oda/"
-          cite: "Master Tsunetane Oda - JudoInfo"
-          citation: "Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third edition of Koshita Judo Wa Sushume"
+        - uri: https://judoinfo.com/oda/
+          cite: Master Tsunetane Oda - JudoInfo
+          citation: >-
+            Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third
+            edition of Koshita Judo Wa Sushume
+      rank_type: dan
+      org_id: JDP-O-1
   sources:
-    - uri: "https://judoinfo.com/oda/"
-      cite: "Master Tsunetane Oda - JudoInfo"
-    - uri: "https://en.wikipedia.org/wiki/Tsunetane_Oda"
-      cite: "Tsunetane Oda - Wikipedia"
+    - uri: https://judoinfo.com/oda/
+      cite: Master Tsunetane Oda - JudoInfo
+    - uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+      cite: Tsunetane Oda - Wikipedia

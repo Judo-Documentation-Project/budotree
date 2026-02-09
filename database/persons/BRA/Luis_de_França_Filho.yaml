@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-20
   name: Luis de França Filho
@@ -9,86 +6,122 @@ person:
   nationality:
     - BRA
   birth:
-    date: "1910-06-02"
-    location: Alagoas
-    country_code: BRA
+    date: '1910-06-02'
+    geo:
+      location: Alagoas
+      country_code: BRA
   death:
-    date:
-    location:
-    country_code:
-  photo_url: https://ia601602.us.archive.org/29/items/luiz_franca_filho/vsr23XAf.jpg
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id: JDP-22 # Satake Soshihiro
+    - id: JDP-22
       style_id: JDP-S-1
-      place:
       period:
         start: 1916
-        end:
+        end: null
       quality: 1
       sources:
         - uri: https://www.bjjheroes.com/bjj-fighters/luiz-franca
-          cite: "BJJ Heroes: Luiz França"
-          citation: "There Satake settled for a while, opening his own academy in 1916, at the Atlético Clube Rio Negro, becoming the first Japanese to open a Judo/Jiu Jitsu academy in Brazil. This gym became the place where Luiz França started his life as a martial artist. Satake would also become a Brazilian citizen years later, and change his name to Antônio Soshihiro Satake."
+          cite: 'BJJ Heroes: Luiz França'
+          citation: >-
+            There Satake settled for a while, opening his own academy in 1916, at the Atlético Clube Rio Negro, becoming
+            the first Japanese to open a Judo/Jiu Jitsu academy in Brazil. This gym became the place where Luiz França
+            started his life as a martial artist. Satake would also become a Brazilian citizen years later, and change
+            his name to Antônio Soshihiro Satake.
         - uri: https://www.facebook.com/photo.php?fbid=543032192445535&id=455479647867457&set=a.455593414522747
-          cite: "Equipe Fadda Jiu-Jitsu (Facebook)"
-          citation: "Antigo aluno de Soishiro Satake e Mitsuyo Maeda, Luiz França foi o fundador da linhagem (não pertencente à família Gracie) de mais sucesso no Jiu-Jitsu, uma linhagem continuada especialmente através do trabalho efetuado pelo mais proeminente e capaz aluno de França, o Mestre Oswaldo Fadda, que mais tarde formaria a sua própria escola de talentosos alunos."
-    - id: JDP-18 # Maeda
+          cite: Equipe Fadda Jiu-Jitsu (Facebook)
+          citation: >-
+            Antigo aluno de Soishiro Satake e Mitsuyo Maeda, Luiz França foi o fundador da linhagem (não pertencente à
+            família Gracie) de mais sucesso no Jiu-Jitsu, uma linhagem continuada especialmente através do trabalho
+            efetuado pelo mais proeminente e capaz aluno de França, o Mestre Oswaldo Fadda, que mais tarde formaria a
+            sua própria escola de talentosos alunos.
+      role: student
+      place_id: null
+    - id: JDP-18
       style_id: JDP-S-1
-      place: Belém
       period:
         start: 1929
-        end:
+        end: null
       quality: 2
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 3, p. 106"
-          citation: "Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n Marinha, quando esteve em Belém ao serviço no navio Minas Gerais."
-    - id: JDP-103 # Geo Omori
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 3, p. 106
+          citation: >-
+            Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n Marinha, quando esteve
+            em Belém ao serviço no navio Minas Gerais.
+      role: student
+      place_id: null  # Belém
+    - id: JDP-103
       style_id: JDP-S-1
-      place: Rio de Janeiro
       period:
         start: 1930
-        end:
+        end: null
       quality: 2
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 3, p. 106"
-          citation: "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
-    - id: JDP-102 # Hélio Gracie
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 3, p. 106
+          citation: >-
+            Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio
+            Gracie...
+      role: student
+      place_id: null  # Rio de Janeiro
+    - id: JDP-102
       style_id: JDP-S-16
-      place: Rio de Janeiro
       period:
-        start:
-        end:
+        start: null
+        end: null
       quality: 2
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 3, p. 106"
-          citation: "Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie..."
-    - id: JDP-129 # Balthazar Cardoso
-      style_id: JDP-S-19  # Boxing
-      place: Liga de Esportes da Marinha
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 3, p. 106
+          citation: >-
+            Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio
+            Gracie...
+      role: student
+      place_id: null  # Rio de Janeiro
+    - id: JDP-129
+      style_id: JDP-S-19
       period:
         start: 1928
-        end:
+        end: null
       quality: 2
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."          
-          citation: "Foi na Marinha, em 1928, que França se iniciou nas artes marciais. Primeiro com o Boxe, sob a orientação de Balthazar Cardoso"
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          citation: >-
+            Foi na Marinha, em 1928, que França se iniciou nas artes marciais. Primeiro com o Boxe, sob a orientação de
+            Balthazar Cardoso
+      role: student
+      place_id: null  # Liga de Esportes da Marinha
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://repositorio.ufsc.br/handle/123456789/103771
     - uri: https://www.faddabjj.com/historia-fadda
-    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+    - uri: >-
+        https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
     - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
     - uri: https://isbnsearch.org/isbn/9798639871030
-      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+      cite: >-
+        SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo.
+        2020.

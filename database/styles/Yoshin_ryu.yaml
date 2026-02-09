@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 style:
   id: JDP-S-7
   name: Yōshin-ryū
@@ -12,9 +9,11 @@ style:
       native_name:
         name: 楊心古流
         lang: ja
-  birth: 
-    date: 1610
-    location:
-    country_code: JPN  
   sources:
     - uri: https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB
+  founded:
+    date: 1610
+    geo:
+      location: null
+      country_code: JPN
+  type: koryu

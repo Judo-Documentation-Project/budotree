@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-38
   name: Okano Yoshitaro
@@ -10,55 +7,62 @@ person:
   aka:
     - name: Okano Kotaru
       native_name:
-        - name: 岡野好太郎
-          lang: ja
+        name: 岡野好太郎
+        lang: ja
   nationality:
     - JPN
   birth:
-    date: "1885-04-24"
-    location: Tonoshō
-    country_code: JPN
+    date: '1885-04-24'
+    geo:
+      location: Tonoshō
+      country_code: JPN
   death:
-    date: "1967-06-02"
-    location:
-    country_code: JPN
-  photo_url: https://archive.org/download/okano/okano.jpg
+    date: '1967-06-02'
+    geo:
+      location: null
+      country_code: JPN
   teachers:
-    - name:
-      style_id: JDP-S-3
-      place:
+    - style_id: JDP-S-3
       period:
-        start:
-        end:
+        start: null
+        end: null
       quality: 1
+      role: student
+      id: null
+      place_id: null
     - id: JDP-42
       style_id: JDP-S-9
-      place:
       period:
-        start:
-        end:
+        start: null
+        end: null
       quality: 0
+      role: student
+      place_id: null
     - id: JDP-43
       style_id: JDP-S-1
-      place: Butokuden
       period:
         start: 1906
-        end:
+        end: null
       quality: 1
+      role: student
+      place_id: null  # Butokuden
     - id: JDP-44
       style_id: JDP-S-1
-      place: Butokuden
       period:
         start: 1906
-        end:
+        end: null
       quality: 1
-
+      role: student
+      place_id: null  # Butokuden
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 10 dan
-      date: "1967-06-02"
+      date: '1967-06-02'
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
     - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81

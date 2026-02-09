@@ -1,0 +1,48 @@
+{"@id": "Budo Lineage Tree",
+[
+  {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://budotree.judoc.org/?id=JDP-1",
+  "name": "Kano Jigoro",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg",
+  "birthPlace": "Kobe",
+  "birthDate": "1860-10-28",
+  "deathPlace": "Pacific Ocean",
+  "deathDate": "1928-05-04",
+  "nationality": "JPN",
+  "description": "Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May 1938[3]) was",
+  "knowsAbout": [ "Judo", "Kito-ryu" ],
+"hasCredential": {
+    "educationalLevel": "Menkyo kaiden",
+    "competencyRequired": "Tenjin Shinyo-ryu",
+    "creator": {
+      "@id": "https://budotree.judoc.org/?id=JDP-2"
+    }
+  },
+  "url": [ "ffo", "bar" ]
+},
+  {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://budotree.judoc.org/?id=JDP-2",
+  "name": "Fukuda Hachinosuke",
+  "knowsAbout": [ "Tenjin Shinyo-ryu" ]
+},
+  {
+  "@context": "https://schema.org",
+  "@type": "EducationEvent",
+  "location": "Fukuda Hachinosuke dojo",
+  "@id": "Fukuda -> Kano",
+  "startDate": 1877,
+  "endDate": 1879,
+  "teaches": "Tenjin Shinyo.ryu",
+  "attendee":{
+    "@id": "https://budotree.judoc.org/?id=JDP-1"
+  },
+  "performer": {
+    "@id": "https://budotree.judoc.org/?id=JDP-2"
+  }
+}
+]
+}

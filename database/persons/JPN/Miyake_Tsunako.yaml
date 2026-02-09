@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-53
   name: Tsunako Miyake
@@ -11,54 +8,70 @@ person:
     - JPN
   birth:
     date: 1926
-    location:
-    country_code:
+    geo:
+      location: null
+      country_code: null
   death:
-    date:
-    location:
-    country_code:
-  photo_url: https://4.bp.blogspot.com/-0_CB4s36WbI/TWq2YuGRTbI/AAAAAAAAAOo/XfncjJ-MHQ4/s320/Miyake.GIF
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id: JDP-26          # Tomiki Kenji
-      style_id: JDP-S-4   # Aikido
-      place:
+    - id: JDP-26
+      style_id: JDP-S-4
       period:
-        start:
-        end:
+        start: null
+        end: null
       quality: 2
       sources:
         - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
-          cite: "Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)"
-          citation: "Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei."
-    - id: JDP-26        # Tomiki Kenji
-      style_id: JDP-S-1 # Kodokan Judo
-      place: Kodokan
+          cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
+          citation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
+      role: student
+      place_id: null
+    - id: JDP-26
+      style_id: JDP-S-1
       period:
-        start:
-        end:
+        start: null
+        end: null
       quality: 2
       sources:
         - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
-          cite: "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)"
-          citation: "Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together."
+          cite: >-
+            MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study
+            Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)
+          citation: >-
+            Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us
+            to understand his idea, that to improve judo we must train in judo and aikido together.
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-4
-      org:
-      teacher: JDP-26
-      rank: 8 dan  # Tomiki / Shodokan
-      date:
+      rank: 8 dan
+      date: null
+      granted_by: JDP-26
+      rank_type: dan
+      quality: 2
+      sources: []
+      org_id: null
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 7 dan
-      date:
-    - style_id:  # Shintō Musō-ryū Jodo
-      teacher:
+      date: null
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
+    - style_id: null
       rank: 7 dan
-      date:
-  sources:  # Seems not much was written about female martial artists in earlier days, but Miyake is an important link to US Judo, Judo, and Aikido
+      date: null
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+  sources:
     - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
-    - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html  # some research pointers in comments
+    - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
     - uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
     - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/
     - uri: https://www.dentonaikido.com/instructor.html

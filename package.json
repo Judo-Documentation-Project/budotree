@@ -10,8 +10,14 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "cli": "node bin/cli.js",
         "image-cache": "node bin/local_img.js",
-      "validate-persons": "npx pajv validate --errors text --coerce-types -s database/schemas/person.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/persons/*/*.yaml'",
-      "validate-styles": "npx pajv validate --errors text --coerce-types -s database/schemas/style.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/styles/*.yaml'"
+        "validate-persons": "npx pajv validate --errors text --coerce-types -s database/schemas/person.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/persons/*/*.yaml'",
+        "validate-styles": "npx pajv validate --errors text --coerce-types -s database/schemas/style.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/styles/*.yaml'",
+        "validate-places": "npx pajv validate --errors text --coerce-types -s database/schemas/place.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/places/*/*.yaml'",
+        "validate-sources": "npx pajv validate --errors text --coerce-types -s database/schemas/source.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/sources/*.yaml'",
+        "validate-orgs": "npx pajv validate --errors text --coerce-types -s database/schemas/org.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/orgs/*/*.yaml'",
+        "validate-events": "npx pajv validate --errors text --coerce-types -s database/schemas/event.schema.json -m database/schemas/draft-07.json -m database/schemas/budotree.schema.json -d 'database/events/*.yaml'",
+        "validate-all": "npm run validate-persons && npm run validate-styles && npm run validate-places && npm run validate-sources && npm run validate-orgs",
+        "migrate-v2": "node bin/migrate-to-v2.js"
     },
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",

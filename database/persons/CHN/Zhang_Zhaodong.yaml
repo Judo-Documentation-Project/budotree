@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-118
   name: Zhang Zhaodong
@@ -10,33 +7,38 @@ person:
   nationality:
     - CHN
   birth:
-    date: "1865"
-    location: 
-    country_code: CHN
+    date: '1865'
+    geo:
+      location: null
+      country_code: CHN
   death:
-    date: "1938"
-    location: Tianjin
-    country_code: CHN
+    date: '1938'
+    geo:
+      location: Tianjin
+      country_code: CHN
   photo:
     url: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
     source:
       uri: https://en.wikipedia.org/wiki/Baguazhang#/media/File:250_Bagau016ChangChaoDong.jpg
-      cite: "Xingyi/Baguazhang master Chang Chan Kuei (1859–1940) [Wikipedia Commons]"
+      cite: Xingyi/Baguazhang master Chang Chan Kuei (1859–1940) [Wikipedia Commons]
   teachers:
-    - id: 
-      style_id: 
-      place: 
+    - id: null
+      style_id: null
       period:
-        start: 
-        end:
+        start: null
+        end: null
       quality: 2
+      role: student
+      place_id: null
   rank:
-    - style:
-      org:
-      teacher:
-      rank:
-      date:
+    - rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
     - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-      cite: "Martial arts fight for survival (Taipei Times)"
+      cite: Martial arts fight for survival (Taipei Times)

@@ -2,7 +2,7 @@
   "$id": "https://budotree.judoc.org/schemas/person.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema",
   "title": "Person",
-  "description": "Information on a martial artist.",
+  "description": "Information on a martial artist",
   "type": "object",
   "additionalProperties": false,
   "properties": {
@@ -10,66 +10,63 @@
       "$ref": "#/definitions/Person"
     }
   },
-  "required": [ "person" ],
+  "required": ["person"],
   "definitions": {
     "Person": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^JDP-[0-9]+$"
         },
         "name": {
           "type": "string"
         },
         "native_name": {
-            "$ref": "budotree.schema.json#/definitions/NativeName"
+          "$ref": "budotree.schema.json#/definitions/NativeName"
         },
         "aka": {
-            "$ref": "budotree.schema.json#/definitions/Aka"
+          "$ref": "budotree.schema.json#/definitions/Aka"
         },
         "nationality": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[A-Z]{3}$"
+          }
+        },
+        "nationality_qid": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/WikidataQID"
           }
         },
         "birth": {
-            "$ref": "budotree.schema.json#/definitions/LifeEvent"
+          "$ref": "budotree.schema.json#/definitions/LifeEvent"
         },
         "death": {
-            "$ref": "budotree.schema.json#/definitions/LifeEvent"
+          "$ref": "budotree.schema.json#/definitions/LifeEvent"
         },
         "description": {
           "anyOf": [
             {
-            "type": "null"
-          },
+              "type": "null"
+            },
             {
-            "$ref": "budotree.schema.json#/definitions/Description"
-          }
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
           ]
         },
-          "notes": {
-              "anyOf": [
-                  {
-                      "type": "null"
-                  },
-                  {
-                      "$ref": "budotree.schema.json#/definitions/Notes"
-                  }
-              ]
-          },
-        "photo_url": {
+        "notes": {
           "anyOf": [
             {
-            "type": "null"
-          },
+              "type": "null"
+            },
             {
-            "$ref": "budotree.schema.json#/definitions/PhotoURL"
-          }
-          ],
-          "deprecated": true
+              "$ref": "budotree.schema.json#/definitions/Notes"
+            }
+          ]
         },
         "photo": {
           "$ref": "budotree.schema.json#/definitions/Photo"
@@ -89,200 +86,161 @@
         "sources": {
           "type": "array",
           "items": {
-            "$ref": "budotree.schema.json#/definitions/Source"
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
           }
         },
         "tags": {
           "$ref": "budotree.schema.json#/definitions/Tags"
         },
         "links": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "array",
-            "items": {
-              "$ref": "budotree.schema.json#/definitions/Source"
-            }
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Link"
           }
-          ]
         }
       },
       "required": [
-        "birth",
-        "death",
         "id",
         "name",
         "nationality",
+        "birth",
+        "death",
+        "teachers",
         "rank",
-        "sources",
-        "teachers"
+        "sources"
       ],
       "title": "Person"
-    },
-    "Name": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string"
-        }
-      }
-    },
-    "Rank": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "style_id": {
-          "type": "string"
-        },
-        "style": {
-          "type": "string"
-        },
-        "org": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "string"
-          }
-          ]
-        },
-        "teacher": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "string"
-          }
-          ]
-        },
-        "rank": {
-          "type": "string"
-        },
-        "date": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "string",
-            "format": "date"
-          },
-            {
-            "type": "string",
-            "pattern": "^[0-9]+$"
-          }
-          ]
-        },
-        "quality": {
-            "type": "integer"
-        },        
-        "teacher_id": {
-          "type": "string"
-        },
-        "sources": {
-            "type": "array",
-            "items": {
-                "$ref": "budotree.schema.json#/definitions/Source"
-            }
-        }
-      },
-      "required": [
-        "rank",
-        "date"
-      ],
-      "oneOf": [
-        {"required": [ "style_id" ]},
-        {"required": [ "style" ]}
-      ],
-      "anyOf": [
-        {"required": [ "org" ]},
-        {"required": [ "teacher" ]}
-      ],
-      "title": "Rank"
     },
     "Teacher": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "style_id": {
-          "type": "string"
-        },
-        "style": {
-          "type": "string",
-          "deprecated": true
-        },
-        "place": {
           "anyOf": [
             {
-            "type": "null"
-          },
+              "type": "null"
+            },
             {
-            "type": "string"
-          }
-          ]
+              "type": "string",
+              "pattern": "^JDP-[0-9]+$"
+            }
+          ],
+          "description": "Teacher person ID"
+        },
+        "style_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-S-[0-9]+$"
+            }
+          ],
+          "description": "Style ID"
+        },
+        "place_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-P-[0-9]+$"
+            }
+          ],
+          "description": "Place/venue ID"
         },
         "period": {
-          "$ref": "#/definitions/Period"
+          "$ref": "budotree.schema.json#/definitions/Period"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["student", "uchi-deshi", "seminar", "private", "examination"],
+          "description": "Type of student-teacher relationship"
         },
         "quality": {
-          "type": "integer"
+          "$ref": "budotree.schema.json#/definitions/Quality"
         },
         "sources": {
           "type": "array",
           "items": {
-              "$ref": "budotree.schema.json#/definitions/Source"
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
           }
         }
       },
       "required": [
         "period",
-        "place",
         "quality"
-      ],
-      "oneOf": [
-        {"required": [ "id" ]},
-        {"required": [ "name" ]}
-      ],
-      "oneOf": [
-        {"required": [ "style_id" ]},
-        {"required": [ "style" ]}
       ],
       "title": "Teacher"
     },
-    "Period": {
+    "Rank": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "start": {
-          "type": "integer"
-        },
-        "end": {
+        "style_id": {
           "anyOf": [
             {
-            "type": "integer"
-          },
+              "type": "null"
+            },
             {
-            "type": "null"
-          }
+              "type": "string",
+              "pattern": "^JDP-S-[0-9]+$"
+            }
+          ],
+          "description": "Style ID"
+        },
+        "rank": {
+          "type": "string"
+        },
+        "rank_type": {
+          "type": "string",
+          "enum": ["dan", "kyu", "menkyo", "title", "other"],
+          "description": "Broad category of rank"
+        },
+        "org_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-O-[0-9]+$"
+            }
+          ],
+          "description": "Organization ID"
+        },
+        "granted_by": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-[0-9]+$",
+              "description": "Person ID of who granted the rank"
+            }
           ]
+        },
+        "date": {
+          "$ref": "budotree.schema.json#/definitions/BudoDate"
+        },
+        "quality": {
+          "$ref": "budotree.schema.json#/definitions/Quality"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
         }
       },
       "required": [
-        "end",
-        "start"
+        "rank",
+        "date"
       ],
-      "title": "Period"
+      "title": "Rank"
     }
   }
 }

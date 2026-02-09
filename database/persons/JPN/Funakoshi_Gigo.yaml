@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-92
   name: Funakoshi Gigō
@@ -12,46 +9,56 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1906"
-    location: Okinawa
-    country_code: JPN
+    date: '1906'
+    geo:
+      location: Okinawa
+      country_code: JPN
   death:
-    date: "1945-11-24"
-    location: Tokyo
-    country_code: JPN
+    date: '1945-11-24'
+    geo:
+      location: Tokyo
+      country_code: JPN
   photo:
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Gigo_funakoshi.jpg/200px-Gigo_funakoshi.jpg
     source:
-      uri: https://ja.wikipedia.org/wiki/%E8%88%B9%E8%B6%8A%E7%BE%A9%E8%B1%AA#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Gigo_funakoshi.jpg
+      uri: >-
+        https://ja.wikipedia.org/wiki/%E8%88%B9%E8%B6%8A%E7%BE%A9%E8%B1%AA#/media/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Gigo_funakoshi.jpg
   teachers:
-    - id: JDP-41 # Ginshin Funakoshi
+    - id: JDP-41
       style_id: JDP-S-5
-      place:
       quality: 2
       period:
-          start: 1918
-          end:
+        start: 1918
+        end: null
       sources:
         - uri: https://en.wikipedia.org/wiki/Gig%C5%8D_Funakoshi
-          citation: "He was sickly as a child and began the formal study of karate-do at the age of twelve as a means to improve his health.[4] In the early years, Gichin Funakoshi often took Gigo with him to his trainings with Yasutsune Itosu"
+          citation: >-
+            He was sickly as a child and began the formal study of karate-do at the age of twelve as a means to improve
+            his health.[4] In the early years, Gichin Funakoshi often took Gigo with him to his trainings with Yasutsune
+            Itosu
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-5
-      org:
-      teacher: JDP-41
       rank: 10 dan
-      date:
+      date: null
       quality: 1
       sources:
         - uri: https://en.wikipedia.org/wiki/Gig%C5%8D_Funakoshi
-          citation: "10th dan, successor waka (後継者) sensei to his father"
+          citation: 10th dan, successor waka (後継者) sensei to his father
+      granted_by: JDP-41
+      rank_type: dan
+      org_id: null
     - style_id: JDP-S-5
-      org: Dai-Nippon Butoku Kai
-      teacher:
       rank: Renshi
-      date:
+      date: null
       sources:
         - uri: https://ryukyu-bugei.com/?p=7840
-          citation: "Renshi title holders are Ōtuska Hironori (Wadō-ryū), Funakoshi Gigo (Shōtōkan, Funakoshi Gichin (Shōtōkan)"
+          citation: Renshi title holders are Ōtuska Hironori (Wadō-ryū), Funakoshi Gigo (Shōtōkan, Funakoshi Gichin (Shōtōkan)
+      rank_type: title
+      quality: 2
+      granted_by: null
+      org_id: null  # Dai-Nippon Butoku Kai
   sources:
     - uri: https://en.wikipedia.org/wiki/Gig%C5%8D_Funakoshi
     - uri: https://ja.wikipedia.org/wiki/%E8%88%B9%E8%B6%8A%E7%BE%A9%E8%B1%AA
@@ -59,5 +66,7 @@ person:
   links:
     - uri: https://www.wikidata.org/wiki/Q628761
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Gig%C5%8D_Funakoshi
       cite: DBpedia
+      type: dbpedia

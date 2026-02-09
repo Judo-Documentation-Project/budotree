@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-107
   name: Miyako Sada
@@ -8,46 +5,51 @@ person:
     name: 三浦鑿
     lang: ja
   aka:
-    - Miura Saku
+    - name: Miura Saku
   nationality:
     - BRA
     - JPN
   birth:
-    date: "1881"
-    location: Ehime
-    country_code: JPN
+    date: '1881'
+    geo:
+      location: Ehime
+      country_code: JPN
   death:
-    date: "1945-10-26"
-    location: Tokyo
-    country_code: JPN
+    date: '1945-10-26'
+    geo:
+      location: Tokyo
+      country_code: JPN
   photo:
     url: https://archive.org/download/sada_miyako/sada_miyako.jpg
     source:
       uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
-      cite: "100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)"
+      cite: 100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)
   teachers:
-    - id:
-      style_id:
-      place:
+    - id: null
+      style_id: null
       period:
-        start:
-        end:
-      quality:
+        start: null
+        end: null
+      quality: null
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
+    - style_id: null
+      teacher: null
       rank: 2
-      date:
+      date: null
+      org_id: null
   sources:
     - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/10/capoeira-vs-jujutsu.html
-      cite: "Capoeira vs Jujutsu (Judo Tadicional Goshinjutsukan)"
+      cite: Capoeira vs Jujutsu (Judo Tadicional Goshinjutsukan)
     - uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
-      cite: "100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)"
+      cite: 100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)
     - uri: https://cenb.org.br/articles/display/240
-      cite: "三浦　鑿（みうら・さく） - Centro de Estudos Nipo-Brasileiros"
+      cite: 三浦　鑿（みうら・さく） - Centro de Estudos Nipo-Brasileiros
     - uri: https://isbnsearch.org/isbn/9798639871030
-      location: "vol. II, p. 100"
-      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-    - uri: https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
-      cite: "Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)"
+      location: vol. II, p. 100
+      cite: >-
+        SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo.
+        2020.
+    - uri: >-
+        https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
+      cite: Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)

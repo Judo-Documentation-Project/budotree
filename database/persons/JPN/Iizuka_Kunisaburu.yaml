@@ -1,42 +1,46 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-31
   name: Iizuka Kunisaburō
   native_name:
-      name: 飯塚 国三郎
-      lang: ja
+    name: 飯塚 国三郎
+    lang: ja
   nationality:
     - JPN
   birth:
-    date: "1875-02-13"
-    location: Mikamo
-    country_code: JPN
+    date: '1875-02-13'
+    geo:
+      location: Mikamo
+      country_code: JPN
   death:
-    date: "1958-07-25"
-    location:
-    country_code:
-  photo_url: https://upload.wikimedia.org/wikipedia/commons/7/79/Iiduka_kunisaburo.jpg
+    date: '1958-07-25'
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-9
       style_id: JDP-S-1
-      place: Kodokan
       period:
         start: 1891
-        end:
-      quality:
+        end: null
+      quality: null
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 10 dan
       date: 1946
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
     - uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
   links:
     - uri: https://www.wikidata.org/wiki/Q6444749
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Kunisaburo_Iizuka
       cite: DBpedia
+      type: dbpedia

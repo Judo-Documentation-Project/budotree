@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-89
   name: Kimura Masahiko
@@ -10,59 +7,72 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1917-09-10"
-    location: Kumamoto
-    country_code: JPN
+    date: '1917-09-10'
+    geo:
+      location: Kumamoto
+      country_code: JPN
   death:
-    date: "1993-04-18"
-    location: Tokyo
-    country_code: JPN
+    date: '1993-04-18'
+    geo:
+      location: Tokyo
+      country_code: JPN
   photo:
     url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Masahiko_Kimura_2.jpg
     source:
       uri: https://de.wikipedia.org/wiki/Kimura_Masahiko_%28Judoka%29#/media/Datei:Masahiko_Kimura_2.jpg
   teachers:
-    - id: JDP-90 # Ushijima Tatskukuma
+    - id: JDP-90
       style_id: JDP-S-1
-      place: Kodokan
-      quality:
+      quality: null
       period:
-          start: 1925
-          end: 1930
-    - id: JDP-41 # Funakoshi
-      style_id: JDP-S-5 # Karate
-      place:
-      quality:
+        start: 1925
+        end: 1930
+      role: student
+      place_id: JDP-P-1
+    - id: JDP-41
+      style_id: JDP-S-5
+      quality: null
       period:
-          start:
-          end:
+        start: null
+        end: null
       sources:
         - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
-          cite: "'My Judo' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)"
-          citation: "Later on, I [ed. Kimura] got interested in karate, and learned Shorinji-ryu (Note: today’s Shotokan karate) under the guidance of Master Funakoshi for a little over 2 years."
-    - name: JDP-xx # Chu So
-      style_id: JDP-S-5 # Karate
-      place:
-      quality:
+          cite: '''My Judo'' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)'
+          citation: >-
+            Later on, I [ed. Kimura] got interested in karate, and learned Shorinji-ryu (Note: today’s Shotokan karate)
+            under the guidance of Master Funakoshi for a little over 2 years.
+      role: student
+      place_id: null
+    - style_id: JDP-S-5
+      quality: null
       period:
-          start:
-          end:
+        start: null
+        end: null
       sources:
         - uri: https://www.bjjee.com/articles/my-judo-by-masahiko-kimura-his-story-vision-in-his-own-words-part-1/
-          cite: "'My Judo' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)"
-          citation: "After this, I learned Goju-ryu karate from Master So, who was a great master of Gojuryu, and eventually became an assistant instructor in his dojo."
+          cite: '''My Judo'' by Masahiko Kimura, His Story & Vision in His Own Words Part 1 (BJJ EE)'
+          citation: >-
+            After this, I learned Goju-ryu karate from Master So, who was a great master of Gojuryu, and eventually
+            became an assistant instructor in his dojo.
+      role: student
+      id: null  # unknown teacher
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 7 dan
       date: 1947
       sources:
         - uri: https://web.archive.org/web/20120622122136/http://judoinfo.com/kimura3.htm
-          cite: "Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com [Archived])"
-          citation: "His shichidan rank was frozen after disputes with Kodokan over becoming a professional wrestler, refusal to return the All Japan Judo Championship Flag"
+          cite: 'Masahiko Kimura (1917-1993): The Man Who Defeated Helio Gracie (by Jim Chen M.D, in Judoinfo.com [Archived])'
+          citation: >-
+            His shichidan rank was frozen after disputes with Kodokan over becoming a professional wrestler, refusal to
+            return the All Japan Judo Championship Flag
         - uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
-          citation: "He was promoted to 7th dan at age 30"
+          citation: He was promoted to 7th dan at age 30
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: https://en.wikipedia.org/wiki/Masahiko_Kimura
     - uri: https://www.aikidosangenkai.org/blog/aikido-judo-gozo-shioda-masahiko-kimura/
@@ -71,5 +81,7 @@ person:
   links:
     - uri: https://www.wikidata.org/wiki/Q270727
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Masahiko_Kimura
       cite: DBpedia
+      type: dbpedia

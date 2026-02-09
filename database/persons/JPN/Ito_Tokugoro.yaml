@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-104
   name: Itō Tokugorō
@@ -10,43 +7,54 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1878"
-    location: Misato, Akita
-    country_code: JPN
+    date: '1878'
+    geo:
+      location: Misato, Akita
+      country_code: JPN
   death:
-    date: "1939"
-    location:
-    country_code: JPN
+    date: '1939'
+    geo:
+      location: null
+      country_code: JPN
   photo:
     url: https://upload.wikimedia.org/wikipedia/en/5/5c/Ito_PI_nov_6_1909jpg.JPG
     source:
       uri: https://en.wikipedia.org/wiki/Tokugoro_Ito#/media/File:Ito_PI_nov_6_1909jpg.JPG
-      cite: "Tokugoro Ito appeared in the Seattle Post-Intelligencer on November 6, 1909 (Wikipedia)"
+      cite: Tokugoro Ito appeared in the Seattle Post-Intelligencer on November 6, 1909 (Wikipedia)
   teachers:
-    - id: JDP-1 # Kanõ ; the direct link is perhaps overstated, but it's possible.
+    - id: JDP-1
       style_id: JDP-S-1
-      place:
       period:
-        start:
-        end:
-      quality:
+        start: null
+        end: null
+      quality: null
       sources:
         - uri: https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf
-          cite: "Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning Promotion Headquarters, December 15, 2008"
-          location: "pp. 31-32"
+          cite: >-
+            Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning Promotion
+            Headquarters, December 15, 2008
+          location: pp. 31-32
         - uri: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E
-          citation: "中退後は講道館で嘉納治五郎門下となって磯貝一・徳三宝・三船久蔵らと共に柔道に励んだ"
+          citation: 中退後は講道館で嘉納治五郎門下となって磯貝一・徳三宝・三船久蔵らと共に柔道に励んだ
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 5 dan
-      date:
+      date: null
       sources:
         - uri: https://www.attacktheback.com/catch-wrestling/
-          citation: "One of the first major intercultural clashes of the 20th century in martial arts, between the American wrestler Ad Santel and the Japanese Tokugoro Ito, black belt judo of the fifth degree."
+          citation: >-
+            One of the first major intercultural clashes of the 20th century in martial arts, between the American
+            wrestler Ad Santel and the Japanese Tokugoro Ito, black belt judo of the fifth degree.
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E
     - uri: https://isbnsearch.org/isbn/9798639871030
-      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+      cite: >-
+        SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo.
+        2020.
     - uri: https://www.attacktheback.com/catch-wrestling/

@@ -1,0 +1,144 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/source.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Source",
+  "description": "A bibliographic entity: book, article, website, video, thesis, etc.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "source": {
+      "$ref": "#/definitions/Source"
+    }
+  },
+  "required": ["source"],
+  "definitions": {
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JDP-SRC-[0-9]+$"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["book", "article", "website", "video", "thesis", "interview", "archive"],
+          "description": "Type of source"
+        },
+        "title": {
+          "type": "string"
+        },
+        "native_title": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/NativeName"
+            }
+          ]
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of author names"
+        },
+        "editors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "year": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "publisher": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "identifiers": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "isbn": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "doi": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          }
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "format": "uri"
+            }
+          ]
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "description": "ISO 639-1 language code"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
+          ]
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "title"
+      ],
+      "title": "Source"
+    }
+  }
+}

@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-106
   name: Oswaldo Fadda
@@ -9,56 +6,73 @@ person:
   nationality:
     - BRA
   birth:
-    date: "1920-08-01"
-    location: Rio de Janeiro
-    country_code: BRA
+    date: '1920-08-01'
+    geo:
+      location: Rio de Janeiro
+      country_code: BRA
   death:
-    date: "2005-04-01"
-    location: Rio de Janeiro
-    country_code: BRA
+    date: '2005-04-01'
+    geo:
+      location: Rio de Janeiro
+      country_code: BRA
   photo:
     url: https://archive.org/download/oswaldo_fadda/oswaldo_fadda.jpeg
     source:
-      uri: https://www.portaldovaletudo.com.br/fadda-e-paiva-explicam-origem-do-sapateiro-e-principais-linhagens-do-jiu-jitsu-do-suburbio-carioca/
-      cite: "Oswaldo Fadda (Portal do Vale Tudo)"
+      uri: >-
+        https://www.portaldovaletudo.com.br/fadda-e-paiva-explicam-origem-do-sapateiro-e-principais-linhagens-do-jiu-jitsu-do-suburbio-carioca/
+      cite: Oswaldo Fadda (Portal do Vale Tudo)
   teachers:
     - id: JDP-20
       style_id: JDP-S-16
-      place: Academia França de Jiu-jitsu
       period:
         start: 1938
-        end:
+        end: null
       quality: 3
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 3, p. 108"
-          citation: "Oswaldo Fadda começou a treinar com França por volta de 1938"
-    - id: JDP-129 # Balthazar Cardoso
-      style_id: JDP-S-19 # Boxing
-      place: Liga de Esportes da Marinha
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 3, p. 108
+          citation: Oswaldo Fadda começou a treinar com França por volta de 1938
+      role: student
+      place_id: null  # Academia França de Jiu-jitsu
+    - id: JDP-129
+      style_id: JDP-S-19
       period:
         start: 1938
-        end:
+        end: null
       quality: 3
       sources:
         - uri: https://www.faddabjj.com/historia-fadda
-          cite: "A história da Família Fadda (FaddaBJJ)"            
-          citation: "Antes da sua história com o Jiu-Jitsu, os primeiros passos de Fadda no mundo das lutas foi na \"Nobre Arte\", ou seja, no boxe, através do campeão Baltazar Cardoso."          
+          cite: A história da Família Fadda (FaddaBJJ)
+          citation: >-
+            Antes da sua história com o Jiu-Jitsu, os primeiros passos de Fadda no mundo das lutas foi na "Nobre Arte",
+            ou seja, no boxe, através do campeão Baltazar Cardoso.
+      role: student
+      place_id: null  # Liga de Esportes da Marinha
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
       sources:
         - uri: https://bjjfanatics.com.br/blogs/news/oswaldo-fadda
-          cite: "Oswaldo Fadda, Um Pioneiro na Democratização do Jiu Jitsu (BJJ Fanatics)"
-          citation: "Oswaldo Baptista Fadda, conhecido como “Mestre Fadda”, nascido 15 de janeiro de 1921 no Rio de Janeiro e falecido em 1 de abril de 2005, na mesma cidade. Fadda foi um Grande Mestre de Jiu Jitsu Brasileiro, chegando ao 9º grau (faixa vermelha), sendo o aluno mais talentoso de Luiz França, e dando continuidade ao legado de seu mestre, sendo um dos mais importantes nomes da linhagem de mestres da GF Team, como Julio Cesar e Baraúna."
-
+          cite: Oswaldo Fadda, Um Pioneiro na Democratização do Jiu Jitsu (BJJ Fanatics)
+          citation: >-
+            Oswaldo Baptista Fadda, conhecido como “Mestre Fadda”, nascido 15 de janeiro de 1921 no Rio de Janeiro e
+            falecido em 1 de abril de 2005, na mesma cidade. Fadda foi um Grande Mestre de Jiu Jitsu Brasileiro,
+            chegando ao 9º grau (faixa vermelha), sendo o aluno mais talentoso de Luiz França, e dando continuidade ao
+            legado de seu mestre, sendo um dos mais importantes nomes da linhagem de mestres da GF Team, como Julio
+            Cesar e Baraúna.
+      rank_type: other
+      quality: 2
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://pt.wikipedia.org/wiki/Oswaldo_Fadda
     - uri: https://isbnsearch.org/isbn/9798639871030
-      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+      cite: >-
+        SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo.
+        2020.
     - uri: https://bjjfanatics.com.br/blogs/news/oswaldo-fadda
     - uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda

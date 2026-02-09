@@ -1,63 +1,83 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-21
   name: Carlos Gracie
   nationality:
     - BRA
   birth:
-    date: "1902-09-14"
-    location: Belém, Pará
-    country_code: BRA
+    date: '1902-09-14'
+    geo:
+      location: Belém, Pará
+      country_code: BRA
   death:
-    date: "1994-10-07"
-    location: Petrópolis
-    country_code: BRA
+    date: '1994-10-07'
+    geo:
+      location: Petrópolis
+      country_code: BRA
   photo:
-    url: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg
+    url: >-
+      https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Carlos_Gracie_%281951%29_%28cropped%29.tif/lossy-page1-206px-Carlos_Gracie_%281951%29_%28cropped%29.tif.jpg
     source:
       uri: https://en.wikipedia.org/wiki/Carlos_Gracie#/media/File:Carlos_Gracie_(1951).tif
-      cite: "Imagem do Fundo Correio da Manhã (Carlos Gracie - Wikipedia)"
+      cite: Imagem do Fundo Correio da Manhã (Carlos Gracie - Wikipedia)
   teachers:
     - id: JDP-19
       style_id: JDP-S-1
-      place:
       period:
         start: 1916
-        end:
-      quality:
+        end: null
+      quality: null
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 3, p. 94"
-          citation: "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 3, p. 94
+          citation: >-
+            ...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar
+            Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim,
+            discípulo directo de Maeda...
+      role: student
+      place_id: null
     - id: JDP-18
       style_id: JDP-S-1
-      place: Paysandu Sport Club
       period:
         start: 1916
-        end:
-      quality:
+        end: null
+      quality: null
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol 3, p.91"
-          citation: "...chefiada pelo competentissimo prof. Conde Koma. Aqui, depois de algumas demosntrações, organisou um gymnasio e eu [Carlos] fui um dos primeiros alunos [...] há registos que Maeda deu aulas, em 1916, no Paysandu Sport Club, em Belém, cidade onde Carlos residia com a sua família"
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol 3, p.91
+          citation: >-
+            ...chefiada pelo competentissimo prof. Conde Koma. Aqui, depois de algumas demosntrações, organisou um
+            gymnasio e eu [Carlos] fui um dos primeiros alunos [...] há registos que Maeda deu aulas, em 1916, no
+            Paysandu Sport Club, em Belém, cidade onde Carlos residia com a sua família
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol 3, p.93"
-          citation: "Fui aluno do célebre Conde Koma, no Pará [...] e nessa época Carlos Gracia também estava aprendendo"
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol 3, p.93
+          citation: Fui aluno do célebre Conde Koma, no Pará [...] e nessa época Carlos Gracia também estava aprendendo
+      role: student
+      place_id: null  # Paysandu Sport Club
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://repositorio.ufsc.br/handle/123456789/103771
     - uri: https://isbnsearch.org/isbn/9798639871030
-      cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-    - uri: https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
+      cite: >-
+        SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo.
+        2020.
+    - uri: >-
+        https://www.bjjee.com/articles/the-lost-legend-of-jacyntho-ferro-one-of-carlos-gracie-sr-s-jiu-jitsu-instructors/
     - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
     - uri: https://pt.wikipedia.org/wiki/Carlos_Gracie

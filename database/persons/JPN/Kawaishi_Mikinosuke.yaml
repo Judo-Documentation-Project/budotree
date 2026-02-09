@@ -1,78 +1,83 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-13
   name: Kawaishi Mikinosuke
   native_name:
-      name: 川石 酒造之助
-      lang: ja
+    name: 川石 酒造之助
+    lang: ja
   nationality:
     - JPN
   birth:
-    date: "1899-08-13"
-    location: Himeji
-    country_code: JPN
+    date: '1899-08-13'
+    geo:
+      location: Himeji
+      country_code: JPN
   death:
-    date: "1969-01-30"
-    location: Paris
-    country_code: FRA
+    date: '1969-01-30'
+    geo:
+      location: Paris
+      country_code: FRA
   description:
     en: >-
-      Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13
-      August 1899 – 30 January 1969) was a Japanese master of jujutsu
-      and judo who achieved the rank of 7th Dan. He led the
-      development of Judo in France, with Shozo Awazu, and much of
-      Europe and is credited with introducing the colored belt system
-      for differentiating early grades. However, written accounts from
-      the archives of London's Budokwai judo club, founded in 1918,
-      record the use of colored judo belts at the 1926 9th annual
-      Budokwai Display, and a list of ranked colored judokas appears
-      in the Budokwai Committee Minutes of June 1927. Kawaishi visited
-      London and the Budokwai in 1928, and was probably inspired to
-      bring the colored belt system to France. The Fédération
-      Française posthumously awarded him 10th Dan in judo and jujutsu.
-  photo_url: https://archive.org/download/kawaishi_mikinosuke/kawaishi_mikinosuke.jpg
+      Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13 August 1899 – 30 January 1969) was a Japanese master of
+      jujutsu and judo who achieved the rank of 7th Dan. He led the development of Judo in France, with Shozo Awazu, and
+      much of Europe and is credited with introducing the colored belt system for differentiating early grades. However,
+      written accounts from the archives of London's Budokwai judo club, founded in 1918, record the use of colored judo
+      belts at the 1926 9th annual Budokwai Display, and a list of ranked colored judokas appears in the Budokwai
+      Committee Minutes of June 1927. Kawaishi visited London and the Budokwai in 1928, and was probably inspired to
+      bring the colored belt system to France. The Fédération Française posthumously awarded him 10th Dan in judo and
+      jujutsu.
   teachers:
-    - name: Yoshida Kōtarō
-      style_id: JDP-S-1
-      place:
-      quality:
+    - style_id: JDP-S-1
+      quality: null
       period:
-        start:
-        end:
-    - name: Miyakawa Ikkan
-      style_id: JDP-S-1
-      place: Waseda University
-      quality:
+        start: null
+        end: null
+      role: student
+      id: null  # Yoshida Kōtarō
+      place_id: null
+    - style_id: JDP-S-1
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      id: null  # Miyakawa Ikkan
+      place_id: null  # Waseda University
     - id: JDP-14
       style_id: JDP-S-1
-      place: Waseda University
-      quality:
+      quality: null
       period:
         start: 1881
-        end:
+        end: null
+      role: student
+      place_id: null  # Waseda University
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 7 dan
-      date:
+      date: null
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
     - style_id: JDP-S-1
-      org: FFJDA
-      teacher:
       rank: 10 dan
-      date:
+      date: null
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null  # FFJDA
   sources:
-    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+    - uri: >-
+        https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
     - uri: https://doi.org/10.4471/hse.2013.15
     - uri: https://judoinfo.com/kawaishi/
     - uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
   links:
     - uri: https://www.wikidata.org/wiki/Q3090191
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Mikinosuke_Kawaishi
       cite: DBpedia
+      type: dbpedia

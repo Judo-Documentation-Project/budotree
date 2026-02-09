@@ -1,36 +1,38 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-34
   name: Ito Tanekichi
   native_name:
     name: 伊藤種吉
-    lang:
+    lang: null
   nationality:
     - JPN
   birth:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   death:
-    date:
-    location:
-    country_code:
-  photo_url:
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id:
-      style_id:
-      place:
-      quality:
+    - id: null
+      style_id: null
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2

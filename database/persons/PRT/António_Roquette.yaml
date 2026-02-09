@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-61
   name: António Roquette de Andrade
@@ -11,40 +8,52 @@ person:
   nationality:
     - PRT
   birth:
-    date: "1955-05-26"
-    location: Estoril
-    country_code: PRT
+    date: '1955-05-26'
+    geo:
+      location: Estoril
+      country_code: PRT
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/tona1980/tona1980.jpg
     source:
       uri: https://fcmjudo.pt/moscovo.html
-      cite: "Diário de Lisboa, 1980 (in: FCM Judo)"
+      cite: 'Diário de Lisboa, 1980 (in: FCM Judo)'
   teachers:
     - id: JDP-15
       style_id: JDP-S-1
-      place:
-      quality:
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
       sources:
         - uri: https://www.ahbe.pt/portfolio-item/judo/
-          cite: "A História Do Judo na AHBE"
-          citation: "O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976."
+          cite: A História Do Judo na AHBE
+          citation: >-
+            O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi
+            substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o
+            cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de
+            MONTREAL em 1976.
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: Federação Portuguesa de Judo
-      teacher:
       rank: 7 dan
       date: 2009
       sources:
-        - uri: https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf
-          cite: "Relatório de Atividades e Contas, 2019. FPJ"
-          citation: "Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes"
+        - uri: >-
+            https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf
+          cite: Relatório de Atividades e Contas, 2019. FPJ
+          citation: >-
+            Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José
+            Pinto Farias, Nelson Trindade e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # Federação Portuguesa de Judo
   sources:
     - uri: https://judolandia.tripod.com/roquete.htm
     - uri: https://www.olympedia.org/athletes/34295
@@ -52,5 +61,7 @@ person:
   links:
     - uri: https://www.wikidata.org/wiki/Q20973014
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Ant%C3%B3nio_Roquete_(judoka)
       cite: DBpedia
+      type: dbpedia

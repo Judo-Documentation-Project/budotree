@@ -21,15 +21,17 @@ console.log("JDP database parsing started.");
 console.log(`Database dir: ${dir}, target file: ${targetFile}, styles file: ${stylesFile}, local run: ${localOnly}`);
 
 styles = pY.importStylesYAML("database/styles");
+let places = pY.importPlacesYAML("database/places");
+let orgs = pY.importOrgsYAML("database/orgs");
 let database = pY.importYAML(dir);
 
 if (localOnly) {
     console.log("Local run, avoinding external requests")
-    pY.writeJSON(pY.createCYJS(database, styles), targetFile)
+    pY.writeJSON(pY.createCYJS(database, styles, places, orgs), targetFile)
 } else {
     console.log("Regular run, updating sources")
     pY.updateSources(database)
-        .then(v => pY.writeJSON(pY.createCYJS(database, styles), targetFile))
+        .then(v => pY.writeJSON(pY.createCYJS(database, styles, places, orgs), targetFile))
 }
 
 pY.writeJSON(styles, stylesFile)

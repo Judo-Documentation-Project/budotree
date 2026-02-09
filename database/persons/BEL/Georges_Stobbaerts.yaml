@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-86
   name: Georges Stobbaerts
@@ -9,37 +6,44 @@ person:
     - BEL
   birth:
     date: 1940
-    location: Casablanca
-    country_code: MAR
+    geo:
+      location: Casablanca
+      country_code: MAR
   death:
-    date: "2014-01-06"
-    location:
-    country_code:
+    date: '2014-01-06'
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/stobbaerts/stobbaerts.jpg
     source:
       uri: https://www.georgesstobbaerts.com/pt/
-      cite: "Life and work of Georges Stobbaerts"
+      cite: Life and work of Georges Stobbaerts
   teachers:
-    - id:
-      style_id:
-      place:
-      quality:
+    - id: null
+      style_id: null
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-4
-      org: Dai Nippon Butokukai
-      teacher:
       rank: 8 dan
-      date:
+      date: null
       sources:
         - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
-          cite: "Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)"
-          citation: "Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial."
+          cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
+          citation: >-
+            Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai,
+            cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial.
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: null  # Dai Nippon Butokukai
   sources:
     - uri: https://www.georgesstobbaerts.com/georges/
     - uri: https://tenchi.pt/georges-stobbaerts/
     - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
-      cite: "Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)"
+      cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)

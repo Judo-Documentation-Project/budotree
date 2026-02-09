@@ -1,44 +1,90 @@
+# yaml-language-server: $schema=../schemas/person.schema.json
+#
 # Judo Documentation Project: Judo Lineage Tree Sub-project
+# Person template - v2 format
 #
-# Person template
-#
-# The absolutely required fields are:
+# Required fields:
 #   name
-#   teachers->id OR teachers->name
-#   teachers->style_id OR teachers->style
-#   sources->uri (1+)
+#   nationality (array)
+#   birth, death (with date, geo)
+#   teachers (array) - with id (nullable), style_id (nullable), place_id (nullable)
+#   rank (array)
+#   sources (array) - with source_id OR uri
 ---
 
 person:
-  id:                    # Left empty, assigned as part of the process
-  name:
-  native_name:
-  nationality:           # Can be more than one, which is why it's a list.
-    -
-    -
-  birth: 
-    date:                # ISO 8601 format (e.g. 1860-12-10)
-    location: 
-    country_code:        # ISO 3166-1 alpha-3 (3 letter code, e.g. JPN)
-  death:
-    date: 
-    location:
-    country_code:
-  teachers:
-    - id:                # Check if it exists in database/persons, otherwise leave empty and fill name below.
-      name:          	 # Not needed if id is filled.
-      style_id:      	 # Check if it exists in database/styles, otherwise leave empty and fill name below.
-      style:         	 # Not needed if style_id is filled.
-      place:         	 # This is a dojo name, club name, etc.
+  id:                         # Assigned during import - leave empty
+  name:                       # Romanized display name (REQUIRED)
+  native_name:                # Optional native script name
+    name:
+    lang:                     # ISO 639-1 code (ja, zh, ko, etc.)
+  aka:                        # Alternative names (optional)
+    - name: "Alternative Name"
+    # - native_name:
+    #     name: "代替名"
+    #     lang: ja
+  nationality:                # ISO 3166-1 alpha-3 codes (REQUIRED, can be multiple)
+    - JPN
+  nationality_qid:            # Wikidata Q-IDs for nationality (optional, handles historical countries)
+    - Q17                     # Japan
+  birth:                      # REQUIRED
+    date:                     # BudoDate: null | year (int) | "YYYY-MM-DD" | "~YYYY"
+    geo:                      # Geographic reference (optional)
+      location:               # Display name (e.g., "Tokyo")
+      location_qid: Q1490     # Wikidata Q-ID for location (optional)
+      country_code: JPN       # ISO 3166-1 alpha-3
+      country_qid: Q17        # Wikidata Q-ID for country (optional, historical-aware)
+    sources:                  # Optional sources specific to birth event
+      - source_id: JDP-SRC-1  # Reference to Source entity (preferred)
+        location: "p. 42"
+      # - uri: "https://..."  # Fallback if no source entity
+      #   cite: "Source name"
+  death:                      # REQUIRED (use null for unknown fields)
+    date: null
+    geo: null                 # Geographic reference (null if unknown)
+  description:                # Multilingual map (optional)
+    en: >
+      Brief biography...
+    # ja: >
+    #   日本語の説明...
+  notes: null                 # Free-text notes (optional)
+  photo:                      # Structured photo (optional)
+    url: "https://..."
+    source:
+      source_id: JDP-SRC-12
+      cite: "Photo credit"
+  teachers:                   # Student-teacher relationships (REQUIRED, can be empty array)
+    - id: JDP-2               # Teacher person ID (nullable)
+      style_id: JDP-S-3       # Style ID (nullable)
+      place_id: JDP-P-5       # Place/venue ID (nullable)
       period:
-        start:
-          end:
-  rank:  
-    - style_id:          # Check if it exists in database/styles, otherwise leave empty and fill name below.
-      name:
-      org:               # Org and teacher are usually used in isolation. 
-      teacher:
-      rank:
-      date:
-  sources:               
-    - uri:               # This should ideally be an URL, but an URI is the minimum. 
+        start: 1877           # BudoDate (REQUIRED)
+        end: 1879             # BudoDate (optional, null = ongoing/unknown)
+      role: student           # NEW in v2: student | uchi-deshi | seminar | private | examination
+      quality: 3              # REQUIRED: 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed
+      sources:
+        - source_id: JDP-SRC-1
+          location: "p. 42"
+  rank:                       # Ranks/grades (REQUIRED, can be empty array)
+    - style_id: JDP-S-2       # Style ID (nullable)
+      rank: "5th Dan"
+      rank_type: dan          # NEW in v2: dan | kyu | menkyo | title | other
+      org_id: JDP-O-1         # Organization ID (nullable)
+      granted_by: JDP-5       # Person ID who granted the rank (NEW in v2, replaces teacher/teacher_id)
+      date: 1920              # BudoDate
+      quality: 3              # REQUIRED
+      sources:
+        - source_id: JDP-SRC-2
+  sources:                    # Top-level sources for the person (REQUIRED, at least one)
+    - source_id: JDP-SRC-1    # Reference to Source entity (preferred)
+      events: [name, birth]   # Which fields this source covers
+    # - uri: "https://..."    # Inline URI fallback
+    #   cite: "Source name"
+  links:                      # External identifiers (optional)
+    - uri: "https://www.wikidata.org/wiki/Q190141"
+      type: wikidata          # wikidata | dbpedia | viaf | isni | wikipedia | other
+    # - uri: "https://dbpedia.org/page/..."
+    #   type: dbpedia
+  tags:                       # Optional tags
+    - founder
+    - educator

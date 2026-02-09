@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-50
   name: Masakatsu Naka
@@ -10,29 +7,35 @@ person:
   nationality:
     - JPN
   birth:
-    date:
-    location:
-    country_code: JPN
+    date: null
+    geo:
+      location: null
+      country_code: JPN
   death:
-    date:
-    location:
-    country_code:
-  photo_url:
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id:
-      style_id:
-      place:
-      quality:
+    - id: null
+      style_id: null
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
-      events: [ name native_name ]
+      events:
+        - name native_name
     - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB

@@ -1,18 +1,62 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
-
----
 style:
   id: JDP-S-1
   name: Kōdōkan Jūdō
   native_name:
     name: 講道館柔道
     lang: ja
-  birth:
+  aka:
+    - name: Judo
+  type: gendai
+  founded:
     date: 1882
-    location:
-    country_code: JPN
+    place_id: JDP-P-1
+    founder_id: JDP-1
+    sources:
+      - uri: https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93
+        cite: 'Japanese Wikipedia: Judo'
+    geo:
+      location: Tokyo
+      location_qid: Q1490
+      country_code: JPN
+      country_qid: Q17
+  dissolved: null
+  rank_system:
+    type: dan-kyu
+    description:
+      en: Standard Kodokan dan/kyu grading system
+      ja: 講道館段級制
+  description:
+    en: >
+      Kodokan Judo is a modern martial art created by Jigoro Kano in 1882. It is a refinement and codification of
+      jujutsu principles with an emphasis on throwing techniques, groundwork, and moral education. Judo became the first
+      Japanese martial art to gain widespread international recognition and was inducted as an Olympic sport in 1964.
+    ja: |
+      講道館柔道（こうどうかんじゅうどう）は、1882年（明治15年）に嘉納治五郎 が創始した武道・スポーツ・身体鍛錬の方法。
   media:
-    video_url: https://www.youtube.com/watch?v=FoFwE8pX2js
-    photo_url: http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg
+    photos:
+      - url: http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg
+        source:
+          uri: http://kodokanjudoinstitute.org/
+          cite: Kodokan Judo Institute
+    videos:
+      - url: https://www.youtube.com/watch?v=FoFwE8pX2js
+        source:
+          uri: https://www.youtube.com/watch?v=FoFwE8pX2js
+          cite: 'YouTube: Kodokan Judo demonstration'
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93
+      cite: 'Japanese Wikipedia: Judo'
+      events:
+        - name
+        - founded
+    - uri: https://en.wikipedia.org/wiki/Judo
+      cite: 'Wikipedia: Judo'
+  links:
+    - uri: https://www.wikidata.org/wiki/Q11817
+      type: wikidata
+      cite: 'Wikidata: Judo'
+  tags:
+    - grappling
+    - throwing
+    - olympic
+    - gendai-budo

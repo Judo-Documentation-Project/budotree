@@ -1,0 +1,124 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/event.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Event",
+  "description": "Significant historical event (schema only - data entries deferred)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "event": {
+      "$ref": "#/definitions/Event"
+    }
+  },
+  "required": ["event"],
+  "definitions": {
+    "Event": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JDP-E-[0-9]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["founding", "tournament", "demonstration", "recognition", "other"],
+          "description": "Type of event"
+        },
+        "date": {
+          "$ref": "budotree.schema.json#/definitions/BudoDate"
+        },
+        "place_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-P-[0-9]+$"
+            }
+          ]
+        },
+        "geo": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/GeoRef"
+            }
+          ]
+        },
+        "org_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-O-[0-9]+$"
+            }
+          ]
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "person_id": {
+                "type": "string",
+                "pattern": "^JDP-[0-9]+$"
+              },
+              "role": {
+                "type": "string"
+              }
+            },
+            "required": ["person_id", "role"]
+          }
+        },
+        "style_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-S-[0-9]+$"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "date",
+        "sources"
+      ],
+      "title": "Event"
+    }
+  }
+}

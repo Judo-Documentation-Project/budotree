@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-17
   name: Tomita Tsunejirō
@@ -10,32 +7,39 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1864-02-28"
-    location: Namazu, Shizuoka
-    country_code: JPN
+    date: '1864-02-28'
+    geo:
+      location: Namazu, Shizuoka
+      country_code: JPN
   death:
-    date: "1937-01-13"
-    location:
-    country_code:
-  photo_url : https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Tomita-Tsunejiro.jpg/454px-Tomita-Tsunejiro.jpg
+    date: '1937-01-13'
+    geo:
+      location: null
+      country_code: null
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
-      place: Kodokan
-      quality:
+      quality: null
       period:
         start: 1882
-        end:
+        end: null
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 7 dan
       date: 1937
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
   links:
     - uri: https://www.wikidata.org/wiki/Q2672426
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Tomita_Tsunejir%C5%8D
       cite: DBpedia
+      type: dbpedia

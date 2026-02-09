@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-83
   name: António Corrêa Pereira
@@ -10,38 +7,50 @@ person:
   nationality:
     - PRT
   birth:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/correapereira3/correapereira3.jpg
     source:
       uri: https://www.ubu.pt/home/professores/p1/https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
-      cite: "Mestre António Corrêa Pereira (1906-1982) -UBU"
+      cite: Mestre António Corrêa Pereira (1906-1982) -UBU
   teachers:
     - id: JDP-109
       style_id: JDP-S-14
-      place:
-      quality:
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 1 dan
-      date: "1963-09-10"
+      date: '1963-09-10'
       sources:
         - uri: https://repositorio.ipv.pt/handle/10400.19/448
-          cite: "FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)"
-          citation: "Mas o arranque institucional que mais influenciará a história do Karaté está na Academia de Judo, propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em Lisboa. Além de ser o primeiro cinto negro inscrito no Kodokan (Japão) (...) António LIMA retira dos estatutos respectivos a referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo, sendo «o primeiro Português a possuir a graduação de cinto negro conferida na Alemanha» (LIMA, 1990, p. 121)"
+          cite: >-
+            FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em
+            Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
+          citation: >-
+            Mas o arranque institucional que mais influenciará a história do Karaté está na Academia de Judo,
+            propriedade de António Corrêa Pereira, no 3º andar, do n.º 140, da Rua de S. Paulo, em Lisboa. Além de ser o
+            primeiro cinto negro inscrito no Kodokan (Japão) (...) António LIMA retira dos estatutos respectivos a
+            referência de que, em 23 de Fevereiro de 1958, Corrêa Pereira funda a Academia de Budo, sendo «o primeiro
+            Português a possuir a graduação de cinto negro conferida na Alemanha» (LIMA, 1990, p. 121)
         - uri: https://www.ubu.pt/home/arquivo-fotografico/correapereirakodokan/
-          citation: "Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira [1 dan / 3-III-1958 / Risei Kano]"
+          citation: Diploma do Kodokan, atribuido ao Mestre Corrêa Pereira [1 dan / 3-III-1958 / Risei Kano]
+      rank_type: dan
+      quality: 2
+      granted_by: null
+      org_id: JDP-O-1
   sources:
     - uri: https://www.ubu.pt/home/professores/p1/
     - uri: https://www.ubu.pt/home/historia/

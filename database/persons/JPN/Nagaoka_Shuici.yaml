@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-44
   name: Nagaoka Shūichi
@@ -12,35 +9,41 @@ person:
   nationality:
     - JPN
   birth:
-    date: "1876-09-17"
-    location: Okayama
-    country_code: JPN
+    date: '1876-09-17'
+    geo:
+      location: Okayama
+      country_code: JPN
   death:
-    date: "1952-11-22"
-    location:
-    country_code:
-  photo_url: https://archive.org/download/nagaoka_hideichi/nagaoka_hideichi.jpg
+    date: '1952-11-22'
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - name: Noda Kensaburo
-      style_id: JDP-S-2
-      place:
-      quality:
+    - style_id: JDP-S-2
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      id: null  # Noda Kensaburo
+      place_id: null
     - id: JDP-1
       style_id: JDP-S-1
-      place: Kodokan
-      quality:
+      quality: null
       period:
         start: 1891
-        end:
+        end: null
+      role: student
+      place_id: JDP-P-1
   rank:
     - style_id: JDP-S-1
-      org: Kodokan
-      teacher:
       rank: 10 dan
-      date: "1937-12-27"
+      date: '1937-12-27'
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: JDP-O-1
   sources:
-      - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
-      - uri: https://www.judo-ch.jp/english/legend/nagaoka/
+    - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+    - uri: https://www.judo-ch.jp/english/legend/nagaoka/

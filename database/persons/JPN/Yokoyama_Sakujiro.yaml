@@ -1,49 +1,53 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-9
   name: Yokoyama Sakujiro
   native_name:
-     name: 横山 作次郎
-     lang: ja
+    name: 横山 作次郎
+    lang: ja
   nationality:
     - JPN
   birth:
     date: 1864
-    location: Tokyo
-    country_code: JPN
+    geo:
+      location: Tokyo
+      country_code: JPN
   death:
-    date: "1912-09-23"
-    location:
-    country_code: JPN
-  photo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/220px-Yokoyama-Sakujiro.jpg
+    date: '1912-09-23'
+    geo:
+      location: null
+      country_code: JPN
   teachers:
     - id: JDP-1
       style_id: JDP-S-1
-      place: Kodokan
-      quality:
+      quality: null
       period:
         start: 1886
-        end:
+        end: null
+      role: student
+      place_id: JDP-P-1
     - id: JDP-10
       style_id: JDP-S-3
-      place: Yushima Tenjin dojo
-      quality:
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null  # Yushima Tenjin dojo
   rank:
-    - style:
-      org:
-      teacher:
-      rank:
-      date:
+    - rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
     - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
   links:
     - uri: https://www.wikidata.org/wiki/Q3276775
       cite: Wikidata
+      type: wikidata
     - uri: https://dbpedia.org/page/Yokoyama_Sakujiro
       cite: DBpedia
+      type: dbpedia

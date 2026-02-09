@@ -1,0 +1,152 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/place.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Place",
+  "description": "A training venue - dojo, club, gym, university program, etc.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "place": {
+      "$ref": "#/definitions/Place"
+    }
+  },
+  "required": ["place"],
+  "definitions": {
+    "Place": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JDP-P-[0-9]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+          "$ref": "budotree.schema.json#/definitions/NativeName"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["dojo", "club", "university", "temple", "arena", "gym", "military", "academy", "other"],
+          "description": "Type of training venue"
+        },
+        "geo": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/GeoRef"
+            }
+          ]
+        },
+        "address": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "description": "Street address"
+            }
+          ]
+        },
+        "org_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-O-[0-9]+$",
+              "description": "Organization that operates this venue"
+            }
+          ]
+        },
+        "parent_place_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-P-[0-9]+$",
+              "description": "Parent place (hierarchical)"
+            }
+          ]
+        },
+        "founded": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "date": {
+              "$ref": "budotree.schema.json#/definitions/BudoDate"
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "$ref": "budotree.schema.json#/definitions/SourceRef"
+              }
+            }
+          }
+        },
+        "dissolved": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "date": {
+                  "$ref": "budotree.schema.json#/definitions/BudoDate"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "budotree.schema.json#/definitions/SourceRef"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Link"
+          }
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "geo",
+        "sources"
+      ],
+      "title": "Place"
+    }
+  }
+}

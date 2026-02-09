@@ -1,0 +1,151 @@
+{
+  "$id": "https://budotree.judoc.org/schemas/org.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Organization",
+  "description": "A martial arts organization, federation, governing body, or institutional school",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "org": {
+      "$ref": "#/definitions/Organization"
+    }
+  },
+  "required": ["org"],
+  "definitions": {
+    "Organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^JDP-O-[0-9]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+          "$ref": "budotree.schema.json#/definitions/NativeName"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["federation", "governing_body", "school", "association", "other"],
+          "description": "Type of organization"
+        },
+        "geo": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/GeoRef"
+            }
+          ]
+        },
+        "founded": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "date": {
+              "$ref": "budotree.schema.json#/definitions/BudoDate"
+            },
+            "founder_id": {
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "pattern": "^JDP-[0-9]+$",
+                  "description": "Person ID of founder"
+                }
+              ]
+            },
+            "sources": {
+              "type": "array",
+              "items": {
+                "$ref": "budotree.schema.json#/definitions/SourceRef"
+              }
+            }
+          }
+        },
+        "dissolved": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "date": {
+                  "$ref": "budotree.schema.json#/definitions/BudoDate"
+                },
+                "sources": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "budotree.schema.json#/definitions/SourceRef"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "parent_org_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-O-[0-9]+$",
+              "description": "Parent organization (hierarchical)"
+            }
+          ]
+        },
+        "website": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "format": "uri"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "budotree.schema.json#/definitions/Description"
+            }
+          ]
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/Link"
+          }
+        },
+        "tags": {
+          "$ref": "budotree.schema.json#/definitions/Tags"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "type",
+        "sources"
+      ],
+      "title": "Organization"
+    }
+  }
+}

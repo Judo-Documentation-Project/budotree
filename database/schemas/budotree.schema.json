@@ -2,9 +2,62 @@
   "$id": "https://budotree.judoc.org/schemas/budotree.schema.json",
   "$schema": "http://json-schema.org/draft-07/schema",
   "title": "Common definitions for the Budo Lineage Tree",
-  "description": "Shared definitions",
+  "description": "Shared definitions for Budotree database v2",
   "type": "object",
   "definitions": {
+    "BudoDate": {
+      "title": "BudoDate",
+      "description": "Flexible date representation: null (unknown), integer (year), ISO date string, or approximate year",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        {
+          "type": "string",
+          "pattern": "^~[0-9]{4}$"
+        }
+      ]
+    },
+    "Quality": {
+      "title": "Quality",
+      "description": "Confidence/certainty rating: 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed",
+      "type": "integer",
+      "enum": [0, 1, 2, 3]
+    },
+    "CountryCode": {
+      "title": "CountryCode",
+      "description": "ISO 3166-1 alpha-3 country code",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        }
+      ]
+    },
+    "WikidataQID": {
+      "title": "WikidataQID",
+      "description": "Wikidata entity identifier (Q-ID)",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string",
+          "pattern": "^Q[0-9]+$"
+        }
+      ]
+    },
     "NativeName": {
       "type": "object",
       "additionalProperties": false,
@@ -13,28 +66,112 @@
           "type": "string"
         },
         "lang": {
-          "type": "string"
+          "type": "string",
+          "description": "ISO 639-1 language code"
         }
       },
-      "required": [
-        "lang",
-        "name"
-      ],
+      "required": ["lang", "name"],
       "title": "NativeName"
+    },
+    "AkaEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "native_name": {
+          "$ref": "#/definitions/NativeName"
+        }
+      },
+      "anyOf": [
+        {"required": ["name"]},
+        {"required": ["native_name"]}
+      ],
+      "title": "AkaEntry"
     },
     "Aka": {
       "type": "array",
       "items": {
-        "anyOf": [
-          {
-          "$ref": "#/definitions/Name"
+        "$ref": "#/definitions/AkaEntry"
+      },
+      "title": "Aka"
+    },
+    "Period": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "$ref": "#/definitions/BudoDate"
         },
-          {
-          "native_name": {
-            "$ref": "#/definitions/NativeName"
-          }
+        "end": {
+          "$ref": "#/definitions/BudoDate"
         }
-        ]
+      },
+      "required": ["start"],
+      "title": "Period"
+    },
+    "SourceRef": {
+      "title": "SourceRef",
+      "description": "Reference to a source - either by ID (preferred) or inline URI (fallback)",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "pattern": "^JDP-SRC-[0-9]+$"
+        },
+        "uri": {
+          "type": "string",
+          "format": "uri"
+        },
+        "cite": {
+          "type": "string",
+          "description": "Display citation text"
+        },
+        "location": {
+          "type": "string",
+          "description": "Location within the source (page, chapter, etc.)"
+        },
+        "citation": {
+          "type": "string",
+          "description": "Direct quote or citation text"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Which fields this source covers"
+        }
+      },
+      "oneOf": [
+        {"required": ["source_id"]},
+        {"required": ["uri"]}
+      ]
+    },
+    "GeoRef": {
+      "title": "GeoRef",
+      "description": "Geographic reference with free-text display name, ISO country code, and Wikidata Q-IDs",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "location": {
+          "type": "string",
+          "description": "Display name for the location (city, region, etc.)"
+        },
+        "location_qid": {
+          "$ref": "#/definitions/WikidataQID",
+          "description": "Wikidata Q-ID for the geographic location"
+        },
+        "country_code": {
+          "$ref": "#/definitions/CountryCode",
+          "description": "ISO 3166-1 alpha-3 country code for filtering"
+        },
+        "country_qid": {
+          "$ref": "#/definitions/WikidataQID",
+          "description": "Wikidata Q-ID for country (handles historical countries)"
+        }
       }
     },
     "LifeEvent": {
@@ -42,117 +179,74 @@
       "additionalProperties": false,
       "properties": {
         "date": {
+          "$ref": "#/definitions/BudoDate"
+        },
+        "geo": {
           "anyOf": [
             {
-            "type": "integer",
-            "pattern": "^[0-9]$"
-          },
+              "type": "null"
+            },
             {
-            "type": "string",
-            "format": "date"
-          }
-          ]
-        },
-        "location": {
-          "type": "string"
-        },
-        "country_code": {
-          "anyOf": [
-            {
-            "type": "null"
-          },
-            {
-            "type": "string"
-          }
+              "$ref": "#/definitions/GeoRef"
+            }
           ]
         },
         "sources": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/Source"
+            "$ref": "#/definitions/SourceRef"
           }
         }
       },
-      "required": [
-        "country_code",
-        "date",
-        "location"
-      ],
-      "title": "Life Event"
+      "title": "LifeEvent"
     },
-    "Source": {
+    "Link": {
+      "title": "Link",
+      "description": "External identifier or linked data reference",
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "uri": {
           "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https",
-            "http"
-          ]
+          "format": "uri"
         },
-        "citation": {
-          "type": "string"
+        "type": {
+          "type": "string",
+          "enum": ["wikidata", "dbpedia", "viaf", "isni", "wikipedia", "other"]
         },
         "cite": {
-          "type": "string"
-        },
-        "location": {
-          "type": "string"
-        },          
-        "events": {
-          "type": "array"
+          "type": "string",
+          "description": "Optional display label"
         }
       },
-      "required": [
-        "uri"
-      ],
-      "title": "Source"
+      "required": ["uri", "type"]
     },
     "Description": {
       "type": "object",
       "additionalProperties": {
-        "type" : "string"
+        "type": "string"
       },
-      "title": "Description"
+      "title": "Description",
+      "description": "Multilingual description map (lang code → text)"
     },
-     "Notes": {
-          "type": "string",
-          "title": "Notes"
-      },
+    "Notes": {
+      "type": "string",
+      "title": "Notes"
+    },
     "Photo": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "url": {
           "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https"
-          ],
-          "qt-uri-extensions": [
-            ".jpg"
-          ]
+          "format": "uri"
         },
         "source": {
-          "$ref": "budotree.schema.json#/definitions/Source"
+          "$ref": "#/definitions/SourceRef"
         }
       },
-      "required": [
-        "source",
-        "url"
-      ],
+      "required": ["url", "source"],
       "title": "Photo"
-    },
-    "PhotoURL": {
-      "type": "string",
-      "format": "uri",
-      "qt-uri-protocols": [
-        "https",
-        "http"
-      ],
-      "deprecated": true
     },
     "Video": {
       "type": "object",
@@ -160,37 +254,21 @@
       "properties": {
         "url": {
           "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https"
-          ]
+          "format": "uri"
         },
         "source": {
-          "$ref": "budotree.schema.json#/definitions/Source"
+          "$ref": "#/definitions/SourceRef"
         }
       },
-      "required": [
-        "source",
-        "url"
-      ],
+      "required": ["url", "source"],
       "title": "Video"
     },
     "Tags": {
       "type": "array",
       "items": {
         "type": "string"
-      }
-    },
-    "Links": {
-      "type": "array",
-      "items": {
-        "type": "string",
-        "format": "uri",
-        "qt-uri-protocols": [
-          "https",
-          "http"
-        ]
-      }
+      },
+      "title": "Tags"
     }
   }
 }

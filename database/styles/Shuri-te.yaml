@@ -1,15 +1,14 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 style:
   id: JDP-S-13
   name: Shuri-te
   native_name:
     name: 首里手
     lang: ja
-  birth:
-    date: 1700
-    location: Okinawa
-    country_code: JPN
   sources:
     - uri: https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B
+  founded:
+    date: 1700
+    geo:
+      location: Okinawa
+      country_code: JPN
+  type: koryu

@@ -1,36 +1,41 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-68
-  name:  Henri Bouchend'Homme
+  name: Henri Bouchend'Homme
   nationality:
     - FRA
   birth:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id:
-      style_id:
-      place:
-      quality:
+    - id: null
+      style_id: null
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
       sources:
         - uri: https://judolandia.tripod.com/histport.htm
-          cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
-          citation: "Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava Judo em Lisboa começou a leccionar no Lisboa Ginásio."
+          cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
+          citation: >-
+            Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri
+            Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava
+            Judo em Lisboa começou a leccionar no Lisboa Ginásio.
+      rank_type: other
+      quality: 2
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://judolandia.tripod.com/histport.htm

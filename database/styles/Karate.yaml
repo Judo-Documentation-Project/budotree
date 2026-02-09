@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 style:
   id: JDP-S-5
   name: Karate
@@ -10,11 +7,13 @@ style:
   aka:
     - name: Karatedo
       native_name:
-        - name: 空手道
-          lang: ja
-  birth:
-    date: 1800
-    location: Okinawa
-    country_code: JPN
+        name: 空手道
+        lang: ja
   sources:
     - uri: https://en.wikipedia.org/wiki/Karate
+  founded:
+    date: 1800
+    geo:
+      location: Okinawa
+      country_code: JPN
+  type: gendai

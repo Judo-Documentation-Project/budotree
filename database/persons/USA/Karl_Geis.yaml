@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-52
   name: Karl Geis
@@ -9,53 +6,69 @@ person:
   nationality:
     - USA
   birth:
-    date: 1933  # https://www.legacy.com/us/obituaries/houstonchronicle/name/karl-geis-obituary
-    location: Houston, Texas
-    country_code: USA
+    date: 1933
+    geo:
+      location: Houston, Texas
+      country_code: USA
   death:
-    date: "2014-04-07"
-    location:
-    country_code:
-  photo_url: https://ia601208.us.archive.org/9/items/karl_geis_formal_202312/karl_geis_formal.png
+    date: '2014-04-07'
+    geo:
+      location: null
+      country_code: null
   teachers:
-    - id: JDP-12    # Kobayashi Kiyoshi
+    - id: JDP-12
       style_id: JDP-S-1
-      place: Kodokan
       period:
         start: 1952
-        end:
-      quality: 2   # Hal Sharp says he trained under Kobayashi
-      sources:
-        - uri: https://www.karlgeis.com/his-resume
-          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)"
-          citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
-    - id: JDP-53    # Tsunako Miyake
-      style_id: JDP-S-4
-      place:
-      period:
-        start:
-        end:
+        end: null
       quality: 2
       sources:
         - uri: https://www.karlgeis.com/his-resume
-          cite: "Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)"
-          citation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
+          cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+          citation: >-
+            During my studies in Japan I received significant personal instruction from the following Kodokan teachers:
+            [...] Kobayashi Sensei, 8th Dan
+      role: student
+      place_id: JDP-P-1
+    - id: JDP-53
+      style_id: JDP-S-4
+      period:
+        start: null
+        end: null
+      quality: 2
+      sources:
+        - uri: https://www.karlgeis.com/his-resume
+          cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+          citation: >-
+            During my studies in Japan I received significant personal instruction from the following Kodokan teachers:
+            [...] Miyake, Tsunako Sensei, 7th Dan
+      role: student
+      place_id: null
   rank:
     - style_id: JDP-S-1
-      org: USJA
-      teacher:
-      rank: 10 dan   # https://news.usja.net/karl-geis-promoted-to-judan/
+      rank: 10 dan
       date: 2014
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null  # USJA
     - style_id: JDP-S-4
-      org:
-      teacher:
-      rank: 10 dan  # Fugakukai
+      rank: 10 dan
       date: 1997
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
     - style_id: JDP-S-4
-      org:
-      teacher:
-      rank: 6 dan  # Tomiki / Shodokan
+      rank: 6 dan
       date: 1980
+      rank_type: dan
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://en.wikipedia.org/wiki/Karl_Geis
     - uri: https://www.karlgeis.com/his-resume

@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-3
   name: Iso Masatari Mataemon
@@ -11,33 +8,40 @@ person:
     - JPN
   birth:
     date: 1790
-    location: Matsuzaka
-    country_code: JPN
+    geo:
+      location: Matsuzaka
+      country_code: JPN
   death:
     date: 1863
-    location: Otamagaike
-    country_code: JPN
+    geo:
+      location: Otamagaike
+      country_code: JPN
   teachers:
-    - name: Hitotsu Yanagi Oribe
-      style_id: JDP-S-3
-      place:
-      quality:
+    - style_id: JDP-S-3
+      quality: null
       period:
         start: 1785
         end: 1792
-    - name: Homma Jouemon
-      style: Shin no Shinto-ryu
-      place:
-      quality:
+      role: student
+      id: null  # Hitotsu Yanagi Oribe
+      place_id: null
+    - quality: null
       period:
         start: 1792
         end: 1798
+      role: student
+      id: null  # Homma Jouemon
+      _styleComment: Shin no Shinto-ryu
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: http://www.tenyokai.com/history.html
     - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80

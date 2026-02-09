@@ -1,6 +1,3 @@
-# Judo Documentation Project: Judo Lineage Tree Sub-project
----
-
 person:
   id: JDP-45
   name: Mario Aleixo
@@ -8,43 +5,59 @@ person:
     - BRA
   birth:
     date: 1887
-    location: Rio de Janeiro, RJ
-    country_code: BRA
+    geo:
+      location: Rio de Janeiro, RJ
+      country_code: BRA
   death:
     date: 1947
-    location:
-    country_code: BRA
-  photo_url: https://img1.wsimg.com/isteam/ip/480b94b8-cb6a-48b7-9add-7d9635474067/Aleixo_1918.jpg/:/rs=w:400,cg:true,m
+    geo:
+      location: null
+      country_code: BRA
   teachers:
-    - id: JDP-18 # Maeda
+    - id: JDP-18
       style_id: JDP-S-1
-      place:
       period:
         start: 1915
-        end:
+        end: null
       quality: 3
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 1, p. 110"
-          citation: "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
-    - id: JDP-107 # Sada Miyako
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 1, p. 110
+          citation: >-
+            Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres
+            japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente
+            teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
+      role: student
+      place_id: null
+    - id: JDP-107
       style_id: JDP-S-1
-      place:
       period:
         start: 1909
-        end:
+        end: null
       quality: 3
       sources:
         - uri: https://isbnsearch.org/isbn/9798639871030
-          cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-          location: "vol. 1, p. 110"
-          citation: "Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915."
+          cite: >-
+            SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no
+            mundo. 2020.
+          location: vol. 1, p. 110
+          citation: >-
+            Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres
+            japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente
+            teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
+      role: student
+      place_id: null
   rank:
-    - style_id:
-      org:
-      teacher:
-      rank:
-      date:
+    - style_id: null
+      rank: null
+      date: null
+      rank_type: other
+      quality: 2
+      sources: []
+      granted_by: null
+      org_id: null
   sources:
     - uri: https://agbook.com.br/book/361393--MUITO_ANTES_DO_MMA_O_legado_dos_precursores_do_Vale_Tudo_no_Brasil_e_no_mundo

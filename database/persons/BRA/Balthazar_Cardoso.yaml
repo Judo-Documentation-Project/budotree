@@ -1,42 +1,45 @@
-# Judo Documentation Project: Budo Lineage Tree Sub-project
----
 person:
-  id: "JDP-129"  # [PLEASE ASSIGN ID]
-  name: "Balthazar Cardoso"
+  id: JDP-129
+  name: Balthazar Cardoso
   nationality:
     - BRA
   birth:
-    date:
-    location: "São Luís, Maranhão"
-    country_code: "BRA"
+    date: null
+    geo:
+      location: São Luís, Maranhão
+      country_code: BRA
   death:
-    date:
-    location:
-    country_code:
+    date: null
+    geo:
+      location: null
+      country_code: null
   photo:
     url: https://archive.org/download/screenshot-from-2025-05-11-16-58-43/Screenshot%20From%202025-05-11%2016-58-43.png
     source:
-      uri: "https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695"
-      cite: "Jornal dos Esportes (1931-09-28, Ed. 167, p.3)"
+      uri: https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695
+      cite: Jornal dos Esportes (1931-09-28, Ed. 167, p.3)
   teachers:
-    - id: 
-      style_id:
-      quality:
-      place: 
+    - id: null
+      style_id: null
+      quality: null
       period:
-        start:
-        end:
+        start: null
+        end: null
+      role: student
+      place_id: null
   rank:
-    - style_id: "JDP-S-19"  # Boxing
-      rank: "W42/L6/D8"
-      date: 
-      org:
+    - style_id: JDP-S-19
+      rank: W42/L6/D8
+      date: null
       sources:
         - uri: https://boxrec.com/en/proboxer/624960
-          cite: "Balthazar Cardoso (Boxrec)"
-          citation: ""
+          cite: Balthazar Cardoso (Boxrec)
+          citation: ''
+      rank_type: other
+      quality: 2
+      org_id: null
   sources:
     - uri: https://boxrec.com/en/proboxer/624960
-      cite: "Balthazar Cardoso (Boxrec)"
+      cite: Balthazar Cardoso (Boxrec)
     - uri: https://www.faddabjj.com/historia-fadda
-      cite: "A história da Família Fadda (FaddaBJJ)"
+      cite: A história da Família Fadda (FaddaBJJ)
