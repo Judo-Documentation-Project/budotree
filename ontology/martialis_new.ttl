@@ -1,0 +1,118 @@
+@prefix martialis: <https://martial.is/ontology/martialis#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+martialis:MartialisOntology a owl:Ontology ;
+  rdfs:label "Martialis Ontology" ;
+  rdfs:comment """
+  Ontology for modeling martial arts history using explicit assertions,
+  documentary sources, and provenance-aware analysis.
+  """ ;
+  owl:imports prov: .
+
+martialis:Person a owl:Class ;
+  rdfs:subClassOf prov:Agent ;
+  owl:equivalentClass schema:Person , foaf:Person .
+
+martialis:Style a owl:Class ;
+  owl:equivalentClass schema:CreativeWork .
+
+martialis:MartialArtRank a owl:Class .
+
+martialis:Organization a owl:Class ;
+  owl:equivalentClass schema:Organization .
+
+martialis:Place a owl:Class ;
+  owl:equivalentClass schema:Place .
+
+martialis:Assertion a owl:Class ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:comment "A historically situated claim about one or more entities." .
+
+martialis:TeacherAssertion a owl:Class ;
+  rdfs:subClassOf martialis:Assertion .
+
+martialis:RankAssertion a owl:Class ;
+  rdfs:subClassOf martialis:Assertion .
+
+martialis:StylePracticeAssertion a owl:Class ;
+  rdfs:subClassOf martialis:Assertion .
+
+martialis:subject a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range martialis:Person .
+
+martialis:object a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range owl:Thing .
+
+martialis:assertedPlace a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range martialis:Place .
+
+martialis:TimeInterval a owl:Class ;
+  rdfs:subClassOf schema:TimePeriod .
+
+martialis:hasTimeInterval a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range martialis:TimeInterval .
+
+martialis:startYear a owl:DatatypeProperty ;
+  rdfs:domain martialis:TimeInterval ;
+  rdfs:range xsd:gYear .
+
+martialis:endYear a owl:DatatypeProperty ;
+  rdfs:domain martialis:TimeInterval ;
+  rdfs:range xsd:gYear .
+
+martialis:Role a owl:Class .
+
+martialis:StudentRole a martialis:Role .
+martialis:TeacherRole a martialis:Role .
+martialis:GrantorRole a martialis:Role .
+
+martialis:hasRole a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range martialis:Role .
+
+martialis:Source a owl:Class ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:comment "A documentary source used as evidence." .
+
+martialis:hasSource a owl:ObjectProperty ;
+  rdfs:domain martialis:Assertion ;
+  rdfs:range martialis:Source ;
+  rdfs:subPropertyOf prov:wasDerivedFrom .
+
+martialis:SourceAssertionRelation a owl:Class ;
+  rdfs:subClassOf prov:Entity ;
+  rdfs:comment "Connects a source to an assertion with an explicit stance." .
+
+martialis:relatesSource a owl:ObjectProperty ;
+  rdfs:domain martialis:SourceAssertionRelation ;
+  rdfs:range martialis:Source .
+
+martialis:relatesAssertion a owl:ObjectProperty ;
+  rdfs:domain martialis:SourceAssertionRelation ;
+  rdfs:range martialis:Assertion .
+
+martialis:supports a owl:DatatypeProperty ;
+  rdfs:domain martialis:SourceAssertionRelation ;
+  rdfs:range xsd:boolean .
+
+martialis:SourceType a owl:Class .
+martialis:PrimarySource a martialis:SourceType .
+martialis:SecondarySource a martialis:SourceType .
+martialis:TertiarySource a martialis:SourceType .
+
+martialis:sourceType a owl:ObjectProperty ;
+  rdfs:domain martialis:Source ;
+  rdfs:range martialis:SourceType .
+
+martialis:HistoricalAnalysis a owl:Class ;
+  rdfs:subClassOf prov:Activity ;
+  rdfs:comment "An editorial or scholarly process producing assertions." .

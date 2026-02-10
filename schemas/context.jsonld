@@ -1,0 +1,207 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "martialis": "https://martial.is/ontology#",
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "person": "@nest",
+    "id": "@id",
+    "type": "@type",
+
+    "Person": "martialis:Person",
+    "TeacherAssertion": "martialis:TeacherAssertion",
+    "RankAssertion": "martialis:RankAssertion",
+    "StylePracticeAssertion": "martialis:StylePracticeAssertion",
+    "Organization": "martialis:Organization",
+    "Style": "martialis:Style",
+    "MartialArtRank": "martialis:MartialArtRank",
+    "Source": "martialis:Source",
+    "LifeEvent": "martialis:LifeEvent",
+    "NegativeAssertion": "martialis:NegativeAssertion",
+    "Confidence": "martialis:Confidence",
+    "TimeInterval": "martialis:TimeInterval",
+    "SourceAssertionRelation": "martialis:SourceAssertionRelation",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "nationality": "schema:nationality",
+    
+    "native_name": {
+      "@id": "schema:alternateName",
+      "@context": {
+        "name": "schema:name",
+        "lang": "@language"
+      }
+    },
+
+    "birth": {
+      "@id": "martialis:birthEvent",
+      "@context": {
+        "date": { "@id": "schema:birthDate", "@type": "xsd:gYear" },
+        "geo": {
+          "@id": "schema:birthPlace",
+          "@context": {
+            "location": "schema:name",
+            "country_code": "schema:addressCountry"
+          }
+        }
+      }
+    },
+
+    "death": {
+      "@id": "martialis:deathEvent",
+      "@context": {
+        "date": { "@id": "schema:deathDate", "@type": "xsd:gYear" },
+        "geo": {
+          "@id": "schema:deathPlace",
+          "@context": {
+            "location": "schema:name",
+            "country_code": "schema:addressCountry"
+          }
+        }
+      }
+    },
+
+    "teachers": {
+      "@id": "martialis:hasTeacherAssertion",
+      "@container": "@set",
+      "@type": "martialis:TeacherAssertion",
+      "@context": {
+        "id": { "@id": "martialis:object", "@type": "@id" },
+        "period": {
+          "@id": "martialis:validDuring",
+          "@type": "martialis:TimeInterval",
+          "@context": {
+            "start": { "@id": "martialis:startYear", "@type": "xsd:gYear" },
+            "end": { "@id": "martialis:endYear", "@type": "xsd:gYear" }
+          }
+        },
+        "role": "martialis:role"
+      }
+    },
+
+    "rank": {
+      "@id": "martialis:hasRankAssertion",
+      "@container": "@set",
+      "@type": "martialis:RankAssertion",
+      "@context": {
+        "style_id": { "@id": "martialis:object", "@type": "@id" },
+        "rank": "martialis:rankValue",
+        "rank_type": "schema:additionalType",
+        "date": { "@id": "schema:datePublished", "@type": "xsd:gYear" },
+        "granted_by": { "@id": "martialis:grantedBy", "@type": "@id" }
+      }
+    },
+
+    "confidence": {
+      "@id": "martialis:hasConfidence",
+      "@type": "martialis:Confidence",
+      "@context": {
+        "level": { "@id": "martialis:confidenceLevel", "@type": "xsd:integer" },
+        "assessed_by": { "@id": "martialis:assessedBy", "@type": "@id" },
+        "rationale": "martialis:confidenceRationale"
+      }
+    },
+
+    "sources": {
+      "@id": "martialis:hasEvidence",
+      "@container": "@set",
+      "@type": "martialis:SourceAssertionRelation",
+      "@context": {
+        "source_id": { "@id": "martialis:basedOnSource", "@type": "@id" },
+        "uri": { "@id": "schema:url", "@type": "@id" },
+        "cite": "schema:citation",
+        "quotation": "martialis:quotation",
+        "location": "martialis:sourceLocation",
+        "events": "martialis:coveredFields",
+        "type": "martialis:sourceRefType",
+        "supports": { "@id": "martialis:supports", "@type": "xsd:boolean" },
+        "weight": "martialis:evidenceWeight"
+      }
+    },
+
+    "aka": {
+      "@id": "schema:alternateName",
+      "@container": "@set"
+    },
+
+    "photo": {
+      "@id": "schema:image",
+      "@context": {
+        "url": { "@id": "schema:contentUrl", "@type": "@id" }
+      }
+    },
+
+    "links": {
+      "@id": "schema:sameAs",
+      "@container": "@set",
+      "@context": {
+        "uri": { "@id": "schema:url", "@type": "@id" },
+        "type": "schema:additionalType"
+      }
+    },
+
+    "tags": "schema:keywords",
+
+    "style": {
+      "@id": "@nest",
+      "@context": {
+        "type": "martialis:styleType"
+      }
+    },
+
+    "founded": {
+      "@id": "martialis:foundedEvent",
+      "@context": {
+        "date": { "@id": "schema:startDate", "@type": "xsd:gYear" },
+        "founder_id": { "@id": "martialis:founder", "@type": "@id" },
+        "geo": {
+          "@id": "schema:location",
+          "@context": {
+            "location": "schema:name",
+            "country_code": "schema:addressCountry"
+          }
+        }
+      }
+    },
+
+    "dissolved": {
+      "@id": "martialis:dissolvedEvent",
+      "@context": {
+        "date": { "@id": "schema:endDate", "@type": "xsd:gYear" }
+      }
+    },
+
+    "source": {
+      "@id": "@nest",
+      "@context": {
+        "type": "martialis:sourceType"
+      }
+    },
+
+    "title": "schema:name",
+    "authors": "schema:author",
+    "publisher": "schema:publisher",
+    "language": "schema:inLanguage",
+
+    "identifiers": {
+      "@id": "schema:identifier",
+      "@context": {
+        "isbn": "schema:isbn",
+        "doi": { "@id": "schema:identifier", "@type": "@id" }
+      }
+    },
+
+    "org": {
+      "@id": "@nest",
+      "@context": {
+        "type": "martialis:orgType"
+      }
+    },
+
+    "website": { "@id": "schema:url", "@type": "@id" },
+    "parent_org_id": { "@id": "martialis:parentOrg", "@type": "@id" }
+  }
+}

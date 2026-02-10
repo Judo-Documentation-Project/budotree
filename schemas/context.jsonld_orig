@@ -1,0 +1,172 @@
+{
+  "@context": {
+    "@version": 1.1,
+    
+    "_comment": "Base Namespaces",
+    "mis": "https://martial.is/ontology#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "cito": "http://purl.org/spar/cito/",
+    "schema": "http://schema.org/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    
+    "_comment": "Entity Types",
+    "Person": "mis:Person",
+    "Style": "mis:Style",
+    "MartialArtRank": "mis:MartialArtRank",
+    "Organization": "mis:Organization",
+    "Place": "mis:Place",
+    "Source": "mis:Source",
+    
+    "_comment": "Assertion Types",
+    "TeacherAssertion": "mis:TeacherAssertion",
+    "RankAssertion": "mis:RankAssertion",
+    "StylePracticeAssertion": "mis:StylePracticeAssertion",
+    "Assertion": "mis:Assertion",
+    
+    "_comment": "Provenance Activities",
+    "HistoricalAnalysis": "mis:HistoricalAnalysis",
+    "EditorialCompilation": "mis:EditorialCompilation",
+    
+    "_comment": "Core Properties (YAML field → RDF property mappings)",
+    
+    "_comment": "Person Properties",
+    "id": "@id",
+    "name": "schema:name",
+    "native_name": {
+      "@id": "schema:alternateName",
+      "@type": "@json"
+    },
+    "aka": {
+      "@id": "schema:alternateName",
+      "@container": "@set"
+    },
+    "nationality": "schema:nationality",
+    "birth": {
+      "@id": "schema:birthDate",
+      "@type": "schema:Event"
+    },
+    "death": {
+      "@id": "schema:deathDate",
+      "@type": "schema:Event"
+    },
+    "description": "schema:description",
+    "photo": "schema:image",
+    "links": {
+      "@id": "schema:sameAs",
+      "@container": "@set"
+    },
+    "tags": {
+      "@id": "schema:keywords",
+      "@container": "@set"
+    },
+    "notes": "schema:disambiguatingDescription",
+    
+    "_comment": "Teacher Relationship Properties",
+    "teachers": {
+      "@id": "mis:hasTeacher",
+      "@container": "@list",
+      "@type": "@id"
+    },
+    "teacher_id": "mis:object",
+    "style_id": "mis:object",
+    "place_id": "mis:assertedPlace",
+    "period": "mis:validDuring",
+    "role": "mis:role",
+    "confidence": {
+      "@id": "mis:confidenceLevel",
+      "@type": "xsd:integer"
+    },
+    
+    "_comment": "Rank Properties",
+    "rank": "mis:hasRank",
+    "rank_type": "schema:additionalType",
+    "org_id": "mis:grantedBy",
+    "granted_by": "mis:grantedBy",
+    "date": "schema:awardDate",
+    
+    "_comment": "Style Properties",
+    "type": "schema:genre",
+    "related_styles": {
+      "@id": "mis:derivedFrom",
+      "@container": "@list"
+    },
+    "founded": "schema:foundingDate",
+    "dissolved": "schema:dissolutionDate",
+    "rank_system": "schema:knowsAbout",
+    "media": "schema:media",
+    
+    "_comment": "Source Reference Properties",
+    "sources": {
+      "@id": "prov:wasDerivedFrom",
+      "@container": "@list"
+    },
+    "source_id": "@id",
+    "uri": "schema:url",
+    "cite": "schema:citation",
+    "location": "schema:position",
+    "quotation": "schema:text",
+    "events": {
+      "@id": "schema:about",
+      "@container": "@set"
+    },
+    
+    "_comment": "Source Assessment Properties (for confidence derivation)",
+    "source_type": "mis:sourceType",
+    "supports": "mis:supports",
+    "weight": "mis:weight",
+    
+    "_comment": "Derived Confidence Properties (computed, not stored)",
+    "confidence_level": "mis:confidenceLevel",
+    "confidence_rationale": "mis:confidenceRationale",
+    "assessed_by": "prov:wasAttributedTo",
+    
+    "_comment": "Geo Properties",
+    "geo": "schema:location",
+    "location": "schema:name",
+    "location_qid": "schema:identifier",
+    "country_code": "schema:addressCountry",
+    "country_qid": "schema:identifier",
+    
+    "_comment": "Life Event Properties",
+    "date": "schema:startDate",
+    
+    "_comment": "Link Properties",
+    "type": {
+      "@id": "schema:additionalType",
+      "@context": {
+        "wikidata": "http://www.wikidata.org/entity/",
+        "dbpedia": "http://dbpedia.org/resource/",
+        "viaf": "http://viaf.org/viaf/",
+        "isni": "http://isni.org/isni/",
+        "wikipedia": "https://en.wikipedia.org/wiki/",
+        "other": "schema:URL"
+      }
+    },
+    
+    "_comment": "Photo/Video Properties",
+    "url": "schema:contentUrl",
+    "source": "schema:creator",
+    
+    "_comment": "Property Shortcuts",
+    "subject": "mis:subject",
+    "object": "mis:object",
+    "practices": "mis:practices",
+    "derivedFrom": "mis:derivedFrom",
+    "wasTaughtBy": "mis:wasTaughtBy",
+    "teaches": "mis:teaches",
+    
+    "_comment": "Type Coercions",
+    "@type": "@type",
+    
+    "_comment": "Language Handling",
+    "@language": "en",
+    
+    "_comment": "Base URI Configuration",
+    "@base": "https://martial.is/",
+    
+    "_comment": "Vocabulary Base",
+    "vocab": "https://martial.is/ontology#"
+  }
+}1

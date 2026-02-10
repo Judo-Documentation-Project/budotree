@@ -1,0 +1,304 @@
+@prefix martialis: <https://martial.is/ontology#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <https://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+#################################################################
+# Ontology
+#################################################################
+
+martialis:MartialisOntology a owl:Ontology ;
+    rdfs:label "Martialis Investigative Ontology" ;
+    rdfs:comment "Ontology for historically sourced martial arts lineages, ranks, and claims." ;
+    owl:versionInfo "0.4.0" ;
+    owl:imports prov: .
+
+#################################################################
+# Core Domain Classes
+#################################################################
+
+martialis:Person a owl:Class ;
+    rdfs:subClassOf prov:Agent , schema:Person .
+
+martialis:Organization a owl:Class ;
+    rdfs:subClassOf prov:Agent , schema:Organization .
+
+martialis:Style a owl:Class ;
+    rdfs:subClassOf schema:CreativeWork .
+
+martialis:MartialArtRank a owl:Class ;
+    rdfs:subClassOf schema:Intangible .
+
+martialis:Place a owl:Class ;
+    rdfs:subClassOf schema:Place .
+
+martialis:Source a owl:Class ;
+    rdfs:subClassOf prov:Entity , schema:CreativeWork .
+
+#################################################################
+# Assertion Framework
+#################################################################
+
+martialis:Assertion a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "A claim about a historical relationship or fact." .
+
+martialis:TeacherAssertion a owl:Class ;
+    rdfs:subClassOf martialis:Assertion .
+
+martialis:RankAssertion a owl:Class ;
+    rdfs:subClassOf martialis:Assertion .
+
+martialis:StylePracticeAssertion a owl:Class ;
+    rdfs:subClassOf martialis:Assertion .
+
+martialis:NegativeAssertion a owl:Class ;
+    rdfs:subClassOf martialis:Assertion ;
+    rdfs:comment "An explicit claim that a relationship did not exist." .
+
+#################################################################
+# Assertion Structure Properties
+#################################################################
+
+martialis:hasAssertion a owl:ObjectProperty ;
+    rdfs:domain prov:Agent ;
+    rdfs:range martialis:Assertion ;
+    rdfs:comment "Links an entity to an assertion it is involved in." .
+
+martialis:hasTeacherAssertion a owl:ObjectProperty ;
+    rdfs:subPropertyOf martialis:hasAssertion ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:TeacherAssertion .
+
+martialis:hasRankAssertion a owl:ObjectProperty ;
+    rdfs:subPropertyOf martialis:hasAssertion ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:RankAssertion .
+
+martialis:hasStylePracticeAssertion a owl:ObjectProperty ;
+    rdfs:subPropertyOf martialis:hasAssertion ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:StylePracticeAssertion .
+
+martialis:subject a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range prov:Agent ;
+    rdfs:comment "The subject of an assertion." .
+
+martialis:object a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "The object of an assertion (Person, Organization, Rank, etc.)." .
+
+martialis:assertedPlace a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range martialis:Place .
+
+martialis:validDuring a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range martialis:TimeInterval .
+
+martialis:birthEvent a owl:ObjectProperty ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:LifeEvent .
+
+martialis:deathEvent a owl:ObjectProperty ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:LifeEvent .
+
+#################################################################
+# Temporal Modeling
+#################################################################
+
+martialis:TimeInterval a owl:Class ;
+    rdfs:subClassOf schema:Intangible ;
+    rdfs:comment "A time interval with optional start and end years." .
+
+martialis:startYear a owl:DatatypeProperty ;
+    rdfs:domain martialis:TimeInterval ;
+    rdfs:range xsd:gYear .
+
+martialis:endYear a owl:DatatypeProperty ;
+    rdfs:domain martialis:TimeInterval ;
+    rdfs:range xsd:gYear .
+
+martialis:LifeEvent a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "A life event (birth, death) with date, location, and sources." .
+
+#################################################################
+# Evidence & Provenance
+#################################################################
+
+martialis:SourceAssertionRelation a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "Represents how a source relates to an assertion." .
+
+martialis:hasEvidence a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range martialis:SourceAssertionRelation ;
+    rdfs:comment "Links an assertion to its evidence records." .
+
+martialis:aboutAssertion a owl:ObjectProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range martialis:Assertion .
+
+martialis:basedOnSource a owl:ObjectProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range martialis:Source .
+
+martialis:supports a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:boolean ;
+    rdfs:comment "Whether the source supports or contradicts the assertion." .
+
+martialis:evidenceType a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Oral, archival, certificate, interview, etc." .
+
+martialis:evidenceWeight a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Qualitative weight of evidence: low, medium, high, unknown." .
+
+martialis:quotation a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Direct quote from the source." .
+
+martialis:sourceLocation a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Location within source (page, chapter, etc.)." .
+
+martialis:coveredFields a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Which entity fields this source covers." .
+
+martialis:sourceRefType a owl:DatatypeProperty ;
+    rdfs:domain martialis:SourceAssertionRelation ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Proximity to evidence: primary, secondary, tertiary, unknown." .
+
+#################################################################
+# Teacher & Rank Assertion Properties
+#################################################################
+
+martialis:role a owl:DatatypeProperty ;
+    rdfs:domain martialis:TeacherAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type of relationship: student, uchi-deshi, seminar, private, examination." .
+
+martialis:rankValue a owl:DatatypeProperty ;
+    rdfs:domain martialis:RankAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The rank designation (e.g., '6 dan', 'Menkyo Kaiden')." .
+
+martialis:grantedBy a owl:ObjectProperty ;
+    rdfs:domain martialis:RankAssertion ;
+    rdfs:range prov:Agent ;
+    rdfs:comment "Person or organization that granted the rank." .
+
+#################################################################
+# Style Properties
+#################################################################
+
+martialis:styleType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Style ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Classification: koryu, gendai, hybrid, sport, other." .
+
+martialis:foundedEvent a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Style martialis:Organization) ] ;
+    rdfs:range martialis:LifeEvent ;
+    rdfs:comment "Founding event with date, location, and sources." .
+
+martialis:dissolvedEvent a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Style martialis:Organization) ] ;
+    rdfs:range martialis:LifeEvent ;
+    rdfs:comment "Dissolution event, if applicable." .
+
+martialis:founder a owl:ObjectProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Style martialis:Organization) ] ;
+    rdfs:range martialis:Person ;
+    rdfs:comment "Person who founded the style or organization." .
+
+#################################################################
+# Source Properties
+#################################################################
+
+martialis:sourceType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Source ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type: book, article, website, video, thesis, interview, archive." .
+
+#################################################################
+# Organization Properties
+#################################################################
+
+martialis:orgType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Organization ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type: federation, governing_body, school, association, other." .
+
+martialis:parentOrg a owl:ObjectProperty ;
+    rdfs:domain martialis:Organization ;
+    rdfs:range martialis:Organization .
+
+#################################################################
+# Confidence Assessment
+#################################################################
+
+martialis:Confidence a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "A confidence assessment applied to an assertion." .
+
+martialis:hasConfidence a owl:ObjectProperty ;
+    rdfs:domain martialis:Assertion ;
+    rdfs:range martialis:Confidence .
+
+martialis:assessedBy a owl:ObjectProperty ;
+    rdfs:domain martialis:Confidence ;
+    rdfs:range prov:Agent ;
+    rdfs:comment "The agent who performed the confidence assessment." .
+
+martialis:confidenceLevel a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Assertion martialis:Confidence) ] ;
+    rdfs:range xsd:integer ;
+    rdfs:comment "Confidence level: 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed." .
+
+martialis:confidenceRationale a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Assertion martialis:Confidence) ] ;
+    rdfs:range xsd:string .
+
+#################################################################
+# Query Convenience (Property Chains)
+#################################################################
+
+# Teacher inference
+martialis:wasTaughtBy a owl:ObjectProperty ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:Person ;
+    owl:propertyChainAxiom (
+        martialis:hasTeacherAssertion
+        martialis:object
+    ) .
+
+martialis:teaches a owl:ObjectProperty ;
+    owl:inverseOf martialis:wasTaughtBy .
+
+#################################################################
+# Rank inference (Person ← Rank)
+#################################################################
+
+martialis:holdsRank a owl:ObjectProperty ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:MartialArtRank ;
+    owl:propertyChainAxiom (
+        martialis:hasRankAssertion
+        martialis:object
+    ) .
