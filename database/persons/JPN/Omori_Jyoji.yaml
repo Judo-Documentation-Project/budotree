@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 person:
   id: JDP-103
   name: Geo Omori

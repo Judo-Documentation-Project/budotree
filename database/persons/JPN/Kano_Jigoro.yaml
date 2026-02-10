@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 person:
   id: JDP-1
   name: Kanō Jigorō

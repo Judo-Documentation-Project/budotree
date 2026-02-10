@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 person:
   id: JDP-58
   name: Abbe Kenshirõ

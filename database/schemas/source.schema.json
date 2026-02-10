@@ -8,9 +8,16 @@
   "properties": {
     "source": {
       "$ref": "#/definitions/Source"
+    },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
     }
   },
-  "required": ["source"],
+  "required": [
+    "source"
+  ],
   "definitions": {
     "Source": {
       "type": "object",
@@ -22,7 +29,15 @@
         },
         "type": {
           "type": "string",
-          "enum": ["book", "article", "website", "video", "thesis", "interview", "archive"],
+          "enum": [
+            "book",
+            "article",
+            "website",
+            "video",
+            "thesis",
+            "interview",
+            "archive"
+          ],
           "description": "Type of source"
         },
         "title": {

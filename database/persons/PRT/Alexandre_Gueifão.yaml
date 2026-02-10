@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 person:
   id: JDP-67
   name: Alexandre Gueifão

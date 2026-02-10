@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 place:
   id: JDP-P-1
   name: Kodokan

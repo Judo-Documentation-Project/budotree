@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 person:
   id: JDP-65
   name: Afonso Henriques Maia de Loureiro

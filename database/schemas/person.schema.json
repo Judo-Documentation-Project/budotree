@@ -8,9 +8,16 @@
   "properties": {
     "person": {
       "$ref": "#/definitions/Person"
+    },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
     }
   },
-  "required": ["person"],
+  "required": [
+    "person"
+  ],
   "definitions": {
     "Person": {
       "type": "object",
@@ -156,7 +163,13 @@
         },
         "role": {
           "type": "string",
-          "enum": ["student", "uchi-deshi", "seminar", "private", "examination"],
+          "enum": [
+            "student",
+            "uchi-deshi",
+            "seminar",
+            "private",
+            "examination"
+          ],
           "description": "Type of student-teacher relationship"
         },
         "confidence": {
@@ -196,7 +209,13 @@
         },
         "rank_type": {
           "type": "string",
-          "enum": ["dan", "kyu", "menkyo", "title", "other"],
+          "enum": [
+            "dan",
+            "kyu",
+            "menkyo",
+            "title",
+            "other"
+          ],
           "description": "Broad category of rank"
         },
         "org_id": {

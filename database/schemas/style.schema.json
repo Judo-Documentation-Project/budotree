@@ -8,9 +8,16 @@
   "properties": {
     "style": {
       "$ref": "#/definitions/Style"
+    },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
     }
   },
-  "required": ["style"],
+  "required": [
+    "style"
+  ],
   "definitions": {
     "Style": {
       "type": "object",
@@ -31,7 +38,13 @@
         },
         "type": {
           "type": "string",
-          "enum": ["koryu", "gendai", "hybrid", "sport", "other"],
+          "enum": [
+            "koryu",
+            "gendai",
+            "hybrid",
+            "sport",
+            "other"
+          ],
           "description": "Classification of the martial art style"
         },
         "related_styles": {
@@ -152,7 +165,12 @@
       "properties": {
         "type": {
           "type": "string",
-          "enum": ["dan-kyu", "menkyo", "military", "other"],
+          "enum": [
+            "dan-kyu",
+            "menkyo",
+            "military",
+            "other"
+          ],
           "description": "Type of ranking system"
         },
         "description": {
@@ -200,7 +218,12 @@
         },
         "type": {
           "type": "string",
-          "enum": ["derived_from", "split_from", "influenced_by", "sibling_style_of"],
+          "enum": [
+            "derived_from",
+            "split_from",
+            "influenced_by",
+            "sibling_style_of"
+          ],
           "description": "derived_from: direct technical lineage. split_from: conscious schism. influenced_by: partial influence. sibling_style_of: peer styles (symmetric, declare in both files)."
         },
         "confidence": {
@@ -217,7 +240,11 @@
           }
         }
       },
-      "required": ["style_id", "type", "confidence"]
+      "required": [
+        "style_id",
+        "type",
+        "confidence"
+      ]
     }
   }
 }

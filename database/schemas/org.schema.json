@@ -8,9 +8,16 @@
   "properties": {
     "org": {
       "$ref": "#/definitions/Organization"
+    },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
     }
   },
-  "required": ["org"],
+  "required": [
+    "org"
+  ],
   "definitions": {
     "Organization": {
       "type": "object",
@@ -28,7 +35,13 @@
         },
         "type": {
           "type": "string",
-          "enum": ["federation", "governing_body", "school", "association", "other"],
+          "enum": [
+            "federation",
+            "governing_body",
+            "school",
+            "association",
+            "other"
+          ],
           "description": "Type of organization"
         },
         "geo": {

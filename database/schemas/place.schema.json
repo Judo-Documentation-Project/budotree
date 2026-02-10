@@ -8,9 +8,16 @@
   "properties": {
     "place": {
       "$ref": "#/definitions/Place"
+    },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
     }
   },
-  "required": ["place"],
+  "required": [
+    "place"
+  ],
   "definitions": {
     "Place": {
       "type": "object",
@@ -28,7 +35,17 @@
         },
         "type": {
           "type": "string",
-          "enum": ["dojo", "club", "university", "temple", "arena", "gym", "military", "academy", "other"],
+          "enum": [
+            "dojo",
+            "club",
+            "university",
+            "temple",
+            "arena",
+            "gym",
+            "military",
+            "academy",
+            "other"
+          ],
           "description": "Type of training venue"
         },
         "geo": {

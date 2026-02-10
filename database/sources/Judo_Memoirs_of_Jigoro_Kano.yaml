@@ -1,3 +1,4 @@
+"@context": https://martial.is/context.jsonld
 source:
   id: JDP-SRC-1
   type: book
