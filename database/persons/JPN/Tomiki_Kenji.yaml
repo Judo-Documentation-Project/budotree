@@ -1,81 +1,81 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-26
-  name: Tomiki Kenji
-  native_name:
-    name: 富木 謙治
-    lang: ja
-  nationality:
-    - JPN
-  birth:
-    date: "1900-03-15"
-    geo:
-      location: Yokomachi
-      country_code: JPN
-  death:
-    date: "1979-12-25"
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - id: JDP-1
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: 1895
-        end: 1896
-      role: student
-      place_id: null
-    - id: JDP-27
-      style_id: JDP-S-4
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: 1926
-        end: null
-      role: student
-      place_id: null
-  rank:
-    - style_id: JDP-S-1
-      rank: 8 dan
-      date: 1971
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: JDP-O-1
-    - style_id: JDP-S-4
-      rank: 8 dan
-      date: 1971
-      granted_by: JDP-27
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      org_id: null
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
-      type: unknown
-      supports: true
-      weight: unknown
-  links:
-    - uri: https://www.wikidata.org/wiki/Q6389379
-      cite: Wikidata
-      type: wikidata
-    - uri: https://dbpedia.org/page/Kenji_Tomiki
-      cite: DBpedia
-      type: dbpedia
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-26
+name: Tomiki Kenji
+native_name:
+  name: 富木 謙治
+  lang: ja
+nationality:
+  - JPN
+birth:
+  date: "1900-03-15"
+  geo:
+    location: Yokomachi
+    country_code: JPN
+death:
+  date: "1979-12-25"
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: JDP-1
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: 1895
+      end: 1896
+    role: student
+    place_id: null
+  - id: JDP-27
+    style_id: JDP-S-4
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: 1926
+      end: null
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 8 dan
+    date: 1971
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: JDP-O-1
+  - style_id: JDP-S-4
+    rank: 8 dan
+    date: 1971
+    granted_by: JDP-27
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    org_id: null
+sources:
+  - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
+    type: unknown
+    supports: true
+    weight: unknown
+links:
+  - uri: https://www.wikidata.org/wiki/Q6389379
+    cite: Wikidata
+    type: wikidata
+  - uri: https://dbpedia.org/page/Kenji_Tomiki
+    cite: DBpedia
+    type: dbpedia

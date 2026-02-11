@@ -1,80 +1,80 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-128
-  name: Petrucio Monteiro
-  aka:
-    - name: Petrucio de Queiroz Monteiro
-  nationality:
-    - BRA
-  birth:
-    date: "1942"
-    geo:
-      location: ""
-      country_code: BRA
-  death:
-    date: "2022"
-    geo:
-      location: ""
-      country_code: BRA
-  photo:
-    url: https://i0.wp.com/judorio.org/wp-content/uploads/2022/04/Petrucio-Monteiro.jpg
-    source:
-      uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
-      cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
-  teachers:
-    - id: JDP-127
-      style_id: JDP-S-1
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      period:
-        start: null
-        end: null
-      sources:
-        - uri: https://benfeitoria.com/projeto/biopetrucio
-          cite: Biografia Petrucio Monteiro - Benfeitoria
-          quotation: O professor Petrucio seguiu a linha do professor Rudolf Hermanny
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-  rank:
-    - style_id: JDP-S-1
-      rank: 1 dan
-      date: "1967"
-      sources:
-        - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
-          cite: Petrucio Monteiro (PDF)
-          quotation: Faixa preta desde 1967
-          type: unknown
-          supports: true
-          weight: unknown
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      org_id: null
-  sources:
-    - uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
-      cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://benfeitoria.com/projeto/biopetrucio
-      cite: Biografia Petrucio Monteiro - Benfeitoria
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
-      cite: Petrucio Monteiro (PDF)
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.facebook.com/judopetruciomonteiro/
-      cite: Judô Petrucio Monteiro - Facebook
-      type: unknown
-      supports: true
-      weight: unknown
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-128
+name: Petrucio Monteiro
+aka:
+  - name: Petrucio de Queiroz Monteiro
+nationality:
+  - BRA
+birth:
+  date: "1942"
+  geo:
+    location: ""
+    country_code: BRA
+death:
+  date: "2022"
+  geo:
+    location: ""
+    country_code: BRA
+photo:
+  url: https://i0.wp.com/judorio.org/wp-content/uploads/2022/04/Petrucio-Monteiro.jpg
+  source:
+    uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
+    cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
+teachers:
+  - id: JDP-127
+    style_id: JDP-S-1
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    period:
+      start: null
+      end: null
+    sources:
+      - uri: https://benfeitoria.com/projeto/biopetrucio
+        cite: Biografia Petrucio Monteiro - Benfeitoria
+        quotation: O professor Petrucio seguiu a linha do professor Rudolf Hermanny
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 1 dan
+    date: "1967"
+    sources:
+      - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
+        cite: Petrucio Monteiro (PDF)
+        quotation: Faixa preta desde 1967
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    org_id: null
+sources:
+  - uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
+    cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://benfeitoria.com/projeto/biopetrucio
+    cite: Biografia Petrucio Monteiro - Benfeitoria
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
+    cite: Petrucio Monteiro (PDF)
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.facebook.com/judopetruciomonteiro/
+    cite: Judô Petrucio Monteiro - Facebook
+    type: unknown
+    supports: true
+    weight: unknown

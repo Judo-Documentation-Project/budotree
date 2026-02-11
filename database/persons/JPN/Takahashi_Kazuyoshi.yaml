@@ -1,49 +1,49 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-14
-  name: Takahashi Kazuyoshi
-  native_name:
-    name: 高橋数良
-    lang: ja
-  nationality:
-    - JPN
-  birth:
-    date: 1855
-    geo:
-      location: null
-      country_code: JPN
-  death:
-    date: 1942
-    geo:
-      location: null
-      country_code: null
-  description: null
-  teachers:
-    - id: JDP-9
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      role: student
-      place_id: JDP-P-1
-  rank:
-    - style_id: JDP-S-1
-      rank: 8 dan
-      date: null
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: JDP-O-1
-  sources:
-    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
-      type: unknown
-      supports: true
-      weight: unknown
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-14
+name: Takahashi Kazuyoshi
+native_name:
+  name: 高橋数良
+  lang: ja
+nationality:
+  - JPN
+birth:
+  date: 1855
+  geo:
+    location: null
+    country_code: JPN
+death:
+  date: 1942
+  geo:
+    location: null
+    country_code: null
+description: null
+teachers:
+  - id: JDP-9
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: JDP-P-1
+rank:
+  - style_id: JDP-S-1
+    rank: 8 dan
+    date: null
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: JDP-O-1
+sources:
+  - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+    type: unknown
+    supports: true
+    weight: unknown

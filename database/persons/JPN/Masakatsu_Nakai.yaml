@@ -1,54 +1,54 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-50
-  name: Masakatsu Naka
-  native_name:
-    name: 中井 正勝
-    lang: ja
-  nationality:
-    - JPN
-  birth:
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-50
+name: Masakatsu Naka
+native_name:
+  name: 中井 正勝
+  lang: ja
+nationality:
+  - JPN
+birth:
+  date: null
+  geo:
+    location: null
+    country_code: JPN
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: null
+    style_id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
     date: null
-    geo:
-      location: null
-      country_code: JPN
-  death:
-    date: null
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - id: null
-      style_id: null
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      role: student
-      place_id: null
-  rank:
-    - style_id: null
-      rank: null
-      date: null
-      rank_type: other
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
-      events:
-        - name native_name
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
-      type: unknown
-      supports: true
-      weight: unknown
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
+    events:
+      - name native_name
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+    type: unknown
+    supports: true
+    weight: unknown

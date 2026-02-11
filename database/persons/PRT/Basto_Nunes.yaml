@@ -1,80 +1,80 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-16
-  name: José Manuel Bastos Nunes
-  nationality:
-    - PRT
-  birth:
-    date: "1937-03-13"
-    geo:
-      location: Sintra
-      country_code: PRT
-  death:
-    date: "2024-01-20"
-    geo:
-      location: null
-      country_code: PRT
-  photo:
-    url: https://archive.org/download/bastos_nunes/bastos_nunes.jpg
-    source:
-      uri: https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0
-      cite: Tele-Judo e Karate-do (revista quinzenal), 1. 1977
-  teachers:
-    - id: JDP-12
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      role: student
-      place_id: null
-    - id: JDP-66
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      sources:
-        - uri: http://judokai.pt/JUDO%20-%20MANUAL.pdf
-          cite: "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)"
-          quotation: Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes.
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-  rank:
-    - style_id: JDP-S-1
-      rank: 9 dan
-      date: 2019
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://judolandia.tripod.com/bastosnunes.htm
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539
-      type: unknown
-      supports: true
-      weight: unknown
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-16
+name: José Manuel Bastos Nunes
+nationality:
+  - PRT
+birth:
+  date: "1937-03-13"
+  geo:
+    location: Sintra
+    country_code: PRT
+death:
+  date: "2024-01-20"
+  geo:
+    location: null
+    country_code: PRT
+photo:
+  url: https://archive.org/download/bastos_nunes/bastos_nunes.jpg
+  source:
+    uri: https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0
+    cite: Tele-Judo e Karate-do (revista quinzenal), 1. 1977
+teachers:
+  - id: JDP-12
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+  - id: JDP-66
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    sources:
+      - uri: http://judokai.pt/JUDO%20-%20MANUAL.pdf
+        cite: "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)"
+        quotation: Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes.
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 9 dan
+    date: 2019
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://judolandia.tripod.com/bastosnunes.htm
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539
+    type: unknown
+    supports: true
+    weight: unknown

@@ -1,84 +1,84 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-88
-  name: Mário Aguilar
-  nationality:
-    - PRT
-  birth:
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-88
+name: Mário Aguilar
+nationality:
+  - PRT
+birth:
+  date: null
+  geo:
+    location: null
+    country_code: null
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+photo:
+  url: https://archive.org/download/mario_aguilar/mario_aguilar.jpg
+  source:
+    uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
+    cite: Clube Desportivo Marista de Carcavelos (Facebook)
+teachers:
+  - id: JDP-61
+    style_id: JDP-S-1
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    period:
+      start: 1981
+      end: 1982
+    sources:
+      - uri: https://github.com/Judo-Documentation-Project/budotree
+        cite: Mário Aguilar, private communication, 2021
+        quotation: "... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano"
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+  - id: JDP-128
+    style_id: JDP-S-1
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    period:
+      start: 1980
+      end: 1981
+    sources:
+      - uri: https://github.com/Judo-Documentation-Project/budotree
+        cite: Mário Aguilar, private communication, 2021
+        quotation: "... os meus mestres por ordem cronológica foram: (...) Mestre Petrúcio Monteiro (Brasil) - 1980 a 1981 e meio"
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 2 dan
     date: null
-    geo:
-      location: null
-      country_code: null
-  death:
-    date: null
-    geo:
-      location: null
-      country_code: null
-  photo:
-    url: https://archive.org/download/mario_aguilar/mario_aguilar.jpg
-    source:
-      uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
-      cite: Clube Desportivo Marista de Carcavelos (Facebook)
-  teachers:
-    - id: JDP-61
-      style_id: JDP-S-1
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      period:
-        start: 1981
-        end: 1982
-      sources:
-        - uri: https://github.com/Judo-Documentation-Project/budotree
-          cite: Mário Aguilar, private communication, 2021
-          quotation: "... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano"
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-    - id: JDP-128
-      style_id: JDP-S-1
-      confidence:
-        level: 3
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 3"
-      period:
-        start: 1980
-        end: 1981
-      sources:
-        - uri: https://github.com/Judo-Documentation-Project/budotree
-          cite: Mário Aguilar, private communication, 2021
-          quotation: "... os meus mestres por ordem cronológica foram: (...) Mestre Petrúcio Monteiro (Brasil) - 1980 a 1981 e meio"
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-  rank:
-    - style_id: JDP-S-1
-      rank: 2 dan
-      date: null
-      sources:
-        - uri: https://github.com/Judo-Documentation-Project/budotree
-          cite: Mário Aguilar, private communication, 2021
-          type: unknown
-          supports: true
-          weight: unknown
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://cdmc.marista-carcavelos.org/judo/
-      type: unknown
-      supports: true
-      weight: unknown
+    sources:
+      - uri: https://github.com/Judo-Documentation-Project/budotree
+        cite: Mário Aguilar, private communication, 2021
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://cdmc.marista-carcavelos.org/judo/
+    type: unknown
+    supports: true
+    weight: unknown

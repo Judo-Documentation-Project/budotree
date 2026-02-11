@@ -1,48 +1,48 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-34
-  name: Ito Tanekichi
-  native_name:
-    name: 伊藤種吉
-    lang: null
-  nationality:
-    - JPN
-  birth:
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-34
+name: Ito Tanekichi
+native_name:
+  name: 伊藤種吉
+  lang: null
+nationality:
+  - JPN
+birth:
+  date: null
+  geo:
+    location: null
+    country_code: null
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: null
+    style_id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
     date: null
-    geo:
-      location: null
-      country_code: null
-  death:
-    date: null
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - id: null
-      style_id: null
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      role: student
-      place_id: null
-  rank:
-    - style_id: null
-      rank: null
-      date: null
-      rank_type: other
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
-      type: unknown
-      supports: true
-      weight: unknown
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+    type: unknown
+    supports: true
+    weight: unknown

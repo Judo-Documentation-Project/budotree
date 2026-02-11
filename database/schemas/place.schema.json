@@ -6,48 +6,40 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "place": {
-      "$ref": "#/definitions/Place"
-    },
     "@context": {
       "type": "string",
       "format": "uri",
       "description": "JSON-LD context URI for YAML-LD processing"
-    }
-  },
-  "required": [
-    "place"
-  ],
-  "definitions": {
-    "Place": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-P-[0-9]+$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "native_name": {
-          "$ref": "budotree.schema.json#/definitions/NativeName"
-        },
-        "type": {
-          "type": "string",
-          "enum": [
-            "dojo",
-            "club",
-            "university",
-            "temple",
-            "arena",
-            "gym",
-            "military",
-            "academy",
-            "other"
-          ],
-          "description": "Type of training venue"
-        },
+    },
+    "type": {
+      "type": "string",
+      "const": "Place"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-P-[0-9]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "native_name": {
+      "$ref": "budotree.schema.json#/definitions/NativeName"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "dojo",
+        "club",
+        "university",
+        "temple",
+        "arena",
+        "gym",
+        "military",
+        "academy",
+        "other"
+      ],
+      "description": "Type of training venue"
+    },
         "geo": {
           "anyOf": [
             {
@@ -152,18 +144,17 @@
             "$ref": "budotree.schema.json#/definitions/Link"
           }
         },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "type",
-        "geo",
-        "sources"
-      ],
-      "title": "Place"
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
     }
-  }
+  },
+  "required": [
+    "type",
+    "id",
+    "name",
+    "classification",
+    "geo",
+    "sources"
+  ],
+  "definitions": {}
 }

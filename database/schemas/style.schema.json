@@ -6,109 +6,101 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "style": {
-      "$ref": "#/definitions/Style"
-    },
     "@context": {
       "type": "string",
       "format": "uri",
       "description": "JSON-LD context URI for YAML-LD processing"
+    },
+    "type": {
+      "type": "string",
+      "const": "Style"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-S-[0-9]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "native_name": {
+      "$ref": "budotree.schema.json#/definitions/NativeName"
+    },
+    "aka": {
+      "$ref": "budotree.schema.json#/definitions/Aka"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "koryu",
+        "gendai",
+        "hybrid",
+        "sport",
+        "other"
+      ],
+      "description": "Classification of the martial art style"
+    },
+    "related_styles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/StyleRelationship"
+      },
+      "description": "Typed relationships to other styles (lineage, influence, kinship)"
+    },
+    "founded": {
+      "$ref": "#/definitions/StyleLifeEvent",
+      "description": "When and where the style was founded"
+    },
+    "dissolved": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/StyleLifeEvent",
+          "description": "When the style dissolved (null if still active)"
+        }
+      ]
+    },
+    "rank_system": {
+      "$ref": "#/definitions/RankSystem"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "budotree.schema.json#/definitions/Description"
+        }
+      ]
+    },
+    "media": {
+      "$ref": "#/definitions/Media"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "budotree.schema.json#/definitions/SourceRef"
+      }
+    },
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "budotree.schema.json#/definitions/Link"
+      }
     }
   },
   "required": [
-    "style"
+    "type",
+    "id",
+    "name",
+    "founded",
+    "sources"
   ],
   "definitions": {
-    "Style": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-S-[0-9]+$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "native_name": {
-          "$ref": "budotree.schema.json#/definitions/NativeName"
-        },
-        "aka": {
-          "$ref": "budotree.schema.json#/definitions/Aka"
-        },
-        "type": {
-          "type": "string",
-          "enum": [
-            "koryu",
-            "gendai",
-            "hybrid",
-            "sport",
-            "other"
-          ],
-          "description": "Classification of the martial art style"
-        },
-        "related_styles": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/StyleRelationship"
-          },
-          "description": "Typed relationships to other styles (lineage, influence, kinship)"
-        },
-        "founded": {
-          "$ref": "#/definitions/StyleLifeEvent",
-          "description": "When and where the style was founded"
-        },
-        "dissolved": {
-          "anyOf": [
-            {
-              "type": "null"
-            },
-            {
-              "$ref": "#/definitions/StyleLifeEvent",
-              "description": "When the style dissolved (null if still active)"
-            }
-          ]
-        },
-        "rank_system": {
-          "$ref": "#/definitions/RankSystem"
-        },
-        "description": {
-          "anyOf": [
-            {
-              "type": "null"
-            },
-            {
-              "$ref": "budotree.schema.json#/definitions/Description"
-            }
-          ]
-        },
-        "media": {
-          "$ref": "#/definitions/Media"
-        },
-        "sources": {
-          "type": "array",
-          "items": {
-            "$ref": "budotree.schema.json#/definitions/SourceRef"
-          }
-        },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        },
-        "links": {
-          "type": "array",
-          "items": {
-            "$ref": "budotree.schema.json#/definitions/Link"
-          }
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "founded",
-        "sources"
-      ],
-      "title": "Style"
-    },
     "StyleLifeEvent": {
       "type": "object",
       "additionalProperties": false,

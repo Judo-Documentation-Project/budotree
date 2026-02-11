@@ -1,23 +1,23 @@
-"@context": https://martial.is/context.jsonld
-style:
-  id: JDP-S-7
-  name: Yōshin-ryū
-  native_name:
-    name: 楊心流
-    lang: ja
-  aka:
-    - name: Yōshin Koryū
-      native_name:
-        name: 楊心古流
-        lang: ja
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB
-      type: unknown
-      supports: true
-      weight: unknown
-  founded:
-    date: 1610
-    geo:
-      location: null
-      country_code: JPN
-  type: koryu
+'@context': https://martial.is/context.jsonld
+type: Style
+id: JDP-S-7
+name: Yōshin-ryū
+native_name:
+  name: 楊心流
+  lang: ja
+aka:
+  - name: Yōshin Koryū
+    native_name:
+      name: 楊心古流
+      lang: ja
+sources:
+  - uri: https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB
+    type: unknown
+    supports: true
+    weight: unknown
+founded:
+  date: 1610
+  geo:
+    location: null
+    country_code: JPN
+classification: koryu

@@ -6,28 +6,27 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "event": {
-      "$ref": "#/definitions/Event"
-    }
-  },
-  "required": ["event"],
-  "definitions": {
-    "Event": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-E-[0-9]+$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "type": {
-          "type": "string",
-          "enum": ["founding", "tournament", "demonstration", "recognition", "other"],
-          "description": "Type of event"
-        },
+    "@context": {
+      "type": "string",
+      "format": "uri",
+      "description": "JSON-LD context URI for YAML-LD processing"
+    },
+    "type": {
+      "type": "string",
+      "const": "Event"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-E-[0-9]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "string",
+      "enum": ["founding", "tournament", "demonstration", "recognition", "other"],
+      "description": "Type of event"
+    },
         "date": {
           "$ref": "budotree.schema.json#/definitions/BudoDate"
         },
@@ -107,18 +106,17 @@
             "$ref": "budotree.schema.json#/definitions/SourceRef"
           }
         },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "type",
-        "date",
-        "sources"
-      ],
-      "title": "Event"
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
     }
-  }
+  },
+  "required": [
+    "type",
+    "id",
+    "name",
+    "classification",
+    "date",
+    "sources"
+  ],
+  "definitions": {}
 }

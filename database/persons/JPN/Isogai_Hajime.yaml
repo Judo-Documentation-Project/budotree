@@ -1,59 +1,59 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-43
-  name: Isogai Hajime
-  native_name:
-    name: 磯貝
-    lang: ja
-  nationality:
-    - JPN
-  birth:
-    date: "1871-10-26"
-    geo:
-      location: Miyazaki
-      country_code: JPN
-  death:
-    date: "1947-04-19"
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - id: JDP-9
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: 1891
-        end: null
-      role: student
-      place_id: JDP-P-1
-  rank:
-    - style_id: JDP-S-1
-      rank: 10 dan
-      date: "1927-12-22"
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: JDP-O-1
-  sources:
-    - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
-      type: unknown
-      supports: true
-      weight: unknown
-  links:
-    - uri: https://www.wikidata.org/wiki/Q11973675
-      cite: Wikidata
-      type: wikidata
-    - uri: https://dbpedia.org/page/Hajime_Isogai
-      cite: DBpedia
-      type: dbpedia
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-43
+name: Isogai Hajime
+native_name:
+  name: 磯貝
+  lang: ja
+nationality:
+  - JPN
+birth:
+  date: "1871-10-26"
+  geo:
+    location: Miyazaki
+    country_code: JPN
+death:
+  date: "1947-04-19"
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: JDP-9
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: 1891
+      end: null
+    role: student
+    place_id: JDP-P-1
+rank:
+  - style_id: JDP-S-1
+    rank: 10 dan
+    date: "1927-12-22"
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: JDP-O-1
+sources:
+  - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+    type: unknown
+    supports: true
+    weight: unknown
+links:
+  - uri: https://www.wikidata.org/wiki/Q11973675
+    cite: Wikidata
+    type: wikidata
+  - uri: https://dbpedia.org/page/Hajime_Isogai
+    cite: DBpedia
+    type: dbpedia

@@ -6,40 +6,32 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "source": {
-      "$ref": "#/definitions/Source"
-    },
     "@context": {
       "type": "string",
       "format": "uri",
       "description": "JSON-LD context URI for YAML-LD processing"
-    }
-  },
-  "required": [
-    "source"
-  ],
-  "definitions": {
-    "Source": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-SRC-[0-9]+$"
-        },
-        "type": {
-          "type": "string",
-          "enum": [
-            "book",
-            "article",
-            "website",
-            "video",
-            "thesis",
-            "interview",
-            "archive"
-          ],
-          "description": "Type of source"
-        },
+    },
+    "type": {
+      "type": "string",
+      "const": "Source"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-SRC-[0-9]+$"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "book",
+        "article",
+        "website",
+        "video",
+        "thesis",
+        "interview",
+        "archive"
+      ],
+      "description": "Type of source"
+    },
         "title": {
           "type": "string"
         },
@@ -144,16 +136,15 @@
             }
           ]
         },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        }
-      },
-      "required": [
-        "id",
-        "type",
-        "title"
-      ],
-      "title": "Source"
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
     }
-  }
+  },
+  "required": [
+    "type",
+    "id",
+    "classification",
+    "title"
+  ],
+  "definitions": {}
 }

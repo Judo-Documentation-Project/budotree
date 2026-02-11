@@ -6,118 +6,110 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "person": {
-      "$ref": "#/definitions/Person"
-    },
     "@context": {
       "type": "string",
       "format": "uri",
       "description": "JSON-LD context URI for YAML-LD processing"
+    },
+    "type": {
+      "type": "string",
+      "const": "Person"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-[0-9]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "native_name": {
+      "$ref": "budotree.schema.json#/definitions/NativeName"
+    },
+    "aka": {
+      "$ref": "budotree.schema.json#/definitions/Aka"
+    },
+    "nationality": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{3}$"
+      }
+    },
+    "nationality_qid": {
+      "type": "array",
+      "items": {
+        "$ref": "budotree.schema.json#/definitions/WikidataQID"
+      }
+    },
+    "birth": {
+      "$ref": "budotree.schema.json#/definitions/LifeEvent"
+    },
+    "death": {
+      "$ref": "budotree.schema.json#/definitions/LifeEvent"
+    },
+    "description": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "budotree.schema.json#/definitions/Description"
+        }
+      ]
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "budotree.schema.json#/definitions/Notes"
+        }
+      ]
+    },
+    "photo": {
+      "$ref": "budotree.schema.json#/definitions/Photo"
+    },
+    "teachers": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Teacher"
+      }
+    },
+    "rank": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Rank"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "budotree.schema.json#/definitions/SourceRef"
+      }
+    },
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "budotree.schema.json#/definitions/Link"
+      }
     }
   },
   "required": [
-    "person"
+    "type",
+    "id",
+    "name",
+    "nationality",
+    "birth",
+    "death",
+    "teachers",
+    "rank",
+    "sources"
   ],
   "definitions": {
-    "Person": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-[0-9]+$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "native_name": {
-          "$ref": "budotree.schema.json#/definitions/NativeName"
-        },
-        "aka": {
-          "$ref": "budotree.schema.json#/definitions/Aka"
-        },
-        "nationality": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "pattern": "^[A-Z]{3}$"
-          }
-        },
-        "nationality_qid": {
-          "type": "array",
-          "items": {
-            "$ref": "budotree.schema.json#/definitions/WikidataQID"
-          }
-        },
-        "birth": {
-          "$ref": "budotree.schema.json#/definitions/LifeEvent"
-        },
-        "death": {
-          "$ref": "budotree.schema.json#/definitions/LifeEvent"
-        },
-        "description": {
-          "anyOf": [
-            {
-              "type": "null"
-            },
-            {
-              "$ref": "budotree.schema.json#/definitions/Description"
-            }
-          ]
-        },
-        "notes": {
-          "anyOf": [
-            {
-              "type": "null"
-            },
-            {
-              "$ref": "budotree.schema.json#/definitions/Notes"
-            }
-          ]
-        },
-        "photo": {
-          "$ref": "budotree.schema.json#/definitions/Photo"
-        },
-        "teachers": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Teacher"
-          }
-        },
-        "rank": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/Rank"
-          }
-        },
-        "sources": {
-          "type": "array",
-          "items": {
-            "$ref": "budotree.schema.json#/definitions/SourceRef"
-          }
-        },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        },
-        "links": {
-          "type": "array",
-          "items": {
-            "$ref": "budotree.schema.json#/definitions/Link"
-          }
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "nationality",
-        "birth",
-        "death",
-        "teachers",
-        "rank",
-        "sources"
-      ],
-      "title": "Person"
-    },
     "Teacher": {
       "type": "object",
       "additionalProperties": false,

@@ -212,6 +212,15 @@ martialis:styleType a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     rdfs:comment "Classification: koryu, gendai, hybrid, sport, other." .
 
+martialis:rankSystemType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Style ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Ranking system type: dan-kyu, menkyo, military, other." .
+
+martialis:rankSystem a owl:ObjectProperty ;
+    rdfs:domain martialis:Style ;
+    rdfs:comment "The ranking system used by a style." .
+
 martialis:foundedEvent a owl:ObjectProperty ;
     rdfs:domain [ a owl:Class ; owl:unionOf (martialis:Style martialis:Organization) ] ;
     rdfs:range martialis:LifeEvent ;
@@ -248,6 +257,28 @@ martialis:orgType a owl:DatatypeProperty ;
 martialis:parentOrg a owl:ObjectProperty ;
     rdfs:domain martialis:Organization ;
     rdfs:range martialis:Organization .
+
+#################################################################
+# Place Properties
+#################################################################
+
+martialis:placeType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Place ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type: dojo, club, university, temple, arena, gym, military, academy, other." .
+
+#################################################################
+# Event Properties
+#################################################################
+
+martialis:Event a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "A notable event in martial arts history." .
+
+martialis:eventType a owl:DatatypeProperty ;
+    rdfs:domain martialis:Event ;
+    rdfs:range xsd:string ;
+    rdfs:comment "Type: founding, tournament, demonstration, recognition, other." .
 
 #################################################################
 # Confidence Assessment

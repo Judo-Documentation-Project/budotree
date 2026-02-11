@@ -1,106 +1,106 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-52
-  name: Karl Geis
-  aka:
-    - name: Karl Geis
-  nationality:
-    - USA
-  birth:
-    date: 1933
-    geo:
-      location: Houston, Texas
-      country_code: USA
-  death:
-    date: "2014-04-07"
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - id: JDP-12
-      style_id: JDP-S-1
-      period:
-        start: 1952
-        end: null
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources:
-        - uri: https://www.karlgeis.com/his-resume
-          cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
-          quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: JDP-P-1
-    - id: JDP-53
-      style_id: JDP-S-4
-      period:
-        start: null
-        end: null
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources:
-        - uri: https://www.karlgeis.com/his-resume
-          cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
-          quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-  rank:
-    - style_id: JDP-S-1
-      rank: 10 dan
-      date: 2014
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-    - style_id: JDP-S-4
-      rank: 10 dan
-      date: 1997
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-    - style_id: JDP-S-4
-      rank: 6 dan
-      date: 1980
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Karl_Geis
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.karlgeis.com/his-resume
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
-      type: unknown
-      supports: true
-      weight: unknown
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-52
+name: Karl Geis
+aka:
+  - name: Karl Geis
+nationality:
+  - USA
+birth:
+  date: 1933
+  geo:
+    location: Houston, Texas
+    country_code: USA
+death:
+  date: "2014-04-07"
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: JDP-12
+    style_id: JDP-S-1
+    period:
+      start: 1952
+      end: null
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources:
+      - uri: https://www.karlgeis.com/his-resume
+        cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+        quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: JDP-P-1
+  - id: JDP-53
+    style_id: JDP-S-4
+    period:
+      start: null
+      end: null
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources:
+      - uri: https://www.karlgeis.com/his-resume
+        cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+        quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 10 dan
+    date: 2014
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+  - style_id: JDP-S-4
+    rank: 10 dan
+    date: 1997
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+  - style_id: JDP-S-4
+    rank: 6 dan
+    date: 1980
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://en.wikipedia.org/wiki/Karl_Geis
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.karlgeis.com/his-resume
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
+    type: unknown
+    supports: true
+    weight: unknown

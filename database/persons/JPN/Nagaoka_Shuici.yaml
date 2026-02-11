@@ -1,65 +1,65 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-44
-  name: Nagaoka Shūichi
-  native_name:
-    name: 永岡 秀一
-    lang: ja
-  aka:
-    - name: Nagaoka Hideichi
-  nationality:
-    - JPN
-  birth:
-    date: "1876-09-17"
-    geo:
-      location: Okayama
-      country_code: JPN
-  death:
-    date: "1952-11-22"
-    geo:
-      location: null
-      country_code: null
-  teachers:
-    - style_id: JDP-S-2
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: null
-        end: null
-      role: student
-      id: null
-      place_id: null
-    - id: JDP-1
-      style_id: JDP-S-1
-      confidence:
-        level: null
-        assessed_by: JDP
-        rationale: Legacy quality field migration - value was null
-      period:
-        start: 1891
-        end: null
-      role: student
-      place_id: JDP-P-1
-  rank:
-    - style_id: JDP-S-1
-      rank: 10 dan
-      date: "1937-12-27"
-      rank_type: dan
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: JDP-O-1
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.judo-ch.jp/english/legend/nagaoka/
-      type: unknown
-      supports: true
-      weight: unknown
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-44
+name: Nagaoka Shūichi
+native_name:
+  name: 永岡 秀一
+  lang: ja
+aka:
+  - name: Nagaoka Hideichi
+nationality:
+  - JPN
+birth:
+  date: "1876-09-17"
+  geo:
+    location: Okayama
+    country_code: JPN
+death:
+  date: "1952-11-22"
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - style_id: JDP-S-2
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    id: null
+    place_id: null
+  - id: JDP-1
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: 1891
+      end: null
+    role: student
+    place_id: JDP-P-1
+rank:
+  - style_id: JDP-S-1
+    rank: 10 dan
+    date: "1937-12-27"
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: JDP-O-1
+sources:
+  - uri: https://en.wikipedia.org/wiki/Shuichi_Nagaoka
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.judo-ch.jp/english/legend/nagaoka/
+    type: unknown
+    supports: true
+    weight: unknown

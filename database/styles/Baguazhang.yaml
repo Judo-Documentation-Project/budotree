@@ -1,37 +1,37 @@
-"@context": https://martial.is/context.jsonld
-style:
-  id: JDP-S-17
-  name: Baguazhang
-  native_name:
-    name: 八卦掌
-    lang: zh
-  media:
-    photos:
-      - url: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
-        source:
-          uri: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
-          cite: Photo
-    videos:
-      - url: https://www.youtube.com/watch?v=0E_mVfFfsPU
-        source:
-          uri: https://www.youtube.com/watch?v=0E_mVfFfsPU
-          cite: Video
-  description:
-    en: |
-      Baguazhang (Chinese: 八卦掌; pinyin: bā guà zhǎng; Wade–Giles: pa-kua chang) is one of the three main Chinese martial arts of the Wudang school, the other two being tai chi and xingyiquan. It is more broadly grouped as an internal practice (or neijia). Baguazhang literally means "eight trigram palm", referring to the bagua "trigrams" of the I Ching, one of the canons of Taoism.
-    zh: 八卦掌為中國武術的著名拳種，源自清朝末年武師董海川，與太極拳和形意拳並稱三大內家拳。
-  sources:
-    - uri: https://en.wikipedia.org/wiki/Baguazhang
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://zh.wikipedia.org/wiki/%E5%85%AB%E5%8D%A6%E6%8E%8C
-      type: unknown
-      supports: true
-      weight: unknown
-  founded:
-    date: null
-    geo:
-      location: null
-      country_code: CHN
-  type: gendai
+'@context': https://martial.is/context.jsonld
+type: Style
+id: JDP-S-17
+name: Baguazhang
+native_name:
+  name: 八卦掌
+  lang: zh
+media:
+  photos:
+    - url: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
+      source:
+        uri: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
+        cite: Photo
+  videos:
+    - url: https://www.youtube.com/watch?v=0E_mVfFfsPU
+      source:
+        uri: https://www.youtube.com/watch?v=0E_mVfFfsPU
+        cite: Video
+description:
+  en: |
+    Baguazhang (Chinese: 八卦掌; pinyin: bā guà zhǎng; Wade–Giles: pa-kua chang) is one of the three main Chinese martial arts of the Wudang school, the other two being tai chi and xingyiquan. It is more broadly grouped as an internal practice (or neijia). Baguazhang literally means "eight trigram palm", referring to the bagua "trigrams" of the I Ching, one of the canons of Taoism.
+  zh: 八卦掌為中國武術的著名拳種，源自清朝末年武師董海川，與太極拳和形意拳並稱三大內家拳。
+sources:
+  - uri: https://en.wikipedia.org/wiki/Baguazhang
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://zh.wikipedia.org/wiki/%E5%85%AB%E5%8D%A6%E6%8E%8C
+    type: unknown
+    supports: true
+    weight: unknown
+founded:
+  date: null
+  geo:
+    location: null
+    country_code: CHN
+classification: gendai

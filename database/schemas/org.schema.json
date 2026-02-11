@@ -6,44 +6,36 @@
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "org": {
-      "$ref": "#/definitions/Organization"
-    },
     "@context": {
       "type": "string",
       "format": "uri",
       "description": "JSON-LD context URI for YAML-LD processing"
-    }
-  },
-  "required": [
-    "org"
-  ],
-  "definitions": {
-    "Organization": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^JDP-O-[0-9]+$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "native_name": {
-          "$ref": "budotree.schema.json#/definitions/NativeName"
-        },
-        "type": {
-          "type": "string",
-          "enum": [
-            "federation",
-            "governing_body",
-            "school",
-            "association",
-            "other"
-          ],
-          "description": "Type of organization"
-        },
+    },
+    "type": {
+      "type": "string",
+      "const": "Organization"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^JDP-O-[0-9]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "native_name": {
+      "$ref": "budotree.schema.json#/definitions/NativeName"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "federation",
+        "governing_body",
+        "school",
+        "association",
+        "other"
+      ],
+      "description": "Type of organization"
+    },
         "geo": {
           "anyOf": [
             {
@@ -148,17 +140,16 @@
             "$ref": "budotree.schema.json#/definitions/Link"
           }
         },
-        "tags": {
-          "$ref": "budotree.schema.json#/definitions/Tags"
-        }
-      },
-      "required": [
-        "id",
-        "name",
-        "type",
-        "sources"
-      ],
-      "title": "Organization"
+    "tags": {
+      "$ref": "budotree.schema.json#/definitions/Tags"
     }
-  }
+  },
+  "required": [
+    "type",
+    "id",
+    "name",
+    "classification",
+    "sources"
+  ],
+  "definitions": {}
 }

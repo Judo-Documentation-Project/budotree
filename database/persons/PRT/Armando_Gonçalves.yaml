@@ -1,74 +1,74 @@
-"@context": https://martial.is/context.jsonld
-person:
-  id: JDP-76
-  name: Armando Gonçalves
-  nationality:
-    - PRT
-  birth:
+'@context': https://martial.is/context.jsonld
+type: Person
+id: JDP-76
+name: Armando Gonçalves
+nationality:
+  - PRT
+birth:
+  date: null
+  geo:
+    location: null
+    country_code: null
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+photo:
+  url: https://archive.org/download/armando_goncalves/armando_goncalves.png
+  source:
+    uri: http://id.bnportugal.gov.pt/bib/catbnp/735884
+    cite: "GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942."
+teachers:
+  - id: JDP-77
+    style_id: JDP-S-14
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    period:
+      start: null
+      end: null
+    sources:
+      - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
+        cite: GONÇALVES, Armando; O fraco vence o forte. 1941
+        quotation: Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
     date: null
-    geo:
-      location: null
-      country_code: null
-  death:
-    date: null
-    geo:
-      location: null
-      country_code: null
-  photo:
-    url: https://archive.org/download/armando_goncalves/armando_goncalves.png
-    source:
-      uri: http://id.bnportugal.gov.pt/bib/catbnp/735884
-      cite: "GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942."
-  teachers:
-    - id: JDP-77
-      style_id: JDP-S-14
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      period:
-        start: null
-        end: null
-      sources:
-        - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
-          cite: GONÇALVES, Armando; O fraco vence o forte. 1941
-          quotation: Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano
-          type: unknown
-          supports: true
-          weight: unknown
-      role: student
-      place_id: null
-  rank:
-    - style_id: null
-      rank: null
-      date: null
-      rank_type: other
-      confidence:
-        level: 2
-        assessed_by: JDP
-        rationale: "Legacy quality field migration - original value: 2"
-      sources: []
-      granted_by: null
-      org_id: null
-  sources:
-    - uri: https://judolandia.tripod.com/histport.htm
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.fjjdap.pt/jujitsu/
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.ungoshin.pt/correa-pereira-historia-budo
-      type: unknown
-      supports: true
-      weight: unknown
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
-      cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
-      type: unknown
-      supports: true
-      weight: unknown
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://judolandia.tripod.com/histport.htm
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.fjjdap.pt/jujitsu/
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.ungoshin.pt/correa-pereira-historia-budo
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
+    type: unknown
+    supports: true
+    weight: unknown
