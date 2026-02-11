@@ -86,44 +86,23 @@
         }
       ]
     },
-    "NativeName": {
+    "LanguageMap": {
       "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "lang": {
-          "type": "string",
-          "description": "ISO 639-1 language code"
-        }
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        ]
       },
-      "required": ["lang", "name"],
-      "title": "NativeName"
-    },
-    "AkaEntry": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "native_name": {
-          "$ref": "#/definitions/NativeName"
-        }
-      },
-      "anyOf": [
-        {"required": ["name"]},
-        {"required": ["native_name"]}
-      ],
-      "title": "AkaEntry"
-    },
-    "Aka": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/AkaEntry"
-      },
-      "title": "Aka"
+      "title": "LanguageMap",
+      "description": "BCP 47 language code to string(s) map"
     },
     "Period": {
       "type": "object",

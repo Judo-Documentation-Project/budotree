@@ -1,64 +1,63 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-35
-name: Shiina Ichizo
-native_name:
-  name: 椎名市蔵
-  lang: ja
+name:
+  ja-Latn: Shiina Ichizo
+  ja: 椎名市蔵
 nationality:
-  - JPN
+- JPN
 birth:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: JDP-116
-    style_id: JDP-S-6
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    sources:
-      - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
-        cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
-        quotation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
-    type: unknown
-    supports: true
-    weight: unknown
+- id: JDP-116
+  style_id: JDP-S-6
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start:
+    end:
+  sources:
   - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
     cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+    quotation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô"
     type: unknown
     supports: true
     weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E8%AC%9B%E9%81%93%E9%A4%A8
-    cite: 講道館
-    type: unknown
-    supports: true
-    weight: unknown
+  role: student
+  place_id:
+rank:
+- rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+  cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E8%AC%9B%E9%81%93%E9%A4%A8
+  cite: 講道館
+  type: unknown
+  supports: true
+  weight: unknown

@@ -1,48 +1,47 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-34
-name: Ito Tanekichi
-native_name:
-  name: 伊藤種吉
-  lang: null
+name:
+  ja-Latn: Ito Tanekichi
+  ja: 伊藤種吉
 nationality:
-  - JPN
+- JPN
 birth:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    role: student
-    place_id: null
+- id:
+  style_id:
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start:
+    end:
+  role: student
+  place_id:
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+  type: unknown
+  supports: true
+  weight: unknown

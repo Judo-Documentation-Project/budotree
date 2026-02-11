@@ -1,9 +1,10 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-45
-name: Mario Aleixo
+name:
+  pt: Mario Aleixo
 nationality:
-  - BRA
+- BRA
 birth:
   date: 1887
   geo:
@@ -12,61 +13,61 @@ birth:
 death:
   date: 1947
   geo:
-    location: null
+    location:
     country_code: BRA
 teachers:
-  - id: JDP-18
-    style_id: JDP-S-1
-    period:
-      start: 1915
-      end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://isbnsearch.org/isbn/9798639871030
-        cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-        location: vol. 1, p. 110
-        quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-107
-    style_id: JDP-S-1
-    period:
-      start: 1909
-      end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://isbnsearch.org/isbn/9798639871030
-        cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-        location: vol. 1, p. 110
-        quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://agbook.com.br/book/361393--MUITO_ANTES_DO_MMA_O_legado_dos_precursores_do_Vale_Tudo_no_Brasil_e_no_mundo
+- id: JDP-18
+  style_id: JDP-S-1
+  period:
+    start: 1915
+    end:
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
+  - uri: https://isbnsearch.org/isbn/9798639871030
+    cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    location: vol. 1, p. 110
+    quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
     type: unknown
     supports: true
     weight: unknown
+  role: student
+  place_id:
+- id: JDP-107
+  style_id: JDP-S-1
+  period:
+    start: 1909
+    end:
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
+  - uri: https://isbnsearch.org/isbn/9798639871030
+    cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    location: vol. 1, p. 110
+    quotation: Mário Alexio teve o privilégio de se adestrar no Jiu Jitsu com dois dos mais experientes e famosos mestres japoneses dos ringues. Recebeu suas primeiras instruções de Sada Miyako por volta de 1909. Posteriormente teve a oportunidade de se aperfeiçoar com o grande Conde Koma, pouco depois deste chegar ao Brasil, em 1915.
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
+rank:
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://agbook.com.br/book/361393--MUITO_ANTES_DO_MMA_O_legado_dos_precursores_do_Vale_Tudo_no_Brasil_e_no_mundo
+  type: unknown
+  supports: true
+  weight: unknown

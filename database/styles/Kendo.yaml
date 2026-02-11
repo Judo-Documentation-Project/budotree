@@ -1,18 +1,17 @@
 '@context': https://martial.is/context.jsonld
 type: Style
 id: JDP-S-8
-name: Kendo
-native_name:
-  name: 剣道
-  lang: ja
+name:
+  ja-Latn: Kendo
+  ja: 剣道
 sources:
-  - uri: https://www.kendo.or.jp/en/knowledge/kendo-history/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.kendo.or.jp/en/knowledge/kendo-history/
+  type: unknown
+  supports: true
+  weight: unknown
 founded:
   date: 1912
   geo:
-    location: null
+    location:
     country_code: JPN
 classification: gendai

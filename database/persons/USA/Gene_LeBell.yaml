@@ -1,11 +1,12 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-120
-name: Gene LeBell
+name:
+  en: Gene LeBell
 aka:
-  - name: Ivan Gene LeBell
+  en: Ivan Gene LeBell
 nationality:
-  - USA
+- USA
 birth:
   date: "1932-10-09"
   geo:
@@ -24,43 +25,43 @@ photo:
 description:
   en: Ivan Gene LeBell (October 9, 1932 – August 9, 2022) was an American judoka, stuntman, actor and professional wrestler. Nicknamed "Judo Gene" and "The Godfather of Grappling", he is credited with popularizing grappling in professional fighting circles, serving as a precursor to modern mixed martial arts. He worked on over 1,000 films and TV shows and authored 12 books.
 teachers:
-  - id: JDP-119
-    style_id: JDP-S-1
-    period:
-      start: 1953
-      end: 1955
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
-        cite: "Mokuren Interview: 'Judo' Gene LeBell (Mokuren Dojo)"
-        quotation: "Who do you think were the greatest judo teachers you ever got to learn from? Gene Lebell: In the U.S. Shig Tashma, Larry Coughran, Kenneth Kinyuki, Fuji Nazawa (who just died 2 days ago), and of course I learned a lot from training in Japan (Ishikawa)"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://en.wikipedia.org/wiki/Harold_Sharp
-    type: unknown
-    supports: true
-    weight: unknown
+- id: JDP-119
+  style_id: JDP-S-1
+  period:
+    start: 1953
+    end: 1955
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
   - uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
     cite: "Mokuren Interview: 'Judo' Gene LeBell (Mokuren Dojo)"
+    quotation: "Who do you think were the greatest judo teachers you ever got to learn from? Gene Lebell: In the U.S. Shig Tashma, Larry Coughran, Kenneth Kinyuki, Fuji Nazawa (who just died 2 days ago), and of course I learned a lot from training in Japan (Ishikawa)"
     type: unknown
     supports: true
     weight: unknown
+  role: student
+  place_id:
+rank:
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://en.wikipedia.org/wiki/Harold_Sharp
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
+  cite: "Mokuren Interview: 'Judo' Gene LeBell (Mokuren Dojo)"
+  type: unknown
+  supports: true
+  weight: unknown

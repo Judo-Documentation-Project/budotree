@@ -1,20 +1,17 @@
 '@context': https://martial.is/context.jsonld
 type: Style
 id: JDP-S-5
-name: Karate
-native_name:
-  name: 空手
-  lang: ja
+name:
+  ja-Latn: Karate
+  ja: 空手
 aka:
-  - name: Karatedo
-    native_name:
-      name: 空手道
-      lang: ja
+  ja-Latn: Karatedo
+  ja: 空手道
 sources:
-  - uri: https://en.wikipedia.org/wiki/Karate
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Karate
+  type: unknown
+  supports: true
+  weight: unknown
 founded:
   date: 1800
   geo:

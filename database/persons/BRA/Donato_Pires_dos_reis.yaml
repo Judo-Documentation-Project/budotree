@@ -1,71 +1,72 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-23
-name: Donato Pires dos Reis
+name:
+  pt: Donato Pires dos Reis
 nationality:
-  - BRA
+- BRA
 birth:
-  date: null
+  date:
   geo:
     location: Belém, Pará
     country_code: BRA
 death:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 photo:
   url: https://archive.org/download/donato/donato.png
   source:
     uri: https://simonbjj.com/donato-pires
     cite: Donato Pires dos Reis, RJ, 1930
 teachers:
-  - id: JDP-19
-    style_id: JDP-S-1
-    period:
-      start: 1920
-      end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    sources:
-      - uri: https://isbnsearch.org/isbn/9798639871030
-        cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-        location: vol. 3, p. 94
-        quotation: ...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda...
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
-    type: unknown
-    supports: true
-    weight: unknown
+- id: JDP-19
+  style_id: JDP-S-1
+  period:
+    start: 1920
+    end:
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  sources:
   - uri: https://isbnsearch.org/isbn/9798639871030
     cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    location: vol. 3, p. 94
+    quotation: "...'Oscar' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, 'Oscar Gracie' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda..."
     type: unknown
     supports: true
     weight: unknown
-  - uri: https://simonbjj.com/donato-pires
-    type: unknown
-    supports: true
-    weight: unknown
+  role: student
+  place_id:
+rank:
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://isbnsearch.org/isbn/9798639871030
+  cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://simonbjj.com/donato-pires
+  type: unknown
+  supports: true
+  weight: unknown

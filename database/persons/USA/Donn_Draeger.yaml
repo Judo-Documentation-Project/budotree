@@ -1,11 +1,12 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-111
-name: Donn F. Draeger
+name:
+  en: Donn F. Draeger
 aka:
-  - name: Donald Frederick Draeger
+  en: Donald Frederick Draeger
 nationality:
-  - USA
+- USA
 birth:
   date: "1922-04-15"
   geo:
@@ -22,60 +23,60 @@ photo:
     uri: https://judoinfo.com/kata/
     cite: Nage no Kata and Katame no Kata, by Donn F. Draeger - JudoIndo
 teachers:
-  - id: JDP-112
-    style_id: JDP-S-6
-    period:
-      start: 1967
-      end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
-        cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
-        quotation: A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-117
-    style_id: JDP-S-17
-    period:
-      start: null
-      end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources:
-      - uri: https://kogenbudo.org/i-htm/
-        cite: "Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)"
-        quotation: There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+- id: JDP-112
+  style_id: JDP-S-6
+  period:
+    start: 1967
+    end:
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
+  - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
+    cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
+    quotation: A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur.
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
+- id: JDP-117
+  style_id: JDP-S-17
+  period:
+    start:
+    end:
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources:
+  - uri: https://kogenbudo.org/i-htm/
+    cite: "Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)"
+    quotation: There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
+  type: unknown
+  supports: true
+  weight: unknown

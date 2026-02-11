@@ -51,17 +51,12 @@
     "TimeInterval": "martialis:TimeInterval",
     "SourceAssertionRelation": "martialis:SourceAssertionRelation",
 
-    "name": "schema:name",
-    "description": "schema:description",
-    "nationality": "schema:nationality",
-    
-    "native_name": {
-      "@id": "schema:alternateName",
-      "@context": {
-        "name": "schema:name",
-        "lang": "@language"
-      }
+    "name": {
+      "@id": "schema:name",
+      "@container": "@language"
     },
+    "description":  {"@id": "schema:description", "@container": "@language"},
+    "nationality": "schema:nationality",
 
     "birth": {
       "@id": "martialis:birthEvent",
@@ -151,7 +146,7 @@
 
     "aka": {
       "@id": "schema:alternateName",
-      "@container": "@set"
+      "@container": ["@language", "@set"]
     },
 
     "photo": {

@@ -111,6 +111,37 @@ function changeLanguage() {
   updateContent();
 }
 
+function resolveNameForLang(nameMap, targetLang) {
+  // Resolve a language map to a display string for a specific language
+  if (typeof nameMap === 'string') return nameMap;
+  if (!nameMap || typeof nameMap !== 'object') return '';
+
+  // Try exact language match
+  if (nameMap[targetLang]) {
+    const value = nameMap[targetLang];
+    return Array.isArray(value) ? value[0] : value;
+  }
+
+  // Try romanized variant (lang-Latn)
+  const romanizedKey = `${targetLang}-Latn`;
+  if (nameMap[romanizedKey]) {
+    const value = nameMap[romanizedKey];
+    return Array.isArray(value) ? value[0] : value;
+  }
+
+  // Try any romanized variant (ending with -Latn)
+  for (const key of Object.keys(nameMap)) {
+    if (key.endsWith('-Latn')) {
+      const value = nameMap[key];
+      return Array.isArray(value) ? value[0] : value;
+    }
+  }
+
+  // Fall back to first value
+  const firstValue = Object.values(nameMap)[0];
+  return Array.isArray(firstValue) ? firstValue[0] : firstValue || '';
+}
+
 function updateContent() {
   document.getElementById("nav-budo").innerHTML =
     polyglot.t("Budō Lineage Tree");
@@ -133,11 +164,7 @@ const style = [
     selector: "node",
     style: {
       label: (ele) => {
-        if (ele.data().native_name && ele.data().native_name.lang == lang) {
-          return ele.data().native_name.name;
-        } else {
-          return ele.data().name;
-        }
+        return resolveNameForLang(ele.data().name, lang);
       },
       "background-image": (ele) => {
         if (ele.data().photo_url_local) {
@@ -162,7 +189,8 @@ const style = [
       shape: "ellipse",
       "text-wrap": "wrap",
       "text-overflow-wrap": (ele) => {
-        if (ele.data().native_name && ele.data().native_name.lang == lang) {
+        const nameMap = ele.data().name;
+        if (nameMap && typeof nameMap === 'object' && (nameMap[lang] || nameMap['ja'] || nameMap['zh'])) {
           return "anywhere";
         } else {
           return "whitespace";
@@ -774,33 +802,29 @@ function updateNodeName() {
         sorted.push(key);
     }
     
-    sorted.sort((a, b) => nameList[a].name.localeCompare(nameList[b].name));
-    
+    sorted.sort((a, b) => {
+        const nameA = resolveNameForLang(nameList[a].name, lang);
+        const nameB = resolveNameForLang(nameList[b].name, lang);
+        return nameA.localeCompare(nameB);
+    });
+
     console.log(sorted)
     // for (const [key, value] of Object.entries(styleList)) {
     for (const key of sorted) {
         const value = nameList[key];
         const el = document.createElement("option");
-        if (value.native_name && value.native_name.lang == lang) {
-            el.textContent = value.native_name.name;
-        } else {
-            el.textContent = value.name;
-        }
-        
+        el.textContent = resolveNameForLang(value.name, lang);
+
         el.value = key;
         pathOrigin.appendChild(el);
 
-        
+
     }
 
     for (const key of sorted) {
         const value = nameList[key];
         const el = document.createElement("option");
-        if (value.native_name && value.native_name.lang == lang) {
-            el.textContent = value.native_name.name;
-        } else {
-            el.textContent = value.name;
-        }
+        el.textContent = resolveNameForLang(value.name, lang);
         
         el.value = key;
         
@@ -890,9 +914,13 @@ function updateInfo(target) {
       for (const person of data.elements.nodes) {
         if (person.data.id == target.data().teachers[i].id) {
           // console.log(person.data.name);
+          target.data().teachers[i].teacher_name_display = resolveNameForLang(person.data.name, lang);
           target.data().teachers[i].teacher_name = person.data.name;
-          target.data().teachers[i].teacher_native = person.data.native_name;
-          target.data().teachers[i].style = getStyleById(target.data().teachers[i].style_id).name
+          const style = getStyleById(target.data().teachers[i].style_id);
+          if (style) {
+            target.data().teachers[i].style = resolveNameForLang(style.name, lang);
+            target.data().teachers[i].style_name = style.name;
+          }
           // console.log(target.data().teachers[i]["teacher_name"]);
         }
       }
@@ -904,8 +932,8 @@ function updateInfo(target) {
         for (const person of data.elements.nodes) {
           if (person.data.id == target.data().rank[i].teacher_id) {
             // console.log(person.data.name);
+            target.data().rank[i].teacher_name_display = resolveNameForLang(person.data.name, lang);
             target.data().rank[i].teacher_name = person.data.name;
-            target.data().rank[i].teacher_native = person.data.native_name;
             // console.log(event.target.data().teachers[i]);
           }
         }
@@ -915,7 +943,10 @@ function updateInfo(target) {
     // console.log("Students? ", target.outgoers('node'))
     const students = [];
     target.outgoers("node").forEach((e) => {
-      students.push(e.data());
+      const studentData = e.data();
+      studentData.name_display = resolveNameForLang(studentData.name, lang);
+      studentData.name_native = studentData.name[lang] || null;
+      students.push(studentData);
     });
 
     target.data().students = students;
@@ -942,11 +973,11 @@ function updateInfo(target) {
       ).toFormat("yyyy");
     }
 
-    if (target.data().native_name && target.data().native_name.lang == lang) {
-      cardTitle.innerHTML = target.data().native_name.name;
-    } else {
-      cardTitle.innerHTML = target.data().name;
-    }
+    cardTitle.innerHTML = resolveNameForLang(target.data().name, lang);
+
+    // Pre-compute display values for template
+    target.data().name_display = resolveNameForLang(target.data().name, lang);
+    target.data().name_native = target.data().name[lang] || null;
 
     const rendered = Mustache.render(template, target.data());
 
@@ -1028,8 +1059,8 @@ function updateInfo(target) {
     for (const person of data.elements.nodes) {
       if (person.data.id == target.data().source) {
         // console.log(person.data.name);
+        target.data().teacher_name_display = resolveNameForLang(person.data.name, lang);
         target.data().teacher_name = person.data.name;
-        target.data().teacher_native = person.data.native_name;
         if (person.data.photo_local_url) {
           target.data().teacher_photo_url = person.data.photo_local_url;
         } else if (person.data.photo_url){
@@ -1045,14 +1076,14 @@ function updateInfo(target) {
     for (const person of data.elements.nodes) {
       if (person.data.id == target.data().target) {
         //console.log(person.data.name);
+        target.data().student_name_display = resolveNameForLang(person.data.name, lang);
         target.data().student_name = person.data.name;
-        target.data().student_native = person.data.native_name;
         if (person.data.photo_local_url) {
           target.data().student_photo_url = person.data.photo_local_url;
         } else if (person.data.photo_url){
-            target.data().student_photo_url = person.data.photo_url;	    
+            target.data().student_photo_url = person.data.photo_url;
         } else if (person.data.photo){
-          target.data().student_photo_url = person.data.photo.url;	    
+          target.data().student_photo_url = person.data.photo.url;
 	} else {
 	    target.data().student_photo_url = "";
 	}
@@ -1061,11 +1092,8 @@ function updateInfo(target) {
       }
     }
 
-    if (
-      target.data().interaction_native &&
-      target.data().interaction_native.lang == lang
-    ) {
-      cardTitle.innerHTML = target.data().interaction_native.name;
+    if (target.data().interaction_name) {
+      cardTitle.innerHTML = resolveNameForLang(target.data().interaction_name, lang);
     } else {
       cardTitle.innerHTML = target.data().interaction;
     }
@@ -1504,9 +1532,11 @@ function listStyles() {
 
   for (const [key] of Object.entries(styleList)) {
     sorted.push(key);
-    styleList[key].sort((a, b) =>
-      getNameById(a).name.localeCompare(getNameById(b).name),
-    );
+    styleList[key].sort((a, b) => {
+      const nameA = resolveNameForLang(getNameById(a).name, lang);
+      const nameB = resolveNameForLang(getNameById(b).name, lang);
+      return nameA.localeCompare(nameB);
+    });
   }
   sorted.sort((a, b) => a.localeCompare(b));
 
@@ -1517,7 +1547,9 @@ function listStyles() {
     s.name = key;
     for (const person of value) {
       const p = {};
-      p.name = getNameById(person).name;
+      const personData = getNameById(person);
+      p.name = resolveNameForLang(personData.name, lang);
+      p.name_native = personData.name[lang] || null;
       p.id = person;
       pp.push(p);
     }
@@ -1550,7 +1582,7 @@ function updateStyleFilter() {
     if (!styleList[edge.data.interaction_id]) {
       styleList[edge.data.interaction_id] = {
         name: edge.data.interaction,
-        native_name: edge.data.interaction_native,
+        name_map: edge.data.interaction_name,
       };
     }
   }
@@ -1570,17 +1602,17 @@ function updateStyleFilter() {
     sorted.push(key);
   }
 
-  sorted.sort((a, b) => styleList[a].name.localeCompare(styleList[b].name));
+  sorted.sort((a, b) => {
+    const nameA = styleList[a].name_map ? resolveNameForLang(styleList[a].name_map, lang) : styleList[a].name;
+    const nameB = styleList[b].name_map ? resolveNameForLang(styleList[b].name_map, lang) : styleList[b].name;
+    return nameA.localeCompare(nameB);
+  });
 
   // for (const [key, value] of Object.entries(styleList)) {
   for (const key of sorted) {
     const value = styleList[key];
     const el = document.createElement("option");
-    if (value.native_name && value.native_name.lang == lang) {
-      el.textContent = value.native_name.name;
-    } else {
-      el.textContent = value.name;
-    }
+    el.textContent = value.name_map ? resolveNameForLang(value.name_map, lang) : value.name;
 
     el.value = key;
     styleFilter.appendChild(el);

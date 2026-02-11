@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-57
-name: Fukuda Keiko
-native_name:
-  name: 福田 敬子
-  lang: ja
+name:
+  ja-Latn: Fukuda Keiko
+  ja: 福田 敬子
 nationality:
-  - JPN
+- JPN
 birth:
   date: "1913-04-12"
   geo:
@@ -25,90 +24,90 @@ photo:
     uri: https://www.change.org/p/uemura-haruki-demand-10th-degree-black-belt-for-keiko-fukuda
     cite: Change.org - Keiko Fukuda 10th dan petition
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    period:
-      start: 1935
-      end: 1966
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
-        cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
-        quotation: Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-11
-    style_id: JDP-S-1
-    period:
-      start: 1935
-      end: 1966
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
-        cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
-        quotation: Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
-rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.usjf.com/2018/02/keiko-fukuda/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judoinfo.com/fukuda/
-    type: unknown
-    supports: true
-    weight: unknown
+- id: JDP-1
+  style_id: JDP-S-1
+  period:
+    start: 1935
+    end: 1966
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
   - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+    cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
+    quotation: Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking
     type: unknown
     supports: true
     weight: unknown
-  - uri: https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/
+  role: student
+  place_id: JDP-P-1
+- id: JDP-11
+  style_id: JDP-S-1
+  period:
+    start: 1935
+    end: 1966
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
+  - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+    cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
+    quotation: Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)
     type: unknown
     supports: true
     weight: unknown
+  role: student
+  place_id: JDP-P-1
+rank:
+- style_id: JDP-S-1
+  rank: 9 dan
+  date:
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: 10 dan
+  date:
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.usjf.com/2018/02/keiko-fukuda/
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://judoinfo.com/fukuda/
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/
+  type: unknown
+  supports: true
+  weight: unknown
 links:
-  - uri: https://www.wikidata.org/wiki/Q460890
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Keiko_Fukuda
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q460890
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Keiko_Fukuda
+  cite: DBpedia
+  type: dbpedia

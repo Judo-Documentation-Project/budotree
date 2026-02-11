@@ -1,16 +1,15 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-118
-name: Zhang Zhaodong
-native_name:
-  name: 張兆東
-  lang: zh
+name:
+  zh-Latn: Zhang Zhaodong
+  zh: 張兆東
 nationality:
-  - CHN
+- CHN
 birth:
   date: "1865"
   geo:
-    location: null
+    location:
     country_code: CHN
 death:
   date: "1938"
@@ -23,35 +22,35 @@ photo:
     uri: https://en.wikipedia.org/wiki/Baguazhang#/media/File:250_Bagau016ChangChaoDong.jpg
     cite: Xingyi/Baguazhang master Chang Chan Kuei (1859–1940) [Wikipedia Commons]
 teachers:
-  - id: null
-    style_id: null
-    period:
-      start: null
-      end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    role: student
-    place_id: null
+- id:
+  style_id:
+  period:
+    start:
+    end:
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  role: student
+  place_id:
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-    cite: Martial arts fight for survival (Taipei Times)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+  cite: Martial arts fight for survival (Taipei Times)
+  type: unknown
+  supports: true
+  weight: unknown

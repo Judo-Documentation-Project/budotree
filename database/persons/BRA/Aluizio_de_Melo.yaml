@@ -1,12 +1,14 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-130
-name: Aluizio de Melo
+name:
+  pt: Aluizio de Melo
 aka:
-  - name: Professor Loanzi
-  - name: Aluizio Nogueira Bandeira de Melo
+  pt:
+  - Professor Loanzi
+  - Aluizio Nogueira Bandeira de Melo
 nationality:
-  - BRA
+- BRA
 birth:
   date: "1893"
   geo:
@@ -23,85 +25,85 @@ photo:
     uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
     cite: Dojô Professor Loanzi - Museu Virtual do Judô
 teachers:
-  - id: JDP-18
-    style_id: JDP-S-1
-    period:
-      start: "1915"
-      end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://isbnsearch.org/isbn/9798639871030
-        cite: SILVA & CORRÊA (2020). Muito antes do MMA
-        location: vol. III, p. 111-113
-        quotation: aos 17 anos, teve a oportunidade de treinar Jiu Jitsu com o Conde Koma, durante a passagem da trupe japonesa pelo Nordeste do Brasil
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://aratabajiujitsu.com.br/a-origem-dos-arataba/
-        cite: A Origem dos Arataba (Arataba Jiu-Jitsu)
-        quotation: Todo mundo sabe que Mitsuyo Maeda, o Conde Koma, radicou-se no norte do Brasil por volta de 1913 e ensinou jiu-jitsu para diversas pessoas, dentre as quais posso citar Carlos Gracie, Luiz França e Aluizio de Melo
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
-        cite: Dojô Professor Loanzi - Museu Virtual do Judô
-        quotation: QUEM FOI ALOIZIO NOGUEIRA BANDEIRA DE MELLO – PROF. LOANZI (...) Foi aluno do famoso Mitsuyo Moeda, Conde Koma, introdutor do jiu jitsu e do judô no Brasil
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-126
-    style_id: JDP-S-1
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    period:
-      start: null
-      end: null
-    sources:
-      - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
-        cite: Dojô Professor Loanzi - Museu Virtual do Judô
-        quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - style_id: JDP-S-1
-    rank: 1 dan
-    date: null
-    sources:
-      - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
-        cite: Dojô Professor Loanzi - Museu Virtual do Judô
-        quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: null
-sources:
+- id: JDP-18
+  style_id: JDP-S-1
+  period:
+    start: "1915"
+    end:
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  sources:
   - uri: https://isbnsearch.org/isbn/9798639871030
     cite: SILVA & CORRÊA (2020). Muito antes do MMA
+    location: vol. III, p. 111-113
+    quotation: aos 17 anos, teve a oportunidade de treinar Jiu Jitsu com o Conde Koma, durante a passagem da trupe japonesa pelo Nordeste do Brasil
     type: unknown
     supports: true
     weight: unknown
   - uri: https://aratabajiujitsu.com.br/a-origem-dos-arataba/
     cite: A Origem dos Arataba (Arataba Jiu-Jitsu)
+    quotation: Todo mundo sabe que Mitsuyo Maeda, o Conde Koma, radicou-se no norte do Brasil por volta de 1913 e ensinou jiu-jitsu para diversas pessoas, dentre as quais posso citar Carlos Gracie, Luiz França e Aluizio de Melo
     type: unknown
     supports: true
     weight: unknown
   - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
     cite: Dojô Professor Loanzi - Museu Virtual do Judô
+    quotation: QUEM FOI ALOIZIO NOGUEIRA BANDEIRA DE MELLO – PROF. LOANZI (...) Foi aluno do famoso Mitsuyo Moeda, Conde Koma, introdutor do jiu jitsu e do judô no Brasil
     type: unknown
     supports: true
     weight: unknown
+  role: student
+  place_id:
+- id: JDP-126
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  period:
+    start:
+    end:
+  sources:
+  - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    cite: Dojô Professor Loanzi - Museu Virtual do Judô
+    quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
+rank:
+- style_id: JDP-S-1
+  rank: 1 dan
+  date:
+  sources:
+  - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    cite: Dojô Professor Loanzi - Museu Virtual do Judô
+    quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
+    type: unknown
+    supports: true
+    weight: unknown
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  org_id:
+sources:
+- uri: https://isbnsearch.org/isbn/9798639871030
+  cite: SILVA & CORRÊA (2020). Muito antes do MMA
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://aratabajiujitsu.com.br/a-origem-dos-arataba/
+  cite: A Origem dos Arataba (Arataba Jiu-Jitsu)
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+  cite: Dojô Professor Loanzi - Museu Virtual do Judô
+  type: unknown
+  supports: true
+  weight: unknown

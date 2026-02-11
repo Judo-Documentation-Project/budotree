@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-55
-name: Itosu Ankō
-native_name:
-  name: 糸洲 安恒
-  lang: ryu
+name:
+  ja-Latn: Itosu Ankō
+  ryu: 糸洲 安恒
 nationality:
-  - JPN
+- JPN
 birth:
   date: 1831
   geo:
@@ -18,48 +17,48 @@ death:
     location: Shuri, Okinawa
     country_code: JPN
 teachers:
-  - id: JDP-54
-    style_id: JDP-S-13
-    period:
-      start: null
-      end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    sources:
-      - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-        quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+- id: JDP-54
+  style_id: JDP-S-13
+  period:
+    start:
+    end:
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 1"
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+    quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  type: unknown
+  supports: true
+  weight: unknown
 links:
-  - uri: https://www.wikidata.org/wiki/Q527422
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Ank%C5%8D_Itosu
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q527422
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Ank%C5%8D_Itosu
+  cite: DBpedia
+  type: dbpedia

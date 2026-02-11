@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-54
-name: Matsumura Sōkon
-native_name:
-  name: 松村 宗棍
-  lang: ryu
+name:
+  ja-Latn: Matsumura Sōkon
+  ryu: 松村 宗棍
 nationality:
-  - JPN
+- JPN
 birth:
   date: 1809
   geo:
@@ -15,45 +14,45 @@ birth:
 death:
   date: 1899
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    role: student
-    place_id: null
+- id:
+  style_id:
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start:
+    end:
+  role: student
+  place_id:
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://en.wikipedia.org/wiki/Matsumura_S%C5%8Dkon#/media/File:S%C5%8Dkon_Matsumura.jpg
+  type: unknown
+  supports: true
+  weight: unknown
 links:
-  - uri: https://www.wikidata.org/wiki/Q715769
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Matsumura_S%C5%8Dkon
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q715769
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Matsumura_S%C5%8Dkon
+  cite: DBpedia
+  type: dbpedia

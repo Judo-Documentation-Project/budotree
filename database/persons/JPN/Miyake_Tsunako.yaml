@@ -1,122 +1,121 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-53
-name: Tsunako Miyake
-native_name:
-  name: 三宅綱子
-  lang: ja
+name:
+  ja-Latn: Tsunako Miyake
+  ja: 三宅綱子
 nationality:
-  - JPN
+- JPN
 birth:
   date: 1926
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: JDP-26
-    style_id: JDP-S-4
-    period:
-      start: null
-      end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources:
-      - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
-        cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
-        quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-26
-    style_id: JDP-S-1
-    period:
-      start: null
-      end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources:
-      - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
-        cite: "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)"
-        quotation: Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+- id: JDP-26
+  style_id: JDP-S-4
+  period:
+    start:
+    end:
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources:
+  - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
+    cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
+    quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id:
+- id: JDP-26
+  style_id: JDP-S-1
+  period:
+    start:
+    end:
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources:
+  - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
+    cite: "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)"
+    quotation: Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together.
+    type: unknown
+    supports: true
+    weight: unknown
+  role: student
+  place_id: JDP-P-1
 rank:
-  - style_id: JDP-S-4
-    rank: 8 dan
-    date: null
-    granted_by: JDP-26
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-1
-    rank: 7 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: null
-    rank: 7 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
+- style_id: JDP-S-4
+  rank: 8 dan
+  date:
+  granted_by: JDP-26
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  org_id:
+- style_id: JDP-S-1
+  rank: 7 dan
+  date:
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id: JDP-O-1
+- style_id:
+  rank: 7 dan
+  date:
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
 sources:
-  - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.dentonaikido.com/instructor.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Karl_Geis
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.karlgeis.com/his-resume
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.dentonaikido.com/instructor.html
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://en.wikipedia.org/wiki/Karl_Geis
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.karlgeis.com/his-resume
+  type: unknown
+  supports: true
+  weight: unknown

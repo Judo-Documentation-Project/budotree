@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-39
-name: Ueda Heitaro
-native_name:
-  name: 植田平太郎
-  lang: ja
+name:
+  ja-Latn: Ueda Heitaro
+  ja: 植田平太郎
 nationality:
-  - JPN
+- JPN
 birth:
   date: "1877-08-14"
   geo:
@@ -15,44 +14,44 @@ birth:
 death:
   date: "1949-07-25"
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: JDP-60
-    style_id: JDP-S-8
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    period:
-      start: 1905
-      end: null
-    sources:
-      - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
-        cite: The iron will of the kendo god Ueda Heitaro - Kenshi 24/7
-        quotation: "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- id: JDP-60
+  style_id: JDP-S-8
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 3"
+  period:
+    start: 1905
+    end:
+  sources:
   - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+    cite: The iron will of the kendo god Ueda Heitaro - Kenshi 24/7
+    quotation: "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
     type: unknown
     supports: true
     weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
-    type: unknown
-    supports: true
-    weight: unknown
+  role: student
+  place_id:
+rank:
+- rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
+sources:
+- uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+  type: unknown
+  supports: true
+  weight: unknown

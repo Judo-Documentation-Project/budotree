@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-42
-name: Matsui Sanzo
-native_name:
-  name: 松井三蔵
-  lang: ja
+name:
+  ja-Latn: Matsui Sanzo
+  ja: 松井三蔵
 nationality:
-  - JPN
+- JPN
 birth:
   date: "1861-05-16"
   geo:
@@ -15,33 +14,33 @@ birth:
 death:
   date: "1932-06-08"
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    role: student
-    place_id: null
+- id:
+  style_id:
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start:
+    end:
+  role: student
+  place_id:
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
+  type: unknown
+  supports: true
+  weight: unknown

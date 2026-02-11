@@ -1,24 +1,25 @@
 '@context': https://martial.is/context.jsonld
 type: Style
 id: JDP-S-19
-name: Boxing
+name:
+  en: Boxing
 description:
   en: |
     Combat sport involving striking with fists, historically practiced worldwide with modern codification in 18th-19th century England. Governed by the Marquess of Queensberry Rules since 1867.
 sources:
-  - uri: https://en.wikipedia.org/wiki/Boxing
-    cite: Boxing - Wikipedia
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.britannica.com/sports/boxing
-    cite: Boxing - Encyclopedia Britannica
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Boxing
+  cite: Boxing - Wikipedia
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://www.britannica.com/sports/boxing
+  cite: Boxing - Encyclopedia Britannica
+  type: unknown
+  supports: true
+  weight: unknown
 founded:
-  date: null
+  date:
   geo:
-    location: null
+    location:
     country_code: GBR
 classification: sport

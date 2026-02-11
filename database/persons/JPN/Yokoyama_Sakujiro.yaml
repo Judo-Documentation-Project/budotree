@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-9
-name: Yokoyama Sakujiro
-native_name:
-  name: 横山 作次郎
-  lang: ja
+name:
+  ja-Latn: Yokoyama Sakujiro
+  ja: 横山 作次郎
 nationality:
-  - JPN
+- JPN
 birth:
   date: 1864
   geo:
@@ -15,55 +14,55 @@ birth:
 death:
   date: "1912-09-23"
   geo:
-    location: null
+    location:
     country_code: JPN
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: 1886
-      end: null
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-10
-    style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    role: student
-    place_id: null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start: 1886
+    end:
+  role: student
+  place_id: JDP-P-1
+- id: JDP-10
+  style_id: JDP-S-3
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start:
+    end:
+  role: student
+  place_id:
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+  type: unknown
+  supports: true
+  weight: unknown
 links:
-  - uri: https://www.wikidata.org/wiki/Q3276775
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Yokoyama_Sakujiro
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q3276775
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Yokoyama_Sakujiro
+  cite: DBpedia
+  type: dbpedia

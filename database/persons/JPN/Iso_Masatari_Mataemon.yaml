@@ -1,12 +1,11 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-3
-name: Iso Masatari Mataemon
-native_name:
-  name: 磯又右衛門
-  lang: ja
+name:
+  ja-Latn: Iso Masatari Mataemon
+  ja: 磯又右衛門
 nationality:
-  - JPN
+- JPN
 birth:
   date: 1790
   geo:
@@ -18,45 +17,45 @@ death:
     location: Otamagaike
     country_code: JPN
 teachers:
-  - style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: 1785
-      end: 1792
-    role: student
-    id: null
-    place_id: null
-  - confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: 1792
-      end: 1798
-    role: student
-    id: null
-    place_id: null
+- style_id: JDP-S-3
+  confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start: 1785
+    end: 1792
+  role: student
+  id:
+  place_id:
+- confidence:
+    level:
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  period:
+    start: 1792
+    end: 1798
+  role: student
+  id:
+  place_id:
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: http://www.tenyokai.com/history.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: http://www.tenyokai.com/history.html
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
+  type: unknown
+  supports: true
+  weight: unknown

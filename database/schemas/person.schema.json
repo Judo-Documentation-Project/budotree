@@ -20,13 +20,10 @@
       "pattern": "^JDP-[0-9]+$"
     },
     "name": {
-      "type": "string"
-    },
-    "native_name": {
-      "$ref": "budotree.schema.json#/definitions/NativeName"
+      "$ref": "budotree.schema.json#/definitions/LanguageMap"
     },
     "aka": {
-      "$ref": "budotree.schema.json#/definitions/Aka"
+      "$ref": "budotree.schema.json#/definitions/LanguageMap"
     },
     "nationality": {
       "type": "array",

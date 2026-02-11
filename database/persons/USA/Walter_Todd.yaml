@@ -1,45 +1,46 @@
 '@context': https://martial.is/context.jsonld
 type: Person
 id: JDP-24
-name: Walter Todd
+name:
+  en: Walter Todd
 nationality:
-  - USA
+- USA
 birth:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    location: null
-    country_code: null
+    location:
+    country_code:
 teachers:
-  - id: JDP-11
-    style_id: JDP-S-1
-    period:
-      start: 1946
-      end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: JDP-P-1
+- id: JDP-11
+  style_id: JDP-S-1
+  period:
+    start: 1946
+    end:
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 1"
+  role: student
+  place_id: JDP-P-1
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id:
+  rank:
+  date:
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: "Legacy quality field migration - original value: 2"
+  sources: []
+  granted_by:
+  org_id:
 sources:
-  - uri: https://www.koryu.com/library/mskoss10.html
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.koryu.com/library/mskoss10.html
+  type: unknown
+  supports: true
+  weight: unknown
