@@ -1,0 +1,20 @@
+'@context': https://martial.is/context.jsonld
+type: Style
+id: JDP-S-7
+name:
+  ja-Latn: Yōshin-ryū
+  ja: 楊心流
+aka:
+  ja-Latn: Yōshin Koryū
+  ja: 楊心古流
+sources:
+- uri: https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB
+  type: unknown
+  supports: true
+  weight: unknown
+founded:
+  date: 1610
+  geo:
+    location:
+    country_code: JPN
+classification: koryu

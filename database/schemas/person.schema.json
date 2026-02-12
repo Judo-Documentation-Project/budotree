@@ -28,14 +28,7 @@
     "nationality": {
       "type": "array",
       "items": {
-        "type": "string",
-        "pattern": "^[A-Z]{3}$"
-      }
-    },
-    "nationality_qid": {
-      "type": "array",
-      "items": {
-        "$ref": "budotree.schema.json#/definitions/WikidataQID"
+        "$ref": "budotree.schema.json#/definitions/NationalityEntry"
       }
     },
     "birth": {

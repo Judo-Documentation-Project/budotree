@@ -1,0 +1,84 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-61
+name:
+  pt: António Roquette de Andrade
+aka:
+  pt:
+    - António Roquette
+    - António Roquete
+    - Tona
+nationality:
+  - code: PRT
+birth:
+  date: "1955-05-26"
+  geo:
+    location: Estoril
+    country_code: PRT
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+photo:
+  url: https://archive.org/download/tona1980/tona1980.jpg
+  source:
+    uri: https://fcmjudo.pt/moscovo.html
+    cite: "Diário de Lisboa, 1980 (in: FCM Judo)"
+teachers:
+  - id: JDP-15
+    style_id: JDP-S-1
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    sources:
+      - uri: https://www.ahbe.pt/portfolio-item/judo/
+        cite: A História Do Judo na AHBE
+        quotation: O professor Costa Matos leccionou Judo na AHBE entre 1970 e 1976, altura em que, por motivos de saúde, foi substituído pelo seu melhor aluno, o professor António Roquete de Andrade, o qual assumiu definitivamente o cargo de treinador principal da AHBE em 1977, após ter participado como atleta nos Jogos Olímpicos de MONTREAL em 1976.
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 7 dan
+    date: 2009
+    sources:
+      - uri: https://www.fpj.pt/wp-content/uploads/2020/03/20ci057-Relat%C3%B3rio-de-Atividades-e-Contas-do-Exerc%C3%ADcio-de-2019_.pdf
+        cite: Relatório de Atividades e Contas, 2019. FPJ
+        quotation: Os Diplomas de 7.º Dan foram atribuídos aos Mestres António Roquete de Andrade, Artur Alves da Mata, José Pinto Farias, Nelson Trindade e Frygyes Torok. O de 8.º Dan ao Mestre Henrique Nunes
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://judolandia.tripod.com/roquete.htm
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.olympedia.org/athletes/34295
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://judomagazine.pt/2023/04/30/entrevista-fernando-costa-matos-um-velejador-navegador-de-judogi/
+    type: unknown
+    supports: true
+    weight: unknown
+links:
+  - uri: https://www.wikidata.org/wiki/Q20973014
+    cite: Wikidata
+    type: wikidata
+  - uri: https://dbpedia.org/page/Ant%C3%B3nio_Roquete_(judoka)
+    cite: DBpedia
+    type: dbpedia

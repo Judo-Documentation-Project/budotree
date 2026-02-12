@@ -1,4 +1,4 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Style
 id: JDP-S-11
 name:
@@ -13,27 +13,26 @@ description:
     Yagyū shingan-ryū é uma tradicional escola japonesa de bujutsu (lit. arte da guerra). Ensina todos os fundamentos das artes marciais japonesas clássicas. É conhecida como Yagyū shingan-ryū kacchu yawara, e foi um estilo de luta adotado por alguns samurais do xogunato Tokugawa. Foi bastante divulgado pela série, "Lobo Solitário" (de Kazuo Koike & Goseki Kojima) e no livro "Musashi" de Eiji Yoshikawa.
 media:
   photos:
-  - url: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
-    source:
-      uri: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
-      cite: Photo
+    - url: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
+      source:
+        uri: https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg
+        cite: Photo
   videos:
-  - url: https://youtu.be/6Ke_d6hN7CI?t=30
-    source:
-      uri: https://youtu.be/6Ke_d6hN7CI?t=30
-      cite: Video
+    - url: https://youtu.be/6Ke_d6hN7CI?t=30
+      source:
+        uri: https://youtu.be/6Ke_d6hN7CI?t=30
+        cite: Video
 sources:
-- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81
+    type: unknown
+    supports: true
+    weight: unknown
 founded:
   date: 1600
   geo:
-    location: Sendai
     country_code: JPN
 classification: koryu

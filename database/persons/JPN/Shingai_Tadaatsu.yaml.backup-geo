@@ -1,0 +1,54 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-40
+name:
+  ja-Latn: Shingai Tadaatsu
+  ja: 真貝忠篤
+nationality:
+  - code: JPN
+birth:
+  date: "1842-03-01"
+  geo:
+    location: null
+    country_code: JPN
+death:
+  date: "1920-02-09"
+  geo:
+    location: null
+    country_code: JPN
+teachers:
+  - id: null
+    style_id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+rank:
+  - rank: null
+    date: null
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://ja.wikipedia.org/wiki/%E7%9C%9F%E8%B2%9D%E5%BF%A0%E7%AF%A4
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Kenjutsu
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Tamiya-ry%C5%AB_(Tsumaki)
+    type: unknown
+    supports: true
+    weight: unknown

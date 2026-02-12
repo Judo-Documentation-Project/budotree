@@ -1,56 +1,55 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-66
 name:
   fr: Antony Striker
 aka:
   fr:
-  - Antony Stricker
-  - Tony Striker
+    - Antony Stricker
+    - Tony Striker
 nationality:
-- BEL
+  - code: CHE
+    wikidata: Q39
 birth:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 death:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 teachers:
-- id:
-  style_id:
-  confidence:
-    level:
-    assessed_by: JDP
-    rationale: Legacy quality field migration - value was null
-  period:
-    start:
-    end:
-  role: student
-  place_id:
+  - id: null
+    style_id: null
+    confidence:
+      level: 1
+      assessed_by: JDP
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
 rank:
-- style_id: JDP-S-1
-  rank: 1 dan
-  date:
-  sources:
+  - style_id: JDP-S-1
+    rank: 1 dan
+    date: null
+    sources:
+      - uri: https://judolandia.tripod.com/histport.htm
+        cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
+        quotation: Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes.
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+    granted_by: null
+    org_id: null
+sources:
   - uri: https://judolandia.tripod.com/histport.htm
-    cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
-    quotation: Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes.
     type: unknown
     supports: true
     weight: unknown
-  rank_type: dan
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  granted_by:
-  org_id:
-sources:
-- uri: https://judolandia.tripod.com/histport.htm
-  type: unknown
-  supports: true
-  weight: unknown

@@ -1,4 +1,4 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Style
 id: JDP-S-12
 name:
@@ -17,22 +17,21 @@ description:
 media:
   photos: []
   videos:
-  - url: https://youtu.be/yA32io5HYic?t=92
-    source:
-      uri: https://youtu.be/yA32io5HYic?t=92
-      cite: Video
+    - url: https://youtu.be/yA32io5HYic?t=92
+      source:
+        uri: https://youtu.be/yA32io5HYic?t=92
+        cite: Video
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://www.ryoishintokai.com/2019/12/24/84/
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.ryoishintokai.com/2019/12/24/84/
+    type: unknown
+    supports: true
+    weight: unknown
 founded:
   date: 1800
   geo:
-    location: Fukuoka
     country_code: JPN
 classification: koryu

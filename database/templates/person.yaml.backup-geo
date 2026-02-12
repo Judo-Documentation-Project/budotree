@@ -1,0 +1,112 @@
+# yaml-language-server: $schema=../schemas/person.schema.json
+#
+# Judo Documentation Project: Judo Lineage Tree Sub-project
+# Person template - YAML-LD format with confidence/source evidence
+#
+# Required fields:
+#   name (language map)
+#   nationality (array of objects)
+#   birth, death (with date, geo)
+#   teachers (array) - with id (nullable), style_id (nullable), place_id (nullable)
+#   rank (array)
+#   sources (array) - with source_id OR uri
+---
+'@context': https://martial.is/context.jsonld
+type: Person
+id:                         # Assigned during import - leave empty
+name:                       # Language map for names (REQUIRED)
+  en: "Display Name"        # English/romanized name
+  ja: "日本語名"            # Native script name (optional)
+aka:                        # Alternative names as language map (optional)
+  en: "Alternative Name"
+nationality:                # Nationality entries with ISO codes and Wikidata Q-IDs (REQUIRED)
+  - code: JPN                # ISO 3166-1 alpha-3 code (REQUIRED in each entry)
+    wikidata: Q17            # Wikidata Q-ID for country (optional, handles historical countries)
+  # - code: USA
+  #   wikidata: Q30
+birth:                      # REQUIRED
+  date:                     # BudoDate: null | year (int) | "YYYY-MM-DD" | "~YYYY"
+  geo:                      # Geographic reference (optional)
+    location:               # Display name (e.g., "Tokyo")
+    location_qid: Q1490     # Wikidata Q-ID for location (optional)
+    country_code: JPN       # ISO 3166-1 alpha-3
+    country_qid: Q17        # Wikidata Q-ID for country (optional, historical-aware)
+  sources:                  # Optional sources specific to birth event
+    - source_id: JDP-SRC-1  # Reference to Source entity (preferred)
+      location: "p. 42"
+      type: primary         # primary | secondary | tertiary | unknown
+      supports: true        # true (supports) or false (disputes)
+      weight: medium        # low | medium | high | unknown
+    # - uri: "https://..."  # Fallback if no source entity
+    #   cite: "Source name"
+    #   type: secondary
+    #   supports: true
+    #   weight: medium
+death:                      # REQUIRED (use null for unknown fields)
+  date: null
+  geo: null                 # Geographic reference (null if unknown)
+description:                # Multilingual map (optional)
+  en: >
+    Brief biography...
+  # ja: >
+  #   日本語の説明...
+notes: null                 # Free-text notes (optional)
+photo:                      # Structured photo (optional)
+  url: "https://..."
+  source:
+    source_id: JDP-SRC-12
+    cite: "Photo credit"
+teachers:                   # Student-teacher relationships (REQUIRED, can be empty array)
+  - id: JDP-2               # Teacher person ID (nullable)
+    style_id: JDP-S-3       # Style ID (nullable)
+    place_id: JDP-P-5       # Place/venue ID (nullable)
+    period:
+      start: 1877           # BudoDate (REQUIRED)
+      end: 1879             # BudoDate (optional, null = ongoing/unknown)
+    role: student           # student | uchi-deshi | seminar | private | examination
+    confidence:             # REQUIRED: Confidence assessment
+      level: 3              # 0=Disputed, 1=Uncertain, 2=Probable, 3=Confirmed, null=Unknown
+      assessed_by: JDP      # Who performed assessment (person, organization, or 'JDP')
+      rationale: "Confidence assessment based on multiple independent sources"
+    sources:
+      - source_id: JDP-SRC-1
+        location: "p. 42"
+        type: primary
+        supports: true
+        weight: high
+        quotation: "Direct quote from source if applicable"
+rank:                       # Ranks/grades (REQUIRED, can be empty array)
+  - style_id: JDP-S-2       # Style ID (nullable)
+    rank: "5th Dan"
+    rank_type: dan          # dan | kyu | menkyo | title | other
+    org_id: JDP-O-1         # Organization ID (nullable)
+    granted_by: JDP-5       # Person ID who granted the rank
+    date: 1920              # BudoDate
+    confidence:             # Confidence assessment (optional but recommended)
+      level: 3
+      assessed_by: JDP
+      rationale: "Rank documented in official records"
+    sources:
+      - source_id: JDP-SRC-2
+        type: primary
+        supports: true
+        weight: high
+sources:                    # Top-level sources for the person (REQUIRED, at least one)
+  - source_id: JDP-SRC-1    # Reference to Source entity (preferred)
+    events: [name, birth]   # Which fields this source covers
+    type: secondary
+    supports: true
+    weight: medium
+  # - uri: "https://..."    # Inline URI fallback
+  #   cite: "Source name"
+  #   type: website
+  #   supports: true
+  #   weight: medium
+links:                      # External identifiers (optional)
+  - uri: "https://www.wikidata.org/wiki/Q190141"
+    type: wikidata          # wikidata | dbpedia | viaf | isni | wikipedia | other
+  # - uri: "https://dbpedia.org/page/..."
+  #   type: dbpedia
+tags:                       # Optional tags
+  - founder
+  - educator

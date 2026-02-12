@@ -1,0 +1,38 @@
+'@context': https://martial.is/context.jsonld
+type: Organization
+id: JDP-O-1
+name:
+  ja-Latn: Kodokan
+  ja: 講道館
+geo:
+  location: Tokyo
+  location_qid: Q1490
+  country_code: JPN
+  country_qid: Q17
+founded:
+  date: 1882
+  founder_id: JDP-1
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kodokan
+    cite: "Wikipedia: Kodokan"
+    type: unknown
+    supports: true
+    weight: unknown
+dissolved:
+parent_org_id:
+website: https://kodokanjudoinstitute.org/
+description:
+  en: The judo headquarters and governing institution founded by Kano Jigoro in 1882.
+sources:
+- uri: https://en.wikipedia.org/wiki/Kodokan
+  cite: "Wikipedia: Kodokan"
+  type: unknown
+  supports: true
+  weight: unknown
+links:
+- uri: https://www.wikidata.org/wiki/Q1120583
+  type: wikidata
+tags:
+- judo
+- headquarters
+classification: school

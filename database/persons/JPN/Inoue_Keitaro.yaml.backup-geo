@@ -1,0 +1,64 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-10
+name:
+  ja-Latn: Inoe Keitaro
+  ja: 井上敬太郎
+aka:
+  ja-Latn: Okusawa Keitaro
+  ja: 奥澤敬太郎
+nationality:
+  - code: JPN
+birth:
+  date: 1847
+  geo:
+    location: Tokyo
+    country_code: JPN
+death:
+  date: "1912-09-23"
+  geo:
+    location: null
+    country_code: JPN
+teachers:
+  - id: JDP-3
+    style_id: JDP-S-3
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+  - confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    id: null
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
+    date: null
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+    type: unknown
+    supports: true
+    weight: unknown

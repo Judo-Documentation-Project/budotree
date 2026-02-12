@@ -1,0 +1,83 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-103
+name:
+  pt: Geo Omori
+aka:
+  pt: Jyoji Omori
+nationality:
+  - code: BRA
+  - code: JPN
+birth:
+  date: "1898"
+  geo:
+    location: Tokyo
+    country_code: JPN
+death:
+  date: "1938-03-02"
+  geo:
+    location: Belo Horizonte
+    country_code: BRA
+photo:
+  url: https://archive.org/download/geo-omori/geo-omori.jpg
+  source:
+    uri: https://forum.bjjforum.com.br/
+    cite: BJJ Forum
+teachers:
+  - id: JDP-104
+    style_id: JDP-S-1
+    period:
+      start: null
+      end: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    sources:
+      - uri: https://isbnsearch.org/isbn/9798639871030
+        cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+        location: vol. 3, p. 153
+        quotation: Foi discípulo de um dos maiores lutadores do Kodokan, Tokugoro Ito
+        type: unknown
+        supports: true
+        weight: unknown
+      - uri: https://en.wikipedia.org/wiki/Geo_Omori
+        quotation: He learned under Tokugoro Ito and was a training partner of the famed Sanpo Toku
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 2 dan
+    date: null
+    sources:
+      - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+        cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
+        quotation: Geo Omori 2º dan não oficial
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://en.wikipedia.org/wiki/Geo_Omori
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://isbnsearch.org/isbn/9798639871030
+    cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://podcasters.spotify.com/pod/show/budokast0/episodes/Budokast-04---Geo-Omori-e-o-Jiu-Jitsu-Brasileiro-e8cbdt
+    cite: Budokast 04 - Geo Omori e o Jiu Jitsu Brasileiro (Gustavo Goulart)
+    type: unknown
+    supports: true
+    weight: unknown

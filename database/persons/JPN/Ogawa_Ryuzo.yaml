@@ -1,20 +1,20 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-126
 name:
   ja-Latn: Ogawa Ryuzo
   ja: 小川 龍造
 nationality:
-- JPN
+  - code: JPN
 birth:
   date: "1885"
   geo:
-    location: Taira, Fukushima
+    name: Taira, Fukushima
     country_code: JPN
 death:
   date: "1974"
   geo:
-    location: ""
+    name: ""
     country_code: JPN
 photo:
   url: https://archive.org/download/ogawa/ogawa.jpg
@@ -22,101 +22,101 @@ photo:
     uri: https://fpj.com.br/
     cite: Mestre Ryuzo Ogawa, fundador do Hombu Dojô Budokan (FPJudo)
 teachers:
-- style_id: ""
-  period:
-    start:
-    end:
-  confidence:
-    level:
-    assessed_by: JDP
-    rationale: Legacy quality field migration - value was null
-  sources:
-  - uri: urn:isbn:1425163491
-    cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
-    type: unknown
-    supports: true
-    weight: unknown
-  role: student
-  id:
-  place_id:
-- style_id: ""
-  period:
-    start:
-    end:
-  confidence:
-    level:
-    assessed_by: JDP
-    rationale: Legacy quality field migration - value was null
-  sources:
-  - uri: urn:isbn:1425163491
-    cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
-    type: unknown
-    supports: true
-    weight: unknown
-  role: student
-  id:
-  place_id:
+  - style_id: ""
+    period:
+      start: null
+      end: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    sources:
+      - uri: urn:isbn:1425163491
+        cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    id: null
+    place_id: null
+  - style_id: ""
+    period:
+      start: null
+      end: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    sources:
+      - uri: urn:isbn:1425163491
+        cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    id: null
+    place_id: null
 rank:
-- style_id: JDP-S-1
-  rank: 5 dan
-  date: "1954"
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  sources:
-  - uri: https://judo.forumotion.com/t3031-japanese-certificate-help-again
-    cite: Japanese Certificate - Help Again [Ryuzo Ogawa] (E-Judo)
-    quotation: "Ogawa Ryuzo signed far left. The three vertical columns are his positions, right to left: 5th dan judo, Dai Nihon Butokukai / Member, Greater Japan Ancient Martial Arts Preservation Society / Shihan, Kashima Shin'yo Ryu Jujutsu Judo"
-    type: unknown
-    supports: true
-    weight: unknown
-  rank_type: dan
-  org_id:
-- style_id: JDP-S-1
-  rank: 8 dan
-  date: "1954"
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  sources:
-  - uri: https://revistabudo.com.br/a-partir-de-2022-a-federacao-paulista-de-judo-realizara-os-campeonatos-do-hombu-dojo-budokan/
-    cite: A partir de 2022, a Federação Paulista de Judô realizará os campeonatos do Hombu Dojô Budokan (Revista Budô)
-    quotation: Após o falecimento de Ryuzo, que conquistara a graduação hachi-dan (8º dan), quem assumiu foi o pai de Hitoshi e Hatiro, Matsuo Ogawa
-    type: unknown
-    supports: true
-    weight: unknown
-  rank_type: dan
-  org_id:
+  - style_id: JDP-S-1
+    rank: 5 dan
+    date: "1954"
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources:
+      - uri: https://judo.forumotion.com/t3031-japanese-certificate-help-again
+        cite: Japanese Certificate - Help Again [Ryuzo Ogawa] (E-Judo)
+        quotation: "Ogawa Ryuzo signed far left. The three vertical columns are his positions, right to left: 5th dan judo, Dai Nihon Butokukai / Member, Greater Japan Ancient Martial Arts Preservation Society / Shihan, Kashima Shin'yo Ryu Jujutsu Judo"
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    org_id: null
+  - style_id: JDP-S-1
+    rank: 8 dan
+    date: "1954"
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources:
+      - uri: https://revistabudo.com.br/a-partir-de-2022-a-federacao-paulista-de-judo-realizara-os-campeonatos-do-hombu-dojo-budokan/
+        cite: A partir de 2022, a Federação Paulista de Judô realizará os campeonatos do Hombu Dojô Budokan (Revista Budô)
+        quotation: Após o falecimento de Ryuzo, que conquistara a graduação hachi-dan (8º dan), quem assumiu foi o pai de Hitoshi e Hatiro, Matsuo Ogawa
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    org_id: null
 sources:
-- uri: urn:isbn:1425163491
-  cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://books.google.pt/books?id=WtgDAAAAMBAJ&pg=PA23
-  cite: Ryuzo Ogawa's 80 Years of Judo (Black Belt, May 1972)
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://ge.globo.com/judo/noticia/2014/09/precursor-na-difusao-do-judo-no-pais-ryuzo-ogawa-e-uma-lenda-do-esporte.html
-  cite: Precursor na difusão do judô no país, Ryuzo Ogawa é uma lenda do esporte (GloboEsporte)
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://pt.wikipedia.org/wiki/Jud%C3%B4_do_Brasil
-  cite: Judô no Brasil - Wikipedia
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://www.revistas.usp.br/rbefe/article/view/52889/56819
-  cite: NUNES & RUBIO (2012). As origens do judô brasileiro
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://isbnsearch.org/isbn/9798639871030
-  cite: SILVA & CORRÊA (2020). Muito antes do MMA
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: urn:isbn:1425163491
+    cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://books.google.pt/books?id=WtgDAAAAMBAJ&pg=PA23
+    cite: Ryuzo Ogawa's 80 Years of Judo (Black Belt, May 1972)
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://ge.globo.com/judo/noticia/2014/09/precursor-na-difusao-do-judo-no-pais-ryuzo-ogawa-e-uma-lenda-do-esporte.html
+    cite: Precursor na difusão do judô no país, Ryuzo Ogawa é uma lenda do esporte (GloboEsporte)
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://pt.wikipedia.org/wiki/Jud%C3%B4_do_Brasil
+    cite: Judô no Brasil - Wikipedia
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.revistas.usp.br/rbefe/article/view/52889/56819
+    cite: NUNES & RUBIO (2012). As origens do judô brasileiro
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://isbnsearch.org/isbn/9798639871030
+    cite: SILVA & CORRÊA (2020). Muito antes do MMA
+    type: unknown
+    supports: true
+    weight: unknown

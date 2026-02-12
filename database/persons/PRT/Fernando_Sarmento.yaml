@@ -1,4 +1,4 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-73
 name:
@@ -6,87 +6,87 @@ name:
 aka:
   pt: Fernando Duarte Sarmento
 nationality:
-- PRT
+  - code: PRT
 birth:
   date: "1950"
   geo:
-    location: Maia
+    name: Maia
     country_code: PRT
 death:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 photo:
   url: https://archive.org/download/franciso_sarmento/fernando_sarmento.jpg
   source:
     uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
     cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
 teachers:
-- id: JDP-74
-  style_id: JDP-S-1
-  confidence:
-    level: 3
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 3"
-  period:
-    start: 1968
-    end: 1969
-  sources:
-  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-    cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-    quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
-    type: unknown
-    supports: true
-    weight: unknown
-  role: student
-  place_id:
-- id: JDP-72
-  style_id: JDP-S-4
-  confidence:
-    level: 3
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 3"
-  period:
-    start: 2006
-    end:
-  sources:
-  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-    cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-    quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
-    type: unknown
-    supports: true
-    weight: unknown
-  role: student
-  place_id:
+  - id: JDP-74
+    style_id: JDP-S-1
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    period:
+      start: 1968
+      end: 1969
+    sources:
+      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+        quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+  - id: JDP-72
+    style_id: JDP-S-4
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    period:
+      start: 2006
+      end: null
+    sources:
+      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+        quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
 rank:
-- style_id: JDP-S-4
-  rank: 2 dan
-  date: 2009
-  sources:
-  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-    cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-    quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
+  - style_id: JDP-S-4
+    rank: 2 dan
+    date: 2009
+    sources:
+      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+        quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
     type: unknown
     supports: true
     weight: unknown
-  rank_type: dan
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  granted_by:
-  org_id:
-sources:
-- uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm
+    type: unknown
+    supports: true
+    weight: unknown

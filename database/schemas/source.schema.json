@@ -41,7 +41,7 @@
               "type": "null"
             },
             {
-              "$ref": "budotree.schema.json#/definitions/NativeName"
+              "type": "string"
             }
           ]
         },

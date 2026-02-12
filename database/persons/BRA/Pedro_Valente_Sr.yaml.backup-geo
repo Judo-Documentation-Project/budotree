@@ -1,0 +1,79 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-134
+name:
+  pt: Pedro Valente Sr.
+nationality:
+  - code: BRA
+birth:
+  date: "1928-11-21"
+  geo:
+    location: Rio de Janeiro
+    country_code: BRA
+death:
+  date: "2016-05-28"
+  geo:
+    location: ""
+    country_code: BRA
+photo:
+  url: https://archive.org/download/pedro_valente_sr/pedro_valente_sr.png
+  source:
+    uri: https://valentebrothers.com/our-story/
+    cite: "Valente Brothers: Our Story"
+teachers:
+  - id: JDP-102
+    style_id: JDP-S-16
+    period:
+      start: "1951"
+      end: null
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    sources:
+      - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+        cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+        quotation: My father took me to the Gracie Academy in downtown Rio back in the 50’s. I was 13 then and started to learn Jiu-Jitsu. Later on I participated at some fights at Maracanãzinho
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-16
+    rank: 7 dan
+    date: null
+    sources:
+      - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+        cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+        quotation: Helio Gracie himself gave me my black belt, as well as the teacher’s degree and the red and black 7th Dan belt
+        type: unknown
+        supports: true
+        weight: unknown
+    granted_by: JDP-102
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+sources:
+  - uri: https://www.facebook.com/photo.php?fbid=1524410540929851&id=188638484507070&set=a.614160078621573
+    cite: Pedro Valente Sr. - Facebook Memorial
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.gresportela.com.br/Noticias/Detalhes/portela-participa-de-homenagem-ao-cirurgiao-e-torcedor-ilustre-pedro-valente
+    cite: Portela pays tribute to Pedro Valente - GRES Portela
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
+    cite: Interview with red-belt Pedro Valente Sr. - GracieMag
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://valentebrothers.com/our-story/
+    cite: "Valente Brothers: Our Story"
+    type: unknown
+    supports: true
+    weight: unknown

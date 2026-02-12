@@ -104,6 +104,24 @@
       "title": "LanguageMap",
       "description": "BCP 47 language code to string(s) map"
     },
+    "NationalityEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "$ref": "#/definitions/CountryCode"
+        },
+        "wikidata": {
+          "$ref": "#/definitions/WikidataQID"
+        }
+      },
+      "anyOf": [
+        {"required": ["code"]},
+        {"required": ["wikidata"]}
+      ],
+      "title": "NationalityEntry",
+      "description": "Nationality entry with ISO country code and optional Wikidata Q-ID"
+    },
     "Period": {
       "type": "object",
       "additionalProperties": false,
@@ -173,25 +191,21 @@
     },
     "GeoRef": {
       "title": "GeoRef",
-      "description": "Geographic reference with free-text display name, ISO country code, and Wikidata Q-IDs",
+      "description": "Geographic reference with display name, ISO country code, and Wikidata Q-ID",
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "location": {
+        "name": {
           "type": "string",
           "description": "Display name for the location (city, region, etc.)"
-        },
-        "location_qid": {
-          "$ref": "#/definitions/WikidataQID",
-          "description": "Wikidata Q-ID for the geographic location"
         },
         "country_code": {
           "$ref": "#/definitions/CountryCode",
           "description": "ISO 3166-1 alpha-3 country code for filtering"
         },
-        "country_qid": {
+        "wikidata": {
           "$ref": "#/definitions/WikidataQID",
-          "description": "Wikidata Q-ID for country (handles historical countries)"
+          "description": "Wikidata Q-ID for the geographic location (prefers location over country)"
         }
       }
     },

@@ -1,0 +1,66 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-5
+name:
+  ja-Latn: Iikubo Tsunetoshi
+  ja: 飯久保鍬吉恒年先生
+aka:
+  ja-Latn: Iikubo Kōnen
+nationality:
+  - code: JPN
+birth:
+  date: 1835
+  geo:
+    location: null
+    country_code: null
+death:
+  date: 1889
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: JDP-6
+    style_id: JDP-S-2
+    period:
+      start: null
+      end: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    role: student
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
+    date: null
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://doi.org/10.18002/rama.v9i2.1162
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC
+    cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
+    events:
+      - birth
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.cismeurope.org/history-judo/
+    events:
+      - birth death
+    type: unknown
+    supports: true
+    weight: unknown

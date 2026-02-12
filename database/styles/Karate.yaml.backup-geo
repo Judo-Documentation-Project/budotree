@@ -1,0 +1,20 @@
+'@context': https://martial.is/context.jsonld
+type: Style
+id: JDP-S-5
+name:
+  ja-Latn: Karate
+  ja: 空手
+aka:
+  ja-Latn: Karatedo
+  ja: 空手道
+sources:
+- uri: https://en.wikipedia.org/wiki/Karate
+  type: unknown
+  supports: true
+  weight: unknown
+founded:
+  date: 1800
+  geo:
+    location: Okinawa
+    country_code: JPN
+classification: gendai

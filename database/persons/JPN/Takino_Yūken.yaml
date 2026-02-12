@@ -1,59 +1,59 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-8
 name:
   ja-Latn: Takino Yūken
   ja: 滝野遊軒
 nationality:
-- JPN
+  - code: JPN
 birth:
   date: 1659
   geo:
-    location: Tamba
+    name: Tamba
     country_code: JPN
 death:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 teachers:
-- id:
-  confidence:
-    level:
-    assessed_by: JDP
-    rationale: Legacy quality field migration - value was null
-  period:
-    start:
-    end:
-  role: student
-  place_id:
+  - id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
 rank:
-- rank:
-  date:
-  rank_type: other
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  sources: []
-  granted_by:
-  org_id:
+  - rank: null
+    date: null
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://doi.org/10.18002/rama.v13i2.5700
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://www.ryoishintokai.com/2022/03/24/1819/
-  events:
-  - birth
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://doi.org/10.18002/rama.v13i2.5700
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://www.ryoishintokai.com/2022/03/24/1819/
+    events:
+      - birth
+    type: unknown
+    supports: true
+    weight: unknown
 links:
-- uri: https://www.wikidata.org/wiki/Q11565323
-  cite: Wikidata
-  type: wikidata
+  - uri: https://www.wikidata.org/wiki/Q11565323
+    cite: Wikidata
+    type: wikidata

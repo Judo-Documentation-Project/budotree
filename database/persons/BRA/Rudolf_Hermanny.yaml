@@ -1,80 +1,80 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-128
 name:
   pt: Rudolf Hermanny
 nationality:
-- BRA
+  - code: BRA
 birth:
   date: "1931-08-16"
   geo:
-    location: São Paulo
+    name: São Paulo
     country_code: BRA
 death:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 photo:
   url: https://archive.org/download/hermanny/hermanny.png
   source:
     uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-farao-palestras-no-seminario-os-pioneiros/
     cite: Georges Mehdi e Rudolf Hermanny farão palestras no seminário Os Pioneiros - Revista Budô
 teachers:
-- id: JDP-127
-  style_id: JDP-S-1
-  period:
-    start: "1952"
-    end: "1987"
-  confidence:
-    level: 3
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 3"
-  sources:
-  - uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
-    cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
-    quotation: Iniciei a prática do judô sob a orientação do Prof. Augusto de Oliveira Cordeiro em dezembro de 1952 na Academia localizada à rua Barata Ribeiro, nº 530, que muitas recordações deixou.
-    type: unknown
-    supports: true
-    weight: unknown
+  - id: JDP-127
+    style_id: JDP-S-1
+    period:
+      start: "1952"
+      end: "1987"
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    sources:
+      - uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+        cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
+        quotation: Iniciei a prática do judô sob a orientação do Prof. Augusto de Oliveira Cordeiro em dezembro de 1952 na Academia localizada à rua Barata Ribeiro, nº 530, que muitas recordações deixou.
+        type: unknown
+        supports: true
+        weight: unknown
+      - uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
+        cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
+        quotation: Segundo o historiador Stanlei Virgílio, o professor Hermanny iniciou seu judô com o professor Augusto Cordeiro em 1952, a quem esteve ligado até sua morte em 1987.
+        type: unknown
+        supports: true
+        weight: unknown
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 4 dan
+    date: "1963"
+    sources:
+      - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/
+        cite: O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)
+        quotation: Boletim Informativo nº 1, de 1963... Prof. Hermanny - 4º dan
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    org_id: null
+sources:
   - uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
     cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
-    quotation: Segundo o historiador Stanlei Virgílio, o professor Hermanny iniciou seu judô com o professor Augusto Cordeiro em 1952, a quem esteve ligado até sua morte em 1987.
     type: unknown
     supports: true
     weight: unknown
-  role: student
-  place_id:
-rank:
-- style_id: JDP-S-1
-  rank: 4 dan
-  date: "1963"
-  sources:
-  - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2009/04/
-    cite: O JUDÔ NO RIO DE JANEIRO (Wanderley, 2001)
-    quotation: Boletim Informativo nº 1, de 1963... Prof. Hermanny - 4º dan
+  - uri: https://saladepesquisacapoeira.blogspot.com/2009/03/rudolf-hermany-boxcapoeira-e-judo.html
+    cite: RUDOLF HERMANY, BOX, CAPOEIRA E JUDO - Sala de Pesquisa
     type: unknown
     supports: true
     weight: unknown
-  rank_type: dan
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  org_id:
-sources:
-- uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
-  cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://saladepesquisacapoeira.blogspot.com/2009/03/rudolf-hermany-boxcapoeira-e-judo.html
-  cite: RUDOLF HERMANY, BOX, CAPOEIRA E JUDO - Sala de Pesquisa
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
-  cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+    cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
+    type: unknown
+    supports: true
+    weight: unknown

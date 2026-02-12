@@ -1,0 +1,65 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-124
+name:
+  ja-Latn: Oda Tsunetane
+  ja: 田常胤
+aka:
+  ja-Latn: Join Oda
+nationality:
+  - code: JPN
+birth:
+  date: "1892-03-10"
+  geo:
+    location: Yamanashi Prefecture
+    country_code: JPN
+death:
+  date: "1955-02-11"
+  geo:
+    location: Shinjuku
+    country_code: JPN
+photo:
+  url: https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg
+  source:
+    uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+    cite: Japanese judoka Oda - Wikipedia
+teachers:
+  - id: null
+    style_id: null
+    period:
+      start: null
+      end: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    role: student
+    place_id: null
+rank:
+  - style_id: JDP-S-1
+    rank: 9 dan
+    date: "1948"
+    confidence:
+      level: 3
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 3"
+    sources:
+      - uri: https://judoinfo.com/oda/
+        cite: Master Tsunetane Oda - JudoInfo
+        quotation: Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third edition of Koshita Judo Wa Sushume
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: dan
+    org_id: JDP-O-1
+sources:
+  - uri: https://judoinfo.com/oda/
+    cite: Master Tsunetane Oda - JudoInfo
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+    cite: Tsunetane Oda - Wikipedia
+    type: unknown
+    supports: true
+    weight: unknown

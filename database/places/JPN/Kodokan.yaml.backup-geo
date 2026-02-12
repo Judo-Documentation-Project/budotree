@@ -1,0 +1,38 @@
+'@context': https://martial.is/context.jsonld
+type: Place
+id: JDP-P-1
+name:
+  ja-Latn: Kodokan
+  ja: 講道館
+address: 1-16-30 Kasuga, Bunkyo
+org_id: JDP-O-1
+parent_place_id:
+founded:
+  date: 1882
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kodokan
+    cite: "Wikipedia: Kodokan"
+    type: unknown
+    supports: true
+    weight: unknown
+dissolved:
+description:
+  en: The headquarters dojo of the worldwide judo community, founded by Kano Jigoro in 1882.
+sources:
+- uri: https://en.wikipedia.org/wiki/Kodokan
+  cite: "Wikipedia: Kodokan"
+  type: unknown
+  supports: true
+  weight: unknown
+links:
+- uri: https://www.wikidata.org/wiki/Q1120583
+  type: wikidata
+tags:
+- headquarters
+- judo
+geo:
+  location: Tokyo
+  location_qid: Q1490
+  country_code: JPN
+  country_qid: Q17
+classification: dojo

@@ -1,62 +1,62 @@
-'@context': https://martial.is/context.jsonld
+"@context": https://martial.is/context.jsonld
 type: Person
 id: JDP-129
 name:
   pt: Balthazar Cardoso
 nationality:
-- BRA
+  - code: BRA
 birth:
-  date:
+  date: null
   geo:
-    location: São Luís, Maranhão
+    name: São Luís, Maranhão
     country_code: BRA
 death:
-  date:
+  date: null
   geo:
-    location:
-    country_code:
+    name: null
+    country_code: null
 photo:
   url: https://archive.org/download/screenshot-from-2025-05-11-16-58-43/Screenshot%20From%202025-05-11%2016-58-43.png
   source:
     uri: https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695
     cite: Jornal dos Esportes (1931-09-28, Ed. 167, p.3)
 teachers:
-- id:
-  style_id:
-  confidence:
-    level:
-    assessed_by: JDP
-    rationale: Legacy quality field migration - value was null
-  period:
-    start:
-    end:
-  role: student
-  place_id:
+  - id: null
+    style_id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
 rank:
-- style_id: JDP-S-19
-  rank: W42/L6/D8
-  date:
-  sources:
+  - style_id: JDP-S-19
+    rank: W42/L6/D8
+    date: null
+    sources:
+      - uri: https://boxrec.com/en/proboxer/624960
+        cite: Balthazar Cardoso (Boxrec)
+        quotation: ""
+        type: unknown
+        supports: true
+        weight: unknown
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    org_id: null
+sources:
   - uri: https://boxrec.com/en/proboxer/624960
     cite: Balthazar Cardoso (Boxrec)
-    quotation: ""
     type: unknown
     supports: true
     weight: unknown
-  rank_type: other
-  confidence:
-    level: 2
-    assessed_by: JDP
-    rationale: "Legacy quality field migration - original value: 2"
-  org_id:
-sources:
-- uri: https://boxrec.com/en/proboxer/624960
-  cite: Balthazar Cardoso (Boxrec)
-  type: unknown
-  supports: true
-  weight: unknown
-- uri: https://www.faddabjj.com/historia-fadda
-  cite: A história da Família Fadda (FaddaBJJ)
-  type: unknown
-  supports: true
-  weight: unknown
+  - uri: https://www.faddabjj.com/historia-fadda
+    cite: A história da Família Fadda (FaddaBJJ)
+    type: unknown
+    supports: true
+    weight: unknown

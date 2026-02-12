@@ -1,0 +1,56 @@
+"@context": https://martial.is/context.jsonld
+type: Person
+id: JDP-36
+name:
+  ja-Latn: Kanaya Genro
+aka:
+  ja-Latn: Kanaya Motoyoshi
+nationality:
+  - code: JPN
+birth:
+  date: null
+  geo:
+    location: null
+    country_code: null
+death:
+  date: null
+  geo:
+    location: null
+    country_code: null
+teachers:
+  - id: null
+    style_id: null
+    confidence:
+      level: null
+      assessed_by: JDP
+      rationale: Legacy quality field migration - value was null
+    period:
+      start: null
+      end: null
+    role: student
+    place_id: null
+rank:
+  - style_id: null
+    rank: null
+    date: null
+    rank_type: other
+    confidence:
+      level: 2
+      assessed_by: JDP
+      rationale: "Legacy quality field migration - original value: 2"
+    sources: []
+    granted_by: null
+    org_id: null
+sources:
+  - uri: https://www.e-budo.com/forum/showthread.php?48591-Yoshin-koryu-Jujutsu
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+    type: unknown
+    supports: true
+    weight: unknown
+  - uri: urn:isbn:9784770026194
+    type: unknown
+    supports: true
+    weight: unknown
