@@ -47,10 +47,34 @@ function getStyleById(id) {
   }
 }
 
+// Simple function to resolve name from language map
+function resolveName(nameMap) {
+  if (typeof nameMap === 'string') return nameMap;
+  if (!nameMap || typeof nameMap !== 'object') return '';
+  
+  // Try English first
+  if (nameMap['en']) {
+    const value = nameMap['en'];
+    return Array.isArray(value) ? value[0] : value;
+  }
+  
+  // Try any romanized variant (ending with -Latn)
+  for (const key of Object.keys(nameMap)) {
+    if (key.endsWith('-Latn')) {
+      const value = nameMap[key];
+      return Array.isArray(value) ? value[0] : value;
+    }
+  }
+  
+  // Fall back to first value
+  const firstValue = Object.values(nameMap)[0];
+  return Array.isArray(firstValue) ? firstValue[0] : firstValue || '';
+}
+
 function listPersons() {
   const template = fs.readFileSync("./src/templates/persons.mustache").toString();
   const sorted = data.elements.nodes.sort((a, b) =>
-    a.data.name.localeCompare(b.data.name),
+    resolveName(a.data.name).localeCompare(resolveName(b.data.name)),
   );
   const rendered = Mustache.render(template, { arr: sorted }, {
     head: head_top,
@@ -83,17 +107,20 @@ function createPerson (target){
   if (target.isNode()) {
     for (let i = 0; i < target.data().teachers.length; i++) {
       // console.log(event.target.data().teachers[i]);
-      for (const person of data.elements.nodes) {
-        if (person.data.id == target.data().teachers[i].id) {
-          // console.log(person.data.name);
-          target.data().teachers[i].teacher_name = person.data.name;
-          target.data().teachers[i].teacher_native = person.data.native_name;
-          target.data().teachers[i].style = getStyleById(target.data().teachers[i].style_id).name
-          target.data().teachers[i].student_id = target.data().id;
-          target.data().teachers[i].student_name = target.data().name;
-          // console.log(target.data().teachers[i]["teacher_name"]);
+        for (const person of data.elements.nodes) {
+          if (person.data.id == target.data().teachers[i].id) {
+            // console.log(person.data.name);
+            target.data().teachers[i].teacher_name = resolveName(person.data.name);
+            // Try to get native name from language map (e.g., Japanese characters)
+            const nativeLang = Object.keys(person.data.name).find(key => !key.endsWith('-Latn') && key !== 'en');
+            target.data().teachers[i].teacher_native = nativeLang ? person.data.name[nativeLang] : null;
+            const style = getStyleById(target.data().teachers[i].style_id);
+            target.data().teachers[i].style = style ? resolveName(style.name) : null;
+            target.data().teachers[i].student_id = target.data().id;
+            target.data().teachers[i].student_name = resolveName(target.data().name);
+            // console.log(target.data().teachers[i]["teacher_name"]);
+          }
         }
-      }
     }
 
     if (target.isNode() && target.data().rank) {
@@ -102,9 +129,12 @@ function createPerson (target){
         for (const person of data.elements.nodes) {
           if (person.data.id == target.data().rank[i].teacher_id) {
             // console.log(person.data.name);
-            target.data().rank[i].teacher_name = person.data.name;
-            target.data().rank[i].teacher_native = person.data.native_name;
-            target.data().rank[i].style = getStyleById(target.data().teachers[i].style_id).name
+            target.data().rank[i].teacher_name = resolveName(person.data.name);
+            // Try to get native name from language map (e.g., Japanese characters)
+            const nativeLang = Object.keys(person.data.name).find(key => !key.endsWith('-Latn') && key !== 'en');
+            target.data().rank[i].teacher_native = nativeLang ? person.data.name[nativeLang] : null;
+            const style = getStyleById(target.data().rank[i].style_id);
+            target.data().rank[i].style = style ? resolveName(style.name) : null;
             console.log(target.data().rank[i]["teacher_name"]);
           }
         }
@@ -116,7 +146,7 @@ function createPerson (target){
     const students = [];
     target.outgoers("node").forEach((e) => {
       e.data().teacher_id = target.data().id
-      e.data().teacher_name = target.data().name
+      e.data().teacher_name = resolveName(target.data().name)
       students.push(e.data());
     });
 
@@ -142,6 +172,17 @@ function createPerson (target){
       target.data().death.date_local = DateTime.fromISO(
         target.data().death.date,
       ).toFormat("yyyy");
+    }
+
+    // Prepare name for template
+    const nameMap = target.data().name; // Save the language map
+    target.data().name = resolveName(nameMap);
+    // Try to get native name from language map (e.g., Japanese characters)
+    if (nameMap && typeof nameMap === 'object') {
+      const nativeLang = Object.keys(nameMap).find(key => !key.endsWith('-Latn') && key !== 'en');
+      target.data().native_name = nativeLang ? { name: nameMap[nativeLang] } : null;
+    } else {
+      target.data().native_name = null;
     }
 
     if (target.data().links) {

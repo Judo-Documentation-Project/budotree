@@ -1,0 +1,13 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-10
+name:
+  en: Iwama Dojo
+  ja-Latn: Iwama Dōjō
+  ja: 岩間道場
+classification: dojo
+geo:
+  name: Iwama
+  country_code: JPN
+  wikidata: Q1011725
+sources: []

@@ -5,73 +5,81 @@ name:
   ja-Latn: Saigō Shirō
   ja: 西郷四郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1866-01-04"
+  date: '1866-01-04'
   geo:
     name: Aizuwakamatsu, Fukushima
     country_code: JPN
+    wikidata: Q201872
 death:
-  date: "1922-12-22"
+  date: '1922-12-22'
   geo:
     name: Onomichi
     country_code: JPN
+    wikidata: Q850930
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/f/f6/Saigo_Shirou.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Shiro_Saigo#/media/File:Saigo-Shiro.jpg
     cite: Saigo Shiro, Wikimedia Commons
 description:
-  en: |
-    Shiro Saigo (西郷四郎, Saigō Shirō, February 4, 1866 – December 22, 1922) was one of the earliest disciples of Judo. Saigo, together with Tsunejiro Tomita, became first in history of judo to be awarded Shodan by the founder of judo Jigoro Kano, who established the kyu-dan ranking system. He was one of the Kōdōkan Shitennō or Four Guardians of the Kodokan along with Yoshitsugu Yamashita, Sakujiro Yokoyama, and Tsunejiro Tomita.
+  en: One of the earliest disciples of Judo, first to be awarded shodan (black belt) along with Tsunejiro Tomita. One of the Kōdōkan Shitennō (Four Guardians of the Kodokan). Known for his yama arashi technique and role in establishing Judo's superiority over jujutsu.
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: One of Jigoro Kano's earliest students, enrolled at Kodokan in August 1882, mentioned in Kano's memoirs with quotation about becoming his student shortly thereafter
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1882
       end: 1890
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: urn:isbn:1425163491
-        cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008
-        location: p. 20
-        quotation: Shortly thereafter, in August 1882, the now famous Shiro Saigo became a student of mine
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+    - uri: urn:isbn:1425163491
+      cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008
+      location: p. 20
+      quotation: Shortly thereafter, in August 1882, the now famous Shiro Saigo became a student of mine
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 6 dan
-    date: "1923-01-14"
-    sources:
-      - uri: https://www.judo-ch.jp/english/legend/saigou/
-        quotation: "January, 1923: 6th Dan (...) Upon receiving news of his death, Jigoro Kano awarded him a posthumous promotion to the 6th Dan on January 14, 1923"
-        type: unknown
-        supports: true
-        weight: unknown
-    granted_by: JDP-1
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: JDP-O-1
-sources:
+- style_id: JDP-S-1
+  rank: 6 dan
+  date: '1923-01-14'
+  sources:
   - uri: https://www.judo-ch.jp/english/legend/saigou/
-    cite: Judo Channel
-    type: unknown
+    quotation: 'January, 1923: 6th Dan (...) Upon receiving news of his death, Jigoro Kano awarded him a posthumous promotion to the 6th Dan on January 14, 1923'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/西郷四郎
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judoinfo.com/saigo/
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  granted_by: JDP-1
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Posthumously awarded 6th dan by Jigoro Kano on 1923-01-14 after his death, documented by Judo Channel with specific date and quotation
+  org_id: JDP-O-1
+notes: Born Shida Sadajiro in Aizuwakamatsu, Fukushima, third son of a samurai. Adopted by former Aizu Domain elder councillor Tanomo Saigo in 1884, taking name Hoshina Shiro, later reverted to Saigo in 1888 to resurrect family line. Enrolled at Kodokan in August 1882 as Jigoro Kano's second student. Along with Tsunejiro Tomita, first to be awarded shodan (black belt) in 1883. Key figure in 1886 Tokyo Metropolitan Police tournament where Kodokan judo defeated Totsuka-ha Yoshin-ryu jujutsu, establishing judo's superiority. Known for yama arashi technique and exceptional agility, nicknamed 'Cat' for ability to land on feet when thrown. Left Kodokan in 1890 after street brawl incident. Later worked as journalist in Nagasaki for 'Toyo Hinode Shimbun', taught judo, kyudo, and Japanese swimming. Died in Onomichi in 1922. Model for main character in Tomita Tsuneo's novel 'Sugata Sanshiro' (1942), adapted into Akira Kurosawa's 1943 film.
+sources:
+- uri: https://www.judo-ch.jp/english/legend/saigou/
+  cite: Judo Channel
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/西郷四郎
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://judoinfo.com/saigo/
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- uri: https://www.wikidata.org/wiki/Q2637587
+  cite: Wikidata
+  type: wikidata

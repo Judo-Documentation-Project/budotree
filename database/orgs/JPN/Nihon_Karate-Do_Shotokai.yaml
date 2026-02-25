@@ -1,0 +1,42 @@
+"@context": https://martial.is/context.jsonld
+type: Organization
+id: JDP-O-5
+name:
+  ja: 日本空手道松濤會
+  ja-Latn: Nihon Karate-Do Shotokai
+  en: Shotokai
+  pt: Shotokai
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+founded:
+  date: null
+  founder_id: null
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Sh%C5%8Dt%C5%8Dkai
+      cite: "Wikipedia: Shōtōkai"
+      type: secondary
+      supports: true
+      weight: medium
+dissolved: null
+parent_org_id: null
+website: null
+description:
+  en: Japanese karate organization, also known as Nihon Karate-Do Shotokai, focused on traditional karate practice and preservation.
+  pt: Organização japonesa de karate, também conhecida como Nihon Karate-Do Shotokai, focada na prática e preservação do karate tradicional.
+sources:
+  - uri: https://en.wikipedia.org/wiki/Sh%C5%8Dt%C5%8Dkai
+    cite: "Wikipedia: Shōtōkai"
+    type: secondary
+    supports: true
+    weight: medium
+links:
+  - uri: https://www.wikidata.org/wiki/Q41073
+    type: wikidata
+tags:
+  - karate
+  - organization
+  - traditional
+  - shotokai
+classification: organization

@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-2
+name:
+  ja-Latn: Eishōji
+  ja: 永昌寺
+classification: temple
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+sources: []

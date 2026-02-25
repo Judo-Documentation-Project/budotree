@@ -1,0 +1,38 @@
+"@context": https://martial.is/context.jsonld
+type: Organization
+id: JDP-O-3
+name:
+  ja-Latn: Budokan
+  ja: 武道館
+  pt: Budokan
+geo:
+  name: São Paulo
+  country_code: BRA
+  wikidata: Q174
+founded:
+  date: null
+  founder_id: JDP-126
+  sources:
+    - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+      cite: Dojô Professor Loanzi - Museu Virtual do Judô
+      type: secondary
+      supports: true
+      weight: medium
+dissolved: null
+parent_org_id: null
+website: null
+description:
+  pt: Academia de judô fundada por Ryuzo Ogawa em São Paulo
+  en: Judo academy founded by Ryuzo Ogawa in São Paulo
+sources:
+  - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    cite: Dojô Professor Loanzi - Museu Virtual do Judô
+    type: secondary
+    supports: true
+    weight: medium
+links: []
+tags:
+  - judo
+  - academy
+  - brazil
+classification: school

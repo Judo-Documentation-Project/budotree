@@ -6,85 +6,94 @@ name:
 aka:
   zh-Latn: Wang Heng Sun
 nationality:
-  - code: CHN
-  - code: TWN
+- code: CHN
+  wikidata: Q148
+- code: TWN
+  wikidata: Q865
 birth:
-  date: "1904"
+  date: '1904'
   geo:
     name: null
     country_code: CHN
+    wikidata: Q148
 death:
-  date: "1981"
+  date: '1981'
   geo:
     name: Taipei
     country_code: TWN
+    wikidata: Q1867
 photo:
   url: https://archive.org/download/wang-hawk-posture/Wang-hawk-posture.jpg
   source:
     uri: https://blog.awma.com/man-of-steel/wang-hawk-posture/
     cite: Wang [Shujin] hawk posture (AWMA)
+    type: tertiary
+    supports: true
+    weight: low
 teachers:
-  - id: JDP-118
-    style_id: JDP-S-17
+- id: JDP-118
+  style_id: JDP-S-17
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Taipei Times article describes Wang learning from Zhang Zhaodong's senior student
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-        cite: Martial arts fight for survival (Taipei Times)
-        quotation: " By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang's instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means \"eight diagram palms\" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-118
-    style_id: JDP-S-18
+    - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+      cite: Martial arts fight for survival (Taipei Times)
+      quotation: ' By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang''s instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means "eight diagram palms" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy'
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-118
+  style_id: JDP-S-18
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Taipei Times article describes Wang learning from Zhang Zhaodong's senior student
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-        cite: Martial arts fight for survival (Taipei Times)
-        quotation: " By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang's instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means \"eight diagram palms\" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+      cite: Martial arts fight for survival (Taipei Times)
+      quotation: ' By chance one day, a senior student of the famous martial arts master Zhang Zhao-dong came to the business where Wang worked. (...)  Under Zhang''s instruction, Wang learned the two arts for which he would later become famous; pa kua chang and hsing yi chuan. Pa kua chang means "eight diagram palms" and refers to the eight core diagrams which make up the I-Ching (易經, Book of Changes), one of the most important books of classical Chinese philosophy'
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Rank information not specified in available sources
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Wang_Shujin
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-    cite: Martial arts fight for survival (Taipei Times)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Wang_Shujin
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+  cite: Martial arts fight for survival (Taipei Times)
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q4018116
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Wang_Shujin
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q4018116
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Wang_Shujin
+  cite: DBpedia
+  type: dbpedia

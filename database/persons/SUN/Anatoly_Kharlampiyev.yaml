@@ -4,70 +4,98 @@ id: JDP-101
 name:
   en: Anatoly Kharlampiyev
 nationality:
-  - code: RUS
-  - code: SUN
+- code: RUS
+  wikidata: Q159
+- code: SUN
+  wikidata: Q15180
 birth:
-  date: "1906-10-29"
+  date: '1906-10-29'
   geo:
     name: Smolensk
     country_code: RUS
+    wikidata: Q2337
 death:
-  date: "1979-04-16"
+  date: '1979-04-16'
   geo:
     name: Moscow
     country_code: SUN
+    wikidata: Q649
 photo:
   url: https://archive.org/download/kharlampiyev/kharlampiyev.jpeg
   source:
     uri: https://dzen.ru/a/YgYnw0IeDT93JdjX
+    cite: Dzen.ru article with photo
+    type: tertiary
+    weight: low
 teachers:
-  - id: JDP-97
-    style_id: JDP-S-1
+- id: JDP-97
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Student of Vasili Oshchepkov from 1931, studied judo under his guidance at the State Central Order of Lenin Institute of Physical Culture, graduating in 1936 from Oshchepkov's judo department as documented in Russian Wikipedia
+  role: student
+  interactions:
+  - place_id: JDP-P-38
     period:
       start: 1931
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
-        quotation: В 1936 г. окончил Государственный центральный ордена Ленина институт физической культуры (отделение дзюдо Василия Сергеевича Ощепкова)[...]Создавая «систему самбо», Харлампиев тщательно изучал дзюдо и осваивал его на практике. В дзюдо он видел основание нового вида борьбы в одежде, обогащённого наиболее эффективными приёмами других видов борьбы. Дзюдо он осваивал под руководством Василия Сергеевича Ощепкова, который во время многолетнего пребывания в Японии тренировался в школе дзюдо Кодокан.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
+      cite: Russian Wikipedia - Kharlampiyev biography
+      quotation: В 1936 г. окончил Государственный центральный ордена Ленина институт физической культуры (отделение дзюдо Василия Сергеевича Ощепкова)[...]Создавая «систему самбо», Харлампиев тщательно изучал дзюдо и осваивал его на практике. В дзюдо он видел основание нового вида борьбы в одежде, обогащённого наиболее эффективными приёмами других видов борьбы. Дзюдо он осваивал под руководством Василия Сергеевича Ощепкова, который во время многолетнего пребывания в Японии тренировался в школе дзюдо Кодокан.
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-15
-    rank: Honored Master of Sports of the USSR
-    date: 1947
-    sources:
-      - uri: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
-        quotation: Заслуженный мастер спорта СССР (1947)
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
+- style_id: JDP-S-15
+  rank: Honored Master of Sports of the USSR
+  date: '1947'
+  sources:
   - uri: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
-    type: unknown
+    cite: Russian Wikipedia - Honored Master of Sports
+    quotation: Заслуженный мастер спорта СССР (1947)
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Anatoly_Kharlampiyev
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Honored Master of Sports of the USSR title in 1947, documented in Russian Wikipedia with specific date
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%D0%B5%D0%B2,_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D0%B8%D0%B9_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D1%8C%D0%B5%D0%B2%D0%B8%D1%87
+  cite: Russian Wikipedia - Kharlampiyev biography
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://en.wikipedia.org/wiki/Anatoly_Kharlampiyev
+  cite: English Wikipedia - Kharlampiyev biography
+  type: secondary
+  supports: true
+  weight: high
+description:
+  en: Soviet martial artist, one of the founders of SAMBO, student of Vasili Oshchepkov, Honored Master of Sports of the USSR (1947)
+  ru: Советский мастер боевых искусств, один из основателей самбо, ученик Василия Ощепкова, Заслуженный мастер спорта СССР (1947)
+notes: 'Anatoly Arkadyevich Kharlampiyev (1906-1979) was a Soviet martial artist and one of the three founders of SAMBO (along with Vasili Oshchepkov and Viktor Spiridonov).
+
+  He studied judo under Vasili Oshchepkov at the State Central Order of Lenin Institute of Physical Culture, graduating in 1936.
+
+  Kharlampiyev played a key role in systematizing and developing SAMBO as a distinct martial art, incorporating techniques from various wrestling styles.
+
+  He was awarded the title of Honored Master of Sports of the USSR in 1947.
+
+  He authored several books on SAMBO and served as a coach and judge in the sport.
+
+  His grandfather was a renowned circus strongman and wrestler, which influenced his interest in martial arts.
+
+  '
 links:
-  - uri: https://www.wikidata.org/wiki/Q3615112
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Anatoly_Kharlampiyev
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q3615112
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Anatoly_Kharlampiyev
+  cite: DBpedia
+  type: dbpedia

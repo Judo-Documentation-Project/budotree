@@ -4,65 +4,91 @@ id: JDP-108
 name:
   pt: George Gracie
 nationality:
-  - code: BRA
+- code: BRA
+  wikidata: Q155
 birth:
-  date: "1911"
+  date: '1911'
   geo:
-    name: null
+    name: Belém, Pará
     country_code: BRA
+    wikidata: Q12829733
+  sources:
+  - uri: https://www.graciemag.com/academias/george-gracie/
+    cite: 'George Gracie: o Gato Ruivo (GracieMag)'
+    quotation: Assim como os irmãos, George, nascido em 1911, deixou sua Belém do Pará natal rumo ao Rio de Janeiro após o pai, o outrora rico comerciante Gastão, quebrar suas economias e entrar em crise financeira.
+    type: secondary
+    supports: true
+    weight: medium
 death:
-  date: "1986"
+  date: '1985-08-08'
   geo:
     name: null
     country_code: BRA
+    wikidata: Q155
+  sources:
+  - uri: https://www.graciemag.com/academias/george-gracie/
+    cite: 'George Gracie: o Gato Ruivo (GracieMag)'
+    quotation: Faleceu no dia 8 de agosto de 1985, aos 74 anos
+    type: secondary
+    supports: true
+    weight: medium
 photo:
   url: https://archive.org/download/george_gracie/george_gracie.png
   source:
     uri: https://www.instagram.com/historyofbjj/p/C6I-H-prJB3/
     cite: George Gracie (History of BJJ Instagram)
 teachers:
-  - id: JDP-21
-    style_id: JDP-S-1
+- id: JDP-21
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Several sources mention Carlos Gracie Sr. teaching his brothers, and George specifically
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
     sources:
-      - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2010/01/topico-bubishi.html
-        cite: Tópico Bubishi (Judo Tradicional Goshinjutsukan)
-        quotation: ...O que sabemos de fato é que, Maeda ensinou Judô a Carlos Gracie em virtude da afinidade com seu pai, Gastão Gracie. Carlos por sua vez ensinou a seus demais irmãos, em especial a Hélio Gracie. Neste ponto surgem duas teorias. A primeira alega que Maeda ensinou somente o judô de Jigoro Kano a Carlos, e esse o repassou a Hélio, que era o mais franzino dos Gracie, adaptando-o com grande enfoque no Ne-waza - técnicas de solo do judô, ponto central do Gracie jiu-jitsu ou brasilian jiu-jitsu. Para compensar seu biotipo, a partir dos ensinamentos de Carlos, Hélio aprimorou a parte de solo pelo uso do dispositivo de alavanca, dando-lhe a força extra que o mesmo não dispunha. A segunda teoria, apoiada pelos Gracies, fala que Maeda era, também, exímio praticante de Ju-jutsu tradicional e foi essa a arte que ensinou aos brasileiros. Porém, em uma recente entrevista, Hélio Gracie afirma que 'Carlos lutava judô', veja a entrevista http://www.youtube.com/watch?v=BG309oqVLb4
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2010/01/topico-bubishi.html
+      cite: Tópico Bubishi (Judo Tradicional Goshinjutsukan)
+      quotation: '...O que sabemos de fato é que, Maeda ensinou Judô a Carlos Gracie em virtude da afinidade com seu pai, Gastão Gracie. Carlos por sua vez ensinou a seus demais irmãos, em especial a Hélio Gracie. Neste ponto surgem duas teorias. A primeira alega que Maeda ensinou somente o judô de Jigoro Kano a Carlos, e esse o repassou a Hélio, que era o mais franzino dos Gracie, adaptando-o com grande enfoque no Ne-waza - técnicas de solo do judô, ponto central do Gracie jiu-jitsu ou brasilian jiu-jitsu. Para compensar seu biotipo, a partir dos ensinamentos de Carlos, Hélio aprimorou a parte de solo pelo uso do dispositivo de alavanca, dando-lhe a força extra que o mesmo não dispunha. A segunda teoria, apoiada pelos Gracies, fala que Maeda era, também, exímio praticante de Ju-jutsu tradicional e foi essa a arte que ensinou aos brasileiros. Porém, em uma recente entrevista, Hélio Gracie afirma que ''Carlos lutava judô'', veja a entrevista http://www.youtube.com/watch?v=BG309oqVLb4'
+      type: tertiary
+      supports: true
+      weight: low
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-16
+  rank: 10 dan
+  date: null
+  sources:
+  - uri: https://ibjjf.com/graduation-system
+    cite: General System of Graduation, December 2025 (IBJJF)
+    quotation: 'The 10th (Tenth) Degree (Red Belt) was given only to the pioneers of Brazilian Jiu-Jitsu: Carlos, Oswaldo, George, Gastão e Helio'
+    type: secondary
+    supports: true
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented IBJJF 10th dan rank, though date uncertain
+  granted_by: null
+  org_id: JDP-O-4
 sources:
-  - uri: https://www.bjjheroes.com/bjj-fighters/george-gracie-facts-and-bio
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://isbnsearch.org/isbn/9798639871030
-    location: vol III, p. 172
-    cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://simonbjj.com/george-gracie
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.bjjheroes.com/bjj-fighters/george-gracie-facts-and-bio
+  cite: George Gracie Facts and Bio (BJJ Heroes)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://isbnsearch.org/isbn/9798639871030
+  location: vol III, p. 172
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://simonbjj.com/george-gracie
+  cite: George Gracie (Simon BJJ)
+  type: secondary
+  supports: true
+  weight: medium

@@ -4,81 +4,95 @@ id: JDP-105
 name:
   ja-Latn: Yano Takeo
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1909"
+  date: '1909'
   geo:
-    name: null
+    name: Japan
     country_code: JPN
+    wikidata: Q17
 death:
-  date: "1988"
+  date: '1988'
   geo:
     name: Belo Horizonte
     country_code: BRA
+    wikidata: Q42800
 photo:
   url: https://archive.org/download/yano_20240827/yano.png
   source:
     uri: https://simonbjj.com/takeo-yano
     cite: Takeo Yano in a pre-fight publicity photo (Simon BJJ)
+    type: tertiary
+    weight: medium
+description:
+  en: Takeo Yano (1909–1988), also known as Takeo Iano, was a Japanese judoka who helped in the establishment of Brazilian jiu-jitsu in Brazil. Known as "The Eastern Demon", he fought members of the Gracie family and is thought to have introduced the heel hook to Brazilian jiu-jitsu.
+  pt: Takeo Yano (1909 – Belo Horizonte, 1988) foi um judoca japonês que contribuiu para o estabelecimento do jiu-jitsu no Brasil. Conhecido como "Demônio Oriental", lutou contra membros da família Gracie e acredita-se que tenha introduzido a chave de calcanhar no jiu-jitsu brasileiro.
 teachers:
-  - id: JDP-43
-    style_id: JDP-S-1
+- id: JDP-43
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Believed to have trained at Dai Nippon Butoku Kai academy in Kyoto under Hajime Isogai, based on blog research sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
     sources:
-      - uri: https://simonbjj.com/takeo-yano
-        cite: The Eastern Demon, Takeo Yano (Simon BJJ)
-        quotation: There is not much information known about Takeo Yano, but it is believed he may have been born in 1909 and trained at the Dai Nippon Butoko Kai academy in Kioto under famed Judoka, Hajime Isogai.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://simonbjj.com/takeo-yano
+      cite: The Eastern Demon, Takeo Yano (Simon BJJ)
+      quotation: There is not much information known about Takeo Yano, but it is believed he may have been born in 1909 and trained at the Dai Nippon Butoko Kai academy in Kioto under famed Judoka, Hajime Isogai.
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 3 dan
-    date: null
-    sources:
-      - uri: https://simonbjj.com/takeo-yano
-        cite: The Eastern Demon, Takeo Yano (Simon BJJ)
-        quotation: " Yano trained at the academy until he received his 3rd dan and then began travelling internationally."
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
-        cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
-        quotation: A Marinha há muito contratou um japonês, Yano, 3º dan, como instrutor para a prática do judô japonês para os soldados
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://en.wikipedia.org/wiki/Takeo_Yano
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 3 dan
+  date: null
+  sources:
   - uri: https://simonbjj.com/takeo-yano
-    type: unknown
+    cite: The Eastern Demon, Takeo Yano (Simon BJJ)
+    quotation: ' Yano trained at the academy until he received his 3rd dan and then began travelling internationally.'
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://isbnsearch.org/isbn/9798639871030
-    cite: "SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020."
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
   - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
-    cite: "MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte"
-    type: unknown
+    cite: 'MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte'
+    quotation: A Marinha há muito contratou um japonês, Yano, 3º dan, como instrutor para a prática do judô japonês para os soldados
+    type: primary
     supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 3rd dan rank mentioned in multiple sources including blog research and academic thesis about Brazilian judo development
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Takeo_Yano
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://simonbjj.com/takeo-yano
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://isbnsearch.org/isbn/9798639871030
+  cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+  cite: 'MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte'
+  type: primary
+  supports: true
+  weight: high
+links:
+- uri: https://www.wikidata.org/wiki/Q23618849
+  type: wikidata
+- uri: https://dbpedia.org/page/Takeo_Yano
+  type: dbpedia

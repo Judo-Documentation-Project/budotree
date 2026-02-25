@@ -5,11 +5,11 @@ name:
   fr: Antony Striker
 aka:
   fr:
-    - Antony Stricker
-    - Tony Striker
+  - Antony Stricker
+  - Tony Striker
 nationality:
-  - code: CHE
-    wikidata: Q39
+- code: CHE
+  wikidata: Q39
 birth:
   date: null
   geo:
@@ -21,35 +21,37 @@ death:
     name: null
     country_code: null
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: 1
-      assessed_by: JDP
+- id: null
+  style_id: null
+  confidence:
+    level: 1
+    assessed_by: JDP
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - style_id: JDP-S-1
-    rank: 1 dan
-    date: null
-    sources:
-      - uri: https://judolandia.tripod.com/histport.htm
-        cite: "História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al"
-        quotation: Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://judolandia.tripod.com/histport.htm
-    type: unknown
+- style_id: JDP-S-1
+  rank: 1 dan
+  date: null
+  sources:
+  - source_id: JDP-SRC-2
+    cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
+    quotation: Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: low
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+  granted_by: null
+  org_id: null
+sources:
+- source_id: JDP-SRC-2
+  cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
+  type: secondary
+  supports: true
+  weight: low

@@ -5,43 +5,51 @@ name:
   ja-Latn: Ito Tanekichi
   ja: 伊藤種吉
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: null
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 death:
   date: null
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: null
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: null
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+  type: tertiary
+  supports: true
+  weight: medium
+  cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+notes: 'One of four shihan (master instructors) dispatched from Katori Shinto-ryu to teach at the Kodokan in Tokyo at Jigoro Kano''s request, along with Narimichi Tamai, Sozaemon Kuboki, and Ichizo Shiinato. This was part of the first effort to disseminate Katori Shinto-ryu outside the Chiba region.
+
+  '

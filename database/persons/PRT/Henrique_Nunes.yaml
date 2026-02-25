@@ -6,12 +6,14 @@ name:
 aka:
   pt: Henrique Carinhas Martins Nunes
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1948-03-28"
+  date: '1948-03-28'
   geo:
     name: Benguela
     country_code: AGO
+    wikidata: Q214248
 death:
   date: null
   geo:
@@ -22,77 +24,85 @@ photo:
   source:
     uri: https://www.fpj.pt/wp-content/uploads/2019/03/19ci052-Divulgação-de-Eventos.pdf
     cite: Divulgação de Eventos (FPJ)
+    type: primary
+    weight: high
+description:
+  en: Portuguese judoka born in Angola, student of Kiyoshi Kobayashi from 1959, 8th dan holder, national champion, and influential figure in Portuguese judo with extensive collection of judo materials.
+  pt: Judoca português nascido em Angola, aluno de Kiyoshi Kobayashi desde 1959, 8º dan, campeão nacional, e figura influente no judo português com extensa coleção de materiais de judo.
 teachers:
-  - id: JDP-12
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- id: JDP-12
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Kiyoshi Kobayashi (JDP-12) from 1959, mentioned in Judo Magazine interview with specific quotation about Kobayashi being 'the person I most admire and miss immensely'
+  role: student
+  interactions:
+  - place_id: JDP-P-19
     period:
       start: 1959
       end: null
     sources:
-      - uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
-        cite: No «santuário» com Henrique Nunes (Judo Magazine)
-        quotation: «Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho imensas saudades» adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi, aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao ponto de ser difícil recordar-se de todas.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
-        cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
-        quotation: ... o mestre Kobayashi em Portugal, em '58 (...) foi o meu mestre.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-65
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://web.archive.org/web/20250123194617/https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+      cite: No «santuário» com Henrique Nunes (Judo Magazine - Archived)
+      quotation: «Ali em frente é a área reservada ao meu Mestre, à pessoa que mais admiro e de quem tenho imensas saudades» adiantou o nosso anfitrião sinalizando uma grande fotografia de Kiyoshi Kobayashi, aquela que é marca global do japonês que desde 1958 referencia o judo nacional em todas as suas dimensões, técnicas, culturais, profissionais e até institucionais. Ao lado uma fotografia datada de 1966 com Henrique Nunes a receber de KK uma medalha de campeão nacional, uma das muitas, ao ponto de ser difícil recordar-se de todas.
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+      cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
+      quotation: '... o mestre Kobayashi em Portugal, em ''58 (...) foi o meu mestre.'
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-65
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Student of Afonso Henriques Maia Loureiro (JDP-65) from 1954, mentioned in YouTube interview about having 'excellent teachers at the beginning' including Commander Afonso Henriques Maia Loureiro
+  role: student
+  interactions:
+  - place_id: JDP-P-19
     period:
       start: 1954
       end: null
     sources:
-      - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
-        cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
-        quotation: ...Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro, era o dr. Nuno Ribeiro...
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+      cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
+      quotation: '...Tive óptimos professores no princípio. Era o Comandante Afonso Henriques Maia Loureiro, era o dr. Nuno Ribeiro...'
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 8 dan
-    date: "2019-07-12"
-    sources:
-      - uri: https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf
-        cite: Relatório Anual FPJ 2019
-        quotation: Henrique Nunes (...) 8º Dan
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 8 dan
+  date: '2019-07-12'
+  sources:
+  - uri: https://www.fpj.pt/wp-content/uploads/2020/06/Relat%C3%B3rio-Anual-FPJ-2019-23jun2020.pdf
+    cite: Relatório Anual FPJ 2019
+    quotation: Henrique Nunes (...) 8º Dan
+    type: primary
+    supports: true
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: 8th dan rank awarded on July 12, 2019, documented in Federação Portuguesa de Judo annual report listing promoted practitioners
+  granted_by: null
+  org_id: JDP-O-6
 sources:
-  - uri: https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judolandia.tripod.com/hnunes.htm
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://web.archive.org/web/20250123194617/https://judomagazine.pt/2023/03/19/reportagem-no-santuario-com-henrique-nunes-1/
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=381
+  type: primary
+  supports: true
+  weight: high
+- uri: https://web.archive.org/web/20251006174219/https://judolandia.tripod.com/hnunes.htm
+  type: secondary
+  supports: true
+  weight: medium
+notes: "Full name: Henrique Carinhas Martins Nunes. Born in Benguela, Angola (then Portuguese colony). \nStarted judo in 1954 with Afonso Henriques Maia Loureiro. Became student of Kiyoshi Kobayashi in 1959 when Kobayashi arrived in Portugal. \nNational champion multiple times (first championship medal in 1966 from Kobayashi). Known for extensive collection of judo materials (videos, books, magazines) referred to as his \"santuário do judo\" (judo sanctuary). \nDescribed Kiyoshi Kobayashi as \"the Nureyev of standing judo\" for his elegance and technical precision. \nHas expressed concern about modern judo teaching methods and commercialization. 8th dan awarded in 2019.\n"

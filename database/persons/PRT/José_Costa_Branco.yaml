@@ -5,15 +5,17 @@ name:
   pt: José Costa Branco
 aka:
   pt:
-    - José Branco
-    - José da Costa Branco
+  - José Branco
+  - José da Costa Branco
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1937-03-13"
+  date: '1937-03-13'
   geo:
     name: Lourenço Marques
     country_code: MOZ
+    wikidata: Q3889
 death:
   date: null
   geo:
@@ -23,60 +25,72 @@ photo:
   url: https://archive.org/download/screenshot-from-2024-02-13-15-42-24/jose_branco.png
   source:
     uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
-    cite: "Diário de Lisboa, 1980 (in: The Delagoa Bay Company)"
+    cite: 'Diário de Lisboa, 1980 (in: The Delagoa Bay Company)'
+    type: tertiary
+    weight: medium
 teachers:
-  - id: JDP-12
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-12
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Kiyoshi Kobayashi (JDP-12) from 1975, mentioned in Judo Magazine article with specific quotation about Kobayashi being his master at Judo Clube de Portugal and in personal blog with emotional tribute
+  role: student
+  interactions:
+  - place_id: JDP-P-19
     period:
       start: 1975
       end: null
     sources:
-      - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
-        cite: José Branco não boicotou o seu sonho (Judo Magazine)
-        quotation: O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
-        cite: José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)
-        quotation: "Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos."
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://web.archive.org/web/20250320022855/https://judomagazine.pt/2021/07/04/1980-moscovo/
+      cite: José Branco não boicotou o seu sonho (Judo Magazine - Archived)
+      quotation: O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana.
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+      cite: José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)
+      quotation: 'Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos.'
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 3 dan
-    date: 1982
-    sources:
-      - uri: https://search.worldcat.org/title/817030285?oclcNum=817030285
-        cite: "Judo: da iniciação à competição (1983), p. 23"
-        quotation: "1982: (...) José Branco: 3º Dan . J. C. Portugal"
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 3 dan
+  date: 1982
+  sources:
+  - uri: https://search.worldcat.org/title/817030285?oclcNum=817030285
+    cite: 'Judo: da iniciação à competição (1983), p. 23'
+    quotation: '1982: (...) José Branco: 3º Dan . J. C. Portugal'
+    type: primary
+    supports: true
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: '3rd dan rank awarded in 1982, documented in published book ''Judo: da iniciação à competição'' (1983) with specific page reference'
+  granted_by: null
+  org_id: JDP-O-6
 sources:
-  - uri: https://judomagazine.pt/2021/07/04/1980-moscovo/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://archive.is/cMx9V
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://web.archive.org/web/20250320022855/https://judomagazine.pt/2021/07/04/1980-moscovo/
+  cite: José Branco não boicotou o seu sonho (Judo Magazine - Archived)
+  quotation: O judo passou a ser central na sua vida que tinha levado uma volta muito grande. No Judo Clube de Portugal teve por mestre Kiyoshi Kobayashi e os seus colegas de clube passaram a ser os seus amigos para todos os momentos da vida quotidiana.
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://delagoabay.wordpress.com/2011/01/16/jose-branco-olimpico-e-campeao-de-judo-e-de-tiro/
+  cite: José Branco, Olímpico e Campeão de Tiro e Judo (The Delagoa Bay Company blog)
+  quotation: 'Ao lado de josé branco, um amigo muito especial , mestre Kobayaschi . Refere o José: no período mais difícil da minha vida, então com 22 anos, quando me encontrava completamente atolado, foi o único que me lançou a mão. No último segundo da minha vida, ele fará parte dos meus pensamentos.'
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://archive.is/cMx9V
+  cite: Archive of The Delagoa Bay Company blog post
+  type: tertiary
+  supports: true
+  weight: medium
+description:
+  en: Portuguese judoka born in Mozambique, Olympic athlete at 1980 Moscow Games, student of Kiyoshi Kobayashi, 3rd dan holder, and also national shooting champion.
+  pt: Judoca português nascido em Moçambique, atleta olímpico nos Jogos de Moscovo 1980, aluno de Kiyoshi Kobayashi, 3º dan, e também campeão nacional de tiro.
+notes: "José da Costa Branco (born March 13, 1937 in Lourenço Marques, Mozambique) is a Portuguese judoka and shooting champion. \nHe began judo in Mozambique at the Clube de Judo de Lourenço Marques. After moving to Portugal following the independence of Mozambique, he joined Judo Clube de Portugal in 1975 where he became a student of Kiyoshi Kobayashi. \nHe represented Portugal at the 1980 Moscow Olympics in the -65kg category, winning one match and losing one. He was part of a small Portuguese delegation of only 11 athletes due to the US-led boycott of the Games.\nAccording to his own account in interviews, Kobayashi was a crucial mentor during a difficult period in his life after relocating from Mozambique.\nHe also became a national shooting champion in Portugal, demonstrating versatility across different sports.\nHis 3rd dan rank was documented in the 1983 book \"Judo: da iniciação à competição\" published by Centelha.\n"

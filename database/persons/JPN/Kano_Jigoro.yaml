@@ -5,166 +5,208 @@ name:
   ja-Latn: Kanō Jigorō
   ja: 嘉納 治五郎
 nationality:
-  - code: JPN
-    wikidata: Q17
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1860-10-28"
+  date: '1860-10-28'
   sources:
-    - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
-      quotation: 10月28日 refers to October 28. In other words, by the Gregorian calendar, Kano was born on October 28, 1860.
-      type: unknown
-      supports: true
-      weight: unknown
+  - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
+    quotation: 10月28日 refers to October 28. In other words, by the Gregorian calendar, Kano was born on October 28, 1860.
+    type: tertiary
+    supports: true
+    weight: medium
   geo:
     name: Kobe
     country_code: JPN
     wikidata: Q34788
 death:
-  date: "1938-05-04"
+  date: '1938-05-04'
   geo:
     name: Pacific Ocean
     country_code: null
     wikidata: Q98
 description:
-  en: |
-    Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May 1938[3]) was a Japanese educator, athlete, and the founder of Judo. Along with Ju-Jutsu, Judo was one of the first Japanese martial arts to gain widespread international recognition, and the first to become an official Olympic sport. Pedagogical innovations attributed to Kanō include the use of black and white belts, and the introduction of dan ranking to show the relative ranking among members of a martial art style. Well-known mottoes attributed to Kanō include "good use of energy" (精力善用 seiryoku zen'yō) and "mutual welfare and benefit" (自他共栄 jita kyōei).
-  ja: |
-    嘉納 治五郎（かのう じごろう、万延元年10月28日〈1860年12月10日〉-昭 和13年〈1938年〉5月4日）は、日本の柔道家・教育者・貴族院議員。兵 庫県出身。別表記：加納治五郎[1]。講道館柔道の創始者であり[2]、柔 道・スポーツ・教育分野の発展や日本のオリンピック初参加に尽力する など、明治から昭和にかけて日本におけるスポーツの道を開いた。「柔 道の父」と呼ばれ、また、「日本の体育の父」とも称される
-  pt: |
-    Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28 de outubro de 1860 – 4 de maio de 1938) foi o fundador da arte marcial Judo.
+  en: 'Jigoro Kano (嘉納 治五郎, 10 December 1860 – 4 May 1938[3]) was a Japanese educator, athlete, and the founder of Judo. Along with Ju-Jutsu, Judo was one of the first Japanese martial arts to gain widespread international recognition, and the first to become an official Olympic sport. Pedagogical innovations attributed to Kanō include the use of black and white belts, and the introduction of dan ranking to show the relative ranking among members of a martial art style. Well-known mottoes attributed to Kanō include "good use of energy" (精力善用 seiryoku zen''yō) and "mutual welfare and benefit" (自他共栄 jita kyōei).
+
+    '
+  ja: '嘉納 治五郎（かのう じごろう、万延元年10月28日〈1860年12月10日〉-昭 和13年〈1938年〉5月4日）は、日本の柔道家・教育者・貴族院議員。兵 庫県出身。別表記：加納治五郎[1]。講道館柔道の創始者であり[2]、柔 道・スポーツ・教育分野の発展や日本のオリンピック初参加に尽力する など、明治から昭和にかけて日本におけるスポーツの道を開いた。「柔 道の父」と呼ばれ、また、「日本の体育の父」とも称される
+
+    '
+  pt: 'Jigoro Kano (em japonês: 嘉納治五郎, Kanō Jigorō) (Mikage, 28 de outubro de 1860 – 4 de maio de 1938) foi o fundador da arte marcial Judo.
+
+    '
 notes: null
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/0/0c/Kano_Jigoro.jpg
   source:
     uri: https://commons.wikimedia.org/wiki/Category:Photographs_of_Kan%C5%8D_Jigor%C5%8D#/media/File:Kano_Jigoro.jpg
     cite: Jigoro Kano, Wikimedia Commons
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-2
-    style_id: JDP-S-3
+- id: JDP-2
+  style_id: JDP-S-3
+  role: student
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented as Kano's first jujutsu teacher in Tenjin Shin'yō-ryū from 1877-1879, mentioned in multiple historical sources including Wikipedia and Kano's own writings
+  interactions:
+  - place_id: JDP-P-3
     period:
       start: 1877
       end: 1879
-    role: student
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    place_id: null
-  - id: JDP-4
-    style_id: JDP-S-3
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      quotation: His search brought him to Yagi Teinosuke, who had been a student of Emon Isomata in the Tenjin Shin'yō-ryū school of jūjutsu. Yagi, in turn, referred Kanō to Fukuda Hachinosuke, a bonesetter who taught Tenjin Shin'yō-ryū in a 10-mat room adjacent to his practice.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-4
+  style_id: JDP-S-3
+  role: student
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Documented as Kano's second teacher in Tenjin Shin'yō-ryū from 1879-1881 after Fukuda's death, with Kano becoming assistant instructor at Iso's school
+  interactions:
+  - place_id: JDP-P-4
     period:
       start: 1879
       end: 1881
-    role: student
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    place_id: null
-  - id: JDP-5
-    style_id: JDP-S-2
-    period:
-      start: 1881
-      end: null
-    role: student
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    place_id: null
-  - id: JDP-46
-    style_id: JDP-S-11
-    period:
-      start: 1881
-      end: null
-    role: student
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
-        quotation: "When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō"
-        type: unknown
-        supports: true
-        weight: unknown
-    place_id: null
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      quotation: Kanō began studying with Iso, who had been a friend of Fukuda. Despite being 62 years old and standing only 5 feet (1.52 m) tall, Iso had gained a powerful build from jūjutsu training. He was known for excellence in kata, and was also a specialist in atemi, or the striking of vital areas. In Iso's method, one began with kata and then progressed to free fighting (randori). Due to Kanō's intense practice and his solid grounding in the jūjutsu taught by Fukuda, Kanō became an assistant instructor at Iso's school.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-5
+  style_id: JDP-S-2
+  role: student
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented as Kano's Kitō-ryū teacher from 1881 onward, who granted Kano menkyo kaiden and whose teachings heavily influenced judo development
+  interactions:
+  - place_id: JDP-P-2
+    period:
+      start: 1881
+      end: null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+      quotation: Kanō began training in Kitō-ryū with Iikubo Tsunetoshi (Kōnen). Iikubo was an expert in kata and throwing, and fond of randori. Kanō applied himself thoroughly to learning Kitō-ryū, believing Iikubo's throwing techniques in particular to be better than in the schools he had previously studied. Iikubo issued Kanō a formal jūjutsu rank and teaching credential, namely a certificate of menkyo in Kitō-ryū, dated October 1883.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-46
+  style_id: JDP-S-11
+  role: student
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Mentioned by Kano himself as having practiced Yagyū-ryū bōjutsu with Oshima, though Kano noted his practice 'had not reached the level of shugyō'
+  interactions:
+  - place_id: null
+    period:
+      start: 1881
+      end: null
+    sources:
+    - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
+      quotation: 'When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (NOTE: dedicated, austere study), usually I do not mention it. However, since then I thought there was value in bōjutsu shugyō'
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: Shihan
-    rank_type: title
-    org_id: JDP-O-1
-    granted_by: null
-    date: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources: []
-  - style_id: JDP-S-2
-    rank: Menkyo kaiden
-    rank_type: menkyo
-    granted_by: JDP-5
-    date: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-3
-    rank: Menkyo kaiden
-    rank_type: menkyo
-    granted_by: JDP-4
-    date: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources: []
-    org_id: null
-sources:
-  - uri: https://ja.wikipedia.org/wiki/%E5%98%89%E7%B4%8D%E6%B2%BB%E4%BA%94%E9%83%8E
-    events:
-      - name
-      - birth
-      - death
-    type: unknown
-    supports: true
-    weight: unknown
-  - source_id: JDP-SRC-1
-    events:
-      - description
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: Shihan
+  rank_type: title
+  org_id: JDP-O-1
+  granted_by: null
+  date: null
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Founder of Kodokan judo, recognized as Shihan (master instructor) by virtue of creating the art
+  sources:
   - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
-    cite: "Kanō Jigorō: Wikipedia entry."
-    events:
-      - description
-    type: unknown
+    quotation: 'Rank: Kōdōkan jūdō: Shihan (founder)'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://doi.org/10.18002/rama.v9i2.1162
-    cite: "DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96."
-    type: unknown
+    weight: medium
+- style_id: JDP-S-2
+  rank: Menkyo kaiden
+  rank_type: menkyo
+  granted_by: JDP-5
+  date: null
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Received menkyo kaiden (total transmission license) in Kitō-ryū from Iikubo Tsunetoshi
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+    quotation: 'Kitō-ryū: Menkyo kaiden (total transmission license)'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
-    events:
-      - birth
-    type: unknown
+    weight: medium
+  org_id: null
+- style_id: JDP-S-3
+  rank: Menkyo kaiden
+  rank_type: menkyo
+  granted_by: JDP-4
+  date: null
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Received instruction and likely certification in Tenjin Shin'yō-ryū from Iso Masatomo
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+    quotation: 'Tenjin Shin''yō-ryū: Instructor (formal rank unclear)'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E5%98%89%E7%B4%8D%E6%B2%BB%E4%BA%94%E9%83%8E
+  events:
+  - name
+  - birth
+  - death
+  type: secondary
+  supports: true
+  weight: medium
+- source_id: JDP-SRC-1
+  events:
+  - description
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
+  cite: 'Kanō Jigorō: Wikipedia entry.'
+  events:
+  - description
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://doi.org/10.18002/rama.v9i2.1162
+  cite: 'DE CRÉE, Carl. Nanatsunokata, Endonokata, and Jogenokata: a pedagogical and qualitative biomechanical evaluation of Hirano Tokio''s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kodokan judo. Revista de Artes Marciales Asiáticas (RAMA), 2014, 9.2: 69-96.'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://martialhistoryteam.blogspot.com/2020/04/when-was-professor-kano-born.html
+  events:
+  - birth
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
+  type: tertiary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q190141
-    type: wikidata
-    cite: Wikidata
-  - uri: https://dbpedia.org/page/Kan%C5%8D_Jigor%C5%8D
-    type: dbpedia
-    cite: DBpedia
+- uri: https://www.wikidata.org/wiki/Q190141
+  type: wikidata
+  cite: Wikidata
+- uri: https://dbpedia.org/page/Kan%C5%8D_Jigor%C5%8D
+  type: dbpedia
+  cite: DBpedia
 tags: []

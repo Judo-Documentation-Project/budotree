@@ -11,3 +11,9 @@ scratch.lisp
 site/src/persons/*
 site/src/js/tree.json
 site/src/images/cache
+
+# Generated validation outputs
+export/data.ttl
+export/quality-report.json
+export/provenance-report.json
+export/link-report.json

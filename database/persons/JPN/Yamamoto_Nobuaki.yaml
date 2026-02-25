@@ -3,13 +3,16 @@ type: Person
 id: JDP-74
 name:
   ja-Latn: Yamamoto Nobuaki
+  ja: 山本 信昭
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: null
+  date: '1942'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 death:
   date: null
   geo:
@@ -18,37 +21,59 @@ death:
 photo:
   url: https://archive.org/download/yamamoto73_1/yamamoto73_1.jpg
   source:
-    uri: https://www.fcmjudo.pt/visitantes.html
+    uri: https://archive.org/details/yamamoto73_1
+    type: tertiary
+    weight: low
+description:
+  en: Nobuaki Yamamoto (born ~1942) was a Japanese judo master who taught at Clube de Judo do Porto in Portugal from 1968 to 1969. A 5th dan Kodokan student and former university champion in Japan, he was brought to Portugal under the Fundo de Fomento Desportivo program to teach judo.
+  pt: Nobuaki Yamamoto (nascido ~1942) foi um instrutor de Judo e 5 dan Kodokan que ensinou no Clube de Judo do Porto em 1968-1969, ao abrigo do Fundo de Fomento Desportivo
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: 0
+    assessed_by: JDP
+    rationale: No specific teacher information available in sources; was a Kodokan student and former university champion in Japan per Portuguese sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+      quotation: Em 1968, ao abrigo do Fundo de Fomento Desportivo, chega ao Porto o jovem Mestre japonês, de 26 anos, Nabuaki Yamamoto, 5º Dan, aluno do Kodokan e antigo campeão universitário do Japão
+      supports: false
+      type: primary
+      weight: high
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 5
+  date: '1968'
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 5th dan rank mentioned in Portuguese sources describing him as a Kodokan student teaching in Portugal in 1968
+  sources:
+  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+    quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
+    supports: true
+    type: secondary
+    weight: medium
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://www.fcmjudo.pt/visitantes.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.jpn.up.pt/2015/04/21/clube-judo-do-porto-50-anos-continua-jovem/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+  type: primary
+  supports: true
+  weight: high
+- uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20210614030412/https://www.fcmjudo.pt/visitantes.html
+  type: secondary
+  supports: true
+  weight: medium
+notes: Birth year estimated as 1942 based on being described as 26 years old in 1968 in Portuguese sources. Left for Iceland in early 1969. Returned to Portugal in May 2002 to attend International Judo Tournament in Luso.

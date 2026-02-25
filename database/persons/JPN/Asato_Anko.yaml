@@ -5,64 +5,56 @@ name:
   ja-Latn: Asato Ankō
   ryu: 安里 安恒
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1827
   geo:
     name: Shuri, Okinawa
     country_code: JPN
+    wikidata: Q608415
 death:
   date: 1903
   geo:
     name: null
-    country_code: null
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-54
-    style_id: JDP-S-13
+- id: JDP-54
+  style_id: JDP-S-13
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Mentioned in Wikipedia, needs additional source trail
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-        quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      cite: Ankō Asato - Wikipedia
+      quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
+      type: secondary
+      supports: true
+      weight: medium
+rank: []
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.world-traditional-karate-federation.com/anko-asato-move-to-tokyo.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E5%AE%89%E9%87%8C%E5%AE%89%E6%81%92
+  cite: 安里安恒 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  cite: Nihon Karate Do Shoto-kai Official Web Site - Masters
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q721201
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Ank%C5%8D_Asato
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q721201
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Ank%C5%8D_Asato
+  cite: DBpedia
+  type: dbpedia

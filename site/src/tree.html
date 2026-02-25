@@ -486,7 +486,9 @@
               {{#data}}
               <li>
                   <a href="#" id="{{id}}">{{name}}</a>
-                  <span class="style_native"> {{native_name.name}} </span>
+                  {{#name_native}}
+                  <span class="style_native"> {{name_native}} </span>
+                  {{/name_native}}
               </li>
 
               {{/data}}
@@ -572,7 +574,9 @@
 
               </p>
 
-              <p class="native-name">{{native_name.name}}</p>
+              {{#name_native}}
+              <p class="native-name">{{name_native}}</p>
+              {{/name_native}}
               {{#photo}}
               {{#photo_url_local}}
               <img src="{{photo_url_local}}" alt="{{photo.cite}}"/>
@@ -596,19 +600,22 @@
               <h2 id="i18n:teachers">Teachers</h2>
               <ul id="teachers">
               {{#teachers}}
-              {{#teacher_name}}
-              <li><a href="#" id="{{id}}">{{teacher_name}}</a>
-             <span class="style_native"> {{teacher_native.name}} </span>
+              {{#teacher_name_display}}
+              <li><a href="#" id="{{id}}">{{teacher_name_display}}</a>
+             {{#style}}
              ({{style}})
+             {{/style}}
               </li>
-              {{/teacher_name}}
+              {{/teacher_name_display}}
               {{/teachers}}
               </ul>
              <h2 id="i18n:students">Students</h2>
              <ul id="students">
              {{#students}}
-              <li><a href="#" id="{{id}}">{{name}}</a>
-              <span class="style_native"> {{native_name.name}} </span>
+              <li><a href="#" id="{{id}}">{{name_display}}</a>
+              {{#name_native}}
+              <span class="style_native"> {{name_native}} </span>
+              {{/name_native}}
               </li>
               {{/students}}
               </ul>
@@ -646,12 +653,12 @@
               {{#interaction}}
               <div class="learning-flow">
               <img class="thumb" src="{{teacher_photo_url}}"/>
-              <a href="#" id="{{id}}">{{teacher_name}}</a>
+              <a href="#" id="{{id}}">{{teacher_name_display}}</a>
               <span class="style_native"> {{interaction_native.name}}</span>
 
               <div class="learning-arrow"><i alt="taught" aria-hidden="true" class="fas fa-solid fa-arrow-down-long fa-xl"></i></div>
               <img class="thumb" src="{{student_photo_url}}"></img>
-              <a href="#" id="{{id}}">{{student_name}}</a>
+              <a href="#" id="{{id}}">{{student_name_display}}</a>
               <span class="style_native"> {{student_native.name}} </span>
               </div>
               <p>

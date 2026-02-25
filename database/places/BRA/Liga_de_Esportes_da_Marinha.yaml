@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-33
+name:
+  pt: Liga de Esportes da Marinha
+  en: Navy Sports League
+classification: military
+geo:
+  name: Rio de Janeiro
+  country_code: BRA
+  wikidata: Q8678
+sources: []

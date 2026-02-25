@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-26
+name:
+  pt: Budokai Cascais
+classification: club
+geo:
+  name: Cascais
+  country_code: PRT
+  wikidata: Q204479
+sources: []

@@ -1,0 +1,13 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-8
+name:
+  en: Budo Senmon Gakko
+  ja-Latn: Budō Senmon Gakkō
+  ja: 武道専門学校
+classification: academy
+geo:
+  name: Kyoto
+  country_code: JPN
+  wikidata: Q34600
+sources: []

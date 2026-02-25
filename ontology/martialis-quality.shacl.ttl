@@ -1,0 +1,240 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix martialis: <https://martial.is/ontology#> .
+@prefix schema: <https://schema.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+#################################################################
+# Quality & Completeness Validation
+#################################################################
+# These shapes generate warnings for incomplete data that should
+# be investigated and improved, but don't block publication.
+#################################################################
+
+martialis:MartialisQualityShapeGraph
+    a sh:NodeShape ;
+    sh:comment "SHACL quality shapes for data completeness checks" .
+
+#################################################################
+# Person Completeness
+#################################################################
+
+martialis:PersonCompletenessShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:Person ;
+
+    sh:property [
+        sh:path martialis:hasTeacherAssertion ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: Person has no teachers - needs investigation."
+    ] ;
+
+    sh:property [
+        sh:path martialis:hasRankAssertion ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Person has no rank information - consider adding if available."
+    ] ;
+
+    sh:property [
+        sh:path martialis:birthEvent ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Person has no birth information - consider adding if available."
+    ] .
+
+#################################################################
+# RankAssertion Completeness
+#################################################################
+
+martialis:RankAssertionCompletenessShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:RankAssertion ;
+
+    sh:property [
+        sh:path martialis:rankValue ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: RankAssertion has no rankValue - incomplete data, needs investigation."
+    ] ;
+
+    sh:property [
+        sh:path martialis:grantedBy ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: RankAssertion has no grantedBy - consider adding source if available."
+    ] ;
+
+    sh:property [
+        sh:path martialis:object ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: RankAssertion has no object (style) - incomplete data."
+    ] .
+
+#################################################################
+# TeacherAssertion Completeness
+#################################################################
+
+martialis:TeacherAssertionCompletenessShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:TeacherAssertion ;
+
+    sh:property [
+        sh:path martialis:object ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: TeacherAssertion has no object (teacher) - incomplete data."
+    ] .
+
+#################################################################
+# TeacherInteraction Completeness
+#################################################################
+
+martialis:TeacherInteractionCompletenessShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:TeacherInteraction ;
+
+    sh:property [
+        sh:path martialis:hasEvidence ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: TeacherInteraction has no sources - needs investigation and sourcing."
+    ] ;
+
+    sh:property [
+        sh:path martialis:interactionPeriod ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: TeacherInteraction has no time period - consider adding if available."
+    ] .
+
+#################################################################
+# Assertion Evidence Quality
+#################################################################
+
+martialis:AssertionEvidenceQualityShape
+    a sh:NodeShape ;
+    # Targets all Assertions EXCEPT TeacherAssertion — teacher evidence is on TeacherInteraction nodes.
+    sh:target [
+        a sh:SPARQLTarget ;
+        sh:prefixes [
+            sh:declare [
+                sh:prefix "martialis" ;
+                sh:namespace "https://martial.is/ontology#"
+            ]
+        ] ;
+        sh:select """
+            SELECT ?this
+            WHERE {
+                ?this a martialis:Assertion .
+                FILTER NOT EXISTS { ?this a martialis:TeacherAssertion }
+            }
+        """
+    ] ;
+
+    sh:property [
+        sh:path martialis:hasEvidence ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: Assertion has no sources - needs investigation and sourcing."
+    ] ;
+
+    sh:property [
+        sh:path martialis:hasConfidence ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Assertion has no confidence assessment - consider adding."
+    ] .
+
+#################################################################
+# Source Quality Checks
+#################################################################
+
+martialis:SourceQualityShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:SourceAssertionRelation ;
+
+    sh:property [
+        sh:path martialis:sourceRefType ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Source has no type (primary/secondary/tertiary) - consider classifying."
+    ] ;
+
+    sh:property [
+        sh:path martialis:evidenceWeight ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Source has no weight assessment - consider adding."
+    ] ;
+
+    sh:property [
+        sh:path martialis:quotation ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Source has no quotation (consider adding direct quote)."
+    ] ;
+
+    sh:property [
+        sh:path martialis:sourceLocation ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Source has no location reference (page/chapter)."
+    ] ;
+
+    sh:property [
+        sh:path schema:citation ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Source has no citation text."
+    ] .
+
+#################################################################
+# Alternate Name Quality Checks
+#################################################################
+
+martialis:AlternateNameQualityShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:Person ;
+    sh:sparql [
+        sh:message "Quality check: alternateName contains semicolons - should be split into separate values." ;
+        sh:severity sh:Warning ;
+        sh:prefixes [
+            sh:declare [
+                sh:prefix "schema" ;
+                sh:namespace "https://schema.org/"
+            ]
+        ] ;
+        sh:select """
+            SELECT $this ?name
+            WHERE {
+                $this schema:alternateName ?name .
+                FILTER(CONTAINS(STR(?name), ";"))
+            }
+        """
+    ] .
+
+#################################################################
+# Confidence Assessment Quality
+#################################################################
+
+martialis:ConfidenceQualityShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:Confidence ;
+
+    sh:property [
+        sh:path martialis:confidenceLevel ;
+        sh:minCount 1 ;
+        sh:severity sh:Warning ;
+        sh:message "Quality check: Confidence assessment has no level - incomplete."
+    ] ;
+
+    sh:property [
+        sh:path martialis:confidenceRationale ;
+        sh:minCount 1 ;
+        sh:severity sh:Info ;
+        sh:message "Quality check: Confidence assessment has no rationale - consider documenting reasoning."
+    ] .

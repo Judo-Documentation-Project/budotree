@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-37
+name:
+  pt: Academia Augusto Cordeiro
+classification: academy
+geo:
+  name: Lisbon
+  country_code: PRT
+  wikidata: Q597
+sources: []

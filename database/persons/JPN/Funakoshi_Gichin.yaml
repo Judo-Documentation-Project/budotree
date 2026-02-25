@@ -5,81 +5,91 @@ name:
   ja-Latn: Funakoshi Gichin
   ja: 船越 義珍
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1868-10-11"
+  date: '1868-10-11'
   geo:
     name: Shuri, Okinawa
     country_code: JPN
+    wikidata: Q608415
 death:
-  date: "1957-04-26"
+  date: '1957-04-26'
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 teachers:
-  - id: JDP-56
-    style_id: JDP-S-13
+- id: JDP-56
+  style_id: JDP-S-13
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented student-teacher relationship mentioned in multiple historical sources, though only Wikipedia is cited
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-        quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-55
-    style_id: JDP-S-13
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+      cite: Ankō Asato - Wikipedia
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-55
+  style_id: JDP-S-13
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented student-teacher relationship mentioned in multiple historical sources, though only Wikipedia is cited
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-        quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      quotation: Anko Asato (安里 安恒, Asato Ankō, Azato Yasutsune in Japanese, 1827 – 1906) was a Ryūkyūan master of karate. He and Ankō Itosu were the two main karate masters who taught Gichin Funakoshi, the founder of Shotokan karate.
+      cite: Ankō Asato - Wikipedia
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No specific rank information available in sources
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judoinfo.com/karateranks/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://search.worldcat.org/title/7673297
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Gichin_Funakoshi
+  cite: Gichin Funakoshi - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://judoinfo.com/karateranks/
+  cite: 'How the masters got their ranks: the origins of karate ranks | Judo Info'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://search.worldcat.org/title/7673297
+  cite: 'Karate-dō : my way of life | WorldCat.org'
+  type: primary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q41105
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Gichin_Funakoshi
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q41105
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Gichin_Funakoshi
+  cite: DBpedia
+  type: dbpedia

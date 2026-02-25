@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-38
+name:
+  en: State Central Order of Lenin Institute of Physical Culture
+  ru: Государственный центральный ордена Ленина институт физической культуры
+classification: academy
+geo:
+  name: Moscow
+  country_code: RUS
+  wikidata: Q649
+sources: []

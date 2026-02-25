@@ -4,47 +4,82 @@ id: JDP-7
 name:
   ja-Latn: Takenaka  Motonoshin
   ja: 竹中元之進
+description:
+  en: Japanese jujutsu master of Kitō-ryū, teacher of Takenaka Tetsunosuke Issei
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: 1775
+  date: '1775'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 death:
   date: null
   geo:
     name: null
     country_code: null
 teachers:
-  - id: JDP-8
-    style_id: JDP-S-2
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-8
+  style_id: JDP-S-2
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Direct student of Takino Yūken according to academic paper by Carl De Crée (2019)
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+      cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
+      quotation: instead a student of Takenaka Motonoshin 竹中元之進, himself a direct student of Takino Yūken
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- rank: Kitō-ryū master
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Kitō-ryū master based on academic paper by Carl De Crée (2019)
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
-    type: unknown
+    cite: 起倒流 - Wikipedia
+    quotation: 竹中派は竹中元之進より始まった
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://doi.org/10.18002/rama.v13i2.5700
-    type: unknown
+    weight: medium
+  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+    cite: 起倒流 - Wikipedia
+    quotation: 起倒流を竹中元之進に学び免許皆伝を得た
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+  - uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+    cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
+    quotation: Takenaka Motonoshin 竹中元之進
+    type: primary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+  cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
+  type: primary
+  supports: true
+  weight: high
+links:
+- uri: https://www.wikidata.org/wiki/Special:Search?search=竹中元之進
+  type: wikidata
+  cite: Wikidata search for Takenaka Motonoshin

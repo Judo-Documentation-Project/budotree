@@ -3,8 +3,11 @@ type: Person
 id: JDP-46
 name:
   ja-Latn: Oshima Masateru
+  ja: 大島正照
+  ja-alt: 大島一学正照
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: null
   geo:
@@ -15,36 +18,54 @@ death:
   geo:
     name: null
     country_code: null
+description:
+  en: 7th Soke (headmaster) of Edo-line Yagyu Shingan-ryū Taijutsu (Araki-do). Taught Yagyu-ryu bojutsu to young Jigoro Kano. Member of Shinsengumi, opened dojo in Tokyo with assistance of Yamaoka Tesshu.
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
-rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources: []
-    granted_by: null
-    org_id: null
+rank:
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.worldcat.org/title/952578913
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
+  cite: The Kodokan and Bōjutsu (jō) Staff fighting and jūdō – The Kano Chronicles
+  quotation: When I was young, I practiced Yagyū-ryū bōjutsu with a man named Oshima. As my practice of this discipline had not reached the level of shugyō (dedicated, austere study), usually I do not mention it.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://www.worldcat.org/title/952578913
+  cite: 'The way of judo : a portrait of Jigoro Kano and his students by John Stevens'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+  cite: Yagyū Shingan-ryū - English Wikipedia
+  quotation: Kano received his training directly from Araki-do 7th Soke, Ohshima Masateru.
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81
+  cite: 柳生心眼流 - 日本語版ウィキペディア
+  quotation: 江戸伝に連なる後藤柳生斎の次代となる大島一学正照は、江戸末期から明治にかけて同流を教授した。星野の修行時代とほぼ同時期、のちの講道館柔道創立者である嘉納治五郎が、大島の元でわずかな期間、棒術の手ほどきを受けたことが嘉納自身の手記によって明らかとなっている。
+  type: secondary
+  supports: true
+  weight: high
+notes: Oshima Masateru (also known as Oshima Ichigaku Masateru) was the 7th Soke of Edo-line Yagyu Shingan-ryū Taijutsu (Araki-do). He taught Yagyu-ryu bojutsu to a young Jigoro Kano, as documented in Kano's own writings. He was a member of the Shinsengumi and, with the assistance of Yamaoka Tesshu, opened a dojo in Tokyo during the Meiji era to teach the style. He succeeded Goto Yagyu-sai (not in database) and taught Hoshino Tenchi, who was active in the Meiji literary world and taught women's martial arts at Meiji Girls' School. The Edo transmission of his teachings was later passed to the Hokuriku region, but its current whereabouts are unknown.

@@ -6,12 +6,14 @@ name:
 aka:
   en: AnnMaria Burns
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1958-06-15"
+  date: '1958-06-15'
   geo:
     name: Calumet, Michigan
     country_code: USA
+    wikidata: Q1029025
 death:
   date: null
   geo:
@@ -22,60 +24,85 @@ photo:
   source:
     uri: https://www.historyoffighting.com/the-blog/dr-annmaria-de-mars
     cite: The History of Fighting (AnnMaria de Mars)
+    type: tertiary
+    weight: medium
 teachers:
-  - id: JDP-131
-    style_id: JDP-S-1
+- id: JDP-131
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Trained under Yoshimi Osawa at Waseda University in Tokyo in 1976 as an exchange student at age 18, as documented in USJF biography
+  role: student
+  interactions:
+  - place_id: JDP-P-6
     period:
-      start: "1976"
+      start: '1976'
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://www.usjf.com/annmaria-de-mars-2/
-        cite: AnnMaria De Mars - USJF
-        quotation: at the age of 18, as a college junior, De Mars was an exchange student at Waseda University in Tokyo, Japan. While there, she trained under Sensei Osawa
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.usjf.com/annmaria-de-mars-2/
+      cite: AnnMaria De Mars - USJF
+      quotation: at the age of 18, as a college junior, De Mars was an exchange student at Waseda University in Tokyo, Japan. While there, she trained under Sensei Osawa
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 6 dan
-    date: "2016"
-    sources:
-      - uri: https://www.fukudajudocamp.org/archives/2016-joshi-camp/
-        cite: 2016 Joshi Judo Camp - Fukuda Judo
-        quotation: "2016 Joshi Judo Camp Guest Instructors: Dr. AnnMaria DeMars (6th Dan)"
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: null
-sources:
-  - uri: https://en.wikipedia.org/wiki/AnnMaria_De_Mars
-    cite: AnnMaria De Mars - Wikipedia
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.usjf.com/annmaria-de-mars-2/
-    cite: AnnMaria De Mars - USJF
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 6 dan
+  date: '2016'
+  sources:
   - uri: https://www.fukudajudocamp.org/archives/2016-joshi-camp/
     cite: 2016 Joshi Judo Camp - Fukuda Judo
-    type: unknown
+    quotation: '2016 Joshi Judo Camp Guest Instructors: Dr. AnnMaria DeMars (6th Dan)'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://www.judoinside.com/judoka/6000/AnnMaria_Burns/judo-career
-    cite: AnnMaria Burns (JudoInside)
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Held 6th dan rank in judo as of 2016, documented as guest instructor at Fukuda Judo Camp with this rank
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/AnnMaria_De_Mars
+  cite: AnnMaria De Mars - Wikipedia
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://www.usjf.com/annmaria-de-mars-2/
+  cite: AnnMaria De Mars - USJF
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://www.fukudajudocamp.org/archives/2016-joshi-camp/
+  cite: 2016 Joshi Judo Camp - Fukuda Judo
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.judoinside.com/judoka/6000/AnnMaria_Burns/judo-career
+  cite: AnnMaria Burns (JudoInside)
+  type: secondary
+  supports: true
+  weight: medium
+links:
+- uri: https://www.wikidata.org/wiki/Q4768098
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/AnnMaria_De_Mars
+  cite: DBpedia
+  type: dbpedia
+description:
+  en: American judoka, first American to win a World Judo Championships (1984), mother of Ronda Rousey, statistics professor
+  ru: Американская дзюдоистка, первая американка, выигравшая чемпионат мира по дзюдо (1984), мать Ронды Роузи, профессор статистики
+notes: 'AnnMaria De Mars (born 1958) is an American judoka and statistics professor.
+
+  She became the first American to win a World Judo Championships in 1984, winning the -56 kg division in Vienna.
+
+  She trained under Yoshimi Osawa at Waseda University in Tokyo in 1976 as an exchange student.
+
+  De Mars holds a PhD in educational psychology and statistics from the University of California, Santa Barbara.
+
+  She was promoted to 6th dan in judo and continues to be involved in the judo community as an instructor and advocate.
+
+  '

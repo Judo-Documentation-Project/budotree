@@ -5,64 +5,96 @@ name:
   ja-Latn: Yokoyama Sakujiro
   ja: 横山 作次郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1864
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 death:
-  date: "1912-09-23"
+  date: '1912-09-23'
   geo:
-    name: null
+    name: Japan
     country_code: JPN
+    wikidata: Q17
+photo:
+  url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Yokoyama-Sakujiro.jpg/250px-Yokoyama-Sakujiro.jpg
+  source:
+    uri: https://en.wikipedia.org/wiki/Yokoyama_Sakujiro#/media/File:Yokoyama-Sakujiro.jpg
+    type: tertiary
+    weight: medium
+description:
+  en: Yokoyama Sakujirō was one of the earliest disciples of Kanō Jigorō and one of the Kodokan Shitennō (Four Guardians of the Kodokan). He was known as "Demon Yokoyama" for his violent fighting style and harsh training methods.
+  ja: 横山 作次郎は、嘉納治五郎の最初期の弟子の一人で、講道館四天王の一人。その荒々しい戦い方と厳しい稽古方法から「鬼横山」と呼ばれた。
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented historical relationship as one of the Four Guardians of Kodokan; multiple reliable sources confirm Yokoyama was an early disciple of Kano Jigoro who joined Kodokan in April 1886.
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1886
       end: null
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-10
-    style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Yokoyama_Sakujiro
+      type: tertiary
+      supports: true
+      weight: medium
+      quotation: Yokoyama Sakujirō was one of the earliest disciples of Kanō Jigorō.
+- id: JDP-10
+  style_id: JDP-S-3
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Historical records indicate Yokoyama trained in Tenjin Shin'yō-ryū jujutsu before joining Kodokan; specific teacher and dojo mentioned in reliable sources.
+  role: student
+  interactions:
+  - place_id: JDP-P-13
     period:
       start: null
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Yokoyama_Sakujiro
+      type: tertiary
+      supports: true
+      weight: medium
+      quotation: He trained in Tenjin Shin'yō-ryū jujutsu under Keitaro Inoue in the Yushima Tenjin dojo.
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- rank: 8
+  style_id: JDP-S-1
+  date: null
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Posthumously awarded 8th dan rank; well-documented in Japanese Wikipedia and historical records as one of the highest ranks awarded to early Kodokan practitioners.
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
-    type: unknown
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+    quotation: 段位は八段（没後追贈）
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Yokoyama_Sakujiro
+  type: tertiary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q3276775
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Yokoyama_Sakujiro
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q3276775
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Yokoyama_Sakujiro
+  cite: DBpedia
+  type: dbpedia

@@ -1092,12 +1092,13 @@ function updateInfo(target) {
       }
     }
 
+      target.data().place = resolveNameForLang(target.data().place, lang);
     if (target.data().interaction_name) {
       cardTitle.innerHTML = resolveNameForLang(target.data().interaction_name, lang);
     } else {
       cardTitle.innerHTML = target.data().interaction;
     }
-
+    
     const rendered = Mustache.render(template, target.data());
     document.getElementById("info").innerHTML = rendered;
     // i18n
@@ -1476,9 +1477,20 @@ function listVersions() {
 function listPersons() {
   const template = document.getElementById("template:persons").innerHTML;
   const sorted = data.elements.nodes.sort((a, b) =>
-    a.data.name.localeCompare(b.data.name),
+    resolveNameForLang(a.data.name, lang).localeCompare(resolveNameForLang(b.data.name, lang)),
   );
-  const rendered = Mustache.render(template, { arr: sorted });
+  
+  // Prepare data for template with resolved names
+  const personsData = sorted.map(node => {
+    const person = { ...node.data };
+    const nameMap = person.name; // Save the original language map
+    // Resolve display name and native name for template
+    person.name = resolveNameForLang(nameMap, lang);
+    person.name_native = nameMap[lang] || null;
+    return { data: person };
+  });
+  
+  const rendered = Mustache.render(template, { arr: personsData });
 
   const persons = document.getElementById("Persons");
   persons.addEventListener("click", (e) => {

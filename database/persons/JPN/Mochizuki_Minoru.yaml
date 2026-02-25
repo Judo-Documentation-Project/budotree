@@ -5,136 +5,198 @@ name:
   ja-Latn: Mochizuki Minoru
   ja: 望月 稔
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1907-04-07"
+  date: '1907-04-07'
   geo:
     name: Shizuoka
     country_code: JPN
+    wikidata: Q131323
 death:
-  date: "2003-05-30"
+  date: '2003-05-30'
   geo:
     name: Aix-en-Provence
     country_code: FRA
+    wikidata: Q1618
+description:
+  en: Japanese martial artist who founded Yoseikan dojo. Direct student of judo founder Jigoro Kano, aikido founder Morihei Ueshiba, and karate founder Gichin Funakoshi. First to teach aikido in the West (France 1951-1953). Holder of high dan ranks in multiple martial arts including 10th dan in Aikido, 9th dan in Jujutsu, and 8th dan in Judo.
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Explicitly mentioned in Aikido Journal interview as his judo teacher who sent him to study with Ueshiba, and in Wikipedia as one of his direct students. Also mentioned in French interview as 'élève de Jigoro Kano'
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1925
       end: 1930
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-11
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+      cite: Minoru Mochizuki - Wikipedia
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+      cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-11
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Mentioned in Aikido Journal interview as staying at his house and receiving personal instruction during Kodokan training, with detailed anecdotes about their relationship
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1925
       end: 1930
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-27
-    style_id: JDP-S-4
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    sources:
+    - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+      cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-27
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Sent by Kano to study aikijujutsu with Ueshiba in 1930, received Daito-ryu scrolls in 1932, mentioned as direct student in multiple sources including Aikido Journal interview, Wikipedia, and French interview
+  role: student
+  interactions:
+  - place_id: JDP-P-11
     period:
       start: 1930
       end: null
     sources:
-      - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
-        quotation: That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-41
-    style_id: JDP-S-5
+    - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+      quotation: That was back in 1930 when Ueshiba Sensei still didn’t have a place of his own and was teaching in the living room of a regular private house in the Mejiro area of Tokyo. But just after we started going there, we all moved to the newly finished Ushigome dojo (site of the present Hombu Dojo)
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-41
+  style_id: JDP-S-5
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Mentioned in French interview and Black Belt magazine as having studied with Funakoshi, though less documented than relationships with Kano and Ueshiba. French interview states he 'had also worked with Gichin Funakoshi'
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/
-        quotation: Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false
-        cite: A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.
-        quotation: Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate, Gichin Funakoshi.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    - uri: https://www.ffkarate.fr/hiroo-mochizuki-interview-yoseikan-budo/
+      quotation: Elève de Jigoro Kano, qui l’avait envoyé apprendre l’aïkido auprès de Morihei Ueshiba, Minoru Mochizuki avait aussi travaillé avec Gichin Funakoshi. [...]  C’était la responsabilité d’une vie pour lui, car c’est la mission que lui avait confié Jigoro Kano. Mais il se trouvait un peu faible du point de vue des atémis, qu’il avait pourtant étudié avec Funakoshi
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://books.google.pt/books?id=SdYDAAAAMBAJ&pg=PA34#v=onepage&q&f=false
+      cite: A Man of Many Budo (interview with Minoru Mochizuki), Black Belt, Aug 1989.
+      quotation: Minoru Mochizuki holds the distinction of being the only living man to have studied with aikido founder Morihei Uyeshiba, judo founder Jigoro Kano, and "the father of Japanese karate", Gichin Funakoshi.
+      type: primary
+      supports: true
+      weight: high
+- confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Mentioned in Aikido Journal interview as teacher of Gyokushin-ryu jujutsu named Sanjuro Oshima who taught him in 1924 and awarded Shoden Kirishi Mokuroku license. Teacher not in database.
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: 1924
       end: null
-    role: student
-    id: null
-    place_id: null
 rank:
-  - rank: Shoden Kirishi Mokuroku
-    date: 1924
-    granted_by: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-10
-    rank: null
-    date: 1924
-    granted_by: JDP-27
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-1
-    rank: 8 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
+- rank: Shoden Kirishi Mokuroku
+  date: 1924
+  granted_by: null
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Mentioned in Aikido Journal interview as license received from Gyokushin-ryu teacher Sanjuro Oshima after about six months of study, described as 'roughly equal to a first degree black belt in judo'
+  sources:
   - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
-    type: unknown
+    cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+    quotation: After about six months I received a license called the Shoden Kirishi Mokuroku which would be roughly equal to a first degree black belt in judo.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  org_id: null
+- style_id: JDP-S-10
+  rank: Menkyo Kaiden
+  date: 1924
+  granted_by: JDP-27
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Daito-ryu rank from Ueshiba Morihei mentioned in historical context but specific rank name not provided in sources
+  sources:
+  - uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+    cite: 'Interview with Minoru Mochizuki: Part 1, Aikido Journal, November 2002'
+    quotation: It was about that time that he gave me the scrolls for the menkyo kaiden (master teacher's license). One of them is about two meters long and the other about three meters in length. The longer one is entitled 'The Self-defense of Daito-ryu Aiki Jujutsu' while the other has 'The Innermost Teachings of Daito-ryu Aiki Jujutsu' written on it.
+    type: secondary
+    supports: true
+    weight: high
+  org_id: null
+- style_id: JDP-S-1
+  rank: 8 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: 8th dan in Kodokan Judo mentioned in Wikipedia biography along with multiple other high dan ranks in various martial arts
+  sources:
   - uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
-    type: unknown
+    cite: Minoru Mochizuki - Wikipedia
+    quotation: Minoru Mochizuki (望月 稔, Mochizuki Minoru; April 7, 1907 – May 30, 2003) was a Japanese martial artist who founded the dojo Yoseikan. He was a 10th dan in Aikido, 9th dan in Jujutsu, 8th dan in Iaido, 8th dan in Judo, 8th dan in Kobudo, 5th dan in Kendo, 5th dan in Karate, and a 5th dan in Jojutsu.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://aikidojournal.com/2002/11/18/interview-with-minoru-mochizuki-1/
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://en.wikipedia.org/wiki/Minoru_Mochizuki
+  type: secondary
+  supports: true
+  weight: high
+notes: '- Sent by Jigoro Kano to study aikijujutsu with Morihei Ueshiba in 1930
+
+  - Received Daito-ryu scrolls from Ueshiba in 1932 including menkyo kaiden (master teacher''s license)
+
+  - Founded Yoseikan dojo in Shizuoka City in 1931
+
+  - First to teach aikido in the West when he traveled to France as a judo teacher from 1951 to 1953
+
+  - Son is Hiroo Mochizuki, founder of Yoseikan Budo
+
+  - Member of Kodokan''s Kobudo Kenkyukai (Association for Classical Martial Arts Research)
+
+  - Studied multiple arts including Gyokushin-ryu jujutsu, Katori Shinto-ryu, kendo, and jojutsu
+
+  - Spent eight years in Mongolia working on irrigation and communication projects
+
+  '
 links:
-  - uri: https://www.wikidata.org/wiki/Q1937662
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Minoru_Mochizuki
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q1937662
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Minoru_Mochizuki
+  cite: DBpedia
+  type: dbpedia

@@ -5,44 +5,79 @@ name:
   ja-Latn: Takahashi Kazuyoshi
   ja: 高橋数良
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: 1855
+  date: 1886
   geo:
-    name: null
+    name: Takamatsu, Kagawa
+    wikidata: Q200707
     country_code: JPN
 death:
-  date: 1942
+  date: '1942-05-03'
   geo:
-    name: null
-    country_code: null
-description: null
+    name: Tokyo
+    wikidata: Q1490
+    country_code: JPN
+description:
+  en: Japanese judo master, student of Yokoyama Sakujiro, known for his expertise in counter techniques (ura-waza) and considered the intellectual source behind the gonosen-no-kata. He served as judo head instructor at Waseda University and was promoted to 8th dan in 1937.
 teachers:
-  - id: JDP-9
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-9
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Yokoyama Sakujiro at the Kodokan, mentioned in Japanese Wikipedia biography as his direct disciple
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
-      start: null
+      start: 1904
       end: null
-    role: student
-    place_id: JDP-P-1
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E6%95%B0%E8%89%AF
+      cite: 高橋数良 - Wikipedia
+      quotation: 講道館四天王の1人である横山作次郎の直弟子であり、切れ味鋭い足技を駆使した返し技（裏技）の達人であった。
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 8 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
-  - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
-    type: unknown
+- style_id: JDP-S-1
+  rank: 8 dan
+  date: '1937-12-22'
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially promoted to 8th dan by Kodokan on 1937-12-22, well-documented in Japanese Wikipedia and historical records
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E6%95%B0%E8%89%AF
+    cite: 高橋数良 - Wikipedia
+    quotation: 8段 1937年12月22日 51歳
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+  cite: 'De Crée, Carl. (2015). Kodokan Judo''s three orphaned forms of counter techniques - Part 1: The gonosen-no-kata - Forms of post-attack initiative counter throws'
+  quotation: The kata builds on intellectual material conceived by Takahashi Kazuyoshi. Takahashi Kazuyoshi 高橋数良 (1885-1942), who in addition to Miyakawa Ikkan would become the jūdō head-instructor at Waseda University. Takahashi's specialty was kaeshi-waza or ura-waza (counter techniques), and he became nationally famous for his expertise in this area.
+  type: primary
+  supports: true
+  weight: high
+- uri: https://ja.wikipedia.org/wiki/%E9%AB%98%E6%A9%8B%E6%95%B0%E8%89%AF
+  cite: 高橋数良 - Wikipedia
+  quotation: 高橋 数良（たかはし かずよし、1886年3月 - 1942年5月3日）は日本の柔道家（講道館8段）。講道館四天王の1人である横山作次郎の直弟子であり、切れ味鋭い足技を駆使した返し技（裏技）の達人であった。
+  type: secondary
+  supports: true
+  weight: medium
+photo:
+  url: https://commons.wikimedia.org/wiki/File:Kazuyoshi_Takahashi.jpg
+  source:
+    uri: https://commons.wikimedia.org/wiki/File:Kazuyoshi_Takahashi.jpg
+    type: secondary
+    weight: medium
+links:
+- uri: https://www.wikidata.org/wiki/Q47470179
+  type: wikidata

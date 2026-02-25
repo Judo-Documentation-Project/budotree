@@ -6,70 +6,80 @@ name:
   ja: 内藤高治
 nationality:
   - code: JPN
+    wikidata: Q17
 birth:
-  date: "1862"
+  date: "1862-12-16"
   geo:
     name: Mito
     country_code: JPN
+    wikidata: Q204249
 death:
-  date: "1929"
+  date: "1929-04-09"
   geo:
-    name: null
-    country_code: null
+    name: Kyoto
+    country_code: JPN
+    wikidata: Q34600
 description:
   en: A swordsman of the Hokushin Ittō-ryū, Naitō taught kendo to the Japanese Police force, and was also the first teacher at the Budo Senmon Gakko. He helped to create the Dai Nihon Teikoku Kendo Kata, a group that promulgated the practice of kendo in Japanese schools and universities under the auspices of the Dai Nippon Butoku Kai.
+notes: |
+  Originally named Ichige Takaharu (市毛高治), adopted by relative Naitō Gizaemon Masatoshi and took the name Naitō Takaharu.
+  Studied Hokushin Ittō-ryū at Mito Tobukan under Kozawa Torakichi (student of Chiba Shusaku).
+  Studied Jikishinkage-ryu under Sakakibara Kenkichi in Tokyo (1883).
+  Went on musha-shugyo (warrior pilgrimage) around Japan.
+  Defeated Takano Sasaburo and Kawasaki Zenzaburo in matches.
+  Joined Keishicho (Tokyo Metropolitan Police) in 1888 as a police officer.
+  Awarded Seirensho in 1897 by Dai Nippon Butoku Kai.
+  One of five kendo teachers at Butokuden in Kyoto from 1899.
+  Head instructor at Budo Senmon Gakko, taught all five future 10th dan holders.
+  Opposed sportification of kendo, emphasized basics (kirikaeshi and kakarigeiko).
+  Died of cerebral hemorrhage in 1929, opposed to holding Tenran shiai (imperial tournament).
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg/220px-Nait%C5%8D_Takaharu_%28%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB%29.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu#/media/File:Nait%C5%8D_Takaharu_(%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB).jpg
     cite: Naitō Takaharu (内藤高治) - Wikimedia Commons
-teachers:
-  - id: null
-    style_id: null
-    period:
-      start: null
-      end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    place_id: null
+    type: secondary
+    weight: medium
+teachers: []
 rank:
   - style_id: JDP-S-8
     rank: Hanshi
     date: null
     sources:
-      - uri: https://kenshi247.net/blog/2013/10/16/monna-tadashi/
-        cite: Monna Tadashi - Kenshi 24/7
-        quotation: In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi.
-        type: unknown
-        supports: true
-        weight: unknown
+       - uri: https://kenshi247.net/blog/2013/10/16/monna-tadashi/
+         cite: Monna Tadashi - Kenshi 24/7
+         quotation: In 1913, at the same time as Naito Takaharu and Takano Sasaburo, he was awarded hanshi.
+         type: tertiary
+         supports: true
+         weight: medium
     rank_type: title
     confidence:
       level: 2
       assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+      rationale: "Awarded hanshi title in 1913 together with Takano Sasaburo, as documented in Kenshi 24/7 blog article"
     granted_by: null
     org_id: null
 sources:
   - uri: https://en.wikipedia.org/wiki/Nait%C5%8D_Takaharu
-    type: unknown
+    cite: Naitō Takaharu - Wikipedia (English)
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
   - uri: https://kenshi247.net/blog/2020/06/17/finding-naito/
-    type: unknown
+    cite: Finding Naito - Kenshi 24/7
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
   - uri: https://kenshi247.net/blog/2012/12/04/naito-takaharu/
-    type: unknown
+    cite: Naito Takaharu - Kenshi 24/7
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
   - uri: https://ja.wikipedia.org/wiki/%E5%86%85%E8%97%A4%E9%AB%98%E6%B2%BB
-    type: unknown
+    cite: 内藤高治 - Wikipedia (Japanese)
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
 links:
   - uri: https://www.wikidata.org/wiki/Q11394577
     cite: Wikidata

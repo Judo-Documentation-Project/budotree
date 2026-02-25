@@ -6,62 +6,131 @@ name:
 aka:
   en: Ivan Gene LeBell
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1932-10-09"
+  date: '1932-10-09'
   geo:
     name: Los Angeles
     country_code: USA
+    wikidata: Q65
 death:
-  date: "2022-08-09"
+  date: '2022-08-09'
   geo:
     name: Los Angeles
     country_code: USA
+    wikidata: Q65
 photo:
   url: https://upload.wikimedia.org/wikipedia/en/9/95/Cropped_Photo_of_Gene_LeBell.jpg
   source:
     uri: https://upload.wikimedia.org/wikipedia/en/9/95/Cropped_Photo_of_Gene_LeBell.jpg
     cite: Cropped Photo of Gene LeBell (Wikipedia Commons)
+    type: secondary
+    weight: high
 description:
   en: Ivan Gene LeBell (October 9, 1932 – August 9, 2022) was an American judoka, stuntman, actor and professional wrestler. Nicknamed "Judo Gene" and "The Godfather of Grappling", he is credited with popularizing grappling in professional fighting circles, serving as a precursor to modern mixed martial arts. He worked on over 1,000 films and TV shows and authored 12 books.
 teachers:
-  - id: JDP-119
-    style_id: JDP-S-1
+- id: JDP-119
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Trained under Ishikawa Takahiko in Japan, mentioned in Mokuren Dojo interview as one of his greatest judo teachers from training in Japan
+  role: student
+  interactions:
+  - place_id: JDP-P-7
     period:
       start: 1953
       end: 1955
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
-        cite: "Mokuren Interview: 'Judo' Gene LeBell (Mokuren Dojo)"
-        quotation: "Who do you think were the greatest judo teachers you ever got to learn from? Gene Lebell: In the U.S. Shig Tashma, Larry Coughran, Kenneth Kinyuki, Fuji Nazawa (who just died 2 days ago), and of course I learned a lot from training in Japan (Ishikawa)"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
+      cite: 'Mokuren Interview: ''Judo'' Gene LeBell (Mokuren Dojo)'
+      quotation: 'Who do you think were the greatest judo teachers you ever got to learn from? Gene Lebell: In the U.S. Shig Tashma, Larry Coughran, Kenneth Kinyuki, Fuji Nazawa (who just died 2 days ago), and of course I learned a lot from training in Japan (Ishikawa)'
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: '2005'
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Gene_LeBell
+    cite: English Wikipedia - Gene LeBell biography
+    quotation: 'Rank: 10th degree red belt in Judo'
+    type: secondary
+    supports: true
+    weight: high
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Promoted to 10th degree red belt in judo, mentioned in Wikipedia biography
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-17
+  rank: 9th degree black belt
+  date: '2000'
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Gene_LeBell
+    cite: English Wikipedia - Gene LeBell biography
+    quotation: 'Rank: 9th degree black belt in Jujutsu'
+    type: secondary
+    supports: true
+    weight: high
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Promoted to 9th degree black belt in jujutsu by United States Ju-Jitsu Federation in 2000, mentioned in Wikipedia
+  granted_by: null
+  org_id: null
+- style_id: null
+  rank: 10th degree black belt in Kyokushin Budokai
+  date: '2004'
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Gene_LeBell
+    cite: English Wikipedia - Gene LeBell biography
+    quotation: 'Rank: 10th degree black belt in Kyokushin Budokai'
+    type: secondary
+    supports: true
+    weight: high
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Promoted to 10th degree black belt in Kyokushin Budokai by World Martial Arts Masters Association in 2004, mentioned in Wikipedia
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Harold_Sharp
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
-    cite: "Mokuren Interview: 'Judo' Gene LeBell (Mokuren Dojo)"
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Gene_LeBell
+  cite: English Wikipedia - Gene LeBell biography
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://mokurendojo.blogspot.com/2008/05/mokuren-interview-judo-gene-lebell.html
+  cite: 'Mokuren Interview: ''Judo'' Gene LeBell (Mokuren Dojo)'
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- uri: https://www.wikidata.org/wiki/Q5531765
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Gene_LeBell
+  cite: DBpedia
+  type: dbpedia
+notes: 'Gene LeBell (1932-2022) was an American judoka, stuntman, actor, and professional wrestler.
+
+  Nicknamed "Judo Gene" and "The Godfather of Grappling", he is credited with popularizing grappling in professional fighting circles.
+
+  He worked on over 1,000 films and TV shows as a stuntman and actor, and authored 12 books.
+
+  In addition to Ishikawa Takahiko, he also trained under Shig Tashma, Larry Coughran, Kenneth Kinyuki, and Fuji Nazawa in the U.S.
+
+  He was AAU National Judo Champion in 1954 and 1955.
+
+  Known for his catchphrase "When in doubt, choke him out!" and for wearing pink judo gis.
+
+  Trained many notable martial artists including Chuck Norris, Benny Urquidez, and Ronda Rousey.
+
+  '

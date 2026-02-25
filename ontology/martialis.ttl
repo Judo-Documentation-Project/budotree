@@ -48,8 +48,28 @@ martialis:Assertion a owl:Class ;
 martialis:TeacherAssertion a owl:Class ;
     rdfs:subClassOf martialis:Assertion .
 
+martialis:TeacherInteraction a owl:Class ;
+    rdfs:subClassOf prov:Entity ;
+    rdfs:comment "A place/period/evidence record within a teacher-student relationship." .
+
+martialis:hasInteraction a owl:ObjectProperty ;
+    rdfs:domain martialis:TeacherAssertion ;
+    rdfs:range martialis:TeacherInteraction .
+
+martialis:interactionPlace a owl:ObjectProperty ;
+    rdfs:domain martialis:TeacherInteraction ;
+    rdfs:range martialis:Place .
+
+martialis:interactionPeriod a owl:ObjectProperty ;
+    rdfs:domain martialis:TeacherInteraction ;
+    rdfs:range martialis:TimeInterval .
+
 martialis:RankAssertion a owl:Class ;
     rdfs:subClassOf martialis:Assertion .
+
+martialis:HonorAssertion a owl:Class ;
+    rdfs:subClassOf martialis:Assertion ;
+    rdfs:comment "A non-style-specific title, certificate, or honor (e.g., Hanshi, Kyoshi)." .
 
 martialis:StylePracticeAssertion a owl:Class ;
     rdfs:subClassOf martialis:Assertion .
@@ -77,6 +97,11 @@ martialis:hasRankAssertion a owl:ObjectProperty ;
     rdfs:domain martialis:Person ;
     rdfs:range martialis:RankAssertion .
 
+martialis:hasHonorAssertion a owl:ObjectProperty ;
+    rdfs:subPropertyOf martialis:hasAssertion ;
+    rdfs:domain martialis:Person ;
+    rdfs:range martialis:HonorAssertion .
+
 martialis:hasStylePracticeAssertion a owl:ObjectProperty ;
     rdfs:subPropertyOf martialis:hasAssertion ;
     rdfs:domain martialis:Person ;
@@ -93,8 +118,22 @@ martialis:object a owl:ObjectProperty ;
     rdfs:comment "The object of an assertion (Person, Organization, Rank, etc.)." .
 
 martialis:assertedPlace a owl:ObjectProperty ;
-    rdfs:domain martialis:Assertion ;
+    rdfs:label "asserted place" ;
+    rdfs:comment "The place where a teacher-student relationship took place." ;
+    rdfs:domain martialis:TeacherAssertion ;
     rdfs:range martialis:Place .
+
+martialis:assertedStyle a owl:ObjectProperty ;
+    rdfs:label "asserted style" ;
+    rdfs:comment "The style associated with a teacher-student relationship assertion." ;
+    rdfs:domain martialis:TeacherAssertion ;
+    rdfs:range martialis:Style .
+
+martialis:assertedOrg a owl:ObjectProperty ;
+    rdfs:label "asserted organization" ;
+    rdfs:comment "The organization associated with a rank or honor assertion." ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( martialis:RankAssertion martialis:HonorAssertion ) ] ;
+    rdfs:range martialis:Organization .
 
 martialis:validDuring a owl:ObjectProperty ;
     rdfs:domain martialis:Assertion ;
@@ -137,9 +176,14 @@ martialis:SourceAssertionRelation a owl:Class ;
     rdfs:comment "Represents how a source relates to an assertion." .
 
 martialis:hasEvidence a owl:ObjectProperty ;
-    rdfs:domain martialis:Assertion ;
+    rdfs:domain prov:Entity ;  # Broader domain - both Persons and Assertions can have evidence
     rdfs:range martialis:SourceAssertionRelation ;
-    rdfs:comment "Links an assertion to its evidence records." .
+    rdfs:comment "Links an entity to its evidence records." .
+
+martialis:imageAttribution a owl:ObjectProperty ;
+    rdfs:domain schema:ImageObject ;
+    rdfs:range prov:Entity ;
+    rdfs:comment "Credits/attribution for an image, indicating its source. Distinct from hasEvidence: attribution carries no supports/contradicts semantics." .
 
 martialis:aboutAssertion a owl:ObjectProperty ;
     rdfs:domain martialis:SourceAssertionRelation ;
@@ -198,10 +242,15 @@ martialis:rankValue a owl:DatatypeProperty ;
     rdfs:range xsd:string ;
     rdfs:comment "The rank designation (e.g., '6 dan', 'Menkyo Kaiden')." .
 
+martialis:honorValue a owl:DatatypeProperty ;
+    rdfs:domain martialis:HonorAssertion ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The title or honor designation (e.g., 'Hanshi', 'Kyoshi')." .
+
 martialis:grantedBy a owl:ObjectProperty ;
-    rdfs:domain martialis:RankAssertion ;
+    rdfs:domain [ a owl:Class ; owl:unionOf ( martialis:RankAssertion martialis:HonorAssertion ) ] ;
     rdfs:range prov:Agent ;
-    rdfs:comment "Person or organization that granted the rank." .
+    rdfs:comment "Person or organization that granted the rank or honor." .
 
 #################################################################
 # Style Properties

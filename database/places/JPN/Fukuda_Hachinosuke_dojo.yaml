@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-3
+name:
+  en: Fukuda Hachinosuke dojo
+classification: dojo
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+sources: []

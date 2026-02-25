@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-15
+name:
+  en: Otamagaike dojo
+  ja-Latn: Otamagaike dōjō
+classification: dojo
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+sources: []

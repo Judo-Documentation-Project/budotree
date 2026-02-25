@@ -4,127 +4,173 @@ id: JDP-27
 name:
   ja-Latn: Ueshiba Morihei
   ja: 植芝 盛平
+description:
+  en: Morihei Ueshiba (植芝 盛平, Ueshiba Morihei; December 14, 1883 – April 26, 1969) was a Japanese martial artist and founder of the martial art of aikido. He is often referred to as 'the founder' Kaiso (開祖) or Ōsensei (大先生/翁先生), 'Great Teacher'.
+  ja: 植芝 盛平（うえしば もりへい、1883年〈明治16年〉12月14日 - 1969年〈昭和44年〉4月26日）は、日本の武道家。合気道の創始者。合気道界では「開祖」（かいそ）と敬称される。
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1883-12-14"
+  date: '1883-12-14'
   geo:
     name: Tanabe
     country_code: JPN
+    wikidata: Q304266
 death:
-  date: "1969-04-26"
+  date: '1969-04-26'
   geo:
     name: Iwama
     country_code: JPN
+    wikidata: Q1011725
+photo:
+  url: https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Morihei_Ueshiba_Portrait.jpg/250px-Morihei_Ueshiba_Portrait.jpg
+  source:
+    uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba#/media/File:Morihei_Ueshiba_Portrait.jpg
+    cite: Morihei Ueshiba, Wikimedia Commons
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-28
-    style_id: JDP-S-10
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-28
+  style_id: JDP-S-10
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented teacher-student relationship from 1915-1922, mentioned in multiple historical accounts and interviews
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1915
       end: 1922
-    role: student
-    place_id: null
-  - id: JDP-47
-    style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
+      cite: Morihei Ueshiba - Wikipedia
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+      cite: Interview with Morihei Ueshiba and Kisshomaru Ueshiba (Aikido Journal)
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-47
+  style_id: JDP-S-3
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Brief study period in 1901 documented in Aikido Journal and historical PDF sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1901
       end: 1901
     sources:
-      - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
-        cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
-        quotation: Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu with Tozawa Tokusaburo
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
-        events:
-          - period
-        quotation: "[Tokusaburo Tozawa]. Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-50
-    style_id: JDP-S-11
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    - uri: http://www.hontaiyoshinryu.be/images/Documents/p_schools.pdf
+      cite: BUYENS, Guy. Introduction to Traditional martial systems. 2016
+      quotation: Iso Mataemon Masatomo had amongst his students Inoue Keitaro and Tozawa Tokusaburo, who were the teachers of Miyamoto Hanzo). Morihei Ueshiba, founder of aikido, studied Tenjin Shinyo-ryu with Tozawa Tokusaburo
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://aikidojournal.com/2011/08/27/tokusaburo-tozawa/
+      events:
+      - period
+      quotation: '[Tokusaburo Tozawa]. Teacher of TENJIN SHIN’YO-RYU JUJUTSU in Tokyo in late 1800s and early 1900s. Taught Morihei UESHIBA for brief period in 1901'
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-50
+  style_id: JDP-S-11
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Yagyū Shingan-ryū training from 1903-1908, received Shoden rank in 1908 per Wikipedia and Aikido Journal interview
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
     sources:
-      - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
-        quotation: Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
-        quotation: "O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms."
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+      quotation: Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+      quotation: 'O-Sensei: At about the age of 14 or 15. First I learned Tenshinyo-ryu Jiujitsu from Tokusaburo Tozawa Sensei, then Kito-ryu, Yagyu-ryu, Aioi-ryu, Shinkage-ryu, all of them jujutsu forms.'
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-10
-    rank: Kyōju Dairi
-    date: 1922
-    granted_by: JDP-28
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-13
-    rank: Shoden
-    date: 1908
-    granted_by: JDP-50
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-sources:
+- style_id: JDP-S-10
+  rank: Kyōju Dairi
+  date: 1922
+  granted_by: JDP-28
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Rank granted by Takeda Sokaku, well-documented in Daito-ryu lineage records
+  sources:
   - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
-    events:
-      - name native_name birth death
-    type: unknown
+    cite: Morihei Ueshiba - Wikipedia
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
-    events:
-      - name native_name birth death
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
-    events:
-      - rank
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
   - uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
-    type: unknown
+    cite: Interview with Morihei Ueshiba and Kisshomaru Ueshiba (Aikido Journal)
+    type: primary
     supports: true
-    weight: unknown
+    weight: high
+  org_id: null
+- style_id: JDP-S-13
+  rank: Shoden
+  date: 1908
+  granted_by: JDP-50
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Rank in Yagyū Shingan-ryū documented in Wikipedia and martial arts histories
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+    cite: Yagyū Shingan-ryū - Wikipedia
+    quotation: Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū
+    type: secondary
+    supports: true
+    weight: medium
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
+  events:
+  - name native_name birth death
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E8%8A%9D%E7%9B%9B%E5%B9%B3
+  events:
+  - name native_name birth death
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+  events:
+  - rank
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://aikidojournal.com/2016/09/24/interview-with-morihei-ueshiba-and-kisshomaru-ueshiba/
+  type: primary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q182130
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Morihei_Ueshiba
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q182130
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Morihei_Ueshiba
+  cite: DBpedia
+  type: dbpedia
+- uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E8%8A%9D%E7%9B%9B%E5%B9%B3
+  cite: Japanese Wikipedia
+  type: wikipedia

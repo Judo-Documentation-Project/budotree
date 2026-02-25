@@ -5,76 +5,120 @@ name:
   ja-Latn: Tomiki Kenji
   ja: 富木 謙治
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1900-03-15"
+  date: '1900-03-15'
   geo:
-    name: Yokomachi
+    name: Kakunodate, Akita
     country_code: JPN
+    wikidata: Q846877
 death:
-  date: "1979-12-25"
+  date: '1979-12-25'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Mentioned in several sources.
+  role: student
+  interactions:
+  - place_id: null
     period:
-      start: 1895
-      end: 1896
-    role: student
-    place_id: null
-  - id: JDP-27
-    style_id: JDP-S-4
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+      start: 1910
+      end: null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+      cite: Kenji Tomiki - Wikipedia
+      supports: true
+      quotation: Circa 1910, Tomiki began practising at the Kodokan, under Judo founder Jigoro Kano.
+- id: JDP-27
+  style_id: JDP-S-4
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Multiple references
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1926
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+      cite: Kenji Tomiki - Wikipedia
+      supports: true
+      quotation: In early 1926, he encountered the founder of aikido Morihei Ueshiba and became one of Ueshiba's early students.
 rank:
-  - style_id: JDP-S-1
-    rank: 8 dan
-    date: 1971
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: JDP-S-4
-    rank: 8 dan
-    date: 1971
-    granted_by: JDP-27
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-sources:
+- style_id: JDP-S-1
+  rank: 8 dan
+  date: 1971
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Kodokan awarded Tomiki with the 8th Dan blackbelt in 1971.
+  sources:
   - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
-    type: unknown
+    cite: Kenji Tomiki - Wikipedia
     supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
-    type: unknown
+    quotation: In 1971, Kodokan awarded Tomiki with the 8th Dan blackbelt.
+  granted_by: null
+  org_id: JDP-O-1
+- style_id: JDP-S-4
+  rank: 8 dan
+  date: 1940
+  granted_by: JDP-27
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: In 1940, he was the first 8th dan black belt to be awarded by Morihei Ueshiba in Aikido history.
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+    cite: Kenji Tomiki - Wikipedia
     supports: true
-    weight: unknown
+    quotation: In 1940, he was the first 8th dan black belt to be awarded by Morihei Ueshiba in Aikido history.
+  org_id: null
+- style_id: JDP-S-4
+  rank: Founder of Shodokan Aikido
+  date: 1958
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Founded his own Aikido system called Tomiki-Ryu/Shodokan Aikido, which he taught from 1960.
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+    cite: Kenji Tomiki - Wikipedia
+    supports: true
+    quotation: He is the founder of Japan Aikido Association and the competitive aikido (aikido kyogi) style.
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Kenji_Tomiki
+  cite: Kenji Tomiki - Wikipedia
+  type: tertiary
+  supports: true
+  weight: high
+  quotation: Kenji Tomiki (富木 謙治, Tomiki Kenji; March 15, 1900 – December 25, 1979) was a Japanese martial artist who specialized in aikido and judo family of martial arts. He is the founder of Japan Aikido Association and the competitive aikido (aikido kyogi) style.
+- uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
+  cite: 富木謙治 - ウィキペディア
+  type: tertiary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q6389379
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Kenji_Tomiki
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q6389379
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Kenji_Tomiki
+  cite: DBpedia
+  type: dbpedia
+description:
+  en: Japanese martial artist who specialized in aikido and judo, founder of Shodokan Aikido (competitive aikido).
+notes: Student of both Jigoro Kano (judo) and Morihei Ueshiba (aikido). First person awarded 8th dan in aikido by Ueshiba (1940). Awarded 8th dan in judo by Kodokan (1971). Professor at Waseda University. Developed competitive aikido (aikido kyogi).

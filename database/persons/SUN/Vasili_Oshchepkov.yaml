@@ -4,99 +4,120 @@ id: JDP-97
 name:
   en: Vasili Oshchepkov
 nationality:
-  - code: RUS
-  - code: SUN
+- code: RUS
+  wikidata: Q159
+- code: SUN
+  wikidata: Q15180
 birth:
-  date: "1893-01-07"
+  date: '1893-01-07'
   geo:
     name: Sakhalin
     country_code: RUS
+    wikidata: Q7797
 death:
-  date: "1938-10-10"
+  date: '1938-10-10'
   geo:
     name: Moscow
     country_code: SUN
+    wikidata: Q649
 photo:
   url: https://archive.org/download/vasili/vasili.jpg
   source:
     uri: https://www.vokrug.tv/person/show/16914436371/
+    cite: Vokrug.tv profile with photo
+    type: tertiary
+    weight: medium
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Studied judo under Jigoro Kano at the Kodokan in Tokyo from 1911 to 1917, becoming the first Russian to earn a black belt in judo, well-documented in multiple sources including Wikipedia and Kodokan archives
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1911
       end: 1917
-    confidence:
-      level: 0
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 0"
     sources:
-      - uri: https://oca.asia/sports/info/15/58/
-        quotation: Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
-        quotation: ""
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - style_id: null
-    period:
-      start: null
-      end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    id: null
-    place_id: null
+    - uri: https://oca.asia/sports/info/15/58/
+      cite: OCA Asia article - Oshchepkov biography
+      quotation: Oshchepkov spent much of his life living in Japan and training judo under its founder Kano Jigoro.
+      type: tertiary
+      supports: true
+      weight: medium
+    - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
+      cite: English Wikipedia - Oshchepkov biography
+      quotation: In 1911, Oshchepkov entered the Kodokan judo school in Tokyo, Japan, where he studied under the founder of judo, Jigoro Kano.
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 2 dan
-    date: 2007
-    sources:
-      - uri: https://web.archive.org/web/20211028220427/http://kodokanjudoinstitute.org/en/news/2016/12/special-exhibition-of-the-material-concerning-mr-vasili-oshchepkov/
-        quotation: Mr. Oshchepkov became a disciple of the Kodokan in 1911 and then was promoted to 2nd Dan. A record book of initiation pleading shows his address and signature. Also his unique seal that says 'B.O' can be seen on it.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
-        quotation: On June 15, 1913, Oshchepkov received the first degree black belt - shodan (first dan); in October 1917, during a trip to Japan, he passed the exams to receive his second degree black belt,becoming the first Russian and the third European to get a nidan in judo
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: JDP-O-1
-sources:
+- style_id: JDP-S-1
+  rank: 2 dan
+  date: '1917'
+  sources:
+  - uri: https://web.archive.org/web/20211028220427/http://kodokanjudoinstitute.org/en/news/2016/12/special-exhibition-of-the-material-concerning-mr-vasili-oshchepkov/
+    cite: Kodokan archive - Oshchepkov exhibition
+    quotation: Mr. Oshchepkov became a disciple of the Kodokan in 1911 and then was promoted to 2nd Dan. A record book of initiation pleading shows his address and signature. Also his unique seal that says 'B.O' can be seen on it.
+    type: primary
+    supports: true
+    weight: high
   - uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
-    type: unknown
+    cite: English Wikipedia - Oshchepkov biography
+    quotation: On June 15, 1913, Oshchepkov received the first degree black belt - shodan (first dan); in October 1917, during a trip to Japan, he passed the exams to receive his second degree black belt,becoming the first Russian and the third European to get a nidan in judo
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://www.rbth.com/arts/2015/05/30/vasily_oshchepkov_the_founder_of_sambo_46477.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://oca.asia/sports/info/15/58/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ru.wikipedia.org/wiki/%D0%9E%D1%89%D0%B5%D0%BF%D0%BA%D0%BE%D0%B2,_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded 2nd dan in judo by Kodokan in October 1917, becoming the first Russian and third European to achieve this rank, well-documented in Kodokan archives and Wikipedia with specific dates
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://en.wikipedia.org/wiki/Vasili_Oshchepkov
+  cite: English Wikipedia - Oshchepkov biography
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://www.rbth.com/arts/2015/05/30/vasily_oshchepkov_the_founder_of_sambo_46477.html
+  cite: Russia Beyond article - Founder of SAMBO
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://oca.asia/sports/info/15/58/
+  cite: OCA Asia article - Oshchepkov biography
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://ru.wikipedia.org/wiki/%D0%9E%D1%89%D0%B5%D0%BF%D0%BA%D0%BE%D0%B2,_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87
+  cite: Russian Wikipedia - Oshchepkov biography
+  type: secondary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q4340844
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Vasili_Oshchepkov
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q4340844
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Vasili_Oshchepkov
+  cite: DBpedia
+  type: dbpedia
+description:
+  en: Soviet martial artist, one of the founders of SAMBO, first Russian to earn a black belt in judo, student of Jigoro Kano
+  ru: Советский мастер боевых искусств, один из основателей самбо, первый русский, получивший чёрный пояс по дзюдо, ученик Дзигоро Кано
+notes: 'Vasili Sergeyevich Oshchepkov (1893-1938) was a Soviet martial artist and one of the three founders of SAMBO (along with Anatoly Kharlampiyev and Viktor Spiridonov).
+
+  He studied judo under Jigoro Kano at the Kodokan in Tokyo from 1911 to 1917, becoming the first Russian to earn a black belt in judo.
+
+  He was awarded 1st dan in June 1913 and 2nd dan in October 1917, becoming the first Russian and third European to achieve this rank.
+
+  Oshchepkov played a key role in developing SAMBO by combining judo techniques with traditional Russian wrestling styles.
+
+  He served as a military intelligence officer and was arrested during the Great Purge, executed on October 10, 1938.
+
+  He was posthumously rehabilitated in 1957 and recognized for his contributions to Soviet martial arts.
+
+  '

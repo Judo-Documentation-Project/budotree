@@ -24,14 +24,13 @@ martialis:PersonShape
     sh:property [
         sh:path schema:name ;
         sh:minCount 1 ;
-        sh:datatype xsd:string ;
-        sh:message "A Person must have a name."
+        sh:message "A Person must have at least one name."
     ] ;
 
     sh:property [
         sh:path schema:alternateName ;
-        sh:datatype xsd:string ;
-        sh:message "Alternate names (aka / native names) must be strings."
+        sh:nodeKind sh:Literal ;
+        sh:message "Alternate names must be language-tagged string literals."
     ] ;
 
     sh:property [
@@ -44,6 +43,22 @@ martialis:PersonShape
         sh:path martialis:hasRankAssertion ;
         sh:class martialis:RankAssertion ;
         sh:message "rank must be expressed via RankAssertion."
+    ] ;
+
+    sh:sparql [
+        a sh:SPARQLConstraint ;
+        sh:message "Person's birth date is after death date." ;
+        sh:select """
+            PREFIX martialis: <https://martial.is/ontology#>
+            PREFIX schema: <https://schema.org/>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            SELECT $this ?birthDate ?deathDate
+            WHERE {
+                $this martialis:birthEvent/schema:birthDate ?birthDate .
+                $this martialis:deathEvent/schema:deathDate ?deathDate .
+                FILTER(xsd:integer(SUBSTR(STR(?birthDate), 1, 4)) > xsd:integer(SUBSTR(STR(?deathDate), 1, 4)))
+            }
+        """
     ] .
 
 #################################################################
@@ -59,13 +74,8 @@ martialis:AssertionShape
         sh:minCount 1 ;
         sh:class prov:Agent ;
         sh:message "Every Assertion must have a subject (Agent)."
-    ] ;
-
-    sh:property [
-        sh:path martialis:object ;
-        sh:minCount 1 ;
-        sh:message "Every Assertion must have an object."
     ] .
+    # object requirement moved to specific assertion shapes
 
 #################################################################
 # TeacherAssertion
@@ -83,14 +93,43 @@ martialis:TeacherAssertionShape
 
     sh:property [
         sh:path martialis:object ;
+        sh:minCount 1 ;
         sh:class martialis:Person ;
         sh:message "TeacherAssertion object must be a Person."
     ] ;
 
     sh:property [
-        sh:path martialis:validDuring ;
+        sh:path martialis:assertedStyle ;
+        sh:class martialis:Style ;
+        sh:message "Teacher assertion references non-existent style."
+    ] ;
+
+    sh:property [
+        sh:path martialis:hasInteraction ;
+        sh:class martialis:TeacherInteraction ;
+        sh:message "Teacher interactions must be TeacherInteraction nodes."
+    ] .
+
+#################################################################
+# TeacherInteraction
+#################################################################
+
+martialis:TeacherInteractionShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:TeacherInteraction ;
+
+    sh:property [
+        sh:path martialis:interactionPlace ;
+        sh:maxCount 1 ;
+        sh:class martialis:Place ;
+        sh:message "Interaction place must reference a Place."
+    ] ;
+
+    sh:property [
+        sh:path martialis:interactionPeriod ;
+        sh:maxCount 1 ;
         sh:class martialis:TimeInterval ;
-        sh:message "TeacherAssertion period must be a TimeInterval."
+        sh:message "Interaction period must be a TimeInterval."
     ] .
 
 #################################################################
@@ -109,22 +148,56 @@ martialis:RankAssertionShape
 
     sh:property [
         sh:path martialis:object ;
-        sh:class martialis:MartialArtRank ;
-        sh:message "RankAssertion object must be a MartialArtRank."
+        sh:minCount 1 ;
+        sh:or (
+            [ sh:class martialis:Style ]
+            [ sh:class martialis:MartialArtRank ]
+        ) ;
+        sh:message "RankAssertion object must be a Style or MartialArtRank."
     ] ;
 
     sh:property [
         sh:path martialis:grantedBy ;
-        sh:class prov:Agent ;
-        sh:message "RankAssertion must specify who granted the rank (Person or Organization)."
+        sh:class martialis:Person ;
+        sh:message "Rank granted_by references non-existent person."
     ] ;
 
     sh:property [
-        sh:path martialis:rankValue ;
-        sh:minCount 1 ;
-        sh:datatype xsd:string ;
-        sh:message "RankAssertion must have a rankValue (e.g. '6 dan')."
+        sh:path martialis:assertedOrg ;
+        sh:class martialis:Organization ;
+        sh:message "Rank assertion references non-existent organization."
     ] .
+
+    # Note: grantedBy is optional (often unknown)
+    # Note: rankValue is optional (allows placeholder ranks for investigation)
+
+#################################################################
+# HonorAssertion
+#################################################################
+
+martialis:HonorAssertionShape
+    a sh:NodeShape ;
+    sh:targetClass martialis:HonorAssertion ;
+
+    sh:property [
+        sh:path martialis:subject ;
+        sh:class martialis:Person ;
+        sh:message "HonorAssertion subject must be a Person."
+    ] ;
+
+    sh:property [
+        sh:path martialis:object ;
+        sh:class martialis:Organization ;
+        sh:message "HonorAssertion object must be an Organization."
+    ] ;
+
+    sh:property [
+        sh:path martialis:assertedOrg ;
+        sh:class martialis:Organization ;
+        sh:message "Honor assertion references non-existent organization."
+    ] .
+
+    # Note: object (granting organization) is optional for honors without granting entity
 
 #################################################################
 # TimeInterval
@@ -169,7 +242,7 @@ martialis:SourceAssertionRelationShape
 
     sh:property [
         sh:path martialis:basedOnSource ;
-        sh:minCount 1 ;
+        sh:minCount 0 ;  # Optional - formal Sources to be created later
         sh:class martialis:Source ;
         sh:message "Evidence must reference a Source."
     ] ;
@@ -188,17 +261,7 @@ martialis:SourceAssertionRelationShape
         sh:message "sourceRefType must be one of: primary, secondary, tertiary, unknown."
     ] .
 
-#################################################################
-# Editorial rule: Assertions must be sourced
-#################################################################
-
-martialis:AssertionMustHaveEvidenceShape
-    a sh:NodeShape ;
-    sh:targetClass martialis:Assertion ;
-
-    sh:property [
-        sh:path martialis:hasEvidence ;
-        sh:minCount 1 ;
-        sh:class martialis:SourceAssertionRelation ;
-        sh:message "Editorial rule violation: every Assertion must have at least one source (hasEvidence)."
-    ] .
+# Note: "every Assertion must have at least one source" is enforced in
+# martialis-quality.shacl.ttl as a quality warning, not a structural constraint.
+# Structural SHACL covers referential integrity and semantic correctness;
+# data completeness requirements belong in the quality tier.

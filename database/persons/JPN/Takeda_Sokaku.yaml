@@ -4,50 +4,77 @@ id: JDP-28
 name:
   ja-Latn: Takeda Sōkaku
   ja: 武田 惣角
+aka:
+  ja:
+    - 源正義
+    - 竹田惣角
+description:
+  en: Japanese martial artist, founder of Daitō-ryū Aiki-jūjutsu
 nationality:
   - code: JPN
+    wikidata: Q17
 birth:
   date: "1859-10-10"
   geo:
     name: Aizu
     country_code: JPN
+    wikidata: Q1205071
 death:
   date: "1943-04-25"
   geo:
-    name: null
+    name: Japan
     country_code: JPN
-teachers:
-  - confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
-      end: null
-    role: student
-    id: null
-    place_id: null
+    wikidata: Q17
+teachers: []
 rank:
   - style_id: JDP-S-10
-    rank: null
+    rank: Soke
     date: null
     rank_type: other
     confidence:
-      level: 2
+      level: 3
       assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
+      rationale: "Founder and headmaster of Daitō-ryū Aiki-jūjutsu, documented in multiple historical sources including Japanese and English Wikipedia"
+    sources:
+      - uri: https://ja.wikipedia.org/wiki/%E6%AD%A6%E7%94%B0%E6%83%A3%E8%A7%92
+        cite: "武田惣角 - Wikipedia"
+        quotation: "武田惣角（たけだ そうかく）は、日本の武術家。武号は源正義。大東流合気柔術の実質的な創始者。"
+        type: secondary
+        supports: true
+        weight: high
+      - uri: https://en.wikipedia.org/wiki/Takeda_S%C5%8Dkaku
+        cite: "Takeda Sōkaku - Wikipedia"
+        quotation: "Takeda Sōkaku (武田 惣角; October 10, 1859 – April 25, 1943) was known as the founder of a school of jujutsu known as Daitō-ryū Aiki-jūjutsu."
+        type: secondary
+        supports: true
+        weight: high
     granted_by: null
     org_id: null
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E6%9C%A8%E8%AC%99%E6%B2%BB
-    type: unknown
+  - uri: https://ja.wikipedia.org/wiki/%E6%AD%A6%E7%94%B0%E6%83%A3%E8%A7%92
+    cite: "武田惣角 - Wikipedia"
+    quotation: "武田惣角（たけだ そうかく）は、日本の武術家。武号は源正義。大東流合気柔術の実質的な創始者。"
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  - uri: https://en.wikipedia.org/wiki/Takeda_S%C5%8Dkaku
+    cite: "Takeda Sōkaku - Wikipedia"
+    quotation: "Takeda Sōkaku (武田 惣角; October 10, 1859 – April 25, 1943) was known as the founder of a school of jujutsu known as Daitō-ryū Aiki-jūjutsu."
+    type: secondary
+    supports: true
+    weight: high
   - uri: https://aikidojournal.com/2011/09/02/interview-with-kenji-tomiki-1-2/
-    type: unknown
+    cite: "Interview with Kenji Tomiki (Part 1-2) - Aikido Journal"
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
+photo:
+  url: https://commons.wikimedia.org/wiki/File:Takeda_Sokaku.jpg
+  source:
+    uri: https://commons.wikimedia.org/wiki/File:Takeda_Sokaku.jpg
+    type: secondary
+    weight: medium
+notes: Studied under multiple teachers including Saigō Tanomo, Toma Shibuya, and Sakakibara Kenkichi according to historical sources, but these teachers are not currently in the database.
 links:
   - uri: https://www.wikidata.org/wiki/Q503880
     cite: Wikidata

@@ -5,7 +5,7 @@ name:
   ja-Latn: Masakatsu Naka
   ja: 中井 正勝
 nationality:
-  - code: JPN
+- code: JPN
 birth:
   date: null
   geo:
@@ -17,37 +17,38 @@ death:
     name: null
     country_code: null
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 'Legacy quality field migration - original value: 2'
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
-    events:
-      - name native_name
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shinkage-ry%C5%AB
+  events:
+  - name native_name
+  type: unknown
+  supports: true
+  weight: unknown
+- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+  type: unknown
+  supports: true
+  weight: unknown

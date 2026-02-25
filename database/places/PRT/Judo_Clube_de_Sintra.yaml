@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-25
+name:
+  pt: Judo Clube de Sintra - Judokai
+classification: club
+geo:
+  name: Sintra
+  country_code: PRT
+  wikidata: Q182050
+sources: []

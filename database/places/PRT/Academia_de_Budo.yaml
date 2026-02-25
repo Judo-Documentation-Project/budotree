@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-20
+name:
+  pt: Academia de Budo
+classification: academy
+geo:
+  name: Lisbon
+  country_code: PRT
+  wikidata: Q597
+sources: []

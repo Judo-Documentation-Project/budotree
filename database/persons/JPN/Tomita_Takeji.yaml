@@ -3,76 +3,116 @@ type: Person
 id: JDP-71
 name:
   ja-Latn: Tomita Takeji
-  ja: 斉藤 守弘
+  ja: 富田武治
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1928-03-31"
+  date: '1928-03-31'
   geo:
     name: Ibaraki
     country_code: JPN
+    wikidata: Q83273
 death:
-  date: "2002-05-13"
+  date: '2002-05-13'
   geo:
     name: Iwama
     country_code: JPN
+    wikidata: Q1011725
 photo:
   url: https://archive.org/download/takeji_tomita/takeji_tomita.png
   source:
     uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
-    cite: "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)"
+    cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+    type: secondary
+    supports: true
+    weight: high
+description:
+  en: Japanese aikido master, student of Morihiro Saito and Morihei Ueshiba, founder of Aïki Shin Myo Den (Takemusu Aiki)
+notes: '- Born in Ibaraki Prefecture, Japan
+
+  - First visited Iwama in 1962 and decided to follow the teaching of Morihei Ueshiba and his assistant Morihiro Saito
+
+  - Became Morihiro Saito''s uchideshi (live-in student) in 1968 and was adopted by the Saito family
+
+  - Practiced at Iwama Dojo for about 7 years, studying under both Ueshiba (until his death in April 1969) and Saito
+
+  - Moved to Sweden in August 1969 and opened his own dojo in 1976
+
+  - Promoted to 7th dan by Aikikai in 1989, later promoted to 8th dan
+
+  - Founded his own style called "Aïki Shin Myo Den" (Takemusu Aiki)
+
+  - Known for his sword work with jumping entry movements
+
+  - Taught extensively in Europe, particularly in Sweden
+
+  '
 teachers:
-  - id: JDP-70
-    style_id: JDP-S-4
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-70
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented uchideshi (live-in student) of Morihiro Saito at Iwama Dojo starting in 1968, as described in Aikido Journal biography
+  role: student
+  interactions:
+  - place_id: JDP-P-10
     period:
-      start: 1962
-      end: 1
+      start: 1968
+      end: null
     sources:
-      - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
-        cite: "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)"
-        quotation: From 1962 on, after his first visit in Iwama, he decides to follow the teaching of O'Sensei and of his assistant, Morihiro Saito Sensei (...) In 1968, he becomes Morihiro Saito's Uchideshi and is rapidly adopted by the Master's family (...) Tomita Sensei practiced for about 7 years at the Iwama Dojo. Those years were for him formativeyears dedicated to education and to discovering the way of Budo.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+      cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+      quotation: From 1962 on, after his first visit in Iwama, he decides to follow the teaching of O'Sensei and of his assistant, Morihiro Saito Sensei (...) In 1968, he becomes Morihiro Saito's Uchideshi and is rapidly adopted by the Master's family (...) Tomita Sensei practiced for about 7 years at the Iwama Dojo. Those years were for him formativeyears dedicated to education and to discovering the way of Budo.
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-4
-    rank: 8 dan
-    date: null
-    sources:
-      - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
-        cite: "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)"
-        quotation: Today an 8th Dan, Tomita Sensei still lives in Stockholm.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://www.takemusuaiki.eu/master/
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-4
+  rank: 8 dan
+  date: 1989
+  sources:
   - uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
-    cite: "TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)"
-    type: unknown
+    cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+    quotation: Today an 8th Dan, Tomita Sensei still lives in Stockholm.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
   - uri: https://aikidojournal.com/2011/08/27/takeji-tomita/
-    type: unknown
+    cite: Takeji Tomita (Aikido Journal Encyclopedia)
+    quotation: In 1989, Tomita Sensei was promoted to 7th dan by the Aikikai.
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://takemusuaikichel.ru/en/tomita-sensei/
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Promoted to 7th dan in 1989 by Aikikai, later promoted to 8th dan, as documented in Aikido Journal sources
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://www.takemusuaiki.eu/master/
+  cite: Takemusu Aiki - Master Takeji Tomita
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.aikidojournal.eu/docs/238/393_946_en.pdf
+  cite: 'TAKEJI TOMITA: From studying with O-Sensei to the creation of Aïki Shin Myo Den (Aikido Journal)'
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://aikidojournal.com/2011/08/27/takeji-tomita/
+  cite: Takeji Tomita (Aikido Journal Encyclopedia)
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://takemusuaikichel.ru/en/tomita-sensei/
+  cite: Tomita Sensei - Takemusu Aiki Chel
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- type: wikidata
+  uri: https://www.wikidata.org/wiki/Q3980307

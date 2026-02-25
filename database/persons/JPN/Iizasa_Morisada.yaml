@@ -5,70 +5,77 @@ name:
   ja-Latn: Iizasa Shuri-no-suke Morisada
   ja: 飯篠修理亮盛貞
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: null
   geo:
     name: null
     country_code: JPN
+    wikidata: Q17
 death:
   date: null
   geo:
     name: null
     country_code: JPN
+    wikidata: Q17
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/a/ad/XVIII_Dai_S%C5%8Dke_Iizasa_Shuri-no-suke_Morisada.jpg
   source:
     uri: https://commons.wikimedia.org/wiki/File:XVIII_Dai_S%C5%8Dke_Iizasa_Shuri-no-suke_Morisada.jpg
     cite: XVIII Dai Sōke Iizasa Shuri-no-suke Morisada (Wikimedia Commons)
+    type: secondary
+    weight: medium
 teachers:
-  - id: null
-    style_id: null
+- id: null
+  style_id: null
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as the 18th Soke of Tenshinsho-den Katori Shinto-ryu, with clear lineage succession from previous Soke
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    role: student
-    place_id: null
 rank:
-  - style_id: JDP-S-6
-    rank: Soke
-    date: null
-    sources:
-      - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
-        cite: Women of Katori Shintō-ryū
-        quotation: In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
-    cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
-    cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-6
+  rank: Soke
+  date: null
+  sources:
   - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
     cite: Women of Katori Shintō-ryū
-    type: unknown
+    quotation: In the official history of our school, the 18th Soke Iizasa Morisada died suddenly, without a male successor. For a time, under these conditions, the school was then led by the then Shihan with Yamaguchi Kumajiro as Kyoju.
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
-    quotation: 天真正伝香取神道流 (天真正伝香取神道流)
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as the 18th Soke of Tenshinsho-den Katori Shinto-ryu in multiple historical sources, with specific mention in the school's official history
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+  cite: EN – Introduction - Tenshinsho-den Katori Shinto Ryu
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+  cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû | Life for a Sword'
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
+  cite: Women of Katori Shintō-ryū
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://shinbukan-katorishintoryu.org/?page_id=927&lang=ja
+  cite: JP – Tradition - 天真正伝香取神道流
+  quotation: 天真正伝香取神道流 (天真正伝香取神道流)
+  type: secondary
+  supports: true
+  weight: medium

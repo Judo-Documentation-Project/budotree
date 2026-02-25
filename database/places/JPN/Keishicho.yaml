@@ -1,0 +1,16 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-7
+name:
+  en: Tokyo Metropolitan Police Department
+  ja-Latn: Keishicho
+  ja: 警視庁
+classification: military
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+links:
+  - uri: https://www.wikidata.org/wiki/Q1353989
+    type: wikidata
+sources: []

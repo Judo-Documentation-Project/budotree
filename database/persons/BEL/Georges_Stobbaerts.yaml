@@ -4,64 +4,81 @@ id: JDP-86
 name:
   pt: Georges Stobbaerts
 nationality:
-  - code: PRT
-  - code: BEL
+- code: PRT
+  wikidata: Q45
+- code: BEL
+  wikidata: Q31
 birth:
-  date: 1940
+  date: '1940-11-30'
   geo:
     name: Casablanca
     country_code: MAR
+    wikidata: Q7903
+  sources:
+  - uri: https://www.facebook.com/FPAikido/posts/1573062379445808/
+    cite: Federação Portuguesa de Aikido (Facebook)
+    quotation: Georges Stobbaerts nasceu em Marrocos a 30 de Novembro de 1940 e faleceu em Portugal a 06 de Janeiro de 2014.
+    type: secondary
+    supports: true
+    weight: medium
 death:
-  date: "2014-01-06"
+  date: '2014-01-06'
   geo:
-    name: null
-    country_code: null
+    name: Portugal
+    country_code: PRT
+    wikidata: Q45
+  sources:
+  - uri: https://www.facebook.com/FPAikido/posts/1573062379445808/
+    cite: Federação Portuguesa de Aikido (Facebook)
+    quotation: Georges Stobbaerts nasceu em Marrocos a 30 de Novembro de 1940 e faleceu em Portugal a 06 de Janeiro de 2014.
+    type: secondary
+    supports: true
+    weight: medium
 photo:
   url: https://archive.org/download/stobbaerts/stobbaerts.jpg
   source:
     uri: https://www.georgesstobbaerts.com/pt/
     cite: Life and work of Georges Stobbaerts
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: 1
+    assessed_by: JDP
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - style_id: JDP-S-4
-    rank: 8 dan
-    date: null
-    sources:
-      - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
-        cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
-        quotation: Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://www.georgesstobbaerts.com/georges/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://tenchi.pt/georges-stobbaerts/
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-4
+  rank: 8 dan
+  date: null
+  sources:
   - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
     cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
-    type: unknown
+    quotation: Georges Stobbaerts, tenho 62 anos e actualmente sou 8º dan de Aikido conferido pela Dai Nippon Butoku Kai, cuja sede é em Kyoto no Japão, no mais antigo Dojo o Butokuden que depende directamente da família Imperial.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+  granted_by: null
+  org_id: JDP-O-2
+sources:
+- uri: https://www.georgesstobbaerts.com/georges/
+  type: secondary
+  supports: true
+  weight: low
+- uri: https://tenchi.pt/georges-stobbaerts/
+  type: secondary
+  supports: true
+  weight: low
+- uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
+  cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
+  type: secondary
+  supports: true
+  weight: medium

@@ -5,54 +5,79 @@ name:
   ja-Latn: Iizuka Kunisaburō
   ja: 飯塚 国三郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1875-02-13"
+  date: '1875-02-13'
   geo:
-    name: Mikamo
+    name: Mikamo, Tochigi Prefecture
     country_code: JPN
+    wikidata: Q11551107
 death:
-  date: "1958-07-25"
+  date: '1958-07-25'
   geo:
-    name: null
-    country_code: null
+    name: Tokyo
+    country_code: JPN
+    wikidata: Q1490
 teachers:
-  - id: JDP-9
-    style_id: JDP-S-1
+- id: JDP-9
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as a student at the Kodokan from 1891, with specific enrollment date recorded in historical records
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1891
       end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    place_id: JDP-P-1
+    sources:
+    - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
+      cite: 'Judo: Kunisaburo Iizuka (Journal of Combative Sport, July 2002)'
+      quotation: one day he saw a man carrying a judo uniform and followed him to the Kodokan. There he applied for entry, was found acceptable, and signed its enrollment book on November 23, 1891 (...) Sakujiro Yokoyama was head instructor.
+      type: secondary
+      weight: medium
+      supports: true
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: 1946
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
-  - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: 1946
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded 10 dan by Kodokan in 1946, well-documented in multiple historical sources, including academic articles
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
-    type: unknown
+    cite: 飯塚国三郎 - Wikipedia
+    quotation: 1946年（昭和21年）、最高位の十段に列位した。
+    type: secondary
+    weight: medium
     supports: true
-    weight: unknown
+  - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
+    cite: 'Judo: Kunisaburo Iizuka (Journal of Combative Sport, July 2002)'
+    quotation: Iizuka received promotion to 9-dan on December 23, 1937. His 10-dan ranking came on May 4, 1946
+    type: secondary
+    weight: medium
+    supports: true
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
+  cite: 'Judo: Kunisaburo Iizuka (Journal of Combative Sport, July 2002)'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E9%A3%AF%E5%A1%9A%E5%9B%BD%E4%B8%89%E9%83%8E
+  cite: 飯塚国三郎 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q6444749
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Kunisaburo_Iizuka
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q6444749
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Kunisaburo_Iizuka
+  cite: DBpedia
+  type: dbpedia

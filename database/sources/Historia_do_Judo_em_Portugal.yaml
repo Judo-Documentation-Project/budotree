@@ -1,0 +1,22 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-2
+title: História do Judo em Portugal
+native_title: null
+authors:
+  - Costa Branco
+  - et al.
+editors: []
+year: null
+publisher: Judolândia
+identifiers:
+  isbn: null
+  doi: null
+url: https://judolandia.tripod.com/histport.htm
+language: pt
+description:
+  en: Historical text about the introduction and development of judo in Portugal
+tags:
+  - secondary-source
+  - history
+classification: website

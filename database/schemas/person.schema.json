@@ -72,6 +72,12 @@
         "$ref": "#/definitions/Rank"
       }
     },
+    "honors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Honor"
+      }
+    },
     "sources": {
       "type": "array",
       "items": {
@@ -100,6 +106,37 @@
     "sources"
   ],
   "definitions": {
+    "Interaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "place_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-P-[0-9]+$"
+            }
+          ],
+          "description": "Place/venue ID for this interaction"
+        },
+        "period": {
+          "$ref": "budotree.schema.json#/definitions/Period"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        }
+      },
+      "required": [
+        "period"
+      ],
+      "title": "Interaction"
+    },
     "Teacher": {
       "type": "object",
       "additionalProperties": false,
@@ -128,21 +165,6 @@
           ],
           "description": "Style ID"
         },
-        "place_id": {
-          "anyOf": [
-            {
-              "type": "null"
-            },
-            {
-              "type": "string",
-              "pattern": "^JDP-P-[0-9]+$"
-            }
-          ],
-          "description": "Place/venue ID"
-        },
-        "period": {
-          "$ref": "budotree.schema.json#/definitions/Period"
-        },
         "role": {
           "type": "string",
           "enum": [
@@ -157,15 +179,17 @@
         "confidence": {
           "$ref": "budotree.schema.json#/definitions/Confidence"
         },
-        "sources": {
+        "interactions": {
           "type": "array",
           "items": {
-            "$ref": "budotree.schema.json#/definitions/SourceRef"
-          }
+            "$ref": "#/definitions/Interaction"
+          },
+          "minItems": 1,
+          "description": "One or more place/period/source records for this teacher relationship"
         }
       },
       "required": [
-        "period",
+        "interactions",
         "confidence"
       ],
       "title": "Teacher"
@@ -243,6 +267,68 @@
         "confidence"
       ],
       "title": "Rank"
+    },
+    "Honor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Honor/title designation (e.g., Hanshi, Kyoshi)"
+        },
+        "honor_type": {
+          "type": "string",
+          "enum": [
+            "title",
+            "certificate",
+            "noble_rank",
+            "license",
+            "other"
+          ],
+          "description": "Category of honor"
+        },
+        "org_id": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-O-[0-9]+$"
+            }
+          ],
+          "description": "Granting organization ID"
+        },
+        "granted_by": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^JDP-[0-9]+$"
+            }
+          ]
+        },
+        "date": {
+          "$ref": "budotree.schema.json#/definitions/BudoDate"
+        },
+        "confidence": {
+          "$ref": "budotree.schema.json#/definitions/Confidence"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "budotree.schema.json#/definitions/SourceRef"
+          }
+        }
+      },
+      "required": [
+        "title",
+        "date",
+        "confidence"
+      ],
+      "title": "Honor"
     }
   }
 }

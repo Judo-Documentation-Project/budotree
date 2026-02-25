@@ -5,62 +5,91 @@ name:
   ja-Latn: Kobayashi Kiyoshi
   ja: 小林清
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1925-04-09"
+  date: '1925-04-09'
   geo:
     name: Gunma
     country_code: JPN
+    wikidata: Q129499
 death:
-  date: "2013-04-09"
+  date: '2013-04-09'
   geo:
     name: null
     country_code: JPN
+    wikidata: Q17
 description:
   en: Kobayashi Kiyoshi (小林清) was the «father» of Portuguese Judo and one of the founders of the Portuguese Judo Federation, and the greatest promoter of Judo in Portugal. Sensei Kobayashi was one of the highest grades in the world, 9th dan given Kodokan by in 1999.
   pt: O Mestre Kiyoshi Kobayashi, uma das mais altas graduações da Modalidade – 9º Dan, foi um dos grandes responsáveis pelo crescimento e desenvolvimento da modalidade em Portugal, sendo conhecido inclusive como "o pai do judo português". Foi Selecionador e Treinador da Equipa Nacional e acompanhou-as em Campeonatos da Europa e do Mundo, assim como nas edições dos Jogos Olímpicos de Montreal (1976), Los Angeles(1984) e Seul (1988).
 teachers:
-  - id: JDP-11
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-11
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Documented as a direct student of Mifune Kyuzo in forum discussions and academic papers, with mentions of private footage showing him as uke for Mifune in demonstrations
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1903
       end: 1965
-    role: student
-    place_id: JDP-P-1
+    sources:
+    - uri: https://judo.forumotion.com/t1217-passing-of-kobayashi-kiyoshi-sensei-kodokan-9th-dan
+      cite: Passing of Kobayashi Kiyoshi sensei, Kodokan 9th dan (Judo Forum discussion)
+      quotation: Kobayashi-sensei was a student of Mifune, and there exists private footage showing him as an uke for Mifune in itsutsu-no-kata and public jūdō demonstrations.
+      type: tertiary
+      supports: true
+      weight: medium
+    - uri: https://www.researchgate.net/publication/260249522_Kodokan_judo's_elusive_tenth_kata_The_Go-no-kata_-_Forms_of_Proper_Use_of_Force_Part_1
+      cite: 'Kodokan judo''s elusive tenth kata: The Go-no-kata - Forms of Proper Use of Force, Part 1 (ResearchGate)'
+      quotation: Other direct students of Mifune who are still alive, such as notably Kyoshi Kobayashi, 9th dan (Portugal)
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: 2013
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
-  - uri: http://kodokanjudoinstitute.org/news/2012/04/epost-15/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: http://kodokanjudoinstitute.org/magazine/201401/
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 9 dan
+  date: 1999
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded 9th dan by Kodokan in 1999, as documented in European Judo Union announcement and Portuguese newspaper obituary
+  sources:
   - uri: https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/
-    type: unknown
+    cite: Judo father Sensei Kiyoshi Kobayashi passed away (European Judo Union)
+    quotation: Sensi Kobayashi was one of the highest grades in the world, 9th dan given Kodokan by in 1999.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
   - uri: http://archive.today/YkEjw
-    type: unknown
+    cite: Morreu Kiyoshi Kobayashi, o 'pai' do judo português (Diário de Notícias, archived)
+    quotation: Nascido em Gumm-Ken, Kobayashi tinha uma das mais altas graduações de judo, o nono dan - em dez possíveis no cinto negro -, que lhe foi atribuído pela Federação Internacional em 1999.
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: http://www.judo.crcharnequense.net/index.php/judo-menu/historia-do-judo-menu-item/judo-portugal-menu-item
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: http://kodokanjudoinstitute.org/news/2012/04/epost-15/
+  cite: Kodokan e-Post No.15 (Kodokan Judo Institute)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: http://kodokanjudoinstitute.org/magazine/201401/
+  cite: Kodokan Magazine January 2014 (Kodokan Judo Institute)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.eju.net/judo-father-sensei-kiyoshi-kobayashi-passed-away/
+  cite: Judo father Sensei Kiyoshi Kobayashi passed away (European Judo Union)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: http://archive.today/YkEjw
+  cite: Morreu Kiyoshi Kobayashi, o 'pai' do judo português (Diário de Notícias, archived)
+  type: secondary
+  supports: true
+  weight: medium

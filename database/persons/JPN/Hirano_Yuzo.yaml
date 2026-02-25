@@ -4,7 +4,8 @@ id: JDP-77
 name:
   ja-Latn: Hirano Yuzo
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: null
   geo:
@@ -19,40 +20,47 @@ photo:
   url: https://archive.org/download/hirano_202402/hirano.png
   source:
     uri: https://orca.cardiff.ac.uk/id/eprint/136518/
+    cite: The Golden Square Dojo and its place in British Jujutsu history - ORCA
+    type: primary
+    weight: high
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No specific rank information available in sources
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://orca.cardiff.ac.uk/id/eprint/136518/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judolandia.tripod.com/histport.htm
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
+  cite: Os primórdios do Jujutsu em Portugal (artigo de Vítor Rosa, 147) | A Bola
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://orca.cardiff.ac.uk/id/eprint/136518/
+  cite: The Golden Square Dojo and its place in British Jujutsu history - ORCA
+  type: primary
+  supports: true
+  weight: high
+- uri: https://judolandia.tripod.com/histport.htm
+  cite: História do Judo em Portugal - Judolândia
+  type: tertiary
+  supports: true
+  weight: medium

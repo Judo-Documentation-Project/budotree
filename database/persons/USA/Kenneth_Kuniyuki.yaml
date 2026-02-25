@@ -4,14 +4,16 @@ id: JDP-122
 name:
   en: Kenneth Kuniyuki
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1910-10-06"
+  date: '1910-10-06'
   geo:
     name: Seattle
     country_code: USA
+    wikidata: Q5083
 death:
-  date: "2002-11-28"
+  date: '2002-11-28'
   geo:
     name: null
     country_code: USA
@@ -20,61 +22,72 @@ photo:
   source:
     uri: https://www.usjf.com/kenneth-kuniyuki/
     cite: Kenneth Kuniyuki - USJF
+    type: tertiary
+    weight: medium
 teachers:
-  - id: JDP-31
-    style_id: JDP-S-1
+- id: JDP-31
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented in USJF biography with specific dates 1931-1932 studying under Kunisaburo Iizuka in Tokyo
+  role: student
+  interactions:
+  - place_id: JDP-P-5
     period:
-      start: "1931"
-      end: "1932"
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+      start: '1931'
+      end: '1932'
     sources:
-      - uri: https://www.usjf.com/kenneth-kuniyuki/
-        cite: Kenneth Kuniyuki - USJF
-        location: null
-        quotation: From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in Tokyo, Japan
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://shoyuzine.tripod.com/id14.html
-        cite: Asian Americans who've made a difference - Shoyu Zine
-        quotation: In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at the time
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.usjf.com/kenneth-kuniyuki/
+      cite: Kenneth Kuniyuki - USJF
+      location: null
+      quotation: From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in Tokyo, Japan
+      type: tertiary
+      supports: true
+      weight: medium
+    - uri: https://shoyuzine.tripod.com/id14.html
+      cite: Asian Americans who've made a difference - Shoyu Zine
+      quotation: In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at the time
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: null
-    sources:
-      - uri: https://www.usjf.com/kenneth-kuniyuki/
-        cite: Kenneth Kuniyuki - USJF
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://shoyuzine.tripod.com/id14.html
-        cite: Asian Americans who've made a difference - Shoyu Zine
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: null
-sources:
+- style_id: JDP-S-1
+  rank: 9 dan
+  date: '1990'
+  sources:
   - uri: https://www.usjf.com/kenneth-kuniyuki/
     cite: Kenneth Kuniyuki - USJF
-    type: unknown
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
   - uri: https://shoyuzine.tripod.com/id14.html
     cite: Asian Americans who've made a difference - Shoyu Zine
-    type: unknown
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Mentioned as Kudan (9th dan) in USJF biography, one of first Kudans promoted in USJF
+  org_id: null
+sources:
+- uri: https://www.usjf.com/kenneth-kuniyuki/
+  cite: Kenneth Kuniyuki - USJF
+  quotation: Kenneth Kanane Kuniyuki, Kudan, was born in Seattle, Washington on the 6th day of October, 1910. He started Judo training at the age of 16 at the Tontokukan Doja under Horoshi Kurosaka, 3-dan. From 1931 to 1932 Kenneth studied under Kunisaburo Iizuka, 8-dan, and original student of Kano Sensei in Tokyo, Japan.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://shoyuzine.tripod.com/id14.html
+  cite: Asian Americans who've made a difference - Shoyu Zine
+  quotation: In 1932 he went to Japan to train at Keio University under the instruction of Kunisaburo Iizuka, 8 dan at the time.
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- type: dbpedia
+  uri: http://dbpedia.org/resource/Kenneth_Kuniyuki
+description:
+  en: American judoka, founder of Southern Pacific Judo Yudanshakai, and USJF Hall of Fame inductee
+notes: Kenneth Kuniyuki was one of the first Kudans (9th dan) promoted in the United States Judo Federation. He founded the Southern Pacific Judo Yudanshakai in 1990 and served on the Board of Governors and as chairman of the Board of Examiners Promotion Committee. He was the Head Sensei of Seinan Judo Dojo for over 45 years and served as U.S. National Judo Coach for multiple international competitions including the 1956 World Judo Championships in Tokyo.

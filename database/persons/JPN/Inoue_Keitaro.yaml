@@ -2,63 +2,89 @@
 type: Person
 id: JDP-10
 name:
-  ja-Latn: Inoe Keitaro
+  ja-Latn: Inoue Keitaro
   ja: 井上敬太郎
 aka:
   ja-Latn: Okusawa Keitaro
   ja: 奥澤敬太郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1847
   geo:
-    name: Tokyo
+    name: Ueno Province, Yamada District, Anahara Village
     country_code: JPN
+    wikidata: Q17
 death:
-  date: "1912-09-23"
+  date: '1909-07-22'
   geo:
-    name: null
+    name: Japan
     country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-3
-    style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-3
+  style_id: JDP-S-3
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as a teacher of Jigoro Kano in Tenjin Shin'yō-ryū, with specific mention in historical sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
-  - confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+    sources:
+    - uri: https://judo.forumotion.com/t2885-kano-genyosha-connection
+      cite: Kano - Genyosha connection (E-Judo)
+      quotation: I read somewhere that, although this is not generally known, Inoue Keitaro has been the third teacher of Jigoro Kano for Tenjin Shinyo-ryu.
+      type: tertiary
+      weight: medium
+      supports: true
+    - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+      cite: 奥澤敬太郎 - Wikipedia
+      quotation: 学生への柔術、門弟の嘉納治五郎が学習院教頭となったことなどから、後に学習院初代柔道師範（明治16年4月～19年3月）となる
+      type: secondary
+      weight: medium
+      supports: true
+- confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Placeholder for additional teacher relationships, if any are discovered
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    id: null
-    place_id: null
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Documented as a jujutsu master of Tenjin Shin'yō-ryū and Toda-ryū (Kiraku-ryū), with specific mention of being the 16th successor of Toda-ryū
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
-    type: unknown
+    cite: 奥澤敬太郎 - Wikipedia
+    quotation: 奥澤 敬太郎（おくざわ けいたろう、1847年（弘化4年）3月 - 1909年（明治42年）7月22日）は、日本の柔術家。戸田流（気楽流）柔術師範や天神真楊流師範。戸田流（気楽流）免許皆伝16世、柔道整復師として知られた。
+    type: secondary
+    weight: medium
     supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
-    type: unknown
-    supports: true
-    weight: unknown
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E5%A5%A5%E6%BE%A4%E6%95%AC%E5%A4%AA%E9%83%8E
+  cite: 奥澤敬太郎 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E6%A8%AA%E5%B1%B1%E4%BD%9C%E6%AC%A1%E9%83%8E
+  cite: 横山作次郎 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium

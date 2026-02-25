@@ -1,0 +1,16 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-6
+name:
+  en: Waseda University
+  ja-Latn: Waseda Daigaku
+  ja: 早稲田大学
+classification: university
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+links:
+  - uri: https://www.wikidata.org/wiki/Q189828
+    type: wikidata
+sources: []

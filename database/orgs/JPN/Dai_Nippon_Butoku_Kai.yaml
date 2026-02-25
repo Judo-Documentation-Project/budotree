@@ -1,0 +1,39 @@
+"@context": https://martial.is/context.jsonld
+type: Organization
+id: JDP-O-2
+name:
+  ja-Latn: Dai Nippon Butoku Kai
+  ja: 大日本武徳会
+  en: Greater Japan Martial Virtue Society
+geo:
+  name: Kyoto
+  country_code: JPN
+  wikidata: Q1158447
+founded:
+  date: 1895
+  founder_id: null
+  sources:
+    - uri: https://en.wikipedia.org/wiki/Dai_Nippon_Butoku_Kai
+      cite: "Wikipedia: Dai Nippon Butoku Kai"
+      type: secondary
+      supports: true
+      weight: medium
+dissolved: null
+parent_org_id: null
+website: null
+description:
+  en: Japanese martial arts organization established in 1895 to promote and preserve traditional Japanese martial arts.
+sources:
+  - uri: https://en.wikipedia.org/wiki/Dai_Nippon_Butoku_Kai
+    cite: "Wikipedia: Dai Nippon Butoku Kai"
+    type: secondary
+    supports: true
+    weight: medium
+links:
+  - uri: https://www.wikidata.org/wiki/Q1158447
+    type: wikidata
+tags:
+  - martial-arts
+  - organization
+  - traditional
+classification: organization

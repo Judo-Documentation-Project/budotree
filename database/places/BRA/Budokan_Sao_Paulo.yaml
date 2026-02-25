@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-32
+name:
+  pt: Budokan São Paulo
+classification: dojo
+geo:
+  name: São Paulo
+  country_code: BRA
+  wikidata: Q174
+sources: []

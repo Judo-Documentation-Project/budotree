@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-39
+name:
+  en: Leningrad Palace of the Pioneers
+  ru: Ленинградский дворец пионеров
+classification: other
+geo:
+  name: Saint Petersburg
+  country_code: RUS
+  wikidata: Q656
+sources: []

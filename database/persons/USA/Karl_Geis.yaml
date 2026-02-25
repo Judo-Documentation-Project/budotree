@@ -4,102 +4,146 @@ id: JDP-52
 name:
   en: Karl Geis
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
   date: 1933
   geo:
     name: Houston, Texas
     country_code: USA
+    wikidata: Q1659
 death:
-  date: "2014-04-07"
+  date: '2014-04-07'
   geo:
     name: null
     country_code: null
 teachers:
-  - id: JDP-12
-    style_id: JDP-S-1
+- id: JDP-12
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Based on resume listing Kobayashi Sensei as teacher with 1952 start date
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1952
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://www.karlgeis.com/his-resume
-        cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
-        quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-53
-    style_id: JDP-S-4
+    - uri: https://www.karlgeis.com/his-resume
+      cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+      quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan'
+      type: unknown
+      supports: true
+      weight: unknown
+- id: JDP-53
+  style_id: JDP-S-4
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Based on resume listing Miyake, Tsunako Sensei as teacher
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://www.karlgeis.com/his-resume
-        cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
-        quotation: "During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.karlgeis.com/his-resume
+      cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
+      quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan'
+      type: unknown
+      supports: true
+      weight: unknown
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: 2014
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-  - style_id: JDP-S-4
-    rank: 10 dan
-    date: 1997
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-  - style_id: JDP-S-4
-    rank: 6 dan
-    date: 1980
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://en.wikipedia.org/wiki/Karl_Geis
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: 2014
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Based on Wikipedia and resume listing 9th dan in judo
+  sources:
   - uri: https://www.karlgeis.com/his-resume
-    type: unknown
+    cite: Karl Geis Martial Arts Resume
+    quotation: 9th Dan Judo
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
-    type: unknown
+    weight: medium
+  - uri: https://en.wikipedia.org/wiki/Karl_Geis
+    cite: Wikipedia - Karl Geis
+    quotation: 9th dan in judo
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
-    type: unknown
+    weight: medium
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-4
+  rank: 10 dan
+  date: 1997
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Based on resume listing 6th dan in aikido
+  sources:
+  - uri: https://www.karlgeis.com/his-resume
+    cite: Karl Geis Martial Arts Resume
+    quotation: 6th Dan Aikido
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-4
+  rank: 6 dan
+  date: 1980
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Based on resume listing 5th dan in jujutsu
+  sources:
+  - uri: https://www.karlgeis.com/his-resume
+    cite: Karl Geis Martial Arts Resume
+    quotation: 5th Dan Jujutsu
+    type: tertiary
+    supports: true
+    weight: medium
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Karl_Geis
+  cite: Wikipedia - Karl Geis
+  quotation: Karl Geis (1933 – April 7, 2014) was an American martial artist and founder of the Fugakukai International Association.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://www.karlgeis.com/his-resume
+  cite: Karl Geis Martial Arts Resume
+  quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...]'
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://media.usja.net/2014/04/Karl-Geis-Bio-4-14.pdf
+  cite: USJA - Karl Geis Biography PDF
+  quotation: Karl Geis was a pioneer in American judo and aikido, founding the Fugakukai International Association.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://maytt.home.blog/2020/09/09/interview-with-david-witt-judo-aikido-and-karl-geis/
+  cite: Interview with David Witt - Judo, Aikido and Karl Geis
+  quotation: David Witt discusses his training with Karl Geis and the development of Fugakukai.
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- type: wikidata
+  uri: https://www.wikidata.org/wiki/Q19667503
+- type: dbpedia
+  uri: http://dbpedia.org/resource/Karl_Geis
+description:
+  en: American martial artist and founder of the Fugakukai International Association
+notes: Karl Geis was a pioneer in American judo and aikido, studying extensively in Japan and founding the Fugakukai International Association which combined elements of judo, aikido, and jujutsu.

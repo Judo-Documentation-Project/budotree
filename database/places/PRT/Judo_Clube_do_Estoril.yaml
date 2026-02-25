@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-24
+name:
+  pt: Judo Clube do Estoril
+classification: club
+geo:
+  name: Estoril
+  country_code: PRT
+  wikidata: Q193703
+sources: []

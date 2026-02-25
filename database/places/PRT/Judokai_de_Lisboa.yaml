@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-21
+name:
+  pt: Judokai de Lisboa
+classification: club
+geo:
+  name: Lisbon
+  country_code: PRT
+  wikidata: Q597
+sources: []

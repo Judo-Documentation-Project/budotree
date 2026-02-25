@@ -1,0 +1,16 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-17
+name:
+  en: Meiji Shrine
+  ja-Latn: Meiji Jingū
+  ja: 明治神宮
+classification: temple
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+links:
+  - uri: https://www.wikidata.org/wiki/Q1538012
+    type: wikidata
+sources: []

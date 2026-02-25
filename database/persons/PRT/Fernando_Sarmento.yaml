@@ -6,12 +6,14 @@ name:
 aka:
   pt: Fernando Duarte Sarmento
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1950"
+  date: '1950'
   geo:
     name: Maia
     country_code: PRT
+    wikidata: Q990403
 death:
   date: null
   geo:
@@ -22,71 +24,79 @@ photo:
   source:
     uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
     cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+    type: secondary
+    weight: medium
+description:
+  en: Portuguese martial artist who started judo in 1968 under Nobuyoshi Yamamoto, practiced karate from 1971-2006 under Tetsuji Murakami and Antonio Cacho, and began aikido in 2006 under Carlos Portas. Founder of Escola Murakami da Maia in 1974.
+  pt: Artista marcial português que iniciou judo em 1968 com Nobuyoshi Yamamoto, praticou karate de 1971-2006 com Tetsuji Murakami e António Cacho, e começou aikido em 2006 com Carlos Portas. Fundador da Escola Murakami da Maia em 1974.
 teachers:
-  - id: JDP-74
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- id: JDP-74
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Nobuyoshi Yamamoto from 1968-1969 at Clube de Judo do Porto, mentioned in Escola Murakami biography with specific quotation
+  role: student
+  interactions:
+  - place_id: JDP-P-23
     period:
       start: 1968
       end: 1969
     sources:
-      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-        quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-72
-    style_id: JDP-S-4
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+      cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+      quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-72
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Carlos Portas from 2006-present at Mussubi Escola de Aikido, mentioned in Escola Murakami biography with specific quotation about starting aikido practice and receiving 1st dan (2007) and 2nd dan (2009)
+  role: student
+  interactions:
+  - place_id: JDP-P-29
     period:
       start: 2006
       end: null
     sources:
-      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-        quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+      cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+      quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-4
-    rank: 2 dan
-    date: 2009
-    sources:
-      - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
-        cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
-        quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-4
+  rank: 2 dan
+  date: 2009
+  sources:
+  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+    cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
+    quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 2nd dan rank awarded by Carlos Portas on August 8, 2009, documented in Escola Murakami biography with specific quotation
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://aikidomdc.wixsite.com/brpd/untitled-c1nrv
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20081021192343/http://www.cao.pt/surya/pe_12_1.htm
+  type: primary
+  supports: true
+  weight: high
+notes: "Born in Lugar de Catassol (current Praceta/Rotunda do Lavrador) in Maia. Started judo in 1968 at Clube de Judo do Porto under Nobuyoshi Yamamoto (5th dan). \nBegan karate in 1971 at Bushidokan Porto under António Cacho (5th dan). First seminar with Tetsuji Murakami in January 1972 (7th kyu yellow belt). \nReceived karate ranks from Murakami: 2nd kyu (1973), 1st kyu (1976), 1st dan (1977), 2nd dan (1980), 3rd dan (1985). All dan ranks recognized by Nihon Karate-Do Shotokai (NKS). \n4th dan awarded by Associação Shotokai de Portugal in 2009 (recognized by NKS). 5th dan awarded at Hombu Dojo Shotokan of NKS in 2012. \nStarted teaching Murakami Method of Karate-Do Shotokai in August 1972. Instructor at UNICER in Leça do Balio (1972-1974). \nFounded Escola Murakami da Maia on September 9, 1974, authorized by Tetsuji Murakami. \nStarted aikido practice on March 17, 2006 at Mussubi Escola de Aikido / Takemusu Aiki Portugal under Carlos Portas. \nCredited karate instructor by Federação Nacional de Karate - Portugal and Associação Shotokai de Portugal. \nMember 331 of União Portuguesa de Budo (1971). Founding member of Associação Murakami-Kai Shotokai de Portugal (today Associação Shotokai de Portugal) in 1977.\n"

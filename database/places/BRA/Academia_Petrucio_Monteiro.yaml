@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-36
+name:
+  pt: Academia Petrucio Monteiro
+classification: academy
+geo:
+  name: Rio de Janeiro
+  country_code: BRA
+  wikidata: Q8678
+sources: []

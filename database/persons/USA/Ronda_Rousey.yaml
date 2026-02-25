@@ -6,12 +6,14 @@ name:
 aka:
   en: Ronda Jean Rousey
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1987-02-01"
+  date: '1987-02-01'
   geo:
     name: Riverside, California
     country_code: USA
+    wikidata: Q49243
 death:
   date: null
   geo:
@@ -22,60 +24,74 @@ photo:
   source:
     uri: https://en.wikipedia.org/wiki/Ronda_Rousey#/media/File:Rousey_HOF_2018_(cropped).jpg
     cite: WWE Hall of Fame (2018) - Wikipedia
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-132
-    style_id: JDP-S-1
+- id: JDP-132
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented mother-daughter relationship, with AnnMaria De Mars coaching Ronda from age 11 as mentioned in Black Belt Magazine
+  role: student
+  interactions:
+  - place_id: null
     period:
-      start: "1998"
+      start: '1998'
       end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: https://www.blackbeltmag.com/fists-of-love-the-mothers-who-raised-martial-arts-legends
-        cite: "Fists of Love: The Mothers Who Raised Martial Arts Legends - Black Belt Magazine"
-        quotation: She began coaching Ronda at age 11, instilling a mindset that would later carry her daughter to Olympic bronze in judo and UFC glory
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://www.blackbeltmag.com/fists-of-love-the-mothers-who-raised-martial-arts-legends
+      cite: 'Fists of Love: The Mothers Who Raised Martial Arts Legends - Black Belt Magazine'
+      quotation: She began coaching Ronda at age 11, instilling a mindset that would later carry her daughter to Olympic bronze in judo and UFC glory
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 6 dan
-    date: "2018-03-03"
-    sources:
-      - uri: http://www.freestylejudo.org/jbba/
-        cite: JBBA Rank Promotions - Freestyle Judo Association
-        quotation: "Rokudan (6th Dan): (...)Ronda Rousey, 3/3/2018, Gompers Judo"
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: null
+- style_id: JDP-S-1
+  rank: 6 dan
+  date: '2018-03-03'
+  sources:
+  - uri: http://www.freestylejudo.org/jbba/
+    cite: JBBA Rank Promotions - Freestyle Judo Association
+    quotation: 'Rokudan (6th Dan): (...) Ronda Rousey, 3/3/2018, Gompers Judo'
+    type: tertiary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 6th dan promotion documented by Freestyle Judo Association on March 3, 2018, also mentioned in Wikipedia as 6th dan black belt
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Ronda_Rousey
-    cite: Ronda Rousey - Wikipedia
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.judoinside.com/judoka/19130/Ronda_Rousey/judo-career
-    cite: Ronda Rousey Judo Career - JudoInside
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.ijf.org/judoka/2589
-    cite: Ronda Rousey - International Judo Federation
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.usjf.com/ronda-rousey/
-    cite: Ronda Rousey - United States Judo Federation
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Ronda_Rousey
+  cite: Ronda Rousey - Wikipedia
+  quotation: Ronda Jean Rousey is an American mixed martial artist and former professional wrestler, actress, and judoka. She was the first American woman to win an Olympic medal in judo by winning bronze at the 2008 Summer Olympics.
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.judoinside.com/judoka/19130/Ronda_Rousey/judo-career
+  cite: Ronda Rousey Judo Career - JudoInside
+  quotation: Ronda Rousey competition record and career statistics in judo.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://www.ijf.org/judoka/2589
+  cite: Ronda Rousey - International Judo Federation
+  quotation: Official IJF profile for Ronda Rousey with competition results and rankings.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://www.usjf.com/ronda-rousey/
+  cite: Ronda Rousey - United States Judo Federation
+  quotation: USJF profile of Ronda Rousey, American judoka and mixed martial artist.
+  type: tertiary
+  supports: true
+  weight: medium
+links:
+- type: wikidata
+  uri: https://www.wikidata.org/wiki/Q242201
+- type: dbpedia
+  uri: http://dbpedia.org/resource/Ronda_Rousey
+description:
+  en: American judoka, mixed martial artist, and professional wrestler, first American woman to win an Olympic medal in judo

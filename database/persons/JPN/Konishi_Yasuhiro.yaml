@@ -4,128 +4,233 @@ id: JDP-37
 name:
   ja-Latn: Konishi Yasuhiro
   ja: 小西康裕
+description:
+  en: Japanese martial artist who studied judo, kendo, karate, and aikido. Founder of Shindō jinen-ryū karate and president of the Japan Karate-do Ryobu-Kai.
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1893
   geo:
     name: Takamatsu, Kagawa
     country_code: JPN
+    wikidata: Q200707
 death:
   date: 1983
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 teachers:
-  - id: JDP-38
-    style_id: JDP-S-1
+- id: JDP-38
+  style_id: JDP-S-1
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned judo from Okano Yoshitaro at the Tokyo Higher Normal School
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1906
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-39
-    style_id: JDP-S-8
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: 東京高等師範学校（現・筑波大学）に進学し、岡野栄太郎から柔道を学ぶ。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
+- id: JDP-39
+  style_id: JDP-S-8
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned kendo from Ueda Heitaro at the Tokyo Higher Normal School
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1906
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-42
-    style_id: JDP-S-9
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: 東京高等師範学校（現・筑波大学）に進学し、...上田平太郎から剣道を学ぶ。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
+- id: JDP-42
+  style_id: JDP-S-9
+  confidence:
+    level: 0
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned Muso-ryu jujutsu from Matsui Sanzo, but this relationship is less documented than others
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1906
       end: null
-    confidence:
-      level: 0
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 0"
-    role: student
-    place_id: null
-  - id: JDP-40
-    style_id: JDP-S-8
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: また、松井三造からは夢想流柔術を学んだ。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
+- id: JDP-40
+  style_id: JDP-S-8
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned kendo from Shingai Tadaatsu, studying Kubota-ha Tamiya-ryu
+  role: student
+  interactions:
+  - place_id: JDP-P-5
     period:
       start: 1913
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-41
-    style_id: JDP-S-5
-    period:
-      start: 1924
-      end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://ryukyu-bugei.com/?p=6586
-        quotation: When he [Konishi] met Funakoshi Gichin in June 1925, he was finally able to learn Karate. However, since its contents was only Kata, together with Ōtsuka Hironori 大塚博紀 (1892–1982, founder of Wadō-ryū Karate-dō and Jūjutsu Kenpō) who was also a disciple of Funakoshi, Konishi began to devise Yakusoku Kumite 約束組手 and the like. Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - style_id: JDP-S-5
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: 1913年（大正2年）には新海忠厚から窪田派民弥流剣術を学んだ。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
+- id: JDP-41
+  style_id: JDP-S-5
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned karate from Funakoshi Gichin, meeting him in June 1925
+  role: student
+  interactions:
+  - place_id: JDP-P-5
     period:
       start: 1924
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    id: null
-    place_id: null
-  - id: JDP-27
-    style_id: JDP-S-4
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: 1924年（大正13年）に船越義珍から空手を学んだ。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
+    - uri: https://ryukyu-bugei.com/?p=6586
+      quotation: When he [Konishi] met Funakoshi Gichin in June 1925, he was finally able to learn Karate. However, since its contents was only Kata, together with Ōtsuka Hironori 大塚博紀 (1892–1982, founder of Wadō-ryū Karate-dō and Jūjutsu Kenpō) who was also a disciple of Funakoshi, Konishi began to devise Yakusoku Kumite 約束組手 and the like. Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa.
+      type: secondary
+      supports: true
+      weight: medium
+      cite: Ryukyu Bugei website
+- style_id: JDP-S-5
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Ryukyu Bugei source states Konishi studied karate with Motobu Chōki and Mabuni Kenwa after learning from Funakoshi
+  role: student
+  id: null
+  interactions:
+  - place_id: JDP-P-5
     period:
       start: 1924
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
+    sources:
+    - uri: https://ryukyu-bugei.com/?p=6586
+      quotation: Later Konishi studied Karate with Motobu Chōki and Mabuni Kenwa.
+      type: secondary
+      supports: true
+      weight: medium
+      cite: Ryukyu Bugei website
+- id: JDP-27
+  style_id: JDP-S-4
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Japanese Wikipedia states Konishi learned aikido from Ueshiba Morihei, studying at the Kobukan dojo
+  role: student
+  interactions:
+  - place_id: null
+    period:
+      start: 1924
+      end: null
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+      quotation: 1924年（大正13年）に植芝盛平から合気道を学び、皇武館道場に通った。
+      type: secondary
+      supports: true
+      weight: high
+      cite: Japanese Wikipedia article on Konishi Yasuhiro
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ryukyu-bugei.com/?p=6586
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://blackbeltmag.com/konishi-yasuhiro
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 5th dan
+  date: 1922
+  rank_type: dan
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: JKR UK website states Konishi received 5th dan in judo in 1922
+  sources:
   - uri: https://www.jkr-uk.org.uk/yasuhiro-konishi
-    type: unknown
+    quotation: In 1922, he was awarded 5th dan in judo.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+    cite: JKR UK website
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-8
+  rank: Seirensho
+  date: 1924
+  rank_type: other
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: JKR UK website states Konishi received Seirensho in kendo in 1924
+  sources:
+  - uri: https://www.jkr-uk.org.uk/yasuhiro-konishi
+    quotation: In 1924, he received the Seirensho in kendo.
+    type: secondary
+    supports: true
+    weight: medium
+    cite: JKR UK website
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-5
+  rank: Kyoshi
+  date: 1937
+  rank_type: other
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: JKR UK website states Konishi received Kyoshi rank in karate in 1937
+  sources:
+  - uri: https://www.jkr-uk.org.uk/yasuhiro-konishi
+    quotation: In 1937, he was awarded the Kyoshi rank in karate.
+    type: secondary
+    supports: true
+    weight: medium
+    cite: JKR UK website
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E5%B0%8F%E8%A5%BF%E5%BA%B7%E8%A3%95_(%E7%A9%BA%E6%89%8B%E5%AE%B6)
+  type: secondary
+  supports: true
+  weight: high
+  cite: Japanese Wikipedia article on Konishi Yasuhiro
+- uri: https://ryukyu-bugei.com/?p=6586
+  type: secondary
+  supports: true
+  weight: medium
+  cite: Ryukyu Bugei website article on Konishi Yasuhiro
+- uri: https://blackbeltmag.com/konishi-yasuhiro
+  type: secondary
+  supports: true
+  weight: low
+  cite: Black Belt Magazine article (returns 404)
+- uri: https://www.jkr-uk.org.uk/yasuhiro-konishi
+  type: secondary
+  supports: true
+  weight: medium
+  cite: JKR UK website biography of Konishi Yasuhiro

@@ -5,52 +5,59 @@ name:
   zh-Latn: Zhang Zhaodong
   zh: 張兆東
 nationality:
-  - code: CHN
+- code: CHN
+  wikidata: Q148
 birth:
-  date: "1865"
+  date: '1865'
   geo:
     name: null
     country_code: CHN
+    wikidata: Q148
 death:
-  date: "1938"
+  date: '1938'
   geo:
     name: Tianjin
     country_code: CHN
+    wikidata: Q956
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Baguazhang#/media/File:250_Bagau016ChangChaoDong.jpg
     cite: Xingyi/Baguazhang master Chang Chan Kuei (1859–1940) [Wikipedia Commons]
+    type: secondary
+    supports: true
+    weight: medium
 teachers:
-  - id: null
-    style_id: null
+- id: null
+  style_id: null
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Teacher information not well documented in available sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    role: student
-    place_id: null
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Rank information not specified in available sources
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
-    cite: Martial arts fight for survival (Taipei Times)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://zh.wikipedia.org/w/index.php?title=%E5%BC%B5%E5%8D%A0%E9%AD%81
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.taipeitimes.com/News/feat/archives/2002/02/17/124274
+  cite: Martial arts fight for survival (Taipei Times)
+  type: secondary
+  supports: true
+  weight: medium

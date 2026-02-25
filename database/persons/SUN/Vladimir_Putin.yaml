@@ -2,16 +2,20 @@
 type: Person
 id: JDP-100
 name:
+  en: Vladimir Putin
   ru-Latn: Vladimir Putin
   ru: Влади́мир Влади́мирович Пу́тин
 nationality:
-  - code: SUN
-  - code: RUS
+- code: SUN
+  wikidata: Q15180
+- code: RUS
+  wikidata: Q159
 birth:
-  date: "1952-10-07"
+  date: '1952-10-07'
   geo:
     name: Leningrad
     country_code: SUN
+    wikidata: Q656
 death:
   date: null
   geo:
@@ -22,86 +26,110 @@ photo:
   source:
     uri: https://judo.ru/news/4783
     cite: С днем рожденья! (ФЕДЕРАЦИЯ ДЗЮДО РОССИИ)
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-99
-    style_id: JDP-S-1
+- id: JDP-99
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Began training in judo under Anatoliy Rakhlin at age 11 in 1964, as documented in Judo.ru article listing him among Rakhlin's first group of students
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1964
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://judo.ru/news/4707
-        quotation: В 1964 году набрал первую группу юношей, среди которых были Аркадий Ротенберг, Валентин Степанов, Николай Кононов, Василий Шестаков, Владимир Путин.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-99
-    style_id: JDP-S-15
+    - uri: https://judo.ru/news/4707
+      cite: Judo.ru article - Rakhlin's first students
+      quotation: В 1964 году набрал первую группу юношей, среди которых были Аркадий Ротенберг, Валентин Степанов, Николай Кононов, Василий Шестаков, Владимир Путин.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-99
+  style_id: JDP-S-15
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Trained in SAMBO under Anatoliy Rakhlin from 1964, with specific mention of Rakhlin's SAMBO section selection process in Vecherka-SPB article
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1964
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://vecherka-spb.ru/2023/08/08/chestnoe-i-dobrosovestnoe-otnoshenie-k-delu-kakim-bil-anatolii-rakhlin--lichnii-trener-vladimira-putina-
-        quotation: Хорошо помню, как Анатолий Соломонович проводил отбор в секцию самбо. Нужно было подтянуться — кто сколько сможет.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://vecherka-spb.ru/2023/08/08/chestnoe-i-dobrosovestnoe-otnoshenie-k-delu-kakim-bil-anatolii-rakhlin--lichnii-trener-vladimira-putina-
+      cite: Vecherka-SPB article - Rakhlin as Putin's trainer
+      quotation: Хорошо помню, как Анатолий Соломонович проводил отбор в секцию самбо. Нужно было подтянуться — кто сколько сможет.
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-15
-    rank: Master of Sports
-    date: null
-    sources:
-      - uri: http://en.putin.kremlin.ru/interests/page-0
-        quotation: Putin is also multiple champion of St Petersburg in Sambo and Master of Sports in Sambo
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-  - style_id: JDP-S-1
-    rank: 8 dan
-    date: null
-    sources:
-      - uri: https://www.eju.net/8th-dan-attributed-to-vladimir-putin/
-        cite: 8th Dan attributed to Vladimir Putin (European Judo Union)
-        quotation: Following the festivities of the 60th anniversary of the International Judo Federation, celebrated last year in Paris on the occasion of the World Championships, the IJF had the honor of awarding the 8th dan to Vladimir Putin, President of the Russian Federation, who was also celebrating his 60th birthday on the 7th of october.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-15
+  rank: Master of Sports
+  date: null
+  sources:
+  - uri: http://en.putin.kremlin.ru/interests/page-0
+    cite: Kremlin website - Putin's interests
+    quotation: Putin is also multiple champion of St Petersburg in Sambo and Master of Sports in Sambo
+    type: primary
+    supports: true
+    weight: high
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Master of Sports title in SAMBO, documented on official Kremlin website stating he is multiple champion of St Petersburg in SAMBO and Master of Sports
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-1
+  rank: 8 dan
+  date: null
+  sources:
+  - uri: https://www.eju.net/8th-dan-attributed-to-vladimir-putin/
+    cite: 8th Dan attributed to Vladimir Putin (European Judo Union)
+    quotation: Following the festivities of the 60th anniversary of the International Judo Federation, celebrated last year in Paris on the occasion of the World Championships, the IJF had the honor of awarding the 8th dan to Vladimir Putin, President of the Russian Federation, who was also celebrating his 60th birthday on the 7th of october.
+    type: secondary
+    supports: true
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded 8th dan in judo by the International Judo Federation in 2012 during the IJF's 60th anniversary celebrations, as documented by European Judo Union
+  granted_by: null
+  org_id: JDP-O-7
 sources:
-  - uri: https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87
-    cite: Путин, Владимир Владимирович (Википедии)
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%82%D0%B8%D0%BD,_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+  cite: Russian Wikipedia - Putin biography
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://sambo.sport/en/news/anatoliy-rakhlin-chelovek-pedagog-trener/
+  cite: SAMBO.sport article - Anatoliy Rakhlin
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q15088978
-    cite: Wikidata
-    type: wikidata
+- uri: https://www.wikidata.org/wiki/Q15088978
+  cite: Wikidata
+  type: wikidata
+description:
+  en: President of Russia, martial artist trained in judo and SAMBO under Anatoliy Rakhlin from age 11, Master of Sports in SAMBO, 8th dan in judo
+  ru: Президент России, мастер боевых искусств, тренировался в дзюдо и самбо у Анатолия Рахлина с 11 лет, мастер спорта по самбо, 8 дан по дзюдо
+notes: 'Vladimir Vladimirovich Putin (born 1952) is the President of Russia and a martial artist.
+
+  He began training in judo and SAMBO at age 11 in 1964 under Anatoliy Rakhlin in Leningrad.
+
+  He achieved the rank of Master of Sports in SAMBO and is a multiple champion of St Petersburg in SAMBO.
+
+  In 2012, he was awarded the 8th dan in judo by the International Judo Federation during the IJF''s 60th anniversary celebrations.
+
+  Putin has co-authored a book on judo and continues to practice martial arts.
+
+  His training under Rakhlin is well-documented and he has mentioned his martial arts background in interviews and official biographies.
+
+  '

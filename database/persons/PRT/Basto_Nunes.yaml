@@ -4,78 +4,122 @@ id: JDP-16
 name:
   pt: José Manuel Bastos Nunes
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1937-03-13"
+  date: '1937-03-13'
   geo:
     name: Sintra
     country_code: PRT
+    wikidata: Q832
 death:
-  date: "2024-01-20"
+  date: '2024-01-20'
   geo:
-    name: null
+    name: Portugal
     country_code: PRT
+    wikidata: Q45
 photo:
   url: https://archive.org/download/bastos_nunes/bastos_nunes.jpg
   source:
     uri: https://catalogo.bnportugal.gov.pt/ipac20/ipac.jsp?uri=full=3100024~!97548~!0
     cite: Tele-Judo e Karate-do (revista quinzenal), 1. 1977
+    type: primary
+    supports: true
+    weight: high
 teachers:
-  - id: JDP-12
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-12
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Direct disciple of Kiyoshi Kobayashi, mentioned in LinkedIn post as one of the highest Portuguese graduations and direct disciples of Kobayashi who shaped Portuguese judo
+  role: student
+  interactions:
+  - place_id: JDP-P-19
     period:
-      start: null
-      end: null
-    role: student
-    place_id: null
-  - id: JDP-66
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    period:
-      start: null
+      start: '1958'
       end: null
     sources:
-      - uri: http://judokai.pt/JUDO%20-%20MANUAL.pdf
-        cite: "Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)"
-        quotation: Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://web.archive.org/web/20240212151508/https://www.linkedin.com/posts/nunodelgadotpv_mestrebastosnunes-judo-portugaljudo-activity-7155564790885556225-5SnY/?originalSubdomain=pt
+      cite: Nuno Delgado LinkedIn post
+      quotation: A par do meu Mestre Fernando Costa Matos, são as mais altas graduações Lusas, discípulos diretos de Kiyoshi Kobayashi, que tanto moldaram os nossos judocas, com a sua sabedoria e pedagogia.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-66
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented in Judokai manual as student of Antony Striker in 1955 when Striker opened a dojo in Largo do Intendente, Lisbon
+  role: student
+  interactions:
+  - place_id: JDP-P-19
+    period:
+      start: '1955'
+      end: null
+    sources:
+    - uri: http://judokai.pt/JUDO%20-%20MANUAL.pdf
+      cite: 'Judokai: Manual de Formação para Graduaçãoem 1º Dan - Judo (Judo Clube de Sintra - Judokai)'
+      quotation: Quase na mesma altura [1955] chega a Lisboao Suiço Antony Stryker, 1º Dan,que abre uma sala no Largo do Intendente, onde teve como aluno, entre outros, José Manuel Bastos Nunes.
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: 2019
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- style_id: JDP-S-1
+  rank: 9 dan
+  date: '2019'
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded 9th dan by Federação Portuguesa de Judo in 2019, documented in FPJ 60th anniversary awards PDF and Judo Magazine obituary
+  sources:
   - uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
-    type: unknown
+    cite: Premiados na Gala do 60º Aniversário da FPJ
+    quotation: José Manuel Bastos Nunes - 9º Dan
+    type: primary
     supports: true
-    weight: unknown
-  - uri: https://judolandia.tripod.com/bastosnunes.htm
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
   - uri: https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/
-    type: unknown
+    cite: 'Judo Magazine: José Manuel Bastos Nunes - uma despedida suave'
+    quotation: 9º Dan, atribuído pela Federação Portuguesa de Judo em 2019
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: null
+sources:
+- uri: http://www.fpj.pt/wp-content/uploads/2019/12/19ci344-Premiados-na-Gala-do-60%C2%BA-Anivers%C3%A1rio-da-FPJ.pdf
+  cite: Premiados na Gala do 60º Aniversário da FPJ
+  type: primary
+  supports: true
+  weight: high
+- uri: https://judolandia.tripod.com/bastosnunes.htm
+  cite: 'Judolândia: José Manuel Bastos Nunes'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://judomagazine.pt/2024/01/22/jose-manuel-bastos-nunes-uma-despedida-suave/
+  cite: 'Judo Magazine: José Manuel Bastos Nunes - uma despedida suave'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.abola.pt/mais-desporto/noticias/faleceu-jose-bastos-nunes-2024012118301165539
+  cite: 'A Bola: Faleceu José Bastos Nunes'
+  type: secondary
+  supports: true
+  weight: medium
+description:
+  pt: Professor de judo português, 9º dan, pioneiro do judo em Portugal e fundador do Judo Clube de Sintra - Judokai. Estudou com Antony Striker e foi discípulo direto de Kiyoshi Kobayashi.
+notes: '- "José Manuel Bastos Nunes foi um dos pioneiros do judo em Portugal, começando a praticar em 1955 com Antony Striker."
+
+  - "Fundou o Judo Clube de Sintra - Judokai, uma das escolas de judo mais importantes de Portugal."
+
+  - "Foi agraciado com o 9º dan pela Federação Portuguesa de Judo em 2019 durante a Gala do 60º Aniversário da FPJ."
+
+  - "Faleceu em 20 de janeiro de 2024, sendo homenageado em várias publicações desportivas portuguesas."
+
+  - "A sua fotografia foi publicada na revista Tele-Judo e Karate-do em 1977, disponível no catálogo da Biblioteca Nacional de Portugal."
+
+  '

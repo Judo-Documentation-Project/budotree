@@ -1,0 +1,13 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-16
+name:
+  en: Meikokan dojo
+  ja-Latn: Meikokan dōjō
+  ja: 明光館道場
+classification: dojo
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+sources: []

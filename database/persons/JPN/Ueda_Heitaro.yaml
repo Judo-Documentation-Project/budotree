@@ -5,53 +5,137 @@ name:
   ja-Latn: Ueda Heitaro
   ja: 植田平太郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1877-08-14"
+  date: '1877-08-14'
   geo:
-    name: Ikenishi
+    name: Takamatsu
+    wikidata: Q200707
     country_code: JPN
 death:
-  date: "1949-07-25"
+  date: '1949-07-25'
   geo:
-    name: null
-    country_code: null
+    name: Takamatsu
+    wikidata: Q200707
+    country_code: JPN
+description:
+  en: 'Ueda Heitaro (1877-1949) was a Japanese kendo master, three-time participant in the Tenran shiai (imperial martial arts tournaments), and the only kenshi to be deified as a Shinto kami. He served as head instructor for the Dai Nippon Butoku Kai Kagawa branch, Kagawa police, Takamatsu prison, and several schools. He was a student of Naito Takaharu and received menkyo kaiden in Muso shinden-ryu batto-jutsu.
+
+    '
+  ja: '植田平太郎（1877-1949）は、日本の剣道家で、昭和天覧試合に3回出場し、唯一神道の神として祀られた剣士。大日本武徳会香川支部、香川県警察部、高松監獄署、高松高等商業学校、高松商業学校、高松第一中学校の剣道師範を務めた。内田良平に師事し、無双神伝英信流抜刀術の免許皆伝を受けた。
+
+    '
 teachers:
-  - id: JDP-60
-    style_id: JDP-S-8
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- id: JDP-60
+  style_id: JDP-S-8
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Student at Butokukai's Bujutsu Kyoin Yoseijo in Kyoto (1905) under Naito Takaharu, documented in Kenshi 24/7 article and Japanese Wikipedia
+  role: student
+  interactions:
+  - place_id: JDP-P-12
     period:
       start: 1905
       end: null
     sources:
-      - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
-        cite: The iron will of the kendo god Ueda Heitaro - Kenshi 24/7
-        quotation: "At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). "
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+      cite: The iron will of the kendo god Ueda Heitaro - Kenshi 24/7
+      quotation: 'At the Yoseijo he was there as a koshusei or a part-time student there to learn kendo only (full time students also did academic study). There he studied directly under Naito Takaharu and crossed shinai with the likes of Saimura, Nakano, Oshima, and Shimatani (this was slightly before Mochida, Ogawa, Miyazaki, and Oasa, etc arrived). '
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
-    type: unknown
-    supports: true
-    weight: unknown
+- rank: Menkyo kaiden
+  date: '1923'
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Received Menkyo kaiden (免許皆伝) in Muso shinden-ryu batto-jutsu from Hosokawa Yoshimasa in 1923, documented in Japanese Wikipedia
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
-    type: unknown
+    quotation: 1923年（大正12年）、細川から免許皆伝を授かった
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  granted_by: null
+  org_id: null
+honors:
+- title: Seirensho
+  date: '1911'
+  honor_type: certificate
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Seirensho (精錬証) by Dai Nippon Butoku Kai in 1911, documented in Japanese Wikipedia
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+    quotation: 1911年（明治44年）、大日本武徳会剣道精錬証
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-2
+- title: Kyoshi
+  date: 1919-06
+  honor_type: title
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Kyoshi (教士) by Dai Nippon Butoku Kai in June 1919, documented in Japanese Wikipedia
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+    quotation: 1919年（大正8年）6月、大日本武徳会剣道教士
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-2
+- title: Hanshi
+  date: 1930-05
+  honor_type: title
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Hanshi (範士) by Dai Nippon Butoku Kai in May 1930, documented in Japanese Wikipedia
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+    quotation: 1930年（昭和5年）5月、大日本武徳会剣道範士
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-2
+- title: Kyoshi
+  date: 1931-05
+  honor_type: title
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Awarded Kyoshi (教士) in iaido by Dai Nippon Butoku Kai in May 1931, documented in Japanese Wikipedia
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+    quotation: 1931年（昭和6年）5月、大日本武徳会居合術教士
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-2
+sources:
+- uri: https://kenshi247.net/blog/2022/01/24/the-iron-will-of-the-kendo-god-ueda-heitaro/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+  type: secondary
+  supports: true
+  weight: high
+links:
+- uri: https://www.wikidata.org/wiki/Q11540688
+  cite: Wikidata
+  type: wikidata
+- uri: https://ja.wikipedia.org/wiki/%E6%A4%8D%E7%94%B0%E5%B9%B3%E5%A4%AA%E9%83%8E
+  cite: Japanese Wikipedia
+  type: wikipedia

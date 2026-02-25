@@ -5,72 +5,103 @@ name:
   ja-Latn: Satake Soshihiro
 aka:
   ja-Latn:
-    - Antônio Satake
-    - Nobushiro Satake
+  - Antônio Satake
+  - Nobushiro Satake
 nationality:
-  - code: JPN
-  - code: BRA
+- code: JPN
+  wikidata: Q17
+- code: BRA
+  wikidata: Q155
 birth:
   date: null
   geo:
-    name: null
+    name: Yamaguchi Prefecture
     country_code: JPN
+    wikidata: Q127877
 death:
-  date: null
+  date: '1936-05-11'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-9
-    style_id: JDP-S-1
+- id: JDP-9
+  style_id: JDP-S-1
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Student of Yokoyama Sakujiro (JDP-9) at Kodokan from 1892, documented in Japanese Wikipedia with specific enrollment date and Simon BJJ blog with quotation about training together with Mitsuyo Maeda, though more direct evidence of the teacher-student relationship is needed
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1892
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://simonbjj.com/satake
-        cite: The Sumo wrestle who taught BJJ, Soshiro Satake
-        quotation: At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E4%BF%A1%E5%9B%9B%E9%83%8E
-        quotation: 1892年（明治25年）5月に講道館に入門
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://simonbjj.com/satake
+      cite: The Sumo wrestler who taught BJJ, Soshiro Satake
+      quotation: At some point later, probably in the late 1890’s, he joined the Kodokan and would become peers of Mitsuyo Maeda. The two judoka trained together under Sakujiro Yokoyama, who was known as one of the Four Guardians of the Kodokan
+      type: tertiary
+      supports: true
+      weight: medium
+    - uri: https://ja.wikipedia.org/wiki/%E4%BD%90%E7%AB%B9%E4%BF%A1%E5%9B%9B%E9%83%8E
+      cite: 佐竹信四郎 - Wikipedia
+      quotation: 1892年（明治25年）5月に講道館に入門
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 3 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
+- style_id: JDP-S-1
+  rank: 3 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 3 dan rank mentioned in historical sources as one of the top graduated professors at Waseda University alongside Mitsuyo Maeda, though specific documentation of rank award is limited
+  sources:
   - uri: https://en.wikipedia.org/wiki/Soshihiro_Satake
-    type: unknown
+    cite: Soshihiro Satake - Wikipedia
+    quotation: Maeda and Satake were the top graduated professors at Waseda University, both sandan (3rd dan), along with Matsuhiro Ritaro (nidan or 2nd dan) and six other shodan (1st dan).
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://repositorio.ufsc.br/handle/123456789/103771
-    type: unknown
+    weight: medium
+  - uri: https://simonbjj.com/satake
+    cite: The Sumo wrestler who taught BJJ, Soshiro Satake
+    quotation: At that time, there were few graduated Kodokan judoka. Maeda and Satake were the top graduated professors at Waseda University, both sandan (3rd dan)
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
-    cite: 103 anos de Oswaldo Fadda - Fadda BJJ (arquivado)
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+description:
+  en: Soshihiro Satake (佐竹信四郎), also known as Antônio Satake, was a Japanese-born Brazilian martial artist and teacher. One of the primary founders of Brazilian jiu-jitsu (BJJ), he pioneered judo in Brazil, the United Kingdom, and other countries. He was a member of the Ten'gu Club sports social group.
+sources:
+- uri: https://en.wikipedia.org/wiki/Soshihiro_Satake
+  cite: Soshihiro Satake - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://repositorio.ufsc.br/handle/123456789/103771
+  cite: 'Do Judô ao Gracie Jiu-jitsu: a influência do Judô Kodokan na idealização e no desenvolvimento do Jiu-jitsu Brasileiro'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
+  cite: 103 anos de Oswaldo Fadda - Fadda BJJ (arquivado)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: http://judotradicionalgoshinjutsukan.blogspot.com/2009/08/mitsuyo-maeda-nasc.html
+  cite: Mitsuyo Maeda - Judo Tradicional Goshinjutsukan
+  type: tertiary
+  supports: true
+  weight: low
+notes: Soshihiro Satake was a Japanese-born Brazilian martial artist and teacher. He started as a sumo wrestler before joining the Kodokan dojo academy in May 1892. He graduated from Waseda University in 1904 and was a member of the Ten'gu Club sports social group. Together with Mitsuyo Maeda, he formed the head of the second generation of Kodokan judoka. In 1904, he traveled to the United States with Tsunejiro Tomita and Maeda, arriving in New York City on December 8, 1904. He traveled extensively throughout the Americas and Europe, including Cuba where he was known as one of the 'Four Kings of Cuba' along with Maeda, Akitaro Ono, and Tokugoro Ito. He settled in Mexico for a time, teaching judo at military academies and establishing a sock manufacturing business in Mexico City. He returned to Japan in 1934 and died on May 11, 1936, at approximately 55 years of age. His grave is at Rinsen-ji temple in Aoyama, Tokyo. He is considered one of the primary founders of Brazilian jiu-jitsu and pioneered judo in Brazil, the United Kingdom, and other countries.
+links:
+- uri: https://www.wikidata.org/wiki/Q17421774
+  cite: Wikidata
+  type: wikidata
+- uri: http://dbpedia.org/resource/Soshihiro_Satake
+  cite: DBpedia
+  type: dbpedia

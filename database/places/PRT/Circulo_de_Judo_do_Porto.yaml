@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-22
+name:
+  pt: Círculo de Judo do Porto
+classification: club
+geo:
+  name: Porto
+  country_code: PRT
+  wikidata: Q36433
+sources: []

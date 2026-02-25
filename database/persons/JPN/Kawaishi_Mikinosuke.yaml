@@ -5,97 +5,116 @@ name:
   ja-Latn: Kawaishi Mikinosuke
   ja: 川石 酒造之助
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1899-08-13"
+  date: '1899-08-13'
   geo:
     name: Himeji
     country_code: JPN
+    wikidata: Q209801
 death:
-  date: "1969-01-30"
+  date: '1969-01-30'
   geo:
     name: Paris
     country_code: FRA
+    wikidata: Q90
 description:
   en: Mikinosuke Kawaishi (川石 酒造之助, Kawaishi Mikinosuke, born 13 August 1899 – 30 January 1969) was a Japanese master of jujutsu and judo who achieved the rank of 7th Dan. He led the development of Judo in France, with Shozo Awazu, and much of Europe and is credited with introducing the colored belt system for differentiating early grades. However, written accounts from the archives of London's Budokwai judo club, founded in 1918, record the use of colored judo belts at the 1926 9th annual Budokwai Display, and a list of ranked colored judokas appears in the Budokwai Committee Minutes of June 1927. Kawaishi visited London and the Budokwai in 1928, and was probably inspired to bring the colored belt system to France. The Fédération Française posthumously awarded him 10th Dan in judo and jujutsu.
 teachers:
-  - style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- style_id: JDP-S-1
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    id: null
-    place_id: null
-  - style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+  - place_id: JDP-P-6
     period:
       start: null
       end: null
-    role: student
-    id: null
-    place_id: null
-  - id: JDP-14
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-14
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: According to Kawaishi Norikazu, eldest son of Kawaishi Mikinosuke, his father identified Takahashi as one of his teachers at Waseda University
+  role: student
+  interactions:
+  - place_id: JDP-P-6
     period:
       start: 1881
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+      quotation: According to Kawaishi Norikazu15, eldest son of Kawaishi Mikinosuke, the teachers identified by his father as those from whom his father had learnt jūdō at Waseda University were Takahashi and Miyakawa.
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 7 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://doi.org/10.4471/hse.2013.15
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 7 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Achieved 7th dan rank during his lifetime, as documented in his book 'My Method of Judo' published in 1955
+  sources:
   - uri: https://judoinfo.com/kawaishi/
-    type: unknown
+    quotation: His system of Judo is fully described in his book My Method of Judo written when he was a 7th dan and published in English in 1955
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
-    type: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Posthumously awarded 10th dan by the French Judo Federation (FFJDA)
+  sources:
+  - uri: https://judoinfo.com/kawaishi/
+    quotation: Kawaishi Mikinosuke 川石酒造之助 (1899-1969), Kōdōkan 4th dan (later 7th dan and FFJDA 10th dan posth.);
+    location: p. 110
+    type: tertiary
     supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://www.researchgate.net/publication/277665808_Kodokan_Judo's_three_orphaned_forms_of_counter_techniques_-_Part_1_The_gonosen-no-kata_-_Forms_of_post-attack_initiative_counter_throws
+  cite: 'DE CRÉE, Carl. Kodokan Judo''s three orphaned forms of counter techniques - Part 1: The gonosen-no-kata - Forms of post-attack initiative counter throws. ResearchGate, 2015.'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://doi.org/10.4471/hse.2013.15
+  cite: 'Groenen, H. (2013). Aux origines de la méthode française d’enseignement du judo (1936-1967): acculturation, enjeux sportifs internationaux et gaullisme. Social and Education History, 2(3), 235–260.'
+  type: primary
+  supports: true
+  weight: high
+- uri: https://judoinfo.com/kawaishi/
+  cite: Kawaishi Mikinosuke. JudoInfo.com.
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  cite: 川石酒造之助. (2025, October 13). In Wikipedia. Retrieved from https://ja.wikipedia.org/wiki/%E5%B7%9D%E7%9F%B3%E9%85%92%E9%80%A0%E4%B9%8B%E5%8A%A9
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q3090191
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Mikinosuke_Kawaishi
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q3090191
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Mikinosuke_Kawaishi
+  cite: DBpedia
+  type: dbpedia

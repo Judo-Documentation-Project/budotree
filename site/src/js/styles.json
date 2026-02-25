@@ -1,78 +1,269 @@
 {
   "JDP-S-4": {
+    "type": "Style",
     "id": "JDP-S-4",
-    "name": "Aikidō",
-    "native_name": {
-      "name": "合気道",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1920,
-      "location": null,
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Aikidō",
+      "ja": "合気道"
     },
     "description": {
       "en": "Aikido (Shinjitai: 合気道, Kyūjitai: 合氣道,) is a modern Japanese martial art that is split into many different styles, including Iwama Ryu, Iwama Shin Shin Aiki Shuren Kai, Shodokan Aikido, Yoshinkan, Renshinkai, Aikikai and Ki Aikido. Aikido is now practiced in around 140 countries. It was originally developed by Morihei Ueshiba, as a synthesis of his martial studies, philosophy and religious beliefs. Ueshiba's goal was to create an art that practitioners could use to defend themselves while also protecting their attackers from injury.      \n"
     },
     "media": {
-      "photo_url": "https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg",
-      "video_url": "https://www.youtube.com/watch?v=30Sa0PLquFg"
+      "photos": [
+        {
+          "url": "https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg",
+          "source": {
+            "uri": "https://aikido.com.br/wp-content/uploads/2015/03/Ueshiba_8.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=30Sa0PLquFg",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=30Sa0PLquFg",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Aikido"
+        "uri": "https://en.wikipedia.org/wiki/Aikido",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
-  },
-  "JDP-S-10": {
-    "id": "JDP-S-10",
-    "name": "Daitō-ryū Aiki-jūjutsu",
-    "native_name": {
-      "name": "大東流 合気柔術",
-      "lang": "ja"
+    ],
+    "founded": {
+      "date": 1920,
+      "geo": {
+        "country_code": "JPN"
+      }
     },
-    "birth": {
-      "date": 1100,
-      "location": null,
-      "country_code": "JPN"
+    "classification": "gendai"
+  },
+  "JDP-S-16": {
+    "type": "Style",
+    "id": "JDP-S-16",
+    "name": {
+      "pt": "Brazilian jiu-jitsu"
+    },
+    "aka": {
+      "pt": [
+        "Jiu-jitsu",
+        "BJJ"
+      ]
     },
     "media": {
-      "video_url": "https://youtu.be/zgezzfG1Rwk?t=167",
-      "photo_url": "https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg"
+      "photos": [
+        {
+          "url": "https://s2-ge.glbimg.com/XHMUEtCldtpWyc7VaWzVWKN6NIk=/0x0:900x559/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/s/L/UpVASJTr65lfkp2P8x8g/heliograciefamilia.jpg",
+          "source": {
+            "uri": "https://s2-ge.glbimg.com/XHMUEtCldtpWyc7VaWzVWKN6NIk=/0x0:900x559/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/s/L/UpVASJTr65lfkp2P8x8g/heliograciefamilia.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=rZQkydT-SyM",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=rZQkydT-SyM",
+            "cite": "Video"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Brazilian jiu-jitsu also abbreviated as BJJ, is a self-defence martial art and combat sport based on grappling, ground fighting, and submission holds. BJJ is primarily a ground-based fighting style and focuses on taking one's opponent down to the ground, gaining a dominant position, and using a number of techniques to force them into submission via joint locks, chokeholds, or compression locks. Brazilian jiu-jitsu was first developed around 1925 by Brazilian brothers Carlos, Oswaldo, Gastão Jr., and Hélio Gracie, after Carlos was taught a hybrid fighting style of traditional Jujutsu and Kodokan judo by a travelling Japanese judoka, Mitsuyo Maeda, in 1917. Later on the Gracie family developed their own self-defense system which they named Gracie Jiu-Jitsu. BJJ eventually came to be its own defined combat sport through the innovations, practices, and adaptation of Gracie jiu-jitsu and judo, and has become one of the essential martial arts for modern MMA.\n",
+      "pt": "Jiu-jítsu brasileiro é uma arte marcial e esporte de combate, desenvolvido pela família Gracie, no início do século XX, que se tornou a forma mais difundida e praticada do \"Jiu-jitsu\" (após o judô) no mundo, principalmente depois das primeiras edições dos torneios de Vale Tudo e artes marciais mistas (MMA), principalmente no UFC, nos idos da década de 1990 e no Pride FC durante o final da década de 1990 e começo da década de 2000. É uma arte marcial de luta agarrada, onde o objetivo é imobilizar o oponente no chão por meio de uma \"finalização\", colocando o oponente em uma torção de um membro do corpo (como por exemplo uma chave de braço ou chave de perna) ou estrangulamento (como o mata-leão ou triângulo), forçando o oponente a desistir. O jiu-jitsu brasileiro tem um apreço em focar na luta de solo onde a luta em pé tem papel secundário, ao contrário de outras marciais de luta agarrada.\n"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu"
+        "uri": "https://pt.wikipedia.org/wiki/Jiu-j%C3%ADtsu_brasileiro",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://cbjj.com.br/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://ibjjf.com/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://jjgf.com/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      }
+    ],
+    "founded": {
+      "date": null,
+      "geo": {
+        "country_code": "BRA"
+      }
+    },
+    "classification": "gendai"
+  },
+  "JDP-S-17": {
+    "type": "Style",
+    "id": "JDP-S-17",
+    "name": {
+      "zh-Latn": "Baguazhang",
+      "zh": "八卦掌"
+    },
+    "media": {
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=0E_mVfFfsPU",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=0E_mVfFfsPU",
+            "cite": "Video"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Baguazhang (Chinese: 八卦掌; pinyin: bā guà zhǎng; Wade–Giles: pa-kua chang) is one of the three main Chinese martial arts of the Wudang school, the other two being tai chi and xingyiquan. It is more broadly grouped as an internal practice (or neijia). Baguazhang literally means \"eight trigram palm\", referring to the bagua \"trigrams\" of the I Ching, one of the canons of Taoism.\n",
+      "zh": "八卦掌為中國武術的著名拳種，源自清朝末年武師董海川，與太極拳和形意拳並稱三大內家拳。"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Baguazhang",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://zh.wikipedia.org/wiki/%E5%85%AB%E5%8D%A6%E6%8E%8C",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      }
+    ],
+    "founded": {
+      "date": null,
+      "geo": {
+        "country_code": "CHN"
+      }
+    },
+    "classification": "gendai"
+  },
+  "JDP-S-19": {
+    "type": "Style",
+    "id": "JDP-S-19",
+    "name": {
+      "en": "Boxing"
+    },
+    "description": {
+      "en": "Combat sport involving striking with fists, historically practiced worldwide with modern codification in 18th-19th century England. Governed by the Marquess of Queensberry Rules since 1867.\n"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Boxing",
+        "cite": "Boxing - Wikipedia",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://www.britannica.com/sports/boxing",
+        "cite": "Boxing - Encyclopedia Britannica",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      }
+    ],
+    "founded": {
+      "date": null,
+      "geo": {
+        "country_code": "GBR"
+      }
+    },
+    "classification": "sport"
+  },
+  "JDP-S-10": {
+    "type": "Style",
+    "id": "JDP-S-10",
+    "name": {
+      "ja-Latn": "Daitō-ryū Aiki-jūjutsu",
+      "ja": "大東流 合気柔術"
+    },
+    "media": {
+      "photos": [
+        {
+          "url": "https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg",
+          "source": {
+            "uri": "https://aikidojournal.com/wp-content/uploads/2018/05/soden-vol5.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/zgezzfG1Rwk?t=167",
+          "source": {
+            "uri": "https://youtu.be/zgezzfG1Rwk?t=167",
+            "cite": "Video"
+          }
+        }
+      ]
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Dait%C5%8D-ry%C5%AB_Aiki-j%C5%ABjutsu",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
         "uri": "https://www.daitohryu.com/eng-history01",
         "events": [
-          "birth"
+          "founded"
         ],
-        "citation": "According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school."
-      }
-    ]
-  },
-  "JDP-S-12": {
-    "id": "JDP-S-12",
-    "name": "Jigō Tenshin Ryū",
-    "native_name": {
-      "name": "自剛天真流",
-      "lang": "ja"
-    },
-    "aka": [
-      {
-        "name": "Ise Jitoku Tenshin-ryū",
-        "native_name": {
-          "name": "為勢自得天眞流柔術",
-          "lang": "ja"
-        }
+        "quotation": "According to this tradition, the name Daito-ryu can be traced back about 900 years, to Shinra Saburo Minamoto no Yoshimitsu (1045-1127), a warrior considered to have been the distant founder of the school.",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
     ],
-    "birth": {
-      "date": 1800,
-      "location": "Fukuoka",
-      "country_code": "JPN"
+    "founded": {
+      "date": 1100,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
+  },
+  "JDP-S-12": {
+    "type": "Style",
+    "id": "JDP-S-12",
+    "name": {
+      "ja-Latn": "Jigō Tenshin Ryū",
+      "ja": "自剛天真流"
+    },
+    "aka": {
+      "ja-Latn": "Ise Jitoku Tenshin-ryū",
+      "ja": "為勢自得天眞流柔術"
     },
     "description": {
       "en": "Jigo Tenshin Ryu (also known as Isei Jitoku Tenshinryu) is one of the martial arts handed down from the Fukuoka Domain. It was founded as a comprehensive martial art system, but the jujutsu component is the one that has been handed down to the present. Many ancient techniques remain, including joint techniques, restraining techniques, and Kappo. In 2005, it was designated as an intangible cultural property of Fukuoka City.\n",
@@ -80,290 +271,556 @@
       "pt": "O Jigo Tenshin Ryu (também conhecido como Isei Jitoku Tenshinryu) é uma das artes marciais tradicionais do Domínio de Fukuoka, Japão.Na época de sua fundação, era uma arte marcial completa, mas foi o jujutsu que foi transmitido até aos nossos dias. Preserva muitas técnicas antigas técnicas como as centradas na manipulação de articulações, imobilização,e kappo. Em 2005, foi designado como propriedade cultural imaterial da cidade de Fukuoka.\n"
     },
     "media": {
-      "video_url": "https://youtu.be/yA32io5HYic?t=92",
-      "photo_url": null
+      "photos": [],
+      "videos": [
+        {
+          "url": "https://youtu.be/yA32io5HYic?t=92",
+          "source": {
+            "uri": "https://youtu.be/yA32io5HYic?t=92",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81"
+        "uri": "https://ja.wikipedia.org/wiki/%E8%87%AA%E5%89%9B%E5%A4%A9%E7%9C%9F%E6%B5%81",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://www.ryoishintokai.com/2019/12/24/84/"
+        "uri": "https://www.ryoishintokai.com/2019/12/24/84/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1800,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
   },
   "JDP-S-14": {
+    "type": "Style",
     "id": "JDP-S-14",
-    "name": "Jūjutsu",
-    "native_name": {
-      "name": "柔術",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1530,
-      "location": null,
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Jūjutsu",
+      "ja": "柔術"
     },
     "media": {
-      "video_url": "https://www.youtube.com/watch?v=TFFGo14oSxg",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/JUJITSU_%28AND_RIFLES%29_in_an_agricultural_school.jpg"
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/JUJITSU_%28AND_RIFLES%29_in_an_agricultural_school.jpg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/1/14/JUJITSU_%28AND_RIFLES%29_in_an_agricultural_school.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=TFFGo14oSxg",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=TFFGo14oSxg",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "description": {
       "en": "Jujutsu, also known as jiu-jitsu and ju-jitsu, is a family of Japanese martial arts and a system of close combat (unarmed or with a minor weapon) that can be used in a defensive or offensive manner to kill or subdue one or more weaponless or armed and armored opponents. It was designed in the 1530s and is coined by Hisamori Tenenuchi when he officially established the first school of Jiu-Jitsu in Japan. A subset of techniques from certain styles of jujutsu were used to develop many modern martial arts and combat sports, such as judo, aikido, sambo, ARB, Brazilian jiu-jitsu, and mixed martial arts.\n"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Jujutsu"
-      }
-    ]
-  },
-  "JDP-S-5": {
-    "id": "JDP-S-5",
-    "name": "Karate",
-    "native_name": {
-      "name": "空手",
-      "lang": "ja"
-    },
-    "aka": [
-      {
-        "name": "Karatedo",
-        "native_name": [
-          {
-            "name": "空手道",
-            "lang": "ja"
-          }
-        ]
+        "uri": "https://en.wikipedia.org/wiki/Jujutsu",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
     ],
-    "birth": {
-      "date": 1800,
-      "location": "Okinawa",
-      "country_code": "JPN"
+    "founded": {
+      "date": 1530,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
+  },
+  "JDP-S-5": {
+    "type": "Style",
+    "id": "JDP-S-5",
+    "name": {
+      "ja-Latn": "Karate",
+      "ja": "空手"
+    },
+    "aka": {
+      "ja-Latn": "Karatedo",
+      "ja": "空手道"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Karate"
+        "uri": "https://en.wikipedia.org/wiki/Karate",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1800,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "gendai"
   },
   "JDP-S-8": {
+    "type": "Style",
     "id": "JDP-S-8",
-    "name": "Kendo",
-    "native_name": {
-      "name": "剣道",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1912,
-      "location": null,
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Kendo",
+      "ja": "剣道"
     },
     "sources": [
       {
-        "uri": "https://www.kendo.or.jp/en/knowledge/kendo-history/"
+        "uri": "https://www.kendo.or.jp/en/knowledge/kendo-history/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1912,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "gendai"
   },
   "JDP-S-2": {
+    "type": "Style",
     "id": "JDP-S-2",
-    "name": "Kitō-ryū",
-    "native_name": {
-      "name": "起倒流",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1600,
-      "location": null,
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Kitō-ryū",
+      "ja": "起倒流"
     },
     "media": {
-      "video_url": "https://youtu.be/qdzzF4ziu68?t=667",
-      "photo_url": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png"
+      "photos": [
+        {
+          "url": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png",
+          "source": {
+            "uri": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/qdzzF4ziu68?t=667",
+          "source": {
+            "uri": "https://youtu.be/qdzzF4ziu68?t=667",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "description": {
       "en": "The Kitō Ryu [起倒流] is a system of jujutsu that merits a particular place in the doctrine of unarmed martial arts because of its esoteric elements, adopted along with various techniques and training methods (such as randori) in Judo. Of particular interest are the kata that have been preserved by the modern inheritors of kito ryu. Kito ryu is the \"rise and fall\" school of jujutsu.  Some of the available records trace the origin of this school to a Chinese combat based upon the principle of ju (suppleness), as explained and illustrated by Chin Gempin to selected warriors of 17th century Japan. Another version associates this method with two other noted jujutsu experts, Yoshimura and Takenaka.      \n"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Kit%C5%8D-ry%C5%AB"
+        "uri": "https://en.wikipedia.org/wiki/Kit%C5%8D-ry%C5%AB",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png"
+        "uri": "https://www.ryoishintokai.com/wp-content/uploads/2020/09/Screenshot-2020-09-19-at-00.21.19.png",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1600,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
   },
   "JDP-S-1": {
+    "type": "Style",
     "id": "JDP-S-1",
-    "name": "Kōdōkan Jūdō",
-    "native_name": {
-      "name": "講道館柔道",
-      "lang": "ja"
+    "name": {
+      "ja-Latn": "Kōdōkan Jūdō",
+      "ja": "講道館柔道"
     },
-    "birth": {
+    "aka": {
+      "ja-Latn": "Judo"
+    },
+    "founded": {
       "date": 1882,
-      "location": null,
-      "country_code": "JPN"
+      "place_id": "JDP-P-1",
+      "founder_id": "JDP-1",
+      "sources": [
+        {
+          "uri": "https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93",
+          "cite": "Japanese Wikipedia: Judo",
+          "type": "unknown",
+          "supports": true,
+          "weight": "unknown"
+        }
+      ],
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "dissolved": null,
+    "rank_system": {
+      "type": "dan-kyu",
+      "description": {
+        "en": "Standard Kodokan dan/kyu grading system",
+        "ja": "講道館段級制"
+      }
+    },
+    "description": {
+      "en": "Kodokan Judo is a modern martial art created by Jigoro Kano in 1882. It is a refinement and codification of jujutsu principles with an emphasis on throwing techniques, groundwork, and moral education. Judo became the first Japanese martial art to gain widespread international recognition and was inducted as an Olympic sport in 1964.\n",
+      "ja": "講道館柔道（こうどうかんじゅうどう）は、1882年（明治15年）に嘉納治五郎 が創始した武道・スポーツ・身体鍛錬の方法。\n"
     },
     "media": {
-      "video_url": "https://www.youtube.com/watch?v=FoFwE8pX2js",
-      "photo_url": "http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg"
+      "photos": [
+        {
+          "url": "http://kodokanjudoinstitute.org/images/doctrine/purpose/01.jpg",
+          "source": {
+            "uri": "http://kodokanjudoinstitute.org/",
+            "cite": "Kodokan Judo Institute"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=FoFwE8pX2js",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=FoFwE8pX2js",
+            "cite": "YouTube: Kodokan Judo demonstration"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93"
+        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%94%E9%81%93",
+        "cite": "Japanese Wikipedia: Judo",
+        "events": [
+          "name",
+          "founded"
+        ],
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://en.wikipedia.org/wiki/Judo",
+        "cite": "Wikipedia: Judo",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "links": [
+      {
+        "uri": "https://www.wikidata.org/wiki/Q11817",
+        "type": "wikidata",
+        "cite": "Wikidata: Judo"
+      }
+    ],
+    "tags": [
+      "grappling",
+      "throwing",
+      "olympic",
+      "gendai-budo"
+    ],
+    "classification": "gendai"
   },
   "JDP-S-9": {
+    "type": "Style",
     "id": "JDP-S-9",
-    "name": "Muso-ryu",
-    "native_name": {
-      "name": "無相流",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1592,
-      "location": "Sanuki",
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Muso-ryu Shinjujutsu",
+      "ja": "無相流新柔術"
     },
     "sources": [
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81"
-      },
-      {
-        "uri": "https://www.ijf.org/news/show/the-first-edition-of-the-arts-and-sciences-of-judo-online-journal"
+        "uri": "https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81%E6%96%B0%E6%9F%94%E8%A1%93",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1592,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
   },
   "JDP-S-15": {
+    "type": "Style",
     "id": "JDP-S-15",
-    "name": "Sambo",
-    "native_name": {
-      "name": "сaмбо",
-      "lang": "ru"
+    "name": {
+      "ru-Latn": "Sambo",
+      "ru": "сaмбо"
     },
-    "aka": [
-      {
-        "name": "Samozashchita bez oruzhiya",
-        "native_name": [
-          {
-            "name": "самозащита без оружия",
-            "lang": "ru"
+    "aka": {
+      "ru-Latn": "Samozashchita bez oruzhiya",
+      "ru": "самозащита без оружия"
+    },
+    "media": {
+      "photos": [
+        {
+          "url": "https://archive.org/download/sambo-history/Sambo-history.jpeg",
+          "source": {
+            "uri": "https://archive.org/download/sambo-history/Sambo-history.jpeg",
+            "cite": "Photo"
           }
-        ]
-      }
-    ],
-    "birth": {
-      "date": 1920,
-      "location": null,
-      "country_code": "SUN"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=S3AgKTD1cYc&t=321",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=S3AgKTD1cYc&t=321",
+            "cite": "Video"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Sambo (Russian: сaмбо, pronounced [ˈsambə]) is a martial art with Soviet origins, an internationally practised combat sport, and a recognized style of amateur wrestling included by UWW in the World Wrestling Championships along with Graeco-Roman wrestling and freestyle wrestling.  It originated in the Russian SFSR in the Soviet Union. The word sambo is an acronym of samozashchita bez oruzhiya (Russian: самозащита без оружия), which literally translates to 'self-defence without weapons'. SAMBO is a martial art and combat sport developed and used by the Soviet Red Army in the early 1920s to improve their hand-to-hand combat abilities. The sport is similar in many ways to judo and jiu jitsu but also incorporates different types of wrestling and various self-defence systems.  Soviet martial arts expert Vasili Oshchepkov is credited as one of the founding fathers of SAMBO.\n"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Sambo_(martial_art)"
+        "uri": "https://en.wikipedia.org/wiki/Sambo_(martial_art)",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://sambo.sport"
+        "uri": "https://sambo.sport",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1920,
+      "geo": {
+        "country_code": "SUN"
+      }
+    },
+    "classification": "sport"
   },
   "JDP-S-13": {
+    "type": "Style",
     "id": "JDP-S-13",
-    "name": "Shuri-te",
-    "native_name": {
-      "name": "首里手",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1700,
-      "location": "Okinawa",
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Shuri-te",
+      "ja": "首里手"
     },
     "sources": [
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B"
-      }
-    ]
-  },
-  "JDP-S-6": {
-    "id": "JDP-S-6",
-    "name": "Tenshin Shōden Katori Shintō-ryū",
-    "native_name": {
-      "name": "天真正伝香取神道流",
-      "lang": "ja"
-    },
-    "aka": [
-      {
-        "name": "Katori Shintō-ryū",
-        "native_name": {
-          "name": "香取神道流",
-          "lang": "ja"
-        }
+        "uri": "https://ja.wikipedia.org/wiki/%E9%A6%96%E9%87%8C%E6%89%8B",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
     ],
-    "birth": {
-      "date": 1147,
-      "location": "Shimōsa",
-      "country_code": "JPN"
+    "founded": {
+      "date": 1700,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
+  },
+  "JDP-S-6": {
+    "type": "Style",
+    "id": "JDP-S-6",
+    "name": {
+      "ja-Latn": "Tenshin Shōden Katori Shintō-ryū",
+      "ja": "天真正伝香取神道流"
+    },
+    "aka": {
+      "ja-Latn": "Katori Shintō-ryū",
+      "ja": "香取神道流"
     },
     "description": {
       "en": "Tenshin Shōden Katori Shintō-ryū (天真正伝香取神道流) is one of the oldest extant Japanese martial arts, and an exemplar of bujutsu. The Tenshin Shōden Katori Shintō-ryū was founded by Iizasa Ienao, born in 1387 in Iizasa village (modern Takomachi, Chiba Prefecture), who was living near Katori Shrine (Sawara City, Chiba Prefecture) at the time. The ryū gives 1447 as the year it was founded, but some scholars state that it was about 1480.\n"
     },
     "media": {
-      "video_url": "https://youtu.be/4EvjslbRTaA?t=120",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg"
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/1/19/Kenjyutsu-2.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/4EvjslbRTaA?t=120",
+          "source": {
+            "uri": "https://youtu.be/4EvjslbRTaA?t=120",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Tenshin_Sh%C5%8Dden_Katori_Shint%C5%8D-ry%C5%AB"
+        "uri": "https://en.wikipedia.org/wiki/Tenshin_Sh%C5%8Dden_Katori_Shint%C5%8D-ry%C5%AB",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9C%9F%E6%AD%A3%E4%BC%9D%E9%A6%99%E5%8F%96%E7%A5%9E%E9%81%93%E6%B5%81"
+        "uri": "https://ja.wikipedia.org/wiki/%E5%A4%A9%E7%9C%9F%E6%AD%A3%E4%BC%9D%E9%A6%99%E5%8F%96%E7%A5%9E%E9%81%93%E6%B5%81",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://www.katorishintoryu-shinbukan.org/"
+        "uri": "https://www.katorishintoryu-shinbukan.org/",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1147,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
   },
   "JDP-S-3": {
+    "type": "Style",
     "id": "JDP-S-3",
-    "name": "Tenjin Shin'yō-ryū",
-    "native_name": {
-      "name": "天神真楊流",
-      "lang": "ja"
+    "name": {
+      "ja-Latn": "Tenjin Shin'yō-ryū",
+      "ja": "天神真楊流"
     },
     "description": {
       "en": "Tenjin Shinyo-ryu (天神真楊流, Tenjin Shin'yō-ryū), meaning \"Divine True Willow School\", can be classified as a traditional school (koryū) of jujutsu. It was founded by Iso Mataemon Ryūkansai Minamoto no Masatari (磯又右衛門柳関斎源正足) in the 1830s. Its syllabus comprises atemi-waza (striking techniques), nage-waza (throwing techniques), torae-waza (immobilization methods), and shime-waza (choking techniques). Once a very popular jujutsu system in Japan, among the famous students who studied the art were Kanō Jigorō, whose modern art of judo was greatly inspired by the Tenjin Shin'yō-ryū and Kitō-ryū.\n"
     },
     "media": {
-      "video_url": "https://youtu.be/RhTpeCdANzA?t=24",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg"
-    },
-    "birth": {
-      "date": 1830,
-      "location": null,
-      "country_code": "JPN"
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kuchikitaoshi.jpeg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/RhTpeCdANzA?t=24",
+          "source": {
+            "uri": "https://youtu.be/RhTpeCdANzA?t=24",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB"
+        "uri": "https://en.wikipedia.org/wiki/Tenjin_Shin%27y%C5%8D-ry%C5%AB",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "http://www.tenyokai.com"
+        "uri": "http://www.tenyokai.com",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1830,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
+  },
+  "JDP-S-18": {
+    "type": "Style",
+    "id": "JDP-S-18",
+    "name": {
+      "zh-Latn": "Xingyiquan",
+      "zh": "形意拳"
+    },
+    "media": {
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/b/b1/250_Bagau016ChangChaoDong.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=MD144T5cpiU",
+          "source": {
+            "uri": "https://www.youtube.com/watch?v=MD144T5cpiU",
+            "cite": "Video"
+          }
+        }
+      ]
+    },
+    "description": {
+      "en": "Xingyiquan, or Xingyi, is a style of internal Chinese martial arts. The word translates approximately to \"Form-Intention Fist\", or \"Shape-Will Fist\". It is characterized by aggressive, seemingly linear movements and explosive power most often applied from a short range. A practitioner of Xingyi uses coordinated movements to generate bursts of power intended to overwhelm the opponent, simultaneously attacking and defending. Methods vary from school to school, but always include bare-handed fighting training (mostly in single movements/combinations and sometimes in forms) and the training of weapons usage with similar or identical body mechanics to that used for bare-handed intense fighting. The most basic notions of movement and body mechanics in the art were heavily influenced by the practice of staves and spears.\n",
+      "zh": "形意拳，又称心意拳、心意六合拳，中国传统武术，属内家拳，流行于中 国北方，分成河北、山西、河南3个系统，打法多直行直进。形意拳发源 于山西太谷，山西形拳讲究功力，形松意紧，外形不拘一格，打法变幻多 端的风格特点。在形意十二形中，重点突出所取动物的进攻技巧，不求形 象但求意真的练法，五行中讲究木、火、土、金、水的内涵。形意拳是中 国三大著名内家拳拳种之一（形意、太极、八卦），与少林拳位列中国四 大名拳。"
+    },
+    "sources": [
+      {
+        "uri": "https://en.wikipedia.org/wiki/Xingyiquan",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      },
+      {
+        "uri": "https://zh.wikipedia.org/zh-hans/%E5%BD%A2%E6%84%8F%E6%8B%B3",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
+      }
+    ],
+    "founded": {
+      "date": null,
+      "geo": {
+        "country_code": "CHN"
+      }
+    },
+    "classification": "gendai"
   },
   "JDP-S-11": {
+    "type": "Style",
     "id": "JDP-S-11",
-    "name": "Yagyū Shingan-ryū",
-    "native_name": {
-      "name": "柳生心眼流",
-      "lang": "ja"
-    },
-    "birth": {
-      "date": 1600,
-      "location": "Sendai",
-      "country_code": "JPN"
+    "name": {
+      "ja-Latn": "Yagyū Shingan-ryū",
+      "ja": "柳生心眼流"
     },
     "description": {
       "en": "Yagyū Shingan-ryū (柳生心眼流), is a traditional school (koryū) of Japanese martial arts. Different styles of Yagyū Shingan-ryū, such as Heihojutsu and Taijutsu, assert different founders, Takenaga Hayato and Araki Mataemon respectively, but they all go back to Ushū Tatewaki (羽州 帯刀), referred to in some historical scrolls as Shindō Tatewaki, who taught a system based on Sengoku-period battlefield tactics, that was called Shindō-ryū. The word shingan (心眼) is rooted in Zen philosophy, and was chosen to describe a fundamental concept of the style. Shingan means \"mind’s eye,\" or \"heart's eye,\" and refers to the ability to sense or read an opponent's intentions via an inner sense. Originally called simply Shingan-ryū, it was later renamed Yagyū Shingan-ryū, due to the influence of Yagyu Tajima no Kami Munenori's Yagyū Shinkage-ryū.\n",
@@ -371,43 +828,72 @@
       "pt": "Yagyū shingan-ryū é uma tradicional escola japonesa de bujutsu (lit. arte da guerra). Ensina todos os fundamentos das artes marciais japonesas clássicas. É conhecida como Yagyū shingan-ryū kacchu yawara, e foi um estilo de luta adotado por alguns samurais do xogunato Tokugawa. Foi bastante divulgado pela série, \"Lobo Solitário\" (de Kazuo Koike & Goseki Kojima) e no livro \"Musashi\" de Eiji Yoshikawa.\n"
     },
     "media": {
-      "video_url": "https://youtu.be/6Ke_d6hN7CI?t=30",
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg"
+      "photos": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg",
+          "source": {
+            "uri": "https://upload.wikimedia.org/wikipedia/commons/8/87/Nimai_Gasa.jpg",
+            "cite": "Photo"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://youtu.be/6Ke_d6hN7CI?t=30",
+          "source": {
+            "uri": "https://youtu.be/6Ke_d6hN7CI?t=30",
+            "cite": "Video"
+          }
+        }
+      ]
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB"
+        "uri": "https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       },
       {
-        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81"
-      }
-    ]
-  },
-  "JDP-S-7": {
-    "id": "JDP-S-7",
-    "name": "Yōshin-ryū",
-    "native_name": {
-      "name": "楊心流",
-      "lang": "ja"
-    },
-    "aka": [
-      {
-        "name": "Yōshin Koryū",
-        "native_name": {
-          "name": "楊心古流",
-          "lang": "ja"
-        }
+        "uri": "https://ja.wikipedia.org/wiki/%E6%9F%B3%E7%94%9F%E5%BF%83%E7%9C%BC%E6%B5%81",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
     ],
-    "birth": {
-      "date": 1610,
-      "location": null,
-      "country_code": "JPN"
+    "founded": {
+      "date": 1600,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
+  },
+  "JDP-S-7": {
+    "type": "Style",
+    "id": "JDP-S-7",
+    "name": {
+      "ja-Latn": "Yōshin-ryū",
+      "ja": "楊心流"
+    },
+    "aka": {
+      "ja-Latn": "Yōshin Koryū",
+      "ja": "楊心古流"
     },
     "sources": [
       {
-        "uri": "https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB"
+        "uri": "https://en.wikipedia.org/wiki/Y%C5%8Dshin_Kory%C5%AB",
+        "type": "unknown",
+        "supports": true,
+        "weight": "unknown"
       }
-    ]
+    ],
+    "founded": {
+      "date": 1610,
+      "geo": {
+        "country_code": "JPN"
+      }
+    },
+    "classification": "koryu"
   }
 }

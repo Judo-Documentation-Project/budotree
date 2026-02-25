@@ -6,76 +6,94 @@ name:
 aka:
   pt: Petrucio de Queiroz Monteiro
 nationality:
-  - code: BRA
+- code: BRA
+  wikidata: Q155
 birth:
-  date: "1942"
+  date: '1942'
   geo:
-    name: ""
+    name: Brazil
     country_code: BRA
+    wikidata: Q155
 death:
-  date: "2022"
+  date: '2022-04-22'
   geo:
-    name: ""
+    name: Rio de Janeiro
     country_code: BRA
+    wikidata: Q8678
+  sources:
+  - uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
+    cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro (FJERJ)
+    supports: true
+    quotation: 22 de abril de 2022 (...) A Federação de Judô do Estado do Rio de Janeiro informa, com grande pesar, o falecimento, aos 80 anos, do Sensei Petrucio de Queiroz Monteiro
 photo:
   url: https://i0.wp.com/judorio.org/wp-content/uploads/2022/04/Petrucio-Monteiro.jpg
   source:
     uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
     cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
+    type: secondary
+    supports: true
+    weight: medium
 teachers:
-  - id: JDP-127
-    style_id: JDP-S-1
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+- id: JDP-127
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Judô Rio obituary mentions he taught alongside Rudolf Hermanny at Volta Redonda
+  role: student
+  interactions:
+  - place_id: JDP-P-35
     period:
       start: null
       end: null
     sources:
-      - uri: https://benfeitoria.com/projeto/biopetrucio
-        cite: Biografia Petrucio Monteiro - Benfeitoria
-        quotation: O professor Petrucio seguiu a linha do professor Rudolf Hermanny
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
+      cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro (FJERJ)
+      quotation: Sensei Petrucio Monteiro, graduado em Educação Física, atuou como docente na faculdade de Educação Física de Volta Redonda, junto com os senseis Augusto Cordeiro e Rudolf Hermany.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://benfeitoria.com/projeto/biopetrucio
+      cite: Biografia Petrucio Monteiro - Benfeitoria
+      quotation: O professor Petrucio seguiu a linha do professor Rudolf Hermanny
+      type: tertiary
+      supports: true
+      weight: low
 rank:
-  - style_id: JDP-S-1
-    rank: 1 dan
-    date: "1967"
-    sources:
-      - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
-        cite: Petrucio Monteiro (PDF)
-        quotation: Faixa preta desde 1967
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    org_id: null
-sources:
-  - uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
-    cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://benfeitoria.com/projeto/biopetrucio
-    cite: Biografia Petrucio Monteiro - Benfeitoria
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 1 dan
+  date: '1967'
+  sources:
   - uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
     cite: Petrucio Monteiro (PDF)
-    type: unknown
+    quotation: Faixa preta desde 1967
+    type: primary
     supports: true
-    weight: unknown
-  - uri: https://www.facebook.com/judopetruciomonteiro/
-    cite: Judô Petrucio Monteiro - Facebook
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: PDF document states black belt since 1967
+  org_id: null
+sources:
+- uri: https://judorio.org/nota-de-pesar-falecimento-do-sensei-petrucio-de-queiroz-monteiro/
+  cite: Nota de pesar – Falecimento do Sensei Petrucio de Queiroz Monteiro
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://benfeitoria.com/projeto/biopetrucio
+  cite: Biografia Petrucio Monteiro - Benfeitoria
+  type: tertiary
+  supports: true
+  weight: low
+- uri: https://www.judorio.org/PDF/PETRUCIO%20MONTEIRO.pdf
+  cite: Petrucio Monteiro (PDF)
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.facebook.com/judopetruciomonteiro/
+  cite: Judô Petrucio Monteiro - Facebook
+  type: tertiary
+  supports: true
+  weight: low

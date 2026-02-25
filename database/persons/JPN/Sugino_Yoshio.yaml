@@ -5,143 +5,397 @@ name:
   ja-Latn: Sugino Yoshio
   ja: 杉野嘉男
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1904-12-12"
+  date: '1904-12-12'
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 death:
-  date: "1998-06-13"
+  date: '1998-06-13'
   geo:
     name: Narutō, Chiba
     country_code: JPN
+    wikidata: Q11583522
+description:
+  en: Yoshio Sugino (杉野嘉男) was a Japanese martial artist and film choreographer. He was a direct student of Morihei Ueshiba (Aikido), Kunisaburo Iizuka (Judo), and masters of Katori Shinto-ryu. He is also known for providing sword instruction for Akira Kurosawa's film 'Seven Samurai', amongst others.
 teachers:
-  - id: JDP-31
-    style_id: JDP-S-1
+- id: JDP-31
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Studied judo under Kunisaburo Iizuka at Keio University from 1918, documented in Aikido Journal with specific details about training and Iizuka's 8th dan rank at Kodokan
+  role: student
+  interactions:
+  - place_id: JDP-P-5
     period:
       start: 1918
       end: 1919
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    role: student
-    place_id: null
-  - id: JDP-27
-    style_id: JDP-S-4
+    sources:
+    - uri: https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 1 - Aikido Journal'
+      quotation: While at Keio, he began studying judo under Kunisaburo Iizuka, an 8th dan judoist who also taught at the Kodokan.
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+      cite: Yoshio Sugino - Wikipedia
+      quotation: In particular, he studied judo under Kunisaburo Iizuka, one of Japan's top collegiate coaches at the time.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-27
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Studied aikido under Morihei Ueshiba in early 1930s, received teaching license by 1935 and opened Aikikai-affiliated dojo, documented in multiple sources
+  role: student
+  interactions:
+  - place_id: JDP-P-14
     period:
       start: 1931
       end: 1935
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    role: student
-    place_id: null
-  - id: JDP-32
-    style_id: JDP-S-6
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+      cite: Yoshio Sugino - Wikipedia
+      quotation: He met aikido's founder Morihei Ueshiba in the early 1930s, and studied aikido sufficiently to gain a teaching license and open an Aikikai-affiliated dojo by 1935.
+      type: secondary
+      supports: true
+      weight: high
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: Yoshio Sugino was a direct student of Morihei Ueshiba in the early 1930's and opened an Aikikai-affiliated dojo by 1935.
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-32
+  style_id: JDP-S-6
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Studied Katori Shinto-ryu under Iizasa Morisada (18th Soke), introduced to the style by Jigoro Kano in 1927, documented in Wikipedia and Aikido Journal
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1927
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-33
-    style_id: JDP-S-6
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+      cite: Yoshio Sugino - Wikipedia
+      quotation: Jigoro Kano, the founder of judo, introduced Sugino to the Katori Shinto-ryu school of kenjutsu in 1927.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: Encountering Katori Shinto-ryu on September 15, 1927, while still just 22 years old, Sugino opened his own dojo (including a bone-setting clinic) in the city of Kawasaki.
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-33
+  style_id: JDP-S-6
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: One of four Katori Shinto-ryu shihan (along with Kuboki Sozaemon, Ito Tanekichi, and Shiina Ichizo) dispatched to teach at Kodokan and train Sugino in Kawasaki, documented in Aikido Journal
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1927
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-34
-    style_id: JDP-S-6
+    sources:
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina to teach the style at the Kodokan. It was arranged that these four should also stop in Kawasaki on their way home, training with Sugino there on Sunday afternoons and Monday mornings.'
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-34
+  style_id: JDP-S-6
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: One of four Katori Shinto-ryu shihan (along with Tamai Narimichi, Ito Tanekichi, and Shiina Ichizo) dispatched to teach at Kodokan and train Sugino in Kawasaki, documented in Aikido Journal
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1927
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-35
-    style_id: JDP-S-6
+    sources:
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina to teach the style at the Kodokan. It was arranged that these four should also stop in Kawasaki on their way home, training with Sugino there on Sunday afternoons and Monday mornings.'
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-35
+  style_id: JDP-S-6
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: One of four Katori Shinto-ryu shihan (along with Tamai Narimichi, Kuboki Sozaemon, and Ito Tanekichi) dispatched to teach at Kodokan and train Sugino in Kawasaki, documented in Aikido Journal
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1927
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-36
-    style_id: JDP-S-7
+    sources:
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina to teach the style at the Kodokan. It was arranged that these four should also stop in Kawasaki on their way home, training with Sugino there on Sunday afternoons and Monday mornings.'
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-36
+  style_id: JDP-S-7
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Studied Yoshin Koryu jujutsu under Genro Kanaya around 1928, documented in Wikipedia with specific mention of training and reaching kyoshi level in the style
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1928
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+      cite: Yoshio Sugino - Wikipedia
+      quotation: Sugino also started studying Yoshin Koryu under Genro Kanaya around this time.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+      cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+      quotation: When he was 24, Sugino learned Yoshin koryu jujutsu from a well-known teacher. Sugino continued his study of Yoshin koryu jujutsu until he had reached the kyoshi level (a rank between renshi and hanshi).
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.judo-ch.jp/english/legend/iizuka/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/
-    type: unknown
-    supports: true
-    weight: unknown
+- rank: 4th dan
+  date: '1927'
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Achieved 4th dan in judo by 1927, documented in Aikido Journal with specific details about his judo career and remaining undefeated until earning this rank
+  sources:
   - uri: https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/
-    type: unknown
+    cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 1 - Aikido Journal'
+    quotation: From then until earning his 4th dan, Sugino remained undefeated. Even in elimination-type series he would inevitably wind up first or at least in a draw with the last opponent.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  granted_by: JDP-31
+  org_id: null
+- rank: Teaching license
+  date: '1935'
+  rank_type: menkyo
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Received aikido teaching license from Morihei Ueshiba in 1935 and opened Aikikai-affiliated dojo, documented in multiple sources
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+    cite: Yoshio Sugino - Wikipedia
+    quotation: He met aikido's founder Morihei Ueshiba in the early 1930s, and studied aikido sufficiently to gain a teaching license and open an Aikikai-affiliated dojo by 1935.
+    type: secondary
+    supports: true
+    weight: high
   - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
-    type: unknown
+    cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+    quotation: In 1935 Sugino received a teaching license from Ueshiba and after the war Sugino's dojo became the second Aikikai branch dojo in Japan.
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3
-    type: unknown
+    weight: high
+  granted_by: JDP-27
+  org_id: null
+- rank: Shihan
+  date: '1927'
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Achieved shihan status in Katori Shinto-ryu after training under four dispatched shihan from the school, documented in Aikido Journal
+  sources:
+  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+    cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+    quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina to teach the style at the Kodokan. It was arranged that these four should also stop in Kawasaki on their way home, training with Sugino there on Sunday afternoons and Monday mornings.'
+    type: secondary
     supports: true
-    weight: unknown
+    weight: high
+  granted_by: JDP-32
+  org_id: null
+- rank: Kyoshi
+  date: '1938'
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Reached kyoshi level (between renshi and hanshi) in Yoshin Koryu jujutsu by 1938, documented in Aikido Journal
+  sources:
+  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+    cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+    quotation: Sugino continued his study of Yoshin koryu jujutsu until he had reached the kyoshi level (a rank between renshi and hanshi).
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: JDP-36
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E6%9D%89%E9%87%8E%E5%98%89%E7%94%B7
+  cite: 杉野嘉男 - ウィキペディア (Japanese Wikipedia)
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Yoshio_Sugino
+  cite: Yoshio Sugino - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ejmas.com/jcs/jcsart_svinth_0702.htm
+  cite: 'Judo: Kunisaburo Iizuka - Electronic Journals of Martial Arts and Sciences'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.judo-ch.jp/english/legend/iizuka/
+  cite: Kunisaburo Iizuka - Judo CH
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.aikidosangenkai.org/blog/interview-yoshio-sugino-katori-shinto/
+  cite: Interview with Yoshio Sugino of Katori Shinto-ryu - Aikido Sangenkai
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://aikidojournal.com/2018/10/08/the-last-swordsman-the-yoshio-sugino-story-part-1/
+  cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 1 - Aikido Journal'
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+  cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://web.archive.org/web/20111204190328/http://www.aikidojournal.com/article.php?articleID=3
+  cite: Interview with Yoshio Sugino - Aikido Journal (archived)
+  type: secondary
+  supports: true
+  weight: medium
+notes: 'Yoshio Sugino (1904-1998) was a prominent Japanese martial artist and film choreographer known for his expertise in multiple martial arts and his work on historical films.
+
+
+  **Early Life and Education:**
+
+  - Born in Naruto village, Chiba prefecture, in December 1904
+
+  - Family moved to Tokyo when he was young
+
+  - Enrolled at Keio University in 1918, where he joined multiple martial arts clubs including judo, kendo, sumo, and kyudo
+
+
+  **Judo Career:**
+
+  - Studied judo under Kunisaburo Iizuka at Keio University (1918-1919)
+
+  - Achieved 4th dan in judo by 1927, remaining undefeated until earning this rank
+
+  - Known for techniques like utsurigoshi (hip shift), urawaza (rear techniques), and kaeshiwaza (reversals)
+
+  - His friend Minoru Mochizuki commented: "Sugino? That guy has the kami [divine] in him!"
+
+
+  **Katori Shinto-ryu Training:**
+
+  - Introduced to Katori Shinto-ryu by Jigoro Kano in 1927
+
+  - Trained under four dispatched shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina
+
+  - These shihan taught at the Kodokan and also trained Sugino in Kawasaki on Sundays and Mondays
+
+  - Studied the complete curriculum including sword, iai, bo, naginata, yari, shuriken, and ryoto (two-sword) techniques
+
+
+  **Aikido Training:**
+
+  - Met Morihei Ueshiba in early 1930s (around 1931-1932)
+
+  - Received aikido teaching license in 1935
+
+  - Opened an Aikikai-affiliated dojo in 1935, which became the second Aikikai branch dojo in Japan
+
+  - Ueshiba and his son Kisshomaru would teach at Sugino''s dojo once a month
+
+
+  **Yoshin Koryu Training:**
+
+  - Studied Yoshin Koryu jujutsu under Genro Kanaya starting around 1928
+
+  - Reached kyoshi level (between renshi and hanshi) in the style by 1938
+
+  - Demonstrated Yoshin Koryu at the Imperial Palace around 1937-1938
+
+
+  **Film Career:**
+
+  - Provided sword instruction for Akira Kurosawa''s "Seven Samurai" (1954)
+
+  - Also worked as fencing instructor for Kurosawa''s "Hidden Fortress" and "Yojimbo"
+
+  - Did choreography for Hiroshi Inagaki''s "Samurai Trilogy"
+
+  - Known for realistic fight choreography that departed from earlier Kabuki-influenced styles
+
+
+  **Personal Life and Dojo:**
+
+  - Opened his first dojo (Kodokan Judo Shugyojo) in Kawasaki in 1927
+
+  - Ran a bone-setting clinic from his dojo, treating war-wounded after WWII
+
+  - Married twice, had multiple children
+
+  - Known for his loud voice and strict teaching style
+
+  - Wore a long beard to appear more distinguished (was nicknamed "Prince Regent" for resemblance to Prince Regent Hirohito)
+
+
+  **Later Years:**
+
+  - In 1995, at age 92, underwent successful surgery to save his arm from amputation after an artery blockage
+
+  - Continued teaching until his death in 1998 at age 93
+
+  - Remembered as one of the last living witnesses to classical Japanese martial arts traditions
+
+
+  **Philosophy:**
+
+  - Believed "Budo is kata. Kata training is everything in budo."
+
+  - Viewed modern judo as having become "nothing but a sport" with weight categories and modifications
+
+  - Valued the classical traditions for their depth and principles
+
+
+  Sugino''s life spanned nearly the entire 20th century and he trained with many of Japan''s most legendary martial artists, making him a crucial link in the transmission of classical martial arts knowledge.
+
+  Place of training originally listed as: Kawasaki; Place of training originally listed as: Kawasaki; Place of training originally listed as: Kawasaki; Place of training originally listed as: Kawasaki
+
+  '
 links:
-  - uri: https://www.wikidata.org/wiki/Q8056250
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Yoshio_Sugino
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q8056250
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Yoshio_Sugino
+  cite: DBpedia
+  type: dbpedia

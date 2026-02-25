@@ -7,59 +7,72 @@ name:
 aka:
   ja-Latn: Join Oda
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1892-03-10"
+  date: '1892-03-10'
   geo:
     name: Yamanashi Prefecture
     country_code: JPN
+    wikidata: Q132720
 death:
-  date: "1955-02-11"
+  date: '1955-02-11'
   geo:
     name: Shinjuku
     country_code: JPN
+    wikidata: Q179645
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/b/b7/J%C5%8Din_Oda.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
     cite: Japanese judoka Oda - Wikipedia
+    type: secondary
+    supports: true
+    weight: medium
+description:
+  en: Japanese judoka influential in the development of Kosen judo, known for emphasizing groundwork (ne-waza) and credited with developing sankaku-jime (triangle choke). Author of several judo books including "Judo Taikan" and "Judo wa Kakushite Susume".
 teachers:
-  - id: null
-    style_id: null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No teacher information yet, references found were not very convincing.
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    place_id: null
 rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: "1948"
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
-    sources:
-      - uri: https://judoinfo.com/oda/
-        cite: Master Tsunetane Oda - JudoInfo
-        quotation: Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third edition of Koshita Judo Wa Sushume
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    org_id: JDP-O-1
-sources:
+- style_id: JDP-S-1
+  rank: 9 dan
+  date: '1948'
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded 9th dan by Kodokan in 1948, well-documented in multiple sources including Wikipedia and JudoInfo
+  sources:
   - uri: https://judoinfo.com/oda/
     cite: Master Tsunetane Oda - JudoInfo
-    type: unknown
+    quotation: Many years later in 1948, on the occasion of his promotion to 9th Dan, Master Oda published his third edition of Koshita Judo Wa Sushume
+    type: tertiary
     supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
-    cite: Tsunetane Oda - Wikipedia
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  rank_type: dan
+  org_id: JDP-O-1
+links:
+- uri: https://www.wikidata.org/wiki/Q17627102
+  cite: Wikidata
+  type: wikidata
+sources:
+- uri: https://judoinfo.com/oda/
+  cite: Master Tsunetane Oda - JudoInfo
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Tsunetane_Oda
+  cite: Tsunetane Oda - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium

@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-30
+name:
+  pt: Academia Gracie
+  en: Gracie Academy
+classification: academy
+geo:
+  name: Rio de Janeiro
+  country_code: BRA
+  wikidata: Q8678
+sources: []

@@ -50,13 +50,21 @@
     "Confidence": "martialis:Confidence",
     "TimeInterval": "martialis:TimeInterval",
     "SourceAssertionRelation": "martialis:SourceAssertionRelation",
+    "TeacherInteraction": "martialis:TeacherInteraction",
 
     "name": {
       "@id": "schema:name",
       "@container": "@language"
     },
     "description":  {"@id": "schema:description", "@container": "@language"},
-    "nationality": "schema:nationality",
+    "nationality": {
+      "@id": "schema:nationality",
+      "@container": "@set",
+      "@context": {
+        "code": "schema:addressCountry",
+        "wikidata": { "@id": "schema:sameAs", "@type": "@id" }
+      }
+    },
 
     "birth": {
       "@id": "martialis:birthEvent",
@@ -65,8 +73,9 @@
         "geo": {
           "@id": "schema:birthPlace",
           "@context": {
-            "location": "schema:name",
-            "country_code": "schema:addressCountry"
+            "name": "schema:name",
+            "country_code": "schema:addressCountry",
+            "wikidata": { "@id": "schema:sameAs", "@type": "@id" }
           }
         }
       }
@@ -79,8 +88,9 @@
         "geo": {
           "@id": "schema:deathPlace",
           "@context": {
-            "location": "schema:name",
-            "country_code": "schema:addressCountry"
+            "name": "schema:name",
+            "country_code": "schema:addressCountry",
+            "wikidata": { "@id": "schema:sameAs", "@type": "@id" }
           }
         }
       }
@@ -89,38 +99,63 @@
     "teachers": {
       "@id": "martialis:hasTeacherAssertion",
       "@container": "@set",
-      "@type": "martialis:TeacherAssertion",
       "@context": {
+        "type": "@type",
+        "subject": { "@id": "martialis:subject", "@type": "@id" },
         "id": { "@id": "martialis:object", "@type": "@id" },
-        "period": {
-          "@id": "martialis:validDuring",
-          "@type": "martialis:TimeInterval",
+        "role": "martialis:role",
+        "style_id": { "@id": "martialis:assertedStyle", "@type": "@id" },
+        "interactions": {
+          "@id": "martialis:hasInteraction",
+          "@container": "@set",
           "@context": {
-            "start": { "@id": "martialis:startYear", "@type": "xsd:string" },
-            "end": { "@id": "martialis:endYear", "@type": "xsd:string" }
+            "place_id": { "@id": "martialis:interactionPlace", "@type": "@id" },
+            "period": {
+              "@id": "martialis:interactionPeriod",
+              "@context": {
+                "type": "@type",
+                "start": { "@id": "martialis:startYear", "@type": "xsd:gYear" },
+                "end": { "@id": "martialis:endYear", "@type": "xsd:gYear" }
+              }
+            }
           }
-        },
-        "role": "martialis:role"
+        }
       }
     },
 
     "rank": {
       "@id": "martialis:hasRankAssertion",
       "@container": "@set",
-      "@type": "martialis:RankAssertion",
       "@context": {
+        "type": "@type",
+        "subject": { "@id": "martialis:subject", "@type": "@id" },
         "style_id": { "@id": "martialis:object", "@type": "@id" },
         "rank": "martialis:rankValue",
         "rank_type": "schema:additionalType",
         "date": { "@id": "schema:datePublished", "@type": "xsd:string" },
-        "granted_by": { "@id": "martialis:grantedBy", "@type": "@id" }
+        "granted_by": { "@id": "martialis:grantedBy", "@type": "@id" },
+        "org_id": { "@id": "martialis:assertedOrg", "@type": "@id" }
+      }
+    },
+
+    "honors": {
+      "@id": "martialis:hasHonorAssertion",
+      "@container": "@set",
+      "@context": {
+        "type": "@type",
+        "subject": { "@id": "martialis:subject", "@type": "@id" },
+        "title": "martialis:honorValue",
+        "honor_type": "schema:additionalType",
+        "org_id": { "@id": "martialis:object", "@type": "@id" },
+        "granted_by": { "@id": "martialis:grantedBy", "@type": "@id" },
+        "date": { "@id": "schema:datePublished", "@type": "xsd:string" }
       }
     },
 
     "confidence": {
       "@id": "martialis:hasConfidence",
-      "@type": "martialis:Confidence",
       "@context": {
+        "type": "@type",
         "level": { "@id": "martialis:confidenceLevel", "@type": "xsd:integer" },
         "assessed_by": { "@id": "martialis:assessedBy", "@type": "@id" },
         "rationale": "martialis:confidenceRationale"
@@ -130,8 +165,8 @@
     "sources": {
       "@id": "martialis:hasEvidence",
       "@container": "@set",
-      "@type": "martialis:SourceAssertionRelation",
       "@context": {
+        "@type": "martialis:SourceAssertionRelation",
         "source_id": { "@id": "martialis:basedOnSource", "@type": "@id" },
         "uri": { "@id": "schema:url", "@type": "@id" },
         "cite": "schema:citation",
@@ -154,12 +189,10 @@
       "@context": {
         "url": { "@id": "schema:contentUrl", "@type": "@id" },
         "source": {
-          "@id": "martialis:hasEvidence",
+          "@id": "martialis:imageAttribution",
           "@context": {
             "uri": { "@id": "schema:url", "@type": "@id" },
-            "cite": "schema:citation",
-            "type": "martialis:sourceRefType",
-            "source_id": { "@id": "martialis:basedOnSource", "@type": "@id" }
+            "cite": "schema:citation"
           }
         }
       }
@@ -192,8 +225,9 @@
         "geo": {
           "@id": "schema:location",
           "@context": {
-            "location": "schema:name",
-            "country_code": "schema:addressCountry"
+            "name": "schema:name",
+            "country_code": "schema:addressCountry",
+            "wikidata": { "@id": "schema:sameAs", "@type": "@id" }
           }
         }
       }

@@ -1,0 +1,46 @@
+"@context": https://martial.is/context.jsonld
+type: Organization
+id: JDP-O-6
+name:
+  en: Portuguese Judo Federation
+  pt: Federação Portuguesa de Judo
+classification: federation
+geo:
+  name: Odivelas, Lisbon, Portugal
+  country_code: PRT
+  wikidata: Q21051370
+founded:
+  date: "1959"
+  founder_id: null
+  sources:
+    - uri: https://www.wikidata.org/wiki/Q21051370
+      cite: Wikidata entry for Portuguese Judo Federation
+      quotation: "inception: 1959"
+      type: secondary
+      supports: true
+      weight: high
+dissolved: null
+parent_org_id: null
+website: https://www.fpj.pt
+description:
+  en: National governing body for judo in Portugal, founded in 1959, member of International Judo Federation and European Judo Union.
+  pt: Federação nacional de judo em Portugal, fundada em 1959, membro da Federação Internacional de Judo e da União Europeia de Judo.
+sources:
+  - uri: https://www.wikidata.org/wiki/Q21051370
+    cite: Wikidata entry for Portuguese Judo Federation
+    quotation: "instance of: national sports governing body, judo federation; inception: 1959; sport: judo; country: Portugal; official website: https://www.fpj.pt"
+    type: secondary
+    supports: true
+    weight: high
+  - uri: https://www.fpj.pt
+    cite: Official website of Federação Portuguesa de Judo
+    type: secondary
+    supports: true
+    weight: high
+links:
+  - type: wikidata
+    uri: https://www.wikidata.org/entity/Q21051370
+tags:
+  - judo
+  - federation
+  - portugal

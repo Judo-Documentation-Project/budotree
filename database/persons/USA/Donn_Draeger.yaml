@@ -6,77 +6,110 @@ name:
 aka:
   en: Donald Frederick Draeger
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1922-04-15"
+  date: '1922-04-15'
   geo:
     name: Milwaukee, Wisconsin
     country_code: USA
+    wikidata: Q37836
 death:
-  date: "1982-10-20"
+  date: '1982-10-20'
   geo:
     name: Milwaukee, Wisconsin
     country_code: USA
+    wikidata: Q37836
 photo:
   url: https://archive.org/download/draeger/draeger.jpg
   source:
     uri: https://judoinfo.com/kata/
-    cite: Nage no Kata and Katame no Kata, by Donn F. Draeger - JudoIndo
+    cite: Nage no Kata and Katame no Kata, by Donn F. Draeger - JudoInfo
+    type: secondary
+    weight: medium
+description:
+  en: American martial artist, author, and pioneer in the study of Asian martial arts, first non-Japanese in Katori Shinto-ryu
 teachers:
-  - id: JDP-112
-    style_id: JDP-S-6
+- id: JDP-112
+  style_id: JDP-S-6
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: First non-Japanese practitioner to enter Tenshin Shoden Katori Shinto-ryu in 1967 under Risuke Otake, achieving instructor grade, as documented in Aiki-Kohai article
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1967
       end: null
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
-        cite: "Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)"
-        quotation: A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-117
-    style_id: JDP-S-17
+    - uri: http://aiki-kohai.over-blog.com/2018/08/chronique-abregee-de-donn-f.draeger.html
+      cite: 'Tatsusjin : la chronique abrégée de Donn F. Draeger (Aïki-Kohaï)'
+      quotation: A partir de 1967, Il sera ensuite la premier pratiquant non japonais à entrer dans l'école Tenshin shoden Katori Shinto ryu alors sous la direction du célèbre Risuke Otake shihan, achevant son parcours dans cette école par l'obtention d'un grade d'instructeur.
+      type: tertiary
+      supports: true
+      weight: medium
+- id: JDP-117
+  style_id: JDP-S-17
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Trained in Chinese martial arts (xingyiquan and baguazhang) under Wang Shujin at Meiji Shrine in Japan, as documented in KogenBudo article
+  role: student
+  interactions:
+  - place_id: JDP-P-17
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://kogenbudo.org/i-htm/
-        cite: "Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)"
-        quotation: There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://kogenbudo.org/i-htm/
+      cite: 'Donn Draeger & Robert Smith: Their Intersection Concerning Chinese Martial Arts (KogenBudo)'
+      quotation: There was a famous xingyiquan and baguazhang teacher in Japan in those days, named Wang Shujin (...) Donn (and a number of other of his associates) began training with Wang on the grounds of the Meiji Shrine (...)
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No specific rank information available in sources; known for instructor grade in Katori Shinto-ryu but specific rank details not documented
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Donn_F._Draeger
+  cite: English Wikipedia - Donn F. Draeger biography
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://budojapan.com/feature-articles/donn-f-draeger-the-pioneer/
+  cite: 'Budo Japan article - Donn F. Draeger: The Pioneer'
+  type: secondary
+  supports: true
+  weight: medium
+links:
+- uri: https://www.wikidata.org/wiki/Q5294258
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Donn_F._Draeger
+  cite: DBpedia
+  type: dbpedia
+notes: 'Donn F. Draeger (1922-1982) was an American martial artist, author, and pioneer in the study of Asian martial arts.
+
+  He served in the US Marine Corps during World War II and the Korean War, achieving the rank of lieutenant colonel.
+
+  In 1967, he became the first non-Japanese practitioner to enter the Tenshin Shoden Katori Shinto-ryu school under Risuke Otake.
+
+  He also trained in Chinese martial arts (xingyiquan and baguazhang) under Wang Shujin at Meiji Shrine in Japan.
+
+  Draeger was a prolific author who wrote extensively about martial arts, co-founding the International Hoplology Society.
+
+  He played a key role in introducing Asian martial arts to Western audiences through his writing and teaching.
+
+  He held black belts in judo, karate, and kendo, and was known for his rigorous academic approach to martial arts studies.
+
+  '

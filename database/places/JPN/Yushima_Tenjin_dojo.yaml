@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-13
+name:
+  en: Yushima Tenjin dojo
+  ja-Latn: Yushima Tenjin dōjō
+classification: dojo
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+sources: []

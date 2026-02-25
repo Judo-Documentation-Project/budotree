@@ -5,117 +5,158 @@ name:
   ja-Latn: Tsunako Miyake
   ja: 三宅綱子
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1926
   geo:
     name: null
-    country_code: null
+    country_code: JPN
+    wikidata: Q17
 death:
   date: null
   geo:
     name: null
-    country_code: null
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-26
-    style_id: JDP-S-4
+- id: JDP-26
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Explicitly mentioned as one of Tomiki Sensei's three top students in Aikido Journal interview with Hiroaki Kogure Sensei
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
-        cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
-        quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-26
-    style_id: JDP-S-1
+    - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
+      cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
+      quotation: Tomiki Sensei had three top students. they were Hideo Oba, Senta Yamada, and Tsunako Miyake Sensei.
+      type: secondary
+      supports: true
+      weight: high
+- id: JDP-26
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Mentioned in interview extracts discussing meeting Tomiki sensei at the Kodokan and the importance of training both judo and aikido together
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: null
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
-        cite: "MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba’s Aikido)"
-        quotation: Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+    - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
+      cite: 'MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba''s Aikido)'
+      quotation: Then, I met Tomiki sensei at the Kodokan (...) Now that he is gone, I think that it is very important for us to understand his idea, that to improve judo we must train in judo and aikido together.
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-4
-    rank: 8 dan
-    date: null
-    granted_by: JDP-26
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    org_id: null
-  - style_id: JDP-S-1
-    rank: 7 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: null
-    rank: 7 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-sources:
-  - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.dentonaikido.com/instructor.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Karl_Geis
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-4
+  rank: 8 dan
+  date: null
+  granted_by: JDP-26
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 8 dan in Tomiki Aikido mentioned in database entry of Karl Geiss
+  sources:
   - uri: https://www.karlgeis.com/his-resume
-    type: unknown
+    cite: Karl Geis martial arts resume listing Miyake Tsunako as 8th Dan teacher
+    quotation: I spent extensive time spent with Miyake, Tsunako Sensei, 8th Dan and Inoue, Takeshi Sensei extensively studying Tomiki Aikido in the early 70's in Japan.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+- style_id: JDP-S-1
+  rank: 7 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: 7 dan in Kodokan Judo confirmed by Karl Geis resume which lists 'Miyake, Tsunako Sensei, 7th Dan' among his Kodokan teachers
+  sources:
+  - uri: https://www.karlgeis.com/his-resume
+    cite: Karl Geis martial arts resume listing Miyake Tsunako as 7th Dan Kodokan teacher
+    quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: Miyake, Tsunako Sensei, 7th Dan'
+    type: secondary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-1
+- style_id: null
+  rank: 7 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 7 dan rank mentioned in blog research but style not specified; possibly refers to jodo based on blog mention of '7-dan in jodo'
+  sources:
+  - uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
+    cite: Blog research on Miyake Tsunako by Erik the Strange
+    quotation: She's known for massage and shiatsu, has 5-dan in judo, 6-dan in aikido, 7-dan in jodo, tai chi chuan instructor.
+    type: tertiary
+    supports: true
+    weight: medium
+  granted_by: null
+sources:
+- uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
+  type: tertiary
+  supports: true
+  weight: low
+- uri: https://tomikiaikido.blogspot.com/2010/01/miyake-cultural-treasure.html
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20120320033257/http://homepage3.nifty.com/-samidare-/ennkaku3.html
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two/
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://www.dentonaikido.com/instructor.html
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://www.youtube.com/watch?v=K__3OoJ_hhM
+  type: tertiary
+  supports: true
+  weight: low
+- uri: https://en.wikipedia.org/wiki/Karl_Geis
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.karlgeis.com/his-resume
+  type: secondary
+  supports: true
+  weight: high
+description:
+  en: Prominent female Japanese martial artist and one of Kenji Tomiki's three top students. Known for expertise in multiple arts including Tomiki Aikido, Kodokan Judo, Jodo, and Tai Chi. Taught seminars in the United States and was listed as a primary influence by American judoka Karl Geis.
+notes: '- Considered one of Tomiki Sensei''s three top students alongside Hideo Oba and Senta Yamada
+
+  - Mentioned in Karl Geis''s resume as both 7th dan (Kodokan Judo) and 8th dan (Tomiki Aikido) teacher
+
+  - Blog research mentions 5-dan in judo, 6-dan in aikido, 7-dan in jodo, and tai chi instructor qualifications
+
+  - Taught seminars in the United States (Houston, Texas in 1988, 1992, 1997, 2007)
+
+  - Subject of myth about being a "Living National Treasure" which was investigated and debunked in blog research
+
+  - Reportedly worked as security for Japanese royal family after WWII
+
+  - Graduated from Nihon Taiiku Daigaku (Japan Physical Education College) and worked as PE teacher
+
+  - Later focused on shiatsu and "Health Budo" (健康武道)
+
+  '

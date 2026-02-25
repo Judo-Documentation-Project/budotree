@@ -7,80 +7,146 @@ name:
 aka:
   ja-Latn: Okano Kotaru
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1885-04-24"
+  date: '1885-04-24'
   geo:
-    name: Tonoshō
+    name: Tonoshō, Shozu District, Kagawa Prefecture
     country_code: JPN
+    wikidata: Q1349486
 death:
-  date: "1967-06-02"
+  date: '1967-06-02'
   geo:
-    name: null
+    name: Japan
     country_code: JPN
+    wikidata: Q17
+description:
+  en: Japanese judoka and educator, prominent figure in "高専柔道" (Technical College Judo). Served as instructor at Sixth Higher School, Eighth Higher School, and Nagoya University. Author of "学生柔道の伝統" (Student Judo Tradition). Posthumously awarded 10th dan in judo.
 teachers:
-  - style_id: JDP-S-3
+- style_id: JDP-S-3
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Studied Tenjin Shinyo-ryu and Muso-ryu jujutsu before Kodokan, specific teachers not identified in database
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    id: null
-    place_id: null
-  - id: JDP-42
-    style_id: JDP-S-9
+    sources:
+    - uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+      cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+      quotation: 17歳の頃より天神真楊流柔術・無双流柔術を学び
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-42
+  style_id: JDP-S-9
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as student of Hajime Isogai at Dai Nippon Butoku Kai Martial Arts Teacher Training School
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 0
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 0"
-    role: student
-    place_id: null
-  - id: JDP-43
-    style_id: JDP-S-1
+    sources:
+    - uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+      cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+      quotation: この武術教員養成所の柔道教授は、磯貝一、永岡秀一らであった。岡野も磯貝・永岡を師と仰ぎ
+      type: primary
+      supports: true
+      weight: high
+    - uri: https://www.wikidata.org/wiki/Q17120087
+      cite: Yoshitaro Okano (Q17120087) - Wikidata
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-43
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Enrolled at Kodokan in 1906, studied under Kodokan instructors
+  role: student
+  interactions:
+  - place_id: JDP-P-9
     period:
       start: 1906
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
-  - id: JDP-44
-    style_id: JDP-S-1
+    sources:
+    - uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+      cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+      quotation: 20歳の時に講道館へ入門する
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-44
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Documented as student of Nagaoka Shuichi at Dai Nippon Butoku Kai Martial Arts Teacher Training School
+  role: student
+  interactions:
+  - place_id: JDP-P-9
     period:
-      start: 1906
+      start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
-    role: student
-    place_id: null
+    sources:
+    - uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+      cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+      quotation: この武術教員養成所の柔道教授は、磯貝一、永岡秀一らであった。岡野も磯貝・永岡を師と仰ぎ
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: "1967-06-02"
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: '1967-06-02'
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Posthumously awarded 10th dan by Kodokan on date of death, well-documented in Kodokan archives and multiple sources
+  sources:
+  - uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+    cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+    quotation: 1967（昭和42）年6月2日、岡野は講道館より十段位を贈られ、そして同日82歳でこの世を去った。
+    type: primary
+    supports: true
+    weight: high
+  granted_by: null
+  org_id: JDP-O-1
 sources:
-  - uri: http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E7%84%A1%E7%9B%B8%E6%B5%81
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://web.archive.org/web/20231204230555/http://kodokanjudoinstitute.org/doctrine/palace/yoshitaro-okano/
+  cite: 岡野好太郎 | 講道館 (Kodokan Judo Institute)
+  quotation: 1885（明治18）年、香川県小豆郡土庄(とのしょう)村に生まれ。17歳の頃より天神真楊流柔術・無双流柔術を学び、3年後、20歳の時に講道館へ入門する。
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.wikidata.org/wiki/Q17120087
+  cite: Yoshitaro Okano (Q17120087) - Wikidata
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://dl.ndl.go.jp/info:ndljp/pid/2471253
+  cite: 岡野好太郎『学生柔道の伝統 -高専大会をめぐりて-』 (National Diet Library)
+  type: primary
+  supports: true
+  weight: high
+- uri: https://ja.wikipedia.org/wiki/%E9%AB%98%E5%B0%82%E6%9F%94%E9%81%93
+  cite: 高専柔道 - Wikipedia (Technical College Judo)
+  quotation: 岡野好太郎（六高、八高、名古屋高商）
+  type: secondary
+  supports: true
+  weight: medium
+notes: Born in Tonoshō, Shozu District, Kagawa Prefecture. Studied Tenjin Shinyo-ryu and Muso-ryu jujutsu at age 17 before enrolling at Kodokan at age 20 (1906). Attended Dai Nippon Butoku Kai Martial Arts Teacher Training School as first-year student. Career included positions at Dai Nippon Butoku Kai, Okayama Prefectural Police, Sixth Higher School, Eighth Higher School, and Nagoya University. Known for expertise in ground techniques (ne-waza) and contributions to student judo. 10th dan was awarded posthumously on the date of his death.
+links:
+- uri: https://www.wikidata.org/wiki/Q17120087
+  type: wikidata

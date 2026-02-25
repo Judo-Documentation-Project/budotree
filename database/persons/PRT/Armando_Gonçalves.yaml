@@ -3,8 +3,11 @@ type: Person
 id: JDP-76
 name:
   pt: Armando Gonçalves
+description:
+  pt: Professor português de ju-jutsu, aluno de Hirano Yuzo, instrutor da Polícia de Segurança Pública do Porto em 1936, autor dos livros "A Defesa na Rua" (1914), "O prazer de nadar" (1939) e "O Fraco Vence o Forte" (1941, 2ª ed. 1947)
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
   date: null
   geo:
@@ -19,57 +22,65 @@ photo:
   url: https://archive.org/download/armando_goncalves/armando_goncalves.png
   source:
     uri: http://id.bnportugal.gov.pt/bib/catbnp/735884
-    cite: "GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942."
+    cite: 'GONÇALVES, Armando. Opiniões do meu amigo Fabrício: crónicas acêrca da Educação Física e dos Desportos. 1942.'
 teachers:
-  - id: JDP-77
-    style_id: JDP-S-14
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+- id: JDP-77
+  style_id: JDP-S-14
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented student of Hirano Yuzo, mentioned in his book 'O Fraco Vence o Forte' (1941) with specific quotation about being former disciple of Japanese professor Hirano
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
     sources:
-      - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
-        cite: GONÇALVES, Armando; O fraco vence o forte. 1941
-        quotation: Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
+      cite: GONÇALVES, Armando; O fraco vence o forte. 1941
+      quotation: Ex-discípulo do Professor japonês, Hirano (...) O nosso saudoso ex-professor Hirano não tinha admiração nenhuma pelo sistema Kano
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-14
+  rank: Professor de ju-jutsu
+  date: null
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Recognized as professor of ju-jutsu based on teaching Porto Police in 1936 and authorship of instructional books
+  sources:
+  - uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    cite: Os nossos Fundadores - Clube de Judo do Porto
+    quotation: Armando Gonçalves ministrou aulas de Técnicas de Defesa Pessoal e de JuJutsu柔術 à Polícia de Segurança Pública do Porto, a convite do seu Comandante, Coronel João Nepomuceno Namorado de Aguiar
+    type: secondary
+    supports: true
+    weight: medium
+  granted_by: null
+  org_id: null
+notes: Professor de ju-jutsu no Porto, aluno do primeiro professor japonês de ju-jutsu em Portugal, Hirano Yuzo, que morreu afogado na praia de Santa Cruz em 1915. Foi professor de Manuel Reis, fundador do Círculo de Judo do Porto.
 sources:
-  - uri: https://judolandia.tripod.com/histport.htm
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.fjjdap.pt/jujitsu/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.ungoshin.pt/correa-pereira-historia-budo
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
-    cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://judolandia.tripod.com/histport.htm
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.fjjdap.pt/jujitsu/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.ungoshin.pt/correa-pereira-historia-budo
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+  cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
+  type: primary
+  supports: true
+  weight: high

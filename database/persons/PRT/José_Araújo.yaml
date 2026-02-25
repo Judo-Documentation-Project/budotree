@@ -6,12 +6,14 @@ name:
 aka:
   pt: José Manuel da Silva Araújo
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1955"
+  date: '1955'
   geo:
     name: Lisboa
     country_code: PRT
+    wikidata: Q597
 death:
   date: null
   geo:
@@ -22,129 +24,140 @@ photo:
   source:
     uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
     cite: Aikido Marcial Dôjo Clube - Mestre José Araújo
+    type: secondary
+    weight: medium
+description:
+  en: Portuguese aikido practitioner who started training in 1966 at Academia de Budo, making him one of the earliest Portuguese aikido practitioners still active. Student of Carlos Pereira, Fragoso Fernandes, and Leopoldo Ferreira.
+  pt: Praticante português de aikido que iniciou o treino em 1966 na Academia de Budo, sendo um dos primeiros praticantes portugueses de aikido ainda ativos. Aluno de Carlos Pereira, Fragoso Fernandes e Leopoldo Ferreira.
 teachers:
-  - id: JDP-81
-    style_id: JDP-S-5
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- id: JDP-81
+  style_id: JDP-S-5
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Carlos Pereira (JDP-81) from 1966, mentioned in interview with Pedro Escudeiro (2000) stating 'O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts'
+  role: student
+  interactions:
+  - place_id: JDP-P-20
     period:
       start: 1966
       end: null
     sources:
-      - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
-        cite: Aikido Marcial Dôjo Clube - Mestre José Araújo
-        quotation: Inicia a prática do Aikido e Karatedo em 1966, na Academia de Budo, com a idade de 10 anos, sendo seus professores Carlos Pereira, aluno de Mestre Georges Stobbaerts, e Fragoso Fernandes, aluno de Pires Martins, introdutor do Karatedo em Portugal.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-        cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
-        quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-84
-    style_id: JDP-S-4
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
+      cite: Aikido Marcial Dôjo Clube - Mestre José Araújo
+      quotation: Inicia a prática do Aikido e Karatedo em 1966, na Academia de Budo, com a idade de 10 anos, sendo seus professores Carlos Pereira, aluno de Mestre Georges Stobbaerts, e Fragoso Fernandes, aluno de Pires Martins, introdutor do Karatedo em Portugal.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+      quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-84
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Fragoso Fernandes (JDP-84) from 1966, mentioned in interview with Pedro Escudeiro (2000) stating 'o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate'
+  role: student
+  interactions:
+  - place_id: JDP-P-20
     period:
       start: 1966
       end: null
     sources:
-      - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-        cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
-        quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-85
-    style_id: JDP-S-4
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+      quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-85
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Leopoldo Ferreira (JDP-85) from 1973, mentioned in interview with Pedro Escudeiro (2000) and confirmed by Leopoldo Ferreira in separate interview stating 'Quando o José Araújo recomeçou a praticar já estava eu a dar aulas, portanto, foi por volta de 1973'
+  role: student
+  interactions:
+  - place_id: JDP-P-20
     period:
       start: 1973
       end: null
     sources:
-      - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-        cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
-        quotation: Foi o Leopoldo Ferreira (...) Mas quem ficou na Academia, em permanência, a dar aulas de Aikido foi o Leopoldo Ferreira.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-        cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
-        quotation: Quando o José Araújo recomeçou a praticar já estava eu a dar aulas, portanto, foi por volta de 1973, creio.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+      quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
+      type: primary
+      supports: true
+      weight: high
+    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+      quotation: Quando o José Araújo recomeçou a praticar já estava eu a dar aulas, portanto, foi por volta de 1973, creio.
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-4
-    rank: 7 dan
-    date: null
-    sources:
-      - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
-        quotation: 7º Dan Aikido UBU
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-  - style_id: JDP-S-4
-    rank: Renshi
-    date: null
-    sources:
-      - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
-        quotation: 6º Dan Aikido Dai Nippon Butokukai – Renshi
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: title
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-  - style_id: JDP-S-1
-    rank: Kyoshi
-    date: null
-    sources:
-      - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
-        quotation: 6º Dan Aikido – International Martial Arts Federation – Kyoshi
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: title
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-4
+  rank: 7 dan
+  date: null
+  sources:
+  - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+    quotation: 7º Dan Aikido UBU
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 7th dan rank mentioned on UBU professor profile page, though the page returns 404 error and needs verification
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-4
+  rank: Renshi
+  date: null
+  sources:
+  - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+    quotation: 6º Dan Aikido Dai Nippon Butokukai – Renshi
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Renshi title from Dai Nippon Butokukai mentioned on UBU professor profile page, though the page returns 404 error and needs verification
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-1
+  rank: Kyoshi
+  date: null
+  sources:
+  - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+    quotation: 6º Dan Aikido – International Martial Arts Federation – Kyoshi
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Kyoshi title from International Martial Arts Federation mentioned on UBU professor profile page,
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-    cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
+  cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+  type: primary
+  supports: true
+  weight: high
+notes: 'José Manuel da Silva Araújo (born 1955 in Lisbon) is a Portuguese aikido practitioner who started training at age 10 in 1966 at Academia de Budo. He is considered one of the earliest Portuguese aikido practitioners still active. In his 2000 interview with Pedro Escudeiro, he stated that he began with aikido under Carlos Pereira (student of Georges Stobbaerts) and karate under Fragoso Fernandes (student of Luís Pires Martins). He later trained with Leopoldo Ferreira from 1973. He has been involved with União Portuguesa de Budo and is listed as a professor at Universidade da Beira Interior (UBI), though the UBU profile page returns a 404 error. According to the interview, he considers himself "o praticante português de Aikido mais antigo, actualmente em actividade" (the oldest Portuguese aikido practitioner currently active).
+
+  '

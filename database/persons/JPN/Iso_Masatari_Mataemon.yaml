@@ -5,57 +5,71 @@ name:
   ja-Latn: Iso Masatari Mataemon
   ja: 磯又右衛門
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1790
   geo:
-    name: Matsuzaka
+    name: Matsusaka, Mie Prefecture
     country_code: JPN
+    wikidata: Q460829
 death:
   date: 1863
   geo:
-    name: Otamagaike
+    name: Otamagaike, Tokyo
     country_code: JPN
+    wikidata: Q11263230
 teachers:
-  - style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- style_id: JDP-S-3
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Studied Yoshin-ryu (楊心流) under Ichinori Oribe Giro (一柳織部義路) from 1785-1792 according to Japanese Wikipedia
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: 1785
       end: 1792
-    role: student
-    id: null
-    place_id: null
-  - confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Studied Shin no Shinto-ryu (真之神道流) under Honma Joemon Kanzan Masato (本間丈右衛門環山正遠) from 1792-1798 after first teacher's death, according to Japanese Wikipedia
+  role: student
+  id: null
+  interactions:
+  - place_id: null
     period:
       start: 1792
       end: 1798
-    role: student
-    id: null
-    place_id: null
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: null
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: http://www.tenyokai.com/history.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: http://www.tenyokai.com/history.html
+  type: tertiary
+  supports: true
+  weight: medium
+  cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E5%8F%88%E5%8F%B3%E8%A1%9B%E9%96%80
+  type: secondary
+  supports: true
+  weight: medium
+  cite: 磯又右衛門 - 日本語版ウィキペディア
+links:
+- uri: https://www.wikidata.org/wiki/Q24865226
+  cite: Wikidata
+  type: wikidata
+notes: 'According to Japanese Wikipedia: Father was Okayama Hachiroji Masayuki (岡山八郎治正興), a Kishu hanshi. Studied Yoshin-ryu under Ichinori Oribe Giro (一柳織部義路) from age 15 for 7 years, then Shin no Shinto-ryu under Honma Joemon Kanzan Masato (本間丈右衛門環山正遠) for 6 years after first teacher''s death. Founder of Tenjin Shinyo-ryu. These teachers are not currently in the database.
+
+  '

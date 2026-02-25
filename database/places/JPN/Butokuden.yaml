@@ -1,0 +1,16 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-9
+name:
+  en: Butokuden
+  ja-Latn: Butokuden
+  ja: 武徳殿
+classification: dojo
+geo:
+  name: Kyoto
+  country_code: JPN
+  wikidata: Q34600
+links:
+  - uri: https://www.wikidata.org/wiki/Q1000989
+    type: wikidata
+sources: []

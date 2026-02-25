@@ -5,17 +5,20 @@ name:
   ja-Latn: Kotani Sumiyuki
   ja: 小谷 澄之
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1903-08-03"
+  date: '1903-08-03'
   geo:
     name: Nakagawa, Aogo, Hyogo
     country_code: JPN
+    wikidata: Q130290
 death:
-  date: "1991-10-09"
+  date: '1991-10-09'
   geo:
     name: Nishinomiya, Hyogo
     country_code: JPN
+    wikidata: Q135752
 description:
   en: Sumiyuki Kotani (小谷 澄之, Kotani Sumiyuki; August 3, 1903 – October 9, 1991).  Judo ambassador who travelled around with Kano, and one of this last direct students.
 photo:
@@ -23,82 +26,86 @@ photo:
   source:
     uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
     cite: Wikipedia. Photo from collection of Dr. Clif Norgaard
+    type: secondary
+    supports: true
+    weight: medium
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented as one of Jigoro Kano's last direct students, with multiple reliable sources including Judo Info and biography book
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1921
       end: 1938
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: https://judoinfo.com/judan/
-        cite: "Judo Info: Profiles of Judo 10th Dan Holders"
-        quotation: He was one of Jigoro Kano’s direct students, and only the 7th man to receive a 10th Degree Black Belt while he was still alive.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://isbnsearch.org/isbn/9781590309162
-        cite: The Way of Judo A Portrait of Jigoro Kano and His Students
-        location: pp. 167-128
-        quotation: Kotani can be considered Kano's last direct disciple. (...) Kano often chose Kotani as a traveling instructor on his teaching tours overseas.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+    - uri: https://judoinfo.com/judan/
+      cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
+      quotation: He was one of Jigoro Kano’s direct students, and only the 7th man to receive a 10th Degree Black Belt while he was still alive.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://isbnsearch.org/isbn/9781590309162
+      cite: The Way of Judo A Portrait of Jigoro Kano and His Students
+      location: pp. 167-128
+      quotation: Kotani can be considered Kano's last direct disciple. (...) Kano often chose Kotani as a traveling instructor on his teaching tours overseas.
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: 1984
-    sources:
-      - uri: https://www.judo-ch.jp/english/legend/kotani/
-        cite: Judo Channel
-        quotation: "Sumiyuki Kotani April, 1984: 10th dan"
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://isbnsearch.org/isbn/9781590309162
-        cite: The Way of Judo A Portrait of Jigoro Kano and His Students
-        location: pp. 167-128
-        quotation: "[Kotani] was promoted to tenth dan in 1984"
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: JDP-O-1
-sources:
-  - uri: https://www.olympedia.org/athletes/59042
-    cite: "Olympedia: Sumiyuki Kotani"
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://judoinfo.com/judan/
-    cite: "Judo Info: Profiles of Judo 10th Dan Holders"
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: 1984
+  sources:
   - uri: https://www.judo-ch.jp/english/legend/kotani/
     cite: Judo Channel
-    type: unknown
+    quotation: 'Sumiyuki Kotani April, 1984: 10th dan'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
-    cite: "Wikipedia: Sumiyuki Kotani"
-    type: unknown
+    weight: medium
+  - uri: https://isbnsearch.org/isbn/9781590309162
+    cite: The Way of Judo A Portrait of Jigoro Kano and His Students
+    location: pp. 167-128
+    quotation: '[Kotani] was promoted to tenth dan in 1984'
+    type: primary
     supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded 10th dan by Kodokan in 1984, well-documented in Judo Channel and biography book
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://www.olympedia.org/athletes/59042
+  cite: 'Olympedia: Sumiyuki Kotani'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://judoinfo.com/judan/
+  cite: 'Judo Info: Profiles of Judo 10th Dan Holders'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.judo-ch.jp/english/legend/kotani/
+  cite: Judo Channel
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Sumiyuki_Kotani
+  cite: 'Wikipedia: Sumiyuki Kotani'
+  type: secondary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q982540
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Sumiyuki_Kotani
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q982540
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Sumiyuki_Kotani
+  cite: DBpedia
+  type: dbpedia

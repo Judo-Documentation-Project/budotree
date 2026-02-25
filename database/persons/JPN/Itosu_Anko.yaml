@@ -5,60 +5,76 @@ name:
   ja-Latn: Itosu Ankō
   ryu: 糸洲 安恒
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1831
   geo:
     name: Shuri, Okinawa
     country_code: JPN
+    wikidata: Q608415
 death:
-  date: "1915-03-11"
+  date: '1915-03-11'
   geo:
     name: Shuri, Okinawa
     country_code: JPN
+    wikidata: Q608415
 teachers:
-  - id: JDP-54
-    style_id: JDP-S-13
+- id: JDP-54
+  style_id: JDP-S-13
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented student of Sokon Matsumura, mentioned in multiple historical sources including Funakoshi's writings
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: 1
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 1"
     sources:
-      - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
-        quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Asato
+      quotation: In a 1934 article, Funakoshi noted that Asato and Itosu had studied karate together under Sōkon Matsumura.
+      type: secondary
+      supports: true
+      weight: medium
+      cite: Ankō Asato - Wikipedia
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- style_id: null
+  rank: pechin
+  date: null
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Low-rank Ryūkyūan Pechin (samurai class) as documented in Wikipedia biography
+  sources:
   - uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
-    type: unknown
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+    cite: Ankō Itosu - Wikipedia
+    quotation: A low-rank Ryūkyūan Pechin, Itosu was small in stature, shy, and introverted as a child.
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Ank%C5%8D_Itosu
+  type: secondary
+  supports: true
+  weight: medium
+  cite: Ankō Itosu - Wikipedia
+- uri: https://web.archive.org/web/20100227032428/http://www.shotokai.jp/english/about/teacher.html
+  type: tertiary
+  supports: true
+  weight: medium
+  cite: Nihon Karate Do Shoto-kai Official Web Site - Masters
 links:
-  - uri: https://www.wikidata.org/wiki/Q527422
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Ank%C5%8D_Itosu
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q527422
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Ank%C5%8D_Itosu
+  cite: DBpedia
+  type: dbpedia
+notes: 'Considered "father of modern karate" (along with Gichin Funakoshi). Created the Pinan/Heian forms for schoolchildren. Wrote "Ten Precepts (Tode Jukun) of Karate" in 1908. Served as secretary to the last king of the Ryūkyū Kingdom. Teacher of many prominent karate masters including Gichin Funakoshi, Kenwa Mabuni, and Chōshin Chibana.
+
+  '

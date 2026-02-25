@@ -1,0 +1,14 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-34
+name:
+  pt: Paysandu Sport Club
+classification: club
+geo:
+  name: Belém
+  country_code: BRA
+  wikidata: Q20571
+links:
+  - uri: https://www.wikidata.org/wiki/Q2073099
+    type: wikidata
+sources: []

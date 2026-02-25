@@ -4,80 +4,108 @@ id: JDP-98
 name:
   en: Sergei Dashkevich
 nationality:
-  - code: RUS
-  - code: SUN
+- code: RUS
+  wikidata: Q159
+- code: SUN
+  wikidata: Q15180
 birth:
-  date: "1896-10-18"
+  date: '1896-10-18'
   geo:
     name: Petrodvorets
     country_code: RUS
+    wikidata: Q198432
 death:
-  date: "1955-03-17"
+  date: '1955-03-17'
   geo:
     name: Leningrad
     country_code: SUN
+    wikidata: Q656
 photo:
   url: https://archive.org/download/dashkevich/dashkevich.png
   source:
     uri: https://judo.ru/news/9889
+    cite: Judo.ru article with photo
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-97
-    style_id: JDP-S-1
+- id: JDP-97
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Studied judo under Vasili Oshchepkov in 1931 at instructor courses for factory and university collectives in Moscow, as documented in Judo.ru article
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1931
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://judo.ru/news/9889
-        quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-97
-    style_id: JDP-S-15
+    - uri: https://judo.ru/news/9889
+      cite: Judo.ru article - Dashkevich biography
+      quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-97
+  style_id: JDP-S-15
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Studied SAMBO under Vasili Oshchepkov in 1931 and later taught SAMBO classes where Anatoliy Rakhlin was his student from 1952, as documented in Judo.ru and TurboJudo articles
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1931
       end: null
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://judo.ru/news/9889
-        quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
-        quotation: Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://judo.ru/news/9889
+      cite: Judo.ru article - Dashkevich biography
+      quotation: В 1931 году прошёл обучение в Москве у родоначальника отечественного дзюдо Василия Сергеевича Ощепкова на курсах преподавателей дзюдо для низовых заводских и вузовских коллективов
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+      cite: TurboJudo article - 125th anniversary event
+      quotation: Вёл занятия в группе самбо, где его воспитанником с 1952 года был Анатолий Рахлин.
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No specific rank information available in sources
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://judo.ru/news/9889
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://judo.ru/news/9889
+  cite: Judo.ru article - Dashkevich biography
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://turbojudo.spb.ru/news/v-den-125letiya-so-dnya-rozhdeniya-osnovopolozhnika-leningradskogo-dzyudo-sergeya-dashkevicha-sostoyalos-pamyatnoe-meropriyatie
+  cite: TurboJudo article - 125th anniversary event
+  type: secondary
+  supports: true
+  weight: medium
+description:
+  en: Soviet judo and SAMBO practitioner, student of Vasili Oshchepkov, teacher of Anatoliy Rakhlin
+  ru: Советский мастер дзюдо и самбо, ученик Василия Ощепкова, учитель Анатолия Рахлина
+notes: 'Sergei Dashkevich (1896-1955) was a Soviet judo and SAMBO practitioner.
+
+  He studied under Vasili Oshchepkov in 1931 at instructor courses for factory and university collectives in Moscow.
+
+  He taught SAMBO classes in Leningrad, where Anatoliy Rakhlin was his student from 1952.
+
+  Dashkevich played a role in the development of judo and SAMBO in the Leningrad region.
+
+  He is considered one of the founders of Leningrad judo.
+
+  '

@@ -5,109 +5,139 @@ name:
   ja-Latn: Fukuda Keiko
   ja: 福田 敬子
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1913-04-12"
+  date: '1913-04-12'
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 death:
-  date: "2013-02-09"
+  date: '2013-02-09'
   geo:
     name: San Francisco
     country_code: USA
+    wikidata: Q62
 description:
-  en: "Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April 12, 1913 – February 9, 2013) was a Japanese-American martial artist. She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011), and was the last surviving student of Kanō Jigorō, founder of judo. She was a renowned pioneer of women's judo, together with her senpai Masako Noritomi (1913–1982) being the first woman promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted Fukuda to 9th dan.[8] She is also the first and, so far, only woman to have been promoted to 10th dan in the art of judo."
+  en: 'Keiko Fukuda (Japanese: 福田 敬子, Hepburn: Fukuda Keiko, April 12, 1913 – February 9, 2013) was a Japanese-American martial artist. She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011), and was the last surviving student of Kanō Jigorō, founder of judo. She was a renowned pioneer of women''s judo, together with her senpai Masako Noritomi (1913–1982) being the first woman promoted to 6th dan (c. 1972). In 2006 the Kodokan promoted Fukuda to 9th dan.[8] She is also the first and, so far, only woman to have been promoted to 10th dan in the art of judo.'
 photo:
   url: https://assets.change.org/photos/7/kx/tf/pUKxTfavKIGEOvT-800x450-noPad.jpg
   source:
     uri: https://www.change.org/p/uemura-haruki-demand-10th-degree-black-belt-for-keiko-fukuda
     cite: Change.org - Keiko Fukuda 10th dan petition
+    type: tertiary
+    weight: low
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: While a very popular assertion, more direct proof is needed and Lance Gatling's analysis stands.
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1935
       end: 1966
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
-        cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
-        quotation: Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
-  - id: JDP-11
-    style_id: JDP-S-1
+    - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+      cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+      quotation: Keiko Fukuda is the granddaughter of Professor Jigoro Kano's first jujitsu instructor. She began studying the art at Professor Kano's request at age 21 and since that time has taught in Australia,Canada, the Philippines, the U.S. and, of course, the Kodokan where she has received all her promotions (...) In the Kodokan, sometimes we would sit around the mat with Professor Kano and just talk and ask questions so we would know what each other was thinking
+      type: primary
+      supports: true
+      weight: high
+    - uri: https://kanochronicles.com/2024/04/09/was-fukuda-keiko-sensei-a-direct-student-of-kano-shihan-how-did-kano-shihan-approach-judo-training-for-women/
+      cite: Was Fukuda Keiko sensei a "direct student" of Kanō shihan? How did Kanō shihan approach jūdō training for women?(The Kano Chronicles© 嘉納歴代©)
+      quotation: Fukuda sensei devoted her life to judo, but was likely not a 'direct student' of Kanō shihan in any reasonable sense of the term.
+      type: secondary
+      supports: false
+      weight: high
+- id: JDP-11
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented historical relationship with extensive sources
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1935
       end: 1966
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
     sources:
-      - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
-        cite: "Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33."
-        quotation: Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+    - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+      cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+      quotation: Miss Fukuda, describing her training with the late Professor Kyuzo Mifune (10th dan) (...)
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 9 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: null
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- style_id: JDP-S-1
+  rank: 9 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded by Kodokan in 2006, well-documented
+  sources:
   - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
-    type: unknown
+    cite: Keiko Fukuda - Wikipedia
+    quotation: In 2006 the Kodokan promoted Fukuda to 9th dan.
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://www.usjf.com/2018/02/keiko-fukuda/
-    type: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: null
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Awarded by USA Judo and USJF in 2011, well-documented
+  sources:
+  - uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+    cite: Keiko Fukuda - Wikipedia
+    quotation: She was the highest-ranked female judoka in history, holding the rank of 9th dan from the Kodokan (2006), and 10th dan from USA Judo (July 2011) and from the United States Judo Federation (USJF) (September 2011)
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://judoinfo.com/fukuda/
-    type: unknown
+    weight: medium
+  - uri: https://www.usjf.com/keiko-fukuda/
+    cite: Keiko Fukuda | United States Judo Federation
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://stephdavis.co/blog/a-living-legend-judo-master-keiko-fukuda/
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://en.wikipedia.org/wiki/Keiko_Fukuda
+  cite: Keiko Fukuda - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.usjf.com/keiko-fukuda/
+  cite: Keiko Fukuda | United States Judo Federation
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://judoinfo.com/fukuda/
+  cite: 'A Lifetime of Judo: Keiko Fukuda | Judo Info'
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://books.google.pt/books?id=fNYDAAAAMBAJ&pg=PA29
+  cite: 'Johnson, G. (1974): «A single reed that bends gracefully in the wind.» Black Belt, 12(6):28–33.'
+  type: primary
+  supports: true
+  weight: high
 links:
-  - uri: https://www.wikidata.org/wiki/Q460890
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Keiko_Fukuda
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q460890
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Keiko_Fukuda
+  cite: DBpedia
+  type: dbpedia

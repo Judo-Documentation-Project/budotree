@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-31
+name:
+  pt: Academia França de Jiu-jitsu
+classification: academy
+geo:
+  name: Belém
+  country_code: BRA
+  wikidata: Q20571
+sources: []

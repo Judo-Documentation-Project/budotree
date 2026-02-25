@@ -5,47 +5,73 @@ name:
   ja-Latn: Iso Masatomo
   ja: 磯正智
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1818
   geo:
-    name: null
-    country_code: null
+    name: Tokyo, Japan
+    country_code: JPN
+    wikidata: Q1490
 death:
   date: 1881
   geo:
-    name: null
-    country_code: null
+    name: Tokyo, Japan
+    country_code: JPN
+    wikidata: Q1490
 teachers:
-  - id: JDP-3
-    style_id: JDP-S-3
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-3
+  style_id: JDP-S-3
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Adopted son and successor as 3rd generation headmaster of Tenjin Shinyo-ryu, documented in Japanese Wikipedia
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+      type: secondary
+      supports: true
+      weight: medium
+      cite: 磯正智 - 日本語版ウィキペディア
+      quotation: 天神真楊流の宗家三代目で磯又右衛門正智を名乗った。養子であり短身痩躯の体格であったと伝えられている。
+links:
+- uri: https://www.wikidata.org/wiki/Q3297163
+  cite: Wikidata
+  type: wikidata
+notes: '3rd generation headmaster (宗家三代目) of Tenjin Shinyo-ryu. Adopted son of previous headmaster Iso Masatari Mataemon (JDP-3). Also known as Matsunaga Seizaemon (松永清左衛門). Described as short and thin (短身痩躯). Teacher of Jigoro Kano (嘉納治五郎), Inoue Keitaro (井上敬太郎), and others. Buried at Ryogen-ji Temple in Matsugaya, Taito Ward, Tokyo.
+
+  '
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: http://www.tenyokai.com/history.html
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-3
+  rank: soke
+  date: null
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 3rd generation headmaster (宗家三代目) of Tenjin Shinyo-ryu, documented in Japanese Wikipedia
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
-    type: unknown
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+    cite: 磯正智 - 日本語版ウィキペディア
+    quotation: 天神真楊流の宗家三代目で磯又右衛門正智を名乗った。本名松永清左衛門である。
+  granted_by: null
+  org_id: null
+sources:
+- uri: http://www.tenyokai.com/history.html
+  type: tertiary
+  supports: true
+  weight: medium
+  cite: TENYOKAI INTERNATIONAL - History of Tenjin Shinyo-ryu
+- uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E6%AD%A3%E6%99%BA
+  type: secondary
+  supports: true
+  weight: medium
+  cite: 磯正智 - 日本語版ウィキペディア

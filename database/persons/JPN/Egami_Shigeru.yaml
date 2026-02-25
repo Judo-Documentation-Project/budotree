@@ -5,78 +5,86 @@ name:
   ja-Latn: Egami Shigeru
   ja: 江上 茂
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1912-12-07"
+  date: '1912-12-07'
   geo:
     name: Ōmuta
     country_code: JPN
+    wikidata: Q385623
 death:
-  date: "1981-01-08"
+  date: '1981-01-08'
   geo:
     name: Tokyo
     country_code: JPN
+    wikidata: Q1490
 photo:
   url: https://upload.wikimedia.org/wikipedia/en/f/f4/Egami.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Shigeru_Egami#/media/File:Egami.jpg
 teachers:
-  - id: JDP-41
-    style_id: JDP-S-5
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+- id: JDP-41
+  style_id: JDP-S-5
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Funakoshi with multiple reliable sources
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1930
       end: null
     sources:
-      - uri: https://shotokai.com/shigeru-egami/
-        cite: Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)
-        quotation: Egami met Master Funakoshi when he was 18 years old, the moment he began studying at the famous Waseda University, there he helped to establish its Karate Do Club. (...)  He followed his Master together with Yoshitaka Funakoshi and Takeshi Shimoda all around Japan staging exhibitions, trying to expand the knowledge of Karate-do as a Japanese martial art.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://shotokai.com/shigeru-egami/
+      cite: Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)
+      quotation: Egami met Master Funakoshi when he was 18 years old, the moment he began studying at the famous Waseda University, there he helped to establish its Karate Do Club. (...)  He followed his Master together with Yoshitaka Funakoshi and Takeshi Shimoda all around Japan staging exhibitions, trying to expand the knowledge of Karate-do as a Japanese martial art.
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    rank_type: other
-    sources: []
-    granted_by: null
-    org_id: null
+- style_id: null
+  rank: null
+  date: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: No specific rank information available in sources
+  rank_type: other
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://www.shotokai.jp/en_about/en_teacher/en_egami/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Shigeru_Egami
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E6%B1%9F%E4%B8%8A%E8%8C%82
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://budojapan.com/karate/20230608se/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://shotokai.com/shigeru-egami/
-    cite: Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.shotokai.jp/en_about/en_teacher/en_egami/
+  cite: Shigeru Egami | 日本空手道 松濤會 - Shoto-kai
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://en.wikipedia.org/wiki/Shigeru_Egami
+  cite: Shigeru Egami - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E6%B1%9F%E4%B8%8A%E8%8C%82
+  cite: 江上茂 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://budojapan.com/karate/20230608se/
+  cite: Biography of Master Shigeru EGAMI | BUDO JAPAN - Japanese martial-arts
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://shotokai.com/shigeru-egami/
+  cite: Master Shigeru Egami, O-sensei’s successor (1912-1981) (Shotokai Encyclopedia)
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q1246030
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Shigeru_Egami
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q1246030
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Shigeru_Egami
+  cite: DBpedia
+  type: dbpedia

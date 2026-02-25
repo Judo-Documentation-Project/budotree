@@ -4,7 +4,8 @@ id: JDP-88
 name:
   pt: Mário Aguilar
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
   date: null
   geo:
@@ -20,66 +21,75 @@ photo:
   source:
     uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
     cite: Clube Desportivo Marista de Carcavelos (Facebook)
+    type: tertiary
+    weight: low
 teachers:
-  - id: JDP-61
-    style_id: JDP-S-1
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+- id: JDP-61
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Student of António Roquete at Judo Clube do Estoril in 1981-1982, based on personal communication listing teachers in chronological order
+  role: student
+  interactions:
+  - place_id: JDP-P-24
     period:
       start: 1981
       end: 1982
     sources:
-      - uri: https://github.com/Judo-Documentation-Project/budotree
-        cite: Mário Aguilar, private communication, 2021
-        quotation: "... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-128
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://github.com/Judo-Documentation-Project/budotree
+      cite: Mário Aguilar, private communication, 2021
+      quotation: '... os meus mestres por ordem cronológica foram: (...) António Roquete (...) no Judo Clube do Estoril - 1 ano'
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-128
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Student of Petrúcio Monteiro from 1980 to mid-1981, based on personal communication listing Brazilian master as first teacher in chronological order
+  role: student
+  interactions:
+  - place_id: JDP-P-36
     period:
       start: 1980
       end: 1981
     sources:
-      - uri: https://github.com/Judo-Documentation-Project/budotree
-        cite: Mário Aguilar, private communication, 2021
-        quotation: "... os meus mestres por ordem cronológica foram: (...) Mestre Petrúcio Monteiro (Brasil) - 1980 a 1981 e meio"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://github.com/Judo-Documentation-Project/budotree
+      cite: Mário Aguilar, private communication, 2021
+      quotation: '... os meus mestres por ordem cronológica foram: (...) Mestre Petrúcio Monteiro (Brasil) - 1980 a 1981 e meio'
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 2 dan
-    date: null
-    sources:
-      - uri: https://github.com/Judo-Documentation-Project/budotree
-        cite: Mário Aguilar, private communication, 2021
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 2 dan
+  date: null
+  sources:
+  - uri: https://github.com/Judo-Documentation-Project/budotree
+    cite: Mário Aguilar, private communication, 2021
+    type: primary
+    supports: true
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 2nd dan rank in judo mentioned in personal communication, but specific date and awarding organization not provided
+  granted_by: null
+  org_id: JDP-O-6
 sources:
-  - uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://cdmc.marista-carcavelos.org/judo/
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://www.facebook.com/CDMaristaCarcavelos/photos/a.122820509363828/125020709143808/?type=3
+  cite: Clube Desportivo Marista de Carcavelos (Facebook)
+  type: tertiary
+  supports: true
+  weight: low
+- uri: https://cdmc.marista-carcavelos.org/judo/
+  cite: Judo - Clube Desportivo Marista de Carcavelos
+  type: tertiary
+  supports: true
+  weight: low
+description:
+  pt: Judoca português e treinador no Clube Desportivo Marista de Carcavelos
+notes: Treinador de judo no Clube Desportivo Marista de Carcavelos, aluno de Petrúcio Monteiro (1980-1981) e António Roquete (1981-1982)

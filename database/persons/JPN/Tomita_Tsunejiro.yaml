@@ -5,50 +5,74 @@ name:
   ja-Latn: Tomita Tsunejirō
   ja: 富田 常次郎
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1864-02-28"
+  date: '1865-02-28'
   geo:
-    name: Namazu, Shizuoka
+    name: Numazu, Shizuoka
     country_code: JPN
+    wikidata: Q241037
 death:
-  date: "1937-01-13"
+  date: '1937-01-13'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: First student of Jigoro Kano at Kodokan in 1882, well-documented as the first person to enroll at the Kodokan and receive shodan rank in 1883
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1882
       end: null
-    role: student
-    place_id: JDP-P-1
+    sources:
+    - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+      cite: Japanese Wikipedia - Tomita Tsunejirō
+      quotation: 青年期より講道館創始者の嘉納治五郎と寝食を共にし、同館で最初の入門者・初段位取得者となって
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 7 dan
-    date: 1937
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
-sources:
+- style_id: JDP-S-1
+  rank: 7 dan
+  date: 1927
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Promoted to 7th dan by Kodokan on 1927-11-04, as documented in Japanese Wikipedia and Kodokan records
+  sources:
   - uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
-    type: unknown
+    cite: Japanese Wikipedia - Tomita Tsunejirō
+    quotation: 7段（1927年11月4日）
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+  granted_by: null
+  org_id: JDP-O-1
+description:
+  en: Japanese judoka, first student of Jigoro Kano at Kodokan, one of the 'Kodokan Four Heavenly Kings', promoted to 7th dan in 1927
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E5%AF%8C%E7%94%B0%E5%B8%B8%E6%AC%A1%E9%83%8E
+  cite: Japanese Wikipedia - Tomita Tsunejirō
+  quotation: 富田 常次郎（とみた つねじろう、1865年3月22日（慶応元年2月25日） - 1937年1月13日）は、日本の柔道家（講道館7段・大日本武徳会柔道範士）。旧姓：山田。青年期より講道館創始者の嘉納治五郎と寝食を共にし、同館で最初の入門者・初段位取得者となって“講道館四天王”の1人に数えられた。
+  type: secondary
+  supports: true
+  weight: medium
+notes: 'Original surname Yamada, later adopted into Tomita family. First student of Jigoro Kano at Kodokan in 1882, first person to receive shodan rank in 1883. One of the "Kodokan Four Heavenly Kings" alongside Shiro Saigo, Yoshitsugu Yamashita, and Sakujiro Yokoyama. Son Tsuneo Tomita was author of "Sugata Sanshirō". Went to USA in 1904 with Mitsuyo Maeda as part of judo demonstration team invited by President Theodore Roosevelt. Founded Tokyo Sports Club in Akasaka, Tokyo. Promoted to 7th dan in 1927 and awarded Butokukai Hanshi title.
+
+  '
 links:
-  - uri: https://www.wikidata.org/wiki/Q2672426
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Tomita_Tsunejir%C5%8D
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q2672426
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Tomita_Tsunejir%C5%8D
+  cite: DBpedia
+  type: dbpedia

@@ -5,54 +5,85 @@ name:
   ja-Latn: Isogai Hajime
   ja: 磯貝
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1871-10-26"
+  date: '1871-10-26'
   geo:
-    name: Miyazaki
+    name: Nobeoka, Miyazaki Prefecture
     country_code: JPN
+    wikidata: Q11551107
 death:
-  date: "1947-04-19"
+  date: '1947-04-19'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 teachers:
-  - id: JDP-9
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-9
+  style_id: JDP-S-1
+  confidence:
+    level: 1
+    assessed_by: JDP
+    rationale: Student of Yokoyama Sakujiro at Kodokan from 1891, as documented in Wikipedia biography, but no direct source checked
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1891
       end: null
-    role: student
-    place_id: JDP-P-1
+    sources:
+    - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+      type: secondary
+      supports: true
+      weight: medium
+      cite: Hajime Isogai - Wikipedia
+      quotation: In 1891, he moved to Tokyo and joined the Kodokan where he studied judo under Yokoyama Sakujiro.
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: "1927-12-22"
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: '1923-12-22'
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Promoted together with Shuichi Nagaoka to become the first living holders of the 10th Dan, as documented on Judo Channel website and multiple sources
+  sources:
+  - uri: https://www.judo-ch.jp/english/legend/isogai/
+    type: primary
+    supports: true
+    weight: high
+    cite: Hajime Isogai - Kodokan Judo Institute
+    quotation: On December 22, 1923, he was promoted together with Shuichi Nagaoka to become the first living holders of the 10th Dan.
+  granted_by: null
+  org_id: JDP-O-1
+- style_id: JDP-S-1
+  rank: hanshi
+  date: '1913-04-01'
+  rank_type: title
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Awarded the title of hanshi (範士) by the Dai Nippon Butoku Kai in April 1913, as documented in Japanese Wikipedia (source seems legit but not checked yet)
+  sources:
+  - uri: https://ja.wikipedia.org/wiki/%E7%A3%AF%E8%B2%9D%E4%B8%80
+    type: secondary
+    supports: true
+    weight: medium
+    cite: 磯貝一 - 日本語版ウィキペディア
+    quotation: 1913年（大正2年）4月、大日本武徳会柔道範士の称号を授与される。
+  granted_by: null
+  org_id: JDP-O-2
 sources:
-  - uri: http://kodokanjudoinstitute.org/en/doctrine/palace/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Hajime_Isogai
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://en.wikipedia.org/wiki/Hajime_Isogai
+  type: secondary
+  supports: true
+  weight: medium
+  cite: Hajime Isogai - Wikipedia
 links:
-  - uri: https://www.wikidata.org/wiki/Q11973675
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Hajime_Isogai
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q11973675
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Hajime_Isogai
+  cite: DBpedia
+  type: dbpedia

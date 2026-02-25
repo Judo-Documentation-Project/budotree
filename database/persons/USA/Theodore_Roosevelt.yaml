@@ -6,85 +6,90 @@ name:
 aka:
   en: Teddy Roosevelt
 nationality:
-  - code: USA
+- code: USA
+  wikidata: Q30
 birth:
-  date: "1858-10-27"
+  date: '1858-10-27'
   geo:
     name: Manhattan
     country_code: USA
+    wikidata: Q11299
 death:
-  date: "1919-01-06"
+  date: '1919-01-06'
   geo:
     name: Oyster Bay
     country_code: USA
+    wikidata: Q129361
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Theodore_Roosevelt_by_the_Pach_Bros.jpg/800px-Theodore_Roosevelt_by_the_Pach_Bros.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt#/media/File:Theodore_Roosevelt_by_the_Pach_Bros.jpg
+    type: secondary
+    weight: medium
 teachers:
-  - id: JDP-95
-    style_id: JDP-S-1
+- id: JDP-95
+  style_id: JDP-S-1
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Well-documented in historical article 'Professor Yamashita Goes to Washington' with specific dates March-April 1904 practicing judo three afternoons a week in the White House
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1904
       end: 1904
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
     sources:
-      - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
-        cite: Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)
-        quotation: So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor office in the White House as his workout space (...) Yamashita later said that while Roosevelt was his best pupil (...)
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - style_id: null
-    period:
-      start: null
-      end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    id: null
-    place_id: null
+    - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+      cite: Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)
+      quotation: So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor office in the White House as his workout space (...) Yamashita later said that while Roosevelt was his best pupil (...)
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 8 dan (honorary)
-    date: 2007
-    sources:
-      - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
-        quotation: The USJA made Roosevelt an 8th Degree Black Belt, an honor usually bestowed on those who have been doing Judo over 50 years and occasionally on those of distinguished leadership who have bought Judo into the international limelight.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
+- style_id: JDP-S-1
+  rank: 8 dan (honorary)
+  date: 2007
+  sources:
   - uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
-    type: unknown
+    cite: Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)
+    quotation: The USJA made Roosevelt an 8th Degree Black Belt, an honor usually bestowed on those who have been doing Judo over 50 years and occasionally on those of distinguished leadership who have bought Judo into the international limelight.
+    type: primary
     supports: true
-    weight: unknown
-  - uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://martialarts.stackexchange.com/questions/2209/what-level-of-expertise-did-theodore-roosevelt-have-in-judo
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Honorary 8th dan awarded posthumously by United States Judo Association in 2007 for his role in introducing judo to America, as documented in historical sources
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ejmas.com/jcs/jcsart_svinth1_1000.htm
+  cite: Professor Yamashita Goes to Washington (Journal of Combative Sport, Oct 2000)
+  quotation: So, during March and April 1904, Roosevelt practiced judo three afternoons a week, using a ground floor office in the White House as his workout space. Yamashita later said that while Roosevelt was his best pupil, he was also very heavy and very impetuous.
+  type: primary
+  supports: true
+  weight: high
+- uri: https://en.wikipedia.org/wiki/Theodore_Roosevelt
+  cite: Theodore Roosevelt - Wikipedia
+  quotation: Theodore Roosevelt Jr. (October 27, 1858 – January 6, 1919), also known as Teddy or T.R., was the 26th president of the United States, serving from 1901 to 1909.
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://martialarts.stackexchange.com/questions/2209/what-level-of-expertise-did-theodore-roosevelt-have-in-judo
+  cite: What Level Of Expertise Did Theodore Roosevelt Have In Judo? - Martial Arts Stack Exchange
+  quotation: Roosevelt trained judo under two instructors (John O'Brien, and Yoshiaki Yamashita) for a period of around a few months each in 1902 and 1904. The USJA in 2007 posthumously awarded Roosevelt an honorary 8th dan grade for his contribution to introducing the art to America.
+  type: tertiary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q33866
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Theodore_Roosevelt
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q33866
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Theodore_Roosevelt
+  cite: DBpedia
+  type: dbpedia
+description:
+  en: 26th President of the United States and judo practitioner
+notes: Theodore Roosevelt was the first American president to practice judo, training under Yoshiaki Yamashita in the White House during March-April 1904. He was posthumously awarded an honorary 8th dan by the United States Judo Association in 2007 for his role in introducing judo to America. As president, he was known for his "Square Deal" domestic policies, conservation efforts, and winning the Nobel Peace Prize for mediating the Russo-Japanese War.

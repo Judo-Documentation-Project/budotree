@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-18
+name:
+  en: Seinan Dojo
+classification: dojo
+geo:
+  name: Los Angeles
+  country_code: USA
+  wikidata: Q65
+sources: []

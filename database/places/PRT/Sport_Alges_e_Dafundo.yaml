@@ -1,0 +1,11 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-28
+name:
+  pt: Sport Algés e Dafundo
+classification: club
+geo:
+  name: Algés
+  country_code: PRT
+  wikidata: Q1397060
+sources: []

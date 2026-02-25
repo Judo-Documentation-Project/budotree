@@ -5,80 +5,89 @@ name:
   ja-Latn: Yamashita Yoshitsugu
   ja: 山下 義韶
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
-  date: "1865-02-16"
+  date: '1865-02-16'
   geo:
     name: Kanazawa
     country_code: JPN
+    wikidata: Q16874603
 death:
-  date: "1935-10-26"
+  date: '1935-10-26'
   geo:
-    name: null
-    country_code: null
+    name: Japan
+    country_code: JPN
+    wikidata: Q17
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/d/d6/YoshiakiYamashita.jpg
   source:
     uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu#/media/File:YoshiakiYamashita.jpg
+    type: secondary
+    weight: medium
+description:
+  en: Yoshitsugu Yamashita (1865–1935) was a Japanese judoka. He was one of the earliest disciples of Jigoro Kano and the first person to be awarded 10th dan rank in judo, posthumously in 1935. He was also the first Japanese judo master to teach judo in the United States.
+  ja: 山下義韶（やました よしつぐ、1865年2月16日 - 1935年10月26日）は、日本の柔道家。嘉納治五郎の最初期の弟子の一人で、1935年に柔道史上初めて10段を追贈された人物。また、アメリカ合衆国で柔道を指導した最初の日本人柔道家でもある。
 teachers:
-  - id: JDP-1
-    style_id: JDP-S-1
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-1
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Jigoro Kano, entered Kodokan in August 1884 as the 19th member, mentioned in multiple reliable sources including Wikipedia and Judo Channel
+  role: student
+  interactions:
+  - place_id: JDP-P-1
     period:
       start: 1884
       end: null
     sources:
-      - uri: https://www.judo-ch.jp/english/legend/yamasita/
-        cite: "Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)"
-        quotation: Yoshitsugu Yamashita was the son of an Odawara Han martial arts instructor, and he entered Kodokan in August of 1884.
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
-        quotation: In August 1884, he joined the Kodokan judo dojo of his childhood friend Kano Jigoro as its nineteenth member
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: JDP-P-1
+    - uri: https://www.judo-ch.jp/english/legend/yamasita/
+      cite: 'Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)'
+      quotation: Yoshitsugu Yamashita was the son of an Odawara Han martial arts instructor, and he entered Kodokan in August of 1884.
+      type: secondary
+      supports: true
+      weight: medium
+    - uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
+      quotation: In August 1884, he joined the Kodokan judo dojo of his childhood friend Kano Jigoro as its nineteenth member
+      type: secondary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-1
-    rank: 10 dan
-    date: null
-    sources:
-      - uri: https://www.judo-ch.jp/english/legend/yamasita/
-        cite: "Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)"
-        quotation: At the memorial ceremony held at Kodokan, Jigoro Kano posthumously awarded Mr. Yamashita the 10th Dan rank as of October 24th, making Mr. Yamashita the first holder of the Kodokan 10th Dan rank in recognition of his service.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: JDP-O-1
-sources:
-  - uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E7%BE%A9%E9%9F%B6
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-1
+  rank: 10 dan
+  date: null
+  sources:
   - uri: https://www.judo-ch.jp/english/legend/yamasita/
-    type: unknown
+    cite: 'Kodokan hall of fame: Yoshitsugu Yamashita (Judo Channel)'
+    quotation: At the memorial ceremony held at Kodokan, Jigoro Kano posthumously awarded Mr. Yamashita the 10th Dan rank as of October 24th, making Mr. Yamashita the first holder of the Kodokan 10th Dan rank in recognition of his service.
+    type: secondary
     supports: true
-    weight: unknown
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Posthumously awarded 10th dan by Jigoro Kano on October 24, 1935, making him the first holder of the Kodokan 10th dan rank, well-documented in Judo Channel and other sources
+  granted_by: null
+  org_id: JDP-O-1
+sources:
+- uri: https://en.wikipedia.org/wiki/Yamashita_Yoshitsugu
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://ja.wikipedia.org/wiki/%E5%B1%B1%E4%B8%8B%E7%BE%A9%E9%9F%B6
+  type: secondary
+  supports: true
+  weight: high
+- uri: https://www.judo-ch.jp/english/legend/yamasita/
+  type: secondary
+  supports: true
+  weight: medium
 links:
-  - uri: https://www.wikidata.org/wiki/Q3236604
-    cite: Wikidata
-    type: wikidata
-  - uri: https://dbpedia.org/page/Yamashita_Yoshitsugu
-    cite: DBpedia
-    type: dbpedia
+- uri: https://www.wikidata.org/wiki/Q3236604
+  cite: Wikidata
+  type: wikidata
+- uri: https://dbpedia.org/page/Yamashita_Yoshitsugu
+  cite: DBpedia
+  type: dbpedia

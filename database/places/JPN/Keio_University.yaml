@@ -1,0 +1,16 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-5
+name:
+  en: Keio University
+  ja-Latn: Keiō Gijuku Daigaku
+  ja: 慶應義塾大学
+classification: university
+geo:
+  name: Tokyo
+  country_code: JPN
+  wikidata: Q1490
+links:
+  - uri: https://www.wikidata.org/wiki/Q183452
+    type: wikidata
+sources: []

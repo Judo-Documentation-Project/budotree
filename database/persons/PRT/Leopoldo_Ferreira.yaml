@@ -6,14 +6,15 @@ name:
 aka:
   pt: Leopoldo António Serra Ferreira
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
   date: null
   geo:
     name: null
     country_code: null
 death:
-  date: "2014-01-06"
+  date: '2014-01-06'
   geo:
     name: null
     country_code: null
@@ -23,78 +24,83 @@ photo:
     uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
     cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
 teachers:
-  - style_id: JDP-S-4
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Misao Honda from December 1971 to August/September 1972, mentioned in 2000 interview with specific dates and details
+  role: student
+  id: JDP-87
+  interactions:
+  - place_id: JDP-P-20
     period:
       start: 1971
       end: 1972
     sources:
-      - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-        cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
-        quotation: Não, eu só comecei a praticar em 1971, mais precisamente a 30 de Dezembro de 1971, quinta-feira, às 18.30h (Risos), na Academia de Budo, com Misao Honda (...) Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972, pelo simples motivo que quando o Honda se foi embora, como eu era o aluno mais graduado, e também porque era estudante de Educação Física, o Dr. Pires Martins insistiu para que eu ficasse a dar as aulas de Aikido
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    id: JDP-87
-    place_id: null
-  - id: JDP-86
-    style_id: JDP-S-4
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+      quotation: Não, eu só comecei a praticar em 1971, mais precisamente a 30 de Dezembro de 1971, quinta-feira, às 18.30h (Risos), na Academia de Budo, com Misao Honda (...) Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972, pelo simples motivo que quando o Honda se foi embora, como eu era o aluno mais graduado, e também porque era estudante de Educação Física, o Dr. Pires Martins insistiu para que eu ficasse a dar as aulas de Aikido
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-86
+  style_id: JDP-S-4
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Georges Stobbaerts from 1972 to 1976, mentioned in both his own 2000 interview and Stobbaerts' interview confirming the teacher-student relationship
+  role: student
+  interactions:
+  - place_id: JDP-P-26
     period:
       start: 1972
       end: 1976
     sources:
-      - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-        cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
-        quotation: " Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972 (...) Portanto, durante anos, os meus fins-de-semana eram passados em Cascais a praticar Aikido. Pratiquei com o Mestre Stobbaerts talvez uns três ou quatro anos."
-        type: unknown
-        supports: true
-        weight: unknown
-      - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
-        cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
-        quotation: Nessa altura o ambiente no Aikido era muito bom, toda a gente praticava com toda gente, mesmo os alunos da escola do Kobayashi, como o Leopoldo Ferreira, que chegou a ser meu aluno.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+      quotation: ' Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972 (...) Portanto, durante anos, os meus fins-de-semana eram passados em Cascais a praticar Aikido. Pratiquei com o Mestre Stobbaerts talvez uns três ou quatro anos.'
+      type: primary
+      supports: true
+      weight: high
+    - uri: https://web.archive.org/web/20081021195508/http://www.cao.pt/surya/pe_17_1.htm
+      cite: Entrevista ao Professor Georges Stobbaerts (Pedro Escudeiro, 2000 - Archived)
+      quotation: Nessa altura o ambiente no Aikido era muito bom, toda a gente praticava com toda gente, mesmo os alunos da escola do Kobayashi, como o Leopoldo Ferreira, que chegou a ser meu aluno.
+      type: primary
+      supports: true
+      weight: high
 rank:
-  - style_id: JDP-S-4
-    rank: Yudansha
-    date: null
-    sources:
-      - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-        cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
-        quotation: " O meu nome é Leopoldo António Serra Ferreira, tenho 48 anos e sou cinto negro de Aikido da União Portuguesa de Budo. (...) Na União Portuguesa de Budo não temos graduações. A graduação mais elevada é o cinto negro, a partir daí acabaram-se os exames. Não existe 2º, 3º dan., etc."
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://www.ubu.pt/home/professores/mestre-luis-fernando/
-    type: unknown
-    supports: true
-    weight: unknown
+- style_id: JDP-S-4
+  rank: Yudansha
+  date: null
+  sources:
   - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
     cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
-    type: unknown
+    quotation: ' O meu nome é Leopoldo António Serra Ferreira, tenho 48 anos e sou cinto negro de Aikido da União Portuguesa de Budo. (...) Na União Portuguesa de Budo não temos graduações. A graduação mais elevada é o cinto negro, a partir daí acabaram-se os exames. Não existe 2º, 3º dan., etc.'
+    type: primary
     supports: true
-    weight: unknown
-  - uri: https://www.fpaikido.pt/sites/default/files/docs/HistoPt%20-%20atualizacao%20MSendim.pdf
-    cite: História do Aikido em Portugal
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: high
+  rank_type: dan
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Yudansha (black belt) rank mentioned in 2000 interview, but União Portuguesa de Budo did not use dan grades beyond black belt per his own statement
+  granted_by: null
+  org_id: JDP-O-6
+sources:
+- uri: https://web.archive.org/web/20240615000000*/https://www.ubu.pt/home/professores/mestre-luis-fernando/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
+  cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.fpaikido.pt/sites/default/files/docs/HistoPt%20-%20atualizacao%20MSendim.pdf
+  cite: História do Aikido em Portugal
+  type: secondary
+  supports: true
+  weight: medium
+description:
+  pt: Professor de Aikido português, estudante de Misao Honda e Georges Stobbaerts
+notes: Professor na Universidade da Beira Interior, mencionado em entrevista de 2000 como cinto negro da União Portuguesa de Budo

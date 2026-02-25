@@ -5,42 +5,43 @@ name:
   ja-Latn: Matsui Sanzo
   ja: 松井三蔵
 nationality:
-  - code: JPN
+- code: JPN
 birth:
-  date: "1861-05-16"
+  date: '1861-05-16'
   geo:
     name: Higashikaji
     country_code: JPN
 death:
-  date: "1932-06-08"
+  date: '1932-06-08'
   geo:
     name: null
     country_code: null
 teachers:
-  - id: null
-    style_id: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: null
+  style_id: null
+  confidence:
+    level: null
+    assessed_by: JDP
+    rationale: Legacy quality field migration - value was null
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    role: student
-    place_id: null
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
+- rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: 'Legacy quality field migration - original value: 2'
+  sources: []
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://ja.wikipedia.org/wiki/%E6%9D%BE%E4%BA%95%E4%B8%89%E8%94%B5
+  type: unknown
+  supports: true
+  weight: unknown

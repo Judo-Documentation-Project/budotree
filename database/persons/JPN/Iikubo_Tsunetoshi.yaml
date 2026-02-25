@@ -7,7 +7,8 @@ name:
 aka:
   ja-Latn: Iikubo Kōnen
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: 1835
   geo:
@@ -19,48 +20,73 @@ death:
     name: null
     country_code: null
 teachers:
-  - id: JDP-6
-    style_id: JDP-S-2
+- id: JDP-6
+  style_id: JDP-S-2
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Primary source evidence from Jigoro Kano's memoirs describing Iikubo as his teacher, with specific details about lessons in Kito style jujutsu
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
-    role: student
-    place_id: null
+    sources:
+    - uri: https://isbnsearch.org/isbn/9781425163518
+      cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
+      quotation: was Tsunetoshi Iikubo and that he had taught for a time at the Kobusho. Shortly thereafter, I was introduced to Iikubo from whom I subsequently took lessons in Kito style jujutsu
+      location: pp. 11-12
+      type: primary
+      weight: high
+      supports: true
 rank:
-  - style_id: null
-    rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
-    type: unknown
+- style_id: null
+  rank: null
+  date: null
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: A copy of the densho exists, as well as first-person accounts of Kano Jigoro describing how it was received. Although often mentioned, no direct evidence of menkyo kaiden found yet, but it's not unlikely
+  sources:
+  - uri: https://judo.forumotion.com/t2351-jigoro-kano-s-kito-ryu-jujutsu-certificate-menjo-menkyo
+    cite: Jigoro Kano's Kitō ryu jujutsu certificate Menjo / Menkyo (E-Judo)
+    quotation: Nihon Den Kito Judo. After several years of training (majoring in?) this school the |recipient's| mental power and skills are fully learned (developed), and so I allow this person to teach others.
+    type: secondary
+    weight: medium
     supports: true
-    weight: unknown
-  - uri: https://doi.org/10.18002/rama.v9i2.1162
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC
+  - uri: https://isbnsearch.org/isbn/9781425163518
     cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
-    events:
-      - birth
-    type: unknown
+    quotation: '...Iikubo presented me with a license certifying me as a master of Kito jujutsu together with a jujutsu suit and the densho that a master confers on his student following his gaining master proficiency'
+    location: p. 37
+    type: primary
+    weight: high
     supports: true
-    weight: unknown
-  - uri: https://www.cismeurope.org/history-judo/
-    events:
-      - birth death
-    type: unknown
-    supports: true
-    weight: unknown
+  granted_by: null
+  org_id: null
+sources:
+- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  cite: 起倒流 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://doi.org/10.18002/rama.v9i2.1162
+  cite: De Crée, C. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas, 9(2), 69.
+  type: primary
+  supports: true
+  weight: high
+- uri: https://books.google.pt/books/about/Judo_Memoirs_of_Jigoro_Kano.html?id=DT8rLOzndekC
+  cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
+  events:
+  - birth
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.cismeurope.org/history-judo/
+  cite: History Judo - CISM EUROPE
+  events:
+  - birth death
+  type: tertiary
+  supports: true
+  weight: medium

@@ -1,0 +1,12 @@
+"@context": https://martial.is/context.jsonld
+type: Place
+id: JDP-P-27
+name:
+  pt: INEF
+  en: National Institute of Physical Education
+classification: university
+geo:
+  name: Lisbon
+  country_code: PRT
+  wikidata: Q597
+sources: []

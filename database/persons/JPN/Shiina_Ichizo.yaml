@@ -5,7 +5,8 @@ name:
   ja-Latn: Shiina Ichizo
   ja: 椎名市蔵
 nationality:
-  - code: JPN
+- code: JPN
+  wikidata: Q17
 birth:
   date: null
   geo:
@@ -16,48 +17,58 @@ death:
   geo:
     name: null
     country_code: null
+description:
+  en: Shiina Ichizo (椎名市蔵) was a Japanese martial artist and shihan (teaching master) of Tenshin Shōden Katori Shintō-ryū. He was one of four Katori Shinto-ryu shihan dispatched to teach at the Kodokan in Tokyo.
 teachers:
-  - id: JDP-116
-    style_id: JDP-S-6
-    confidence:
-      level: null
-      assessed_by: JDP
-      rationale: Legacy quality field migration - value was null
+- id: JDP-116
+  style_id: JDP-S-6
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: Listed as one of seven direct students of Iizasa Morisada (JDP-116), the 18th Soke of Tenshin Shōden Katori Shintō-ryū, in German blog article about modern history of Katori Shinto-ryu
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: null
       end: null
     sources:
-      - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
-        cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
-        quotation: "Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô"
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+      cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+      quotation: 'Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô'
+      type: tertiary
+      supports: true
+      weight: medium
 rank:
-  - rank: null
-    date: null
-    rank_type: other
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    sources: []
-    granted_by: null
-    org_id: null
-sources:
+- style_id: JDP-S-3
+  rank: shihan
+  date: null
+  rank_type: other
+  confidence:
+    level: 2
+    assessed_by: JDP
+    rationale: One of four Katori Shinto-ryu shihan dispatched to teach at the Kodokan, mentioned in Aikido Journal article about Yoshio Sugino
+  sources:
   - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
-    type: unknown
+    cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+    quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiina to teach the style at the Kodokan.'
+    type: secondary
     supports: true
-    weight: unknown
-  - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
-    cite: "Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)"
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://ja.wikipedia.org/wiki/%E8%AC%9B%E9%81%93%E9%A4%A8
-    cite: 講道館
-    type: unknown
-    supports: true
-    weight: unknown
+    weight: medium
+notes: Shiina Ichizo was a shihan (teaching master) of Tenshin Shōden Katori Shintō-ryū. He was one of the seven direct students of Iizasa Morisada, the 18th Soke of Katori Shinto-ryu. In the late 1920s, he was one of four Katori Shinto-ryu shihan (along with Narimichi Tamai, Sozaemon Kuboki, and Tanekichi Ito) dispatched to teach the style at the Kodokan in Tokyo at the request of Jigoro Kano. The four shihan would also stop in Kawasaki on their way home to train with Yoshio Sugino. Shiina demonstrated Katori Shinto-ryu with Yoshio Sugino at a budo demonstration sponsored by the Society for the Promotion of Classical Japanese Martial Arts held in the imperial palace around 1937-1938.
+sources:
+- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+  cite: 'The Last Swordsman: The Yoshio Sugino Story, Part 2 - Aikido Journal'
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+  cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
+  type: tertiary
+  supports: true
+  weight: medium
+- uri: https://ja.wikipedia.org/wiki/%E8%AC%9B%E9%81%93%E9%A4%A8
+  cite: 講道館 - Wikipedia
+  type: secondary
+  supports: true
+  weight: medium

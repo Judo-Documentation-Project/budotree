@@ -4,143 +4,228 @@ id: JDP-67
 name:
   pt: Alexandre Gueifão
 nationality:
-  - code: PRT
+- code: PRT
+  wikidata: Q45
 birth:
-  date: "1940-12-07"
+  date: '1940-12-07'
   geo:
-    name: null
-    country_code: null
+    name: Lisboa
+    country_code: PRT
+    wikidata: Q597
 death:
-  date: null
+  date: '2025-07-24'
   geo:
-    name: null
-    country_code: null
+    name: Lisboa, Penedono, Portugal
+    country_code: PRT
+    wikidata: Q597
 photo:
   url: https://archive.org/download/alexandre_gueifao/alexandre_gueifao.png
   source:
     uri: https://www.bushidoespadaepena.com/entrevistas
-    cite: "Bushido: a Espada e a Pena"
+    cite: 'Bushido: a Espada e a Pena'
+    type: secondary
+    weight: medium
+description:
+  pt: José Alexandre Gueifão foi um dos pioneiros do karate em Portugal, co-introdutor da prática do karate no país em 1964. Fundador da Suishinkan Portugal, foi praticante de judo desde 1960 e de karate desde 1964, tendo alcançado o grau máximo de 5º dan em karate Shotokai. Foi presidente da Associação Shotokai de Portugal e membro do Conselho de Graduações da ASP.
 teachers:
-  - id: JDP-66
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+- id: JDP-66
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Antony Striker (JDP-66) from 1960, mentioned in his biography as starting judo practice in 1960 under Tony Stricker's guidance at Judokai organization.
+  role: student
+  interactions:
+  - place_id: JDP-P-21
     period:
-      start: 1958
+      start: 1960
       end: null
     sources:
-      - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
-        cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
-        quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-68
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
+      cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
+      quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
+      type: primary
+      supports: true
+      weight: high
+    - uri: https://youtu.be/5RGPsWHXyuw?si=82kuy6FCU-_yPryq&t=243
+      cite: Seis histórias à volta do Tatami _ Gala 60º Aniversário FPJ
+      quotation: Em 1954. O professor era um tal belga, Anton Stricker, que era segurança do Reino Belga
+      type: tertiary
+      supports: true
+      weight: medium
+- id: JDP-68
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of H. Bouchend-Homme (JDP-68) from 1960, mentioned in his biography as starting judo practice in 1960 under Bouchend-Homme's guidance at Judokai organization alongside Tony Stricker.
+  role: student
+  interactions:
+  - place_id: JDP-P-21
     period:
-      start: 1958
+      start: 1960
       end: null
     sources:
-      - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
-        cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
-        quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-82
-    style_id: JDP-S-5
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
+      cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
+      quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-82
+  style_id: JDP-S-5
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Luís Pires Martins (JDP-82) from 1964, mentioned in biography as co-introducer of karate to Portugal at Academia de Budo in Lisbon under Pires Martins' guidance as his first karate master.
+  role: student
+  interactions:
+  - place_id: JDP-P-20
     period:
       start: 1964
       end: null
     sources:
-      - uri: https://www.suishinkan.com.pt/biografia.html
-        quotation: Foi co-introdutor da prática do Karate em Portugal na Academia de Budo, em Lisboa, onde começou a praticar em 1964 sob a orientação do seu primeiro Mestre de Karate-Do - Mestre Pires Martins da UBU
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-12
-    style_id: JDP-S-1
-    confidence:
-      level: 3
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 3"
+    - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+      quotation: Foi co-introdutor da prática do Karate em Portugal na Academia de Budo, em Lisboa, onde começou a praticar em 1964 sob a orientação do seu primeiro Mestre de Karate-Do - Mestre Pires Martins da UBU
+      type: secondary
+      supports: true
+      weight: medium
+- id: JDP-12
+  style_id: JDP-S-1
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Kiyoshi Kobayashi (JDP-12), mentioned in his own essay "A Génese do Karate em Portugal" with specific quotation about later training under Grand Master K. Kobayashi at Judo Clube de Portugal after initial judo training.
+  role: student
+  interactions:
+  - place_id: JDP-P-19
     period:
       start: null
       end: null
     sources:
-      - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
-        cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
-        quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
-  - id: JDP-94
-    style_id: JDP-S-5
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
+    - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
+      cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
+      quotation: Retrato saudoso e quase desvanecido de um karateka que se iniciou em Judo no ano de 1958 sob a orientação de Tony Stricker e H. Bouchend-Homme da Organização Judokai, e mais tarde sob os ensinamentos do Grande Mestre K. Kobayashi, no Judo Clube de Portugal.
+      type: primary
+      supports: true
+      weight: high
+- id: JDP-94
+  style_id: JDP-S-5
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Well-documented student of Tetsuji Murakami (JDP-94) from 1969, mentioned in biography as student since 1969 when Shotokai style practice effectively began in Portugal with Murakami's first seminar.
+  role: student
+  interactions:
+  - place_id: null
     period:
       start: 1969
       end: null
     sources:
-      - uri: https://www.suishinkan.com.pt/biografia.html
-        quotation: O seu segundo Mestre foi Tetsuji Murakami Sensei, de quem foi aluno desde 1969, data que marca o nascimento efectivo da prática do estilo Shotokai em Portugal com a realização do primeiro estágio de Mestre Murakami.
-        type: unknown
-        supports: true
-        weight: unknown
-    role: student
-    place_id: null
+    - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+      quotation: O seu segundo Mestre foi Tetsuji Murakami Sensei, de quem foi aluno desde 1969, data que marca o nascimento efectivo da prática do estilo Shotokai em Portugal com a realização do primeiro estágio de Mestre Murakami.
+      type: secondary
+      supports: true
+      weight: medium
 rank:
-  - style_id: JDP-S-1
-    rank: 1 dan
-    date: null
-    sources:
-      - uri: https://www.suishinkan.com.pt/biografia.html
-        quotation: Graduação de 1º. Dan de Judo certificada pela UBU.
-        type: unknown
-        supports: true
-        weight: unknown
-    rank_type: dan
-    confidence:
-      level: 2
-      assessed_by: JDP
-      rationale: "Legacy quality field migration - original value: 2"
-    granted_by: null
-    org_id: null
+- style_id: JDP-S-1
+  rank: 1 dan
+  date: null
+  sources:
+  - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+    quotation: Graduação de 1º. Dan de Judo certificada pela UBU.
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially certified 1st dan rank in judo by UBU (União Budo de Portugal), mentioned in biography with specific quotation about certification.
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-1
+  rank: 3 dan
+  date: null
+  sources:
+  - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+    quotation: Certificado de Judo com a Graduação de 3º Dan da "UNBU" - União Nacional de Budo Portugal.
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially certified 3rd dan rank in judo by UNBU (União Nacional de Budo Portugal), mentioned in biography with specific quotation.
+  granted_by: null
+  org_id: null
+- style_id: JDP-S-5
+  rank: 5 dan
+  date: '2012-06-10'
+  sources:
+  - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+    quotation: 5º Dan de Karate-Do Shotokai - Grau Máximo, com Diploma Oficial da Nihon Karate-Do Shotokai. 5º Dan de Karate-Do Shotokai obtido no dia 10-06-2012 em exame no Japão no Dojo Central da "NKS", realizado pelo Júri da "NKS" nomeadamente o Mestre Takagi Jotaro, e certificado pela Nihon Karate-Do Shotokai.
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: dan
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially awarded 5th dan in karate (Shotokai) on June 10, 2012 at the central dojo in Japan, certified by Nihon Karate-Do Shotokai (JDP-O-5) with specific examination details mentioned in biography.
+  granted_by: null
+  org_id: JDP-O-5
+- rank: hanshi
+  style_id: JDP-S-5
+  date: null
+  sources:
+  - uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+    quotation: Certificado com o Grau de Hanshi em Karate Do da "UNBU" - União Nacional de Budo Portugal.
+    type: secondary
+    supports: true
+    weight: medium
+  rank_type: other
+  confidence:
+    level: 3
+    assessed_by: JDP
+    rationale: Officially certified Hanshi rank in karate by UNBU (União Nacional de Budo Portugal), mentioned in biography with specific quotation.
+  granted_by: null
+  org_id: null
 sources:
-  - uri: https://www.suishinkan.com.pt/biografia.html
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.ubu.pt/home/professores/mestre-alexandre-gueifao/
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
-    cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
-    type: unknown
-    supports: true
-    weight: unknown
-  - uri: https://www.youtube.com/watch?v=BkBldZFIcBY
-    type: unknown
-    supports: true
-    weight: unknown
+- uri: https://suishinkan.com.pt/swpkan/biografia-a-gueifao/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://web.archive.org/web/20240524072646/https://www.ubu.pt/home/professores/mestre-alexandre-gueifao/
+  type: secondary
+  supports: true
+  weight: medium
+- uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_35-62.pdf
+  cite: Gueifão, Alexandre, «À volta de Homens com sério Código de Honra», in «A Génese do Karate em Portugal»
+  type: primary
+  supports: true
+  weight: high
+- uri: https://www.youtube.com/watch?v=BkBldZFIcBY
+  type: tertiary
+  supports: true
+  weight: medium
+notes: 'José Alexandre Gueifão nasceu em Lisboa em 7 de dezembro de 1940 e faleceu em 24 de julho de 2025.
+
+  Iniciou-se na prática de judo em 1960 e no karate em 1964, sendo co-introdutor do karate em Portugal.
+
+  Fundador da Suishinkan Portugal, foi presidente da Associação Shotokai de Portugal (1999-2006) e membro do Conselho de Graduações da ASP.
+
+  Teve dois filhos, incluindo Pedro Gueifão (4º dan de karate Shotokai).
+
+  Participou em numerosos estágios com mestres japoneses incluindo Tetsuji Murakami, Shigeru Egami, Motohiro Yanagisawa, Yoshiharu Takisawa, Yoshinori Takita e Hidemitsu Nakao.
+
+  Foi professor de judo no Colégio Militar sob orientação do Tenente Coronel Freire de Almeida.
+
+  Possuiu diversas certificações incluindo Curso de Formação para Agentes do Ensino de 2º Grau pela CDAM, Curso de Treinador de Karate Nível III pela FNK-P, e Curso de Treinador de Desporto Karate Grau 4 pelo IPDJ.
+
+  '
+links:
+- uri: https://www.wikidata.org/wiki/Special:Search?search=Alexandre+Gueifão
+  cite: Wikidata Search
+  type: wikidata
