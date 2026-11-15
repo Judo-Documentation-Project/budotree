@@ -11,14 +11,14 @@ nationality:
 birth:
   date: '1922-07-23'
   geo:
-    name: null
+    name:
     country_code: PRT
     wikidata: Q45
 death:
   date: '2005-11-23'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/manuel_reis/manuel_reis.png
   source:
@@ -40,7 +40,7 @@ teachers:
       start: 1968
       end: 1969
     sources:
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    - source_id: JDP-SRC-5
       cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
       quotation: Em 1968, ao abrigo do Fundo de Fomento Desportivo, chega ao Porto o jovem Mestre japonês, de 26 anos, Nabuaki Yamamoto, 5º Dan, aluno do Kodokan e antigo campeão universitário do Japão, tornando-se professor do Clube de Judo do Porto. No início de 1969, o Mestre Yamamoto parte para a Islândia e as aulas voltam a ser ministradas pelos judocas mais graduados, que contavam agora com o apoio muito esporádico de alguns elementos da Federação Portuguesa de Judo
       type: primary
@@ -60,12 +60,12 @@ teachers:
     rationale: Student of Armando Gonçalves, Portuguese ju-jutsu professor from Porto, mentioned in Clube de Judo do Porto history as his teacher
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    - source_id: JDP-SRC-6
       cite: Os nossos fundadores - Clube de Judo do Porto (Archived)
       quotation: '...Manuel Reis fora aluno de  Armando Gonçalves, um portuense Professor de Ju-Jutsu 柔術...'
       type: tertiary
@@ -84,13 +84,13 @@ teachers:
       start: 1955
       end: 1965
     sources:
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    - source_id: JDP-SRC-5
       cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
       quotation: Em 1955, os judocas do Porto organizados em torno do professor Jackie Hugnet, criam o Círculo de Judo do Porto, onde Hugnet foi professor durante sete anos, lecionando três vezes por semana a primeira classe em que o Judo Kodokan foi ministrado de forma sistemática no Porto. Os professores Hugnet e Manuel Reis foram instrutores de Judo da Polícia de Segurança Pública do Porto, durante cerca de dois anos meio, coincidentes com parte do período em que o Comandante da corporação era o famoso Chefe Santos Júnior.
       type: primary
       supports: true
       weight: high
-    - uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    - source_id: JDP-SRC-6
       cite: Os nossos fundadores - Clube de Judo do Porto (Archived)
       quotation: Este, impressionado com a determinação de Manuel Reis mas sem disponibilidade para ficar em Portugal, enviou para o Círculo de Judo do Porto o seu irmão Jackie Hugnet, 2º Dan de Judo, que connosco permaneceu por uma década
       type: tertiary
@@ -109,32 +109,32 @@ teachers:
       start: 1961
       end: 1963
     sources:
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    - source_id: JDP-SRC-5
       cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
       quotation: No Verão de 1961, o professor Hugnet é substituído pelo também francês, Gilbert Bryskine, 4º Dan, campeão de França, bicampeão da Europa (1952 e 1954) e professor diplomado pela Federação Francesa de Judo e Ju Jutsu. É com Bryskine que os atletas do Círculo começam a participar em provas federativas, quer individualmente, quer por equipas. Em 1963, Gilbert Bryskine regressou a França devido a um grave acidente de automóvel que o deixou incapacitado.
       type: primary
       supports: true
       weight: high
-    - uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+    - source_id: JDP-SRC-6
       cite: Os nossos fundadores - Clube de Judo do Porto (Archived)
       quotation: Na época, recebemos também os ensinamento de outro francês, Gilbert Briskine, 4º Dan de Judo e mestre de Karaté-Do 空手道, Disciplina a quem a divulgação em Portugal muito deve.
       type: tertiary
       supports: true
       weight: low
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
     rationale: No specific rank information available in sources; known as founder and organizer rather than ranked practitioner
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+- source_id: JDP-SRC-6
   cite: Os nossos fundadores - Clube de Judo do Porto (Archived)
   type: tertiary
   supports: true
@@ -149,7 +149,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   cite: História do Judo em Portugal - Judolândia
   type: tertiary
   supports: true

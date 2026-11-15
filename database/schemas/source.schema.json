@@ -115,6 +115,18 @@
             }
           ]
         },
+        "archive_url": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "format": "uri"
+            }
+          ],
+          "description": "Archived copy of the source URL"
+        },
         "language": {
           "anyOf": [
             {

@@ -1,0 +1,22 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-11
+title: 'Exkurs: Die moderne Geschichte der Katori Shinto-ryū'
+native_title: null
+authors: []
+editors: []
+year: 2013
+publisher: Life for a Sword (blog)
+identifiers:
+  isbn: null
+  doi: null
+url: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+archive_url: null
+language: de
+description:
+  en: German-language blog article on the modern history of Tenshinshō-den Katori Shintō-ryū.
+  de: Deutschsprachiger Blogartikel über die moderne Geschichte der Katori Shintō-ryū.
+tags:
+  - secondary-source
+  - history
+classification: article

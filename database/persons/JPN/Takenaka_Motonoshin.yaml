@@ -16,10 +16,10 @@ birth:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
 - id: JDP-8
   style_id: JDP-S-2
@@ -29,12 +29,12 @@ teachers:
     rationale: Direct student of Takino Yūken according to academic paper by Carl De Crée (2019)
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+    - source_id: JDP-SRC-23
       cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
       quotation: instead a student of Takenaka Motonoshin 竹中元之進, himself a direct student of Takino Yūken
       type: primary
@@ -42,39 +42,39 @@ teachers:
       weight: high
 rank:
 - rank: Kitō-ryū master
-  date: null
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Kitō-ryū master based on academic paper by Carl De Crée (2019)
   sources:
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  - source_id: JDP-SRC-8
     cite: 起倒流 - Wikipedia
     quotation: 竹中派は竹中元之進より始まった
     type: secondary
     supports: true
     weight: medium
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  - source_id: JDP-SRC-8
     cite: 起倒流 - Wikipedia
     quotation: 起倒流を竹中元之進に学び免許皆伝を得た
     type: secondary
     supports: true
     weight: medium
-  - uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+  - source_id: JDP-SRC-23
     cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
     quotation: Takenaka Motonoshin 竹中元之進
     type: primary
     supports: true
     weight: high
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+- source_id: JDP-SRC-8
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+- source_id: JDP-SRC-23
   cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō’s Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
   type: primary
   supports: true

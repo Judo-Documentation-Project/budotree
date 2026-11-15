@@ -7,37 +7,37 @@ nationality:
 - code: BRA
   wikidata: Q155
 birth:
-  date: null
+  date:
   geo:
     name: São Luís, Maranhão
     country_code: BRA
     wikidata: Q28441
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/screenshot-from-2025-05-11-16-58-43/Screenshot%20From%202025-05-11%2016-58-43.png
   source:
     uri: https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=112518_01&Pesq=%22Balthazar%20Cardoso%22&pagfis=695
     cite: Jornal dos Esportes (1931-09-28, Ed. 167, p.3)
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
     level: 1
     assessed_by: JDP
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - style_id: JDP-S-19
   rank: W42/L6/D8
-  date: null
+  date:
   sources:
   - uri: https://boxrec.com/en/proboxer/624960
     cite: Balthazar Cardoso (Boxrec)
@@ -49,14 +49,14 @@ rank:
   confidence:
     level: 2
     assessed_by: JDP
-  org_id: null
+  org_id:
 sources:
 - uri: https://boxrec.com/en/proboxer/624960
   cite: Balthazar Cardoso (Boxrec)
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.faddabjj.com/historia-fadda
+- source_id: JDP-SRC-19
   cite: A história da Família Fadda (FaddaBJJ)
   type: secondary
   supports: true

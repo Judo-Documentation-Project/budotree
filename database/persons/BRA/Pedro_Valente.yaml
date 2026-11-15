@@ -7,16 +7,16 @@ nationality:
 - code: BRA
   wikidata: Q155
 birth:
-  date: null
+  date:
   geo:
     name: Brazil
     country_code: BRA
     wikidata: Q155
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/pedro_valente/pedro_valente.jpg
   source:
@@ -34,12 +34,12 @@ teachers:
     rationale: Valente Brothers website confirms training with father Pedro Valente Sr.
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://valentebrothers.com/our-story/
+    - source_id: JDP-SRC-12
       cite: 'Valente Brothers: Our Story'
       quotation: Pedro Valente Sr. taught his sons Pedro, Gui, and Joaquim the art of Gracie Jiu-Jitsu
       type: primary
@@ -48,7 +48,7 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: Black belt
-  date: null
+  date:
   sources:
   - uri: https://valentebrothers.com/instructors/
     cite: Valente Brothers Instructors
@@ -56,14 +56,14 @@ rank:
     type: primary
     supports: true
     weight: high
-  granted_by: null
+  granted_by:
   rank_type: dan
   confidence:
     level: 3
     assessed_by: JDP
     rationale: Valente Brothers website lists as black belt instructor
 sources:
-- uri: https://valentebrothers.com/our-story/
+- source_id: JDP-SRC-12
   cite: 'Valente Brothers: Our Story'
   type: primary
   supports: true

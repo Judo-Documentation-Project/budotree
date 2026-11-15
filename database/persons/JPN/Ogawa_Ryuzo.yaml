@@ -31,26 +31,26 @@ description:
 teachers:
 - style_id: ''
   confidence:
-    level: null
+    level:
     assessed_by: JDP
     rationale: No teacher information available in database
   role: student
-  id: null
+  id:
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: urn:isbn:1425163491
       cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
       type: primary
       supports: true
       weight: high
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: urn:isbn:1425163491
       cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
@@ -73,7 +73,7 @@ rank:
     supports: true
     weight: medium
   rank_type: dan
-  org_id: null
+  org_id:
 - style_id: JDP-S-1
   rank: 8 dan
   date: '1954'
@@ -89,7 +89,7 @@ rank:
     supports: true
     weight: medium
   rank_type: dan
-  org_id: null
+  org_id:
 sources:
 - uri: urn:isbn:1425163491
   cite: Os Pioneiros do Judô no Brazil, Chiaki Ishii, 2015
@@ -126,7 +126,7 @@ sources:
   type: primary
   supports: true
   weight: high
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: SILVA & CORRÊA (2020). Muito antes do MMA
   type: primary
   supports: true

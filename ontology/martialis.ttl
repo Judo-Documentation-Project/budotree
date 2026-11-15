@@ -216,7 +216,7 @@ martialis:quotation a owl:DatatypeProperty ;
 martialis:sourceLocation a owl:DatatypeProperty ;
     rdfs:domain martialis:SourceAssertionRelation ;
     rdfs:range xsd:string ;
-    rdfs:comment "Location within source (page, chapter, etc.)." .
+    rdfs:comment "Locator within source: page number, chapter, section, or article title within a publication." .
 
 martialis:coveredFields a owl:DatatypeProperty ;
     rdfs:domain martialis:SourceAssertionRelation ;

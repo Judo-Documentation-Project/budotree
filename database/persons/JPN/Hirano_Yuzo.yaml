@@ -7,15 +7,15 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/hirano_202402/hirano.png
   source:
@@ -24,30 +24,30 @@ photo:
     type: primary
     weight: high
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
     rationale: Legacy quality field migration - value was null
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
     rationale: No specific rank information available in sources
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://www.abola.pt/espaco-universidade/noticias/os-primordios-do-jujutsu-em-portugal-artigo-de-vitor-rosa-147-2023080911320721614
   cite: Os primórdios do Jujutsu em Portugal (artigo de Vítor Rosa, 147) | A Bola
@@ -59,7 +59,7 @@ sources:
   type: primary
   supports: true
   weight: high
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   cite: História do Judo em Portugal - Judolândia
   type: tertiary
   supports: true

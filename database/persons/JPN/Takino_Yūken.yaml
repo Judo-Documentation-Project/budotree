@@ -16,53 +16,53 @@ birth:
     country_code: JPN
     wikidata: Q954511
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
-- id: null
+- id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
     rationale: Teachers not in database; historical sources mention Hotta Sagoemon as teacher but no database entry exists
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - rank: Kitō-ryū master
-  date: null
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Historical sources identify Takino Yūken as the 4th generation head of Kitō-ryū, with specific mention in lineage charts and academic papers
   sources:
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  - source_id: JDP-SRC-8
     cite: 起倒流 - Wikipedia
     quotation: 四世（五世？）　滝野貞高（滝野専右衛門、滝野遊軒）。滝野の代に起倒流の全盛期を迎える。
     type: secondary
     supports: true
     weight: medium
-  - uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+  - source_id: JDP-SRC-23
     cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō's Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
     quotation: Takino Yūken Sadataka 滝野遊軒貞高
     type: primary
     supports: true
     weight: high
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+- source_id: JDP-SRC-8
   cite: 起倒流 - Wikipedia
   quotation: 四世（五世？）　滝野貞高（滝野専右衛門、滝野遊軒）。滝野の代に起倒流の全盛期を迎える。
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.researchgate.net/publication/330426217_Kito-ryu_jujutsu_and_the_desolation_of_Kodokan_judo's_Koshiki-no-kata_-Remembering_Inoue_Shoji_1927-2018
+- source_id: JDP-SRC-23
   cite: De Crée, Carl. (2019). Kitō-ryū jūjutsu and the desolation of Kōdōkan jūdō's Koshiki-no-kata -- Remembering Inoue Shōji (1927-2018)
   quotation: Takino Yūken Sadataka 滝野遊軒貞高 appears in the Kitō-ryū lineage as the 4th generation head, with Tōdō Yasusada and Suzuki Seibei Kuninori as his students
   type: primary

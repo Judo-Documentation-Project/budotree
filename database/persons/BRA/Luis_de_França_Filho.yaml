@@ -15,10 +15,10 @@ birth:
     country_code: BRA
     wikidata: Q40885
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
 - id: JDP-22
   style_id: JDP-S-1
@@ -28,10 +28,10 @@ teachers:
     rationale: BJJ Heroes and Facebook sources mention training with Satake starting 1916
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1916
-      end: null
+      end:
     sources:
     - uri: https://www.bjjheroes.com/bjj-fighters/luiz-franca
       cite: 'BJJ Heroes: Luiz França'
@@ -53,12 +53,12 @@ teachers:
     rationale: Book source mentions training with Maeda likely in 1929
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1929
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 106
       quotation: Se França se iniciou no Jiu Jitsu com o Conde Koma, muito provavelmente foi em 1929 n Marinha, quando esteve em Belém ao serviço no navio Minas Gerais.
@@ -73,12 +73,12 @@ teachers:
     rationale: Book source mentions continued training with Omori and Yano around 1930
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1930
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 106
       quotation: Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie...
@@ -93,12 +93,12 @@ teachers:
     rationale: Book source mentions training with Hélio Gracie in Rio de Janeiro
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 106
       quotation: Posteriormente, deu continuidade ao seu aprendizado no Rio de Janeiro com Geo Omori, Takeo Yano e Hélio Gracie...
@@ -116,9 +116,9 @@ teachers:
   - place_id: JDP-P-33
     period:
       start: 1928
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       quotation: Foi na Marinha, em 1928, que França se iniciou nas artes marciais. Primeiro com o Boxe, sob a orientação de Balthazar Cardoso
       type: primary
@@ -126,24 +126,24 @@ teachers:
       weight: high
 notes: 'Place of training originally listed as: Belém; Place of training originally listed as: Rio de Janeiro; Place of training originally listed as: Rio de Janeiro'
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
-    rationale: null
+    rationale:
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://repositorio.ufsc.br/handle/123456789/103771
   cite: Universidade Federal de Santa Catarina Repository
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.faddabjj.com/historia-fadda
+- source_id: JDP-SRC-19
   cite: A história da Família Fadda (FaddaBJJ)
   type: primary
   supports: true
@@ -158,7 +158,7 @@ sources:
   type: tertiary
   supports: true
   weight: low
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary
   supports: true

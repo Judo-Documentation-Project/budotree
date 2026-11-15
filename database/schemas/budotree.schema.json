@@ -154,13 +154,18 @@
           "type": "string",
           "format": "uri"
         },
+        "archive_uri": {
+          "type": "string",
+          "format": "uri",
+          "description": "Archived copy of the source URL (e.g. Wayback Machine snapshot)"
+        },
         "cite": {
           "type": "string",
           "description": "Display citation text"
         },
         "location": {
           "type": "string",
-          "description": "Location within the source (page, chapter, etc.)"
+          "description": "Locator within the source: page number (p. 94), volume (vol. 3, p. 108), section, or article title for web publications"
         },
         "quotation": {
           "type": "string",
@@ -188,7 +193,7 @@
           "description": "Weight/importance of this source for the assertion"
         }
       },
-      "oneOf": [
+      "anyOf": [
         {"required": ["source_id"]},
         {"required": ["uri"]}
       ]

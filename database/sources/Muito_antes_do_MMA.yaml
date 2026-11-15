@@ -1,0 +1,25 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-4
+title: 'Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo'
+native_title: null
+authors:
+  - Elton Silva
+  - Eduardo Corrêa
+editors: []
+year: 2020
+publisher: null
+identifiers:
+  isbn: '9798639871030'
+  doi: null
+url: https://isbnsearch.org/isbn/9798639871030
+archive_url: null
+language: pt
+description:
+  en: Multi-volume work documenting the history and precursors of vale tudo and mixed martial arts in Brazil and worldwide.
+  pt: Obra em múltiplos volumes documentando a história e precursores do vale tudo e MMA no Brasil e no mundo.
+tags:
+  - secondary-source
+  - history
+  - biography
+classification: book

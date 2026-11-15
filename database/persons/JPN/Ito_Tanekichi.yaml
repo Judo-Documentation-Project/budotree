@@ -8,44 +8,44 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
     name: Japan
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
     name: Japan
     country_code: JPN
     wikidata: Q17
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
-    rationale: null
+    rationale:
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
-    rationale: null
+    rationale:
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+- source_id: JDP-SRC-7
   type: tertiary
   supports: true
   weight: medium

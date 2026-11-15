@@ -13,13 +13,13 @@ nationality:
 birth:
   date: '1906'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
   date: '1982'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/correapereira3/correapereira3.jpg
   source:
@@ -40,10 +40,10 @@ teachers:
     rationale: Well-documented student of Erich Rahn (JDP-109) in Berlin during the 1930s while studying chemical engineering at Technical University of Berlin, mentioned in UBU history and interview sources.
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1930
-      end: null
+      end:
     sources:
     - uri: https://www.ubu.pt/about
       cite: Quem somos - História — União Portuguesa de Budo
@@ -72,7 +72,7 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Officially awarded 1st dan by Kodokan on March 3, 1958, certified by Risei Kano, documented in Kodokan diploma photo and academic thesis as first Portuguese black belt registered at Kodokan.
-  granted_by: null
+  granted_by:
   org_id: JDP-O-1
 sources:
 - uri: https://web.archive.org/web/20240725183211/https://www.ubu.pt/home/professores/p1/
@@ -87,7 +87,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   cite: História do Judo em Portugal - Judolândia
   quotation: António Correia Pereira foi o editor da primeira revista sobre Judo Kodokan publicada em Portugal, da qual apenas saíram nove números. Sob o pseudónimo de Minero publicou o livro intitulado «A Essência do Judo». Foi o primeiro cinto negro português inscrito no Kodokan, porém por nunca ter estado ligado à Federação Portuguesa de Judo a sua graduação não é reconhecida por aquela entidade.
   type: secondary

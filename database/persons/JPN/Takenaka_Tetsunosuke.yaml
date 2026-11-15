@@ -16,10 +16,10 @@ birth:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
 - id: JDP-7
   style_id: JDP-S-2
@@ -29,12 +29,12 @@ teachers:
     rationale: Son and student of Takenaka Motonoshin according to Japanese Wikipedia
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+    - source_id: JDP-SRC-8
       cite: 起倒流 - Wikipedia
       quotation: 竹中元之進と子の竹中鉄之助が滝野に直接師事したとは考えられない
       type: secondary
@@ -42,20 +42,20 @@ teachers:
       weight: medium
 rank:
 - rank: Kitō-ryū master
-  date: null
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Kitō-ryū master based on Japanese Wikipedia and academic paper by Carl De Crée (2019)
   sources:
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  - source_id: JDP-SRC-8
     cite: 起倒流 - Wikipedia
     quotation: 竹中鉄之助は佐倉藩に招聘され柔術の教授を行っている
     type: secondary
     supports: true
     weight: medium
-  - uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+  - source_id: JDP-SRC-8
     cite: 起倒流 - Wikipedia
     quotation: 竹中鉄之助の門人には、飯久保恒年、信太歌之助（青柳熊吉）、安藤健二郎、秋野庸彦などがいた
     type: secondary
@@ -67,10 +67,10 @@ rank:
     type: primary
     supports: true
     weight: high
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+- source_id: JDP-SRC-8
   type: secondary
   supports: true
   weight: medium

@@ -13,7 +13,7 @@ nationality:
 - code: BRA
   wikidata: Q155
 birth:
-  date: null
+  date:
   geo:
     name: Yamaguchi Prefecture
     country_code: JPN
@@ -33,10 +33,10 @@ teachers:
     rationale: Student of Yokoyama Sakujiro (JDP-9) at Kodokan from 1892, documented in Japanese Wikipedia with specific enrollment date and Simon BJJ blog with quotation about training together with Mitsuyo Maeda, though more direct evidence of the teacher-student relationship is needed
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1892
-      end: null
+      end:
     sources:
     - uri: https://simonbjj.com/satake
       cite: The Sumo wrestler who taught BJJ, Soshiro Satake
@@ -53,7 +53,7 @@ teachers:
 rank:
 - style_id: JDP-S-1
   rank: 3 dan
-  date: null
+  date:
   rank_type: dan
   confidence:
     level: 2
@@ -72,7 +72,7 @@ rank:
     type: tertiary
     supports: true
     weight: medium
-  granted_by: null
+  granted_by:
   org_id: JDP-O-1
 description:
   en: Soshihiro Satake (佐竹信四郎), also known as Antônio Satake, was a Japanese-born Brazilian martial artist and teacher. One of the primary founders of Brazilian jiu-jitsu (BJJ), he pioneered judo in Brazil, the United Kingdom, and other countries. He was a member of the Ten'gu Club sports social group.
@@ -87,7 +87,7 @@ sources:
   type: primary
   supports: true
   weight: high
-- uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
+- source_id: JDP-SRC-19
   cite: 103 anos de Oswaldo Fadda - Fadda BJJ (arquivado)
   type: secondary
   supports: true

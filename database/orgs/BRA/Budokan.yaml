@@ -10,29 +10,29 @@ geo:
   country_code: BRA
   wikidata: Q174
 founded:
-  date: null
+  date:
   founder_id: JDP-126
   sources:
-    - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
-      cite: Dojô Professor Loanzi - Museu Virtual do Judô
-      type: secondary
-      supports: true
-      weight: medium
-dissolved: null
-parent_org_id: null
-website: null
-description:
-  pt: Academia de judô fundada por Ryuzo Ogawa em São Paulo
-  en: Judo academy founded by Ryuzo Ogawa in São Paulo
-sources:
-  - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+  - source_id: JDP-SRC-25
     cite: Dojô Professor Loanzi - Museu Virtual do Judô
     type: secondary
     supports: true
     weight: medium
+dissolved:
+parent_org_id:
+website:
+description:
+  pt: Academia de judô fundada por Ryuzo Ogawa em São Paulo
+  en: Judo academy founded by Ryuzo Ogawa in São Paulo
+sources:
+- source_id: JDP-SRC-25
+  cite: Dojô Professor Loanzi - Museu Virtual do Judô
+  type: secondary
+  supports: true
+  weight: medium
 links: []
 tags:
-  - judo
-  - academy
-  - brazil
+- judo
+- academy
+- brazil
 classification: school

@@ -9,13 +9,13 @@ nationality:
 birth:
   date: '1925'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
   date: '2003'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/piresmartins1965/piresmartins1965.jpg
   source:
@@ -35,7 +35,7 @@ teachers:
   - place_id: JDP-P-20
     period:
       start: 1951
-      end: null
+      end:
     sources:
     - uri: https://repositorio.ipv.pt/handle/10400.19/448
       cite: FIGUEIREDO, Abel Aurélio Abreu. A institucionalização do karaté-os modelos organizacionais do karaté em Portugal. 2006. PhD Thesis. Instituto Politecnico de Viseu (Portugal)
@@ -59,8 +59,8 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 1st dan in karate awarded by União Portuguesa de Budo on September 10, 1963, documented in academic thesis as first institutional karate rank in Portugal
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 - style_id: JDP-S-5
   rank: 4 dan
   date: '1971-12-15'
@@ -76,15 +76,17 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Honorary 4th dan in karate awarded by FAJKO (Federation of All Japan Karatedo Organizations) on December 15, 1971, mentioned in academic thesis as recognition of his earlier 1st dan rank
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://www.ubu.pt/home/professores/dr-luis-franco-pires-martins/
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-  cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+- source_id: JDP-SRC-9
+  location: "Entrevista ao Professor José Araújo"
+  uri: http://www.cao.pt/surya/pe_18_1.htm
+  archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
   type: primary
   supports: true
   weight: high

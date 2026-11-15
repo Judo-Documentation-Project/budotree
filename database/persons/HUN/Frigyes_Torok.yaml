@@ -46,10 +46,10 @@ teachers:
   interactions:
   - place_id: JDP-P-19
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    - source_id: JDP-SRC-5
       cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
       quotation: 'Em 1974, o então presidente da Federação Portuguesa de Judo, Prof. Fernando Costa Matos, sabendo da intenção do Mestre Frigyes Tӧrӧk, 3º Dan, de regressar a Portugal, vindo de Angola onde lecionava, colocou em contacto este professor de ascendência húngara e discípulo direto do Mestre Kiyoshi Kobayashi, com a Direção do Clube. '
       type: primary
@@ -71,23 +71,25 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Portuguese Judo Federation annual report lists 7th dan award in 2019
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://judolandia.tripod.com/torok.htm
   type: tertiary
   supports: true
   weight: low
-- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+- source_id: JDP-SRC-5
   cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
   type: primary
   supports: true
   weight: high
-- uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
+- source_id: JDP-SRC-20
+  location: "Entrevista: Viagem ao mundo dos homens bons"
+  uri: https://judomagazine.pt/2023/05/16/entrevista-viagem-ao-mundo-dos-homens-bons-2/
   type: secondary
   supports: true
   weight: medium
-- uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+- source_id: JDP-SRC-6
   type: tertiary
   supports: true
   weight: low

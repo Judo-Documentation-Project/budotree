@@ -9,15 +9,15 @@ nationality:
 - code: PRT
   wikidata: Q45
 birth:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
   date: '2014-01-06'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/leopoldo_ferreira/leopoldo_ferreira.jpg
   source:
@@ -37,8 +37,10 @@ teachers:
       start: 1971
       end: 1972
     sources:
-    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor Leopoldo Ferreira"
+      uri: http://www.cao.pt/surya/pe_12_2.htm
+      archive_uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
       quotation: Não, eu só comecei a praticar em 1971, mais precisamente a 30 de Dezembro de 1971, quinta-feira, às 18.30h (Risos), na Academia de Budo, com Misao Honda (...) Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972, pelo simples motivo que quando o Honda se foi embora, como eu era o aluno mais graduado, e também porque era estudante de Educação Física, o Dr. Pires Martins insistiu para que eu ficasse a dar as aulas de Aikido
       type: primary
       supports: true
@@ -56,8 +58,10 @@ teachers:
       start: 1972
       end: 1976
     sources:
-    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor Leopoldo Ferreira"
+      uri: http://www.cao.pt/surya/pe_12_2.htm
+      archive_uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
       quotation: ' Eu só conheci o Mestre Stobbaerts, em Agosto ou Setembro de 1972 (...) Portanto, durante anos, os meus fins-de-semana eram passados em Cascais a praticar Aikido. Pratiquei com o Mestre Stobbaerts talvez uns três ou quatro anos.'
       type: primary
       supports: true
@@ -71,10 +75,12 @@ teachers:
 rank:
 - style_id: JDP-S-4
   rank: Yudansha
-  date: null
+  date:
   sources:
-  - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-    cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+  - source_id: JDP-SRC-9
+    location: "Entrevista ao Professor Leopoldo Ferreira"
+    uri: http://www.cao.pt/surya/pe_12_2.htm
+    archive_uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
     quotation: ' O meu nome é Leopoldo António Serra Ferreira, tenho 48 anos e sou cinto negro de Aikido da União Portuguesa de Budo. (...) Na União Portuguesa de Budo não temos graduações. A graduação mais elevada é o cinto negro, a partir daí acabaram-se os exames. Não existe 2º, 3º dan., etc.'
     type: primary
     supports: true
@@ -84,15 +90,17 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Yudansha (black belt) rank mentioned in 2000 interview, but União Portuguesa de Budo did not use dan grades beyond black belt per his own statement
-  granted_by: null
+  granted_by:
   org_id: JDP-O-6
 sources:
 - uri: https://web.archive.org/web/20240615000000*/https://www.ubu.pt/home/professores/mestre-luis-fernando/
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-  cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+- source_id: JDP-SRC-9
+  location: "Entrevista ao Professor Leopoldo Ferreira"
+  uri: http://www.cao.pt/surya/pe_12_2.htm
+  archive_uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
   type: primary
   supports: true
   weight: high

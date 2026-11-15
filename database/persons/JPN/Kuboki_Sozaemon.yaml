@@ -9,17 +9,17 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
-- id: null
+- id:
   style_id: JDP-S-3
   confidence:
     level: 1
@@ -27,30 +27,30 @@ teachers:
     rationale: Katori Shinto-ryu shihan, but specific teacher unknown
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - style_id: JDP-S-3
   rank: shihan
-  date: null
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Described as one of four Katori Shinto-ryu shihan dispatched to teach at the Kodokan
   sources:
-  - uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+  - source_id: JDP-SRC-7
     quotation: 'The school dispatched four shihan: Narimichi Tamai, Sozaemon Kuboki, Tanekichi Ito, and Ichizo Shiinato to teach the style at the Kodokan.'
     type: secondary
     supports: true
     weight: medium
     cite: 'Aikido Journal: The Last Swordsman - The Yoshio Sugino Story, Part 2'
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2
+- source_id: JDP-SRC-7
   type: secondary
   supports: true
   weight: medium

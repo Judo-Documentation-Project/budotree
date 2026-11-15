@@ -38,7 +38,7 @@ teachers:
     rationale: Well-documented teacher-student relationship from 1915-1922, mentioned in multiple historical accounts and interviews
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1915
       end: 1922
@@ -61,7 +61,7 @@ teachers:
     rationale: Brief study period in 1901 documented in Aikido Journal and historical PDF sources
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1901
       end: 1901
@@ -87,12 +87,12 @@ teachers:
     rationale: Yagyū Shingan-ryū training from 1903-1908, received Shoden rank in 1908 per Wikipedia and Aikido Journal interview
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+    - source_id: JDP-SRC-15
       quotation: Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū
       type: secondary
       supports: true
@@ -123,7 +123,7 @@ rank:
     type: primary
     supports: true
     weight: high
-  org_id: null
+  org_id:
 - style_id: JDP-S-13
   rank: Shoden
   date: 1908
@@ -134,13 +134,13 @@ rank:
     assessed_by: JDP
     rationale: Rank in Yagyū Shingan-ryū documented in Wikipedia and martial arts histories
   sources:
-  - uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+  - source_id: JDP-SRC-15
     cite: Yagyū Shingan-ryū - Wikipedia
     quotation: Morihei Ueshiba, the founder of Aikido, was a student of Yagyū Shingan-ryū. In 1908, after five years of training, he received the rank of Shoden from Masakatsu Nakai, a Shihan of the Edo-line of Yagyū Shingan-ryū
     type: secondary
     supports: true
     weight: medium
-  org_id: null
+  org_id:
 sources:
 - uri: https://en.wikipedia.org/wiki/Morihei_Ueshiba
   events:
@@ -154,7 +154,7 @@ sources:
   type: secondary
   supports: true
   weight: high
-- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+- source_id: JDP-SRC-15
   events:
   - rank
   type: secondary

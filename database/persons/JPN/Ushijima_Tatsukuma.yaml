@@ -16,7 +16,7 @@ birth:
 death:
   date: '1985-05-26'
   geo:
-    name: null
+    name:
     country_code: JPN
 photo:
   url: https://upload.wikimedia.org/wikipedia/commons/3/33/Tatsukuma_Ushijima.jpg
@@ -27,24 +27,24 @@ description:
   en: Tatsukuma Ushijima (牛島辰熊, March 10, 1904 – May 26, 1985) was a Japanese judoka and former All-Japan judo champion, who was also known as a teacher of Masahiko Kimura, a famous judoka. His nickname was 'The Demon Ushijima'.
   ja: 牛島 辰熊（うしじま たつくま、1904年（明治37年）3月10日 - 1985年（昭和60年）5月26日）は、日本の柔道家。段位は講道館柔道九段。大日本武徳会柔道教士。明治神宮大会3連覇、昭和天覧試合準優勝。その圧倒的な強さと気の荒さから「鬼の牛島」と称された。柔道史上最強を謳われる木村政彦の師匠として有名。
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
     level: 0
     assessed_by: JDP
     rationale: No specific teacher information available in sources; trained in Kyushin-ryū jujutsu during childhood and began judo at age 15 per Wikipedia
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - style_id: JDP-S-1
   rank: 9 dan
   date: 1984
   sources:
-  - uri: https://www.researchgate.net/publication/263087428_Nanatsu-no-kata_Endo-no-kata_and_Joge-no-kata_-A_pedagogical_and_qualitative_biomechanical_evaluation_of_Hirano_Tokio's_kuzushi_unbalancing_concept_as_part_of_skill_acquisition_for_throwing_techniques
+  - source_id: JDP-SRC-24
     cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio's kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
     quotation: While still at Kyōto, Hirano later also became an uchi deshi to Ushijima Tatsukuma 牛島辰熊 (1904‐1985) (Figure 2), famous for his competitive achievements and who too was a Busen jūdō teacher and future (1984) 9th dan holder
     type: primary
@@ -55,7 +55,7 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 9th dan rank awarded in 1984 documented in academic research paper by De Crée (2014) with specific quotation mentioning 'future (1984) 9th dan holder'
-  granted_by: null
+  granted_by:
   org_id: JDP-O-1
 sources:
 - uri: https://en.wikipedia.org/wiki/Tatsukuma_Ushijima
@@ -70,7 +70,7 @@ sources:
   type: tertiary
   supports: true
   weight: medium
-- uri: https://www.researchgate.net/publication/263087428_Nanatsu-no-kata_Endo-no-kata_and_Joge-no-kata_-A_pedagogical_and_qualitative_biomechanical_evaluation_of_Hirano_Tokio's_kuzushi_unbalancing_concept_as_part_of_skill_acquisition_for_throwing_techniques
+- source_id: JDP-SRC-24
   cite: De Crée, Carl. (2014). Nanatsu-no-kata, Endō-no-kata, and Jōge-no-kata ―A pedagogical and qualitative biomechanical evaluation of Hirano Tokio’s kuzushi (unbalancing) concept as part of skill acquisition for throwing techniques in Kōdōkan jūdō. Revista de Artes Marciales Asiáticas. 9. 69-96. 10.18002/rama.v9i2.1162.
   type: primary
   supports: true

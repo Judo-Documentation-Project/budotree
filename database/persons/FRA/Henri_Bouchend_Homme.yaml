@@ -7,35 +7,35 @@ nationality:
 - code: FRA
   wikidata: Q142
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: FRA
     wikidata: Q142
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: FRA
     wikidata: Q142
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   sources:
-  - uri: https://judolandia.tripod.com/histport.htm
+  - source_id: JDP-SRC-2
     cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
     quotation: Ainda neste ano vem para Lisboa, integrando-se no  corpo docente do  Liceu Francês Charles Lepierre, Henri Bouchend'Homme - professor de Educação Física e 1º Dan. Henri Bouchend’ Homme vendo que não se praticava Judo em Lisboa começou a leccionar no Lisboa Ginásio.
     type: tertiary
@@ -52,10 +52,10 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 'Judolândia website mentions he was 1st dan, citing ''Judo: da iniciação à prática'''
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   type: tertiary
   supports: true
   weight: low

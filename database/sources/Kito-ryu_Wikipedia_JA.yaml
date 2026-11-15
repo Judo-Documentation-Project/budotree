@@ -1,0 +1,22 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-8
+title: 起倒流 (Kitō-ryū) - Wikipedia (Japanese)
+native_title: 起倒流
+authors: []
+editors: []
+year: null
+publisher: Wikipedia
+identifiers:
+  isbn: null
+  doi: null
+url: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+archive_url: null
+language: ja
+description:
+  en: Japanese Wikipedia article on Kitō-ryū, a classical Japanese jujutsu school.
+  ja: 起倒流に関する日本語版ウィキペディアの記事。
+tags:
+  - secondary-source
+  - wikipedia
+classification: website

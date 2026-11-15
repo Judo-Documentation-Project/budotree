@@ -1,0 +1,22 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-19
+title: História de Oswaldo Fadda - Fadda BJJ
+native_title: null
+authors: []
+editors: []
+year: null
+publisher: Fadda BJJ
+identifiers:
+  isbn: null
+  doi: null
+url: https://www.faddabjj.com/historia-fadda
+archive_url: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
+language: pt
+description:
+  en: Biography of Oswaldo Fadda on the official Fadda BJJ website.
+  pt: Biografia de Oswaldo Fadda no sítio oficial do Fadda BJJ.
+tags:
+  - primary-source
+  - biography
+classification: website

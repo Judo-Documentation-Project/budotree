@@ -1,0 +1,24 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-9
+title: Entrevistas Surya (Pedro Escudeiro, 2000)
+native_title: null
+authors:
+  - Pedro Escudeiro
+editors: []
+year: 2000
+publisher: Surya
+identifiers:
+  isbn: null
+  doi: null
+url: http://www.cao.pt/surya/
+archive_url: null
+language: pt
+description:
+  en: Series of interviews with Portuguese martial arts masters, conducted by Pedro Escudeiro for the Surya publication, c. 2000.
+  pt: Série de entrevistas a mestres portugueses de artes marciais, conduzidas por Pedro Escudeiro para a publicação Surya, c. 2000.
+tags:
+  - primary-source
+  - interview
+  - history
+classification: website

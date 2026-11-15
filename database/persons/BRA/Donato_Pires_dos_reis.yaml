@@ -7,16 +7,16 @@ nationality:
 - code: BRA
   wikidata: Q155
 birth:
-  date: null
+  date:
   geo:
     name: Belém, Pará
     country_code: BRA
     wikidata: Q12829733
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/donato/donato.png
   source:
@@ -31,12 +31,12 @@ teachers:
     rationale: Well-documented in primary sources
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1920
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 94
       quotation: '...''Oscar'' muito provavelmente se trata do nome de Carlos grafado equivocadamente (...) Na notícia, ''Oscar Gracie'' e Donato são apresentados como alunos do famoso esportista paraense Jacyntho Ferro, este sim, discípulo directo de Maeda...'
@@ -44,16 +44,16 @@ teachers:
       supports: true
       weight: high
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
     level: 2
     assessed_by: JDP
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://www.budokast.com.br/post/breve-hist%C3%B3ria-do-jiu-jitsu-brasileiro-parte-1
   type: secondary
@@ -63,7 +63,7 @@ sources:
   type: tertiary
   supports: true
   weight: low
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary
   supports: true

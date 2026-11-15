@@ -23,10 +23,11 @@
         "validate-shacl-all": "npm run validate-rdf && npm run validate-shacl-strict && npm run validate-shacl-quality",
         "validate-duplicate-ids": ".venv/bin/python bin/validate_duplicate_ids.py",
         "validate-provenance": ".venv/bin/python bin/validate_provenance.py",
-        "validate-links": ".venv/bin/python bin/validate_links.py",
+        "validate-links": "npm run validate-rdf && .venv/bin/python bin/validate_links.py",
         "quality-dashboard": ".venv/bin/python bin/quality_dashboard.py",
         "validate-quick": "npm run validate-format && npm run validate-shacl",
-        "validate": "npm run validate-format && npm run validate-shacl-all && npm run validate-duplicate-ids && npm run validate-provenance && npm run quality-dashboard"
+        "validate": "npm run validate-format && npm run validate-shacl-all && npm run validate-duplicate-ids && npm run validate-provenance && npm run quality-dashboard",
+        "validate-full": "npm run validate && npm run validate-links && npm run quality-dashboard"
     },
     "author": "Frederico Muñoz",
     "license": "GPL-3.0-or-later",

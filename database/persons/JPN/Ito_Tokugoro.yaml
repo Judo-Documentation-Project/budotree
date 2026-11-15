@@ -33,10 +33,10 @@ teachers:
     rationale: Well-documented student of Jigoro Kano at Kodokan, mentioned in multiple sources including Japanese Wikipedia and local historical publications
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: https://www.city.daisen.lg.jp/docs/2013110800147/file_contents/3.pdf
       cite: Cosmos, Daisen City Lifelong Learning Information Magazine, No. 3 , Daisen City Lifelong Learning Promotion Headquarters, December 15, 2008
@@ -53,7 +53,7 @@ teachers:
 rank:
 - style_id: JDP-S-1
   rank: 5 dan
-  date: null
+  date:
   rank_type: dan
   confidence:
     level: 2
@@ -66,7 +66,7 @@ rank:
     supports: true
     weight: medium
     cite: Catch Wrestling - The Grappling Art That Started it All
-  granted_by: null
+  granted_by:
   org_id: JDP-O-1
 sources:
 - uri: https://ja.wikipedia.org/wiki/%E4%BC%8A%E8%97%A4%E5%BE%B3%E4%BA%94%E9%83%8E
@@ -74,7 +74,7 @@ sources:
   supports: true
   weight: medium
   cite: 伊藤徳五郎 - 日本語版ウィキペディア
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary
   supports: true

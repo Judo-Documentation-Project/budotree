@@ -22,7 +22,7 @@ birth:
 death:
   date: '1985-08-08'
   geo:
-    name: null
+    name:
     country_code: BRA
     wikidata: Q155
   sources:
@@ -46,10 +46,10 @@ teachers:
     rationale: Several sources mention Carlos Gracie Sr. teaching his brothers, and George specifically
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: https://judotradicionalgoshinjutsukan.blogspot.com/2010/01/topico-bubishi.html
       cite: Tópico Bubishi (Judo Tradicional Goshinjutsukan)
@@ -60,7 +60,7 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: 10 dan
-  date: null
+  date:
   sources:
   - uri: https://ibjjf.com/graduation-system
     cite: General System of Graduation, December 2025 (IBJJF)
@@ -73,7 +73,7 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Well-documented IBJJF 10th dan rank, though date uncertain
-  granted_by: null
+  granted_by:
   org_id: JDP-O-4
 sources:
 - uri: https://www.bjjheroes.com/bjj-fighters/george-gracie-facts-and-bio
@@ -81,7 +81,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   location: vol III, p. 172
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary

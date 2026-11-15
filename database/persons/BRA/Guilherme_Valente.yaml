@@ -8,15 +8,15 @@ nationality:
 - code: BRA
   wikidata: Q155
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: BRA
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/guilherme_valente/guilherme_valente.jpg
   source:
@@ -31,12 +31,12 @@ teachers:
     rationale: Multiple mentions of all Valente brothers being first taught by their father
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://valentebrothers.com/our-story/
+    - source_id: JDP-SRC-12
       cite: 'Valente Brothers: Our Story'
       quotation: Pedro Valente Sr. taught his sons Pedro, Gui, and Joaquim the art of Gracie Jiu-Jitsu
       type: secondary
@@ -45,9 +45,9 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: Black belt
-  date: null
+  date:
   sources:
-  - uri: https://valentebrothers.com/our-story/
+  - source_id: JDP-SRC-12
     cite: 'Valente Brothers: Our Story'
     quotation: The Valente family is the only family other than the Gracie family to have four black belts and professor diplomas awarded directly by Grandmaster Hélio Gracie.
     type: secondary
@@ -60,7 +60,7 @@ rank:
     assessed_by: JDP
     rationale: Multiple mentions, videos, and photographs attest the direct connection of Guilherme Valente and brothers to their father and to Hélio Gracie, which is mentioned explicitly as a direct teacher and the one that awarded the black belts.
 sources:
-- uri: https://valentebrothers.com/our-story/
+- source_id: JDP-SRC-12
   cite: 'Valente Brothers: Our Story'
   type: secondary
   supports: true

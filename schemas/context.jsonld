@@ -169,6 +169,7 @@
         "@type": "martialis:SourceAssertionRelation",
         "source_id": { "@id": "martialis:basedOnSource", "@type": "@id" },
         "uri": { "@id": "schema:url", "@type": "@id" },
+        "archive_uri": { "@id": "prov:wasDerivedFrom", "@type": "@id" },
         "cite": "schema:citation",
         "quotation": "martialis:quotation",
         "location": "martialis:sourceLocation",
@@ -192,6 +193,7 @@
           "@id": "martialis:imageAttribution",
           "@context": {
             "uri": { "@id": "schema:url", "@type": "@id" },
+            "archive_uri": { "@id": "prov:wasDerivedFrom", "@type": "@id" },
             "cite": "schema:citation"
           }
         }

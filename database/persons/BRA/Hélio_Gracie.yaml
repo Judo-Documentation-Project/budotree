@@ -32,12 +32,12 @@ teachers:
     rationale: Well-documented brother relationship and teaching
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1925
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 165
       quotation: '... meu Jiu Jitsu era muito diferente do dele. O meu fôra aprendido há muitos anos com o meu irmão Carlos...'
@@ -58,12 +58,12 @@ teachers:
     rationale: Documented but less prominent than Carlos' teaching role
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol 3, p.91
       quotation: Hélio foi treinado por George para as suas primeiras lutas, antes deste romper com Carlos em 1934
@@ -73,7 +73,7 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: 10 dan
-  date: null
+  date:
   sources:
   - uri: https://ge.globo.com/rj/serra-lagos-norte/noticia/2017/01/faixa-vermelha-lembra-ensinamentos-de-helio-gracie-oito-anos-apos-morte.html
     cite: Faixa vermelha lembra ensinamentos de Hélio Gracie oito anos após morte (Globo)
@@ -92,7 +92,7 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Well-documented 10th dan rank, though date uncertain
-  granted_by: null
+  granted_by:
   org_id: JDP-O-4
 sources:
 - uri: https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie
@@ -100,7 +100,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary
   supports: true

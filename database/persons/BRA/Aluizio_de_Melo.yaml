@@ -36,12 +36,12 @@ teachers:
     rationale: Multiple well-sourced references about this link
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: '1915'
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: SILVA & CORRÊA (2020). Muito antes do MMA
       location: vol. III, p. 111-113
       quotation: aos 17 anos, teve a oportunidade de treinar Jiu Jitsu com o Conde Koma, durante a passagem da trupe japonesa pelo Nordeste do Brasil
@@ -54,7 +54,7 @@ teachers:
       type: secondary
       supports: true
       weight: medium
-    - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    - source_id: JDP-SRC-25
       cite: Dojô Professor Loanzi - Museu Virtual do Judô
       quotation: QUEM FOI ALOIZIO NOGUEIRA BANDEIRA DE MELLO – PROF. LOANZI (...) Foi aluno do famoso Mitsuyo Moeda, Conde Koma, introdutor do jiu jitsu e do judô no Brasil
       type: secondary
@@ -70,10 +70,10 @@ teachers:
   interactions:
   - place_id: JDP-P-32
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+    - source_id: JDP-SRC-25
       cite: Dojô Professor Loanzi - Museu Virtual do Judô
       quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
       type: secondary
@@ -82,9 +82,9 @@ teachers:
 rank:
 - style_id: JDP-S-1
   rank: 1 dan
-  date: null
+  date:
   sources:
-  - uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+  - source_id: JDP-SRC-25
     cite: Dojô Professor Loanzi - Museu Virtual do Judô
     quotation: Em 1959 contatou seu mestre e sensei, que lhe havia promovido à faixa preta sho-dan, Ryuzo Ogawa, de São Paulo
     type: secondary
@@ -98,7 +98,7 @@ rank:
   granted_by: JDP-126
   org_id: JDP-O-3
 sources:
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: SILVA & CORRÊA (2020). Muito antes do MMA
   type: primary
   supports: true
@@ -108,7 +108,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://acervosvirtuais.ufpel.edu.br/museuvirtualdojudo/2022/07/academia-ruy-barbosa/
+- source_id: JDP-SRC-25
   cite: Dojô Professor Loanzi - Museu Virtual do Judô
   type: secondary
   supports: true

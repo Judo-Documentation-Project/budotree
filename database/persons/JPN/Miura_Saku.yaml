@@ -31,24 +31,24 @@ photo:
     uri: https://www.ndl.go.jp/brasil/e/data/R/084/084-002r.html
     cite: 100 Japanese Emigration to Brazil - Saku Miura (National Diet Library)
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   role: student
   confidence:
     level: 0
     assessed_by: JDP
     rationale: No specific teacher information found in available sources
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - style_id: JDP-S-1
   rank: yudansha
   rank_type: dan
-  date: null
-  granted_by: null
+  date:
+  granted_by:
   confidence:
     level: 2
     assessed_by: JDP
@@ -60,14 +60,14 @@ rank:
     type: secondary
     supports: true
     weight: medium
-  - uri: https://isbnsearch.org/isbn/9798639871030
+  - source_id: JDP-SRC-4
     location: vol. II, p. 100
     quotation: 'Assim, em 1908, a Marinha do Brasil contrata do Kodokan dois mestres japoneses de Jiu Jitsu em Yokohama, no Japão: sada Miyako e Ume Kakihara (... [p. 111] Matricula de Miura Sakuzo (Sada Miyako) no Kodokan...'
     cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
     type: primary
     supports: true
     weight: high
-  org_id: null
+  org_id:
 links:
 - type: wikidata
   uri: https://www.wikidata.org/wiki/Q94429123
@@ -87,7 +87,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   location: vol. II, p. 100
   quotation: 'Assim, em 1908, a Marinha do Brasil contrata do Kodokan dois mestres japoneses de Jiu Jitsu em Yokohama, no Japão: sada Miyako e Ume Kakihara (... [p. 111] Mtr+icula de Miura Sakuzo (Sada Miyako) no Kodokan...'
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'

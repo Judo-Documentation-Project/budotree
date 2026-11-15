@@ -9,15 +9,15 @@ nationality:
 - code: PRT
   wikidata: Q45
 birth:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/armando_goncalves/armando_goncalves.png
   source:
@@ -32,10 +32,10 @@ teachers:
     rationale: Well-documented student of Hirano Yuzo, mentioned in his book 'O Fraco Vence o Forte' (1941) with specific quotation about being former disciple of Japanese professor Hirano
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: http://id.bnportugal.gov.pt/bib/catbnp/732683
       cite: GONÇALVES, Armando; O fraco vence o forte. 1941
@@ -46,28 +46,28 @@ teachers:
 rank:
 - style_id: JDP-S-14
   rank: Professor de ju-jutsu
-  date: null
+  date:
   rank_type: title
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Recognized as professor of ju-jutsu based on teaching Porto Police in 1936 and authorship of instructional books
   sources:
-  - uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+  - source_id: JDP-SRC-6
     cite: Os nossos Fundadores - Clube de Judo do Porto
     quotation: Armando Gonçalves ministrou aulas de Técnicas de Defesa Pessoal e de JuJutsu柔術 à Polícia de Segurança Pública do Porto, a convite do seu Comandante, Coronel João Nepomuceno Namorado de Aguiar
     type: secondary
     supports: true
     weight: medium
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 notes: Professor de ju-jutsu no Porto, aluno do primeiro professor japonês de ju-jutsu em Portugal, Hirano Yuzo, que morreu afogado na praia de Santa Cruz em 1915. Foi professor de Manuel Reis, fundador do Círculo de Judo do Porto.
 sources:
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20220313042740/http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+- source_id: JDP-SRC-6
   type: secondary
   supports: true
   weight: medium
@@ -79,7 +79,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+- source_id: JDP-SRC-5
   cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
   type: primary
   supports: true

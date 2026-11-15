@@ -43,7 +43,7 @@ teachers:
       start: 1954
       end: 1958
     sources:
-    - uri: https://judolandia.tripod.com/histport.htm
+    - source_id: JDP-SRC-2
       cite: 'História do Judo em Portugal (Judolândia, texto de «Judo: da iniciação à competição», Costa Branco et. al'
       quotation: Quase na mesma altura chega a Lisboa Antony Striker (Suíço) 1º Dan, o qual abre uma sala no Largo do Intendente, onde despontaram para o Judo, entre outros, Afonso Maia de Loureiro, Vasco de Sousa e José Manuel Bastos Nunes.
       type: secondary
@@ -58,9 +58,9 @@ teachers:
 rank:
 - style_id: JDP-S-1
   rank: 3 dan
-  date: null
+  date:
   sources:
-  - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+  - source_id: JDP-SRC-5
     cite: Relatório de Atividades e Contas do Exercício de 2019
     quotation: Afonso Henriques I. F. Maia de Loureiro (3º Dan)
     type: primary
@@ -71,10 +71,10 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Officially listed as 3rd dan in Portuguese Judo Federation graduation manual (2021), with specific mention in the document's list of practitioners and their ranks.
-  granted_by: null
+  granted_by:
   org_id: JDP-O-6
 sources:
-- uri: https://judolandia.tripod.com/histport.htm
+- source_id: JDP-SRC-2
   type: secondary
   supports: true
   weight: medium

@@ -15,10 +15,10 @@ birth:
     country_code: PRT
     wikidata: Q597
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/luis-araujo/Luis_Araujo.png
   source:
@@ -41,7 +41,7 @@ teachers:
   - place_id: JDP-P-20
     period:
       start: 1966
-      end: null
+      end:
     sources:
     - uri: https://aikidomdc.wixsite.com/brpd/untitled-c1eb9
       cite: Aikido Marcial Dôjo Clube - Mestre José Araújo
@@ -49,8 +49,10 @@ teachers:
       type: secondary
       supports: true
       weight: medium
-    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor José Araújo"
+      uri: http://www.cao.pt/surya/pe_18_1.htm
+      archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
       quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
       type: primary
       supports: true
@@ -66,10 +68,12 @@ teachers:
   - place_id: JDP-P-20
     period:
       start: 1966
-      end: null
+      end:
     sources:
-    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor José Araújo"
+      uri: http://www.cao.pt/surya/pe_18_1.htm
+      archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
       quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
       type: primary
       supports: true
@@ -85,16 +89,20 @@ teachers:
   - place_id: JDP-P-20
     period:
       start: 1973
-      end: null
+      end:
     sources:
-    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor José Araújo"
+      uri: http://www.cao.pt/surya/pe_18_1.htm
+      archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
       quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
       type: primary
       supports: true
       weight: high
-    - uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
-      cite: Entrevista ao Professor Leopoldo Ferreira (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor Leopoldo Ferreira"
+      uri: http://www.cao.pt/surya/pe_12_2.htm
+      archive_uri: https://web.archive.org/web/20081021192805/http://www.cao.pt/surya/pe_12_2.htm
       quotation: Quando o José Araújo recomeçou a praticar já estava eu a dar aulas, portanto, foi por volta de 1973, creio.
       type: primary
       supports: true
@@ -102,7 +110,7 @@ teachers:
 rank:
 - style_id: JDP-S-4
   rank: 7 dan
-  date: null
+  date:
   sources:
   - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
     quotation: 7º Dan Aikido UBU
@@ -114,11 +122,11 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 7th dan rank mentioned on UBU professor profile page, though the page returns 404 error and needs verification
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 - style_id: JDP-S-4
   rank: Renshi
-  date: null
+  date:
   sources:
   - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
     quotation: 6º Dan Aikido Dai Nippon Butokukai – Renshi
@@ -130,11 +138,11 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Renshi title from Dai Nippon Butokukai mentioned on UBU professor profile page, though the page returns 404 error and needs verification
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 - style_id: JDP-S-1
   rank: Kyoshi
-  date: null
+  date:
   sources:
   - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
     quotation: 6º Dan Aikido – International Martial Arts Federation – Kyoshi
@@ -146,15 +154,17 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Kyoshi title from International Martial Arts Federation mentioned on UBU professor profile page,
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://web.archive.org/web/20241008210716/https://www.ubu.pt/home/professores/prof-doutor-jose-manuel-araujo/
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-  cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+- source_id: JDP-SRC-9
+  location: "Entrevista ao Professor José Araújo"
+  uri: http://www.cao.pt/surya/pe_18_1.htm
+  archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
   type: primary
   supports: true
   weight: high

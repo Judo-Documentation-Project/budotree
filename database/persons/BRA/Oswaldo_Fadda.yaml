@@ -37,9 +37,9 @@ teachers:
   - place_id: JDP-P-31
     period:
       start: 1938
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 108
       quotation: Oswaldo Fadda começou a treinar com França por volta de 1938
@@ -57,9 +57,9 @@ teachers:
   - place_id: JDP-P-33
     period:
       start: 1938
-      end: null
+      end:
     sources:
-    - uri: https://www.faddabjj.com/historia-fadda
+    - source_id: JDP-SRC-19
       cite: A história da Família Fadda (FaddaBJJ)
       quotation: Antes da sua história com o Jiu-Jitsu, os primeiros passos de Fadda no mundo das lutas foi na "Nobre Arte", ou seja, no boxe, através do campeão Baltazar Cardoso.
       type: primary
@@ -68,7 +68,7 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: 9 dan
-  date: null
+  date:
   sources:
   - uri: https://bjjfanatics.com.br/blogs/news/oswaldo-fadda
     cite: Oswaldo Fadda, Um Pioneiro na Democratização do Jiu Jitsu (BJJ Fanatics)
@@ -81,14 +81,14 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Wikipedia and BJJ Fanatics sources confirm 9th degree red belt rank
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://pt.wikipedia.org/wiki/Oswaldo_Fadda
   type: secondary
   supports: true
   weight: medium
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: primary
   supports: true
@@ -97,7 +97,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20240507104820/https://www.faddabjj.com/historia-fadda
+- source_id: JDP-SRC-19
   type: primary
   supports: true
   weight: high

@@ -11,13 +11,13 @@ nationality:
 birth:
   date: '1929'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 description:
   en: Portuguese philosophy professor and karate teacher, student of Luís Pires Martins, taught at the Academia de Budo.
   pt: Professor de filosofia português e professor de karate, aluno de Luís Pires Martins, ensinou na Academia de Budo.
@@ -33,7 +33,7 @@ teachers:
   - place_id: JDP-P-20
     period:
       start: 1966
-      end: null
+      end:
     sources:
     - uri: https://www.shotokai.pt/uploads/4/6/1/9/4619567/gkp_17-22.pdf
       cite: 'ARAÚJO, José, O Dr. Pires Martins e a União Portuguesa de Budo. In: A Génese do Karaté em Portugal'
@@ -41,8 +41,10 @@ teachers:
       type: primary
       supports: true
       weight: high
-    - uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-      cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+    - source_id: JDP-SRC-9
+      location: "Entrevista ao Professor José Araújo"
+      uri: http://www.cao.pt/surya/pe_18_1.htm
+      archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
       quotation: O professor de Aikido era o Carlos Pereira, aluno do Mestre Stobbaerts, o de Karate era o Dr. Fragoso Fernandes, aluno do Dr. Pires Martins, (o introdutor do Karate em Portugal) que era o responsável pelo Karate. Professor de Filosofia, foi uma das pessoas que mais me marcou nas Artes Marciais, pela sua abordagem séria, rigorosa e profundamente empenhada.
       type: primary
       supports: true
@@ -63,15 +65,17 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 1st dan rank awarded on August 14, 1968, documented in Federação Nacional de Karate historical records listing early Portuguese karate practitioners
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://www.ubu.pt/home/professores/prof-doutor-antonio-fragoso-fernandes/
   type: secondary
   supports: true
   weight: medium
-- uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
-  cite: Entrevista ao Professor José Araújo (Pedro Escudeiro, 2000 - Archived)
+- source_id: JDP-SRC-9
+  location: "Entrevista ao Professor José Araújo"
+  uri: http://www.cao.pt/surya/pe_18_1.htm
+  archive_uri: https://web.archive.org/web/20081021194517/http://www.cao.pt/surya/pe_18_1.htm
   type: primary
   supports: true
   weight: high

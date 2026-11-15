@@ -10,13 +10,13 @@ nationality:
 birth:
   date: 1926
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 teachers:
@@ -28,10 +28,10 @@ teachers:
     rationale: Explicitly mentioned as one of Tomiki Sensei's three top students in Aikido Journal interview with Hiroaki Kogure Sensei
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: https://aikidojournal.com/2004/05/06/hiroaki-kogure-sensei-part-two
       cite: Interview with Hiroaki Kogure Sensei, part 2 (interview by Josh Gold, 2004, Aikido Journal)
@@ -49,8 +49,8 @@ teachers:
   interactions:
   - place_id: JDP-P-1
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: https://studygrouptomikiaikido.blog/2022/09/05/simplification-or-sportification
       cite: 'MIYAKE Sensei, Extracts from an Interview by R.J.Lawrance, The E.A.A. Newsletter, Issue 90.2 (in: Study Group Tomiki Aikido - The simplification of Ueshiba''s Aikido)'
@@ -61,7 +61,7 @@ teachers:
 rank:
 - style_id: JDP-S-4
   rank: 8 dan
-  date: null
+  date:
   granted_by: JDP-26
   rank_type: dan
   confidence:
@@ -69,7 +69,7 @@ rank:
     assessed_by: JDP
     rationale: 8 dan in Tomiki Aikido mentioned in database entry of Karl Geiss
   sources:
-  - uri: https://www.karlgeis.com/his-resume
+  - source_id: JDP-SRC-10
     cite: Karl Geis martial arts resume listing Miyake Tsunako as 8th Dan teacher
     quotation: I spent extensive time spent with Miyake, Tsunako Sensei, 8th Dan and Inoue, Takeshi Sensei extensively studying Tomiki Aikido in the early 70's in Japan.
     type: secondary
@@ -77,24 +77,24 @@ rank:
     weight: medium
 - style_id: JDP-S-1
   rank: 7 dan
-  date: null
+  date:
   rank_type: dan
   confidence:
     level: 3
     assessed_by: JDP
     rationale: 7 dan in Kodokan Judo confirmed by Karl Geis resume which lists 'Miyake, Tsunako Sensei, 7th Dan' among his Kodokan teachers
   sources:
-  - uri: https://www.karlgeis.com/his-resume
+  - source_id: JDP-SRC-10
     cite: Karl Geis martial arts resume listing Miyake Tsunako as 7th Dan Kodokan teacher
     quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: Miyake, Tsunako Sensei, 7th Dan'
     type: secondary
     supports: true
     weight: high
-  granted_by: null
+  granted_by:
   org_id: JDP-O-1
-- style_id: null
+- style_id:
   rank: 7 dan
-  date: null
+  date:
   rank_type: dan
   confidence:
     level: 2
@@ -107,7 +107,7 @@ rank:
     type: tertiary
     supports: true
     weight: medium
-  granted_by: null
+  granted_by:
 sources:
 - uri: https://studygrouptomikiaikido.blog/2022/01/24/judo-taiso-a-scientific-vehicle-for-aikido/
   type: tertiary
@@ -137,7 +137,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://www.karlgeis.com/his-resume
+- source_id: JDP-SRC-10
   type: secondary
   supports: true
   weight: high

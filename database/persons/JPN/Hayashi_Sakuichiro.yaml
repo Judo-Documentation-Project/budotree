@@ -8,14 +8,14 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
 teachers:
 - id: JDP-115
@@ -26,36 +26,36 @@ teachers:
     rationale: Documented in historical lineage charts and dojo records showing direct student relationship
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+    - source_id: JDP-SRC-11
       cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
       quotation: 'Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke'
       type: tertiary
       supports: true
       weight: medium
-    - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+    - source_id: JDP-SRC-16
       cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
       quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan Dojo founder).
       type: secondary
       supports: true
       weight: medium
 rank:
-- rank: null
-  date: null
+- rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
     rationale: No specific rank information available in sources
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+- source_id: JDP-SRC-16
   cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
   type: secondary
   supports: true

@@ -12,13 +12,13 @@ nationality:
 birth:
   date: 1835
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
   date: 1889
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
 - id: JDP-6
   style_id: JDP-S-2
@@ -28,10 +28,10 @@ teachers:
     rationale: Primary source evidence from Jigoro Kano's memoirs describing Iikubo as his teacher, with specific details about lessons in Kito style jujutsu
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
     - uri: https://isbnsearch.org/isbn/9781425163518
       cite: WATSON, Brian N. Judo memoirs of Jigoro Kano. Trafford Publishing, 2008.
@@ -41,9 +41,9 @@ teachers:
       weight: high
       supports: true
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
     level: 3
@@ -63,10 +63,10 @@ rank:
     type: primary
     weight: high
     supports: true
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://ja.wikipedia.org/wiki/%E8%B5%B7%E5%80%92%E6%B5%81
+- source_id: JDP-SRC-8
   cite: 起倒流 - Wikipedia
   type: secondary
   supports: true

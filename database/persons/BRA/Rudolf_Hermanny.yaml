@@ -13,10 +13,10 @@ birth:
     country_code: BRA
     wikidata: Q174
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/hermanny/hermanny.png
   source:
@@ -36,7 +36,7 @@ teachers:
       start: '1952'
       end: '1987'
     sources:
-    - uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+    - source_id: JDP-SRC-21
       cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
       quotation: Iniciei a prática do judô sob a orientação do Prof. Augusto de Oliveira Cordeiro em dezembro de 1952 na Academia localizada à rua Barata Ribeiro, nº 530, que muitas recordações deixou.
       type: primary
@@ -64,7 +64,7 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Official 1963 bulletin lists 4th dan rank
-  org_id: null
+  org_id:
 sources:
 - uri: https://revistabudo.com.br/georges-mehdi-e-rudolf-hermanny-uma-historia-que-transcende-o-tempo-e-os-tatamis/
   cite: Georges Mehdi e Rudolf Hermanny - Revista Budô
@@ -76,7 +76,7 @@ sources:
   type: tertiary
   supports: true
   weight: low
-- uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+- source_id: JDP-SRC-21
   cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
   type: primary
   supports: true

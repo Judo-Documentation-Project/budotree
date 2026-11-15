@@ -259,6 +259,13 @@ martialis:SourceAssertionRelationShape
         sh:in ( "primary" "secondary" "tertiary" "unknown" ) ;
         sh:datatype xsd:string ;
         sh:message "sourceRefType must be one of: primary, secondary, tertiary, unknown."
+    ] ;
+
+    sh:property [
+        sh:path prov:wasDerivedFrom ;
+        sh:nodeKind sh:IRI ;
+        sh:maxCount 1 ;
+        sh:message "archive_uri must be a valid IRI (Wayback Machine URL)."
     ] .
 
 # Note: "every Assertion must have at least one source" is enforced in

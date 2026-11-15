@@ -14,10 +14,10 @@ birth:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/yamamoto73_1/yamamoto73_1.jpg
   source:
@@ -28,20 +28,20 @@ description:
   en: Nobuaki Yamamoto (born ~1942) was a Japanese judo master who taught at Clube de Judo do Porto in Portugal from 1968 to 1969. A 5th dan Kodokan student and former university champion in Japan, he was brought to Portugal under the Fundo de Fomento Desportivo program to teach judo.
   pt: Nobuaki Yamamoto (nascido ~1942) foi um instrutor de Judo e 5 dan Kodokan que ensinou no Clube de Judo do Porto em 1968-1969, ao abrigo do Fundo de Fomento Desportivo
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
     level: 0
     assessed_by: JDP
     rationale: No specific teacher information available in sources; was a Kodokan student and former university champion in Japan per Portuguese sources
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+    - source_id: JDP-SRC-5
       quotation: Em 1968, ao abrigo do Fundo de Fomento Desportivo, chega ao Porto o jovem Mestre japonês, de 26 anos, Nabuaki Yamamoto, 5º Dan, aluno do Kodokan e antigo campeão universitário do Japão
       supports: false
       type: primary
@@ -56,19 +56,19 @@ rank:
     assessed_by: JDP
     rationale: 5th dan rank mentioned in Portuguese sources describing him as a Kodokan student teaching in Portugal in 1968
   sources:
-  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+  - source_id: JDP-SRC-18
     quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
     supports: true
     type: secondary
     weight: medium
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+- source_id: JDP-SRC-5
   type: primary
   supports: true
   weight: high
-- uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+- source_id: JDP-SRC-18
   type: secondary
   supports: true
   weight: medium

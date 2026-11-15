@@ -15,10 +15,10 @@ birth:
     country_code: PRT
     wikidata: Q990403
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/franciso_sarmento/fernando_sarmento.jpg
   source:
@@ -43,7 +43,7 @@ teachers:
       start: 1968
       end: 1969
     sources:
-    - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+    - source_id: JDP-SRC-18
       cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
       quotation: Inicia o seu percurso nas «Artes Marciais» em 1968 como praticante de Judo no Clube de Judo do Porto (Rua Duque de Loulé), treinando sob a orientação directa do Mestre Nobuaki Yamamoto (5º Dan)
       type: secondary
@@ -60,9 +60,9 @@ teachers:
   - place_id: JDP-P-29
     period:
       start: 2006
-      end: null
+      end:
     sources:
-    - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+    - source_id: JDP-SRC-18
       cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
       quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
       type: secondary
@@ -73,7 +73,7 @@ rank:
   rank: 2 dan
   date: 2009
   sources:
-  - uri: http://escolamurakamimaia.weebly.com/fernando-sarmento.html
+  - source_id: JDP-SRC-18
     cite: Fernando Duarte Sarmento (Escola Murakami da Maia)
     quotation: A 17 de Março de 2006 inicia a prática do Aikido na Mussubi Escola de Aikido / Takemusu Aiki Portugal sob a direcção técnico-pedagógica do Mestre Carlos Portas, com quem continua a praticar regularmente até ao presente momento. É graduado por Carlos Portas em 1º Dan a 11 de Agosto de 2007 e 2º Dan em 8 de Agosto de 2009.
     type: secondary
@@ -84,8 +84,8 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 2nd dan rank awarded by Carlos Portas on August 8, 2009, documented in Escola Murakami biography with specific quotation
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://sportmagazine.pt/carlos-portas-a-pratica-e-a-evolucao-do-aikido-em-aveiro-temos-que-nos-reinventar/
   type: secondary

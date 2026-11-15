@@ -9,41 +9,41 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 description:
   en: 7th Soke (headmaster) of Edo-line Yagyu Shingan-ryū Taijutsu (Araki-do). Taught Yagyu-ryu bojutsu to young Jigoro Kano. Member of Shinsengumi, opened dojo in Tokyo with assistance of Yamaoka Tesshu.
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources: []
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://kanochronicles.com/the-kodokan-and-bojutsu-jo-staff-fighting-and-judo/
   cite: The Kodokan and Bōjutsu (jō) Staff fighting and jūdō – The Kano Chronicles
@@ -56,7 +56,7 @@ sources:
   type: primary
   supports: true
   weight: high
-- uri: https://en.wikipedia.org/wiki/Yagy%C5%AB_Shingan-ry%C5%AB
+- source_id: JDP-SRC-15
   cite: Yagyū Shingan-ryū - English Wikipedia
   quotation: Kano received his training directly from Araki-do 7th Soke, Ohshima Masateru.
   type: secondary

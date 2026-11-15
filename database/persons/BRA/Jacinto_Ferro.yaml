@@ -15,8 +15,8 @@ birth:
 death:
   date: 1929
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/jacinto_ferro/jacinto_ferro.png
   source:
@@ -31,12 +31,12 @@ teachers:
     rationale: Multiple sources confirm Jacinto Ferro was Mitsuyo Maeda's student and helped teach Carlos Gracie
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: 1915
-      end: null
+      end:
     sources:
-    - uri: https://isbnsearch.org/isbn/9798639871030
+    - source_id: JDP-SRC-4
       cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
       location: vol. 3, p. 89
       quotation: '... Tenho [Maeda] os seguintes alunos aos quais deposito inteira confiança [...] Jacintho Ferro, Dr. Matheus Pereira, Guilherm de La Rocque, Raphael Gomes e Waldermar Gomes...'
@@ -50,24 +50,24 @@ teachers:
       supports: true
       weight: low
 rank:
-- style_id: null
-  rank: null
-  date: null
+- style_id:
+  rank:
+  date:
   rank_type: other
   confidence:
-    level: null
+    level:
     assessed_by: JDP
-    rationale: null
+    rationale:
   sources: []
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://repositorio.ufsc.br/handle/123456789/103771
   cite: 'MAÇANEIRO, Gustavo Goulart Braga, et al. Do Judô ao Gracie Jiu-Jitsu: A influência do judô Kodokan na idealização e no desenvolvimento do Jiu-Jitsu brasileiro. 2012.'
   type: secondary
   supports: true
   weight: medium
-- uri: https://isbnsearch.org/isbn/9798639871030
+- source_id: JDP-SRC-4
   cite: 'SILVA, Elton; CORRÊA, Eduardo. Muito antes do MMA: O legado dos precursores do Vale Tudo no Brasil e no mundo. 2020.'
   type: secondary
   supports: true

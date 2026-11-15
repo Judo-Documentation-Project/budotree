@@ -15,8 +15,8 @@ birth:
 death:
   date: '2014-04-07'
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 teachers:
 - id: JDP-12
   style_id: JDP-S-1
@@ -29,9 +29,9 @@ teachers:
   - place_id: JDP-P-1
     period:
       start: 1952
-      end: null
+      end:
     sources:
-    - uri: https://www.karlgeis.com/his-resume
+    - source_id: JDP-SRC-10
       cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
       quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Kobayashi Sensei, 8th Dan'
       type: unknown
@@ -45,12 +45,12 @@ teachers:
     rationale: Based on resume listing Miyake, Tsunako Sensei as teacher
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://www.karlgeis.com/his-resume
+    - source_id: JDP-SRC-10
       cite: Karl Geis Martial Arts Resume (Karl Geis Ryu homepage)
       quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...] Miyake, Tsunako Sensei, 7th Dan'
       type: unknown
@@ -66,7 +66,7 @@ rank:
     assessed_by: JDP
     rationale: Based on Wikipedia and resume listing 9th dan in judo
   sources:
-  - uri: https://www.karlgeis.com/his-resume
+  - source_id: JDP-SRC-10
     cite: Karl Geis Martial Arts Resume
     quotation: 9th Dan Judo
     type: tertiary
@@ -78,8 +78,8 @@ rank:
     type: tertiary
     supports: true
     weight: medium
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 - style_id: JDP-S-4
   rank: 10 dan
   date: 1997
@@ -89,14 +89,14 @@ rank:
     assessed_by: JDP
     rationale: Based on resume listing 6th dan in aikido
   sources:
-  - uri: https://www.karlgeis.com/his-resume
+  - source_id: JDP-SRC-10
     cite: Karl Geis Martial Arts Resume
     quotation: 6th Dan Aikido
     type: tertiary
     supports: true
     weight: medium
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 - style_id: JDP-S-4
   rank: 6 dan
   date: 1980
@@ -106,14 +106,14 @@ rank:
     assessed_by: JDP
     rationale: Based on resume listing 5th dan in jujutsu
   sources:
-  - uri: https://www.karlgeis.com/his-resume
+  - source_id: JDP-SRC-10
     cite: Karl Geis Martial Arts Resume
     quotation: 5th Dan Jujutsu
     type: tertiary
     supports: true
     weight: medium
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
 - uri: https://en.wikipedia.org/wiki/Karl_Geis
   cite: Wikipedia - Karl Geis
@@ -121,7 +121,7 @@ sources:
   type: tertiary
   supports: true
   weight: medium
-- uri: https://www.karlgeis.com/his-resume
+- source_id: JDP-SRC-10
   cite: Karl Geis Martial Arts Resume
   quotation: 'During my studies in Japan I received significant personal instruction from the following Kodokan teachers: [...]'
   type: tertiary

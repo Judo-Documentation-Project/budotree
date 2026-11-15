@@ -8,15 +8,15 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 photo:
@@ -27,22 +27,22 @@ photo:
     type: secondary
     weight: medium
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
     level: 2
     assessed_by: JDP
     rationale: Documented as the 18th Soke of Tenshinsho-den Katori Shinto-ryu, with clear lineage succession from previous Soke
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
 - style_id: JDP-S-6
   rank: Soke
-  date: null
+  date:
   sources:
   - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
     cite: Women of Katori Shintō-ryū
@@ -55,15 +55,15 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Documented as the 18th Soke of Tenshinsho-den Katori Shinto-ryu in multiple historical sources, with specific mention in the school's official history
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+- source_id: JDP-SRC-16
   cite: EN – Introduction - Tenshinsho-den Katori Shinto Ryu
   type: secondary
   supports: true
   weight: medium
-- uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+- source_id: JDP-SRC-11
   cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû | Life for a Sword'
   type: tertiary
   supports: true

@@ -10,15 +10,15 @@ nationality:
 - code: JPN
   wikidata: Q17
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q17
 teachers:
@@ -30,12 +30,12 @@ teachers:
     rationale: Listed as one of seven direct students of Iizasa Morisada in German blog article about Katori Shinto-ryu history
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+    - source_id: JDP-SRC-11
       cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
       quotation: 'Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke'
       type: secondary
@@ -44,7 +44,7 @@ teachers:
 rank:
 - style_id: JDP-S-6
   rank: Kyoju
-  date: null
+  date:
   sources:
   - uri: https://inoshishikukan.com/budo/katori/woman-of-katori-shinto-ryu
     cite: Women of Katori Shintō-ryū
@@ -57,10 +57,10 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Mentioned as Kyoju who helped lead Katori Shinto-ryu after the 18th Soke's death in 'Women of Katori Shintō-ryū' article
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+- source_id: JDP-SRC-16
   cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
   type: secondary
   supports: true

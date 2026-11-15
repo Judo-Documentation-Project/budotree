@@ -1,0 +1,21 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-22
+title: Otake Risuke Nippon Budokan Magazine Interview
+native_title: null
+authors: []
+editors: []
+year: 2020
+publisher: Katori Vietnam
+identifiers:
+  isbn: null
+  doi: null
+url: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+archive_url: null
+language: en
+description:
+  en: Translation of an interview with Otake Risuke about Katori Shintō-ryū and its traditions, originally published in Nippon Budokan Magazine.
+tags:
+  - primary-source
+  - interview
+classification: article

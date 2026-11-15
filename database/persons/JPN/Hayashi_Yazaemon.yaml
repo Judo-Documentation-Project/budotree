@@ -10,12 +10,12 @@ nationality:
 birth:
   date: '1892'
   geo:
-    name: null
+    name:
     country_code: JPN
 death:
   date: '1964'
   geo:
-    name: null
+    name:
     country_code: JPN
 photo:
   url: https://archive.org/download/hayashi-yazaemon-sensei/Hayashi-Yazaemon-sensei.jpg
@@ -33,18 +33,18 @@ teachers:
     rationale: Documented in historical lineage charts and dojo records as direct successor to Hayashi Sakuichiro
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+    - source_id: JDP-SRC-11
       cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
       quotation: 'Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke'
       type: tertiary
       supports: true
       weight: medium
-    - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+    - source_id: JDP-SRC-16
       cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
       quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan Dojo founder).
       type: secondary
@@ -53,9 +53,9 @@ teachers:
 rank:
 - style_id: JDP-S-6
   rank: Gokui kaiden
-  date: null
+  date:
   sources:
-  - uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+  - source_id: JDP-SRC-22
     cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
     quotation: 'Ōtake: Hayashi-sensei, of course with his skill as a Gokui Kaiden holder of Katori Shintō-ryū, but also with his gentle and sincere character, was loved by his students as if he were the most affectionate father.'
     type: secondary
@@ -67,9 +67,9 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Gokui kaiden rank mentioned in interview with his student Otake Risuke
-  org_id: null
+  org_id:
 sources:
-- uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+- source_id: JDP-SRC-22
   cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
   type: secondary
   supports: true

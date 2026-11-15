@@ -19,7 +19,7 @@ birth:
 death:
   date: '2021-06-07'
   geo:
-    name: null
+    name:
     country_code: JPN
     wikidata: Q273798
 photo:
@@ -38,12 +38,12 @@ teachers:
     rationale: Well-documented student of Hayashi Yazaemon (JDP-113) in Katori Shinto-ryu, entered school in 1942 at age 16, mentioned in multiple sources including German blog with lineage quotation
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
     sources:
-    - uri: https://lifeforasword.wordpress.com/2013/11/14/exkurs-die-moderne-geschichte-der-katori-shinto-ryu/
+    - source_id: JDP-SRC-11
       cite: 'Exkurs: Die moderne Geschichte der Katori Shintô ryû (Ein Leben für die Schwertkunst)'
       quotation: 'Iisasa Morisada (sieben direkte Schüler): Yamaguchi Kumajirô Eikan Mairaku / Tamai Saidô / Noguchi Jizaemon / Ono Heishichirô Moriichi / Shiina Ichizô / Hongû Toranosuke / Kaneko Shinoshô (...) Hayashi Saiichirô –> Hayashi Yazaemon –> Ôtake Risuke'
       type: tertiary
@@ -54,13 +54,13 @@ rank:
   rank: Gokui kaiden
   date: 1967
   sources:
-  - uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+  - source_id: JDP-SRC-22
     cite: Otake Risuke Nippon Budōkan Magazine Interview (Shobukan Dojo)
     quotation: That year, I received the Gokui Kaiden scroll and a proof signifying that I have attained Gokui Sōden from Hayashi-sensei. Sensei told me, “Call yourself Gokui Kaiden once you are 42 years old.” At the time I was 32 years old, so I think it was to be in accordance with the rules of our school.
     type: secondary
     supports: true
     weight: high
-  - uri: https://shinbukan-katorishintoryu.org/?page_id=898&lang=en
+  - source_id: JDP-SRC-16
     cite: Tenshinsho-den Katori Shinto Ryu - Shinbukan Dojo
     quotation: Shinbukan Dojo’s practice of Katori Shinto Ryu follows the teachings passed down from Hayashi Sakuichiro Shihan to Hayashi Yazaemon Shihan, who was then succeeded by Otake Risuke Shihan (Shinbukan Dojo founder).
     type: secondary
@@ -72,7 +72,7 @@ rank:
     level: 3
     assessed_by: JDP
     rationale: Received Gokui kaiden scroll in 1967 at age 42 from Hayashi Yazaemon, documented in Nippon Budokan magazine interview and Shinbukan Dojo website with quotations
-  org_id: null
+  org_id:
 notes: 'Japanese martial artist born in Narita, Chiba. Entered Tenshin Shōden Katori Shintō-ryū in 1942 at age 16 as disciple of Hayashi Yazaemon. Received gokui kaiden (highest level) in 1967 at age 42, becoming the school''s teaching master. Designated guardian of the tradition when Katori Shinto-ryū was recognized as Intangible Cultural Asset of Chiba Prefecture in 1960. Authored several books including ''The Deity and the Sword: Katori Shinto-ryu'' and ''Strategy and the Art of Peace''. Member of Chiba Prefecture Board of Registrars and Appraisers for Muskets and Swords since 1979. Provided martial arts instruction for film ''The Chronicle of the Higurashi'' (蜩ノ記). Died on 7 June 2021.'
 sources:
 - uri: https://en.wikipedia.org/wiki/Risuke_Otake
@@ -83,7 +83,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://katorivietnam.org/otake-risuke-nippon-budokan-magazine-interview-about-katori-shinto-ryu-and-its-tradition-2020/
+- source_id: JDP-SRC-22
   type: secondary
   supports: true
   weight: medium

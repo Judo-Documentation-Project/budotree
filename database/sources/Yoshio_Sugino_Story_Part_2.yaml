@@ -1,0 +1,22 @@
+'@context': https://martial.is/context.jsonld
+type: Source
+id: JDP-SRC-7
+title: 'The Last Swordsman: The Yoshio Sugino Story, Part 2'
+native_title: null
+authors:
+  - Stanley Pranin
+editors: []
+year: 2018
+publisher: Aikido Journal
+identifiers:
+  isbn: null
+  doi: null
+url: https://aikidojournal.com/2018/10/15/the-last-swordsman-the-yoshio-sugino-story-part-2/
+archive_url: null
+language: en
+description:
+  en: Second part of a biographical article on Yoshio Sugino, published by Aikido Journal in 2018.
+tags:
+  - secondary-source
+  - biography
+classification: article

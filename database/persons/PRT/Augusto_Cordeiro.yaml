@@ -15,10 +15,10 @@ birth:
     country_code: PRT
     wikidata: Q750594
 death:
-  date: null
+  date:
   geo:
-    name: null
-    country_code: null
+    name:
+    country_code:
 photo:
   url: https://archive.org/download/augusto-cordeiro-c/Augusto%20Cordeiro%20c.jpg
   source:
@@ -39,9 +39,9 @@ teachers:
   - place_id: JDP-P-32
     period:
       start: '1950'
-      end: null
+      end:
     sources:
-    - uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+    - source_id: JDP-SRC-21
       cite: Rudolf Hermanny's Blog
       quotation: ao estabelecer contato com a Associação Budokan do Prof. Riuzo Ogawa se apaixonou pelo magnífico Judô que ali se ensinava e praticava. Após uma temporada residindo em casa do mestre e praticando com seus alunos, o Prof. Cordeiro adotou a nova metodologia e a forma de competição oficial do judô
       type: tertiary
@@ -53,7 +53,7 @@ teachers:
       type: tertiary
       supports: true
       weight: medium
-    - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+    - source_id: JDP-SRC-17
       cite: Maçaneiro (2024)
       location: pp. 91-92
       quotation: Cordeiro continuou a procurar pelo judô e, no início da década de 1950, chegou à um acordo com Ryuzo Ogawa, tornando-se sua primeira filial no Rio de Janeiro
@@ -68,12 +68,12 @@ teachers:
     rationale: Started studying with Takeo Yano in 1937 as documented in 1957 newspaper interview, was graded by Yano in 1944 according to academic research
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
       start: '1937'
       end: '1948'
     sources:
-    - uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+    - source_id: JDP-SRC-17
       cite: MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. 2024. Dissertação de Mestrado
       location: p. 91
       quotation: em 1944 a ACM promoveu competições e graduações (...) Por esse período é que Takeo Yano foi responsável pela graduação de professores no Rio de Janeiro e, dentre eles, aquele que se tornou, anos mais tarde, o primeiro presidente da CBJ, Augusto Cordeiro
@@ -103,9 +103,9 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: 'Legacy quality field migration - original value: 2'
-  org_id: null
+  org_id:
 sources:
-- uri: https://blogoterohermanny.blogspot.com/2009/09/o-mestre-augusto-cordeiro.html
+- source_id: JDP-SRC-21
   cite: O MESTRE AUGUSTO CORDEIRO (Rudolf Hermanny)
   type: tertiary
   supports: true
@@ -120,7 +120,7 @@ sources:
   type: tertiary
   supports: true
   weight: medium
-- uri: https://www.teses.usp.br/teses/disponiveis/39/39136/tde-14052024-174041/pt-br.php
+- source_id: JDP-SRC-17
   cite: 'MAÇANEIRO, Gustavo Goulart Braga. Desenvolvimento organizacional do judô brasileiro. São Paulo : Escola de Educação Física e Esporte, Universidade de São Paulo, 2024. Dissertação de Mestrado em Estudos Socioculturais e Comportamentais da Educação Física e Esporte'
   type: tertiary
   supports: true

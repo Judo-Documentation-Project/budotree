@@ -7,35 +7,35 @@ nationality:
 - code: FRA
   wikidata: Q142
 birth:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: FRA
     wikidata: Q142
 death:
-  date: null
+  date:
   geo:
-    name: null
+    name:
     country_code: FRA
     wikidata: Q142
 teachers:
-- id: null
-  style_id: null
+- id:
+  style_id:
   confidence:
-    level: null
+    level:
     assessed_by: JDP
   role: student
   interactions:
-  - place_id: null
+  - place_id:
     period:
-      start: null
-      end: null
+      start:
+      end:
 rank:
-- style_id: null
+- style_id:
   rank: 2 dan
-  date: null
+  date:
   sources:
-  - uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+  - source_id: JDP-SRC-5
     cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
     quotation: Determinado em encontrar professores que o ajudassem a criar um Dojo, conheceu no então Parque de Campismo do Lima o francês Mestre Hugnet. Não podendo ficar em Portugal, mas sensível à determinação de Manuel Reis, enviou o seu irmão, Jackie Hugnet, 2º Dan, para o Porto.
     type: primary
@@ -46,14 +46,14 @@ rank:
     level: 2
     assessed_by: JDP
     rationale: Portuguese Judo Federation manual lists him as 2nd dan
-  granted_by: null
-  org_id: null
+  granted_by:
+  org_id:
 sources:
-- uri: http://clubejudoporto.weebly.com/os-nossos-fundadores.html
+- source_id: JDP-SRC-6
   type: tertiary
   supports: true
   weight: low
-- uri: https://www.fpj.pt/wp-content/uploads/2020/12/MANUAL-Gradua%C3%A7%C3%B5es-2021_.pdf
+- source_id: JDP-SRC-5
   cite: Manual de Graduações e Regulamento de Graduações. Federação Portuguesa de Judo (Dezembro 2020)
   type: primary
   supports: true

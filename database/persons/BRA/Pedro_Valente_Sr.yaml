@@ -15,7 +15,7 @@ birth:
 death:
   date: '2016-05-28'
   geo:
-    name: null
+    name:
     country_code: BRA
     wikidata: Q155
   sources:
@@ -40,7 +40,7 @@ teachers:
   - place_id: JDP-P-30
     period:
       start: '1951'
-      end: null
+      end:
     sources:
     - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
       cite: Interview with red-belt Pedro Valente Sr. - GracieMag
@@ -51,7 +51,7 @@ teachers:
 rank:
 - style_id: JDP-S-16
   rank: 7 dan
-  date: null
+  date:
   sources:
   - uri: https://www.graciemag.com/interview-with-red-belt-pedro-valente-sr/
     cite: Interview with red-belt Pedro Valente Sr. - GracieMag
@@ -81,7 +81,7 @@ sources:
   type: secondary
   supports: true
   weight: medium
-- uri: https://valentebrothers.com/our-story/
+- source_id: JDP-SRC-12
   cite: 'Valente Brothers: Our Story'
   type: primary
   supports: true
