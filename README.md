@@ -1,6 +1,20 @@
 [![Node.js CI](https://github.com/Judo-Documentation-Project/budotree/actions/workflows/node.js.yml/badge.svg)](https://github.com/Judo-Documentation-Project/budotree/actions/workflows/node.js.yml)
 
+
+> [!IMPORTANT]
+> **This project has moved to [Martialis](https://github.com/Martial-IS/martialis-db).**
+> The Budō Lineage Tree is frozen and kept here for reference only; the
+> database now lives in [Martial-IS/martialis-db](https://github.com/Martial-IS/martialis-db)
+> and is published at [martial.is](https://martial.is). Old `budotree.judoc.org`
+> links redirect to their Martialis pages.
+>
+> Martialis is a direct continuation of this project, an expanded and improved version of the
+> ideas first started here. The database entry itself is vastly expanded, as is the ontology and
+> toolset. The web portal is also vastly improved.
+
+
 # Budō Lineage Tree
+
 
 ![](images/tree.png)
 ### Budō Documentation Project
